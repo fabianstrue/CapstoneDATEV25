@@ -173,4 +173,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 Data/raw/preprocessed_capstone2025.json
-DAta/raw/preprocessed_capstone2025.csv
+Data/raw/preprocessed_capstone2025.csv
