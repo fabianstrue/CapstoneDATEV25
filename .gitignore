@@ -174,3 +174,6 @@ cython_debug/
 .pypirc
 Data/raw/preprocessed_capstone2025.json
 Data/raw/preprocessed_capstone2025.csv
+*.iml
+misc.xml
+.idea/
