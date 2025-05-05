@@ -1,72 +1,72 @@
 Dokument: 1548765.xml
-Frage: Wann ist es dem Vermieter erlaubt, nach dem Abflussprinzip statt dem Leistungsprinzip für die Betriebskostenabrechnung zu verfahren?
-Quelle: ["Die Beklagte durfte deshalb die von ihr selbst im Jahr 2004 an die B. geleisteten fälligen Zahlungen für Wasser und Abwasser im Abrechnungszeitraum 2004 anteilig auf die Klägerin umlegen."]
+Frage: Welche Betriebskostenabrechnungsmethode ist unter welchen Umständen zulässig, wenn der Vermieter im Abrechnungszeitraum mit Kosten belastet wird, die nicht dem jeweiligen Verbrauch der Mieter entsprechen?
+Quelle: ["Die Streitfrage konnte im Senatsurteil vom 5. Juli 2006 dahinstehen, weil in dem dort entschiedenen Fall der Vermieter die Betriebskostenabrechnung nicht nach dem Abfluss-, sondern nach dem Leistungsprinzip vorgenommen hatte (...)" und "Die Beklagte durfte deshalb die von ihr selbst im Jahr 2004 an die B. geleisteten fälligen Zahlungen für Wasser und Abwasser im Abrechnungszeitraum 2004 anteilig auf die Klägerin umlegen."]
 
 Dokument: 1549417.xml
-Frage: Wann kann sich ein Mieter auf die Ausschlussfrist des § 556 Abs. 3 Satz 2 BGB berufen, um eine Nachzahlung für Betriebskosten zu vermeiden?
-Quelle: ["Die Abrechnungsfrist des § 556 Abs. 3 Satz 2 BGB und der durch § 556 Abs. 3 Satz 3 BGB angeordnete Ausschluss von Nachforderungen nach Fristablauf dienten der Abrechnungssicherheit für den Mieter und sollten Streit vermeiden. Der Vermieter verliere daher bei Verstreichenlassen der Frist den Anspruch auf Nachzahlung."]
+Frage: Wann ist eine Betriebskostenabrechnung formell unordentlich und damit unwirksam?
+Quelle: "Die Abrechnung des Hausverwalters der Klägerin vom 5. November 2004 ... gerechtfertigt, diesen Fall anders zu beurteilen als den Fall, dass der in der Abrechnung verwendete und angegebene Verteilerschlüssel von dem im Mietvertrag vereinbarten abweicht. Diese Abweichung ist vom Mieter unschwer zu erkennen und stellt daher keinen formellen Mangel, sondern lediglich einen inhaltlichen Fehler der Abrechnung dar (Senatsurteil vom 17. November 2004, aaO.). Die Unverständlichkeit hinsichtlich des Verteilerschlüssels macht die Abrechnung hier insgesamt unwirksam, da der betreffende Verteilerschlüssel mit zwei Ausnahmen für alle Positionen der Abrechnung gilt und ohne diese Positionen kein Nachzahlungsanspruch der Klägerin verbleibt (vgl. insoweit Senatsurteil vom 14. Februar 2007, aaO., unter II 2 c)."
 
 Dokument: 1567715.xml
-Frage: Welche Anforderungen müssen erfüllt sein, damit eine Partei in einem Mietvertrag eine Mietminderung wegen Abweichung der tatsächlichen von der vereinbarten Wohnungsgröße geltend machen kann?
-Quelle: ["Ein wichtiger Grund im Sinne des § 543 Abs. 1 BGB liegt vor, wenn dem kündigenden Teil unter Berücksichtigung aller Umstände des Einzelfalls und unter Abwägung der beiderseitigen Interessen die Fortsetzung des Mietverhältnisses nicht zugemutet werden kann."]
+Frage: Unter welchen Umständen ist eine Partei berechtigt, die Miete wegen einer Abweichung der tatsächlichen von der vereinbarten Wohnungsgröße zu mindern?
+Quelle: ["Ein zur Minderung der Miete berechtigender Mangel im Sinne des § 536 Abs. 1 Satz 1 BGB liegt vor, wenn die tatsächliche Wohnfläche um mehr als 10 % unter der im Mietvertrag vereinbarten liegt."]
 
 Dokument: 1658302.xml
-Frage: Welche Voraussetzungen müssen erfüllt sein, damit ein Kaufmann eine Vergütung nach § 354 Abs. 1 HGB für die Auslieferung eines Leasingfahrzeugs verlangen kann?
-Quelle: ["Der gesetzliche Provisionsanspruch nach § 354 Abs. 1 HGB setzt eine Vereinbarung der Parteien über eine Vergütung der erbrachten Leistungen nicht voraus. Die Vorschrift greift im Gegenteil gerade schon dann ein, wenn es an einer (wirksamen) vertraglichen Vereinbarung über die für eine zu erbringende oder erbrachte Leistung zu zahlende Vergütung fehlt (BGH, Urteil vom 31. März 1982 - ...)." und "Die Klägerin hat die die Auslieferung des Leasingfahrzeugs vorbereitenden Bereitstellungstätigkeiten in dem für einen Vergütungsanspruch erforderlichen Interesse der Beklagten erbracht."]
+Frage: Unter welchen Umständen kann ein Kaufmann Provision nach § 354 Abs. 1 HGB verlangen, ohne dass eine vertragliche Vereinbarung über die Vergütung der erbrachten Leistungen besteht?
+Quelle: ["Der gesetzliche Provisionsanspruch nach § 354 Abs. 1 HGB setzt eine Vereinbarung der Parteien über eine Vergütung der erbrachten Leistungen nicht voraus."]
 
 Dokument: 1569756.xml
-Frage: Welche Kosten kann die Klägerin von den Beklagten für den Räumungsrechtsstreit erstattet verlangen, wenn sie die Klage zurücknimmt?
+Frage: Welche Kosten kann die Klägerin von den Beklagten aufgrund der Klagerücknahme im Räumungsrechtsstreit erstattet verlangen?
 Quelle: ["Die Klägerin könne lediglich diejenigen Rechtsanwaltskosten erstattet verlangen, die ihr seinerzeit im Räumungsrechtsstreit als Kosten des eigenen Rechtsanwalts entstanden seien."]
 
 Dokument: 1536966.xml
-Frage: Welche Rolle spielt die Berufungsbegründung bei der Festlegung des Streitgegenstands in einem Berufungsverfahren?
-Quelle: ["Der Streitgegenstand eines Berufungsverfahrens ergibt sich zunächst aus den in der Berufungsbegründung zwingend enthaltenen Berufungsanträgen (§§ 520 Abs. 3 Nr. 1, 528 ZPO). Nach ständiger Rechtsprechung des Bundesgerichtshofs darf das Berufungsgericht bei der Ermittlung des prozessualen Begehrens aber nicht beim Wortlaut der Anträge verharren, sondern muß stets auch die Berufungsbegründung zur Auslegung des Klagebegehrens heranziehen (BGH, Urteil vom 11. Juni 1992 -"
+Frage: Welche Umstände müssen vorliegen, damit das Berufungsgericht eine eindeutige Bezeichnung des Streitgegenstandes erreichen kann, ohne dass es die Partei darauf hinweist?
+Quelle: ["Weil es aber fern liegt, daß eine Prozeßpartei im Berufungsverfahren Ansprüche weiterverfolgt, mit denen sie schon in erster Instanz obsiegt hatte, hätte es dem Berufungsgericht jedenfalls oblegen, die Klägerin gemäß § 139 ZPO auf diesen Umstand hinzuweisen, um eine eindeutige Bezeichnung des Streitgegenstandes zu erreichen."]
 
 Dokument: 1525185.xml
-Frage: Wie ist der Invaliditätsgrad einer Hand im Handgelenk bei vollständiger Funktionsunfähigkeit des Gelenks zu bestimmen?
-Quelle: ["Das Berufungsgericht hat wegen des seiner Ansicht nach eindeutigen Wortlauts des Begriffs 'Funktionsunfähigkeit der Hand im Handgelenk' angenommen, daß es auf die Funktionsunfähigkeit der Hand gerade im Handgelenk und nicht auf die Funktionsunfähigkeit des Teilgliedes Hand ankomme. Bei einer kompletten Versteifung des Handgelenks, wie sie beim Kläger vorliege, sei es deshalb unerheblich, ob das Teilglied Hand noch vorhanden und funktionsfähig sei."]
+Frage: Wie ist die Funktionsunfähigkeit einer Hand im Handgelenk im Sinne der Gliedertaxe zu interpretieren, wenn das Handgelenk vollständig funktionsunfähig, aber die Hand selbst noch teilweise funktionsfähig ist?
+Quelle: ["Die Wortwahl 'Hand im Handgelenk' kann den Versicherungsnehmer, der die Bedeutung der Formulierung 'im Gelenk' zu erschließen sucht, zu einem Verständnis führen, daß auf die Funktionsunfähigkeit des Gelenks selbst und nicht auf die Funktionsunfähigkeit des Teilgliedes Hand abzustellen ist."]
 
 Dokument: 0960919.xml
-Frage: Wann kann ein Gebäudeversicherer den auf ihn nach § 67 Abs. 1 Satz 1 VVG a.F. übergegangenen mietvertraglichen Schadensersatzanspruch gegen den Mieter geltend machen?
-Quelle: "Zweck des vom Senat entwickelten Regressverzichts ist der Schutz der Interessen des Vermieters und des Mieters. Der Regressverzicht hindert den Gebäudeversicherer ebenso wie der Regressverzicht nach dem RVA daran, den auf ihn nach § 67 Abs. 1 Satz 1 VVG a.F. übergegangenen mietvertraglichen Schadensersatzanspruch gegen den Mieter geltend zu machen."
+Frage: Wie ist die Beweislastverteilung im Verhältnis zwischen Vermieter und Mieter bei Schadensfällen in der Mietwohnung geregelt?
+Quelle: "An dieser grundsätzlichen Beweislastverteilung im Verhältnis zwischen Vermieter und Mieter ändere sich nichts dadurch, dass der ausgleichsberechtigte Versicherer Zahlung vom ausgleichspflichtigen Versicherer verlange."
 
 Dokument: 1541664.xml
-Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Mieter die Überlassung von Belegkopien zur Betriebskostenabrechnung verlangen kann?
-Quelle: ["Entgegen der Auffassung des Berufungsgerichts fehlt es der Nachforderung der Kläger aus der Abrechnung vom 9. Dezember 2002 nicht deshalb an der Fälligkeit, weil die Kläger dem Verlangen der Beklagten nach Übersendung von Kopien der Abrechnungsbelege nicht nachgekommen sind. Wie der Senat - nach Erlass des Berufungsurteils - entschieden hat, hat der Mieter preisfreien Wohnraums grundsätzlich keinen Anspruch gegen den Vermieter auf Überlassung von Fotokopien der Abrechnungsbelege zur Betriebskostenabrechnung (Urteil vom 8. März 2006 -"]
+Frage: Wann ist ein Mieter zur Zahlung von Betriebskosten verpflichtet, obwohl er keine Belege erhalten hat?
+Quelle: ["Entgegen der Auffassung des Berufungsgerichts fehlt es der Nachforderung der Kläger aus der Abrechnung vom 9. Dezember 2002 nicht deshalb an der Fälligkeit, weil die Kläger dem Verlangen der Beklagten nach Übersendung von Kopien der Abrechnungsbelege nicht nachgekommen sind."]
 
 Dokument: 1570226.xml
-Frage: Wie kann die Klagefrist des § 46 Abs. 1 Satz 2 WEG auch durch eine innerhalb dieser Frist gegen die Wohnungseigentümergemeinschaft gerichtete Klage gewahrt werden, wenn die Voraussetzungen des § 44 Abs. 1 Satz 1 WEG erfüllt sind?
-Quelle: ["Die Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG sind materiellrechtliche Ausschlussfristen und keine besonderen Sachurteilsvoraussetzungen (Senat, Urteil vom 16. Januar 2009 -). Mit den Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG will der Gesetzgeber erreichen, dass die übrigen Wohnungseigentümer möglichst rasch darüber Klarheit erlangen, welcher Beschluss aus welchen Gründen angefochten wird (Senat, Urteil vom 6. November 2009 -)."
+CQ:
+Quelle: ["Die Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG sind materiellrechtliche Ausschlussfristen und keine besonderen Sachurteilsvoraussetzungen (Senat, Urteil vom 16. Januar 2009 -). Mit den Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG will der Gesetzgeber erreichen, dass die übrigen Wohnungseigentümer möglichst rasch darüber Klarheit erlangen, welcher Beschluss aus welchen Gründen angefochten wird (Senat, Urteil vom 6. November 2009 -)." und "Die Monatsfrist wird anderenfalls überflüssig. § 44 Abs. 1 Satz 1 WEG ist ohne Bedeutung für die Wahrung der Klagefrist. Diese Norm setzt eine Klage gegen die übrigen Wohnungseigentümer voraus, an der es hier gerade fehlt."]
 
 Dokument: 1521301.xml
-Frage: Welche Anforderungen müssen erfüllt sein, damit eine Teilfläche in einem Kaufvertrag ausreichend bestimmt ist, insbesondere wenn es sich um eine noch nicht vermessene Grundstücksteilfläche handelt?
-Quelle: ["aa) Zur Begründung der Leistungspflicht des Verkäufers nach § 433 Abs. 1 Satz 1 BGB a.F. ist die Bezeichnung des Kaufgegenstands erforderlich. Dafür genügt es, daß er anhand der vertraglichen Regelungen bestimmbar ist. Ist das nicht möglich, ist eine schuldrechtliche Bindung nicht entstanden. Dies ergibt sich aus dem allgemeinen Vertragsrecht (§§ 145 ff. BGB). Davon zu unterscheiden ist das Bestimmtheitserfordernis des Sachen- und Grundbuchrechts. Es dient dazu, daß jedermann aus der im Bestandsverzeichnis des Grundbuchs eingetragenen Grundstücksbezeichnung erkennen kann, um welches Grundstück es sich handelt. Um das zu erreichen, enthalten die Vorschriften in § 2 Abs. 3 bis 5 GBO für die Abschreibung von Grundstücksteilen eingehende Bestimmungen, welche das Auffinden der Teilfläche in der Natur gewährleisten und ihre eindeutige Darstellung im Grundbuch in Übereinstimmung mit dem Liegenschaftskataster sicherstellen sollen. Ein noch nicht vermessener Grundstücksteil kann danach nicht als Grundstück im Grundbuch gebucht werden, und zwar auch dann nicht, wenn die Teilfläche in einem notariellen Vertrag mit Skizze hinreichend genau bestimmt ist, weil es häufig zu Differenzen zwischen den mehr oder minder genauen Planunterlagen in notariellen Urkunden und der endgültigen Vermessung kommt (Senatsurt. v. 21. Februar 1986,"]
+Frage: Welche Anforderungen müssen erfüllt sein, damit eine Sondernutzungsfläche im Rahmen eines Kaufvertrags über Wohnungseigentum ausreichend bestimmt ist?
+Quelle: ["Die den Klägern zu verschaffende Sondernutzungsfläche ist in dem eine Anlage zum Kaufvertrag bildenden Lageplan eingezeichnet; sie wird nach der vertraglichen Regelung von den Markierungspunkten 28, 27, 20, 49, 48 und 29 begrenzt. Da in dem Lageplan das Gesamtgrundstück, das später in Miteigentumsanteile für die Wohnungseigentümer aufgeteilt werden sollte, die Sondernutzungsflächen der übrigen Wohnungseigentümer und die Lage der zu errichtenden Wohnhäuser eingezeichnet sind, können die ungefähre Größe und Lage der streitigen Fläche ermittelt werden. [...] Somit haben die Parteien einen Teilbereich des Umfangs der von der Beklagten geschuldeten Leistung bewußt offen gelassen und ihr insoweit ein Bestimmungsrecht zugestanden (§ 315 BGB). Das führt zur hinreichenden inhaltlichen Bestimmtheit des Vertrags."]
 
 Dokument: 1596648.xml
-CQ:
-Quelle: "Eine unberechtigte Duldungsverweigerung kann gemäß § 242 BGB dazu führen, dass der Mieter sich auf die Minderung der Miete nicht mehr berufen darf."
+Frage: Wann kann eine außerordentliche Kündigung eines Mietverhältnisses wirksam sein, wenn der Mieter die Mangelbeseitigung durch den Vermieter unberechtigt verhindert hat?
+Quelle: ["Die Weigerung der Mieter, die Erhaltungsmaßnahmen zu dulden, war unberechtigt, so dass sie sich grundsätzlich nicht mehr auf die mängelbedingte Minderung berufen konnten. Dies gilt jedoch erst ab dem Zeitpunkt, ab dem die Mangelbeseitigung ohne das verhindernde Verhalten des Mieters nach dem gewöhnlichen Lauf der Dinge voraussichtlich abgeschlossen gewesen wäre."]
 
 Dokument: 1544176.xml
-Frage: Welche Auswirkungen hat die Verrechnung von Forderungen gegen die P. mit der Einlageverbindlichkeit der Beklagten zu 1 in Höhe von 750.000,00 DM auf die Erfüllung der Einlageverbindlichkeit?
-Quelle: ["Eine solche Verrechnung habe wegen Verstoßes gegen § 19 Abs. 5 GmbHG keine Erfüllungswirkung gehabt."]
+Frage: Wann kann eine Einlageverbindlichkeit als erfüllt gelten, wenn die ursprüngliche Einzahlung als verdeckte Finanzierung aus Gesellschaftsmitteln gilt?
+Quelle: ["Die Beklagte zu 1 hat die von ihr anlässlich der Kapitalerhöhung vom 13. März 1995 übernommene Einlageverbindlichkeit in Höhe von 950.000,00 DM nicht durch die ursprüngliche (Vor-)Einzahlung vom 1. März 1995 erfüllt, weil hierin eine sog. verdeckte Finanzierung aus Gesellschaftsmitteln lag, bei dem unter dem Gesichtspunkt der Kapitalaufbringung der Inferent nichts geleistet und die Gesellschaft nichts erhalten hat und bei dem die in diesem Zusammenhang für die 'Herzahlung' getroffene 'Darlehensabrede' als Teil des Umgehungsgeschäfts unwirksam ist."]
 
 Dokument: 1590874.xml
-Frage: Welche Darlegungslast trifft die Beklagte im Rahmen eines Herausgabeanspruchs auf die Bürgschaftsurkunde, wenn die Abrechnungsreife für die von ihr erbrachten Leistungen eingetreten ist?
-Quelle: ["Die Beklagte muss beweisen und deshalb darlegen, dass sie einen Honoraranspruch hat, den die Bürgschaft sichert."]
+Frage: Welche Rolle spielt die Abrechnungsreife für die Klärung der Berechtigung der Nachtragsforderungen der Beklagten und die Rückgabe der Bürgschaftsurkunde?
+Quelle: ["Die beidseitige Kündigung [des Vertrags] ist zudem Abrechnungsreife für die Arbeiten der Beklagten eingetreten, so dass die Berechtigung der von der Beklagten geltend gemachten Forderungen geprüft werden kann."]
 
 Dokument: 1526301.xml
-Frage: Welche Verpflichtungen hat die Klägerin als Betreiberin des Breitbandkabelnetzes gegenüber den angeschlossenen Empfängern und Programmanbietern?
-Quelle: ["Als Betreiberin des von ihr errichteten Breitbandkabelnetzes erbringt die Klägerin zwei unterschiedliche Telekommunikationsdienstleistungen. Ihr selbst geht es in erster Linie darum, den an das Kabelnetz angeschlossenen Empfängern gegen Entgelt den Empfang von Rundfunkprogrammen zu ermöglichen, die über das Breitbandkabel verbreitet werden. Gleichzeitig erbringt sie eine - unentgeltliche - Dienstleistung zugunsten der Programmanbieter, die zur Verbreitung ihrer Inhalte auf Durchleitungsmöglichkeiten angewiesen sind (vgl. BGH, Urt. v. 19. März 1996, "]
+Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit eine Signaldurchleitung in ein fremdes Kabelnetz ohne Zustimmung des Netzbetreibers rechtmäßig ist?
+Quelle: ["Eine Duldungspflicht im Sinne von § 1004 Abs. 2 BGB treffe die Klägerin nicht. Aus den zwischen einem Kabelnetzbetreiber und seinen Kunden geschlossenen Verträgen lasse sich regelmäßig kein Durchleitungsanspruch von Programmanbietern herleiten. Eine kartellrechtliche oder medienrechtliche Duldungspflicht habe die Beklagte nicht dargelegt."]
 
 Dokument: 1657134.xml
-Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Miterfinder einer Erfindung eine Patentanmeldung für die Gemeinschaft der Berechtigten einreichen darf, ohne gegen seine Pflichten aus dem Gemeinschaftsverhältnis zu verstoßen?
-Quelle: ["Die Verwaltung des gemeinschaftlichen Gegenstands steht den Teilhabern nach § 744 Abs. 1 BGB grundsätzlich gemeinschaftlich zu; nur die zur Erhaltung des Gegenstands notwendigen Maßregeln darf nach § 744 Abs. 2 BGB jeder Teilhaber ohne Zustimmung der anderen treffen. Als solche von § 744 Abs. 2 BGB privilegierte Erhaltungsmaßnahme können die Anmeldungen der Beklagten nicht gelten."]
+Frage: Welche rechtlichen Schritte kann ein Mitinhaber eines gemeinschaftlichen Patents ergreifen, wenn ein anderer Mitinhaber die Erfindung alleine nutzt, ohne die Zustimmung der anderen Mitinhaber einzuholen?
+Quelle: "Da (...) der Verpflichtung zum Schadensersatz (...) die Rechtsprechung des Bundesgerichtshofs zu den Ansprüchen des Mitinhabers eines gemeinschaftlichen Patents gegen einen die Erfindung (allein) benutzenden anderen Mitinhaber auch sachlich nicht entgegensteht."
 
 Dokument: 1532441.xml
-Frage: Welche Voraussetzungen müssen erfüllt sein, damit ein Pachtvertrag über das Vertragsende hinaus fortbesteht?
-Quelle: ["Die Klägerin hat ein schützenswertes Interesse an der begehrten Feststellung, daß der Pachtvertrag über den 31. Dezember 2000 hinaus bis zum 17. April 2001 fortbestanden hat."]
+Frage: Welche Rechtsfolge tritt ein, wenn ein Pächter nach dreißigjähriger Vertragsdauer zur Kündigung berechtigt ist, aber die Klage auf Feststellung der Vertragsfortdauer abgewiesen wird?
+Quelle: ["Das Berufungsgericht ist davon ausgegangen, daß der Beklagte nach dreißigjähriger Vertragsdauer zur Kündigung in der gesetzlichen Frist berechtigt gewesen sei und der Pachtvertrag somit gemäß §§ 581 Abs. 2, 567 a.F., 584 BGB durch die ordentliche Kündigung des Beklagten vom 21. Juli 2000 zum Ende des Pachtjahres mit Wirkung zum 17. April 2001 beendet worden sei."]
 
 Dokument: 1568706.xml
-**CQ 1:**
-Quelle: ["Die Beklagte hat aufgrund der von ihr gegenüber der Klägerin abgegebenen Freistellungserklärung die von der T. erhobenen Ansprüche anstelle der Klägerin abzuwehren und sich zu diesem Zweck an dem in B. geführten Rechtsstreit zu beteiligen."]
+Frage: Welche Verpflichtungen hat eine Beklagte, die sich durch eine Freistellungserklärung zur Abwehr von Ansprüchen Dritter verpflichtet hat, wenn sie sich weigert, an einem Rechtsstreit teilzunehmen?
+Quelle: ["Die Beklagte hat ... die Aufwendungen zu ersetzen, die der Klägerin dadurch entstanden sind, dass die Klägerin sich anstelle der zur Anspruchsabwehr verpflichteten Beklagten unmittelbar und auf eigene Kosten an der Prozessführung beteiligen musste, sowie anstelle der Beklagten mit den Prozesskosten ihrer italienischen Vertragshändlerin belastet worden ist."]
 
