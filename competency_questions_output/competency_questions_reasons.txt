@@ -1,0 +1,72 @@
+Dokument: 1548765.xml
+Frage: Wann ist es dem Vermieter erlaubt, nach dem Abflussprinzip statt dem Leistungsprinzip für die Betriebskostenabrechnung zu verfahren?
+Quelle: ["Die Beklagte durfte deshalb die von ihr selbst im Jahr 2004 an die B. geleisteten fälligen Zahlungen für Wasser und Abwasser im Abrechnungszeitraum 2004 anteilig auf die Klägerin umlegen."]
+
+Dokument: 1549417.xml
+Frage: Wann kann sich ein Mieter auf die Ausschlussfrist des § 556 Abs. 3 Satz 2 BGB berufen, um eine Nachzahlung für Betriebskosten zu vermeiden?
+Quelle: ["Die Abrechnungsfrist des § 556 Abs. 3 Satz 2 BGB und der durch § 556 Abs. 3 Satz 3 BGB angeordnete Ausschluss von Nachforderungen nach Fristablauf dienten der Abrechnungssicherheit für den Mieter und sollten Streit vermeiden. Der Vermieter verliere daher bei Verstreichenlassen der Frist den Anspruch auf Nachzahlung."]
+
+Dokument: 1567715.xml
+Frage: Welche Anforderungen müssen erfüllt sein, damit eine Partei in einem Mietvertrag eine Mietminderung wegen Abweichung der tatsächlichen von der vereinbarten Wohnungsgröße geltend machen kann?
+Quelle: ["Ein wichtiger Grund im Sinne des § 543 Abs. 1 BGB liegt vor, wenn dem kündigenden Teil unter Berücksichtigung aller Umstände des Einzelfalls und unter Abwägung der beiderseitigen Interessen die Fortsetzung des Mietverhältnisses nicht zugemutet werden kann."]
+
+Dokument: 1658302.xml
+Frage: Welche Voraussetzungen müssen erfüllt sein, damit ein Kaufmann eine Vergütung nach § 354 Abs. 1 HGB für die Auslieferung eines Leasingfahrzeugs verlangen kann?
+Quelle: ["Der gesetzliche Provisionsanspruch nach § 354 Abs. 1 HGB setzt eine Vereinbarung der Parteien über eine Vergütung der erbrachten Leistungen nicht voraus. Die Vorschrift greift im Gegenteil gerade schon dann ein, wenn es an einer (wirksamen) vertraglichen Vereinbarung über die für eine zu erbringende oder erbrachte Leistung zu zahlende Vergütung fehlt (BGH, Urteil vom 31. März 1982 - ...)." und "Die Klägerin hat die die Auslieferung des Leasingfahrzeugs vorbereitenden Bereitstellungstätigkeiten in dem für einen Vergütungsanspruch erforderlichen Interesse der Beklagten erbracht."]
+
+Dokument: 1569756.xml
+Frage: Welche Kosten kann die Klägerin von den Beklagten für den Räumungsrechtsstreit erstattet verlangen, wenn sie die Klage zurücknimmt?
+Quelle: ["Die Klägerin könne lediglich diejenigen Rechtsanwaltskosten erstattet verlangen, die ihr seinerzeit im Räumungsrechtsstreit als Kosten des eigenen Rechtsanwalts entstanden seien."]
+
+Dokument: 1536966.xml
+Frage: Welche Rolle spielt die Berufungsbegründung bei der Festlegung des Streitgegenstands in einem Berufungsverfahren?
+Quelle: ["Der Streitgegenstand eines Berufungsverfahrens ergibt sich zunächst aus den in der Berufungsbegründung zwingend enthaltenen Berufungsanträgen (§§ 520 Abs. 3 Nr. 1, 528 ZPO). Nach ständiger Rechtsprechung des Bundesgerichtshofs darf das Berufungsgericht bei der Ermittlung des prozessualen Begehrens aber nicht beim Wortlaut der Anträge verharren, sondern muß stets auch die Berufungsbegründung zur Auslegung des Klagebegehrens heranziehen (BGH, Urteil vom 11. Juni 1992 -"
+
+Dokument: 1525185.xml
+Frage: Wie ist der Invaliditätsgrad einer Hand im Handgelenk bei vollständiger Funktionsunfähigkeit des Gelenks zu bestimmen?
+Quelle: ["Das Berufungsgericht hat wegen des seiner Ansicht nach eindeutigen Wortlauts des Begriffs 'Funktionsunfähigkeit der Hand im Handgelenk' angenommen, daß es auf die Funktionsunfähigkeit der Hand gerade im Handgelenk und nicht auf die Funktionsunfähigkeit des Teilgliedes Hand ankomme. Bei einer kompletten Versteifung des Handgelenks, wie sie beim Kläger vorliege, sei es deshalb unerheblich, ob das Teilglied Hand noch vorhanden und funktionsfähig sei."]
+
+Dokument: 0960919.xml
+Frage: Wann kann ein Gebäudeversicherer den auf ihn nach § 67 Abs. 1 Satz 1 VVG a.F. übergegangenen mietvertraglichen Schadensersatzanspruch gegen den Mieter geltend machen?
+Quelle: "Zweck des vom Senat entwickelten Regressverzichts ist der Schutz der Interessen des Vermieters und des Mieters. Der Regressverzicht hindert den Gebäudeversicherer ebenso wie der Regressverzicht nach dem RVA daran, den auf ihn nach § 67 Abs. 1 Satz 1 VVG a.F. übergegangenen mietvertraglichen Schadensersatzanspruch gegen den Mieter geltend zu machen."
+
+Dokument: 1541664.xml
+Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Mieter die Überlassung von Belegkopien zur Betriebskostenabrechnung verlangen kann?
+Quelle: ["Entgegen der Auffassung des Berufungsgerichts fehlt es der Nachforderung der Kläger aus der Abrechnung vom 9. Dezember 2002 nicht deshalb an der Fälligkeit, weil die Kläger dem Verlangen der Beklagten nach Übersendung von Kopien der Abrechnungsbelege nicht nachgekommen sind. Wie der Senat - nach Erlass des Berufungsurteils - entschieden hat, hat der Mieter preisfreien Wohnraums grundsätzlich keinen Anspruch gegen den Vermieter auf Überlassung von Fotokopien der Abrechnungsbelege zur Betriebskostenabrechnung (Urteil vom 8. März 2006 -"]
+
+Dokument: 1570226.xml
+Frage: Wie kann die Klagefrist des § 46 Abs. 1 Satz 2 WEG auch durch eine innerhalb dieser Frist gegen die Wohnungseigentümergemeinschaft gerichtete Klage gewahrt werden, wenn die Voraussetzungen des § 44 Abs. 1 Satz 1 WEG erfüllt sind?
+Quelle: ["Die Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG sind materiellrechtliche Ausschlussfristen und keine besonderen Sachurteilsvoraussetzungen (Senat, Urteil vom 16. Januar 2009 -). Mit den Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG will der Gesetzgeber erreichen, dass die übrigen Wohnungseigentümer möglichst rasch darüber Klarheit erlangen, welcher Beschluss aus welchen Gründen angefochten wird (Senat, Urteil vom 6. November 2009 -)."
+
+Dokument: 1521301.xml
+Frage: Welche Anforderungen müssen erfüllt sein, damit eine Teilfläche in einem Kaufvertrag ausreichend bestimmt ist, insbesondere wenn es sich um eine noch nicht vermessene Grundstücksteilfläche handelt?
+Quelle: ["aa) Zur Begründung der Leistungspflicht des Verkäufers nach § 433 Abs. 1 Satz 1 BGB a.F. ist die Bezeichnung des Kaufgegenstands erforderlich. Dafür genügt es, daß er anhand der vertraglichen Regelungen bestimmbar ist. Ist das nicht möglich, ist eine schuldrechtliche Bindung nicht entstanden. Dies ergibt sich aus dem allgemeinen Vertragsrecht (§§ 145 ff. BGB). Davon zu unterscheiden ist das Bestimmtheitserfordernis des Sachen- und Grundbuchrechts. Es dient dazu, daß jedermann aus der im Bestandsverzeichnis des Grundbuchs eingetragenen Grundstücksbezeichnung erkennen kann, um welches Grundstück es sich handelt. Um das zu erreichen, enthalten die Vorschriften in § 2 Abs. 3 bis 5 GBO für die Abschreibung von Grundstücksteilen eingehende Bestimmungen, welche das Auffinden der Teilfläche in der Natur gewährleisten und ihre eindeutige Darstellung im Grundbuch in Übereinstimmung mit dem Liegenschaftskataster sicherstellen sollen. Ein noch nicht vermessener Grundstücksteil kann danach nicht als Grundstück im Grundbuch gebucht werden, und zwar auch dann nicht, wenn die Teilfläche in einem notariellen Vertrag mit Skizze hinreichend genau bestimmt ist, weil es häufig zu Differenzen zwischen den mehr oder minder genauen Planunterlagen in notariellen Urkunden und der endgültigen Vermessung kommt (Senatsurt. v. 21. Februar 1986,"]
+
+Dokument: 1596648.xml
+CQ:
+Quelle: "Eine unberechtigte Duldungsverweigerung kann gemäß § 242 BGB dazu führen, dass der Mieter sich auf die Minderung der Miete nicht mehr berufen darf."
+
+Dokument: 1544176.xml
+Frage: Welche Auswirkungen hat die Verrechnung von Forderungen gegen die P. mit der Einlageverbindlichkeit der Beklagten zu 1 in Höhe von 750.000,00 DM auf die Erfüllung der Einlageverbindlichkeit?
+Quelle: ["Eine solche Verrechnung habe wegen Verstoßes gegen § 19 Abs. 5 GmbHG keine Erfüllungswirkung gehabt."]
+
+Dokument: 1590874.xml
+Frage: Welche Darlegungslast trifft die Beklagte im Rahmen eines Herausgabeanspruchs auf die Bürgschaftsurkunde, wenn die Abrechnungsreife für die von ihr erbrachten Leistungen eingetreten ist?
+Quelle: ["Die Beklagte muss beweisen und deshalb darlegen, dass sie einen Honoraranspruch hat, den die Bürgschaft sichert."]
+
+Dokument: 1526301.xml
+Frage: Welche Verpflichtungen hat die Klägerin als Betreiberin des Breitbandkabelnetzes gegenüber den angeschlossenen Empfängern und Programmanbietern?
+Quelle: ["Als Betreiberin des von ihr errichteten Breitbandkabelnetzes erbringt die Klägerin zwei unterschiedliche Telekommunikationsdienstleistungen. Ihr selbst geht es in erster Linie darum, den an das Kabelnetz angeschlossenen Empfängern gegen Entgelt den Empfang von Rundfunkprogrammen zu ermöglichen, die über das Breitbandkabel verbreitet werden. Gleichzeitig erbringt sie eine - unentgeltliche - Dienstleistung zugunsten der Programmanbieter, die zur Verbreitung ihrer Inhalte auf Durchleitungsmöglichkeiten angewiesen sind (vgl. BGH, Urt. v. 19. März 1996, "]
+
+Dokument: 1657134.xml
+Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Miterfinder einer Erfindung eine Patentanmeldung für die Gemeinschaft der Berechtigten einreichen darf, ohne gegen seine Pflichten aus dem Gemeinschaftsverhältnis zu verstoßen?
+Quelle: ["Die Verwaltung des gemeinschaftlichen Gegenstands steht den Teilhabern nach § 744 Abs. 1 BGB grundsätzlich gemeinschaftlich zu; nur die zur Erhaltung des Gegenstands notwendigen Maßregeln darf nach § 744 Abs. 2 BGB jeder Teilhaber ohne Zustimmung der anderen treffen. Als solche von § 744 Abs. 2 BGB privilegierte Erhaltungsmaßnahme können die Anmeldungen der Beklagten nicht gelten."]
+
+Dokument: 1532441.xml
+Frage: Welche Voraussetzungen müssen erfüllt sein, damit ein Pachtvertrag über das Vertragsende hinaus fortbesteht?
+Quelle: ["Die Klägerin hat ein schützenswertes Interesse an der begehrten Feststellung, daß der Pachtvertrag über den 31. Dezember 2000 hinaus bis zum 17. April 2001 fortbestanden hat."]
+
+Dokument: 1568706.xml
+**CQ 1:**
+Quelle: ["Die Beklagte hat aufgrund der von ihr gegenüber der Klägerin abgegebenen Freistellungserklärung die von der T. erhobenen Ansprüche anstelle der Klägerin abzuwehren und sich zu diesem Zweck an dem in B. geführten Rechtsstreit zu beteiligen."]
+

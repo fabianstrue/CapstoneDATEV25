@@ -1,0 +1,84 @@
+Dokument: 1548765.xml
+Frage: Welche Abrechnungsprinzipien können für Betriebskosten in Mietverhältnissen angewendet werden, und welche davon sind rechtmäßig?
+Quelle: ["a) Nach dem vom Berufungsgericht für allein zulässig gehaltenen Leistungsprinzip ... b) Demgegenüber wird auch eine Abrechnung nach dem so genannten Abflussprinzip ... c) Nach einer vermittelnden Auffassung kann der Vermieter nach dem Abflussprinzip jedenfalls dann abrechnen, wenn eine Mehrbelastung des Mieters ausgeschlossen ist, weil - wie im vorliegenden Fall - im Jahr des Verbrauchs und im Jahr der Abrechnung kein Mieterwechsel stattgefunden hat."]
+
+Dokument: 1549417.xml
+Frage: Wann kann ein Mieter auf Grund einer unzureichenden Betriebskostenabrechnung von seinem Vermieter keine Nachzahlung verlangen?
+Quelle: ["Die Abrechnung vom 5. November 2004 ist den Beklagten zwar - anders als die Korrekturabrechnung vom 23. März 2005 - noch vor Ablauf von zwölf Monaten nach Ende des abgerechneten Jahres 2003, also vor dem 1. Januar 2005, mitgeteilt worden. Die Einhaltung der Abrechnungsfrist wird jedoch nur mit einer formell ordnungsgemäßen Abrechnung gewahrt; allein inhaltliche Fehler können auch nach Fristablauf korrigiert werden."]
+
+Dokument: 1567715.xml
+Frage: Wann ist eine Partei zur Aufrechnung von Rückforderungsansprüchen berechtigt?
+Quelle: "Das Berufungsgericht hat rechtsfehlerfrei die von der Beklagten zur Aufrechnung gestellten Rückforderungsansprüche wegen angeblich in den Monaten Januar bis Juli 2007 zuviel gezahlter Miete verneint."
+
+Dokument: 1658302.xml
+Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Kaufmann für die Besorgung eines Geschäfts Provision nach § 354 Abs. 1 HGB verlangen kann?
+Quelle: "Der gesetzliche Provisionsanspruch nach § 354 Abs. 1 HGB setzt eine Vereinbarung der Parteien über eine Vergütung der erbrachten Leistungen nicht voraus. Die Vorschrift greift im Gegenteil gerade schon dann ein, wenn es an einer (wirksamen) vertraglichen Vereinbarung über die für eine zu erbringende oder erbrachte Leistung zu zahlende Vergütung fehlt."
+
+Dokument: 1569756.xml
+Frage: Welche Kosten kann die Klägerin von den Beklagten aufgrund der Klagerücknahme im Räumungsrechtsstreit erstattet verlangen?
+Quelle: "Ein materiell-rechtlicher Anspruch der Klägerin auf Rückerstattung der Prozesskosten, die sie aufgrund der im Räumungsrechtsstreit erklärten Klagerücknahme an die Beklagten geleistet hat, stehen - anders als das Berufungsgericht meint - bereits die in jenem Verfahren nach § 269 Abs. 3 Satz 2, Halbs. 1 ZPO eingetretene Kostenfolge und der daraufhin zugunsten der Beklagten ergangene Kostenfestsetzungsbeschluss entgegen."
+
+Dokument: 1681077.xml
+Frage: Welche Rechtsfolgen hat es, wenn ein Mieter die Miete nicht rechtzeitig zahlt?
+Quelle: ["Die Pflicht des Mieters zur Zahlung der Miete ist eine Hauptpflicht des Mieters. Die Nichtzahlung der Miete ist ein Verstoß gegen diese Hauptpflicht, der zur fristlosen Kündigung des Mietverhältnisses führen kann (§ 543 Abs. 2 BGB)."]
+
+Dokument: 1536966.xml
+Frage: Wann ist ein Berufungsverfahren anhängig, wenn die Berufungsbegründung nicht den Streitgegenstand eindeutig benennt?
+Quelle: ["Ein nach § 322 Abs. 1 ZPO der materiellen Rechtskraft fähiges Urteil kann nicht über das prozessuale Begehren des Rechtsmittelklägers hinausgehen, das den Streitgegenstand bestimmt (BGH, Urteil vom 15. Juli 1997 -" und "Die Klägerin wollte jedenfalls keine Ansprüche weiter verfolgen, mit denen sie schon in erster Instanz obsiegt hatte."]
+
+Dokument: 1525185.xml
+Frage: Welche Bedeutung hat die Formulierung "Hand im Handgelenk" in der Gliedertaxe, wenn es um die Festlegung des Invaliditätsgrades geht?
+Quelle: ["Die Gliedertaxe sieht Abstufungen des Invaliditätsgrades - etwa des Armes - vor, nachdem der Invaliditätsgrad mit der Rumpfnähe der in der Gliedertaxe festgelegten Teilbereiche ansteigt. Diese Abstufung trägt - dem Versicherungsnehmer erkennbar - den zunehmenden Auswirkungen des jeweiligen Teilgliedverlustes oder der Teilgliedfunktionsunfähigkeit auf die generelle Arbeitsfähigkeit des Menschen Rechnung. Liefert aber die Rumpfnähe des Teilgliedes den Bewertungsmaßstab, läßt sich die Wendung 'Hand im Handgelenk' auch dahin verstehen, daß mit ihr - wie mit der Abgrenzung 'bis zum' - nur die Grenze eines Gliedteilbereichs beschrieben wird, es also bei der Funktionsunfähigkeit auf die Hand insgesamt ankommt."]
+
+Dokument: 0960919.xml
+Frage: Unter welchen Umständen ist eine Mieterin für den durch ihre Fahrlässigkeit verursachten Brand in der Mietwohnung schadensersatzpflichtig?
+Quelle: "Die Mieterin wäre dem Vermieter wegen leicht fahrlässiger Herbeiführung des Brandes an sich zum Schadensersatz verpflichtet."
+
+Dokument: 1541664.xml
+Frage: Welche Bedingungen müssen erfüllt sein, damit ein Mieter seine Forderung aus einer Betriebskostenabrechnung geltend machen kann?
+Quelle: ["Entgegen der Auffassung des Berufungsgerichts fehlt es der Nachforderung der Kläger aus der Abrechnung vom 9. Dezember 2002 nicht deshalb an der Fälligkeit, weil die Kläger dem Verlangen der Beklagten nach Übersendung von Kopien der Abrechnungsbelege nicht nachgekommen sind."]
+
+Dokument: 1682044.xml
+Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit eine außerordentliche Kündigung eines Mietverhältnisses wirksam ist?
+Quelle: ["Eine außerordentliche Kündigung des Mietverhältnisses ist nur dann wirksam, wenn ein wichtiger Grund vorliegt, der eine Fortsetzung des Mietverhältnisses bis zum Ablauf der Kündigungsfrist nicht zumutbar macht (§ 543 Abs. 2 BGB)."]
+
+Dokument: 1570226.xml
+Frage: Wann ist eine Klage gegen die Wohnungseigentümergemeinschaft im Rahmen des § 46 Abs. 1 Satz 2 WEG rechtzeitig erhoben worden, wenn die Klage zunächst gegen die Wohnungseigentümergemeinschaft gerichtet ist, aber innerhalb der Monatsfrist der Übergang zu einer Klage gegen die übrigen Mitglieder der Wohnungseigentümergemeinschaft erfolgt?
+Quelle: ["Die Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG sind materiellrechtliche Ausschlussfristen und keine besonderen Sachurteilsvoraussetzungen."; "Die Monatsfrist wird durch dieses Verständnis nicht, wie das Berufungsgericht meint, überflüssig. Eine erst nach Ablauf der Monatsfrist erhobene Klage ist unabhängig davon, ob sie sich gegen die Wohnungseigentümergemeinschaft oder gegen die übrigen Wohnungseigentümer richtet, ohne weiteres als unbegründet zurückzuweisen."]
+
+Dokument: 1521301.xml
+Frage: Welche Anforderungen müssen erfüllt sein, damit eine Sondernutzungsfläche im Rahmen eines Kaufvertrags für Wohnungseigentum ausreichend bestimmt ist?
+Quelle: ["Die den Klägern zu verschaffende Sondernutzungsfläche ist in dem eine Anlage zum Kaufvertrag bildenden Lageplan eingezeichnet; sie wird nach der vertraglichen Regelung von den Markierungspunkten 28, 27, 20, 49, 48 und 29 begrenzt. Da in dem Lageplan das Gesamtgrundstück, das später in Miteigentumsanteile für die Wohnungseigentümer aufgeteilt werden sollte, die Sondernutzungsflächen der übrigen Wohnungseigentümer und die Lage der zu errichtenden Wohnhäuser eingezeichnet sind, können die ungefähre Größe und Lage der streitigen Fläche ermittelt werden."]
+
+Dokument: 1596648.xml
+Frage: Wann kann ein Mieter seine Mietminderung aufgrund von Mängeln nicht mehr geltend machen, wenn er die Mangelbeseitigung unberechtigt verhindert hat?
+Quelle: ["Eine treuwidrige Verhinderung der Mangelbeseitigung durch den Mieter ist [...] dann anzunehmen, wenn er [...] seine Duldung von ungerechtfertigten Forderungen abhängig macht (BeckOK BGB/Ehlert [Stand: 1. Mai 2014] § 536 Rn. 107 mwN; Palandt/Weidenkaff BGB 74. Aufl. § 536 Rn. 37)." und "Denn den für die - fiktive - Mangelbeseitigung erforderlichen Zeitraum unberücksichtigt und den Mieter auch hierfür auf die volle Miete haften zu lassen, würde im Ergebnis einerseits den Vermieter ungerechtfertigt begünstigen und andererseits den Mieter über das hinaus belasten, was er bei vertragsgemäßem Verhalten schuldete. Dafür bietet § 242 BGB keine Grundlage."]
+
+Dokument: 1544176.xml
+Frage: Welche Rechtsfolge tritt ein, wenn eine Gesellschaftsverbindlichkeit durch eine verdeckte Finanzierung erfüllt wird?
+Quelle: ["Das auf einer Sachprüfung (...) liegt eine sog. verdeckte Finanzierung aus Gesellschaftsmitteln in Form des 'Her- und Hinzahlens' vor, bei dem unter dem Gesichtspunkt der Kapitalaufbringung der Inferent nichts geleistet und die Gesellschaft nichts erhalten hat und bei dem die in diesem Zusammenhang für die 'Herzahlung' getroffene 'Darlehensabrede' als Teil des Umgehungsgeschäfts unwirksam ist."]
+
+Dokument: 1590874.xml
+Frage: Wann kann die Klägerin unmittelbar auf Herausgabe der Bürgschaftsurkunde klagen und die Berechtigung der von der Beklagten geltend gemachten Forderungen prüfen?
+Quelle: "Die Klägerin kann nach Eintritt der Abrechnungsreife unmittelbar auf Herausgabe der Bürgschaftsurkunde klagen, und im Rahmen der Herausgabeklage ist zu prüfen, ob die von der Beklagten geltend gemachten Forderungen berechtigt sind."
+
+Dokument: 1526301.xml
+Frage: Wie kann die Klägerin die Durchleitung unerwünschter Signale durch ihr Kabelnetz verhindern?
+Quelle: ["Zwar hätte die Klägerin die Möglichkeit, die Einleitung bestimmter, ihr unerwünschter Signale durch das Anbringen geeigneter Sperrvorrichtungen am Übergabepunkt zu unterbinden. Dies tut sie jedoch nicht."]
+
+Dokument: 1657134.xml
+Frage: Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Miterfinder einer Erfindung diese zum Patent anmelden darf, ohne die anderen Miterfinder zu benachteiligen?
+Quelle: "Dass die Anmeldung einer gemeinsamen Erfindung nur dann einer nach § 744 Abs. 2 BGB zur Erhaltung des gemeinschaftlichen Gegenstands notwendigen Maßnahme entspricht, wenn sie auf den Namen aller Teilhaber erfolgt, und dass der lediglich mitberechtigte Anmelder demgegenüber rechtswidrig handelt, wenn er die Erfindung nur auf seinen Namen anmeldet, hat bereits das Reichsgericht angenommen."
+
+Dokument: 1532441.xml
+Frage: Welche Voraussetzungen müssen erfüllt sein, damit ein Pachtvertrag über das Vertragsende hinaus fortbesteht?
+Quelle: ["Die Klägerin hat ein schützenswertes Interesse an der begehrten Feststellung, daß der Pachtvertrag über den 31. Dezember 2000 hinaus bis zum 17. April 2001 fortbestanden hat."]
+
+Dokument: 1568706.xml
+Frage: Welche Verpflichtungen hat der Beklagte aufgrund seiner Freistellungserklärung gegenüber der Klägerin?
+Quelle: ["Die Beklagte hat ... aufgrund der übernommenen Freistellungsverpflichtung bestehenden Abwehrpflicht nachzukommen, ist sie der Klägerin gemäß § 280 Abs. 1, 3, § 281 Abs. 1 Satz 1, Abs. 2 BGB zum Ersatz des dadurch verursachten Schadens verpflichtet."]
+
+Dokument: 1535555.xml
+Frage: Welche konkreten Maßnahmen sind von einem Altenheim zur Vermeidung von Stürzen seiner Bewohner zu treffen, wenn keine spezifische Gefahrensituation vorliegt?
+Quelle: "Jene Sicherungsmaßnahmen hätten, da sie auch nach der Einschätzung der Klägerin nicht durch eine konkrete, einzelfallbezogene Gefahrensituation gefordert wurden, nur abstrakt-generalisierend, d.h. auf Dauer, getroffen werden müssen, um die allgemeine Gefahr eines Sturzes zu bannen. Damit aber hätten sie den Charakter von Maßnahmen erhalten, die der - unter Betreuung stehenden - Bewohnerin über einen längeren Zeitraum oder regelmäßig die Freiheit entzogen und deshalb der Genehmigung durch das Vormundschaftsgericht bedurft hätten (§ 1906 Abs. 4 BGB)."
+
