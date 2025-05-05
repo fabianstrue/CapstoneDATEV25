@@ -7,18 +7,18 @@
         "Mietverhältnis"
       ],
       "properties": [
-        "kann angewendet werden",
-        "ist rechtmäßig"
+        "kannAngewandtWerden",
+        "istRechtmäßig"
       ],
       "relationships": [
         [
           "Betriebskosten",
-          "kann angewendet werden",
+          "kannAngewandtWerden",
           "Abrechnungsprinzip"
         ],
         [
           "Abrechnungsprinzip",
-          "ist rechtmäßig",
+          "istRechtmäßig",
           "Mietverhältnis"
         ]
       ]
@@ -37,16 +37,19 @@
         "Nachzahlung"
       ],
       "properties": [
-        "unzureichend",
-        "verlangen"
+        "ist_unzureichend",
+        "kann_verlangen"
       ],
       "relationships": [
         [
           "Mieter",
-          "kann auf Grund einer",
-          "unzureichenden Betriebskostenabrechnung",
-          "keine Nachzahlung",
-          "verlangen"
+          "kann_verlangen",
+          "keine Nachzahlung"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "ist_unzureichend",
+          "kann_verlangen"
         ]
       ]
     },
@@ -58,59 +61,38 @@
   "1567715.xml": {
     "ontology": {
       "classes": [
-        "Urteil",
-        "Anspruch",
-        "Tatbestand",
-        "Mangel",
+        "Kläger",
+        "Beklagte",
         "Mietvertrag",
-        "Mietvertragsauslegung",
-        "Revisionsrecht",
-        "Betriebskosten",
-        "Wohnfläche"
+        "Wohnfläche",
+        "Betriebskosten"
       ],
       "properties": [
-        "beinhaltet",
-        "basiert auf",
-        "führt zu",
-        "führt zu einer anderen Auslegung",
-        "führt zu einer Minderung",
-        "ist zur Aufrechnung berechtigt"
+        "hatAnspruchAuf",
+        "istBerechtigtZur",
+        "betrifft",
+        "umlegt"
       ],
       "relationships": [
         [
-          "Urteil",
-          "beinhaltet",
-          "Tatbestand"
+          "Kläger",
+          "hatAnspruchAuf",
+          "Zahlung der Nettokaltmiete"
         ],
         [
-          "Anspruch",
-          "basiert auf",
-          "Tatbestand"
-        ],
-        [
-          "Mangel",
-          "führt zu",
-          "Minderung der Miete"
-        ],
-        [
-          "Mietvertragsauslegung",
-          "führt zu",
-          "Auslegungsergebnis"
+          "Beklagte",
+          "istBerechtigtZur",
+          "Mietminderung"
         ],
         [
           "Mietvertrag",
-          "beinhaltet",
-          "Vereinbarung über die Größe der Wohnung"
-        ],
-        [
-          "Vereinbarung über die Größe der Wohnung",
-          "führt zu einer anderen Auslegung",
-          "Mietvertrag"
+          "betrifft",
+          "Wohnfläche"
         ],
         [
           "Betriebskosten",
-          "sind zur Aufrechnung berechtigt",
-          "Partei"
+          "umlegt",
+          "nach der Wohnfläche"
         ]
       ]
     },
@@ -125,11 +107,11 @@
         "Kaufmann",
         "Geschäft",
         "Provision",
-        "§ 354 Abs. 1 HGB"
+        "§354Abs1HGB"
       ],
       "properties": [
         "besorgt",
-        "verlangen"
+        "verlangenKann"
       ],
       "relationships": [
         [
@@ -139,7 +121,12 @@
         ],
         [
           "Kaufmann",
-          "verlangen",
+          "verlangenKann",
+          "Provision"
+        ],
+        [
+          "§354Abs1HGB",
+          "rechtlicheVoraussetzung",
           "Provision"
         ]
       ]
@@ -159,34 +146,25 @@
         "Klagerücknahme"
       ],
       "properties": [
-        "erstattet verlangen",
-        "basiert auf",
-        "hinsichtlich",
-        "fehlt",
-        "angefallen"
+        "kannVerlangen",
+        "basiertAuf",
+        "istGeschuldet"
       ],
       "relationships": [
         [
           "Klägerin",
-          "erstattet verlangen",
+          "kannVerlangen",
           "Kosten"
         ],
         [
           "Kosten",
-          "basiert auf",
-          "Räumungsrechtsstreit"
-        ],
-        [
-          "Klägerin",
-          "Klagerücknahme",
-          "fehlt",
-          "ursächlicher Zusammenhang"
-        ],
-        [
-          "Kosten",
-          "angefallen",
-          "Klägerin",
+          "basiertAuf",
           "Klagerücknahme"
+        ],
+        [
+          "Beklagte",
+          "istGeschuldet",
+          "Kosten"
         ]
       ]
     },
@@ -200,12 +178,20 @@
       "classes": [
         "Berufungsverfahren",
         "Streitgegenstand",
-        "Berufungsbegründung"
+        "Berufungsbegründung",
+        "Anträge",
+        "Prozeßpartei",
+        "Gericht"
       ],
       "properties": [
-        "benennt",
+        "beinhaltet",
         "betrifft",
-        "enthält"
+        "hatUmfang",
+        "hatBegehr",
+        "hatEntscheidung",
+        "hatHinweis",
+        "hatBeschluss",
+        "hatKostenfolge"
       ],
       "relationships": [
         [
@@ -215,13 +201,33 @@
         ],
         [
           "Streitgegenstand",
-          "benennt",
-          "Berufungsbegründung"
+          "beinhaltet",
+          "Anträge"
         ],
         [
-          "Berufungsbegründung",
-          "enthält",
+          "Prozeßpartei",
+          "hatBegehr",
           "Streitgegenstand"
+        ],
+        [
+          "Gericht",
+          "hatEntscheidung",
+          "Streitgegenstand"
+        ],
+        [
+          "Gericht",
+          "hatHinweis",
+          "Prozeßpartei"
+        ],
+        [
+          "Gericht",
+          "hatBeschluss",
+          "Berufungsverfahren"
+        ],
+        [
+          "Berufungsverfahren",
+          "hatKostenfolge",
+          "Kosten"
         ]
       ]
     },
@@ -233,62 +239,30 @@
   "1525185.xml": {
     "ontology": {
       "classes": [
-        "Revision",
-        "Entscheidung",
-        "Invalidität",
         "Hand",
-        "Gelenk",
-        "Gliedertaxe",
-        "Versicherungsbedingungen"
+        "Handgelenk",
+        "Invalidität",
+        "Gliedertaxe"
       ],
       "properties": [
-        "begründet",
-        "steht zu",
-        "hat ausgeführt",
-        "hat entschieden",
-        "ist möglich",
-        "ist vertretbar"
+        "beinhaltet",
+        "festlegt"
       ],
       "relationships": [
         [
-          "Revision",
-          "begründet",
-          "Entscheidung"
-        ],
-        [
-          "Entscheidung",
-          "steht zu",
-          "Invalidität"
-        ],
-        [
-          "Invalidität",
-          "basiert auf",
-          "Hand"
-        ],
-        [
           "Hand",
           "beinhaltet",
-          "Gelenk"
+          "Handgelenk"
         ],
         [
-          "Gelenk",
-          "ist Teil von",
-          "Hand"
-        ],
-        [
-          "Hand",
-          "ist Gegenstand von",
-          "Gliedertaxe"
+          "Handgelenk",
+          "festlegt",
+          "Invalidität"
         ],
         [
           "Gliedertaxe",
-          "regelt",
-          "Invalidität"
-        ],
-        [
-          "Versicherungsbedingungen",
-          "enthalten",
-          "Gliedertaxe"
+          "beinhaltet",
+          "Hand im Handgelenk"
         ]
       ]
     },
@@ -302,12 +276,13 @@
       "classes": [
         "Mieterin",
         "Brand",
-        "Fahrlässigkeit",
+        "Mietwohnung",
         "Schadensersatzpflichtigkeit"
       ],
       "properties": [
         "verursacht",
-        "ist für"
+        "basiert auf",
+        "führt zu"
       ],
       "relationships": [
         [
@@ -317,7 +292,12 @@
         ],
         [
           "Brand",
-          "ist für",
+          "basiert auf",
+          "Fahrlässigkeit"
+        ],
+        [
+          "Brand",
+          "führt zu",
           "Schadensersatzpflichtigkeit"
         ]
       ]
@@ -330,51 +310,44 @@
   "1541664.xml": {
     "ontology": {
       "classes": [
-        "Urteil",
-        "Anspruch",
-        "Tatbestand",
+        "Mieter",
+        "Betriebskostenabrechnung",
         "Forderung",
-        "Kaution",
-        "Bedingung"
+        "Fälligkeit",
+        "Kautionsguthaben"
       ],
       "properties": [
-        "beinhaltet",
-        "basiert auf",
-        "versagt",
-        "zugebilligt",
-        "fehlt",
-        "erfüllt sein"
+        "kannGeltendMachen",
+        "fehltEsAn",
+        "hatForderung",
+        "istFällig",
+        "hatKautionsguthaben"
       ],
       "relationships": [
         [
-          "Urteil",
-          "beinhaltet",
-          "Tatbestand"
-        ],
-        [
-          "Anspruch",
-          "basiert auf",
-          "Tatbestand"
+          "Mieter",
+          "kannGeltendMachen",
+          "Forderung"
         ],
         [
           "Forderung",
-          "basiert auf",
+          "fehltEsAn",
+          "Fälligkeit"
+        ],
+        [
+          "Mieter",
+          "hatForderung",
           "Betriebskostenabrechnung"
         ],
         [
-          "Forderung",
-          "erfüllt sein",
-          "Bedingung"
+          "Betriebskostenabrechnung",
+          "istFällig",
+          "Fälligkeit"
         ],
         [
-          "Kaution",
-          "versagt",
-          "Rückzahlung"
-        ],
-        [
-          "Kaution",
-          "zugebilligt",
-          "Rückzahlung"
+          "Mieter",
+          "hatKautionsguthaben",
+          "Kautionsguthaben"
         ]
       ]
     },
@@ -388,49 +361,43 @@
       "classes": [
         "Klage",
         "Wohnungseigentümergemeinschaft",
+        "Wohnungseigentümer",
         "Monatsfrist",
-        "Übergang",
-        "Richtlinie",
-        "Beschlussfassung"
+        "Verwalter",
+        "Klagebegründung"
       ],
       "properties": [
-        "gerichtet",
+        "ist gerichtet gegen",
         "erfolgt innerhalb",
-        "gewahrt",
-        "richtet sich gegen",
-        "betrifft",
-        "erfolgt"
+        "ist rechtzeitig erhoben",
+        "wird benannt",
+        "enthält Informationen"
       ],
       "relationships": [
         [
           "Klage",
-          "gerichtet",
+          "ist gerichtet gegen",
           "Wohnungseigentümergemeinschaft"
         ],
         [
-          "Übergang",
+          "Klage",
           "erfolgt innerhalb",
           "Monatsfrist"
         ],
         [
           "Klage",
-          "gewahrt",
-          "Richtlinie"
+          "ist rechtzeitig erhoben",
+          "wenn Übergang zu einer Klage gegen die übrigen Mitglieder der Wohnungseigentümergemeinschaft erfolgt"
         ],
         [
-          "Klage",
-          "richtet sich gegen",
-          "übrige Mitglieder der Wohnungseigentümergemeinschaft"
+          "Klagebegründung",
+          "enthält Informationen",
+          "dass es sich bei der als Zustellungsvertreter benannten Person um den Verwalter handelt"
         ],
         [
-          "Beschlussfassung",
-          "betrifft",
-          "Klage"
-        ],
-        [
-          "Klage",
-          "erfolgt",
-          "nach Übergang"
+          "Verwalter",
+          "wird benannt",
+          "innerhalb der Klagefrist"
         ]
       ]
     },
@@ -444,13 +411,12 @@
       "classes": [
         "Kaufvertrag",
         "Wohnungseigentum",
-        "Sondernutzungsfläche",
-        "Bestimmtheit"
+        "Sondernutzungsfläche"
       ],
       "properties": [
         "beinhaltet",
-        "genügt",
-        "ermöglicht"
+        "bestimmt",
+        "erfüllt"
       ],
       "relationships": [
         [
@@ -459,14 +425,14 @@
           "Wohnungseigentum"
         ],
         [
-          "Wohnungseigentum",
-          "beinhaltet",
-          "Sondernutzungsfläche"
+          "Sondernutzungsfläche",
+          "bestimmt",
+          "Kaufvertrag"
         ],
         [
           "Sondernutzungsfläche",
-          "genügt",
-          "Bestimmtheit"
+          "erfüllt",
+          "Anforderungen"
         ]
       ]
     },
@@ -478,39 +444,23 @@
   "1596648.xml": {
     "ontology": {
       "classes": [
-        "Mietverhältnis",
-        "Mangel",
+        "Mieter",
         "Mangelbeseitigung",
-        "Mietminderung",
-        "Duldungspflicht",
-        "Schadensersatzanspruch"
+        "Mietminderung"
       ],
       "properties": [
         "verhindert",
-        "gilt nicht mehr",
-        "ist unberechtigt",
-        "kann sich nicht mehr berufen",
-        "ist nicht mehr zulässig"
+        "kann nicht mehr geltend machen"
       ],
       "relationships": [
         [
-          "Mietminderung",
-          "gilt nicht mehr",
+          "Mieter",
+          "verhindert",
           "Mangelbeseitigung"
         ],
         [
           "Mangelbeseitigung",
-          "ist unberechtigt",
-          "Duldungspflicht"
-        ],
-        [
-          "Duldungspflicht",
-          "kann sich nicht mehr berufen",
-          "Mietminderung"
-        ],
-        [
-          "Schadensersatzanspruch",
-          "ist nicht mehr zulässig",
+          "kann nicht mehr geltend machen",
           "Mietminderung"
         ]
       ]
@@ -523,30 +473,31 @@
   "1544176.xml": {
     "ontology": {
       "classes": [
-        "Einspruch",
-        "Rückzahlung",
         "Einlageverbindlichkeit",
+        "Gesellschaftsverbindlichkeit",
+        "verdeckte Finanzierung",
+        "Rückzahlung",
         "Schadensersatzanspruch"
       ],
       "properties": [
-        "beinhaltet",
-        "erfüllt",
-        "verletzt"
+        "wird durch",
+        "führt zu",
+        "steht gegen"
       ],
       "relationships": [
         [
-          "Einspruch",
-          "beinhaltet",
+          "Einlageverbindlichkeit",
+          "wird durch",
+          "verdeckte Finanzierung"
+        ],
+        [
+          "verdeckte Finanzierung",
+          "führt zu",
           "Rückzahlung"
         ],
         [
           "Rückzahlung",
-          "erfüllt",
-          "Einlageverbindlichkeit"
-        ],
-        [
-          "Einlageverbindlichkeit",
-          "verletzt",
+          "steht gegen",
           "Schadensersatzanspruch"
         ]
       ]
@@ -559,46 +510,27 @@
   "1590874.xml": {
     "ontology": {
       "classes": [
-        "Urteil",
-        "Sicherungsabrede",
-        "Anspruch",
-        "Tatbestand",
-        "Abrechnungsreife",
-        "Forderung"
+        "Klägerin",
+        "Herausgabeanspruch",
+        "Bürgschaftsurkunde",
+        "Forderung",
+        "Beklagte"
       ],
       "properties": [
-        "beinhaltet",
-        "basiert auf",
-        "ermöglicht",
-        "verhindert",
-        "klären lassen",
-        "prüfen"
+        "kann",
+        "prüfen",
+        "geltend machen"
       ],
       "relationships": [
         [
-          "Urteil",
-          "beinhaltet",
-          "Tatbestand"
+          "Klägerin",
+          "kann",
+          "unmittelbar auf Herausgabe der Bürgschaftsurkunde klagen"
         ],
         [
-          "Sicherungsabrede",
-          "ermöglicht",
-          "Anspruch"
-        ],
-        [
-          "Abrechnungsreife",
-          "basiert auf",
-          "Forderung"
-        ],
-        [
-          "Forderung",
-          "verhindert",
-          "Herausgabe der Bürgschaftsurkunde"
-        ],
-        [
-          "Abrechnungsreife",
-          "klären lassen",
-          "Berechtigung der Forderungen"
+          "Klägerin",
+          "kann",
+          "die Berechtigung der von der Beklagten geltend gemachten Forderungen prüfen"
         ]
       ]
     },
@@ -615,18 +547,18 @@
         "Signale"
       ],
       "properties": [
-        "verhindern",
-        "durchleiten"
+        "kannVerhindern",
+        "durchleitet"
       ],
       "relationships": [
         [
           "Klägerin",
-          "verhindern",
-          "Signale"
+          "kannVerhindern",
+          "Durchleitung von Signalen durch ihr Kabelnetz"
         ],
         [
           "Signale",
-          "durchleiten",
+          "durchleitet",
           "Kabelnetz"
         ]
       ]
@@ -639,26 +571,66 @@
   "1657134.xml": {
     "ontology": {
       "classes": [
-        "Miterfinder",
-        "Erfindung",
-        "Patentanmeldung",
-        "Benachteiligung"
+        "Erfinder",
+        "Patent",
+        "Anmeldung",
+        "Rechtsverletzung",
+        "Schadenersatz",
+        "Gemeinschaftsverhältnis",
+        "Vermögensnachteile",
+        "Vorteile",
+        "Rechtschutzinteresse"
       ],
       "properties": [
         "darf",
-        "ohne",
-        "benachteiligen"
+        "verletzt",
+        "erfüllt",
+        "erlitten",
+        "gezogen",
+        "betrifft",
+        "gestützt",
+        "sachlich nicht entgegen"
       ],
       "relationships": [
         [
-          "Miterfinder",
+          "Erfinder",
           "darf",
-          "Erfindung zum Patent anmelden"
+          "Patent anmelden"
         ],
         [
-          "Erfindung",
-          "ohne",
-          "Benachteiligung der anderen Miterfinder"
+          "Anmeldung",
+          "verletzt",
+          "Rechtsverletzung"
+        ],
+        [
+          "Rechtsverletzung",
+          "erfüllt",
+          "Schadenersatz"
+        ],
+        [
+          "Schadenersatz",
+          "betrifft",
+          "Vermögensnachteile"
+        ],
+        [
+          "Vermögensnachteile",
+          "erlitten",
+          "Erfinder"
+        ],
+        [
+          "Vorteile",
+          "gezogen",
+          "Beklagte"
+        ],
+        [
+          "Rechtschutzinteresse",
+          "gestützt",
+          "Schadenersatz"
+        ],
+        [
+          "Schadenersatz",
+          "sachlich nicht entgegen",
+          "Rechtsverletzung"
         ]
       ]
     },
@@ -670,48 +642,47 @@
   "1532441.xml": {
     "ontology": {
       "classes": [
-        "Urteil",
-        "Revision",
-        "Klage",
         "Pachtvertrag",
-        "Interesse"
+        "Kündigung",
+        "Berufungsgericht",
+        "Revision",
+        "Klägerin",
+        "Klage",
+        "Rechtskraft",
+        "Kostenentscheidung"
       ],
       "properties": [
         "beinhaltet",
-        "betrifft",
+        "beruht auf",
         "führt zu",
-        "beruht auf"
+        "hat Interesse an",
+        "umfaßt"
       ],
       "relationships": [
         [
-          "Revision",
-          "betrifft",
-          "Klage"
-        ],
-        [
-          "Klage",
+          "Berufungsgericht",
           "beinhaltet",
-          "Feststellung"
+          "Kündigung"
         ],
         [
-          "Feststellung",
-          "betrifft",
-          "Fortbestand"
-        ],
-        [
-          "Fortbestand",
-          "beinhaltet",
-          "Pachtvertrag"
-        ],
-        [
-          "Pachtvertrag",
+          "Kündigung",
           "führt zu",
-          "Rechtskraft"
+          "Beendigung von Pachtvertrag"
+        ],
+        [
+          "Klägerin",
+          "hat Interesse an",
+          "Feststellung von Fortbestand von Pachtvertrag"
         ],
         [
           "Rechtskraft",
+          "umfaßt",
+          "Grund und Zeitpunkt der Auflösung von Pachtvertrag"
+        ],
+        [
+          "Kostenentscheidung",
           "beruht auf",
-          "Urteil"
+          "§ 91 ZPO"
         ]
       ]
     },
@@ -723,31 +694,36 @@
   "1568706.xml": {
     "ontology": {
       "classes": [
-        "Urteil",
-        "Anspruch",
+        "Beklagter",
         "Freistellungserklärung",
-        "Verpflichtung"
+        "Klägerin",
+        "Verpflichtung",
+        "Schaden"
       ],
       "properties": [
-        "beinhaltet",
-        "basiert auf",
-        "begründet"
+        "hatVerpflichtung",
+        "verursacht"
       ],
       "relationships": [
         [
-          "Urteil",
-          "beinhaltet",
-          "Anspruch"
-        ],
-        [
-          "Anspruch",
-          "basiert auf",
+          "Beklagter",
+          "hatVerpflichtung",
           "Freistellungserklärung"
         ],
         [
           "Freistellungserklärung",
-          "begründet",
+          "beinhaltet",
           "Verpflichtung"
+        ],
+        [
+          "Verpflichtung",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Schaden",
+          "betrifft",
+          "Klägerin"
         ]
       ]
     },
@@ -766,25 +742,61 @@
         "Gefahrensituation"
       ],
       "properties": [
-        "verhindern",
-        "treffen",
-        "vorliegen"
+        "kannVerhindern",
+        "istHinreichend",
+        "istAbstraktGeneralisierend",
+        "entziehtFreiheit",
+        "bedarfGenehmigung",
+        "kannMindern",
+        "istSubstantiiert",
+        "istWahrscheinlichkeit",
+        "erhöhtGefahr"
       ],
       "relationships": [
         [
           "Altenheim",
-          "verhindern",
+          "kannVerhindern",
           "Sturz"
         ],
         [
           "Maßnahme",
-          "treffen",
-          "Altenheim"
+          "istHinreichend",
+          "kannVerhindern"
         ],
         [
-          "Gefahrensituation",
-          "vorliegen",
-          "Altenheim"
+          "Maßnahme",
+          "istAbstraktGeneralisierend",
+          "kannVerhindern"
+        ],
+        [
+          "Maßnahme",
+          "entziehtFreiheit",
+          "istAbstraktGeneralisierend"
+        ],
+        [
+          "Maßnahme",
+          "bedarfGenehmigung",
+          "istAbstraktGeneralisierend"
+        ],
+        [
+          "Maßnahme",
+          "kannMindern",
+          "Sturz"
+        ],
+        [
+          "Maßnahme",
+          "istSubstantiiert",
+          "kannMindern"
+        ],
+        [
+          "Maßnahme",
+          "istWahrscheinlichkeit",
+          "kannMindern"
+        ],
+        [
+          "Maßnahme",
+          "erhöhtGefahr",
+          "kannMindern"
         ]
       ]
     },
