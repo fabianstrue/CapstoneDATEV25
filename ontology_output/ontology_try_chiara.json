@@ -1,0 +1,1139 @@
+{
+  "1653713.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Verkauf",
+      "Verkaufspreis",
+      "Veräußerung",
+      "Vorkaufsrecht",
+      "Vermieter",
+      "Mieter",
+      "Dritter"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "verhindert",
+      "erfüllt",
+      "begründet",
+      "steht entgegen",
+      "erfordert"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Anspruch",
+        "basiert auf",
+        "Tatbestand"
+      ],
+      [
+        "Verkauf",
+        "beinhaltet",
+        "Verkaufspreis"
+      ],
+      [
+        "Verkauf",
+        "verhindert",
+        "Vorkaufsrecht"
+      ],
+      [
+        "Verkauf",
+        "begründet",
+        "Veräußerung"
+      ],
+      [
+        "Verkauf",
+        "erfordert",
+        "Vermieter"
+      ],
+      [
+        "Verkauf",
+        "erfordert",
+        "Mieter"
+      ],
+      [
+        "Verkauf",
+        "erfordert",
+        "Dritter"
+      ],
+      [
+        "Vorkaufsrecht",
+        "begründet",
+        "Mieter"
+      ],
+      [
+        "Vorkaufsrecht",
+        "steht entgegen",
+        "Verkauf"
+      ]
+    ]
+  },
+  "1596591.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Versorgungsvertrag",
+      "Grundstücksanschluss",
+      "Gebühr",
+      "Fixkosten",
+      "Billigkeit",
+      "Kalkulation",
+      "Wohnung",
+      "Leerstand",
+      "Verbrauchskosten",
+      "Rücksichtnahme",
+      "Vertragspartner",
+      "Lieferung",
+      "Leistung",
+      "Kaufpreisanspruch",
+      "Tarif",
+      "Versorgung",
+      "Trinkwasser",
+      "Grundpreis",
+      "Billigkeitskontrolle"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "festsetzt",
+      "bestimmt",
+      "erbringt",
+      "deckt",
+      "umlegt",
+      "folgt",
+      "regelt",
+      "ergibt",
+      "erbringt",
+      "steht",
+      "zeigt",
+      "berechtigt",
+      "vorzusehen",
+      "einfließen lässt",
+      "betrifft",
+      "betrifft",
+      "betrifft"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Versorgungsvertrag",
+        "basiert auf",
+        "Grundstücksanschluss"
+      ],
+      [
+        "Kläger",
+        "beansprucht",
+        "Gebühr"
+      ],
+      [
+        "Gebühr",
+        "basiert auf",
+        "Fixkosten"
+      ],
+      [
+        "Fixkosten",
+        "erbringt",
+        "Vorhalteleistung"
+      ],
+      [
+        "Gebühr",
+        "deckt",
+        "Vorhaltekosten"
+      ],
+      [
+        "Billigkeit",
+        "betrifft",
+        "Gebühr"
+      ],
+      [
+        "Kalkulation",
+        "erläutert",
+        "Werte"
+      ],
+      [
+        "Wohnung",
+        "betrifft",
+        "Leerstand"
+      ],
+      [
+        "Leerstand",
+        "betrifft",
+        "Verbrauchskosten"
+      ],
+      [
+        "Rücksichtnahme",
+        "betrifft",
+        "Vertragspartner"
+      ],
+      [
+        "Vertragspartner",
+        "schuldet",
+        "Kaufpreisanspruch"
+      ],
+      [
+        "Tarif",
+        "basiert auf",
+        "billiges Ermessen"
+      ],
+      [
+        "Billigkeitskontrolle",
+        "betrifft",
+        "Tarif"
+      ],
+      [
+        "Versorgung",
+        "berechtigt",
+        "Grundpreis"
+      ],
+      [
+        "Grundpreis",
+        "betrifft",
+        "Verbrauchskosten"
+      ]
+    ]
+  },
+  "1550917.xml": {
+    "classes": [
+      "Urteil",
+      "Schadensersatzforderung",
+      "Mitverschulden",
+      "Versenderin",
+      "Beklagte",
+      "Paket",
+      "Wertdeklaration",
+      "Haftung",
+      "Schadensersatzanspruch"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "unterlässt",
+      "droht",
+      "kürzt",
+      "bejaht",
+      "verneint"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Schadensersatzforderung"
+      ],
+      [
+        "Schadensersatzforderung",
+        "basiert auf",
+        "Mitverschulden"
+      ],
+      [
+        "Mitverschulden",
+        "basiert auf",
+        "Versenderin"
+      ],
+      [
+        "Versenderin",
+        "unterlässt",
+        "Wertdeklaration"
+      ],
+      [
+        "Wertdeklaration",
+        "droht",
+        "Haftung"
+      ],
+      [
+        "Haftung",
+        "kürzt",
+        "Schadensersatzanspruch"
+      ],
+      [
+        "Urteil",
+        "bejaht",
+        "Mitverschulden"
+      ],
+      [
+        "Mitverschulden",
+        "verneint",
+        "Wertdeklaration"
+      ]
+    ]
+  },
+  "1524814.xml": {
+    "classes": [
+      "Rechtsmittel",
+      "Schadensersatzanspruch",
+      "Versicherungsvertrag",
+      "Interesse",
+      "Versicherer",
+      "Versicherungsnehmer"
+    ],
+    "properties": [
+      "bleibt ohne Erfolg",
+      "geht auf",
+      "ist nicht einbezogen",
+      "hat genommen",
+      "kann davon ausgehen",
+      "steht offen"
+    ],
+    "relationships": [
+      [
+        "Rechtsmittel",
+        "bleibt ohne Erfolg",
+        "Erfolg"
+      ],
+      [
+        "Schadensersatzanspruch",
+        "geht auf",
+        "Versicherer"
+      ],
+      [
+        "Versicherungsvertrag",
+        "ist nicht einbezogen",
+        "Interesse"
+      ],
+      [
+        "Versicherungsnehmer",
+        "hat genommen",
+        "Versicherungsvertrag"
+      ],
+      [
+        "Versicherer",
+        "kann davon ausgehen",
+        "Versicherungsnehmer hat genommen"
+      ],
+      [
+        "Schadensersatzanspruch",
+        "steht offen",
+        "Rückgriff"
+      ]
+    ]
+  },
+  "1549422.xml": {
+    "classes": [
+      "Berufung",
+      "Entscheidung",
+      "Rechtsstreit",
+      "Veräußerung",
+      "Belastung",
+      "Vertrag",
+      "Lücke",
+      "Rücktritt",
+      "Zwangsvollstreckung",
+      "Zwangssicherungshypothek",
+      "Versprechen",
+      "Treu und Glauben"
+    ],
+    "properties": [
+      "führt zur",
+      "wird zur",
+      "ist beschränkt auf",
+      "beinhaltet",
+      "basiert auf",
+      "kann in die vertraglichen Regelungen einbezogen werden",
+      "eröffnet hat",
+      "ist verwehrt",
+      "kann herausverlangt werden"
+    ],
+    "relationships": [
+      [
+        "Berufung",
+        "führt zur",
+        "Aufhebung der angefochtenen Entscheidung"
+      ],
+      [
+        "Entscheidung",
+        "wird zur",
+        "Zurückverweisung des Rechtsstreits"
+      ],
+      [
+        "Veräußerung",
+        "ist beschränkt auf",
+        "das Verbot rechtsgeschäftlicher Veräußerung"
+      ],
+      [
+        "Belastung",
+        "beinhaltet",
+        "das Verbot rechtsgeschäftlicher Belastung"
+      ],
+      [
+        "Vertrag",
+        "beinhaltet",
+        "das Rücktrittsrecht"
+      ],
+      [
+        "Lücke",
+        "kann in die vertraglichen Regelungen einbezogen werden",
+        "die vertraglichen Regelungen"
+      ],
+      [
+        "Rücktritt",
+        "ist verwehrt",
+        "der Klägerin"
+      ],
+      [
+        "Zwangssicherungshypothek",
+        "eröffnet hat",
+        "den Rücktritt vom Übertragungsvertrag"
+      ],
+      [
+        "Versprechen",
+        "kann herausverlangt werden",
+        "das Grundstück"
+      ]
+    ]
+  },
+  "1503264.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Vertrag",
+      "Vertreter",
+      "Klägerin",
+      "Beklagte"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "genehmigt",
+      "betrifft",
+      "betrifft auch",
+      "betrifft nicht",
+      "betrifft nur",
+      "betrifft teilweise"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Anspruch",
+        "basiert auf",
+        "Tatbestand"
+      ],
+      [
+        "Vertrag",
+        "beinhaltet",
+        "Vertreter"
+      ],
+      [
+        "Vertreter",
+        "genehmigt",
+        "Vertrag"
+      ],
+      [
+        "Vertreter",
+        "betrifft",
+        "Vertrag"
+      ],
+      [
+        "Vertreter",
+        "betrifft nicht",
+        "Vertrag"
+      ],
+      [
+        "Vertreter",
+        "betrifft nur",
+        "Vertrag"
+      ],
+      [
+        "Vertreter",
+        "betrifft teilweise",
+        "Vertrag"
+      ],
+      [
+        "Klägerin",
+        "betrifft",
+        "Anspruch"
+      ],
+      [
+        "Beklagte",
+        "betrifft",
+        "Vertrag"
+      ]
+    ]
+  },
+  "1548573.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Gesetz",
+      "Verletzung"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "verletzt",
+      "betrifft"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Anspruch",
+        "basiert auf",
+        "Tatbestand"
+      ],
+      [
+        "Gesetz",
+        "betrifft",
+        "Verletzung"
+      ],
+      [
+        "Verletzung",
+        "basiert auf",
+        "Gesetz"
+      ]
+    ]
+  },
+  "1653040.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Klausel",
+      "Vertrag",
+      "Kunde",
+      "Verbraucher",
+      "Energieliefervertrag",
+      "Dauerschuldverhältnis",
+      "Kündigungsrecht",
+      "Preiserhöhung",
+      "Vertragsänderung",
+      "Formularbestimmung",
+      "Erklärungsfiktion"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "weicht ab",
+      "verstößt gegen",
+      "genügt den Anforderungen",
+      "räumt ein",
+      "gestattet",
+      "verhindert",
+      "führt zum",
+      "einerklärt",
+      "verpflichtet",
+      "eignet sich nicht",
+      "genügt nicht"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Anspruch",
+        "basiert auf",
+        "Tatbestand"
+      ],
+      [
+        "Klausel",
+        "weicht ab",
+        "wesentlichen Grundgedanken des § 41 Abs. 3 Satz 2 EnWG"
+      ],
+      [
+        "Klausel",
+        "verstößt gegen",
+        "§ 308 Nr. 5 BGB"
+      ],
+      [
+        "Klausel",
+        "genügt nicht",
+        "Transparenzanforderungen des § 307 Abs. 1 Satz 2 BGB"
+      ],
+      [
+        "Vertrag",
+        "eignet sich nicht",
+        "Formularbestimmung"
+      ],
+      [
+        "Kunde",
+        "räumt ein",
+        "Kündigungsrecht"
+      ],
+      [
+        "Preiserhöhung",
+        "verhindert",
+        "Fortsetzung des Vertragsverhältnisses"
+      ],
+      [
+        "Vertragsänderung",
+        "führt zum",
+        "Eintritt der Vertragsanpassung"
+      ],
+      [
+        "Formularbestimmung",
+        "eignet sich nicht",
+        "Erklärungsfiktion"
+      ]
+    ]
+  },
+  "1597921.xml": {
+    "classes": [
+      "Beschluss",
+      "Mängel",
+      "Stimme",
+      "Mehrheit",
+      "Wohnungseigentum",
+      "Rechtmittel",
+      "Abdingbarkeit",
+      "Gegenauffassung",
+      "Privatautonomie",
+      "Kosten"
+    ],
+    "properties": [
+      "greift durch",
+      "erfordert",
+      "beinhaltet",
+      "betrifft",
+      "stellt in Frage",
+      "erfolgt"
+    ],
+    "relationships": [
+      [
+        "Beschluss",
+        "greift durch",
+        "Mängel"
+      ],
+      [
+        "Mehrheit",
+        "beinhaltet",
+        "Stimme"
+      ],
+      [
+        "Wohnungseigentum",
+        "betrifft",
+        "Abdingbarkeit"
+      ],
+      [
+        "Gegenauffassung",
+        "stellt in Frage",
+        "Privatautonomie"
+      ],
+      [
+        "Kosten",
+        "erfolgt",
+        "auf § 97 Abs. 1 ZPO"
+      ]
+    ]
+  },
+  "1521870.xml": {
+    "classes": [
+      "Urteil",
+      "Antrag",
+      "Verpflichtung",
+      "Bindung",
+      "Mietvertrag",
+      "Vorvertrag",
+      "Gestaltungsfreiheit",
+      "Interesse"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "beschränkt",
+      "erfüllt",
+      "bindet",
+      "verfolgt",
+      "beachtet"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Antrag"
+      ],
+      [
+        "Antrag",
+        "basiert auf",
+        "Verpflichtung"
+      ],
+      [
+        "Verpflichtung",
+        "bindet",
+        "Mietvertrag"
+      ],
+      [
+        "Mietvertrag",
+        "beinhaltet",
+        "Vorvertrag"
+      ],
+      [
+        "Vorvertrag",
+        "bindet",
+        "Gestaltungsfreiheit"
+      ],
+      [
+        "Gestaltungsfreiheit",
+        "beachtet",
+        "Interesse"
+      ]
+    ]
+  },
+  "1500675.xml": {
+    "classes": [
+      "Revision",
+      "Klage",
+      "Antrag",
+      "Verletzungsform",
+      "Irreführung",
+      "Preisangabenverordnung"
+    ],
+    "properties": [
+      "beinhaltet",
+      "betrifft",
+      "verstoßt gegen",
+      "läßt sich herleiten"
+    ],
+    "relationships": [
+      [
+        "Revision",
+        "betrifft",
+        "Klage"
+      ],
+      [
+        "Klage",
+        "beinhaltet",
+        "Antrag"
+      ],
+      [
+        "Antrag",
+        "betrifft",
+        "Verletzungsform"
+      ],
+      [
+        "Irreführung",
+        "verstoßt gegen",
+        "Preisangabenverordnung"
+      ]
+    ]
+  },
+  "1652739.xml": {
+    "classes": [
+      "Revision",
+      "Berufungsurteil",
+      "Sache",
+      "Prämienrückerstattungsanspruch",
+      "Versicherer",
+      "Vertrag",
+      "Rechtsgrund",
+      "Prämienzahlung",
+      "Widerspruch",
+      "Widerspruchsrecht",
+      "Widerspruchsbelehrung",
+      "Gesetzliches Formerfordernis",
+      "Kündigung",
+      "Widerspruchsrecht",
+      "Leistungserbringung",
+      "Rückgewähranspruch",
+      "Verjährung",
+      "Versicherungsschutz"
+    ],
+    "properties": [
+      "führt zur",
+      "verneint",
+      "basiert auf",
+      "ist infolge",
+      "ist nicht wirksam zustande gekommen",
+      "beinhaltet",
+      "steht entgegen",
+      "kommt nicht in Betracht",
+      "ist nicht auf",
+      "entspricht",
+      "ist noch nicht verjährt",
+      "kann erst",
+      "entstand",
+      "hat Kenntnis",
+      "umfasst nicht uneingeschränkt",
+      "muss sich anrechnen lassen",
+      "kann bemessen werden",
+      "ist zur neuen Verhandlung und Entscheidung an"
+    ],
+    "relationships": [
+      [
+        "Revision",
+        "führt zur",
+        "Aufhebung des Berufungsurteils und zur Zurückverweisung der Sache an das Berufungsgericht"
+      ],
+      [
+        "Berufungsgericht",
+        "verneint",
+        "einen Prämienrückerstattungsanspruch aus ungerechtfertigter Bereicherung"
+      ],
+      [
+        "Prämienrückerstattungsanspruch",
+        "basiert auf",
+        "ungerechtfertigter Bereicherung"
+      ],
+      [
+        "Versicherer",
+        "beinhaltet",
+        "nicht ordnungsgemäß über das Widerspruchsrecht belehrt"
+      ],
+      [
+        "Vertrag",
+        "ist infolge",
+        "des Widerspruchs des VN nicht wirksam zustande gekommen"
+      ],
+      [
+        "Widerspruch",
+        "beinhaltet",
+        "das Widerspruchsrecht"
+      ],
+      [
+        "Widerspruchsrecht",
+        "steht entgegen",
+        "der Kündigung des Versicherungsvertrages"
+      ],
+      [
+        "Rückgewähranspruch",
+        "ist noch nicht verjährt",
+        "zu diesem Zeitpunkt"
+      ],
+      [
+        "Versicherungsschutz",
+        "umfasst nicht uneingeschränkt",
+        "alle gezahlten Prämien"
+      ],
+      [
+        "Sache",
+        "ist zur neuen Verhandlung und Entscheidung an",
+        "das Berufungsgericht"
+      ]
+    ]
+  },
+  "1659170.xml": {
+    "classes": [
+      "Urteil",
+      "Beschluss",
+      "Eigentum",
+      "Maßnahme",
+      "Kostenregelung"
+    ],
+    "properties": [
+      "beinhaltet",
+      "betrifft",
+      "entspricht",
+      "betrifft"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Beschluss"
+      ],
+      [
+        "Beschluss",
+        "betrifft",
+        "Maßnahme"
+      ],
+      [
+        "Maßnahme",
+        "entspricht",
+        "Eigentum"
+      ],
+      [
+        "Eigentum",
+        "betrifft",
+        "Kostenregelung"
+      ]
+    ]
+  },
+  "1578989.xml": {
+    "classes": [
+      "Berufungsgericht",
+      "Antrag",
+      "Teilungserklärung",
+      "Sondernutzungsrecht",
+      "Bestimmtheitsgebot",
+      "Eigentümer",
+      "Fläche",
+      "Grundbuch"
+    ],
+    "properties": [
+      "hält",
+      "beinhaltet",
+      "basiert auf",
+      "genügt",
+      "verstößt gegen",
+      "fehlt"
+    ],
+    "relationships": [
+      [
+        "Berufungsgericht",
+        "hält",
+        "Antrag"
+      ],
+      [
+        "Antrag",
+        "beinhaltet",
+        "Teilungserklärung"
+      ],
+      [
+        "Teilungserklärung",
+        "basiert auf",
+        "Sondernutzungsrecht"
+      ],
+      [
+        "Sondernutzungsrecht",
+        "verstößt gegen",
+        "Bestimmtheitsgebot"
+      ],
+      [
+        "Eigentümer",
+        "genügt",
+        "Bestimmtheitsgebot"
+      ],
+      [
+        "Fläche",
+        "fehlt",
+        "Bestimmtheitsgebot"
+      ],
+      [
+        "Teilungserklärung",
+        "basiert auf",
+        "Grundbuch"
+      ]
+    ]
+  },
+  "1559224.xml": {
+    "classes": [
+      "Revision",
+      "Senat",
+      "Entscheidung",
+      "Sache",
+      "Vorstandsmitglied",
+      "Schriftform",
+      "Vertrag",
+      "Kündigung",
+      "Mietverhältnis"
+    ],
+    "properties": [
+      "hat Erfolg",
+      "kann entscheiden",
+      "hat nicht klargestellt",
+      "war nicht gewahrt",
+      "konnte gekündigt werden",
+      "endete"
+    ],
+    "relationships": [
+      [
+        "Revision",
+        "hat Erfolg",
+        "Entscheidung"
+      ],
+      [
+        "Senat",
+        "kann entscheiden",
+        "Sache"
+      ],
+      [
+        "Vorstandsmitglied",
+        "hat nicht klargestellt",
+        "Schriftform"
+      ],
+      [
+        "Vertrag",
+        "konnte gekündigt werden",
+        "Kündigung"
+      ],
+      [
+        "Mietverhältnis",
+        "endete",
+        "30. September 2006"
+      ]
+    ]
+  },
+  "1654866.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Rückwirkungsfiktion",
+      "Notlagentarif",
+      "Versicherungsnehmer",
+      "Versicherungsvertrag"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "erfasst",
+      "gilt",
+      "verfügt über",
+      "führt zu"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Anspruch",
+        "basiert auf",
+        "Tatbestand"
+      ],
+      [
+        "Rückwirkungsfiktion",
+        "erfasst",
+        "Versicherungsvertrag"
+      ],
+      [
+        "Notlagentarif",
+        "gilt",
+        "Versicherungsnehmer"
+      ],
+      [
+        "Versicherungsvertrag",
+        "verfügt über",
+        "Versicherungsnehmer"
+      ],
+      [
+        "Rückwirkungsproblematik",
+        "führt zu",
+        "enger Auslegung"
+      ]
+    ]
+  },
+  "1548575.xml": {
+    "classes": [
+      "Mieterhöhungsverlangen",
+      "Miete",
+      "ortsübliche Vergleichsmiete",
+      "Wartefrist"
+    ],
+    "properties": [
+      "beinhaltet",
+      "liegt unter",
+      "überschreitet",
+      "wird beachtet",
+      "wird nicht vollständig ausgeschöpft"
+    ],
+    "relationships": [
+      [
+        "Mieterhöhungsverlangen",
+        "beinhaltet",
+        "Wartefrist"
+      ],
+      [
+        "Miete",
+        "liegt unter",
+        "ortsübliche Vergleichsmiete"
+      ],
+      [
+        "ortsübliche Vergleichsmiete",
+        "überschreitet",
+        "Miete"
+      ],
+      [
+        "Klägerin",
+        "beachtet",
+        "Wartefrist"
+      ],
+      [
+        "Vermieter",
+        "schöpft nicht vollständig aus",
+        "Miete"
+      ]
+    ]
+  },
+  "0963480.xml": {
+    "classes": [
+      "Urteil",
+      "Mietvertrag",
+      "Mietmangel",
+      "Minderung",
+      "Aufrechnung"
+    ],
+    "properties": [
+      "beinhaltet",
+      "betrifft",
+      "beeinträchtigt",
+      "rechtfertigt"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Mietvertrag"
+      ],
+      [
+        "Mietvertrag",
+        "betrifft",
+        "Mietmangel"
+      ],
+      [
+        "Mietmangel",
+        "beeinträchtigt",
+        "Minderung"
+      ],
+      [
+        "Minderung",
+        "rechtfertigt",
+        "Aufrechnung"
+      ]
+    ]
+  },
+  "1585808.xml": {
+    "classes": [
+      "Urteil",
+      "Anspruch",
+      "Tatbestand",
+      "Gutachten",
+      "Schaden",
+      "Fahrlässigkeit"
+    ],
+    "properties": [
+      "beinhaltet",
+      "basiert auf",
+      "führt zu",
+      "verursacht",
+      "beeinträchtigt"
+    ],
+    "relationships": [
+      [
+        "Urteil",
+        "beinhaltet",
+        "Tatbestand"
+      ],
+      [
+        "Anspruch",
+        "basiert auf",
+        "Tatbestand"
+      ],
+      [
+        "Gutachten",
+        "verursacht",
+        "Schaden"
+      ],
+      [
+        "Schaden",
+        "beeinträchtigt",
+        "Gutachten"
+      ],
+      [
+        "Fahrlässigkeit",
+        "führt zu",
+        "Schaden"
+      ]
+    ]
+  }
+}
