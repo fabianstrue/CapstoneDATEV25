@@ -1,84 +1,8 @@
-Dokument: 1548765.xml
-Frage: Welche Betriebskostenarten können nach dem Abflussprinzip abgerechnet werden?
-Quelle: "Die Betriebskostenabrechnung vereinfacht sich dadurch jedenfalls für bestimmte Betriebskostenarten für den Vermieter unter Umständen erheblich."
+Dokument-ID: 1538689.xml
 
-Dokument: 1549417.xml
-1. **CQ:** Wann ist eine Betriebskostenabrechnung formell unvollständig und damit unwirksam?
-**Quelle:** "Die Abrechnung des Hausverwalters der Klägerin vom 5. November 2004 ... gerechtfertigt, diesen Fall anders zu beurteilen als den Fall, dass der in der Abrechnung verwendete und angegebene Verteilerschlüssel von dem im Mietvertrag vereinbarten abweicht."
+Dokument-ID: 1529410.xml
 
-Dokument: 1567715.xml
-Frage: Wer ist berechtigt, die Miete zu mindern, wenn die tatsächliche Wohnfläche von der vereinbarten abweicht?
-Quelle: ["Der Kläger habe gegen die Beklagte einen Anspruch auf Zahlung der Nettokaltmiete für August 2007 in Höhe von 390 € sowie der Nettokaltmiete für September 2007 in Höhe von 259,63 € und der Nachforderung aus der Betriebskostenabrechnung 2006 in (geminderter) Höhe von 84,06 €."]
+Dokument-ID: 1584587.xml
 
-Dokument: 1658302.xml
-1. **CQ:** Wer hat die Verpflichtung, Überführungs- und Zulassungskosten zu tragen, wenn ein Leasingfahrzeug an einen Leasingnehmer übergeben wird?
-Quelle: "Dass die Beklagte sich durch die fragliche Passage des von der Leasinggeberin vorformulierten Bestellformulars zur Zahlung dieser Kosten gegenüber der Klägerin als Dritter verpflichtet habe, lasse sich schon dem Wortlaut nicht entnehmen."
-
-Dokument: 1569756.xml
-Frage: Wann ist die Klägerin zur Zahlung der Prozesskosten des Räumungsrechtsstreits verpflichtet?
-Quelle: "Die Klägerin könne lediglich diejenigen Rechtsanwaltskosten erstatten verlangen, die ihr seinerzeit im Räumungsrechtsstreit als Kosten des eigenen Rechtsanwalts entstanden seien."
-
-Dokument: 1681077.xml
-Frage: Welche Anforderungen müssen für eine wirksame Kündigung eines Arbeitsvertrags aufgrund von betriebsbedingten Gründen erfüllt sein?
-Quelle: ["Eine Kündigung aus betriebsbedingten Gründen ist wirksam, wenn sie sozial gerechtfertigt ist, § 1 Abs. 2 KSchG."]
-
-Dokument: 1536966.xml
-Frage: Wer ist berechtigt, einen Berufungsantrag zu stellen?
-Quelle: ["Der Streitgegenstand eines Berufungsverfahrens ergibt sich zunächst aus den in der Berufungsbegründung zwingend enthaltenen Berufungsanträgen (§§ 520 Abs. 3 Nr. 1, 528 ZPO)."]
-
-Dokument: 1525185.xml
-Frage: Welche Auswirkungen hat die Funktionsunfähigkeit der Hand im Handgelenk auf die Invaliditätsentschädigung?
-Quelle: ["Die Ausstrahlungen der Funktionsbeeinträchtigung der Hand im Handgelenk auf den ganzen Arm sind für die Invaliditätsentschädigung unbeachtlich."]
-
-Dokument: 0960919.xml
-Frage: Welche Beweislastverteilung gilt im Verhältnis zwischen Vermieter und Mieter bei Schadensersatzansprüchen?
-Quelle: ["An dieser grundsätzlichen Beweislastverteilung im Verhältnis zwischen Vermieter und Mieter ändere sich nichts dadurch, dass der ausgleichsberechtigte Versicherer Zahlung vom ausgleichspflichtigen Versicherer verlange."]
-
-Dokument: 1541664.xml
-Frage: Welche Anforderungen müssen von einem Mieter erfüllt werden, um einen Anspruch auf Zahlung von Betriebskosten geltend zu machen?
-Quelle: ["Entgegen der Auffassung des Berufungsgerichts fehlt es der Nachforderung der Kläger aus der Abrechnung vom 9. Dezember 2002 nicht deshalb an der Fälligkeit, weil die Kläger dem Verlangen der Beklagten nach Übersendung von Kopien der Abrechnungsbelege nicht nachgekommen sind."]
-
-Dokument: 1682044.xml
-Frage: Wer ist verpflichtet, die Kosten für die Beseitigung einer Mangelbeseitigung zu tragen, wenn der Mieter die Mängelrüge nicht rechtzeitig vorgenommen hat?
-Quelle: ["Der Mieter hat die Kosten für die Beseitigung des Mangels zu tragen, wenn er die Mängelrüge nicht rechtzeitig vorgenommen hat (§ 536a Abs. 2 BGB)."]
-
-Dokument: 1570226.xml
-Frage: Wann ist eine Klage gegen die Wohnungseigentümergemeinschaft rechtmäßig, obwohl sie zunächst gegen die Wohnungseigentümergemeinschaft gerichtet war?
-Quelle: ["Die Klage sei nicht, wie in § 46 Abs. 1 Satz 1 WEG vorgeschrieben, gegen die übrigen Wohnungseigentümer, sondern gegen die Wohnungseigentümergemeinschaft gerichtet gewesen."]
-
-Dokument: 1521301.xml
-Frage: Wer ist verpflichtet, die Sondernutzungsfläche in der Teilungserklärung festzulegen?
-Quelle: "Die den Klägern zu verschaffende Sondernutzungsfläche ist in dem eine Anlage zum Kaufvertrag bildenden Lageplan eingezeichnet; sie wird nach der vertraglichen Regelung von den Markierungspunkten 28, 27, 20, 49, 48 und 29 begrenzt. Da in dem Lageplan das Gesamtgrundstück, das später in Miteigentumsanteile für die Wohnungseigentümer aufgeteilt werden sollte, die Sondernutzungsflächen der übrigen Wohnungseigentümer und die Lage der zu errichtenden Wohnhäuser eingezeichnet sind, können die ungefähre Größe und Lage der streitigen Fläche ermittelt werden. Daß sie nicht maßstabsgerecht dargestellt ist, ist schon auf den ersten Blick offensichtlich; es fehlt nämlich die Angabe eines bestimmten Maßstabs und einer Seitenlänge der Sondernutzungsfläche. Gleichwohl waren sich die Vertragsparteien darüber einig, daß für die Käufer an dieser Fläche ein Sondernutzungsrecht begründet werden sollte. Auch bestand zwischen ihnen Einigkeit darüber, daß die Fläche anhand der nicht maßstabsgerechten Skizze erst noch in der von der Beklagten aufzustellenden Teilungserklärung festgelegt werden sollte."
-
-Dokument: 1596648.xml
-Frage: Wie hat das Berufungsgericht seine Entscheidung begründet?
-Quelle: "Das Berufungsgericht hat seine Entscheidung wie folgt begründet..."
-
-Dokument: 1544176.xml
-Frage: Welche Voraussetzungen müssen erfüllt sein, damit eine Kapitalerhöhung wirksam ist?
-Quelle: ["Die Beklagte zu 1 hat die von ihr anlässlich der Kapitalerhöhung vom 13. März 1995 übernommene Einlageverbindlichkeit in Höhe von 950.000,00 DM nicht durch die ursprüngliche (Vor-)Einzahlung vom 1. März 1995 erfüllt."]
-
-Dokument: 1590874.xml
-Frage: Welche Rechtsfolge tritt ein, wenn eine Partei einer Vereinbarung über die Leistung einer Sicherheit diese sofort nach Hingabe mit der Begründung zurückfordert, dass die gesicherten Forderungen nicht begründet oder nicht prüffähig dargelegt sind?
-Quelle: ["Es ist nicht nachvollziehbar und wird vom Berufungsgericht nicht näher begründet, warum es dem Interesse und dem Willen der Parteien entsprechen sollte, eine solche Verfahrensweise zu vereinbaren."]
-
-Dokument: 1526301.xml
-Frage: Wann liegt eine Eigentumsbeeinträchtigung vor, wenn Signale durch ein fremdes Kabelnetz geleitet werden?
-Quelle: ["Die Klägerin hat ein Kabelnetz der Ebene 4 mit einer dem vorgelagerten Kabelnetz der Ebene 3 entsprechenden Bandbreite errichtet und die Zusammenschaltung beider Netzebenen veranlaßt. Dies führt aufgrund der technischen Gegebenheiten zwangsläufig dazu, daß sämtliche in die Netzebene 3 eingespeisten Signale, auf deren Zusammensetzung die Klägerin keinen Einfluß hat, auch in das Kabelnetz der Klägerin eingeleitet und darin bis zu den Antennendosen der angeschlossenen Wohnungen weitergeleitet werden."]
-
-Dokument: 1657134.xml
-Frage: Wer ist für die Anmeldung einer Erfindung zum Patent berechtigt, wenn mehrere Personen an der Erfindung beteiligt sind?
-Quelle: "Die Verwaltung des gemeinschaftlichen Gegenstands steht den Teilhabern nach § 744 Abs. 1 BGB grundsätzlich gemeinschaftlich zu; nur die zur Erhaltung des Gegenstands notwendigen Maßregeln darf nach § 744 Abs. 2 BGB jeder Teilhaber ohne Zustimmung der anderen treffen."
-
-Dokument: 1532441.xml
-Frage: Welche Voraussetzungen müssen für eine ordentliche Kündigung eines Pachtvertrages erfüllt sein?
-Quelle: ["Das Berufungsgericht ist davon ausgegangen, daß der Beklagte nach dreißigjähriger Vertragsdauer zur Kündigung in der gesetzlichen Frist berechtigt gewesen sei und der Pachtvertrag somit gemäß §§ 581 Abs. 2, 567 a.F., 584 BGB durch die ordentliche Kündigung des Beklagten vom 21. Juli 2000 zum Ende des Pachtjahres mit Wirkung zum 17. April 2001 beendet worden sei."]
-
-Dokument: 1568706.xml
-Frage: Welche Verpflichtungen hat eine Partei, die sich im Rahmen einer Freistellungserklärung bereit erklärt, einen Dritten von Ansprüchen freizustellen?
-Quelle: ["Die Beklagte war aufgrund der von ihr gegenüber der Klägerin abgegebenen Freistellungserklärung nicht nur berechtigt, sondern auch verpflichtet, die von der T. erhobenen Ansprüche anstelle der Klägerin abzuwehren und sich zu diesem Zweck an dem in B. geführten Rechtsstreit zu beteiligen."]
-
-Dokument: 1535555.xml
-Frage: Welche Verpflichtungen hat ein Altenheim gegenüber seinen Bewohnern bezüglich des Schutzes der körperlichen Unversehrtheit?
-Quelle: "aus den jeweiligen Heimverträgen Obhutspflichten zum Schutz der körperlichen Unversehrtheit der ihm anvertrauten Heimbewohner erwuchsen"
+Dokument-ID: 0164602.xml
 
