@@ -1,8 +1,80 @@
-Dokument-ID: 1538689.xml
+Dokument: 1538689.xml
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein nicht im Grundbuch eingetragener Eigentümer eine (Rück-)Auflassung verlangen kann?
+**Quelle:** "§ 894 BGB bietet dem nicht im Grundbuch eingetragenen Eigentümer auch die Möglichkeit, (Rück-)Auflassung zu verlangen."
 
-Dokument-ID: 1529410.xml
+Dokument: 1529410.xml
+1. **Frage:** Welche Rechtsgrundlage verschafft dem Überbauenden das Eigentum an einem auf fremdem Grundstück stehenden Gebäude?
+**Quelle:** "Die Zustimmung des Grundstückseigentümers zur Überbauung seines Grundstücks (rechtmäßiger Überbau) führt nach der ständigen Rechtsprechung des Senats dazu, daß der Überbauende entgegen der Grundregel der §§ 946, 94 Abs. 1 BGB Eigentümer des auf dem Nachbargrundstück stehenden Gebäudeteils wird (§ 95 Abs. 1 Satz 2 BGB entspr.)."
 
-Dokument-ID: 1584587.xml
+Dokument: 1584587.xml
+1. **Frage:** Wer ist für die Zahlung der Zollgebühren verantwortlich, wenn die Klägerin die Verzollung im Auftrag der Beklagten durchführt?
+**Quelle:** "Die Klägerin hat die W. B.V. mit der Durchführung der Verzollung in den Niederlanden beauftragt und gegen diese mit Bescheid der niederländischen Zollbehörden Zollgebühren in Höhe von 389.973,70 € festgesetzt worden sind."
 
-Dokument-ID: 0164602.xml
+Dokument: 0164602.xml
+1. **Frage:** Welche Rolle spielt die Rechnungstellung durch den Beklagten in Bezug auf seine Haftung für die Verwendung der Baugelder durch die GmbH?
+**Quelle:** "Entgegen der Auffassung des Berufungsgerichts war allein die Ausstellung der Rechnung durch den Beklagten nicht geeignet, für ihn eine sittliche Pflicht zur Überwachung der Mittelverwendung durch die GmbH zu begründen."
+
+Dokument: 1502915.xml
+1. **Frage:** Wer ist verpflichtet, die Kosten für die Nachbesserung von Mängeln zu tragen, die durch eine mangelhafte Werkleistung verursacht wurden?
+**Quelle:** "Die Beklagte hat behauptet, die auf Werklohn verklagte Bauherrin habe erhebliche Mängel der Carports gerügt. Wegen der Mängel sei sie genötigt gewesen, in einem Vergleich mit der Bauherrin ihre eigene Werklohnforderung von 53.185,83 DM um 33.185,83 DM zu mindern."
+
+Dokument: 1544173.xml
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Frachtvertrag i.S. von § 407 HGB zwischen der Klägerin und der Beklagten zustande kommt?
+**Quelle:** "Die Parteien hätten - zumindest konkludent - einen Frachtvertrag i.S. von § 407 HGB abgeschlossen."
+
+Dokument: 1538980.xml
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit eine Stammkapitalerhöhung im Interesse der Gesellschaft liegt?
+**Quelle:** "Die Stammkapitalerhöhung der Beklagten lag im Interesse der Gesellschaft."
+
+Dokument: 1577737.xml
+1. **Frage:** Welche Haftungsquote hat der Schädiger im vorliegenden Fall?
+**Quelle:** "Das Berufungsgericht billigt dem Kläger gemäß § 7 Abs. 1, § 17 Abs. 1 StVG i.V.m. § 115 Abs. 1 VVG einen Anspruch auf Ersatz von 40 % des ihm entstandenen Schadens zu."
+
+Dokument: 1568560.xml
+1. **Frage:** Welche Rolle spielt der Verwaltungsrat der Beklagten bei der Entscheidung über die Zuteilung von Bonuspunkten?
+**Quelle:** "Die Entscheidung darüber, wie die Rückstellung verwendet wird, hat nach § 69 Abs. 2 Satz 3 VBLS der Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen."
+
+Dokument: 1503814.xml
+1. **Frage:** Welche konkreten Sicherungsvorkehrungen müssen bei Absturzhöhen von mehr als 5,00 m nach § 12 Abs. 1 Nr. 5 UVV getroffen werden?
+**Quelle:** "§ 12 Abs. 1 Nr. 5 UVV fordert, dass 'beim Mauern über die Hand' ... Einrichtungen vorhanden sein müssen, die ein Abstürzen von Personen verhindern."
+
+Dokument: 1679245.xml
+1. **Frage:** Welche Rechtsgrundlage gilt für die Kündigung eines Mietverhältnisses aufgrund von Eigenbedarf?
+**Quelle:** "Die Kündigung eines Mietverhältnisses aufgrund von Eigenbedarf ist nach § 568 BGB möglich."
+
+Dokument: 1591286.xml
+1. **Frage:** Unter welchen Voraussetzungen liegt eine arglistige Täuschung über die Wohnfläche vor, wenn Räume als Wohnraum angepriesen werden, obwohl die notwendige baurechtliche Genehmigung fehlt?
+**Quelle:** "Denn die Baubehörde kann die Nutzung jedenfalls bis zur Erteilung der Genehmigung untersagen - und zwar unabhängig davon, ob eine Genehmigung unter Zulassung einer Ausnahme hätte erteilt werden können."
+
+Dokument: 1532693.xml
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Immobilienfondsbeitritt und dessen Finanzierung durch ein Kreditgeschäft als verbundenes Geschäft i.S.v. § 9 Abs. 1, Abs. 3 VerbrKrG gelten?
+**Quelle:** "Das Berufungsgericht geht mit Recht davon aus, daß der Beitritt zu einem Immobilienfonds und dessen Finanzierung durch ein Kreditgeschäft grundsätzlich ein verbundenes Geschäft i.S. von § 9 Abs. 1, Abs. 3 VerbrKrG sein können."
+
+Dokument: 1530922.xml
+1. **Frage:** Welche ärztlichen Leistungen können neben der Radikaloperation der bösartigen Schilddrüsengeschwulst abgerechnet werden?
+**Quelle:** "Die in den Gebührennummern 2760, 2583 und 2803 angeführten Leistungen neben der in Nr. 2757 beschriebenen Leistung, der Radikaloperation der bösartigen Schilddrüsengeschwulst - einschließlich Ausräumung der regionären Lymphstromgebiete und gegebenenfalls der Nachbarorgane -"
+
+Dokument: 1545854.xml
+1. **Frage:** Unter welchen Bedingungen kann eine schenkungsrechtliche Übertragung eines Anwartschaftsrechts wirksam sein?
+**Quelle:** "Ein Gesellschafter haftet für die von ihm schuldhaft verursachten Schäden gegenüber der Gesellschaft gemäß § 280 Abs. 1 BGB."
+
+Dokument: 1547956.xml
+1. **Frage:** Unter welchen Voraussetzungen kann ein Käufer nach § 437 Nr. 3 in Verbindung mit §§ 440, 280, 281, 283 und 311a BGB einen Anspruch auf Ersatz eines Nutzungsausfallschadens geltend machen, obwohl er bereits nach § 437 Nr. 2 in Verbindung mit §§ 440, 323 und 326 Abs. 5 BGB vom Kaufvertrag zurückgetreten ist?
+**Quelle:** "Entgegen der Auffassung des Berufungsgerichts kommt ein Anspruch des Käufers auf Ersatz eines Nutzungsausfallschadens nach § 437 Nr. 3 in Verbindung mit §§ 440, 280, 281, 283 und 311a BGB auch dann in Betracht, wenn der Käufer nach § 437 Nr. 2 in Verbindung mit §§ 440, 323 und 326 Abs. 5 BGB vom Kaufvertrag zurückgetreten ist."
+
+Dokument: 1669816.xml
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit eine Reise als vereitelt gilt?
+**Quelle:** "Kann oder will der Reiseveranstalter den Reisevertrag nicht ordnungsgemäß erfüllen, z.B. infolge einer Überbuchung, und führt dies dazu, dass der Kunde die Reise nicht antritt, so wird die Reise vereitelt."
+
+Dokument: 1547349.xml
+1. **Frage:** Welche Bedeutung hat die Abtretung eines Pflichtteilsanspruchs im Rahmen eines Klagenantrags?
+**Quelle:** "Der Kläger hat erst- und zweitinstanzlich unter Vorlage einer Kopie eines Abtretungsvertrages vom 28. Juli 2004 vorgetragen, dass sein Bruder den ihm zustehenden Pflichtteilsanspruch an ihn abgetreten habe."
+
+Dokument: 1502510.xml
+1. **Frage:** Welche Rechtsgrundlage rechtfertigt den Schadensersatzanspruch der Kläger aufgrund des Unfalls?
+**Quelle:** "Die Voraussetzungen eines Schadensersatzanspruchs der Kläger aus § 823 Abs. 1 BGB wegen Verletzung eines eigenen deliktsrechtlich geschützten Rechtsgutes sind hinsichtlich keiner der noch streitigen Schadenspositionen erfüllt."
+
+Dokument: 1588857.xml
+1. **Frage:** Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf eine Bank?
+**Quelle:** "Da die A. AG nicht im Pflichtenkreis der Beklagten tätig geworden sei, scheide eine Zurechnung etwaiger Beratungsfehler der A. AG nach § 278 BGB aus."
 
