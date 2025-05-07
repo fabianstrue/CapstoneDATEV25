@@ -1,0 +1,200 @@
+Dokument-ID: 1576929.xml
+
+- Frage: 
+  Quelle: 
+
+- Frage: Welche Voraussetzungen müssen erfüllt sein, damit eine fristlose Kündigung des Krankheitskostenversicherungsvertrages nach § 314 Abs. 1 BGB möglich ist?
+  Quelle: "Das Recht der Beklagten zur fristlosen Kündigung des Krankheitskostenversicherungsvertrages gemäß § 314 Abs. 1 BGB ist nicht durch § 206 Abs. 1 Satz 1 VVG ausgeschlossen."
+
+- Frage: 
+  Quelle: 
+
+- Frage: Wie kann der Versicherer seine Rechte durchsetzen, wenn der Versicherungsnehmer seine vertraglichen Pflichten verletzt hat?
+  Quelle: "Dem Versicherer bleibt daher auch im Bereich der Pflichtversicherung nach § 193 Abs. 3 VVG das Recht zum Rücktritt vom Vertrag bzw. der Anfechtung wegen arglistiger Täuschung bei Verletzung der Anzeigepflicht anlässlich des Vertragsschlusses erhalten."
+
+- Frage: 
+  Quelle: 
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1653713.xml
+
+- Frage: ** Wer ist verpflichtet, den Mieter unverzüglich über den Inhalt des mit einem Dritten geschlossenen Kaufvertrags zu unterrichten, wenn ein Vorkaufsrecht des Mieters nach § 577 Abs. 1 Satz 1 BGB besteht?
+  Quelle: **** "Der Vermieter ist nach diesen Vorschriften, sofern ein Vorkaufsrecht des Mieters nach § 577 Abs. 1 Satz 1 BGB besteht, verpflichtet, den Mieter unverzüglich über den Inhalt des mit dem Dritten geschlossenen Kaufvertrags zu unterrichten."
+
+- Frage: ** Wie lange besteht der Auskunftsanspruch des Mieters über den Inhalt des Kaufvertrags zwischen Vermieter und Dritten, wenn er sein Vorkaufsrecht nicht mehr realisieren kann?
+  Quelle: **** "Der damit korrespondierende Auskunftsanspruch des Mieters erlischt im Hinblick auf den Sinn und Zweck der gesetzlich vorgeschriebenen Mitteilungspflicht nicht bereits dann, wenn der Mieter sein Vorkaufsrecht nicht mehr realisieren kann."
+
+- Frage: ** Unter welchen Bedingungen steht dem Mieter ein Vorkaufsrecht gemäß § 577 Abs. 1 Satz 1 BGB zu?
+  Quelle: **** "Der Mieter ist nach § 577 Abs. 1 Satz 1 BGB unter zwei - gleichberechtigt nebeneinander stehenden - Alternativen zum Vorkauf berechtigt."
+
+- Frage: ** Was muss der Vermieter dem Mieter mitteilen, wenn er die Wohnung an einen Dritten verkauft und der Mieter ein Vorkaufsrecht hat?
+  Quelle: **** "Der Vermieter ist ... verpflichtet, den Mieter unverzüglich über den Inhalt des mit dem Dritten geschlossenen Kaufvertrags zu unterrichten."
+
+- Frage: ** Wie kann der Mieter Ersatz für die Differenz zwischen dem Kaufpreis und dem Verkehrswert der Wohnung beanspruchen, wenn er infolge einer Verletzung der Mitteilungspflichten erst nach Übereignung der Wohnung an den Dritten Kenntnis vom Vorkaufsrecht erlangt hat?
+  Quelle: **** "Der Mieter kann ... als Erfüllungsschaden Ersatz der Differenz zwischen dem Kaufpreis und dem Verkehrswert der Wohnung beanspruchen."
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1596591.xml
+
+- Frage: 
+  Quelle: 
+
+- Frage: Welche Verpflichtungen hat der Kläger als Versorgungsunternehmen im Hinblick auf die Festsetzung von Gebühren nach § 14 SächsKAG?
+  Quelle: ["Der Kläger hat seine Gebühren in zulässiger Weise festgesetzt."]
+
+- Frage: 
+  Quelle: 
+
+- Frage: Wie ist die Erhebung von kombinierten Grund- und Verbrauchspreisen im Rahmen des Sächsischen Kommunalabgabengesetzes (SächsKAG) zu bewerten?
+  Quelle: ["Die Erhebung von kombinierten Grund- und Verbrauchspreisen ist nicht zu beanstanden."]
+
+- Frage: 
+  Quelle: 
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1550917.xml
+
+- Frage: ** Wer ist verantwortlich für die Einhaltung der Sorgfaltspflichten im Falle einer Wertdeklaration im EDI-Verfahren?
+  Quelle: **** "Die Beklagte hat nicht dargetan, auf welche Weise sie sicherstelle, dass auch in diesem Verfahren Wertpakete mit erhöhter Beförderungssicherheit transportiert würden."
+
+- Frage: ** Was gilt als ungewöhnlich hoher Schaden im Sinne des § 425 Abs. 1 HGB?
+  Quelle: **** "Die Gefahr eines besonders hohen Schadens sei anzunehmen, wenn der Wert der Sendung 5.000 EUR übersteige."
+
+- Frage: ** Wie ist die Haftung des Transportunternehmens zu beurteilen, wenn der Versender den ungewöhnlich hohen Wert des Gutes nicht angibt?
+  Quelle: **** "Die Ursächlichkeit des Mitverschuldens nur dann fehlt, wenn der Transporteur trotz eines Hinweises auf den ungewöhnlichen Wert des Gutes keine besonderen Maßnahmen ergriffen hätte."
+
+- Frage: ** Warum ist eine Abwägung der Verursachungs- und Verschuldensanteile im Schadensersatzrecht wichtig?
+  Quelle: **** "Die Haftungsabwägung nach § 254 BGB ist grundsätzlich Sache des Tatrichters."
+
+- Frage: ** Welche Bedeutung hat der Wert der transportierten Ware bei der Haftungsabwägung im Schadensersatzrecht?
+  Quelle: **** "Der Wert der transportierten Ware ist bei der Haftungsabwägung von Bedeutung."
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1524814.xml
+
+- Frage: 
+  Quelle: 
+
+- Frage: Welche Voraussetzungen müssen erfüllt sein, damit der Schadensersatzanspruch der versicherten S. GmbH auf die Klägerin übergeht?
+  Quelle: ["Das Rechtsmittel bleibt ohne Erfolg. I. Nach Auffassung des Berufungsgerichts ist der Schadensersatzanspruch der versicherten S. GmbH gemäß § 67 VVG auf die Klägerin übergegangen."]
+
+- Frage: 
+  Quelle: 
+
+- Frage: Wie ist das Sachersatzinteresse der Beklagten in der Transportversicherung einbezogen?
+  Quelle: ["Die Beklagte habe ihr sich im Schadensfall aktualisierendes Sachersatzinteresse über die betriebliche Haftpflichtversicherung eingedeckt, so daß für eine nochmalige Einbeziehung des Interesses in die Transportversicherung - mit dem Ergebnis einer Doppelversicherung - kein Bedürfnis bestanden habe."]
+
+- Frage: 
+  Quelle: 
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1549422.xml
+
+- Frage: 
+  Quelle: 
+
+- Frage: Unter welchen Umständen kann eine notarielle Vereinbarung dahingehend ausgelegt werden, dass sie nicht auf das Verbot rechtsgeschäftlicher Veräußerung oder Belastung beschränkt ist?
+  Quelle: "Die Berufung führt zur Aufhebung der angefochtenen Entscheidung und zur Zurückverweisung des Rechtsstreits an das Berufungsgericht, dem auch die Entscheidung über die Kosten des Revisionsverfahrens zu übertragen ist."
+
+- Frage: 
+  Quelle: 
+
+- Frage: Wie kann eine planwidrige Lücke in einer Individualvereinbarung ausgefüllt werden, ohne dass sie sich in Widerspruch zum tatsächlich Vereinbarten setzt?
+  Quelle: "Die Ausfüllung der Regelungslücke hatte nach dem hypothetischen Parteiwillen am Vertragsinhalt anzuknüpfen und darf sich nicht in Widerspruch zu dem tatsächlich Vereinbarten setzen."
+
+- Frage: 
+  Quelle: 
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1503264.xml
+
+- Frage: ** Wer ist für die Zahlung der Lagerkosten verantwortlich, wenn die Lagerung nach dem Vertragsende erfolgt?
+  Quelle: **** "Die Klägerin hat für Januar 1996 in Höhe der geltend gemachten 118.114,20 DM Anspruch auf Vergütung für die Vorhaltung von Flächen, auf denen die von der Beklagten zu entsorgenden Reststoffe und Chemikalien gelagert worden seien."
+
+- Frage: ** Wie wird der Ausgleichsbetrag für den Umlaufvermögensüberschuss berechnet, wenn der Vertrag eine andere Regelung enthält?
+  Quelle: **** "Den von der Klägerin geforderten Ausgleichsbetrag für einen im Zeitpunkt des Wirksamwerdens des Anteilskaufvertrages, dem 28. April 1995, geringeren Umlaufvermögensüberschuß gegenüber der Bilanz per 31. Mai 1994 hat das Berufungsgericht mit der Erwägung verneint, es komme bei der Auslegung von § 24 des notariellen (Änderungs-) Vertrages vom 9. Dezember 1994 nicht darauf an, ob die beiden am Vertragsschluß beteiligten Personen, darunter auch der für die Beklagte auftretende Rechtsanwalt G., die dort enthaltene Regelung in dem von der Klägerin behaupteten Sinne übereinstimmend verstanden hätten."
+
+- Frage: ** Warum kann die Klägerin nicht den Ersatz der vom Liquidatorkonto gezahlten Entsorgungskosten verlangen?
+  Quelle: **** "Auch könne die Klägerin nicht Ersatz der vom Liquidatorkonto gezahlten, dort aber nicht zugunsten der Beklagten berücksichtigten 991.354 DM Entsorgungskosten oder andere Aufwendungen ersetzt verlangen."
+
+- Frage: ** Welche Aufwendungen der Gesellschaft fallen unter den Begriff "Aufwendungen der Liquidation" im Sinne des § 24 des Anteilskaufvertrages?
+  Quelle: **** "Hierunter fielen mangels einschränkender Auslegungskriterien sämtliche Aufwendungen der Gesellschaft, die dieser während der Liquidationsphase, in der die Darlehen ausgereicht worden seien, also jedenfalls in der Zeit zwischen der Einsetzung des ersten Liquidators W. und der Genehmigung des Anteilskaufvertrages, entstanden seien."
+
+- Frage: ** Wann entfällt der Pflichtteilsergänzungsanspruch bei freiwilligem Verzicht auf ein Erbe?
+  Quelle: **** [Keine direkte Bezugnahme im Dokument, aber eine allgemeine Frage zur Anwendung des BGB]
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1548573.xml
+
+- Frage: ** Wer trägt die Kosten für den Netzausbau, wenn der Strom aus erneuerbaren Energien in das Netz eingespeist wird?
+  Quelle: **** "Nach § 13 Abs. 2 Satz 1 EEG trägt der Netzbetreiber die notwendigen Kosten eines Ausbaus des Netzes zur Abnahme und Übertragung des Stroms aus erneuerbaren Energien, der unter anderem durch den Anschluss neuer Anlagen zur Erzeugung solchen Stroms erforderlich wird."
+
+- Frage: ** Wie ist der Anwendungsbereich des § 13 Abs. 2 EEG bei der Bereitstellung von Netzanlagen für die Eigenversorgung von Windenergieanlagen?
+  Quelle: **** "Kosten der Netzverstärkung sollten nach dem eindeutigen gesetzgeberischen Willen vom Netzbetreiber getragen werden, und zwar auch dann, wenn das Netz - wie hier - für beide Stromflussrichtungen zur Verfügung gestellt werde."
+
+- Frage: ** Unter welchen Umständen ist eine vertragliche Regelung zur Bereitstellung von Netzanlagen für die Eigenversorgung von Windenergieanlagen nichtig?
+  Quelle: **** "Die Bereitstellungskosten, die nach der Vereinbarung die Beklagte zu tragen hat, sind Netzausbaukosten, die gemäß § 13 Abs. 2 Satz 1 EEG dem Netzbetreiber, mithin hier der Klägerin, obliegen."
+
+- Frage: ** Warum ist die Regelung des § 13 Abs. 2 EEG nicht zwingendes Recht?
+  Quelle: **** "Gegen eine zwingende und für eine abänderbare Regelung spricht indessen der Vergleich mit dem Wortlaut des § 13 Abs. 1 Satz 1 EEG. Dort heißt es mit der gleichen Wendung, dass der Anlagenbetreiber die Kosten des Anschlusses der Anlage an das Netz 'trägt'."
+
+- Frage: ** Welche Bedeutung hat die marktbeherrschende Stellung von Stromversorgungsunternehmen für die Anwendbarkeit des § 13 Abs. 2 EEG?
+  Quelle: **** "Ob die Stromversorgungsunternehmen in ihrem bisherigen Versorgungsgebiet faktisch eine marktbeherrschende Stellung haben, wie das Berufungsgericht angenommen hat, ist für die Frage, ob die Regelung des § 13 Abs. 2 Satz 1 EEG zwingend oder abänderbar ist, ohne Bedeutung."
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1653040.xml
+
+- Frage: ** Wer ist nach § 308 Nr. 5 BGB geschützt, wenn es um die Gültigkeit einer Erklärungsfiktion in Allgemeinen Geschäftsbedingungen geht?
+  Quelle: **** "Die Klausel 10.2 ist an § 308 Nr. 5 BGB zu messen, weil sie eine Erklärungsfiktion beinhaltet."
+
+- Frage: ** Was ist ein wichtiger Grund im Sinne des § 41 Abs. 3 Satz 2 EnWG, der eine fristlose Kündigung des Energieliefervertrags ermöglicht?
+  Quelle: **** "§ 41 Abs. 3 Satz 2 EnWG lautet: 'Ändert der Lieferant die Vertragsbedingungen einseitig, kann der Letztverbraucher den Vertrag ohne Einhaltung einer Kündigungsfrist kündigen.'"
+
+- Frage: ** Wie lange hat ein Kunde nach § 308 Nr. 5 BGB Zeit, um eine ausdrückliche Erklärung regarding eine Vertragsanpassung abzugeben?
+  Quelle: **** "Nach § 308 Nr. 5 Buchst. a BGB hat der Vertragspartner des Verwenders nur, wenn ihn die Klauselfassung in seiner Entschließung, welchen Inhalt er seiner Erklärung geben will, nicht einengt, sondern sie ihm gestattet, seinen wirklichen Willen frei zu äußern."
+
+- Frage: ** Warum ist es wichtig, dass der Kunde bei Beginn der Frist nach § 308 Nr. 5 BGB besonders auf die vorgesehene Bedeutung seines Verhaltens hingewiesen wird?
+  Quelle: **** "Der Verwender hat sich verpflichtet, den Vertragspartner bei Beginn der Frist auf die vorgesehene Bedeutung seines Verhaltens besonders hinzuweisen (Buchst. b)."
+
+- Frage: ** Welche Rechte hat ein Kunde, wenn ihm eine Vertragsanpassung ohne ausreichende Information mitgeteilt wird, die den Anforderungen des § 307 Abs. 1 Satz 2 BGB nicht entspricht?
+  Quelle: **** "Die Möglichkeit, eine ausdrückliche Erklärung gemäß § 308 Nr. 5 Buchst. a BGB abzugeben, hat der Vertragspartner des Verwenders nur, wenn ihn die Klauselfassung in seiner Entschließung, welchen Inhalt er seiner Erklärung geben will, nicht einengt, sondern sie ihm gestattet, seinen wirklichen Willen frei zu äußern."
+
+
+--------------------------------------------------------------------------------
+
+Dokument-ID: 1597921.xml
+
+- Frage: **
+  Quelle: 
+
+- Frage: Unter welchen Bedingungen ist eine einfache Stimmenmehrheit im Sinne des § 16 Abs. 3 WEG erreicht?
+  Quelle: "Die nach § 16 Abs. 3 WEG erforderliche einfache Stimmenmehrheit sei erreicht worden."
+
+- Frage: **
+  Quelle: 
+
+- Frage: Wie ist das Kopfprinzip des § 25 Abs. 2 Satz 1, Abs. 2 WEG durch das Objektprinzip des § 11 Nr. 4 TE abbedungen worden?
+  Quelle: "Das nach § 25 Abs. 2 Satz 1, Abs. 2 WEG angeordnete Kopfprinzip ist durch die in § 11 Nr. 4 TE angeordnete Geltung des Objektprinzips wirksam abbedungen worden."
+
+- Frage: **
+  Quelle: 
+
+
+--------------------------------------------------------------------------------
+
