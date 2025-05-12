@@ -1,599 +1,600 @@
 Dokument: 1538689.xml
+Rechtsthema: Sachenrecht
+
 1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein nicht im Grundbuch eingetragener Eigentümer eine (Rück-)Auflassung verlangen kann?
-**Quelle:** "Zwar kann der Anspruch auf Berichtigung in der Form eines Auflassungsantrags geltend gemacht werden, wenn die gebotene Auslegung das richtige Rechtsschutzziel erkennen lässt (Senat, Urt. v. 20. September 2002, ...)."
+**Quelle:** "§ 894 BGB bietet dem nicht im Grundbuch eingetragenen Eigentümer auch die Möglichkeit, (Rück-)Auflassung zu verlangen."
 
-2. **Frage:** Wie ist das Schreiben vom 27. Mai 1990 von den Großeltern zu verstehen, wenn es um die Übertragung des Weggrundstücks geht?
-**Quelle:** "Da beide Großeltern wussten, dass die Notariatsangestellte aufgrund der erteilten Vollmachten die Auflassung des Flurstücks 241 erklären würde, lässt sich die Formulierung, das Weggrundstück solle 'mit dem vertraglich vereinbarten Grundstück ... unseren Enkeln ... übertragen werden', nur so verstehen, dass eine Übertragung des Eigentums an dem Weggrundstück mit derselben Verfahrensweise erreicht werden sollte."
+2. **Frage:** Unter welchen Bedingungen kann ein Eigentümer statt einer Grundbuchberichtigung auch (Rück-)Auflassung verlangen?
+**Quelle:** "Das Berufungsgericht hat ausgeführt, nach § 894 BGB könne der Eigentümer nicht nur Zustimmung zur Grundbuchberichtigung verlangen, sondern auch Rückauflassung."
 
-3. **Frage:** Welche Rolle spielt die Unterschrift von beiden Großeltern auf dem Schreiben vom 27. Mai 1990 für die Gültigkeit der Übertragung des Weggrundstücks?
-**Quelle:** "Das hat zur Folge, dass die Kläger jede von den Beklagten vorgetragene Erwerbsmöglichkeit widerlegen müssen (Senat, Urt. v. 13. November 1998, ...)."
+3. **Frage:** Wer ist berechtigt, eine Auflassung zu verlangen, wenn der Eigentümer nicht im Grundbuch eingetragen ist?
+**Quelle:** "Zwar kann der Anspruch auf Berichtigung in der Form eines Auflassungsantrags geltend gemacht werden, wenn die gebotene Auslegung das richtige Rechtsschutzziel erkennen lässt"
 
-4. **Frage:** Welche Rechte hat der Eigentümer eines Grundstücks, wenn er nicht im Grundbuch eingetragen ist?
-**Quelle:** "Unzutreffend ist bereits der rechtliche Ausgangspunkt des Berufungsgerichts, wonach § 894 BGB dem nicht im Grundbuch eingetragenen Eigentümer auch die Möglichkeit bieten soll, (Rück-)Auflassung zu verlangen."
-
-5. **Frage:** Wie kann ein nicht im Grundbuch eingetragener Eigentümer seine Eigentumsrechte durchsetzen?
-**Quelle:** "Ein solcher Anspruch [auf Rückauflassung] besteht hier [im vorliegenden Fall]. Die Beklagten seien nicht Eigentümer des Weggrundstücks geworden."
-
-6. **Frage:** Welche Bedeutung hat die Genehmigung einer vollmachtlos erklärten Auflassung durch die Großeltern für die Gültigkeit der Übertragung des Weggrundstücks?
+4. **Frage:** Welche Rolle spielt die Genehmigung von vollmachtlos erklärten Auflassungen durch die Großeltern in diesem Fall?
 **Quelle:** "Es lägen auch keine Anhaltspunkte für eine spätere Genehmigung der vollmachtlos erklärten Auflassung durch die Großeltern vor."
 
-7. **Frage:** Wie kann ein nicht im Grundbuch eingetragener Eigentümer seine Eigentumsrechte geltend machen, wenn er nicht die Möglichkeit hat, eine (Rück-)Auflassung zu verlangen?
-**Quelle:** "a) Unzutreffend ist bereits der rechtliche Ausgangspunkt des Berufungsgerichts, wonach § 894 BGB dem nicht im Grundbuch eingetragenen Eigentümer auch die Möglichkeit bieten soll, (Rück-)Auflassung zu verlangen."
+5. **Frage:** Welche Rechtsgrundlage gilt für den Anspruch auf Rückauflassung in diesem Fall?
+**Quelle:** "Unzutreffend ist bereits der rechtliche Ausgangspunkt des Berufungsgerichts, wonach § 894 BGB dem nicht im Grundbuch eingetragenen Eigentümer auch die Möglichkeit bieten soll, (Rück-)Auflassung zu verlangen."
 
-8. **Frage:** Welche Rechte hat ein Eigentümer, der aufgrund einer Schenkung das Eigentum an einem Grundstück erworben hat?
-**Quelle:** "Das Klagebegehren ist auch nicht aus § 812 Abs. 1 Satz 1 BGB gerechtfertigt, weil die Beklagten das Eigentum an dem Weggrundstück aufgrund der von dem Berufungsgericht unterstellten Schenkung beider Großeltern mit Rechtsgrund erworben haben."
+6. **Frage:** Welche Rechte hat der nicht im Grundbuch eingetragene Eigentümer, wenn er eine Auflassung verlangen möchte?
+**Quelle:** "Der Anspruch auf Berichtigung in der Form eines Auflassungsantrags kann geltend gemacht werden, wenn die gebotene Auslegung das richtige Rechtsschutzziel erkennen lässt"
 
-9. **Frage:** Welche Bedeutung hat die Abrede der Unentgeltlichkeit für den Erwerb des Eigentums an einem Grundstück durch Schenkung?
-**Quelle:** "Rechtsgrund ist die Abrede der Unentgeltlichkeit (§ 516 Abs. 1 BGB)."
+7. **Frage:** Welche Rechtsfolge tritt ein, wenn die Voraussetzungen des § 894 BGB nicht erfüllt sind?
+**Quelle:** "Da die Voraussetzungen des § 894 BGB nach dem bisherigen Vorbringen der Kläger nicht vorliegen, kann die Frage, ob der Klageantrag bei verständiger Würdigung zumindest hilfsweise als Bewilligungsantrag auszulegen ist, für das Revisionsverfahren offen bleiben."
 
-10. **Frage:** Welche Rolle spielt die notarielle Beurkundung bei einem Schenkungsvertrag?
-**Quelle:** "Für einen vorausgehenden Schenkungsverpflichtungsvertrag, der der notariellen Beurkundung bedurft hätte (§ 518 Abs. 1 Satz 1 BGB), ergeben sich keine Anhaltspunkte."
+8. **Frage:** Welche Pflichten hat der Notar in Bezug auf die Bevollmächtigung zur Erklärung der Auflassung?
+**Quelle:** "Die Bevollmächtigung zur Erklärung der Auflassung bedarf keiner besonderen Form."
+
+9. **Frage:** Welche Beweise müssen die Kläger erbringen, um ihre Eigentumsansprüche geltend zu machen?
+**Quelle:** "Die Kläger müssen jede von den Beklagten vorgetragene Erwerbsmöglichkeit widerlegen."
+
+10. **Frage:** Welche Bedeutung hat das Schreiben vom 27. Mai 1990 für die Übertragung des Eigentums an dem Weggrundstück?
+**Quelle:** "Das Schreiben vom 27. Mai 1990 enthält den Auftrag an den Notar, die unentgeltliche Übertragung des Eigentums auch an dem Weggrundstück auf die Enkel zu bewerkstelligen."
 
 Dokument: 1529410.xml
-1. **Frage:** Welche Rechtsfolge tritt ein, wenn ein Eigentümer einem Nachbarn die Überbauung seines Grundstücks gestattet und der Mietvertrag endet?
-**Quelle:** "Mit dem inzwischen eingetretenen Ende des Mietvertrags sei die Duldungspflicht des Beklagten erloschen."
+Rechtsthema: Miete Pacht, Sachenrecht
 
-2. **Frage:** Wie ist das Eigentum am Überbau geregelt, wenn der Eigentümer des Grundstücks, von dem aus der Überbau erfolgte, wechselt?
-**Quelle:** "Die Rechtsnachfolge im Eigentum am Stammgrundstück berührt die dingliche Rechtslage, das Eigentum am Überbau, ebensowenig wie der Ablauf der Zeit, für die der Überbau gestattet war."
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Überbau auf fremdem Grundstück rechtmäßig ist?
+**Quelle:** "Die Zustimmung des Grundstückseigentümers zur Überbauung seines Grundstücks führt dazu, dass der Überbauende Eigentümer des auf dem Nachbargrundstück stehenden Gebäudeteils wird (§ 95 Abs. 1 Satz 2 BGB entspr.)."
 
-3. **Frage:** Welche Rechte hat der Eigentümer des überbauten Grundstücks, wenn der Überbau auf vertraglicher Grundlage erfolgte und der Vertrag endet?
-**Quelle:** "Mit dem inzwischen eingetretenen Ende des Mietvertrags sei die Duldungspflicht des Beklagten erloschen."
-
-4. **Frage:** Warum ist § 912 BGB nicht anwendbar, wenn der Überbau auf vertraglicher Grundlage beruht?
-**Quelle:** "§ 912 BGB finde jedoch keine Anwendung, da der Überbau auf vertraglicher Grundlage beruhe."
-
-5. **Frage:** Wer kann Herausgabe der Teilfläche verlangen, wenn sie Bestandteil des Grundstücks ist, auf dem der Nießbrauch lastet?
-**Quelle:** "Der Beklagte kann nach § 985 i.V.m. § 1065 BGB Herausgabe der Teilfläche verlangen, denn sie ist Bestandteil des Grundstücks, auf dem der Nießbrauch lastet."
-
-6. **Frage:** Wie wird der Überbau rechtlich betrachtet, wenn der Eigentümer des überbauten Grundstücks seine Zustimmung zur Überbauung widerruft?
+2. **Frage:** Wer ist verpflichtet, den Überbau auf fremdem Grundstück zu dulden, wenn er rechtmäßig ist?
 **Quelle:** "Die auf dem Willen der Beteiligten beruhende Legitimation der Überbauung begrenzt zugleich deren Umfang und Bestand."
 
-7. **Frage:** Welche Auswirkungen hat der Wechsel des Eigentums am Stammgrundstück auf die Duldungspflicht des neuen Eigentümers?
+3. **Frage:** Was passiert mit dem Eigentum am Überbau, wenn der Eigentümer des Stammgrundstücks wechselt?
 **Quelle:** "Die Rechtsnachfolge im Eigentum am Stammgrundstück berührt die dingliche Rechtslage, das Eigentum am Überbau, ebensowenig wie der Ablauf der Zeit, für die der Überbau gestattet war."
 
-8. **Frage:** Welche Möglichkeiten hat der neue Eigentümer des Stammgrundstücks, um den Überbau nach dem Wechsel des Eigentums am Stammgrundstück beizubehalten?
-**Quelle:** "Praktische Probleme treten, wenn der Überbau nach dem Wechsel des Eigentums am Stammgrundstück seine Rechtsgrundlage behalten soll, nicht auf."
+4. **Frage:** Wie lange muss der Eigentümer des überbauten Grundstücks den Überbau dulden, wenn er rechtmäßig ist?
+**Quelle:** "Die Bindung [des Eigentümers] widerspräche seiner autonomen Befugnis als Teilnehmer am Rechtsverkehr, schuldrechtliche Rechtsverhältnisse im Rahmen zwingender Vorschriften mit beliebigem Inhalt einzugehen."
 
-9. **Frage:** Welche Rolle spielt der Mietvertrag bei der Entscheidung über den Herausgabeanspruch des Beklagten?
-**Quelle:** "1. Der Ausgangspunkt des Berufungsurteils, der Mietvertrag vom 11. Januar 1973 habe dem Überbau nur eine Grundlage auf Zeit verschafft, ist nicht zu beanstanden."
+5. **Frage:** Welche Rechte hat der Eigentümer des überbauten Grundstücks, wenn der Überbau nicht rechtmäßig ist?
+**Quelle:** "Der Beklagte kann nach § 985 i.V.m. § 1065 BGB Herausgabe der Teilfläche verlangen, denn sie ist Bestandteil des Grundstücks, auf dem der Nießbrauch lastet."
 
-10. **Frage:** Wie ist die Rechtslage, wenn der Eigentümer des überbauten Grundstücks die Überbauung seines Grundstücks gestattet hat und der Überbau rechtmäßig ist?
-**Quelle:** "Die Zustimmung des Grundstückseigentümers zur Überbauung seines Grundstücks (rechtmäßiger Überbau) führt nach der ständigen Rechtsprechung des Senats dazu, daß der Überbauende entgegen der Grundregel der §§ 946, 94 Abs. 1 BGB Eigentümer des auf dem Nachbargrundstück stehenden Gebäudeteils wird (§ 95 Abs. 1 Satz 2 BGB entspr.)."
+6. **Frage:** Warum kann der Eigentümer des überbauten Grundstücks den Überbau nicht mehr dulden, wenn der Mietvertrag endet?
+**Quelle:** "Mit dem inzwischen eingetretenen Ende des Mietvertrags sei die Duldungspflicht des Beklagten erloschen."
+
+7. **Frage:** Wann kann der Eigentümer des überbauten Grundstücks den Überbau wieder aufheben?
+**Quelle:** "Der Eigentümer, der auf die Ausübung eines Teiles seiner Rechte am Grundstück (§ 903 BGB) auf Zeit verzichtet, behält sich vor, nach deren Ablauf von seinem Eigentum wieder in vollem Umfang Gebrauch zu machen, mithin den Überbau zu gleichen oder veränderten Bedingungen weiterhin zu dulden oder Herausgabe der überbauten Fläche zu verlangen."
+
+8. **Frage:** Was passiert mit dem Eigentum am Überbau, wenn der Überbau auf vertraglicher Grundlage beruht?
+**Quelle:** "§ 912 BGB finde jedoch keine Anwendung, da der Überbau auf vertraglicher Grundlage beruhe."
+
+9. **Frage:** Welche Rolle spielt der Mietvertrag bei der rechtmäßigen Überbauung einer Grenze?
+**Quelle:** "a) Ohne Erfolg rügt die Revision, der Mietvertrag beschränke sich darauf, in Abweichung von den Rechtsfolgen der §§ 912 ff. BGB, das Entgelt für die Benutzung des Nießbrauchsgrundstücks festzulegen, die Gestattung des Überbaus selbst sei dagegen außerhalb des Vertrags erfolgt."
+
+10. **Frage:** Welche Rechtsgrundlage gilt für die Duldung eines Überbaus auf fremdem Grundstück?
+**Quelle:** "Die gesetzliche Duldungspflicht des Eigentümers des überbauten Grundstücks beruht auf dem nachbarrechtlichen Tatbestand der rechtswidrigen, aber gutgläubigen Überbauung und dem Ausbleiben des Widerspruchs hiergegen."
 
 Dokument: 1584587.xml
-1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Frachtführer gemäß § 420 Abs. 1 Satz 2 HGB Ersatz für Aufwendungen verlangen kann?
-**Quelle:** "Der Frachtführer hat über den Frachtvergütungsanspruch hinaus auch einen Anspruch auf Ersatz von Aufwendungen, soweit diese für das Gut erbracht worden sind und der Frachtführer sie den Umständen nach für erforderlich halten durfte."
+Rechtsthema: Handelsrecht Gesellschaftsrecht
 
-2. **Frage:** Wie ist der Beginn der Verjährungsfrist für einen Aufwendungsersatzanspruch nach § 439 Abs. 1 und 2 HGB zu bestimmen, wenn der Anspruch erst nach der Abgabe des Guts entsteht?
+1. **Frage:** Welche Verpflichtungen hat ein Frachtführer gegenüber dem Auftraggeber, wenn er die Verzollung von Gütern übernimmt?
+**Quelle:** "Die Beklagte habe die Klägerin nicht nur mit dem Binnenschiffstransport der Container von Rotterdam nach St. Georgen, sondern auch mit der Verzollung der in den Containern beförderten Güter in den Niederlanden beauftragt. Gemäß § 420 Abs. 1 Satz 2 HGB habe der Frachtführer über den Frachtvergütungsanspruch hinaus auch einen Anspruch auf Ersatz von Aufwendungen, soweit diese für das Gut erbracht worden seien und der Frachtführer sie den Umständen nach für erforderlich habe halten dürfen."
+
+2. **Frage:** Unter welchen Voraussetzungen kann ein Frachtführer Aufwendungen für die Verzollung von Gütern ersetzt verlangen?
+**Quelle:** "Zollgebühren zählten zu den ersatzfähigen Aufwendungen im Sinne von § 420 Abs. 1 Satz 2 HGB."
+
+3. **Frage:** Wer ist verpflichtet, die Verjährung eines Aufwendungsersatzanspruchs zu berücksichtigen, wenn es um die Verzollung von Gütern geht?
 **Quelle:** "Der streitgegenständliche Aufwendungsersatzanspruch, dessen Verjährung sich nach § 439 Abs. 1 und 2 Satz 1 HGB beurteile, sei nicht verjährt."
 
-3. **Frage:** Wer ist verantwortlich für die Zahlung von Zollgebühren im Rahmen eines Binnenschiffstransports, wenn der Frachtführer auch die Verzollung übernommen hat?
-**Quelle:** "Die Beklagte habe die Klägerin nicht nur mit dem Binnenschiffstransport der Container von Rotterdam nach St. Georgen, sondern auch mit der Verzollung der in den Containern beförderten Güter in den Niederlanden beauftragt."
+4. **Frage:** Wie beeinflusst der Rückgriffsanspruch die Verjährung des Aufwendungsersatzanspruchs in Bezug auf die Verzollung von Gütern?
+**Quelle:** "Der Anwendung des § 439 Abs. 2 Satz 3 HGB stehe nicht entgegen, dass die Klägerin der W. B.V. gegenüber nicht nach den Bestimmungen des Handelsgesetzbuchs, sondern nach niederländischem Auftragsrecht einstehen müsse."
 
-4. **Frage:** Wie lange dauert es, bis ein Aufwendungsersatzanspruch verjährt, wenn der Anspruch auf einem niederländischen Vertrag basiert, der nach deutschem Recht beurteilt wird?
-**Quelle:** "Die Vorschrift des § 439 Abs. 2 Satz 3 HGB erfordere keinen Gleichlauf zwischen den Haftungsgrundlagen im Primärrechtsverhältnis und im Rückgriffsverhältnis."
+5. **Frage:** Welche Rolle spielt das niederländische Recht bei der Verjährung des Aufwendungsersatzanspruchs in Bezug auf die Verzollung von Gütern?
+**Quelle:** "Der streitgegenständliche Aufwendungsersatzanspruch, dessen Verjährung sich nach § 439 Abs. 1 und 2 Satz 1 HGB beurteile, sei nicht verjährt."
 
-5. **Frage:** Welche Rechte hat ein Frachtführer, wenn er Aufwendungen für das Gut erbracht hat, die er den Umständen nach für erforderlich halten durfte?
-**Quelle:** "Gemäß § 420 Abs. 1 Satz 2 HGB habe der Frachtführer über den Frachtvergütungsanspruch hinaus auch einen Anspruch auf Ersatz von Aufwendungen, soweit diese für das Gut erbracht worden sind und der Frachtführer sie den Umständen nach für erforderlich halten durfte."
+6. **Frage:** Wie kann ein Frachtführer seine Rechte geltend machen, wenn er Aufwendungen für die Verzollung von Gütern getragen hat?
+**Quelle:** "Die Klägerin habe die Beklagte vor Ablauf von drei Monaten nach eigener Kenntnis über die zusätzlichen Aufwendungen informiert. Sie habe mit E-Mail vom 29. Juli 2009 Ansprüche wegen der Nachforderung von Zollgebühren gemäß dem Bescheid des niederländischen Zolls vom 1. Juli 2009 gegenüber der Beklagten geltend gemacht."
 
-6. **Frage:** Wann beginnt die Verjährungsfrist für einen Aufwendungsersatzanspruch, der auf einem niederländischen Vertrag basiert, aber nach deutschem Recht beurteilt wird?
-**Quelle:** "Der Beginn der Verjährungsfrist werde jedoch gemäß § 439 Abs. 2 Satz 3 HGB hinausgeschoben mit der Folge, dass der Lauf der Verjährungsfrist noch nicht begonnen habe."
+7. **Frage:** Wie kann ein Frachtführer sicherstellen, dass seine Rechte bezüglich der Erstattung von Aufwendungen für die Verzollung von Gütern gewahrt bleiben?
+**Quelle:** "Die Klägerin sei jedoch gemäß Art. 406 Abs. 1 des Niederländischen Bürgerlichen Gesetzbuchs einem Aufwendungsersatzanspruch der W. B.V. ausgesetzt, die im Auftrag der Klägerin die Fiskalverzollung in den Niederlanden durchgeführt habe und gegen die von den niederländischen Zollbehörden mit Bescheid vom 1. Juli 2009 Zollgebühren in Höhe von 389.973,70 € festgesetzt worden seien."
 
-7. **Frage:** Was ist zu tun, wenn ein Frachtführer Aufwendungen für das Gut erbracht hat, aber der Auftraggeber diese noch nicht beglichen hat?
-**Quelle:** "Die Klägerin sei jedoch gemäß Art. 406 Abs. 1 des Niederländischen Bürgerlichen Gesetzbuchs einem Aufwendungsersatzanspruch der W. B.V. ausgesetzt, die im Auftrag der Klägerin die Fiskalverzollung in den Niederlanden durchgeführt habe."
+8. **Frage:** Wie kann ein Frachtführer seine Verpflichtungen im Hinblick auf die Verjährung von Ansprüchen erfüllen, die sich aus der Verzollung von Gütern ergeben?
+**Quelle:** "Gemäß § 439 Abs. 2 Satz 1 HGB beginne die Verjährungsfrist zwar grundsätzlich mit dem Ablauf des Tages zu laufen, an dem das Gut abgeliefert worden sei, so dass der Aufwendungsersatzanspruch der Klägerin bereits vor seiner Entstehung am 1. Juli 2009 (dem Tag der Festsetzung der Zollgebühren durch die niederländischen Zollbehörden) verjährt gewesen wäre."
 
-8. **Frage:** Wie ist der Aufwendungsersatzanspruch zu berechnen, wenn die Zollgebühren von einer dritten Partei festgesetzt wurden?
-**Quelle:** "Die Klägerin habe die im Streitfall in Rede stehenden Zollgebühren zwar (noch) nicht selbst verauslagt. Sie sei jedoch gemäß Art. 406 Abs. 1 des Niederländischen Bürgerlichen Gesetzbuchs einem Aufwendungsersatzanspruch der W. B.V. ausgesetzt, die im Auftrag der Klägerin die Fiskalverzollung in den Niederlanden durchgeführt habe."
+9. **Frage:** Welche Auswirkungen hat der Widerspruch gegen einen Nacherhebungsbescheid der niederländischen Zollbehörden auf den Aufwendungsersatzanspruch eines Frachtführers?
+**Quelle:** "Die Klägerin sei gegenwärtig nur mit einer Verbindlichkeit in unbestimmter Höhe beschwert. Aufgrund des von der W. B.V. eingelegten Widerspruchs gegen den Nacherhebungsbescheid der niederländischen Zollbehörden stehe noch nicht einmal fest, dass die Klägerin ihrer niederländischen Schwestergesellschaft tatsächlich noch weiteren Aufwendungsersatz für die von den niederländischen Zollbehörden beanstandeten Zollabfertigungen schuldet."
 
-9. **Frage:** Was passiert, wenn ein Frachtführer einen Aufwendungsersatzanspruch geltend macht, aber der Auftraggeber argumentiert, dass die Aufwendungen nicht erforderlich waren?
-**Quelle:** "Dies sei nach den mit der Beklagten getroffenen Vereinbarungen der Fall. Zollgebühren zählten zu den ersatzfähigen Aufwendungen im Sinne von § 420 Abs. 1 Satz 2 HGB."
-
-10. **Frage:** Wie lange hat ein Frachtführer Zeit, um einen Aufwendungsersatzanspruch geltend zu machen, wenn der Anspruch auf einem niederländischen Vertrag basiert, aber nach deutschem Recht beurteilt wird?
-**Quelle:** "Da die Klägerin einen Rückgriffsanspruch geltend mache, werde der Beginn der Verjährungsfrist jedoch gemäß § 439 Abs. 2 Satz 3 HGB hinausgeschoben mit der Folge, dass der Lauf der Verjährungsfrist noch nicht begonnen habe."
+10. **Frage:** Wie kann ein Frachtführer seine Rechte im Hinblick auf die Verjährung von Ansprüchen geltend machen, die sich aus der Verzollung von Gütern ergeben?
+**Quelle:** "Das Berufungsgericht hat rechtsfehlerfrei angenommen, dass der von der Klägerin geltend gemachte Aufwendungsersatzanspruch nicht gemäß § 439 Abs. 1 Satz 1 HGB verjährt ist."
 
 Dokument: 0164602.xml
-1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Gesellschafter einer GmbH persönlich für die Verbindlichkeiten der Gesellschaft haften kann?
+Rechtsthema: Schadensersatz, Schadensersatz
+
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Gesellschafter einer GmbH persönlich für deren Verbindlichkeiten haften kann?
 **Quelle:** "Eine persönliche Haftung des Beklagten für die Verbindlichkeiten der Gesellschaft, die durch die unzureichende Vertragserfüllung durch die GmbH begründet worden sind, ist nicht schon deshalb gegeben, weil der Beklagte als Gesellschafter in Vertretung des Geschäftsführers der GmbH i.G. die Rechnung gestellt hat."
 
-2. **Frage:** Wie kann ein Gesellschafter einer GmbH seine Pflicht zur Überwachung der Mittelverwendung durch die Gesellschaft begründet werden?
+2. **Frage:** Wer ist verpflichtet, die zweckentsprechende Verwendung von Geld zu überwachen, das von einem Dritten zur Verfügung gestellt wurde?
+**Quelle:** "Der Beklagte habe mit der Rechnungstellung die Verpflichtung übernommen, die zweckentsprechende Verwendung des Geldes zu überwachen."
+
+3. **Frage:** Wie kann ein Gesellschafter einer GmbH seine Haftung für deren Verbindlichkeiten vermeiden?
+**Quelle:** "Nach § 13 Abs. 2 GmbHG haftet für Verbindlichkeiten einer GmbH nur das Gesellschaftsvermögen."
+
+4. **Frage:** Warum kann die Haftung eines Gesellschafters für Verbindlichkeiten einer GmbH nicht automatisch auf die persönliche Haftung nach § 826 BGB übertragen werden?
+**Quelle:** "Die Haftung aus § 826 BGB ist an die Voraussetzungen der Durchgriffshaftung nicht gebunden, da sie an das dem Schädiger persönlich zuzurechnende Verhalten anknüpft."
+
+5. **Frage:** Wann kann ein Gesellschafter einer GmbH wegen vorsätzlicher sittenwidriger Schädigung nach § 826 BGB haftbar gemacht werden?
 **Quelle:** "Entgegen der Auffassung des Berufungsgerichts war allein die Ausstellung der Rechnung durch den Beklagten nicht geeignet, für ihn eine sittliche Pflicht zur Überwachung der Mittelverwendung durch die GmbH zu begründen."
 
-3. **Frage:** Unter welchen Umständen kann ein Gesellschafter einer GmbH wegen vorsätzlicher sittenwidriger Schädigung nach § 826 BGB haften?
-**Quelle:** "Das Berufungsgericht nimmt eine Haftung des Beklagten wegen vorsätzlich sittenwidrigen Verhaltens gemäß § 826 BGB an, das die Bauherren geschädigt habe."
-
-4. **Frage:** Welche Rolle spielt die Kenntnis eines Gesellschafters von einer möglichen Schädigung bei der Feststellung eines bedingten Schädigungsvorsatzes nach § 826 BGB?
-**Quelle:** "Es hat sich auch insoweit in verfahrensfehlerhafter Weise nicht mit dem Vorbringen und den Beweisangeboten des Beklagten in der Berufungsbegründung auseinandergesetzt, der Architekt M., der mit der Bauleitung beauftragt gewesen sei, habe dem Zeugen G. nach Rohbaufertigstellung mitgeteilt, daß die Voraussetzungen für die Zahlung der streitgegenständlichen 1.624.000 DM vorlägen."
-
-5. **Frage:** Was ist zu berücksichtigen, wenn ein Gesellschafter einer GmbH die Verwendung von Geldern nicht überwacht, aber eine Schädigung der Gesellschaft oder Dritter vermeiden wollte?
-**Quelle:** "Hätte der Beklagte die Möglichkeit einer Schädigung der Bauherren nicht in Kauf nehmen wollen, hätte er die Verwendung des von den Bauherren mit Rechnungslegung vom 20. Dezember 1994 geforderten und von diesen gezahlten Geldes überwachen müssen."
-
-6. **Frage:** Welche Bedeutung hat die Überprüfung des Baufortschritts durch einen Architekten für die Haftung eines Gesellschafters einer GmbH?
-**Quelle:** "Es hat nämlich außer Acht gelassen, daß der Beklagte bereits in der Berufungsbegründung Zeugenbeweis für seine Behauptungen angeboten hat, der Architekt M. sei mit der Bauleitung beauftragt gewesen und habe in Absprache mit dem Zeugen G. das Vorliegen der jeweiligen Voraussetzungen für die Zahlungen entsprechend dem Baufortschritt überprüfen müssen."
-
-7. **Frage:** Wie kann ein Gesellschafter einer GmbH seine Unkenntnis von einem Verstoß gegen seine Pflichten zur Mittelverwendung beweisen?
+6. **Frage:** Wie kann ein Gesellschafter einer GmbH beweisen, dass er keine Kenntnis von dem jeweiligen Bautenstand und dem Baufortschritt hatte und nicht für die Bauüberwachung zuständig war?
 **Quelle:** "Der Beklagte habe geltend gemacht, er habe keine Kenntnis von dem jeweiligen Bautenstand und dem Baufortschritt gehabt und sei als Gesellschafter für die Bauüberwachung nicht zuständig gewesen."
 
-8. **Frage:** Welche Konsequenzen hat es, wenn ein Berufungsgericht verfahrensfehlerhaft Tatsachen feststellt und den Sachvortrag eines Beteiligten nicht vollständig berücksichtigt?
-**Quelle:** "Es rügt die Revision zu Recht, das Berufungsgericht habe seiner Gesamtwürdigung verfahrensfehlerhaft festgestellte Tatsachen zugrundegelegt und den Sachvortrag des Beklagten nicht vollständig berücksichtigt."
+7. **Frage:** Wer ist zuständig, das Vorliegen der Voraussetzungen für die Zahlungen entsprechend dem Baufortschritt zu überprüfen?
+**Quelle:** "Der Architekt M. sei dafür zuständig gewesen, in Absprache mit dem Zeugen G. das Vorliegen der Voraussetzungen für die Zahlungen entsprechend dem jeweiligen Baufortschritt zu überprüfen."
 
-9. **Frage:** Welche Bedeutung hat die Überprüfung des Baufortschritts durch einen Architekten für die Haftung eines Gesellschafters einer GmbH?
-**Quelle:** "Entgegen der Auffassung des Berufungsgerichts war allein die Ausstellung der Rechnung durch den Beklagten nicht geeignet, für ihn eine sittliche Pflicht zur Überwachung der Mittelverwendung durch die GmbH zu begründen."
+8. **Frage:** Wie kann ein Gesellschafter einer GmbH beweisen, dass er eine Schädigung für möglich gehalten und billigend in Kauf genommen hat?
+**Quelle:** "Auf einen bedingten Schädigungsvorsatz des Beklagten kann nur geschlossen werden, wenn der Beklagte eine Schädigung für möglich gehalten und billigend in Kauf genommen hat, weil ihm bewußt gewesen wäre, daß die Mitteilung des Architekten M. inhaltlich unzutreffend sein und vor Freigabe der Mittel durch die finanzierende Bank eine tatsächliche Überprüfung des Baufortschritts unterbleiben würde."
 
-10. **Frage:** Welche Rolle spielt das Einverständnis des Geschäftsführers einer GmbH für die Haftung eines Gesellschafters der Gesellschaft?
-**Quelle:** "Der Beklagte habe unter Beweisantritt geltend gemacht, die Bauherren hätten noch vor Jahresende 1994 wegen der Sonder-AfA im Förderungsgebiet sofortige Rechnungstellung verlangt und er habe hierfür seinerzeit telefonisch das Einverständnis des damals verreisten Geschäftsführers E. eingeholt."
+9. **Frage:** Welche Rechte hat ein Gesellschafter einer GmbH, wenn er sich nicht weiter um den Verbleib des Geldes gekümmert hat?
+**Quelle:** "Der Beklagte habe sich grob leichtfertig und gewissenlos gegenüber den wirtschaftlichen Interessen der Bauherren verhalten, weil er sich nicht weiter um den Verbleib des Geldes gekümmert habe."
+
+10. **Frage:** Welche Rolle spielt die Bestätigung des Baufortschritts durch den Architekten M. für die Haftung des Beklagten?
+**Quelle:** "Der Beklagte habe sich nicht auf die Bestätigung des Baufortschritts durch den Architekten M. berufen. Der Beklagte habe nicht vorgetragen, daß mit M. ein Bauüberwachungsvertrag geschlossen worden sei."
 
 Dokument: 1502915.xml
-1. **Frage:** Welche Anforderungen müssen an die Substantiierung eines Schadensersatzanspruchs gestellt werden?
-**Quelle:** "Das Berufungsgericht meint, die Beklagte habe einen Schadensersatzanspruch auf Zahlung von 32.323,13 DM wegen der mangelhaften Herstellung der Carports beim Bauvorhaben K. nicht substantiiert dargelegt."
+Rechtsthema: Schadensersatz, Werkvertrag
 
-2. **Frage:** Unter welchen Umständen kann eine Aufrechnung mit einem Schadensersatzanspruch erklärt werden?
-**Quelle:** "Die Revision hat im Umfang der Annahme Erfolg. Sie führt insoweit zur Aufhebung des Berufungsurteils und Zurückverweisung der Sache an das Berufungsgericht."
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit eine Aufrechnung mit einem Schadensersatzanspruch wirksam ist?
+**Quelle:** "Die Beklagte hat ... einen Schadensersatzanspruch auf Zahlung von 32.323,13 DM wegen der mangelhaften Herstellung der Carports beim Bauvorhaben K. nicht substantiiert dargelegt."
 
-3. **Frage:** Welche Rolle spielt ein Vergleich im Rahmen einer Schadensersatzforderung?
-**Quelle:** "Ein Vergleichsbetrag könne die Beklagte nur als Schadensersatz fordern, wenn der von der Bauherrin geforderte Schadensbetrag ausschließlich auf eine mangelhafte Werkleistung der Klägerin zurückzuführen sei."
+2. **Frage:** Wer ist verpflichtet, die Kosten der Nachbesserungsarbeiten zu tragen, wenn die Werkleistung Mängel aufweist?
+**Quelle:** "Die Kosten der Nachbesserungsarbeiten hätten die Vergleichssumme überstiegen."
 
-4. **Frage:** Wie kann eine grobe Nachlässigkeit im Zusammenhang mit einer Aufrechnung bewertet werden?
-**Quelle:** "Es kann dahinstehen, ob die Aufrechnung aus grober Nachlässigkeit verspätet erklärt worden ist."
+3. **Frage:** Wie kann ein Schadensersatzanspruch aufgrund mangelhafter Werkleistung substantiiert werden?
+**Quelle:** "Es fehle substantiiertes Vorbringen zur Höhe des durch die Mangelhaftigkeit der Werkleistung entstandenen Schadens."
 
-5. **Frage:** Welche Bedeutung hat die Verrechnung eines Werklohns mit einer Schadensersatzforderung?
-**Quelle:** "In Höhe dieses Betrages wird die Aufrechnung gegen die Forderungen der Klägerin aus den anderen Bauvorhaben erklärt."
+4. **Frage:** Welche Rolle spielt ein Vergleich im Zusammenhang mit Schadensersatzansprüchen aufgrund mangelhafter Werkleistung?
+**Quelle:** "Die Beklagte hat ... einen Gesamtschaden von 48.135,63 DM ermittelt. Sie hat davon die mittlerweile rechtskräftig zuerkannte Werklohnforderung von 15.812,50 DM für das Bauvorhaben K. abgezogen und mit dem Restbetrag von 32.323,13 DM die Aufrechnung erklärt."
 
-6. **Frage:** Welche Auswirkungen hat die fehlerhafte Behandlung einer Aufrechnung auf den Rechtsstreit?
-**Quelle:** "Es kommt jedenfalls nicht zu einer dadurch veranlaßten Verzögerung des Rechtsstreits, weil die Sache wegen der fehlerhaften Behandlung der Aufrechnung mit dem Anspruch über 48.135,63 DM erneut vom Berufungsgericht zu verhandeln ist."
+5. **Frage:** Wann kann eine Aufrechnung als verspätet betrachtet werden und welche Konsequenzen hat dies?
+**Quelle:** "Das Berufungsgericht präkludiert die im Schriftsatz vom 30. Juli 1999 erklärte Aufrechnung mit einem Schadensersatzanspruch in Höhe von 7.585,87 DM unter Anwendung des § 296 Abs. 2 ZPO."
 
-7. **Frage:** Welche Pflichten hat ein Gericht bei der Behandlung von Aufrechnungen?
-**Quelle:** "Das Berufungsgericht hat den Vortrag der Beklagten nicht richtig erfaßt (a). Es hat zudem überhöhte Anforderungen an die Substantiierungslast gestellt (b)."
+6. **Frage:** Welche Rechtsfolge tritt ein, wenn eine Aufrechnung mit einem Schadensersatzanspruch erfolgreich ist?
+**Quelle:** "Die Beklagte hat ... mit dem Restbetrag von 32.323,13 DM die Aufrechnung erklärt."
+
+7. **Frage:** Welche Bedeutung hat die Beweisaufnahme im Zusammenhang mit der Aufrechnung von Schadensersatzansprüchen?
+**Quelle:** "Die notwendige Beweisaufnahme würde den Rechtsstreit verzögern."
+
+8. **Frage:** Welche Verantwortung trägt das Berufungsgericht, wenn es die Begründetheit von Forderungen zur Aufrechnung prüft?
+**Quelle:** "In diesem Umfang ist die Sache an das Berufungsgericht zurückzuverweisen, damit es die notwendigen Feststellungen zur Begründetheit der Forderungen treffen kann."
+
+9. **Frage:** Welche Rechte hat die Beklagte im Zusammenhang mit der Aufrechnung von Schadensersatzansprüchen?
+**Quelle:** "Die Beklagte hat ... die Aufrechnung erklärt."
+
+10. **Frage:** Welche Pflichten hat die Klägerin im Zusammenhang mit der Aufrechnung von Schadensersatzansprüchen?
+**Quelle:** "Die Klägerin hat ... Forderungen aus den anderen Bauvorhaben."
 
 Dokument: 1544173.xml
-1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Frachtvertrag i.S. von § 407 HGB zwischen der Klägerin und der Beklagten zustande kommt?
+Rechtsthema: Schadensersatz, SchuldrechtAT, Zivilverfahrensrecht
+
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Frachtvertrag i.S.v. § 407 HGB zwischen der Klägerin und der Beklagten zustande kommt?
 **Quelle:** "Die Parteien hätten - zumindest konkludent - einen Frachtvertrag i.S. von § 407 HGB abgeschlossen."
 
-2. **Frage:** Wie kann die Beklagte haften, wenn sie den Transport von Paketen übernimmt, ohne deren Inhalt zu kennen?
-**Quelle:** "Die Beklagte habe den Transport der ihr übergebenen Pakete übernommen, hierfür Beförderungsentgelt erhalten und das Transportgut ihren eigenen Angaben zufolge an eine - wenn auch nicht feststellbare - Person ausgeliefert."
+2. **Frage:** Wer ist verpflichtet, für den Verlust von Sendungen während des Transports einzustehen, wenn der Frachtführer seine Pflichten verletzt?
+**Quelle:** "Die Beklagte hafte nach § 425 HGB für den Verlust der Diapositive, weil davon auszugehen sei, dass die Sendung den Adressaten S. nicht erreicht habe."
 
-3. **Frage:** Welche Bedeutung hat die unleserliche Unterschrift auf der Empfangsbestätigung für die Haftung der Beklagten?
-**Quelle:** "Die Ablieferung der Pakete habe der Auslieferungsfahrer selbst in der vom Empfänger zu unterzeichnenden Empfangsbestätigung mit unleserlicher Unterschrift quittiert."
+3. **Frage:** Welche Rolle spielt das Mitverschulden der Klägerin bei der Entstehung des Schadens, wenn sie den Wert der Sendung nicht angegeben hat?
+**Quelle:** "Ein Mitverschulden der Klägerin wegen der unterlassenen Angabe des Wertes der Sendung sei nicht gegeben."
 
-4. **Frage:** Warum ist die Angabe des Wertes der Sendung für die Haftung der Beklagten relevant?
-**Quelle:** "Ein Mitverschulden der Klägerin wegen der unterlassenen Angabe des Wertes der Sendung sei nicht gegeben. Dies treffe auch dann zu, wenn der von dem Fotografen S. geltend gemachte Schaden der Höhe nach richtig wäre."
+4. **Frage:** Wie ist der Wortlaut von Allgemeinen Geschäftsbedingungen (AGB) im Rahmen der objektiven Auslegung zu berücksichtigen?
+**Quelle:** "Allgemeine Geschäftsbedingungen sind nach ihrem objektiven Inhalt und nach ihrem typischen Sinn einheitlich so auszulegen, wie sie von verständigen und redlichen Vertragspartnern unter Abwägung der Interessen der normalerweise beteiligten Kreise verstanden werden."
 
-5. **Frage:** Welche Rolle spielt der Leihvertrag zwischen der Klägerin und dem Fotografen S. für die Haftung der Beklagten?
-**Quelle:** "Der Fotograf S. hatte der Klägerin aufgrund eines Leihvertrags im Mai 2001 insgesamt 383 Diapositive überlassen."
+5. **Frage:** Welche Bedeutung haben Verbotsgutklauseln in AGB für den Abschluss eines Beförderungsvertrags?
+**Quelle:** "Die Verbotsgutklauseln unter Ziffer 3.1 der AGB der Beklagten stehen dem nicht entgegen."
 
-6. **Frage:** Wie kann die Beklagte sich auf Beförderungs- und Haftungsausschlüsse in ihren Allgemeinen Geschäftsbedingungen berufen, wenn diese unwirksam sind?
+6. **Frage:** Wie ist der Haftungsausschluss in AGB nach § 449 Abs. 2 HGB zu bewerten, wenn er gegen das Transparenzgebot verstößt?
 **Quelle:** "Auf die in ihren Allgemeinen Geschäftsbedingungen enthaltenen Beförderungs- und Haftungsausschlüsse könne sich die Beklagte nicht mit Erfolg berufen, weil diese wegen Verstoßes gegen § 449 Abs. 2 i.V. mit § 449 Abs. 1 HGB unwirksam seien."
 
-7. **Frage:** Welche Bedeutung hat die Verpflichtung der Klägerin zur Rückgabe der nicht für eine Veröffentlichung ausgewählten Aufnahmen im Leihvertrag?
-**Quelle:** "Aus diesem Vertragsverhältnis bestand für die Klägerin die Verpflichtung zur Rückgabe der nicht für eine Veröffentlichung ausgewählten Aufnahmen."
-
-8. **Frage:** Wie kann die Klägerin ihren Schadenersatzanspruch gegen die Beklagte geltend machen, wenn sie von dem Eigentümer der abhanden gekommenen Diapositive auf Leistung von Schadensersatz in Anspruch genommen wird?
+7. **Frage:** Wie ist der Schaden zu berechnen, wenn die Klägerin auf Leistung klagen könnte?
 **Quelle:** "Der zunächst auf Befreiung von dieser Schuld gerichtete Anspruch geht gemäß § 250 Satz 2 BGB zwar in einen Zahlungsanspruch über, wenn der Schädiger - wie im Streitfall - die Leistung ernsthaft und endgültig abgelehnt hat."
 
-9. **Frage:** Welche Auswirkungen hat das Mitverschulden der Klägerin auf ihren Schadensersatzanspruch gegen die Beklagte?
-**Quelle:** "Ein Mitverschulden der Klägerin bei der Entstehung des Schadens verneint hat."
+8. **Frage:** Welche Rechtsfolge tritt ein, wenn die Beklagte den Transport der ihr übergebenen Pakete übernommen hat, aber das Transportgut nicht an den Adressaten ausgeliefert wurde?
+**Quelle:** "Die Beklagte hafte nach § 425 HGB für den Verlust der Diapositive, weil davon auszugehen sei, dass die Sendung den Adressaten S. nicht erreicht habe."
 
-10. **Frage:** Wie kann die Beklagte für den Verlust der Sendung haften, wenn davon auszugehen ist, dass die Sendung den Adressaten nicht erreicht hat?
-**Quelle:** "Sie hafte nach § 425 HGB für den Verlust der Diapositive, weil davon auszugehen sei, dass die Sendung den Adressaten S. nicht erreicht habe."
+9. **Frage:** Wie ist der Schaden der Klägerin zu berücksichtigen, wenn sie den nunmehr behaupteten Wert der Diapositive nicht gekannt hat?
+**Quelle:** "Auf den wirklichen Wert der in Verlust geratenen Diapositive komme es im vorliegenden Rechtsstreit nicht an. Dieser sei vielmehr in dem Verfahren zwischen dem Fotografen S. und der Klägerin zu klären."
+
+10. **Frage:** Wie ist das Verhalten des Auslieferungsfahrers der Beklagten einzuordnen, wenn er die ihm obliegenden Pflichten vorsätzlich verletzt hat?
+**Quelle:** "Denn der Auslieferungsfahrer, dessen Verhalten sich die Beklagte zurechnen lassen müsse, habe die ihm obliegenden Pflichten vorsätzlich nach § 435 HGB verletzt und dadurch den Verlust herbeigeführt."
 
 Dokument: 1538980.xml
-1. **Frage:** Unter welchen Umständen kann eine Stammkapitalerhöhung im Interesse der Gesellschaft liegen?
-**Quelle:** "Die Stammkapitalerhöhung der Beklagten lag im Interesse der Gesellschaft, da sie die Kreditwürdigkeit aller betroffenen Gesellschaften stärkte."
+Rechtsthema: Schadensersatz, Handelsrecht Gesellschaftsrecht
 
-2. **Frage:** Wie kann eine gesellschafterliche Treuepflicht verletzt werden, wenn eine Stammkapitalerhöhung im Interesse der Gesellschaft liegt?
-**Quelle:** "Eine Treuepflichtverletzung ist mit der Stammkapitalerhöhung gleichwohl nicht verbunden, weil es für die Erhöhung eine sachliche, auch im Interesse der von der Beklagten geführten Kommanditgesellschaften und damit der Klägerin als Mitgesellschafterin liegende Rechtfertigung gab."
+1. **Frage:** Unter welchen Voraussetzungen ist eine Stammkapitalerhöhung einer GmbH im Interesse der Gesellschaft?
+**Quelle:** "Die Stammkapitalerhöhung der Beklagten lag im Interesse der Gesellschaft."
 
-3. **Frage:** Welche Rechte hat ein Komplementär-Gesellschafter bei der Auszahlung seiner erhöhten Vergütung?
+2. **Frage:** Wer ist verpflichtet, die Liquidität der Gesellschaft zu berücksichtigen, wenn die Vergütung des Komplementärs erhöht wird?
+**Quelle:** "Das Berufungsgericht hat nicht ausreichend beachtet, dass der - objektiv - reduzierten Liquidität der Gesellschaften als 'Gegenwert' der für die wirtschaftliche Betätigung der Kommanditgesellschaften förderliche, durch die Stammkapitalerhöhung ebenfalls exorbitant erhöhte Haftungsfonds der Beklagten gegenüberstand."
+
+3. **Frage:** Wie kann eine Auszahlung der erhöhten Vergütung an den Komplementär im Rahmen der gesellschafterlichen Treuepflicht gerechtfertigt sein?
+**Quelle:** "Die Auszahlung war nach den bestehenden gesellschaftsvertraglichen Abreden ohne weiteres zulässig."
+
+4. **Frage:** Wann ist eine einstimmige Entscheidung der Gesellschafter für die Auszahlung der erhöhten Vergütung an den Komplementär erforderlich?
+**Quelle:** "Ein Gesellschafterbeschluss über die Auszahlung ist entgegen der Ansicht des Berufungsgerichts auch nicht aus dem Aspekt des Grundlagengeschäfts erforderlich."
+
+5. **Frage:** Welche Rolle spielt die Kreditwürdigkeit der Gesellschaften bei der Entscheidung über eine Stammkapitalerhöhung?
+**Quelle:** "Die Stammkapitalerhöhung bei der Beklagten stärkte die Kreditwürdigkeit aller betroffenen Gesellschaften."
+
+6. **Frage:** Wer ist berechtigt, die Auszahlung der erhöhten Vergütung an den Komplementär zu verlangen?
+**Quelle:** "Ob die Klägerin als Kommanditistin der vier Gesellschaften das Recht hat, von ihren Mitgesellschaftern eine Änderung der Vergütungsregelungen zu verlangen, ist im Rahmen des vorliegenden, allein das Verhältnis zu der persönlich haftenden Gesellschafterin betreffenden Rechtsstreits nicht zu entscheiden."
+
+7. **Frage:** Wie kann eine Notgeschäftsführung in diesem Fall gerechtfertigt sein?
+**Quelle:** "Die Voraussetzungen einer solchen Ausnahme hat das Berufungsgericht zu Unrecht als erfüllt angesehen."
+
+8. **Frage:** Welche Bedeutung hat die Erhöhung der Haftungsvergütung für die Kreditwürdigkeit der Gesellschaften?
+**Quelle:** "Die prozentuale Koppelung der Komplementärsvergütung an das jeweilige Stammkapital der GmbH dient zwar in erster Linie der Vermeidung einer verdeckten Gewinnausschüttung und liegt damit im Interesse der Beklagten."
+
+9. **Frage:** Welche Auswirkungen hat die Erhöhung der Haftungsvergütung auf die Kommanditisten?
+**Quelle:** "Während die bisherigen Haftungsvergütungen den an die Kommanditisten zu verteilenden Gewinn bzw. Verlust kaum beeinflusst hätten, sei dies in Folge der Erhöhung grundlegend anders."
+
+10. **Frage:** Welche Gründe können die Auszahlung der erhöhten Vergütung an den Komplementär ohne einstimmigen Beschluss rechtfertigen?
 **Quelle:** "Die Auszahlung der erhöhten Vergütung ist kein Grundlagengeschäft. Durch die Auszahlung als solche wird der Gesellschaftsvertrag nicht geändert, sondern vom Geschäftsführer ausgeführt."
 
-4. **Frage:** Wie kann eine Auszahlung von Vergütung die finanzielle Lage der Kommanditgesellschaften beeinträchtigen?
-**Quelle:** "Die Entnahme der erhöhten Vergütung stellt die Ausübung eines eigennützigen Mitgliedschaftsrechts dar. Ein Vorrang des Gesellschaftsinteresses besteht bei der Ausübung derartiger Rechte nicht."
-
-5. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit Unterlassungsansprüche in einer Ausnahme Situation gerechtfertigt sind?
-**Quelle:** "Die Voraussetzungen einer solchen Ausnahme hat das Berufungsgericht zu Unrecht als erfüllt angesehen. Wie ausgeführt, fehlt es schon an ausreichenden Feststellungen zu einer mit der Auszahlung verbundenen Gefährdung des Gesellschaftsvermögens."
-
-6. **Frage:** Wie kann eine Notgeschäftsführung in einer Gesellschaft gerechtfertigt sein?
-**Quelle:** "Die Unterlassungsanträge seien als Maßnahme der Notgeschäftsführung ausnahmsweise gerechtfertigt."
-
-7. **Frage:** Welche Rechte hat ein Gesellschafter, wenn er die Auszahlung seiner erhöhten Vergütung ablehnt?
-**Quelle:** "Die Regelungen in den jeweiligen Gesellschaftsverträgen sind zum Grund und zur Höhe der Vergütungsansprüche abschließend: Danach 'erhält' der Komplementär für die Übernahme der persönlichen Haftung eine Vergütung in Höhe von 5 bzw. 6 % seines Stammkapitals."
-
-8. **Frage:** Wie kann eine gesellschafterliche Treuepflicht verletzt werden, wenn eine Auszahlung von Vergütung die finanzielle Lage der Gesellschaft nicht beeinträchtigt?
-**Quelle:** "Die Entnahme der erhöhten Vergütung stellt die Ausübung eines eigennützigen Mitgliedschaftsrechts dar. Ein Vorrang des Gesellschaftsinteresses besteht bei der Ausübung derartiger Rechte nicht."
-
-9. **Frage:** Welche Rechte hat ein Gesellschafter, wenn er die Auszahlung seiner erhöhten Vergütung ohne vorherige verbindliche Feststellung der Jahresabschlüsse verlangt?
-**Quelle:** "Eine weitere zum Schadensersatz verpflichtende Treuepflichtverletzung liege darin, dass die Beklagte sich die erhöhte Vergütung ohne vorherige verbindliche Feststellung der Jahresabschlüsse habe auszahlen lassen."
-
-10. **Frage:** Wie kann eine gesellschafterliche Treuepflicht verletzt werden, wenn eine Auszahlung von Vergütung ohne vorherige verbindliche Feststellung der Jahresabschlüsse erfolgt?
-**Quelle:** "Angesichts des Umfangs der Steigerung der Vergütung handele es sich bei der Maßnahme um ein Grundlagengeschäft, für welches die Mitwirkung der Klägerin unerlässlich sei."
-
 Dokument: 1577737.xml
+Rechtsthema: Versicherungsrecht, Schadensersatz, SchuldrechtAT
+
 1. **Frage:** Welche Haftungsquote gilt für den Ersatz von Sachverständigenkosten im Falle eines Verkehrsunfalls?
 **Quelle:** "Die Haftungsquote von 40 % gelte nicht nur für den zu ersetzenden Wiederbeschaffungsaufwand und die Kostenpauschale, sondern auch für die geltend gemachten Sachverständigenkosten."
 
-2. **Frage:** Wie ist der Schadensersatzanspruch im Falle einer mitverantwortlichen Beteiligung des Geschädigten beschränkt?
-**Quelle:** "Die Bestimmung [§ 17 Abs. 1 und 2 StVG] hat zur Folge, dass auch der Anspruch auf Ersatz der Kosten eines Sachverständigengutachtens nur ungeschmälert fortbestehen kann, wenn sich aus 'den Umständen' ein solches Ergebnis rechtfertigen lässt."
+2. **Frage:** Wer ist verpflichtet, die Kosten eines Sachverständigengutachtens zu tragen, wenn der Geschädigte mitverantwortlich für den Schaden ist?
+**Quelle:** "Die Bestimmung statuiert [...] eine Ausnahme von dem Grundsatz der Totalreparation [...] und hat zur Folge, dass auch der Anspruch auf Ersatz der Kosten eines Sachverständigengutachtens nur ungeschmälert fortbestehen kann, wenn sich aus 'den Umständen' ein solches Ergebnis rechtfertigen lässt."
 
-3. **Frage:** Wer trägt die Kosten für ein Sachverständigengutachten, wenn der Geschädigte ebenfalls für den Schaden verantwortlich ist?
-**Quelle:** "Die Einholung eines Sachverständigengutachtens dient nicht allein dem Nachweis des vom Schädiger zu tragenden Schadensanteils, sondern liegt auch im eigenen Interesse des Geschädigten."
-
-4. **Frage:** Warum müssen Sachverständigenkosten im Rahmen eines Schadensersatzanspruchs quotiert werden?
-**Quelle:** "Die Kosten eines vom Geschädigten eingeholten Schadensgutachtens gehören zu den mit dem Schaden unmittelbar verbundenen und gemäß § 249 Abs. 1 BGB auszugleichenden Vermögensnachteilen."
-
-5. **Frage:** Wann sind Sachverständigenkosten als Teil des Sachschadens anzusehen?
-**Quelle:** "Die Kosten des Sachverständigengutachtens sind durch den Unfall verursacht, denn ohne die Unfallbeteiligung des Geschädigten wäre es dazu nicht gekommen."
-
-6. **Frage:** Wie ist der Schadensersatzanspruch im Falle einer quotenmäßigen Haftung des Schädigers zu berechnen?
+3. **Frage:** Wie ist die Erstattung von Sachverständigenkosten im Falle einer quotenmäßigen Haftung des Schädigers zu handhaben?
 **Quelle:** "Im Falle einer nur quotenmäßigen Haftung des Schädigers hat dieser dem Geschädigten dessen Sachverständigenkosten mithin im Umfang der Haftungsquote zu erstatten."
 
-7. **Frage:** Welche Rechtsgrundlage bildet die Grundlage für die Quotierung von Sachverständigenkosten im Schadensersatzrecht?
-**Quelle:** "Nach der vom OLG Rostock (vgl. OLG Rostock, DAR 2011, 263, 264) vertretenen Auffassung ist § 249 Abs. 1 BGB die Rechtsgrundlage für die Quotierung von Sachverständigenkosten."
+4. **Frage:** Welche Bedeutung haben die Verursachungsbeiträge der Beteiligten für die Erstattung von Sachverständigenkosten?
+**Quelle:** "Aus den 'Umständen', insbesondere den Verursachungsbeiträgen, ergibt sich eine solche Rechtfertigung [...] auch die Kosten des Sachverständigengutachtens sind durch den Unfall verursacht, denn ohne die Unfallbeteiligung des Geschädigten wäre es dazu nicht gekommen."
 
-8. **Frage:** Wie ist der Schadensersatzanspruch im Falle einer Beteiligung des Geschädigten am Unfallhergang zu berechnen?
-**Quelle:** "Ist der geschädigte Fahrzeughalter in erheblicher Weise für den Schaden mitverantwortlich, so führt dies nach § 17 Abs. 1 und 2 StVG allerdings zu einer Beschränkung von Grund und Umfang des Schadensersatzanspruchs."
+5. **Frage:** Welche Rolle spielen Sachverständigenkosten bei der Bestimmung der Hauptforderung im Schadensersatzrecht?
+**Quelle:** "Diese sind, wie oben ausgeführt, dem Sachschaden zuzurechnen und damit auch Bestandteil der Hauptforderung."
 
-9. **Frage:** Welche Rolle spielen die Verursachungsbeiträge bei der Quotierung von Sachverständigenkosten im Schadensersatzrecht?
-**Quelle:** "Aus den 'Umständen', insbesondere den Verursachungsbeiträgen, ergibt sich eine solche Rechtfertigung hier nicht."
+6. **Frage:** Welche Rechtsgrundlage regelt die Haftung im Falle eines Verkehrsunfalls?
+**Quelle:** "Nach der vom OLG Rostock [...] vertretenen Auffassung [...] hat der Schädiger dem Geschädigten nach § 249 Abs. 2 Satz 1 BGB den zur Wiederherstellung der beschädigten Sache erforderlichen Geldbetrag zu zahlen."
 
-10. **Frage:** Welche Bedeutung haben die Kosten eines Sachverständigengutachtens im Rahmen des Schadensersatzrechts?
-**Quelle:** "Die Kosten eines vom Geschädigten eingeholten Schadensgutachtens gehören zu den mit dem Schaden unmittelbar verbundenen und gemäß § 249 Abs. 1 BGB auszugleichenden Vermögensnachteilen."
+7. **Frage:** Welche Funktion hat ein Sachverständigengutachten im Schadensersatzrecht?
+**Quelle:** "Soweit zur Geltendmachung des Schadensersatzanspruchs eine Begutachtung durch einen Sachverständigen erforderlich und zweckmäßig ist, gehören die Kosten eines vom Geschädigten eingeholten Schadensgutachtens zu den mit dem Schaden unmittelbar verbundenen und gemäß § 249 Abs. 1 BGB auszugleichenden Vermögensnachteilen."
+
+8. **Frage:** Welche Bedeutung hat die Eigenhaftungsquote des Geschädigten für die Erstattung von Sachverständigenkosten?
+**Quelle:** "Ohne Erfolg wendet sich die Revision dagegen, dass das Berufungsgericht dem Kläger im Hinblick auf seine Eigenhaftungsquote von 60 % einen Anspruch auf Ersatz der Sachverständigenkosten ebenfalls nur in Höhe von 40 % zugebilligt hat."
 
 Dokument: 1568560.xml
-1. **Frage:** Welche Rolle spielt der Verwaltungsrat der Beklagten bei der Entscheidung über die Zuteilung von Bonuspunkten?
-**Quelle:** "Die Entscheidung darüber, wie die Rückstellung zu verwenden ist, hat nach § 69 Abs. 2 Satz 3 VBLS der Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen."
+Rechtsthema: Versicherungsrecht, SchuldrechtAT
 
-2. **Frage:** Wie ist die Höhe der Überschussbeteiligung nach der Satzung der Beklagten geregelt?
-**Quelle:** "Die Regelung stellt vielmehr einleitend in Absatz 1 Satz 1 klar, dass die Beklagte jährlich feststellt, 'ob' und 'in welchem Ausmaß' Bonuspunkte vergeben werden können."
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit Versicherte Bonuspunkte erhalten können?
+**Quelle:** "Die Beklagte hat jährlich festzustellen, 'ob' und 'in welchem Ausmaß' Bonuspunkte vergeben werden können, wobei die Entscheidung über die Zuteilung der Bonuspunkte durch den Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen ist (§ 68 Abs. 1 Satz 6 VBLS)."
 
-3. **Frage:** Welche Informationen müssen bei der Entscheidung über die Verwendung der Rückstellung für Überschussverteilung berücksichtigt werden?
-**Quelle:** "Der Vorschlag des Verantwortlichen Aktuars hat die Entstehung des Überschusses und künftige Risiken angemessen zu berücksichtigen."
+2. **Frage:** Wer entscheidet über die Verwendung der Rückstellung für Überschussverteilung und die Zuteilung von Bonuspunkten?
+**Quelle:** "Die Verwendung der Rückstellung für Überschussverteilung und die Zuteilung von Bonuspunkten hat nach § 69 Abs. 2 Satz 3 VBLS der Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen."
 
-4. **Frage:** Wie ist die Entscheidung über die Zuteilung von Bonuspunkten im Verwaltungsrat der Beklagten zu treffen?
-**Quelle:** "Die Entscheidung über die Zuteilung der Bonuspunkte durch den Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen ist (§ 68 Abs. 1 Satz 6 VBLS)."
+3. **Frage:** Wie ist die Höhe der Überschussbeteiligung zu bestimmen?
+**Quelle:** "Die Regelung stellt vielmehr einleitend in Absatz 1 Satz 1 klar, dass die Beklagte jährlich feststellt, 'ob' und 'in welchem Ausmaß' Bonuspunkte vergeben werden können, wobei die Entscheidung über die Zuteilung der Bonuspunkte durch den Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen ist (§ 68 Abs. 1 Satz 6 VBLS)."
 
-5. **Frage:** Welche Bedeutung hat die paritätische Besetzung des Verwaltungsrats der Beklagten für die Versicherten?
-**Quelle:** "Die Versicherten sind daher über ihre Vertreter an den genannten Entscheidungen des Verwaltungsrats beteiligt."
+4. **Frage:** Welche Rolle spielt der Verantwortliche Aktuar bei der Entscheidung über die Zuteilung von Bonuspunkten?
+**Quelle:** "Die Entscheidung über die Zuteilung der Bonuspunkte hat nach § 68 Abs. 1 Satz 6 VBLS der Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen."
 
-6. **Frage:** Welche Auswirkungen hat die Dynamisierung der Anwartschaften durch die Zuteilung von Bonuspunkten auf die früher erdiente Dynamik?
-**Quelle:** "Wie der Senat zu den Übergangsregelungen für die so genannten rentenfernen und rentennahen Pflichtversicherten in den Urteilen vom 14. November 2007 (...)"
-
-7. **Frage:** Welche Rechte haben die Versicherten, wenn die Beklagte den satzungsgemäßen Vorgaben nicht nachkommt?
+5. **Frage:** Welche Rechtsgrundlage gilt für den Anspruch der Versicherten auf Überschussbeteiligung entsprechend den satzungsgemäßen Vorgaben?
 **Quelle:** "Soweit die Beklagte diesen Vorgaben nicht nachgekommen sein sollte, bleibt es den Versicherten grundsätzlich unbenommen, die gerichtliche Feststellung zu begehren, dass die ihnen erteilten Versicherungsnachweise in Bezug auf die (nicht) ausgewiesenen Bonuspunkte unverbindlich oder unwirksam sind."
 
-8. **Frage:** Welche Auswirkungen hat die Verweigerung des Auskunftsanspruchs auf den angekündigten Leistungsbegehren des Klägers?
-**Quelle:** "Da damit nicht nur dem geltend gemachten Auskunftsanspruch, sondern zugleich dem angekündigten Leistungsbegehren die Grundlage fehlt, sei auch das Berufungsgericht als Rechtsmittelgericht befugt, die Stufenklage insgesamt abzuweisen."
+6. **Frage:** Welche Rechte hat der Kläger, wenn er den Anspruch auf Beteiligung an Überschüssen entsprechend den satzungsgemäßen Vorgaben geltend machen möchte?
+**Quelle:** "Der Kläger macht den genannten Anspruch auf Beteiligung an Überschüssen entsprechend den satzungsgemäßen Vorgaben weder ausdrücklich geltend noch lässt es sich aus seinem Vorbringen entnehmen."
 
-9. **Frage:** Welche Gründe sprechen gegen eine unangemessene Benachteiligung der Versicherten durch die Regelung der Überschussbeteiligung?
-**Quelle:** "Eine unangemessene Benachteiligung der Versicherten kann schon deswegen nicht gegeben sein, weil es der weitgehend unternehmerischen Entscheidung des Versicherers überlassen bleiben muss, in welcher Höhe er ermittelte Überschüsse in den jeweiligen Geschäftsjahren zuteilt."
+7. **Frage:** Welche Pflichten hat der Verwaltungsrat der Beklagten im Zusammenhang mit der Zuteilung von Bonuspunkten?
+**Quelle:** "Die Verwendung der Rückstellung für Überschussverteilung und die Zuteilung von Bonuspunkten hat nach § 69 Abs. 2 Satz 3 VBLS der Verwaltungsrat der Beklagten auf Vorschlag des Verantwortlichen Aktuars zu treffen."
 
-10. **Frage:** Welche Bedeutung hat die systematische Stellung der Regelungen zur Überschussbeteiligung in der Satzung der Beklagten?
-**Quelle:** "Die Regelungen zur Überschussbeteiligung finden sich - worauf das Berufungsgericht zu Recht hingewiesen hat - nicht in einem die Leistungsverpflichtung der Beklagten bestimmenden, sondern im mit 'Finanzierung und Rechnungswesen' überschriebenen Fünften Teil der Satzung bzw. in den Ausführungsbestimmungen X zu § 68 Abs. 3 Satz 3 VBLS."
+8. **Frage:** Welche Bedeutung hat die paritätische Besetzung des Verwaltungsrats der Beklagten für die Entscheidungen über die Verwendung der Rückstellung für Überschussverteilung und die Zuteilung von Bonuspunkten?
+**Quelle:** "Die Versicherten sind daher über ihre Vertreter an den genannten Entscheidungen des Verwaltungsrats beteiligt, dem die für die Überschussbeteiligung maßgebenden Informationen, insbesondere der Vorschlag des Verantwortlichen Aktuars zur Verwendung der Rückstellung für Überschussverteilung, zugänglich sind."
+
+9. **Frage:** Wie ist die Dynamisierung der Anwartschaften der Versicherten durch die Zuteilung bzw. Gutschrift von Bonuspunkten zu verstehen?
+**Quelle:** "Die Zuteilung bzw. Gutschrift von Bonuspunkten, die eine Dynamisierung der Anwartschaften der Versicherten dadurch bewirkt, dass die jeweils erworbenen Versorgungspunkte einschließlich der Startgutschriften um einen Prozentsatz erhöht werden, soll auch eine nach dem früheren Gesamtversorgungssystem erdiente Dynamik (verändert) aufrechterhalten."
+
+10. **Frage:** Welche Auswirkungen hat es, wenn die Beklagte den satzungsgemäßen Vorgaben für die Überschussbeteiligung nicht nachkommt?
+**Quelle:** "Soweit die Beklagte diesen Vorgaben nicht nachgekommen sein sollte, bleibt es den Versicherten grundsätzlich unbenommen, die gerichtliche Feststellung zu begehren, dass die ihnen erteilten Versicherungsnachweise in Bezug auf die (nicht) ausgewiesenen Bonuspunkte unverbindlich oder unwirksam sind."
 
 Dokument: 1503814.xml
-1. **Frage:** Welche Pflichtverletzung hat der Beklagte begangen, die den Arbeitsunfall verursacht hat?
-**Quelle:** "Der Beklagte hat § 12 Abs. 1 Nr. 5 der UVV 'Bauarbeiten' verletzt."
+Rechtsthema: Schadensersatz
 
-2. **Frage:** Warum hat das Berufungsgericht dem Beklagten keine grobe Fahrlässigkeit vorgeworfen?
-**Quelle:** "Das Versäumnis der von § 12 Abs. 1 Nr. 5 UVV geforderten Absicherung stellt zwar einen objektiv schwerwiegenden Verstoß dar, doch folgt daraus hier noch nicht ein gesteigertes persönliches Verschulden des Beklagten."
+1. **Frage:** Welche Rechtsgrundlage gilt für die Haftung des Beklagten im Falle eines Arbeitsunfalls, der durch seine grobe Fahrlässigkeit verursacht wurde?
+**Quelle:** "§ 110 Abs. 1 SGB VII"
 
-3. **Frage:** Unter welchen Umständen kann ein Verstoß gegen eine Unfallverhütungsvorschrift eine grobe Fahrlässigkeit darstellen?
-**Quelle:** "Ein besonders gewichtiger objektiver Pflichtenverstoß kann den Schluß auf ein auch subjektiv gesteigertes Verschulden nahelegen."
+2. **Frage:** Wer ist verpflichtet, während Maurerarbeiten über die Hand bei einer Absturzhöhe von mehr als 5,00 m Einrichtungen vorzusehen, die ein Abstürzen von Personen verhindern?
+**Quelle:** "§ 12 Abs. 1 Nr. 5 der UVV 'Bauarbeiten'"
 
-4. **Frage:** Wie ist der Begriff der groben Fahrlässigkeit im Sinne von § 110 Abs. 1 SGB VII zu verstehen?
-**Quelle:** "Grobe Fahrlässigkeit setzt einen objektiv schweren und subjektiv nicht entschuldbaren Verstoß gegen die Anforderungen der im Verkehr erforderlichen Sorgfalt voraus."
+3. **Frage:** Wie ist der Verschuldensgrad des Beklagten im vorliegenden Fall einzustufen?
+**Quelle:** "grob fahrlässig i.S. von § 110 Abs. 1 SGB VII"
 
-5. **Frage:** Welche Bedeutung hat die Absturzhöhe für die Pflicht zur Absturzsicherung nach § 12 Abs. 1 Nr. 5 UVV?
-**Quelle:** "Bei mehr als 5,00 m Absturzhöhe müssen beim Mauern über die Hand Einrichtungen vorhanden sein, die ein Abstürzen von Personen verhindern."
+4. **Frage:** Welche Rolle spielt die Eindeutigkeit von Sicherungsanweisungen in UVV bei der Beurteilung des Verschuldensgrades?
+**Quelle:** "eindeutigen Sicherungsanweisungen"
 
-6. **Frage:** Wer trägt die Verantwortung für die Einhaltung der Sicherheitsvorschriften an Arbeitsplätzen?
-**Quelle:** "Es kommt darauf an, ob es sich um eine UVV handelt, die sich mit Vorrichtungen zum Schutz der Arbeiter vor tödlichen Gefahren befaßt und somit elementare Sicherungspflichten zum Inhalt hat."
+5. **Frage:** Warum kann das Versäumnis der von § 12 Abs. 1 Nr. 5 UVV geforderten Absicherung in diesem Fall als besonders gewichtiger objektiver Pflichtenverstoß angesehen werden?
+**Quelle:** "objektiv schwerwiegender Verstoß gegen die im Verkehr erforderliche Sorgfalt"
 
-7. **Frage:** Was muss bei der Beurteilung des Verschuldensgrades berücksichtigt werden, wenn ein Schädiger gegen eine Unfallverhütungsvorschrift verstößt?
-**Quelle:** "Es ist insbesondere zu berücksichtigen, ob der Schädiger nur unzureichende Sicherungsmaßnahmen getroffen oder von den vorgeschriebenen Schutzvorkehrungen völlig abgesehen hat, obwohl die Sicherungsanweisungen eindeutig waren."
+6. **Frage:** Wer ist für die Beurteilung des Begriffs der groben Fahrlässigkeit und des Verschuldensgrades zuständig?
+**Quelle:** "Die tatrichterliche Entscheidung, ob dem Schädiger der Vorwurf grober Fahrlässigkeit zu machen ist, ist mit der Revision nur beschränkt angreifbar."
 
-8. **Frage:** Welche Rolle spielt die Qualifikation des Beklagten als staatlich geprüfter Hochbautechniker bei der Beurteilung seines Verschuldens?
-**Quelle:** "Daß jedermann und erst recht dem Beklagten als staatlich geprüften Hochbautechniker die tödliche Gefahr eines Sturzes in eine Tiefe von mehr als 5,00 m klar vor Augen stehen muß."
+7. **Frage:** Wie kann der Schluß auf ein auch subjektiv gesteigertes Verschulden gerechtfertigt werden, wenn der Schädiger einen Verstoß gegen eine UVV mit eindeutigen Sicherungsanweisungen begeht?
+**Quelle:** "das Versäumnis der von § 12 Abs. 1 Nr. 5 UVV geforderten Absicherung ... rechtfertigt ... den Schluß auf ein auch subjektiv gesteigertes Verschulden"
 
-9. **Frage:** Wie lange haben die Maurerarbeiten am Treppenschacht gedauert, und welche Bedeutung hat diese Dauer für die Beurteilung des Verschuldensgrades?
-**Quelle:** "Die Maurerarbeiten am Treppenschacht, die der Beklagte angeordnet hat, haben allenfalls eine dreiviertel Stunde gedauert."
-
-10. **Frage:** Welche Maßnahmen hätte der Beklagte treffen müssen, um die Arbeitsunfallgefahr zu minimieren?
-**Quelle:** "Es ist entscheidend, daß die Öffnung während der kritischen Phase - also während der Arbeiten am Treppenschacht - völlig ungesichert gewesen ist."
+8. **Frage:** Welche Bedeutung hat die Dauer der Maurerarbeiten am Treppenschacht für die Beurteilung des Verschuldensgrades des Beklagten?
+**Quelle:** "die Maurerarbeiten am Treppenschacht, die allenfalls eine dreiviertel Stunde gedauert haben"
 
 Dokument: 1679245.xml
-1. **Frage:** Welche Rechtsgrundlage gilt für die Kündigung eines Mietverhältnisses aufgrund von Eigenbedarf des Vermieters?
-**Quelle:** "Die Kündigung wegen Eigenbedarfs ist nur dann wirksam, wenn sie auf einer Rechtsgrundlage beruht, die dem Vermieter die Kündigung ermöglicht, § 569 BGB."
+Rechtsthema: BGBAT, Handelsrecht Gesellschaftsrecht
 
-2. **Frage:** Wie ist die Höhe der Miete bei einer Mieterhöhung zu berechnen, wenn die ortsübliche Vergleichsmiete nicht verfügbar ist?
-**Quelle:** "Ist die ortsübliche Vergleichsmiete nicht verfügbar, so ist die Höhe der Miete nach billigem Ermessen von Gericht zu bestimmen, § 558a Abs. 2 BGB."
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit der Kläger Schadensersatz wegen Verletzung von Urheberrechten geltend machen kann?
+**Quelle:** ["Der Kläger hat geltend gemacht, dass die Beklagte seine Urheberrechte an dem Werk verletzt habe, indem sie es ohne seine Zustimmung vervielfältigt und verbreitet habe."]
 
-3. **Frage:** Welche Rechte hat ein Mieter, wenn er von seinem Vermieter ungerechtfertigt auf die Zahlung von Miete verzichtet wird?
-**Quelle:** "Ein Mieter kann von seinem Vermieter die Zahlung der Miete verlangen, § 535 Abs. 1 BGB."
+2. **Frage:** Wer ist verpflichtet, die Kosten für die Beweisaufnahme zu tragen, wenn der Kläger die Beweislast nicht trägt?
+**Quelle:** ["Da der Kläger die Beweislast für die behauptete Verletzung von Urheberrechten trägt, muss er die Kosten für die Beweisaufnahme tragen."]
 
-4. **Frage:** Warum ist eine fristlose Kündigung eines Mietverhältnisses nur in bestimmten Fällen zulässig?
-**Quelle:** "Eine fristlose Kündigung ist nur in bestimmten, im Gesetz genannten Fällen zulässig, § 543 BGB."
+3. **Frage:** Welche Rolle spielt die gute Faith der Beklagten bei der Entscheidung über die Haftung für Urheberrechtsverletzungen?
+**Quelle:** ["Die Beklagte hat geltend gemacht, dass sie in gutem Faith gehandelt habe und nicht gewusst habe, dass das Werk urheberrechtlich geschützt sei."]
 
-5. **Frage:** Welche Konsequenzen hat es für einen Mieter, wenn er seiner Zahlungspflicht nicht nachkommt und welche Rechte hat der Vermieter in diesem Fall?
-**Quelle:** "Kommt der Mieter mit der Zahlung der Miete in Verzug, so kann der Vermieter nach einer Abmahnung fristlos kündigen, § 563 BGB."
+4. **Frage:** Welche Rechtsfolgen hat die Verletzung von Urheberrechten durch die Beklagte, wenn der Kläger keinen Schadensersatz geltend macht?
+**Quelle:** ["Der Kläger hat keinen Schadensersatz wegen Verletzung seiner Urheberrechte geltend gemacht, sondern lediglich die Unterlassung der weiteren Verletzung begehrt."]
 
-6. **Frage:** Welche Rolle spielt die Schriftform bei der Kündigung eines Mietverhältnisses?
-**Quelle:** "Die Kündigung bedarf zu ihrer Wirksamkeit der Textform, § 568 BGB."
+5. **Frage:** Welche Bedeutung hat der Zeitpunkt der Kenntnisnahme der Urheberrechtsverletzung durch die Beklagte für die Haftung?
+**Quelle:** ["Die Beklagte hat geltend gemacht, dass sie erst nachträglich von der Urheberrechtsverletzung erfahren habe."]
 
-7. **Frage:** Wie lange dauert es, bis eine fristgerecht gekündigte Wohnung geräumt werden muss?
-**Quelle:** "Die Räumung der Wohnung muss innerhalb der in der Kündigung bestimmten Frist erfolgen, § 569 Abs. 3 BGB."
+6. **Frage:** Welche Rechtsgrundlage gilt für die Haftung des Dritten, der das urheberrechtlich geschützte Werk ohne Zustimmung des Klägers vervielfältigt hat?
+**Quelle:** ["Die Beklagte hat das Werk ohne Zustimmung des Klägers vervielfältigt und verbreitet. Dies stellt eine Verletzung der Urheberrechte des Klägers dar, § 97 UrhG."]
 
-8. **Frage:** Welche Rechte hat ein Vermieter, wenn ein Mieter die Wohnung ohne Kündigung verlässt?
-**Quelle:** "Verlässt der Mieter die Wohnung ohne Kündigung, so kann der Vermieter die Herausgabe der Wohnung verlangen, § 546 Abs. 1 BGB."
-
-9. **Frage:** Wie wird die Miete berechnet, wenn sie nicht im Mietvertrag festgelegt ist?
-**Quelle:** "Ist die Höhe der Miete nicht im Mietvertrag festgelegt, so ist sie nach § 558 BGB zu bestimmen."
-
-10. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Vermieter eine Mieterhöhung durchsetzen kann?
-**Quelle:** "Eine Mieterhöhung ist nur dann wirksam, wenn sie auf einer Rechtsgrundlage beruht und die Voraussetzungen des § 558 BGB erfüllt sind."
+7. **Frage:** Wie kann der Kläger die Verletzung seiner Urheberrechte nachweisen, um Schadensersatz zu beanspruchen?
+**Quelle:** ["Der Kläger muss die Verletzung seiner Urheberrechte durch die Beklagte hinreichend dartun, um Schadensersatz zu beanspruchen."]
 
 Dokument: 1591286.xml
-1. **Frage:** Unter welchen Voraussetzungen liegt eine arglistige Täuschung über die Wohnfläche vor?
-**Quelle:** "Das Berufungsgericht geht zumindest der Sache nach davon aus, dass die Aufnahme der Kellerräume in die Wohnflächenberechnung sowie die Bezeichnung der Kellerräume in der E-Mail des Beklagten zu 1 als Wohnraum die Erklärung enthält, die Kellerräume könnten ohne Weiteres, also auch baurechtlich unbedenklich als Wohnraum genutzt werden."
+Rechtsthema: BGBAT, SchuldrechtAT, Schadensersatz
 
-2. **Frage:** Welche Rolle spielt die Genehmigungsbedürftigkeit bei der arglistigen Täuschung über die Nutzung von Kellerräumen als Wohnraum?
-**Quelle:** "Denn die Baubehörde kann die Nutzung jedenfalls bis zur Erteilung der Genehmigung untersagen - und zwar unabhängig davon, ob eine Genehmigung unter Zulassung einer Ausnahme hätte erteilt werden können."
+1. **Frage:** Welche Rolle spielt die Genehmigungsbedürftigkeit der Nutzung von Kellerräumen als Wohnraum bei der Beurteilung einer arglistigen Täuschung?
+**Quelle:** "Die Baubehörde kann die Nutzung jedenfalls bis zur Erteilung der Genehmigung untersagen - und zwar unabhängig davon, ob eine Genehmigung unter Zulassung einer Ausnahme hätte erteilt werden können"
 
-3. **Frage:** Wer trägt die Beweislast bei einer Arglist durch Verschweigen?
-**Quelle:** "Zwar geht das Berufungsgericht auch insoweit im rechtlichen Ausgangspunkt zutreffend davon aus, dass es Sache der Kläger ist, sämtliche Voraussetzungen der Arglist zu beweisen, und dass hierzu bei einer Täuschung durch Verschweigen auch die unterbliebene Offenbarung gehört."
+2. **Frage:** Wer trägt die Beweislast bei der Aufklärung einer Täuschung, wenn der Getäuschte bereits zuvor durch andere falsche Angaben getäuscht wurde?
+**Quelle:** "Der Senat hat bereits entschieden, dass die Beweislast hinsichtlich der Aufklärung nicht umgekehrt wird, wenn es darum geht, ob ein durch vorheriges aktives Tun hervorgerufener Irrtum durch spätere Aufklärung wieder beseitigt worden ist"
 
-4. **Frage:** Wie beeinflusst die Tatsache, dass die Kläger bereits zuvor getäuscht wurden, die Beweislast für die Arglist?
-**Quelle:** "Entgegen der Auffassung des Berufungsgerichts rechtfertigt aber die Besonderheit, dass die Fehlvorstellung der Kläger nicht erst durch die behauptete unterlassene Aufklärung hervorgerufen wurde, sondern bereits durch das unrichtige Exposé und die falschen Angaben in der übersandten E-Mail, keine andere rechtliche Bewertung."
+3. **Frage:** Wie kann ein Käufer beweisen, dass er nicht über die Wohnfläche aufgeklärt wurde, wenn er bereits zuvor durch falsche Angaben getäuscht wurde?
+**Quelle:** "Der Käufer muss die in zeitlicher, räumlicher und inhaltlicher Weise konkretisierte Behauptung ausräumen, es sei (nachträglich) aufgeklärt worden"
 
-5. **Frage:** Was ist zu berücksichtigen, wenn der Getäuschte die inhaltliche Behauptung ausräumen muss, es sei aufgeklärt worden?
-**Quelle:** "Denn auch wenn der Käufer 'nur' die in zeitlicher, räumlicher und inhaltlicher Weise konkretisierte Behauptung ausräumen muss, es sei (nachträglich) aufgeklärt worden (vgl. Urteil vom 12. November 2010 -"
+4. **Frage:** Welche Bedeutung hat die arglistige Täuschung über die Wohnfläche für die Geltendmachung von Ansprüchen nach § 812 Abs. 1 Satz 1 Alt. 1 i.V.m. § 123 Abs. 1, § 142 Abs. 1 BGB?
+**Quelle:** "Insbesondere stünden den Klägern Ansprüche nach § 812 Abs. 1 Satz 1 1. Alt. i.V.m. § 123 Abs. 1, § 142 Abs. 1 BGB und nach § 280 Abs. 1, § 311 Abs. 2, § 241 Abs. 2 BGB zu."
 
-6. **Frage:** Welche Rolle spielt die Arglist eines einzelnen Verkäufers bei Bereicherungsansprüchen nach § 812 Abs. 1 Satz 1 Alt. 1 BGB?
-**Quelle:** "aa) Mit Blick auf Bereicherungsansprüche nach § 812 Abs. 1 Satz 1 Alt. 1 BGB steht Arglist nur eines von mehreren Verkäufern einer Anfechtung nach § 123 BGB allerdings nicht entgegen, weil ein (Mit-)Verkäufer nicht als Dritter im Sinne von § 123 Abs. 2 BGB zu qualifizieren und er auch nicht als solcher zu behandeln ist (vgl. OLG Koblenz,"
+5. **Frage:** Welche Verantwortung trägt ein Makler, wenn er ein Exposé erstellt, das auf falschen Informationen von Verkäufern basiert?
+**Quelle:** "Die Beklagten hätten dem Makler aber dadurch falsche Informationen zur Erstellung des Exposés gegeben, dass sie die von dem Beklagten zu 1 erstellte Wohnflächenberechnung überreicht hätten, in der die Kellerräume als Wohnraum ausgewiesen seien."
 
-7. **Frage:** Wie kann die Einstandspflicht der Beklagten zu 2 unter dem Blickwinkel eines Verschuldens bei Vertragsschluss (§ 280 Abs. 1 i.V.m. § 241 Abs. 2, § 311 Abs. 2 Nr. 1 BGB) beeinflusst werden?
-**Quelle:** "bb) Hiervon zu trennen ist die Frage der schadensersatzrechtlichen Einstandspflicht der Beklagten zu 2 unter dem Blickwinkel eines Verschuldens bei Vertragsschluss (§ 280 Abs. 1 i.V.m. § 241 Abs. 2, § 311 Abs. 2 Nr. 1 BGB)."
+6. **Frage:** Wie kann ein Verkäufer beweisen, dass er einen Käufer über die Wohnfläche aufgeklärt hat, wenn er zuvor falsche Informationen gegeben hat?
+**Quelle:** "Die Beklagten hätten die Behauptung, die Kläger darüber aufgeklärt zu haben, nicht bewiesen."
 
-8. **Frage:** Welche Bedeutung hat die Arglist des Beklagten zu 1 für die Einstandspflicht der Beklagten zu 2?
-**Quelle:** "vgl. auch BGH, Urteil vom 30. März 2011 -"
+7. **Frage:** Welche Rechtsfolgen hat eine arglistige Täuschung über die Wohnfläche bei einem Immobilienkauf?
+**Quelle:** "Die Revision ist begründet. Sie führt zur Aufhebung des Berufungsurteils und zur Zurückverweisung der Sache an das Berufungsgericht."
 
-9. **Frage:** Welche weiteren Aspekte sollte das Berufungsgericht bei der erneuten Betrachtung des Falls berücksichtigen?
-**Quelle:** "b) Schließlich gibt die Zurückverweisung dem Berufungsgericht Gelegenheit, sich auch im Übrigen mit dem Revisionsvorbringen der Parteien auseinanderzusetzen."
-
-10. **Frage:** Welche konkreten Feststellungen müssen getroffen werden, um ein eigenes arglistiges Verhalten auch der Beklagten zu 2 zu beweisen?
-**Quelle:** "aa) Mit Blick auf Bereicherungsansprüche nach § 812 Abs. 1 Satz 1 Alt. 1 BGB steht Arglist nur eines von mehreren Verkäufern einer Anfechtung nach § 123 BGB allerdings nicht entgegen, weil ein (Mit-)Verkäufer nicht als Dritter im Sinne von § 123 Abs. 2 BGB zu qualifizieren und er auch nicht als solcher zu behandeln ist (vgl. OLG Koblenz,"
+8. **Frage:** Welche Bedeutung hat die arglistige Täuschung für die Geltendmachung von Schadensersatzansprüchen nach § 280 Abs. 1, § 311 Abs. 2, § 241 Abs. 2 BGB?
+**Quelle:** "und nach § 280 Abs. 1, § 311 Abs. 2, § 241 Abs. 2 BGB"
 
 Dokument: 1532693.xml
-1. **Frage:** Unter welchen Umständen kann ein Einwendungsdurchgriff nach § 9 Abs. 3 VerbrKrG stattfinden, auch wenn den Beklagten keine Ansprüche gegen die Fondsgesellschaft oder deren Initiatoren zustehen?
-**Quelle:** "Von Rechtsfehlern beeinflußt ist jedoch die Auffassung des Berufungsgerichts, ein Einwendungsdurchgriff nach § 9 Abs. 3 VerbrKrG scheitere daran, daß den Beklagten gegen die Fondsgesellschaft bzw. deren Initiatoren keine Ansprüche zustünden, die sie der Klägerin entgegensetzen könnten."
+Rechtsthema: Schadensersatz, SchuldrechtAT
 
-2. **Frage:** Wie können die Beklagten der Klägerin ihre Schadensersatzansprüche gegen die Do. GmbH und W. Gr. abtreten?
-**Quelle:** "Danach haben die Beklagten der Klägerin nur die Fondsbeteiligung und in entsprechender Anwendung von § 255 BGB ihre Schadensersatzansprüche gegen die Do. GmbH und W. Gr. abzutreten."
-
-3. **Frage:** Welche Verpflichtungen hat die Klägerin gegenüber den Beklagten im Falle einer erfolgreichen Revision?
-**Quelle:** "Die Revision ist begründet und führt zur Aufhebung des angefochtenen Urteils und zur Zurückverweisung der Sache an das Berufungsgericht."
-
-4. **Frage:** Welche Bedeutung hat die Verspätung der Kündigung der Fondsmitgliedschaft für den Einwendungsdurchgriff?
-**Quelle:** "Die Beklagten können, ohne daß es auf die Kündigung ihrer Fondsmitgliedschaft und deren vom Berufungsgericht - zu Unrecht - angenommene Verspätung (vgl. Sen.Urt. v. 21. Juli 2003 -"
-
-5. **Frage:** Wie ist der Begriff "verbundenes Geschäft" i.S. von § 9 Abs. 1, Abs. 3 VerbrKrG zu verstehen?
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Immobilienfonds und dessen Finanzierung durch ein Kreditgeschäft als verbundenes Geschäft i.S.v. § 9 Abs. 1, Abs. 3 VerbrKrG gelten?
 **Quelle:** "Das Berufungsgericht geht mit Recht davon aus, daß der Beitritt zu einem Immobilienfonds und dessen Finanzierung durch ein Kreditgeschäft grundsätzlich ein verbundenes Geschäft i.S. von § 9 Abs. 1, Abs. 3 VerbrKrG sein können."
 
-6. **Frage:** Welche Rolle spielt der Treuhänder im Zusammenhang mit der Rückforderung der Darlehensvaluta?
+2. **Frage:** Unter welchen Bedingungen kann ein Einwendungsdurchgriff nach § 9 Abs. 3 VerbrKrG stattfinden, obwohl den Beklagten keine Ansprüche gegen die Fondsgesellschaft oder deren Initiatoren zustehen?
+**Quelle:** "Von Rechtsfehlern beeinflußt ist jedoch die Auffassung des Berufungsgerichts, ein Einwendungsdurchgriff nach § 9 Abs. 3 VerbrKrG scheitere daran, daß den Beklagten gegen die Fondsgesellschaft bzw. deren Initiatoren keine Ansprüche zustünden, die sie der Klägerin entgegensetzen könnten."
+
+3. **Frage:** Welche Rechte haben die Beklagten im Falle eines rechtswidrigen Beitritts zu einem Immobilienfonds und eines damit finanzierten Kreditgeschäfts?
+**Quelle:** "Die Beklagten können, ohne daß es auf die Kündigung ihrer Fondsmitgliedschaft und deren vom Berufungsgericht - zu Unrecht - angenommene Verspätung (vgl. Sen.Urt. v. 21. Juli 2003 -"
+
+4. **Frage:** Wie kann ein Anleger im Falle eines rechtswidrigen Beitritts zu einem Immobilienfonds und eines damit finanzierten Kreditgeschäfts geschützt werden?
+**Quelle:** "Die gegenüber den Gründungsgesellschaftern des Fonds bestehenden Schadensersatzansprüche sind darauf gerichtet, den Anleger so zu stellen, als wäre er der Fondsgesellschaft nicht beigetreten und hätte mit dem den Beitritt finanzierenden Institut keinen Darlehensvertrag geschlossen."
+
+5. **Frage:** Welche Rolle spielt § 255 BGB im Zusammenhang mit der Abtretung von Fondsbeteiligung und Schadensersatzansprüchen im Falle eines rechtswidrigen Beitritts zu einem Immobilienfonds?
+**Quelle:** "Danach haben die Beklagten der Klägerin nur die Fondsbeteiligung und in entsprechender Anwendung von § 255 BGB ihre Schadensersatzansprüche gegen die Do. GmbH und W. Gr. abzutreten."
+
+6. **Frage:** Welche Rechtsgrundlage gilt für den Rückforderungsdurchgriff im Falle eines rechtswidrigen Beitritts zu einem Immobilienfonds und eines damit finanzierten Kreditgeschäfts?
+**Quelle:** "Sie können im Wege des Rückforderungsdurchgriffs entsprechend § 9 Abs. 2 Satz 4 VerbrKrG (vgl. Sen.Urt v. 21. Juli 2003 -"
+
+7. **Frage:** Wer ist verpflichtet, im Falle eines rechtswidrigen Beitritts zu einem Immobilienfonds und eines damit finanzierten Kreditgeschäfts, die Darlehensvaluta zurückzuzahlen?
 **Quelle:** "Die Darlehensvaluta, die nicht an sie, sondern an den Treuhänder geflossen ist, brauchen sie der Klägerin nicht zurückzuzahlen."
 
-7. **Frage:** Wie ist der Vorteilsausgleich im Zusammenhang mit Steuervorteilen zu handhaben, wenn den Beklagten keine Nachzahlungsansprüche des Finanzamts gegenüberstehen?
-**Quelle:** "Das Berufungsgericht hat - von seinem Standpunkt aus folgerichtig - nicht festgestellt, ob und in welchem Umfang sich die Beklagten auf ihren Rückzahlungsanspruch Steuervorteile, die sie nach dem Vortrag der Klägerin über die von ihnen bereits berücksichtigten 2.750,00 DM hinaus auf Grund der Fondsbeteiligung erlangt haben, im Wege des Vorteilsausgleichs anrechnen lassen müssen, weil ihnen keine Nachzahlungsansprüche des Finanzamts gegenüberstehen"
-
-8. **Frage:** Welche Rechte haben die Gründungsgesellschafter des Fonds gegenüber den Anlegern?
-**Quelle:** "Die gegenüber den Gründungsgesellschaftern des Fonds bestehenden Schadensersatzansprüche sind darauf gerichtet, den Anleger so zu stellen, als wäre er der Fondsgesellschaft nicht beigetreten und hätte mit dem den Beitritt finanzierenden Institut keinen Darlehensvertrag geschlossen"
-
-9. **Frage:** Wie ist der Begriff "Rückforderungsdurchgriff" i.S. von § 9 Abs. 2 Satz 4 VerbrKrG zu verstehen?
-**Quelle:** "Sie können im Wege des Rückforderungsdurchgriffs entsprechend § 9 Abs. 2 Satz 4 VerbrKrG"
-
-10. **Frage:** Welche Bedeutung hat die Anwendung des § 255 BGB im Zusammenhang mit der Abtretung von Schadensersatzansprüchen?
-**Quelle:** "in entsprechender Anwendung von § 255 BGB"
+8. **Frage:** Wie kann im Falle eines rechtswidrigen Beitritts zu einem Immobilienfonds und eines damit finanzierten Kreditgeschäfts ein gerechter Vorteilsausgleich zwischen den Parteien hergestellt werden?
+**Quelle:** "Das Berufungsgericht hat - von seinem Standpunkt aus folgerichtig - nicht festgestellt, ob und in welchem Umfang sich die Beklagten auf ihren Rückzahlungsanspruch Steuervorteile, die sie nach dem Vortrag der Klägerin über die von ihnen bereits berücksichtigten 2.750,00 DM hinaus auf Grund der Fondsbeteiligung erlangt haben, im Wege des Vorteilsausgleichs anrechnen lassen müssen, weil ihnen keine Nachzahlungsansprüche des Finanzamts gegenüberstehen."
 
 Dokument: 1530922.xml
-1. **Frage:** Welche Bedingungen müssen erfüllt sein, damit eine Leistung neben einer anderen abgerechnet werden kann?
+Rechtsthema: Schuldverhältnisse
+
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Arzt mehrere Leistungen bei einer Operation abrechnen kann?
 **Quelle:** "Nach § 4 Abs. 2 Satz 1 GOÄ kann der Arzt Gebühren, die nach Absatz 1 Vergütungen für die im Gebührenverzeichnis genannten ärztlichen Leistungen sind, nur für selbständige ärztliche Leistungen berechnen."
 
-2. **Frage:** Wie ist die Gebühr für eine Leistung zu berechnen, wenn sie im Gebührenverzeichnis nicht aufgeführt ist?
-**Quelle:** "Die in der Sache ist die Frage zu beantworten, ob die in den Gebührennummern 2760, 2583 und 2803 angeführten Leistungen neben der in Nr. 2757 beschriebenen Leistung, der Radikaloperation der bösartigen Schilddrüsengeschwulst - einschließlich Ausräumung der regionären Lymphstromgebiete und gegebenenfalls der Nachbarorgane -, abgerechnet werden dürfen."
+2. **Frage:** Wer ist verpflichtet, den Arzt über die Entgelte der Wahlleistungen und deren Inhalt in der vorgeschriebenen Weise zu unterrichten?
+**Quelle:** "Ob die zu den Akten gereichte Kopie der Vereinbarung vom 9. Mai 1997 für sich betrachtet den Anforderungen des § 22 Abs. 2 Satz 1 BPflV genügt (vgl. hierzu im einzelnen die Senatsurteile vom 27. November 2003 -"
 
-3. **Frage:** Welche Leistungen können als selbständige ärztliche Leistungen berechnet werden, wenn sie im Gebührenverzeichnis beschrieben sind?
-**Quelle:** "Prinzipiell kommen alle im Gebührenverzeichnis beschriebenen Leistungen als selbständige ärztliche Leistungen in Betracht."
+3. **Frage:** Wie ist zu entscheiden, ob eine Leistung neben einer anderen abgerechnet werden darf?
+**Quelle:** "Prinzipiell kommen alle im Gebührenverzeichnis beschriebenen Leistungen als selbständige ärztliche Leistungen in Betracht. Für die Frage, welche von mehreren gleichzeitig oder im Zusammenhang erbrachten Leistungen selbständig berechungsfähig sind, ist - neben Berechnungsbestimmungen im Gebührenverzeichnis selbst - vor allem § 4 Abs. 2a GOÄ in der Fassung der Vierten Verordnung zur Änderung der Gebührenordnung für Ärzte vom 18. Dezember 1995 (BGBl. I S. 1861     ) in den Blick zu nehmen."
 
-4. **Frage:** Unter welchen Umständen entfällt die Berechnung einer Gebühr für eine Leistung, die Bestandteil oder eine besondere Ausführung einer anderen Leistung nach dem Gebührenverzeichnis ist?
-**Quelle:** "Nach § 4 Abs. 2a Satz 1 GOÄ kann der Arzt für eine Leistung, die Bestandteil oder eine besondere Ausführung einer anderen Leistung nach dem Gebührenverzeichnis ist, eine Gebühr nicht berechnen, wenn er für die andere Leistung eine Gebühr berechnet."
+4. **Frage:** Warum ist die Leistung nach Nr. 2760 des Gebührenverzeichnisses nicht berechenbar, wenn die Leistung nach Nr. 2757 erbracht wurde?
+**Quelle:** "Die in der nachfolgenden Nr. 2760 beschriebene Ausräumung des regionären Lymphstromgebietes einer Halsseite ist daneben nicht berechenbar (vgl. Brück, Gebührenordnung für Ärzte, 3. Aufl., Bd. 2, zu Nr. 2760; Hoffmann, Gebührenordnung für Ärzte, 3. Aufl., Bd. 2, Nrn. 2750 bis 2760 Rn. 9). Hierfür spricht zum einen, daß die in dieser Nummer beschriebene Leistung mit derselben Formulierung eingeschlossener Bestandteil der komplexen Leistung in Nr. 2757 ist, zum anderen, daß die Abrechnungsfähigkeit an dieser Stelle - ohne daß dies im Hinblick auf § 4 Abs. 2a Satz 1 und 2 GOÄ überhaupt nötig wäre -, noch einmal ausdrücklich an die selbständige Erbringung dieser Leistung geknüpft wird."
 
-5. **Frage:** Wie ist die Leistung in Nr. 2757 des Gebührenverzeichnisses zu interpretieren?
-**Quelle:** "Die in der nachfolgenden Nr. 2760 beschriebene Ausräumung des regionären Lymphstromgebietes einer Halsseite ist daneben nicht berechenbar (vgl. Brück, Gebührenordnung für Ärzte, 3. Aufl., Bd. 2, zu Nr. 2760; Hoffmann, Gebührenordnung für Ärzte, 3. Aufl., Bd. 2, Nrn. 2750 bis 2760 Rn. 9)."
+5. **Frage:** Welche Rolle spielt der medizinische Fortschritt bei der Abrechnung von ärztlichen Leistungen?
+**Quelle:** "Die Regelungen der Gebührenordnung für Ärzte, die im Bereich des hier operativ behandelten Organs der Schilddrüse seit 1982 unverändert geblieben seien, stünden bei ihrer starren Anwendung nicht nur der ausreichenden Berücksichtigung medizinischen Fortschritts entgegen, sondern würden auch dem Recht des einzelnen auf Leben und körperliche Unversehrtheit nicht gerecht und sicherten dem Arzt keine angemessene Vergütung seiner - gemessen an der Standardoperation 1982 - zusätzlichen Leistungen."
 
-6. **Frage:** Welche Gründe sprechen gegen die Abrechenbarkeit der Leistung in Nr. 2760 des Gebührenverzeichnisses?
-**Quelle:** "Von einer selbständigen Erbringung kann jedoch nicht gesprochen werden, wenn die Leistung als Teil einer Leistung nach Nr. 2757 erbracht wird."
+6. **Frage:** Welche Gebührennummern können analog herangezogen werden, wenn eine Leistung nicht im Gebührenverzeichnis aufgeführt ist?
+**Quelle:** "In den dem Abschnitt L (Chirurgie, Orthopädie) des Gebührenverzeichnisses vorangestellten Allgemeinen Bestimmungen werden Inhalt und Tragweite dieses als Zielleistungsprinzip bezeichneten Grundsatzes näher verdeutlicht. Es heißt dort: 'Zur Erbringung der in Abschnitt L aufgeführten typischen operativen Leistungen sind in der Regel mehrere operative Einzelschritte erforderlich. Sind diese Einzelschritte methodisch notwendige Bestandteile der in der jeweiligen Leistungsbeschreibung genannten Zielleistung, so können sie nicht gesondert berechnet werden.'"
 
-7. **Frage:** Welche Nerven und Blutgefäße wurden bei der Operation der Beklagten freigelegt und/oder unterbunden?
-**Quelle:** "Was die verschiedenen im Halsbereich verlaufenden Nerven und Blutgefäße angeht, stehen die jeweils mehrfach abgerechneten Neurolysen (Nr. 2583) und die Freilegung und/oder Unterbindung von Blutgefäßen (Nr. 2803) ebenfalls mit der vorgenommenen Operation der Beklagten in notwendigem Zusammenhang."
+7. **Frage:** Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf eine Bank?
+**Quelle:** "Da die A. AG nicht im Pflichtenkreis der Beklagten tätig geworden sei, scheide eine Zurechnung etwaiger Beratungsfehler der A. AG nach § 278 BGB aus." (Anmerkung: Diese Information ist aus dem Dokument nicht direkt ableitbar, aber relevant für das Verständnis der Rechtsgrundlagen.)
 
-8. **Frage:** Welche Gründe sprechen gegen die eigenständige Abrechenbarkeit der Neurolysen (Nr. 2583) und der Freilegung und/oder Unterbindung von Blutgefäßen (Nr. 2803)?
-**Quelle:** "Es sind zwar Fälle denkbar, in denen bei einer Ummauerung des Nervs durch Tumor- oder Narbengewebe eine eigenständige Indikation zur Neurolyse vorliegt, etwa beim Herauslösen des Nervus recurrens aus Narbengewebe bei Rezidiv-Struma (vgl. Brück, aaO. zu Nr. 2584); möglicherweise beruht die vorprozessuale Anerkennung zweier Neurolysen für den Nervus recurrens durch den Krankenversicherer der Beklagten auf einer entsprechenden Würdigung."
-
-9. **Frage:** Wie ist die Leistung in Nr. 2757 des Gebührenverzeichnisses zu interpretieren, wenn der Arzt eine spezielle Operationsmethode anwendet, die dem Verordnungsgeber noch nicht bekannt war?
-**Quelle:** "Diese Operationsmethode erfordert einen Umgang mit Gefäßen und Nerven, der in der Gebührennummer 2757 als solcher keinen Niederschlag gefunden hat."
-
-10. **Frage:** Unter welchen Umständen ist es gerechtfertigt, die Leistungen nach den Nummern 2760, 2583 und 2803 als selbständige anzuerkennen und sie im Wege der Analogberechnung für die Honorierung der neuen Operationsmethode mit heranzuziehen?
-**Quelle:** "Da der Gebührenrahmen des § 5 GOÄ dem erhöhten Aufwand nicht Rechnung trägt und Bedenken dagegen bestünden, den Arzt auf eine Honorarvereinbarung nach § 2 GOÄ zu verweisen, sei es gerechtfertigt, die Leistungen nach den Nummern 2760, 2583 und 2803 als selbständige anzuerkennen und sie im Wege der Analogberechnung für die Honorierung der neuen Operationsmethode mit heranzuziehen."
+8. **Frage:** Welche Rechte hat ein Patient, wenn er über die Entgelte der Wahlleistungen und deren Inhalt nicht ausreichend unterrichtet wurde?
+**Quelle:** "Vergeblich wendet sich die Beklagte mit dem Argument gegen ihre Inanspruchnahme, sie sei über die Entgelte der Wahlleistungen und deren Inhalt nicht im einzelnen in der nach § 22 Abs. 2 Satz 1 BPflV vorgeschriebenen Weise unterrichtet worden."
 
 Dokument: 1545854.xml
-1. **Frage:** Unter welchen Bedingungen kann ein formloses Schenkungsversprechen unwirksam sein?
-**Quelle:** "Das in der behaupteten Äußerung des früheren Beklagten liegende formlose Schenkungsversprechen sei wegen Verletzung von § 518 Abs. 1 BGB unwirksam."
+Rechtsthema: Erbschaft Schenkung, Sachenrecht
 
-2. **Frage:** Was muss für den Vollrechtserwerb eines Beschenkten im Fall eines erst in der Zukunft liegenden Vollrechtserwerbs bereits getan sein, um den Formmangel zu heilen?
-**Quelle:** "Ein solcher [Heilung des Formmangels] sei im Fall eines erst in der Zukunft liegenden Vollrechtserwerbs des Beschenkten nur anzunehmen, wenn der Schenker bereits alles getan habe, was für den späteren Vollrechtserwerb erforderlich sei; daran habe es aber gefehlt, weil die weitere Tilgung der Kreditraten noch vom Willen des früheren Beklagten abgehangen habe."
+1. **Frage:** Unter welchen Voraussetzungen kann ein nicht im Grundbuch eingetragener Eigentümer eine (Rück-)Auflassung verlangen?
+**Quelle:** "§ 894 BGB bietet dem nicht im Grundbuch eingetragenen Eigentümer auch die Möglichkeit, (Rück-)Auflassung zu verlangen."
 
-3. **Frage:** Welche Rolle spielt die Übertragung des Herausgabeanspruchs hinsichtlich des Fahrzeugbriefs bei der Übertragung des Eigentums an einem Fahrzeug?
-**Quelle:** "Es [das Berufungsgericht] wird dieser unter Zeugenbeweis gestellten Behauptung nunmehr nachzugehen haben, wenn es nicht aus anderen Gründen zu dem Ergebnis gelangen sollte, dass eine dingliche Einigung gleichwohl nicht erfolgt ist."
+2. **Frage:** Wer ist berechtigt, den Herausgabeanspruch nach § 952 BGB geltend zu machen?
+**Quelle:** "Dem Kläger, der unstreitig im Besitz des Fahrzeugs ist, steht der geltend gemachte Anspruch auf Herausgabe des Fahrzeugbriefs zu, wenn er Eigentümer des Fahrzeugs geworden ist (§ 952 Abs. 2 BGB in zumindest entsprechender Anwendung; vgl."
 
-4. **Frage:** Wie kann die Übertragung eines Anwartschaftsrechts schenkweise erfolgen?
-**Quelle:** "Der Kläger macht geltend, das Berufungsgericht habe es unterlassen zu prüfen, ob der frühere Beklagte dem Kläger das Anwartschaftsrecht schenkweise überlassen habe."
+3. **Frage:** Wie kann eine formlose Schenkung nach § 518 Abs. 1 BGB geheilt werden?
+**Quelle:** "Das in der behaupteten Äußerung des früheren Beklagten liegende formlose Schenkungsversprechen sei wegen Verletzung von § 518 Abs. 1 BGB unwirksam. Der Formmangel sei auch nicht durch Vollzug der Schenkung geheilt worden."
 
-5. **Frage:** Welche Bedeutung hat die Kenntnis des Abstraktionsprinzips bei der Einigung über die Übertragung von Eigentum?
+4. **Frage:** Welche Rolle spielt die Kenntnis des Abstraktionsprinzips bei der Einigung über eine Schenkung?
 **Quelle:** "Denn die Kenntnis des Abstraktionsprinzips kann bei rechtlich nicht geschulten Parteien nicht in jedem Fall vorausgesetzt werden."
 
-6. **Frage:** Welche Rechte hat ein Kreditinstitut, das ein Fahrzeug sicherungsübereignet hat, wenn der Kredit vollständig getilgt wurde?
+5. **Frage:** Welche Rechte hat ein Kreditinstitut, das ein Fahrzeug sicherungsübereignet hat, wenn der Schuldner die Raten vollständig gezahlt hat?
 **Quelle:** "Das finanzierende Kreditinstitut habe auf seine Rechte aus der Sicherungsübereignung erst nach vollständiger Ratenzahlung und Übersendung des Fahrzeugbriefs an den früheren Beklagten verzichtet."
 
-7. **Frage:** Wie kann die Übertragung des Eigentums an einem Fahrzeug erfolgen, wenn es noch an ein Kreditinstitut sicherungsübereignet ist?
-**Quelle:** "Zum Zeitpunkt der streitigen Äußerung sei der frühere Beklagte noch nicht Eigentümer des Fahrzeugs gewesen und habe dieses nicht auf den Kläger übertragen können."
+6. **Frage:** Unter welchen Bedingungen kann eine Schenkung unwirksam sein, wenn sie nicht formgerecht vollzogen wird?
+**Quelle:** "Ein solcher [Vollzug] sei im Fall eines erst in der Zukunft liegenden Vollrechtserwerbs des Beschenkten nur anzunehmen, wenn der Schenker bereits alles getan habe, was für den späteren Vollrechtserwerb erforderlich sei; daran habe es aber gefehlt, weil die weitere Tilgung der Kreditraten noch vom Willen des früheren Beklagten abgehangen habe."
 
-8. **Frage:** Welche Auswirkungen hat die unentgeltliche Übertragung von Eigentum auf die Übertragung des Herausgabeanspruchs?
-**Quelle:** "Die Übernahme der Kreditraten durch den Kläger hätte einer Schenkung entgegengestanden, da die Übereignung in diesem Fall nicht unentgeltlich erfolgt wäre, und der Übertragung des Herausgabeanspruchs hinsichtlich des Fahrzeugbriefs habe es wegen § 952 BGB nicht bedurft."
+7. **Frage:** Wer ist verpflichtet, den Fahrzeugbrief herauszugeben, wenn der Kläger Eigentümer des Fahrzeugs geworden ist?
+**Quelle:** "Dem Kläger, der unstreitig im Besitz des Fahrzeugs ist, steht der geltend gemachte Anspruch auf Herausgabe des Fahrzeugbriefs zu, wenn er Eigentümer des Fahrzeugs geworden ist (§ 952 Abs. 2 BGB in zumindest entsprechender Anwendung; vgl."
 
 Dokument: 1547956.xml
-1. **Frage:** Welche Rechtsgrundlage gibt dem Käufer im Falle eines Mangels das Recht auf Schadensersatz einschließlich des Nutzungsausfallschadens, auch wenn er vom Kaufvertrag zurückgetreten ist?
-**Quelle:** "Das Recht, bei einem gegenseitigen Vertrag Schadensersatz zu verlangen, wird durch den Rücktritt nicht ausgeschlossen (§ 325 BGB)."
+Rechtsthema: Schadensersatz, Kauf Tausch Leasing, SchuldrechtAT
 
-2. **Frage:** Unter welchen Umständen kann ein Käufer nach § 437 Nr. 3 in Verbindung mit §§ 440, 280, 281, 283 und 311a BGB Schadensersatz einschließlich des Nutzungsausfallschadens verlangen, obwohl er nach § 437 Nr. 2 in Verbindung mit §§ 440, 323 und 326 Abs. 5 BGB vom Kaufvertrag zurückgetreten ist?
-**Quelle:** "Entgegen der Auffassung des Berufungsgerichts kommt ein Anspruch des Käufers auf Ersatz eines Nutzungsausfallschadens nach § 437 Nr. 3 in Verbindung mit §§ 440, 280, 281, 283 und 311a BGB auch dann in Betracht, wenn der Käufer nach § 437 Nr. 2 in Verbindung mit §§ 440, 323 und 326 Abs. 5 BGB vom Kaufvertrag zurückgetreten ist."
+1. **Frage:** Wer ist verpflichtet, Wertersatz für die Nutzung einer Kaufsache im Falle einer Rückabwicklung zu zahlen?
+**Quelle:** "§ 346 Abs. 1, Abs. 2 Nr. 1 BGB"
 
-3. **Frage:** Wie ist der Schadensersatzanspruch des Käufers nach der Differenztheorie zu berechnen, wenn er vom Vertrag zurückgetreten ist und für die bis zur Rückgabe gezogenen Nutzungen Wertersatz geleistet hat?
-**Quelle:** "Im Rahmen dieses Schadensersatzanspruchs ist der Gläubiger nach der Differenztheorie so zu stellen, wie er stünde, wenn der Vertrag ordnungsgemäß erfüllt worden wäre."
+2. **Frage:** Welche Rechtsgrundlage gilt für den Anspruch eines Käufers auf Ersatz eines mangelbedingten Nutzungsausfallschadens, auch wenn er vom Vertrag zurückgetreten ist?
+**Quelle:** "§ 437 Nr. 3 in Verbindung mit §§ 440, 280, 281, 283 und 311a BGB"
 
-4. **Frage:** Welche Rolle spielt die Neuregelung des § 325 BGB bei der Möglichkeit des Käufers, Schadensersatz zu verlangen, obwohl er vom Vertrag zurückgetreten ist?
-**Quelle:** "Aufgrund der Neuregelung des § 325 BGB wird es dem Gläubiger ermöglicht, vom Vertrag zurückzutreten und eine erbrachte Gegenleistung zurückzufordern, ohne den Anspruch auf Ersatz des Erfüllungsinteresses zu verlieren."
+3. **Frage:** Wie ist der Schadensersatzanspruch eines Käufers nach § 437 Nr. 3 BGB im Falle eines Rücktritts vom Vertrag zu beurteilen?
+**Quelle:** "Das Recht, bei einem gegenseitigen Vertrag Schadensersatz zu verlangen, wird durch den Rücktritt nicht ausgeschlossen (§ 325 BGB)"
 
-5. **Frage:** Welche Auswirkungen hat der Rücktritt vom Vertrag auf den Anspruch des Käufers, Ersatz eines mangelbedingten Nutzungsausfallschadens zu verlangen?
-**Quelle:** "Entgegen der Auffassung des Berufungsgerichts lässt der Rücktritt vom Vertrag einen Anspruch des Käufers, Ersatz eines mangelbedingten Nutzungsausfallschadens zu verlangen, nicht entfallen."
+4. **Frage:** Welche Rolle spielt die Neuregelung des § 325 BGB für den Schadensersatzanspruch eines Gläubigers nach einem Rücktritt vom Vertrag?
+**Quelle:** "Staudinger/Otto, BGB (2004), § 325 Rdnr. 1"
 
-6. **Frage:** Wie ist der Schadensersatzanspruch des Käufers zu berechnen, wenn ihm durch den Sachmangel der Kaufsache kein Nutzungsausfallschaden entstanden ist?
-**Quelle:** "Ein Nutzungsausfallschaden kann der Klägerin durch den Fahrzeugmangel und den darauf gestützten Rücktritt vom Kaufvertrag nur unter der Voraussetzung entstanden sein, dass die Klägerin im Falle ordnungsgemäßer Vertragserfüllung die Möglichkeit gehabt hätte, das gekaufte Fahrzeug in der Zeit, für welche sie Ersatz der Mietwagenkosten beansprucht, zu nutzen."
+5. **Frage:** Welche Bedingungen müssen erfüllt sein, damit ein Käufer Ersatz eines mangelbedingten Nutzungsausfallschadens verlangen kann, auch wenn er vom Vertrag zurückgetreten ist?
+**Quelle:** "Entgegen der Auffassung des Berufungsgerichts kommt ein Anspruch des Käufers auf Ersatz eines Nutzungsausfallschadens ... auch dann in Betracht, wenn der Käufer ... vom Kaufvertrag zurückgetreten ist."
 
-7. **Frage:** Welche Auswirkungen hat die Pflichtverletzung der Beklagten auf die Möglichkeit der Klägerin, Schadensersatz statt der Leistung zu verlangen?
-**Quelle:** "Nach dem revisionsrechtlich zugrunde zu legenden Vorbringen der Klägerin kommt hinsichtlich der geltend gemachten Mietwagenkosten zwar ein Anspruch auf Schadensersatz statt der Leistung nach § 437 Nr. 3 in Verbindung mit § 311a Abs. 2 BGB in Betracht."
+6. **Frage:** Wie ist der Schadensersatzanspruch eines Käufers im Falle einer Lieferung einer mangelhaften Sache zu beurteilen?
+**Quelle:** "Im Rahmen dieses Schadensersatzanspruchs ist der Gläubiger nach der Differenztheorie so zu stellen, wie er stünde, wenn der Vertrag ordnungsgemäß erfüllt worden wäre"
 
-8. **Frage:** Welche Rolle spielt die Rechtsfolgenverweisung nach § 346 Abs. 3 Satz 2 BGB bei der Berechnung des Schadensersatzanspruchs der Klägerin?
-**Quelle:** "Diese Vorschrift enthält eine Rechtsfolgenverweisung auf das in den §§ 812 ff. BGB geregelte Bereicherungsrecht (BT-Drs. 14/6040, S. 196; Staudinger/Kaiser, BGB (2004), § 346 Rdnr. 192)."
+7. **Frage:** Welche Rechtsfolge tritt ein, wenn ein Käufer nach § 346 Abs. 1 BGB den Kaufpreis zurückerhält und für die bis zur Rückgabe gezogenen Nutzungen Wertersatz leistet?
+**Quelle:** "Im Falle der Lieferung einer mangelhaften Sache umfasst der auf das positive Interesse gerichtete Schadensersatzanspruch des Käufers typischerweise auch den Ersatz eines Nutzungsausfallschadens"
+
+8. **Frage:** Wie ist der Schadensersatzanspruch eines Käufers zu beurteilen, wenn dieser aufgrund desselben Umstands vom Vertrag zurücktritt, dessentwegen er Schadensersatz statt der Leistung verlangt?
+**Quelle:** "MünchKommBGB/Ernst, aaO., § 325 Rdnr. 6; Staudinger/Otto, aaO., § 325 Rdnr. 25"
+
+9. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Käufer Erstattung der Mietwagenkosten beanspruchen kann?
+**Quelle:** "Ein Nutzungsausfallschaden kann der Klägerin durch den Fahrzeugmangel und den darauf gestützten Rücktritt vom Kaufvertrag nur unter der Voraussetzung entstanden sein, dass die Klägerin im Falle ordnungsgemäßer Vertragserfüllung die Möglichkeit gehabt hätte, das gekaufte Fahrzeug in der Zeit, für welche sie Ersatz der Mietwagenkosten beansprucht, zu nutzen"
+
+10. **Frage:** Wie ist der Schadensersatzanspruch eines Käufers zu beurteilen, wenn dieser das Fahrzeug in beschädigtem Zustand zurückgibt und deswegen keine Schmälerung seines Anspruchs auf Rückerstattung des gezahlten Kaufpreises hinnehmen muss?
+**Quelle:** "Der Umstand, dass die Klägerin nur aus dem Grund von einer Reparatur abgesehen hat, weil sie sich wegen des Fahrzeugmangels (fehlende Unfallfreiheit) zum Rücktritt vom Kaufvertrag entschlossen hatte und das Fahrzeug gemäß § 346 Abs. 3 Satz 1 Nr. 3 BGB in beschädigtem Zustand zurückgeben konnte, ohne deswegen eine Schmälerung ihres Anspruchs auf Rückerstattung des gezahlten Kaufpreises hinnehmen zu müssen, rechtfertigt keine andere Beurteilung."
 
 Dokument: 1669816.xml
-1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit eine Reise als vereitelt gilt?
-**Quelle:** "Kann oder will der Reiseveranstalter den Reisevertrag nicht ordnungsgemäß erfüllen, z.B. infolge einer Überbuchung, und führt dies dazu, dass der Kunde die Reise nicht antritt, so wird die Reise vereitelt."
+Rechtsthema: Schadensersatz, SchuldrechtAT, Reisevertrag
 
-2. **Frage:** Wie ist die Höhe der Entschädigung bei einer vereitelten Reise zu bemessen?
-**Quelle:** "Der Fall der vollständigen Vereitelung einer Reise ist aber regelmäßig nicht einem Fall gleichzustellen, in dem die Reise wegen Mängeln der Leistung des Veranstalters so erheblich beeinträchtigt worden ist, dass der Erfolg der Reise (nahezu) vollständig verfehlt worden ist und deshalb eine Entschädigung in Höhe des vollen Reisepreises angemessen ist."
+1. **Frage:** Wer ist verpflichtet, eine Entschädigung zu zahlen, wenn eine Reise vollständig ausfällt?
+**Quelle:** "Kann oder will der Reiseveranstalter den Reisevertrag nicht ordnungsgemäß erfüllen, z.B. infolge einer Überbuchung, und führt dies dazu, dass der Kunde die Reise nicht antritt, so wird die Reise vereitelt (BGH, Urteil vom 11. Januar 2005 - aa)"
 
-3. **Frage:** Welche Rechte hat ein Reisender, wenn der Veranstalter seiner Pflicht zur Abhilfe nicht nachkommt?
-**Quelle:** "Der Reisende, wenn der Veranstalter seiner Pflicht zur Abhilfe nicht nachkomme, selbst Abhilfe schaffen und Ersatz der erforderlichen Aufwendungen verlangen."
+2. **Frage:** Welche Rechtsgrundlage gilt für den Anspruch auf eine höhere Entschädigung wegen vertaner Urlaubszeit?
+**Quelle:** "Die zuerkannte Entschädigung in Höhe von etwa 73 % des Reisepreises trage dem besonderen Zuschnitt der gebuchten Reise als hochwertiger, attraktiver Kreuzfahrt ebenso Rechnung wie dem Umstand, dass die Beklagte die Reise sehr kurzfristig abgesagt und es dadurch der Klägerin und ihrem Ehemann zusätzlich erschwert habe, eine angemessene Ersatzreise zu finden."
 
-4. **Frage:** Unter welchen Umständen kann ein Reisender eine Ersatzreise durchführen und die Kosten ersetzt verlangen?
-**Quelle:** "Entgegen der Ansicht des Landgerichts stehe der Ersatzfähigkeit nicht entgegen, dass die von der Klägerin und ihrem Ehemann durchgeführte Reise einen anderen Zuschnitt gehabt habe als die gebuchte Reise."
+3. **Frage:** Unter welchen Bedingungen ist eine Entschädigung in Höhe des vollen Reisepreises angemessen?
+**Quelle:** "Eine zur Rückzahlung des Reisepreises hinzutretende Entschädigung in Höhe des vollen Reisepreises möge angemessen sein, wenn die mangelbehaftete Reise durchgeführt werde und aufgrund erheblicher Reisemängel für den Reisenden eine gegenüber dem völligen Ausbleiben der Reise zusätzliche Belastung darstelle."
 
-5. **Frage:** Warum ist die Höhe der Entschädigung bei einer vereitelten Reise nicht immer gleich dem vollen Reisepreis?
+4. **Frage:** Wer hat das Recht auf Ersatz der Mehrkosten einer Ersatzreise, wenn der Reiseveranstalter seiner Pflicht zur Abhilfe nicht nachkommt?
+**Quelle:** "Nach § 651c Abs. 3 BGB könne der Reisende, wenn der Veranstalter seiner Pflicht zur Abhilfe nicht nachkomme, selbst Abhilfe schaffen und Ersatz der erforderlichen Aufwendungen verlangen."
+
+5. **Frage:** Wie ist die Höhe der Entschädigung bei vollständiger Vereitelung einer Reise zu bemessen?
+**Quelle:** "Bei völligem Ausfall der Reise sei hingegen regelmäßig eine unter dem vollen Reisepreis liegende Entschädigung angemessen, wobei berücksichtigt werde, dass zwar die gebuchte Reise nicht stattfinde, der Reisende aber im Übrigen über seine Zeit frei verfügen könne."
+
+6. **Frage:** Warum kann eine Entschädigung in Höhe des vollen Reisepreises bei vollständigem Ausfall einer Reise nicht immer angemessen sein?
 **Quelle:** "Daher kann auch einer im Schrifttum verbreiteten Ansicht, nach der bei einem vollständig ausbleibenden Urlaub stets der volle Reisepreis als Entschädigung zuzuerkennen sein soll, nicht beigetreten werden."
 
-6. **Frage:** Welche Rolle spielt die Schadensabwendungs- und -minderungspflicht des Reisenden bei der Bestimmung der Entschädigungshöhe?
-**Quelle:** "Zwar hat das Landgericht nicht beachtetes, dass bei der Bestimmung der Höhe der Entschädigung nicht berücksichtigt werden darf, wie der Reisende die Zeit seiner gebuchten, aber durch den Reiseveranstalter vereitelten Reise genutzt hat, da er gegenüber dem Reiseveranstalter auch aufgrund seiner Schadensabwendungs- und -minderungspflicht nach § 254 Abs. 2 BGB nicht verpflichtet ist, Anstrengungen zu entfalten, die den Reiseveranstalter entlasten könnten."
-
-7. **Frage:** Welche Bedeutung hat der Zuschnitt der gebuchten Reise für die Höhe der Entschädigung?
-**Quelle:** "Das Berufungsgericht hat neben dem Reisepreis nicht nur berücksichtigt, dass es sich bei der ausgefallenen Reise um eine hochwertige und attraktive Kreuzfahrt gehandelt hat, sondern auch, dass die Beklagte die Reise sehr kurzfristig abgesagt und es dadurch der Klägerin und ihrem Ehemann zusätzlich erschwert hat, eine sie ansprechende anderweitige Nutzung der vorgesehenen Reisezeit zu finden."
-
-8. **Frage:** Wie ist der Begriff der "vereitelten Reise" im Vergleich zur "heavily impaired" Reise einzuordnen?
+7. **Frage:** Welche Rolle spielt der Reisepreis bei der Bemessung der Entschädigung wegen vereitelter Reise?
 **Quelle:** "Der Fall der vollständigen Vereitelung einer Reise ist aber regelmäßig nicht einem Fall gleichzustellen, in dem die Reise wegen Mängeln der Leistung des Veranstalters so erheblich beeinträchtigt worden ist, dass der Erfolg der Reise (nahezu) vollständig verfehlt worden ist und deshalb eine Entschädigung in Höhe des vollen Reisepreises angemessen ist."
 
-9. **Frage:** Welche Rolle spielt die Zeit, die dem Reisenden für die Planung und Buchung einer Ersatzreise zur Verfügung steht?
-**Quelle:** "Die Organisation einer vergleichbaren Kreuzfahrt sei aufgrund der Kürze der für die Planung und Buchung einer Ersatzreise zur Verfügung stehenden Zeit nicht möglich gewesen."
+8. **Frage:** Welche Umstände können bei der Bemessung der Entschädigung wegen vereitelter Reise berücksichtigt werden?
+**Quelle:** "Das Berufungsgericht hat neben dem Reisepreis nicht nur berücksichtigt, dass es sich bei der ausgefallenen Reise um eine hochwertige und attraktive Kreuzfahrt gehandelt hat, sondern auch, dass die Beklagte die Reise sehr kurzfristig abgesagt und es dadurch der Klägerin und ihrem Ehemann zusätzlich erschwert hat, eine sie ansprechende anderweitige Nutzung der vorgesehenen Reisezeit zu finden."
 
-10. **Frage:** Welche Bedeutung hat das Reiseziel für die Ersatzfähigkeit der Kosten einer Selbstabhilfe?
-**Quelle:** "Dies sei nicht schon deshalb zu verneinen, weil es sich um ein anderes Reiseziel handelte."
+9. **Frage:** Welche Rechte hat ein Reisender, wenn der Reiseveranstalter die Reise sehr kurzfristig absagt und es ihm erschwert, eine angemessene Ersatzreise zu finden?
+**Quelle:** "Das Berufungsgericht hat zu Recht angenommen, dass die Reise, zu deren Durchführung die Beklagte vertraglich verpflichtet war, vereitelt worden ist."
+
+10. **Frage:** Welche Pflichten hat ein Reisender, wenn er die Zeit seiner gebuchten, aber durch den Reiseveranstalter vereitelten Reise nutzt?
+**Quelle:** "Das Landgericht hat nicht beachtettet, dass bei der Bestimmung der Höhe der Entschädigung nicht berücksichtigt werden darf, wie der Reisende die Zeit seiner gebuchten, aber durch den Reiseveranstalter vereitelten Reise genutzt hat, da er gegenüber dem Reiseveranstalter auch aufgrund seiner Schadensabwendungs- und -minderungspflicht nach § 254 Abs. 2 BGB nicht verpflichtet ist, Anstrengungen zu entfalten, die den Reiseveranstalter entlasten könnten."
 
 Dokument: 1547349.xml
-1. **Frage:** Welche Bedeutung hat der § 2350 BGB für die Beurteilung des Erbverzichts in diesem Fall?
-**Quelle:** "§ 2350 BGB kann danach erst zur Anwendung kommen, wenn erfolglos versucht wurde, den Willen der beiden Parteien des Verzichtsvertrags zu ermitteln."
+Rechtsthema: Erbschaft Schenkung
 
-2. **Frage:** Wie wirkt sich der Erbverzicht des Bruders auf die Pflichtteilsquote des Klägers aus?
-**Quelle:** "Dessen Erbverzicht sei bereits wegen der Vermutung des § 2350 BGB unwirksam;"
-
-3. **Frage:** Welche Rolle spielt die Abtretung des Pflichtteilsanspruchs des Bruders an den Kläger in diesem Fall?
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Pflichtteilsanspruch aufgrund einer Abtretung geltend gemacht werden kann?
 **Quelle:** "Der Kläger hat erst- und zweitinstanzlich unter Vorlage einer Kopie eines Abtretungsvertrages vom 28. Juli 2004 vorgetragen, dass sein Bruder den ihm zustehenden Pflichtteilsanspruch an ihn abgetreten habe."
 
-4. **Frage:** Welche Auswirkungen hat die unklare Formulierung des Klageantrags auf das tatsächliche Klageziel des Klägers?
-**Quelle:** "Diesen lässt sich ohne weiteres entnehmen, dass es dem Kläger zu keinem Zeitpunkt auf die bloße Feststellung einer originären Beteiligungsquote am Nachlass, sondern stets auf das daraus resultierende wirtschaftliche Gesamtergebnis ankam, 50% vom Nachlass zugesprochen zu bekommen, sei es über eine eigene oder eine abgeleitete Pflichtteilsberechtigung, auf die der Kläger hilfsweise seinen Anspruch gestützt hat."
+2. **Frage:** Wer ist verpflichtet, den Willen der beiden Parteien eines Verzichtsvertrags zu ermitteln, wenn § 2350 BGB zur Anwendung kommen soll?
+**Quelle:** "§ 2350 BGB kann danach erst zur Anwendung kommen, wenn erfolglos versucht wurde, den Willen der beiden Parteien des Verzichtsvertrags zu ermitteln."
 
-5. **Frage:** Welche Hinweispflichten hat das Berufungsgericht in Bezug auf den Klageantrag des Klägers verletzt?
-**Quelle:** "Das Berufungsgericht hat verfahrensfehlerhaft auch aus seiner Sicht entscheidungserheblichen Vortrag des Klägers zu einer Abtretung des Pflichtteilsanspruchs seines Bruders nicht berücksichtigt hat bzw. daran anknüpfenden Hinweispflichten (§ 139 ZPO) nicht nachgekommen ist."
+3. **Frage:** Wie kann ein Kläger beweisen, dass er Rechte aus einem unbedingten Verzicht herleiten will, entgegen den Vermutungen des § 2350 BGB?
+**Quelle:** "Die Beweislast liegt beim Kläger, da dieser entgegen den Vermutungen des § 2350 BGB aus einem unbedingten Verzicht Rechte herleiten will."
 
-6. **Frage:** Wie ist der Unterschied zwischen einem Erbverzicht und einem Pflichtteilsverzicht im Rahmen des § 2346 BGB?
-**Quelle:** "Bei einem unbeschränkten Verzicht nach § 2346 Abs. 1 BGB teilt der Pflichtteilsverzicht (§ 2346 Abs. 1 Satz 2 Halbs. 2 BGB) grundsätzlich das rechtliche Schicksal des Erbverzichts"
-
-7. **Frage:** Welche Beweise sind erforderlich, um den Willen der beiden Parteien des Verzichtsvertrags zu ermitteln?
-**Quelle:** "Dabei liegt die Beweislast beim Kläger, da dieser entgegen den Vermutungen des § 2350 BGB aus einem unbedingten Verzicht Rechte herleiten will"
-
-8. **Frage:** Welche Rechtsfolgen treten ein, wenn eine Überzeugungsbildung bezüglich des Willens der Vertragsparteien nicht möglich ist?
+4. **Frage:** Welche Rechtsfolge tritt ein, wenn ein Gesamtverzicht unwirksam ist und eine Partei einen isolierten Pflichtteilsverzicht gewollt hat?
 **Quelle:** "Sollte eine Überzeugungsbildung danach nicht möglich sein, stünde auch nach der vom Berufungsgericht nachvollziehbar erwogenen Anwendung des § 2350 BGB noch nicht fest, dass dem Bruder ein Pflichtteilsanspruch zusteht."
 
-9. **Frage:** Welche Bedeutung hat die teleologische Reduktion des § 2350 BGB in diesem Fall?
-**Quelle:** "Die Rechtsfrage nach einer teleologischen Reduktion des § 2350 BGB, die das Berufungsgericht zur Revisionszulassung veranlasst hat, kann erst entscheidungserheblich werden, wenn auch insoweit keine Überzeugungsbildung möglich sein sollte."
+5. **Frage:** Wie kann eine Partei eines Verzichtsvertrags beweisen, dass sie einen gewöhnlichen bedingten Erbverzicht vereinbart hat?
+**Quelle:** "Erst wenn auch insoweit keine Überzeugungsbildung möglich sein sollte, kann die Rechtsfrage nach einer teleologischen Reduktion des § 2350 BGB, die das Berufungsgericht zur Revisionszulassung veranlasst hat, entscheidungserheblich werden."
 
-10. **Frage:** Welche Verfahrensfehler hat das Berufungsgericht in Bezug auf die Beweisaufnahme begangen?
-**Quelle:** "Seine Annahme, der Kläger habe lediglich behauptet, dass (nur) der Bruder von einem unbedingten Verzicht ausgegangen sei, reißt in unzulässiger Weise eine einzelne Aussage des Klägers aus ihrem Zusammenhang."
+6. **Frage:** Wer ist verpflichtet, Hinweise nach § 139 Abs. 1 Satz 2 ZPO zu geben, wenn eine offenkundige Diskrepanz zwischen Klageantrag und tatsächlichem Klageziel besteht?
+**Quelle:** "Diese offenkundige und - je nach den noch zu treffenden Feststellungen - möglicherweise auch entscheidungserhebliche Diskrepanz zwischen Klageantrag und tatsächlichem Klageziel hätte für das Berufungsgericht Anlass zu einem Hinweis nach § 139 Abs. 1 Satz 2 ZPO sein müssen."
+
+7. **Frage:** Was ist zu berücksichtigen, wenn ein Kläger fälschlich davon ausgeht, mit dem gestellten Antrag auch den Pflichtteilsanspruch eines anderen zu erfassen?
+**Quelle:** "Dass der Kläger fälschlich davon ausging, mit dem gestellten Antrag auch den Pflichtteilsanspruch des Bruders erfasst zu haben, kommt sowohl in seinen gerichtlichen als auch außergerichtlichen Schriftsätzen klar zum Ausdruck."
+
+8. **Frage:** Wie kann ein Berufungsgericht verfahrensfehlerhaft entscheidungserheblichen Vortrag eines Klägers nicht berücksichtigen oder daran anknüpfenden Hinweispflichten nicht nachkommen?
+**Quelle:** "Das Berufungsurteil ist schon deshalb aufzuheben, weil das Berufungsgericht verfahrensfehlerhaft auch aus seiner Sicht entscheidungserheblichen Vortrag des Klägers zu einer Abtretung des Pflichtteilsanspruchs seines Bruders nicht berücksichtigt hat bzw. daran anknüpfenden Hinweispflichten (§ 139 ZPO) nicht nachgekommen ist."
 
 Dokument: 1502510.xml
-1. **Frage:** Welche Rechtsgrundlage rechtfertigt den Schadensersatzanspruch der Kläger aufgrund des Unfalls?
+Rechtsthema: Schadensersatz
+
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Schadenersatzanspruch wegen Verletzung eines eigenen deliktsrechtlich geschützten Rechtsgutes geltend gemacht werden kann?
 **Quelle:** "Die Voraussetzungen eines Schadensersatzanspruchs der Kläger aus § 823 Abs. 1 BGB wegen Verletzung eines eigenen deliktsrechtlich geschützten Rechtsgutes sind hinsichtlich keiner der noch streitigen Schadenspositionen erfüllt."
 
-2. **Frage:** Unter welchen Umständen kann ein Schadensersatzanspruch wegen Verletzung eines Rechts am eingerichteten und ausgeübten Gewerbebetrieb geltend gemacht werden?
-**Quelle:** "Ein Anspruch des Klägers zu 2) auf Ersatz der in Rede stehenden Schadensposition aus einer Verletzung des Rechts am eingerichteten und ausgeübten Gewerbebetrieb im Hinblick auf den unfallbedingten Tod des Sohnes, von dessen Einsatz der Bestand des landwirtschaftlichen Unternehmens entscheidend abhing, kommt schon deshalb nicht in Betracht, weil in der Verletzung oder der Tötung des Inhabers oder Mitarbeiters eines Unternehmens kein deliktsrechtlich relevanter Eingriff in den Gewerbebetrieb gesehen werden kann."
+2. **Frage:** Wer ist verpflichtet, den Klägern Schadensersatz zu leisten, wenn ihre finanziellen Beeinträchtigungen auf die Verletzung eines Rechtsgutes durch einen Dritten zurückzuführen sind?
+**Quelle:** "Entgegen der Auffassung des Berufungsgerichts fehlt es insoweit an einer tragfähigen Anspruchsgrundlage für die den Klägern zugesprochenen Forderungen."
 
-3. **Frage:** Wie kann ein Schadensersatzanspruch wegen des Verlusts vertraglich vereinbarter Unterhaltsleistungen geltend gemacht werden?
-**Quelle:** "Ein Verlust vertraglich vereinbarter Unterhaltsleistungen, wie sie im Leibgeding enthalten waren, reicht im Rahmen des § 844 Abs. 2 BGB nicht aus."
+3. **Frage:** Wie kann ein Schadenersatzanspruch wegen des Verlusts eines Leibgedings geltend gemacht werden, wenn der Schuldner des Leibgedings unfallbedingt verstorben ist?
+**Quelle:** "Hieraus können die Kläger jedoch (außerhalb der Regelungen der §§ 844 Abs. 2, 845 BGB) keine eigenen deliktsrechtlichen Ansprüche herleiten."
 
-4. **Frage:** Welche Rolle spielt die beschränkte dingliche Belastung des Leibgedings im Rahmen eines Schadensersatzanspruchs?
+4. **Frage:** Welche Rolle spielt die dingliche Absicherung eines Leibgedings bei der Geltendmachung eines Schadensersatzanspruchs wegen dessen Verlust?
 **Quelle:** "Der von den Klägern geltend gemachte Schadensersatzanspruch rechtfertigt sich jedoch auch nicht aus einer deliktsrechtlich relevanten Beeinträchtigung dieser dinglichen Rechtsposition."
 
-5. **Frage:** Wann kann ein Schadensersatzanspruch aufgrund des § 845 BGB geltend gemacht werden?
-**Quelle:** "Ein Ersatzanspruch gemäß § 845 BGB scheidet hier schon deswegen aus, weil der getötete Sohn der Kläger nicht aufgrund familienrechtlicher Dienstleistungspflicht in deren landwirtschaftlichem Anwesen mitarbeitete."
+5. **Frage:** Welche Rechtsgrundlage gilt für die Zurechnung von Schadensersatzansprüchen, die erst nach dem Tod des Geschädigten verursacht wurden?
+**Quelle:** "Insbesondere rechnen hierzu nicht Verluste, die erst nach dem Tode des Sohnes durch die Betriebsaufgabe verursacht worden sind."
 
-6. **Frage:** Welche Rechte haben die Erben eines beim Unfall getöteten Sohnes im Hinblick auf Schadensersatzansprüche?
-**Quelle:** "Den Klägern stehen auch keine hier relevanten deliktsrechtlichen Ansprüche auf Schadensersatz als Erben ihres beim Unfall getöteten Sohnes zu."
+6. **Frage:** Wer ist verpflichtet, den Klägern eine eventuelle "Beeinträchtigung der Versorgungsleistungen" auszugleichen?
+**Quelle:** "Für die Zukunft hält das Berufungsgericht den Beklagten für verpflichtet, den Klägern eine eventuelle 'Beeinträchtigung der Versorgungsleistungen' auszugleichen."
 
-7. **Frage:** Welche vertraglichen Beziehungen müssen zwischen den Parteien bestehen, damit ein Schadensersatzanspruch geltend gemacht werden kann?
-**Quelle:** "Der Beklagte stand nicht in vertraglichen Beziehungen zu den Klägern oder der Gesellschaft des bürgerlichen Rechts, durch welche die Landwirtschaft betrieben wurde."
-
-8. **Frage:** Wie kann ein Schadensersatzanspruch aufgrund des § 844 Abs. 2 BGB geltend gemacht werden?
-**Quelle:** "Für die Voraussetzungen eines Anspruchs aus § 844 Abs. 2 BGB, der das Bestehen einer gesetzlichen Unterhaltspflicht des Sohnes der Kläger gegenüber seinen Eltern vorausgesetzt hätte, ist in diesem Verfahren nichts festgestellt oder vorgetragen."
-
-9. **Frage:** Welche Bedeutung hat die Gesellschaft des bürgerlichen Rechts im Rahmen des Schadensersatzanspruchs?
+7. **Frage:** Welche Rechte hat ein Kläger, der aufgrund einer deliktsrechtlichen Verletzung seines Körpers und seiner Gesundheit einen verminderten Gewinnanteil aus einer Gesellschaft erleidet?
 **Quelle:** "Der Kläger zu 2) konnte - aus eigenem Recht - auf der Grundlage des § 823 Abs. 1 BGB daher nur solche (Folge-) Schäden ersetzt verlangen, die auf der Beeinträchtigung seines Gesellschaftsanteils durch die unfallbedingte Verletzung seines Körpers und seiner Gesundheit beruhten."
 
-10. **Frage:** Welche Rechte hat der Kläger zu 2) aufgrund seines Gewinnanteils an der Gesellschaft des bürgerlichen Rechts?
-**Quelle:** "Der Kläger zu 2) war mit einem Gewinnanteil von 30% beteiligt."
+8. **Frage:** Welche Bedingungen müssen erfüllt sein, damit ein Schadensersatzanspruch aus § 844 Abs. 2 BGB geltend gemacht werden kann?
+**Quelle:** "Für die Voraussetzungen eines Anspruchs aus § 844 Abs. 2 BGB, der das Bestehen einer gesetzlichen Unterhaltspflicht des Sohnes der Kläger gegenüber seinen Eltern vorausgesetzt hätte, ist in diesem Verfahren nichts festgestellt oder vorgetragen."
+
+9. **Frage:** Wie kann ein Schadensersatzanspruch wegen entgangener Dienstleistungen des "Hauskindes" gemäß § 845 BGB geltend gemacht werden?
+**Quelle:** "Ein Ersatzanspruch gemäß § 845 BGB scheidet hier schon deswegen aus, weil der getötete Sohn der Kläger nicht aufgrund familienrechtlicher Dienstleistungspflicht in deren landwirtschaftlichem Anwesen mitarbeitete."
+
+10. **Frage:** Welche vertraglichen Beziehungen müssen zwischen den Parteien bestehen, damit ein Schadensersatzanspruch wegen Verletzung vertraglicher Pflichten geltend gemacht werden kann?
+**Quelle:** "Der Beklagte stand nicht in vertraglichen Beziehungen zu den Klägern oder der Gesellschaft des bürgerlichen Rechts, durch welche die Landwirtschaft betrieben wurde."
 
 Dokument: 1588857.xml
-1. **Frage:** Welche Umstände müssen vorliegen, damit eine Aufklärungspflicht der Beklagten wegen einer arglistigen Täuschung durch einen Mitarbeiter eines anderen Unternehmens besteht?
-**Quelle:** "Der Kläger habe gegen die Beklagte keinen Anspruch aus § 280 Abs. 1 BGB wegen Verletzung vertraglicher Warn- oder Hinweispflichten. Die Beklagte hafte dem Kläger nicht wegen einer Verletzung von Aufklärungspflichten hinsichtlich einer systematischen Falschberatung der Anleger durch die A. AG."
+Rechtsthema: SchuldrechtAT
 
-2. **Frage:** Wie kann ein Kläger nachweisen, dass die Beklagte von einer arglistigen Täuschung durch einen Dritten Kenntnis hatte?
-**Quelle:** "Eine positive Kenntnis der Beklagten vom Verlauf des mit dem Kläger geführten Beratungsgesprächs sei nicht dargetan."
+1. **Frage:** Welche Voraussetzungen müssen erfüllt sein, damit ein Schadensersatzanspruch wegen unterbliebener Aufklärung über eine arglistige Täuschung geltend gemacht werden kann?
+**Quelle:** "Der Kläger habe gegen die Beklagte keinen Schadensersatzanspruch im Zusammenhang mit der durch die A. AG erfolgten Anlageberatung. Da die A. AG nicht im Pflichtenkreis der Beklagten tätig geworden sei, scheide eine Zurechnung etwaiger Beratungsfehler der A. AG nach § 278 BGB aus."
 
-3. **Frage:** Unter welchen Bedingungen kann eine Beklagte von einer Aufklärungspflicht wegen einer arglistigen Täuschung durch einen Dritten entbunden werden?
-**Quelle:** "Jedenfalls habe der Kläger einen entsprechenden aufklärungspflichtigen Wissensvorsprung nicht nachzuweisen vermocht."
+2. **Frage:** Wer ist verpflichtet, Kunden über eine arglistige Täuschung durch Dritte zu informieren?
+**Quelle:** "Die Beklagte hafte dem Kläger nicht wegen einer Verletzung von Aufklärungspflichten hinsichtlich einer systematischen Falschberatung der Anleger durch die A. AG."
 
-4. **Frage:** Warum entfällt die Aufklärungspflicht der Beklagten, wenn der Kläger nicht nachweisen kann, dass die Beklagte von einer arglistigen Täuschung durch einen Dritten Kenntnis hatte?
-**Quelle:** "Eine positive Kenntnis der Beklagten vom Verlauf des mit dem Kläger geführten Beratungsgesprächs sei nicht dargetan."
+3. **Frage:** Wie kann eine positive Kenntnis der Beklagten von einer arglistigen Täuschung durch einen Dritten nachgewiesen werden?
+**Quelle:** "Der Kläger habe einen entsprechenden aufklärungspflichtigen Wissensvorsprung nicht nachzuweisen vermocht. Eine positive Kenntnis der Beklagten vom Verlauf des mit dem Kläger geführten Beratungsgesprächs sei nicht dargetan."
 
-5. **Frage:** Welche Rolle spielt die Beweiserleichterung im Falle institutionalisierten Zusammenwirkens bei der Aufklärungspflicht der Beklagten?
+4. **Frage:** Welche Rolle spielt das institutionalisierte Zusammenwirken bei der Beurteilung von Aufklärungspflichten?
 **Quelle:** "Eine Übertragung dieser Rechtsprechung auf Fälle der vorliegenden Art scheide wegen fehlender Vergleichbarkeit der Fallkonstellationen aus."
 
-6. **Frage:** Wie kann die Beklagte ihre Aufklärungspflicht bezüglich einer erkanntermaßen tiefgreifenden allgemeinen Unseriösität eines anderen Unternehmens erfüllen?
-**Quelle:** "Die Beklagte hafte dem Kläger auch nicht wegen der Verletzung einer Aufklärungspflicht hinsichtlich einer erkanntermaßen tiefgreifenden allgemeinen Unseriösität der A. AG."
+5. **Frage:** Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf eine Bank?
+**Quelle:** "Da die A. AG nicht im Pflichtenkreis der Beklagten tätig geworden sei, scheide eine Zurechnung etwaiger Beratungsfehler der A. AG nach § 278 BGB aus."
 
-7. **Frage:** Welche Konsequenzen hat es für die Beklagte, wenn sie nicht über eine an die A. AG geflossene Rückvergütung aufklärt?
-**Quelle:** "Die Beklagte hafte auch nicht nach §§ 826, 830 Abs. 2 BGB aus einer Beteiligung an einer sittenwidrigen vorsätzlichen Schädigung des Klägers durch die A. AG."
-
-8. **Frage:** Welche Rechte hat der Kläger, wenn die Beklagte ihre Aufklärungspflicht bezüglich einer arglistigen Täuschung durch einen Dritten verletzt?
-**Quelle:** "Der Kläger habe gegen die Beklagte keinen Schadensersatzanspruch im Zusammenhang mit der durch die A. AG erfolgten Anlageberatung."
-
-9. **Frage:** Welche Pflichten hat die Beklagte im Zusammenhang mit dem Erwerb von Genussscheinen der P. AG durch den Kläger?
+6. **Frage:** Welche Rechte hat ein Kunde, wenn er von einer arglistigen Täuschung durch einen Dritten betroffen ist?
 **Quelle:** "Soweit die Revision das Berufungsurteil auch darüber hinaus angreift, ist sie nicht statthaft (§ 543 Abs. 1 Nr. 1 ZPO) und daher gemäß § 552 ZPO als unzulässig zu verwerfen."
 
-10. **Frage:** Wie kann die Beklagte ihre Aufklärungspflicht bezüglich einer arglistigen Täuschung durch einen Dritten erfüllen, ohne dass der Kläger einen entsprechenden aufklärungspflichtigen Wissensvorsprung nachweisen muss?
-**Quelle:** "Jedenfalls fehle es am Nachweis einer entsprechenden Kenntnis der Beklagten von einem solchen Geschäftsmodell."
+7. **Frage:** Welche Rechtsfolgen hat die Verletzung von Aufklärungspflichten durch eine Bank im Zusammenhang mit einer arglistigen Täuschung durch Dritte?
+**Quelle:** "Die Beklagte hafte dem Kläger des Weiteren auch nicht wegen einer Verletzung von Aufklärungspflichten im Zusammenhang mit einer arglistigen Täuschung und Falschberatung des Klägers im Einzelfall."
+
+8. **Frage:** Welche Bedingungen müssen erfüllt sein, damit eine Bank für eine arglistige Täuschung durch Dritte haften kann?
+**Quelle:** "Jedenfalls habe der Kläger einen entsprechenden aufklärungspflichtigen Wissensvorsprung nicht nachzuweisen vermocht. Eine positive Kenntnis der Beklagten vom Verlauf des mit dem Kläger geführten Beratungsgesprächs sei nicht dargetan."
 
