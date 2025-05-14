@@ -2,61 +2,155 @@
   "1548765.xml": {
     "ontology": {
       "classes": [
-        "Betriebskosten",
-        "Abrechnungsprinzip",
-        "Mietverhältnis"
+        "Urteil",
+        "Anspruch",
+        "Tatbestand",
+        "Betriebskostenabrechnung",
+        "Abrechnungsprinzip"
       ],
       "properties": [
-        "kannAngewandtWerden",
-        "istRechtmäßig"
+        "beinhaltet",
+        "basiert auf",
+        "betrifft",
+        "erfolgt nach",
+        "ist zulässig"
       ],
       "relationships": [
         [
-          "Betriebskosten",
-          "kannAngewandtWerden",
+          "Urteil",
+          "beinhaltet",
+          "Tatbestand"
+        ],
+        [
+          "Anspruch",
+          "basiert auf",
+          "Tatbestand"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "betrifft",
           "Abrechnungsprinzip"
         ],
         [
           "Abrechnungsprinzip",
-          "istRechtmäßig",
-          "Mietverhältnis"
+          "erfolgt nach",
+          "Leistungsprinzip"
+        ],
+        [
+          "Abrechnungsprinzip",
+          "erfolgt nach",
+          "Abflussprinzip"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Abrechnungsprinzipien können für Betriebskosten in Mietverhältnissen angewendet werden, und welche davon sind rechtmäßig?",
-      "source": "[\"a) Nach dem vom Berufungsgericht für allein zulässig gehaltenen Leistungsprinzip ... b) Demgegenüber wird auch eine Abrechnung nach dem so genannten Abflussprinzip ... c) Nach einer vermittelnden Auffassung kann der Vermieter nach dem Abflussprinzip jedenfalls dann abrechnen, wenn eine Mehrbelastung des Mieters ausgeschlossen ist, weil - wie im vorliegenden Fall - im Jahr des Verbrauchs und im Jahr der Abrechnung kein Mieterwechsel stattgefunden hat.\"]"
-    }
+    "competency_question": null
   },
   "1549417.xml": {
     "ontology": {
       "classes": [
+        "Revision",
+        "Berufungsgericht",
+        "Abrechnungsjahr",
+        "Abrechnung",
+        "Ausschlussfrist",
+        "Anspruch",
         "Mieter",
         "Vermieter",
+        "Schuldner",
+        "Gläubiger",
+        "Frist",
+        "Verhalten",
+        "Zusage",
+        "Schuldanerkenntnis",
+        "Verstoß",
         "Betriebskostenabrechnung",
-        "Nachzahlung"
+        "Mietvertraglicher Anspruch",
+        "Betriebskosten",
+        "Abrechnungsfrist",
+        "Nachzahlungsanspruch",
+        "Nachforderung",
+        "Verjährung",
+        "Treu und Glauben"
       ],
       "properties": [
-        "ist_unzureichend",
-        "kann_verlangen"
+        "beinhaltet",
+        "basiert auf",
+        "verwehrt",
+        "scheidet aus",
+        "ergeben sich",
+        "verneint",
+        "geht davon aus",
+        "annahme",
+        "ist ausgeschlossen",
+        "hat sich",
+        "ist es",
+        "ist es den Beklagten nicht verwehrt",
+        "ist es den Beklagten verwehrt"
       ],
       "relationships": [
         [
+          "Revision",
+          "beinhaltet",
+          "Berufungsgericht"
+        ],
+        [
+          "Abrechnungsjahr",
+          "basiert auf",
+          "Abrechnung"
+        ],
+        [
+          "Ausschlussfrist",
+          "verwehrt",
+          "Anspruch"
+        ],
+        [
           "Mieter",
-          "kann_verlangen",
-          "keine Nachzahlung"
+          "scheidet aus",
+          "Vermieter"
+        ],
+        [
+          "Schuldner",
+          "ergeben sich",
+          "Gläubiger"
+        ],
+        [
+          "Frist",
+          "verwehrt",
+          "Verhalten"
+        ],
+        [
+          "Zusage",
+          "verwehrt",
+          "Schuldanerkenntnis"
+        ],
+        [
+          "Verstoß",
+          "verwehrt",
+          "Treu und Glauben"
         ],
         [
           "Betriebskostenabrechnung",
-          "ist_unzureichend",
-          "kann_verlangen"
+          "verneint",
+          "Mietvertraglicher Anspruch"
+        ],
+        [
+          "Betriebskosten",
+          "geht davon aus",
+          "Abrechnungsfrist"
+        ],
+        [
+          "Nachzahlungsanspruch",
+          "ist ausgeschlossen",
+          "Nachforderung"
+        ],
+        [
+          "Verjährung",
+          "ist es",
+          "Treu und Glauben"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wann kann ein Mieter auf Grund einer unzureichenden Betriebskostenabrechnung von seinem Vermieter keine Nachzahlung verlangen?",
-      "source": "[\"Die Abrechnung vom 5. November 2004 ist den Beklagten zwar - anders als die Korrekturabrechnung vom 23. März 2005 - noch vor Ablauf von zwölf Monaten nach Ende des abgerechneten Jahres 2003, also vor dem 1. Januar 2005, mitgeteilt worden. Die Einhaltung der Abrechnungsfrist wird jedoch nur mit einer formell ordnungsgemäßen Abrechnung gewahrt; allein inhaltliche Fehler können auch nach Fristablauf korrigiert werden.\"]"
-    }
+    "competency_question": null
   },
   "1567715.xml": {
     "ontology": {
@@ -65,13 +159,16 @@
         "Beklagte",
         "Mietvertrag",
         "Wohnfläche",
-        "Betriebskosten"
+        "Betriebskostenabrechnung",
+        "Mietminderung"
       ],
       "properties": [
         "hatAnspruchAuf",
-        "istBerechtigtZur",
+        "istBerechtigtZu",
         "betrifft",
-        "umlegt"
+        "beträgt",
+        "liegtUnter",
+        "istZurückzuweisen"
       ],
       "relationships": [
         [
@@ -81,7 +178,7 @@
         ],
         [
           "Beklagte",
-          "istBerechtigtZur",
+          "istBerechtigtZu",
           "Mietminderung"
         ],
         [
@@ -90,333 +187,454 @@
           "Wohnfläche"
         ],
         [
-          "Betriebskosten",
-          "umlegt",
-          "nach der Wohnfläche"
+          "Wohnfläche",
+          "liegtUnter",
+          "im Mietvertrag angegebene Wohnfläche"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "beträgt",
+          "geminderter Betrag von 84,06 €"
+        ],
+        [
+          "Revision",
+          "istZurückzuweisen"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wann ist eine Partei zur Aufrechnung von Rückforderungsansprüchen berechtigt?",
-      "source": "\"Das Berufungsgericht hat rechtsfehlerfrei die von der Beklagten zur Aufrechnung gestellten Rückforderungsansprüche wegen angeblich in den Monaten Januar bis Juli 2007 zuviel gezahlter Miete verneint.\""
-    }
+    "competency_question": null
   },
   "1658302.xml": {
     "ontology": {
       "classes": [
-        "Kaufmann",
-        "Geschäft",
-        "Provision",
-        "§354Abs1HGB"
+        "Klägerin",
+        "Beklagte",
+        "Leasinginteressent",
+        "Leasingfinanzierungszusage",
+        "Leasingvertrag",
+        "Leasingnehmer",
+        "Leasinggeberin",
+        "Leasingfahrzeug",
+        "Leasinggegenstand",
+        "Leasingrate",
+        "Geschäftsbesorgung",
+        "Dienstleistung",
+        "Vergütungsanspruch",
+        "Provisionsanspruch",
+        "Kaufvertrag",
+        "Übergabekosten",
+        "Überführungs- und Zulassungskosten"
       ],
       "properties": [
+        "beinhaltet",
         "besorgt",
-        "verlangenKann"
+        "leistet",
+        "erbringt",
+        "verursacht",
+        "umfasst",
+        "tätig wird in Ausübung seines Handelsgewerbes",
+        "besorgt ein Geschäft",
+        "besorgt eine Dienstleistung",
+        "fordert Provision",
+        "verlangt Vergütung",
+        "führt zu einem Vergütungsanspruch",
+        "führt zu einem Provisionsanspruch",
+        "führt zu einer Provisionspflicht",
+        "führt zu einer Vergütungspflicht",
+        "führt zu einer Kostenüberwälzung",
+        "führt zu einer Benachteiligung"
       ],
       "relationships": [
         [
-          "Kaufmann",
+          "Klägerin",
+          "beinhaltet",
+          "Leasingfinanzierungszusage"
+        ],
+        [
+          "Leasingfinanzierungszusage",
           "besorgt",
-          "Geschäft"
+          "Leasingvertrag"
         ],
         [
-          "Kaufmann",
-          "verlangenKann",
-          "Provision"
+          "Leasingvertrag",
+          "besorgt",
+          "Leasingfahrzeug"
         ],
         [
-          "§354Abs1HGB",
-          "rechtlicheVoraussetzung",
-          "Provision"
+          "Leasingfahrzeug",
+          "besorgt",
+          "Leasinggegenstand"
+        ],
+        [
+          "Leasinggegenstand",
+          "besorgt",
+          "Leasingrate"
+        ],
+        [
+          "Klägerin",
+          "leistet",
+          "Geschäftsbesorgung"
+        ],
+        [
+          "Geschäftsbesorgung",
+          "besorgt",
+          "Dienstleistung"
+        ],
+        [
+          "Dienstleistung",
+          "führt zu",
+          "Vergütungsanspruch"
+        ],
+        [
+          "Vergütungsanspruch",
+          "führt zu",
+          "Provisionsanspruch"
+        ],
+        [
+          "Provisionsanspruch",
+          "führt zu",
+          "Provisionspflicht"
+        ],
+        [
+          "Provisionspflicht",
+          "führt zu",
+          "Vergütungspflicht"
+        ],
+        [
+          "Leasingvertrag",
+          "verursacht",
+          "Überführungs- und Zulassungskosten"
+        ],
+        [
+          "Überführungs- und Zulassungskosten",
+          "führen zu",
+          "Kostenüberwälzung"
+        ],
+        [
+          "Kostenüberwälzung",
+          "führt zu",
+          "Benachteiligung"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Kaufmann für die Besorgung eines Geschäfts Provision nach § 354 Abs. 1 HGB verlangen kann?",
-      "source": "\"Der gesetzliche Provisionsanspruch nach § 354 Abs. 1 HGB setzt eine Vereinbarung der Parteien über eine Vergütung der erbrachten Leistungen nicht voraus. Die Vorschrift greift im Gegenteil gerade schon dann ein, wenn es an einer (wirksamen) vertraglichen Vereinbarung über die für eine zu erbringende oder erbrachte Leistung zu zahlende Vergütung fehlt.\""
-    }
+    "competency_question": null
   },
   "1569756.xml": {
     "ontology": {
       "classes": [
         "Klägerin",
-        "Beklagte",
-        "Kosten",
-        "Räumungsrechtsstreit",
-        "Klagerücknahme"
+        "Rechtsanwaltskosten",
+        "Kostentragungsregelung",
+        "Verzug",
+        "Klageerhebung",
+        "Kostenerstattung",
+        "Verzugsschaden",
+        "Zahlungsaufforderung"
       ],
       "properties": [
-        "kannVerlangen",
-        "basiertAuf",
-        "istGeschuldet"
+        "erstattet",
+        "basiert auf",
+        "führt zu",
+        "betrifft",
+        "scheidet aus"
       ],
       "relationships": [
         [
           "Klägerin",
-          "kannVerlangen",
-          "Kosten"
+          "erstattet",
+          "Rechtsanwaltskosten"
         ],
         [
-          "Kosten",
-          "basiertAuf",
-          "Klagerücknahme"
+          "Kostentragungsregelung",
+          "basiert auf",
+          "Verzug"
         ],
         [
-          "Beklagte",
-          "istGeschuldet",
-          "Kosten"
+          "Klageerhebung",
+          "führt zu",
+          "Kostenerstattung"
+        ],
+        [
+          "Verzugsschaden",
+          "betrifft",
+          "Kostenerstattung"
+        ],
+        [
+          "Zahlungsaufforderung",
+          "scheidet aus",
+          "Kostenerstattung"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Kosten kann die Klägerin von den Beklagten aufgrund der Klagerücknahme im Räumungsrechtsstreit erstattet verlangen?",
-      "source": "\"Ein materiell-rechtlicher Anspruch der Klägerin auf Rückerstattung der Prozesskosten, die sie aufgrund der im Räumungsrechtsstreit erklärten Klagerücknahme an die Beklagten geleistet hat, stehen - anders als das Berufungsgericht meint - bereits die in jenem Verfahren nach § 269 Abs. 3 Satz 2, Halbs. 1 ZPO eingetretene Kostenfolge und der daraufhin zugunsten der Beklagten ergangene Kostenfestsetzungsbeschluss entgegen.\""
-    }
+    "competency_question": null
   },
   "1536966.xml": {
     "ontology": {
       "classes": [
         "Berufungsverfahren",
+        "Berufungsgericht",
+        "Klägerin",
         "Streitgegenstand",
+        "Berufungsantrag",
         "Berufungsbegründung",
-        "Anträge",
-        "Prozeßpartei",
-        "Gericht"
+        "Anfechtung",
+        "Urteil"
       ],
       "properties": [
         "beinhaltet",
+        "verwirft",
         "betrifft",
         "hatUmfang",
-        "hatBegehr",
-        "hatEntscheidung",
-        "hatHinweis",
-        "hatBeschluss",
-        "hatKostenfolge"
+        "wirdAngefochten",
+        "wirdGerügt",
+        "istGegenstandVon",
+        "darfEntscheiden"
       ],
       "relationships": [
         [
           "Berufungsverfahren",
+          "beinhaltet",
+          "Berufungsantrag"
+        ],
+        [
+          "Berufungsgericht",
+          "verwirft",
+          "Berufungsantrag"
+        ],
+        [
+          "Klägerin",
+          "hat",
+          "Berufungsbegründung"
+        ],
+        [
+          "Berufungsbegründung",
           "betrifft",
-          "Streitgegenstand"
+          "Anfechtung"
+        ],
+        [
+          "Anfechtung",
+          "wirdAngefochten",
+          "Urteil"
         ],
         [
           "Streitgegenstand",
-          "beinhaltet",
-          "Anträge"
+          "wirdGerügt",
+          "Berufungsantrag"
         ],
         [
-          "Prozeßpartei",
-          "hatBegehr",
+          "Berufungsgericht",
+          "darfEntscheiden",
           "Streitgegenstand"
-        ],
-        [
-          "Gericht",
-          "hatEntscheidung",
-          "Streitgegenstand"
-        ],
-        [
-          "Gericht",
-          "hatHinweis",
-          "Prozeßpartei"
-        ],
-        [
-          "Gericht",
-          "hatBeschluss",
-          "Berufungsverfahren"
-        ],
-        [
-          "Berufungsverfahren",
-          "hatKostenfolge",
-          "Kosten"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wann ist ein Berufungsverfahren anhängig, wenn die Berufungsbegründung nicht den Streitgegenstand eindeutig benennt?",
-      "source": "[\"Ein nach § 322 Abs. 1 ZPO der materiellen Rechtskraft fähiges Urteil kann nicht über das prozessuale Begehren des Rechtsmittelklägers hinausgehen, das den Streitgegenstand bestimmt (BGH, Urteil vom 15. Juli 1997 -\" und \"Die Klägerin wollte jedenfalls keine Ansprüche weiter verfolgen, mit denen sie schon in erster Instanz obsiegt hatte.\"]"
-    }
-  },
-  "1525185.xml": {
-    "ontology": {
-      "classes": [
-        "Hand",
-        "Handgelenk",
-        "Invalidität",
-        "Gliedertaxe"
-      ],
-      "properties": [
-        "beinhaltet",
-        "festlegt"
-      ],
-      "relationships": [
-        [
-          "Hand",
-          "beinhaltet",
-          "Handgelenk"
-        ],
-        [
-          "Handgelenk",
-          "festlegt",
-          "Invalidität"
-        ],
-        [
-          "Gliedertaxe",
-          "beinhaltet",
-          "Hand im Handgelenk"
-        ]
-      ]
-    },
-    "competency_question": {
-      "question": "Welche Bedeutung hat die Formulierung \"Hand im Handgelenk\" in der Gliedertaxe, wenn es um die Festlegung des Invaliditätsgrades geht?",
-      "source": "[\"Die Gliedertaxe sieht Abstufungen des Invaliditätsgrades - etwa des Armes - vor, nachdem der Invaliditätsgrad mit der Rumpfnähe der in der Gliedertaxe festgelegten Teilbereiche ansteigt. Diese Abstufung trägt - dem Versicherungsnehmer erkennbar - den zunehmenden Auswirkungen des jeweiligen Teilgliedverlustes oder der Teilgliedfunktionsunfähigkeit auf die generelle Arbeitsfähigkeit des Menschen Rechnung. Liefert aber die Rumpfnähe des Teilgliedes den Bewertungsmaßstab, läßt sich die Wendung 'Hand im Handgelenk' auch dahin verstehen, daß mit ihr - wie mit der Abgrenzung 'bis zum' - nur die Grenze eines Gliedteilbereichs beschrieben wird, es also bei der Funktionsunfähigkeit auf die Hand insgesamt ankommt.\"]"
-    }
+    "competency_question": null
   },
   "0960919.xml": {
     "ontology": {
       "classes": [
-        "Mieterin",
+        "Urteil",
+        "Anspruch",
         "Brand",
-        "Mietwohnung",
-        "Schadensersatzpflichtigkeit"
+        "Mieter",
+        "Vermieter",
+        "Versicherer",
+        "Regressverzicht",
+        "Rückgriffsansprüche",
+        "Doppelversicherung",
+        "Haftpflichtversicherung",
+        "Versicherungsschutz"
       ],
       "properties": [
-        "verursacht",
+        "beinhaltet",
         "basiert auf",
-        "führt zu"
+        "verursacht",
+        "betrifft",
+        "schließt ein",
+        "beeinträchtigt",
+        "beeinflusst",
+        "verweist auf",
+        "beeinflusst den Umfang von"
       ],
       "relationships": [
         [
-          "Mieterin",
+          "Urteil",
+          "beinhaltet",
+          "Anspruch"
+        ],
+        [
+          "Brand",
           "verursacht",
-          "Brand"
+          "Schaden"
         ],
         [
-          "Brand",
-          "basiert auf",
-          "Fahrlässigkeit"
+          "Mieter",
+          "betrifft",
+          "Rückgriffsansprüche"
         ],
         [
-          "Brand",
-          "führt zu",
-          "Schadensersatzpflichtigkeit"
+          "Doppelversicherung",
+          "beeinträchtigt",
+          "Versicherungsschutz"
+        ],
+        [
+          "Rückgriffsansprüche",
+          "beeinflusst",
+          "Versicherungsschutz"
+        ],
+        [
+          "Haftpflichtversicherung",
+          "verweist auf",
+          "Rückgriffsansprüche"
+        ],
+        [
+          "Rückgriffsansprüche",
+          "beeinflusst den Umfang von",
+          "Versicherungsschutz"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Unter welchen Umständen ist eine Mieterin für den durch ihre Fahrlässigkeit verursachten Brand in der Mietwohnung schadensersatzpflichtig?",
-      "source": "\"Die Mieterin wäre dem Vermieter wegen leicht fahrlässiger Herbeiführung des Brandes an sich zum Schadensersatz verpflichtet.\""
-    }
+    "competency_question": null
   },
   "1541664.xml": {
     "ontology": {
       "classes": [
-        "Mieter",
-        "Betriebskostenabrechnung",
-        "Forderung",
+        "Klage",
+        "Nachforderung",
         "Fälligkeit",
-        "Kautionsguthaben"
+        "Kautionsguthaben",
+        "Betriebskostenabrechnung",
+        "Kopie",
+        "Entscheidung",
+        "Rechtsstreit"
       ],
       "properties": [
-        "kannGeltendMachen",
-        "fehltEsAn",
-        "hatForderung",
-        "istFällig",
-        "hatKautionsguthaben"
+        "betrifft",
+        "versagt",
+        "zugebilligt",
+        "fehlt",
+        "hatAnspruchAuf",
+        "verrechnet",
+        "beanspruchen"
       ],
       "relationships": [
         [
-          "Mieter",
-          "kannGeltendMachen",
-          "Forderung"
+          "Klage",
+          "betrifft",
+          "Nachforderung"
         ],
         [
-          "Forderung",
-          "fehltEsAn",
+          "Nachforderung",
+          "versagt",
           "Fälligkeit"
         ],
         [
-          "Mieter",
-          "hatForderung",
+          "Kautionsguthaben",
+          "zugebilligt",
           "Betriebskostenabrechnung"
         ],
         [
-          "Betriebskostenabrechnung",
-          "istFällig",
+          "Kopie",
+          "fehlt",
           "Fälligkeit"
         ],
         [
-          "Mieter",
-          "hatKautionsguthaben",
+          "Klage",
+          "verrechnet",
           "Kautionsguthaben"
+        ],
+        [
+          "Kautionsguthaben",
+          "beanspruchen",
+          "Restbetrag"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Bedingungen müssen erfüllt sein, damit ein Mieter seine Forderung aus einer Betriebskostenabrechnung geltend machen kann?",
-      "source": "[\"Entgegen der Auffassung des Berufungsgerichts fehlt es der Nachforderung der Kläger aus der Abrechnung vom 9. Dezember 2002 nicht deshalb an der Fälligkeit, weil die Kläger dem Verlangen der Beklagten nach Übersendung von Kopien der Abrechnungsbelege nicht nachgekommen sind.\"]"
-    }
+    "competency_question": null
   },
   "1570226.xml": {
     "ontology": {
       "classes": [
+        "Berufungsgericht",
         "Klage",
+        "Frist",
         "Wohnungseigentümergemeinschaft",
         "Wohnungseigentümer",
-        "Monatsfrist",
         "Verwalter",
-        "Klagebegründung"
+        "Klagebegründung",
+        "Rechtsstreit"
       ],
       "properties": [
-        "ist gerichtet gegen",
-        "erfolgt innerhalb",
-        "ist rechtzeitig erhoben",
-        "wird benannt",
-        "enthält Informationen"
+        "meint",
+        "ist",
+        "wird gewahrt",
+        "ist unbegründet",
+        "wird zurückgewiesen",
+        "ist nicht zur Endentscheidung reif",
+        "fehlen",
+        "weist darauf hin"
       ],
       "relationships": [
         [
-          "Klage",
-          "ist gerichtet gegen",
-          "Wohnungseigentümergemeinschaft"
+          "Berufungsgericht",
+          "meint",
+          "Klage ist unbegründet"
         ],
         [
           "Klage",
-          "erfolgt innerhalb",
-          "Monatsfrist"
+          "ist",
+          "nicht innerhalb der Frist des § 46 Abs. 1 Satz 2 WEG erhoben worden"
         ],
         [
           "Klage",
-          "ist rechtzeitig erhoben",
-          "wenn Übergang zu einer Klage gegen die übrigen Mitglieder der Wohnungseigentümergemeinschaft erfolgt"
+          "wird gewahrt",
+          "wenn die Voraussetzungen des § 44 Abs. 1 Satz 1 WEG erfüllt sind"
         ],
         [
-          "Klagebegründung",
-          "enthält Informationen",
-          "dass es sich bei der als Zustellungsvertreter benannten Person um den Verwalter handelt"
+          "Klage",
+          "ist unbegründet",
+          "wenn sie nicht innerhalb der Frist des § 46 Abs. 1 Satz 2 WEG erhoben worden ist"
         ],
         [
-          "Verwalter",
-          "wird benannt",
-          "innerhalb der Klagefrist"
+          "Klage",
+          "wird zurückgewiesen",
+          "wenn sie erst nach Ablauf der Monatsfrist erhoben wird"
+        ],
+        [
+          "Rechtsstreit",
+          "ist nicht zur Endentscheidung reif",
+          "wenn Feststellungen fehlen"
+        ],
+        [
+          "Senat",
+          "weist darauf hin",
+          "Verzögerungen, die aus der Zustellung an die Wohnungseigentümer herrühren, werden den Klägern nicht zugerechnet"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wann ist eine Klage gegen die Wohnungseigentümergemeinschaft im Rahmen des § 46 Abs. 1 Satz 2 WEG rechtzeitig erhoben worden, wenn die Klage zunächst gegen die Wohnungseigentümergemeinschaft gerichtet ist, aber innerhalb der Monatsfrist der Übergang zu einer Klage gegen die übrigen Mitglieder der Wohnungseigentümergemeinschaft erfolgt?",
-      "source": "[\"Die Fristen zur Erhebung und Begründung der Klage nach § 46 Abs. 1 Satz 2 WEG sind materiellrechtliche Ausschlussfristen und keine besonderen Sachurteilsvoraussetzungen.\"; \"Die Monatsfrist wird durch dieses Verständnis nicht, wie das Berufungsgericht meint, überflüssig. Eine erst nach Ablauf der Monatsfrist erhobene Klage ist unabhängig davon, ob sie sich gegen die Wohnungseigentümergemeinschaft oder gegen die übrigen Wohnungseigentümer richtet, ohne weiteres als unbegründet zurückzuweisen.\"]"
-    }
+    "competency_question": null
   },
   "1521301.xml": {
     "ontology": {
       "classes": [
         "Kaufvertrag",
         "Wohnungseigentum",
-        "Sondernutzungsfläche"
+        "Sondereigentum",
+        "Sonnennutzungsfläche",
+        "Teilungserklärung",
+        "Anfechtungserklärung",
+        "Schadensersatzanspruch"
       ],
       "properties": [
         "beinhaltet",
-        "bestimmt",
-        "erfüllt"
+        "basiert auf",
+        "betrifft",
+        "festlegen",
+        "bestimmen",
+        "begrenzen",
+        "ermöglichen",
+        "erfüllen",
+        "schuldeten"
       ],
       "relationships": [
         [
@@ -425,289 +643,382 @@
           "Wohnungseigentum"
         ],
         [
-          "Sondernutzungsfläche",
-          "bestimmt",
+          "Wohnungseigentum",
+          "beinhaltet",
+          "Sondereigentum"
+        ],
+        [
+          "Sondereigentum",
+          "beinhaltet",
+          "Sonnennutzungsfläche"
+        ],
+        [
+          "Teilungserklärung",
+          "festlegen",
+          "Rechte und Pflichten"
+        ],
+        [
+          "Anfechtungserklärung",
+          "betrifft",
           "Kaufvertrag"
         ],
         [
-          "Sondernutzungsfläche",
-          "erfüllt",
-          "Anforderungen"
+          "Schadensersatzanspruch",
+          "basiert auf",
+          "Verschuldens bei Vertragsschluß"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Anforderungen müssen erfüllt sein, damit eine Sondernutzungsfläche im Rahmen eines Kaufvertrags für Wohnungseigentum ausreichend bestimmt ist?",
-      "source": "[\"Die den Klägern zu verschaffende Sondernutzungsfläche ist in dem eine Anlage zum Kaufvertrag bildenden Lageplan eingezeichnet; sie wird nach der vertraglichen Regelung von den Markierungspunkten 28, 27, 20, 49, 48 und 29 begrenzt. Da in dem Lageplan das Gesamtgrundstück, das später in Miteigentumsanteile für die Wohnungseigentümer aufgeteilt werden sollte, die Sondernutzungsflächen der übrigen Wohnungseigentümer und die Lage der zu errichtenden Wohnhäuser eingezeichnet sind, können die ungefähre Größe und Lage der streitigen Fläche ermittelt werden.\"]"
-    }
+    "competency_question": null
   },
   "1596648.xml": {
     "ontology": {
       "classes": [
-        "Mieter",
+        "Urteil",
+        "Revision",
+        "Mietverhältnis",
         "Mangelbeseitigung",
-        "Mietminderung"
+        "Mietminderung",
+        "Kündigung"
       ],
       "properties": [
+        "begründet",
+        "führt zur",
         "verhindert",
-        "kann nicht mehr geltend machen"
+        "beruht auf",
+        "kann dazu führen",
+        "folgt aus"
       ],
       "relationships": [
         [
-          "Mieter",
-          "verhindert",
-          "Mangelbeseitigung"
+          "Revision",
+          "begründet",
+          "Urteil"
+        ],
+        [
+          "Urteil",
+          "führt zur",
+          "Aufhebung der angegriffenen Entscheidung"
         ],
         [
           "Mangelbeseitigung",
-          "kann nicht mehr geltend machen",
+          "verhindert",
           "Mietminderung"
+        ],
+        [
+          "Mietminderung",
+          "beruht auf",
+          "Mangelbeseitigung"
+        ],
+        [
+          "Kündigung",
+          "kann dazu führen",
+          "Mietverhältnis"
+        ],
+        [
+          "Mietverhältnis",
+          "folgt aus",
+          "Kündigung"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wann kann ein Mieter seine Mietminderung aufgrund von Mängeln nicht mehr geltend machen, wenn er die Mangelbeseitigung unberechtigt verhindert hat?",
-      "source": "[\"Eine treuwidrige Verhinderung der Mangelbeseitigung durch den Mieter ist [...] dann anzunehmen, wenn er [...] seine Duldung von ungerechtfertigten Forderungen abhängig macht (BeckOK BGB/Ehlert [Stand: 1. Mai 2014] § 536 Rn. 107 mwN; Palandt/Weidenkaff BGB 74. Aufl. § 536 Rn. 37).\" und \"Denn den für die - fiktive - Mangelbeseitigung erforderlichen Zeitraum unberücksichtigt und den Mieter auch hierfür auf die volle Miete haften zu lassen, würde im Ergebnis einerseits den Vermieter ungerechtfertigt begünstigen und andererseits den Mieter über das hinaus belasten, was er bei vertragsgemäßem Verhalten schuldete. Dafür bietet § 242 BGB keine Grundlage.\"]"
-    }
+    "competency_question": null
   },
   "1544176.xml": {
     "ontology": {
       "classes": [
-        "Einlageverbindlichkeit",
-        "Gesellschaftsverbindlichkeit",
-        "verdeckte Finanzierung",
+        "Einspruch",
         "Rückzahlung",
+        "Einlageverbindlichkeit",
         "Schadensersatzanspruch"
       ],
       "properties": [
-        "wird durch",
-        "führt zu",
-        "steht gegen"
+        "beanstandet",
+        "erfüllt"
       ],
       "relationships": [
         [
-          "Einlageverbindlichkeit",
-          "wird durch",
-          "verdeckte Finanzierung"
-        ],
-        [
-          "verdeckte Finanzierung",
-          "führt zu",
+          "Einspruch",
+          "beanstandet",
           "Rückzahlung"
         ],
         [
           "Rückzahlung",
-          "steht gegen",
+          "erfüllt",
+          "Einlageverbindlichkeit"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "führt zu",
           "Schadensersatzanspruch"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Rechtsfolge tritt ein, wenn eine Gesellschaftsverbindlichkeit durch eine verdeckte Finanzierung erfüllt wird?",
-      "source": "[\"Das auf einer Sachprüfung (...) liegt eine sog. verdeckte Finanzierung aus Gesellschaftsmitteln in Form des 'Her- und Hinzahlens' vor, bei dem unter dem Gesichtspunkt der Kapitalaufbringung der Inferent nichts geleistet und die Gesellschaft nichts erhalten hat und bei dem die in diesem Zusammenhang für die 'Herzahlung' getroffene 'Darlehensabrede' als Teil des Umgehungsgeschäfts unwirksam ist.\"]"
-    }
+    "competency_question": null
   },
   "1590874.xml": {
     "ontology": {
       "classes": [
-        "Klägerin",
-        "Herausgabeanspruch",
+        "Berufungsgericht",
+        "Sicherungsabrede",
+        "Anspruch",
+        "Rechtsfolge",
+        "Darlegungslast",
+        "Beweislast",
+        "Rechtsbegriff",
+        "Rechtshinderndes",
+        "Rechtshemmendes",
+        "Rechtsvernichtendes",
         "Bürgschaftsurkunde",
-        "Forderung",
-        "Beklagte"
+        "Honorarforderung",
+        "Leistung",
+        "Vorschusszahlung",
+        "Auftragnehmer",
+        "Auftraggeber"
       ],
       "properties": [
-        "kann",
-        "prüfen",
-        "geltend machen"
+        "beinhaltet",
+        "sichert",
+        "begründet",
+        "hindernd",
+        "hemmend",
+        "vernichtend",
+        "beansprucht",
+        "erbracht",
+        "gesondert",
+        "vergütet"
       ],
       "relationships": [
         [
-          "Klägerin",
-          "kann",
-          "unmittelbar auf Herausgabe der Bürgschaftsurkunde klagen"
+          "Sicherungsabrede",
+          "beinhaltet",
+          "Sicherungszweck"
         ],
         [
-          "Klägerin",
-          "kann",
-          "die Berechtigung der von der Beklagten geltend gemachten Forderungen prüfen"
+          "Sicherungsabrede",
+          "sichert",
+          "Honorarforderung"
+        ],
+        [
+          "Anspruch",
+          "begründet",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsfolge",
+          "hindernd",
+          "Honorarforderung"
+        ],
+        [
+          "Honorarforderung",
+          "beansprucht",
+          "Leistung"
+        ],
+        [
+          "Leistung",
+          "erbracht",
+          "Auftragnehmer"
+        ],
+        [
+          "Auftraggeber",
+          "beansprucht",
+          "Rückzahlung"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wann kann die Klägerin unmittelbar auf Herausgabe der Bürgschaftsurkunde klagen und die Berechtigung der von der Beklagten geltend gemachten Forderungen prüfen?",
-      "source": "\"Die Klägerin kann nach Eintritt der Abrechnungsreife unmittelbar auf Herausgabe der Bürgschaftsurkunde klagen, und im Rahmen der Herausgabeklage ist zu prüfen, ob die von der Beklagten geltend gemachten Forderungen berechtigt sind.\""
-    }
+    "competency_question": null
   },
   "1526301.xml": {
     "ontology": {
       "classes": [
         "Klägerin",
+        "Beklagte",
+        "Signaldurchleitung",
+        "Eigentum",
         "Kabelnetz",
-        "Signale"
+        "Breitbandkabel",
+        "Internet",
+        "Gewerbebetrieb",
+        "Eigentumsbeeinträchtigung"
       ],
       "properties": [
-        "kannVerhindern",
-        "durchleitet"
+        "beinhaltet",
+        "greift ein",
+        "beeinträchtigt",
+        "bewirkt",
+        "nutzt"
       ],
       "relationships": [
         [
           "Klägerin",
-          "kannVerhindern",
-          "Durchleitung von Signalen durch ihr Kabelnetz"
+          "beinhaltet",
+          "Signaldurchleitung"
         ],
         [
-          "Signale",
-          "durchleitet",
-          "Kabelnetz"
+          "Beklagte",
+          "greift ein",
+          "in das Eigentum der Klägerin"
+        ],
+        [
+          "Signaldurchleitung",
+          "beeinträchtigt",
+          "Eigentum"
+        ],
+        [
+          "Klägerin",
+          "bewirkt",
+          "Durchleitung der von der Beklagten produzierten Signale"
+        ],
+        [
+          "Beklagte",
+          "nutzt",
+          "Kabelnetz der Klägerin ohne deren Einverständnis"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Wie kann die Klägerin die Durchleitung unerwünschter Signale durch ihr Kabelnetz verhindern?",
-      "source": "[\"Zwar hätte die Klägerin die Möglichkeit, die Einleitung bestimmter, ihr unerwünschter Signale durch das Anbringen geeigneter Sperrvorrichtungen am Übergabepunkt zu unterbinden. Dies tut sie jedoch nicht.\"]"
-    }
+    "competency_question": null
   },
   "1657134.xml": {
     "ontology": {
       "classes": [
-        "Erfinder",
+        "Schadensersatzanspruch",
         "Patent",
-        "Anmeldung",
-        "Rechtsverletzung",
-        "Schadenersatz",
+        "Erfindung",
         "Gemeinschaftsverhältnis",
-        "Vermögensnachteile",
+        "Schaden",
         "Vorteile",
-        "Rechtschutzinteresse"
+        "Verpflichtung"
       ],
       "properties": [
-        "darf",
-        "verletzt",
-        "erfüllt",
-        "erlitten",
-        "gezogen",
+        "beinhaltet",
+        "ziehtHer",
+        "erlitt",
+        "entstanden",
         "betrifft",
-        "gestützt",
-        "sachlich nicht entgegen"
+        "schließtEin",
+        "setztVoraus",
+        "betrifftSachlich",
+        "stehtEntgegen"
       ],
       "relationships": [
         [
-          "Erfinder",
-          "darf",
-          "Patent anmelden"
-        ],
-        [
-          "Anmeldung",
-          "verletzt",
-          "Rechtsverletzung"
-        ],
-        [
-          "Rechtsverletzung",
-          "erfüllt",
-          "Schadenersatz"
-        ],
-        [
-          "Schadenersatz",
-          "betrifft",
+          "Schadensersatzanspruch",
+          "beinhaltet",
           "Vermögensnachteile"
         ],
         [
           "Vermögensnachteile",
-          "erlitten",
-          "Erfinder"
+          "ziehenHer",
+          "Schaden"
+        ],
+        [
+          "Schaden",
+          "erlitt",
+          "Klägerin"
+        ],
+        [
+          "Beklagte",
+          "ziehtHer",
+          "Vorteile"
         ],
         [
           "Vorteile",
-          "gezogen",
-          "Beklagte"
+          "entstanden",
+          "Nutzung"
         ],
         [
-          "Rechtschutzinteresse",
-          "gestützt",
-          "Schadenersatz"
+          "Verpflichtung",
+          "betrifft",
+          "Vorteile"
         ],
         [
-          "Schadenersatz",
-          "sachlich nicht entgegen",
-          "Rechtsverletzung"
+          "Verpflichtung",
+          "schließtEin",
+          "entgangenen Ausgleich"
+        ],
+        [
+          "Schaden",
+          "betrifftSachlich",
+          "Verpflichtung"
+        ],
+        [
+          "Verpflichtung",
+          "setztVoraus",
+          "hinreichende Wahrscheinlichkeit"
+        ],
+        [
+          "Rechtsprechung",
+          "stehtEntgegen",
+          "Ansprüche"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Miterfinder einer Erfindung diese zum Patent anmelden darf, ohne die anderen Miterfinder zu benachteiligen?",
-      "source": "\"Dass die Anmeldung einer gemeinsamen Erfindung nur dann einer nach § 744 Abs. 2 BGB zur Erhaltung des gemeinschaftlichen Gegenstands notwendigen Maßnahme entspricht, wenn sie auf den Namen aller Teilhaber erfolgt, und dass der lediglich mitberechtigte Anmelder demgegenüber rechtswidrig handelt, wenn er die Erfindung nur auf seinen Namen anmeldet, hat bereits das Reichsgericht angenommen.\""
-    }
+    "competency_question": null
   },
   "1532441.xml": {
     "ontology": {
       "classes": [
-        "Pachtvertrag",
-        "Kündigung",
+        "Revisionsbeklagter",
         "Berufungsgericht",
-        "Revision",
+        "Pachtvertrag",
         "Klägerin",
-        "Klage",
-        "Rechtskraft",
-        "Kostenentscheidung"
+        "Revisionsurteil"
       ],
       "properties": [
-        "beinhaltet",
         "beruht auf",
-        "führt zu",
-        "hat Interesse an",
-        "umfaßt"
+        "beendet",
+        "fortbestehen"
       ],
       "relationships": [
         [
+          "Revisionsbeklagter",
+          "beruht auf",
+          "Säumnis"
+        ],
+        [
           "Berufungsgericht",
-          "beinhaltet",
+          "ist davon ausgegangen",
           "Kündigung"
         ],
         [
-          "Kündigung",
-          "führt zu",
-          "Beendigung von Pachtvertrag"
+          "Pachtvertrag",
+          "beendet",
+          "Kündigung"
         ],
         [
           "Klägerin",
-          "hat Interesse an",
-          "Feststellung von Fortbestand von Pachtvertrag"
+          "hat",
+          "schützenswertes Interesse"
         ],
         [
-          "Rechtskraft",
-          "umfaßt",
-          "Grund und Zeitpunkt der Auflösung von Pachtvertrag"
-        ],
-        [
-          "Kostenentscheidung",
-          "beruht auf",
-          "§ 91 ZPO"
+          "Pachtvertrag",
+          "fortbestehen",
+          "31. Dezember 2000"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Pachtvertrag über das Vertragsende hinaus fortbesteht?",
-      "source": "[\"Die Klägerin hat ein schützenswertes Interesse an der begehrten Feststellung, daß der Pachtvertrag über den 31. Dezember 2000 hinaus bis zum 17. April 2001 fortbestanden hat.\"]"
-    }
+    "competency_question": null
   },
   "1568706.xml": {
     "ontology": {
       "classes": [
-        "Beklagter",
+        "Urteil",
+        "Anspruch",
         "Freistellungserklärung",
-        "Klägerin",
-        "Verpflichtung",
-        "Schaden"
+        "Schaden",
+        "Prozessführung",
+        "Verpflichtung"
       ],
       "properties": [
-        "hatVerpflichtung",
-        "verursacht"
+        "beinhaltet",
+        "basiert auf",
+        "verursacht",
+        "erfordert"
       ],
       "relationships": [
         [
-          "Beklagter",
-          "hatVerpflichtung",
+          "Urteil",
+          "beinhaltet",
           "Freistellungserklärung"
         ],
         [
@@ -722,87 +1033,72 @@
         ],
         [
           "Schaden",
-          "betrifft",
-          "Klägerin"
+          "erfordert",
+          "Prozessführung"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche Verpflichtungen hat der Beklagte aufgrund seiner Freistellungserklärung gegenüber der Klägerin?",
-      "source": "[\"Die Beklagte hat ... aufgrund der übernommenen Freistellungsverpflichtung bestehenden Abwehrpflicht nachzukommen, ist sie der Klägerin gemäß § 280 Abs. 1, 3, § 281 Abs. 1 Satz 1, Abs. 2 BGB zum Ersatz des dadurch verursachten Schadens verpflichtet.\"]"
-    }
+    "competency_question": null
   },
   "1535555.xml": {
     "ontology": {
       "classes": [
-        "Altenheim",
-        "Bewohner",
-        "Sturz",
-        "Maßnahme",
-        "Gefahrensituation"
+        "Revision",
+        "Klägerin",
+        "Schadensersatzanspruch",
+        "Heimbewohner",
+        "Heimträger",
+        "Verkehrssicherungspflicht",
+        "Pflichtverletzung",
+        "Hüftschutzhosen"
       ],
       "properties": [
-        "kannVerhindern",
-        "istHinreichend",
-        "istAbstraktGeneralisierend",
-        "entziehtFreiheit",
-        "bedarfGenehmigung",
-        "kannMindern",
-        "istSubstantiiert",
-        "istWahrscheinlichkeit",
-        "erhöhtGefahr"
+        "istBegründet",
+        "stehtZu",
+        "erwachsenAus",
+        "istBegrenztAuf",
+        "kannEntschiedenWerden",
+        "hatSchuldhaftePflichtVerletzung",
+        "kannVerhindern"
       ],
       "relationships": [
         [
-          "Altenheim",
+          "Revision",
+          "istBegründet",
+          "falsch"
+        ],
+        [
+          "Klägerin",
+          "stehtZu",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Heimträger",
+          "erwachsenAus",
+          "Heimvertrag"
+        ],
+        [
+          "Heimträger",
+          "hat",
+          "Verkehrssicherungspflicht"
+        ],
+        [
+          "Verkehrssicherungspflicht",
+          "istBegrenztAuf",
+          "üblicheMaßnahmen"
+        ],
+        [
+          "Pflichtverletzung",
+          "kannEntschiedenWerden",
+          "Einzelfall"
+        ],
+        [
+          "Hüftschutzhosen",
           "kannVerhindern",
-          "Sturz"
-        ],
-        [
-          "Maßnahme",
-          "istHinreichend",
-          "kannVerhindern"
-        ],
-        [
-          "Maßnahme",
-          "istAbstraktGeneralisierend",
-          "kannVerhindern"
-        ],
-        [
-          "Maßnahme",
-          "entziehtFreiheit",
-          "istAbstraktGeneralisierend"
-        ],
-        [
-          "Maßnahme",
-          "bedarfGenehmigung",
-          "istAbstraktGeneralisierend"
-        ],
-        [
-          "Maßnahme",
-          "kannMindern",
-          "Sturz"
-        ],
-        [
-          "Maßnahme",
-          "istSubstantiiert",
-          "kannMindern"
-        ],
-        [
-          "Maßnahme",
-          "istWahrscheinlichkeit",
-          "kannMindern"
-        ],
-        [
-          "Maßnahme",
-          "erhöhtGefahr",
-          "kannMindern"
+          "Knochenbruch"
         ]
       ]
     },
-    "competency_question": {
-      "question": "Welche konkreten Maßnahmen sind von einem Altenheim zur Vermeidung von Stürzen seiner Bewohner zu treffen, wenn keine spezifische Gefahrensituation vorliegt?",
-      "source": "\"Jene Sicherungsmaßnahmen hätten, da sie auch nach der Einschätzung der Klägerin nicht durch eine konkrete, einzelfallbezogene Gefahrensituation gefordert wurden, nur abstrakt-generalisierend, d.h. auf Dauer, getroffen werden müssen, um die allgemeine Gefahr eines Sturzes zu bannen. Damit aber hätten sie den Charakter von Maßnahmen erhalten, die der - unter Betreuung stehenden - Bewohnerin über einen längeren Zeitraum oder regelmäßig die Freiheit entzogen und deshalb der Genehmigung durch das Vormundschaftsgericht bedurft hätten (§ 1906 Abs. 4 BGB).\""
-    }
+    "competency_question": null
   }
 }
