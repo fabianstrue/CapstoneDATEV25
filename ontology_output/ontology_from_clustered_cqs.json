@@ -1,0 +1,1738 @@
+{
+  "Cluster 10": {
+    "competency_questions": [
+      "Wer ist verpflichtet, die Reparaturkosten eines Fahrzeugs zu tragen, wenn der Käufer aufgrund eines Mangels Schadensersatz statt der Leistung verlangt?",
+      "Wie ist der Schadensersatzanspruch des Käufers zu berechnen, wenn der Käufer aufgrund eines Mangels Schadensersatz statt der Leistung verlangt, jedoch die Reparaturkosten nicht trägt?",
+      "Welche Rechtsfolgen treten ein, wenn der Käufer aufgrund eines Mangels Schadensersatz statt der Leistung verlangt und das Fahrzeug in beschädigtem Zustand zurückgibt?",
+      "Wie kann der Besteller die Höhe der geltend gemachten Schäden beweisen, wenn er Schadensersatz wegen Nichterfüllung verlangt?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Garantieanspruch wegen eines Motorschadens geltend gemacht werden kann?",
+      "Welche Rechtsgrundlage gilt für die Berücksichtigung von Umsatzsteuer bei der Schadensersatzleistung für ein Fahrzeug?",
+      "Unter welchen Bedingungen ist die Umsatzsteuer bei der Schadensersatzleistung für ein Fahrzeug zu berücksichtigen?",
+      "Welche Rolle spielt die Art der Umsatzsteuer (Regelsteuer, Differenzsteuer, keine Umsatzsteuer) bei der Schadensersatzleistung für ein Fahrzeug?",
+      "Wie ist der Wiederbeschaffungswert eines Fahrzeugs im Schadensfall zu berechnen, wenn das Sachverständigengutachten lediglich einen Brutto-Wiederbeschaffungswert ausweist?",
+      "Welche Rechte hat der Geschädigte bei der Schadensersatzleistung für ein Fahrzeug, wenn er ein gleichwertiges Ersatzfahrzeug beschafft hat?",
+      "Unter welchen Voraussetzungen kann der Geschädigte den tatsächlich aufgewendeten Betrag für die Beschaffung eines gleichwertigen Ersatzfahrzeugs ersetzt verlangen?",
+      "Wie ist der Schadensersatz im Falle eines wirtschaftlichen Totalschadens eines Fahrzeugs zu berechnen?",
+      "Wie ist die Umsatzsteuer im Rahmen der Schadensersatzleistung für ein Fahrzeug zu behandeln, wenn der Geschädigte ein völlig gleichartiges und gleichwertiges Fahrzeug entweder differenzbesteuert oder von Privat ohne Umsatzsteuer erwirbt?",
+      "Wer trägt die Kosten für eine Reparaturbestätigung, wenn der Geschädigte sein Fahrzeug in Eigenregie repariert?",
+      "Welche Rolle spielt die Bedienung der Maschine durch den Betreiber bei der Haftung für einen Schaden?",
+      "Wer ist verpflichtet, die Maschinen auf mögliche Schäden zu überprüfen, wenn der Leasingnehmer die Maschinen zurückgibt?",
+      "Welche Rechtsgrundlage gilt für die Zurechnung von Schäden an den zurückgegebenen Maschinen auf den Leasinggeber?",
+      "Wer ist verpflichtet, die korrekte Darstellung von Vorschäden eines angeblich entwendeten Kraftfahrzeugs durch den Versicherungsnehmer zu überprüfen?",
+      "Unter welchen Voraussetzungen kann ein Käufer von einem Verkäufer Schadensersatz wegen eines Mangels an der Kaufsache verlangen, wenn der Mangel auf der Einbeziehung älterer Bausubstanz in den Neubau zurückzuführen ist?",
+      "Welche Verkehrssicherungspflichten hat der Betreiber einer Maschine gegenüber betriebsfremden Personen?",
+      "Wie ist die Sorgfaltspflicht des Betreibers gegenüber betriebsfremden Personen einzuschätzen, wenn die Gefährdung für alle Personen in gleichem Maße gilt?",
+      "Welche Bedeutung hat die Realisierung einer zuvor nur als theoretisch anzusehenden Möglichkeit für die Haftung des Betreibers?"
+    ],
+    "ontology": {
+      "classes": [
+        "Käufer",
+        "Mangel",
+        "Schadensersatzanspruch",
+        "Reparaturkosten",
+        "Fahrzeug",
+        "Schaden",
+        "Garantieanspruch",
+        "Umsatzsteuer",
+        "Wiederbeschaffungswert",
+        "Geschädigter",
+        "Ersatzfahrzeug",
+        "Schadenersatzleistung",
+        "Maschine",
+        "Leasingnehmer",
+        "Leasinggeber",
+        "Verkäufer",
+        "Kaufsache",
+        "Betreiber",
+        "betriebsfremde Person"
+      ],
+      "properties": [
+        "verlangt",
+        "tragen",
+        "berechnen",
+        "berücksichtigen",
+        "geltend machen",
+        "erfüllen",
+        "beschaffen",
+        "ersetzen",
+        "reparieren",
+        "überprüfen",
+        "zurechnen",
+        "darstellen",
+        "verlangen",
+        "sichern",
+        "realisieren"
+      ],
+      "relationships": [
+        [
+          "Käufer",
+          "verlangt",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "berechnen",
+          "Reparaturkosten"
+        ],
+        [
+          "Fahrzeug",
+          "tragen",
+          "Reparaturkosten"
+        ],
+        [
+          "Mangel",
+          "geltend machen",
+          "Garantieanspruch"
+        ],
+        [
+          "Garantieanspruch",
+          "erfüllen",
+          "Voraussetzungen"
+        ],
+        [
+          "Schadensersatzleistung",
+          "berücksichtigen",
+          "Umsatzsteuer"
+        ],
+        [
+          "Umsatzsteuer",
+          "berücksichtigen",
+          "Schadensersatzleistung"
+        ],
+        [
+          "Fahrzeug",
+          "beschaffen",
+          "Ersatzfahrzeug"
+        ],
+        [
+          "Ersatzfahrzeug",
+          "ersetzen",
+          "Fahrzeug"
+        ],
+        [
+          "Geschädigter",
+          "reparieren",
+          "Fahrzeug"
+        ],
+        [
+          "Fahrzeug",
+          "reparieren",
+          "Geschädigter"
+        ],
+        [
+          "Maschine",
+          "überprüfen",
+          "Leasingnehmer"
+        ],
+        [
+          "Leasingnehmer",
+          "überprüfen",
+          "Maschine"
+        ],
+        [
+          "Leasinggeber",
+          "zurechnen",
+          "Schaden"
+        ],
+        [
+          "Schaden",
+          "zurechnen",
+          "Leasinggeber"
+        ],
+        [
+          "Verkäufer",
+          "darstellen",
+          "Vorschäden"
+        ],
+        [
+          "Vorschäden",
+          "darstellen",
+          "Verkäufer"
+        ],
+        [
+          "Käufer",
+          "verlangen",
+          "Schadensersatz"
+        ],
+        [
+          "Mangel",
+          "verlangen",
+          "Schadensersatz"
+        ],
+        [
+          "Betreiber",
+          "sichern",
+          "Verkehrssicherungspflichten"
+        ],
+        [
+          "Verkehrssicherungspflichten",
+          "sichern",
+          "Betreiber"
+        ],
+        [
+          "Betreiber",
+          "realisieren",
+          "Möglichkeit"
+        ],
+        [
+          "Möglichkeit",
+          "realisieren",
+          "Betreiber"
+        ]
+      ]
+    }
+  },
+  "Cluster 11": {
+    "competency_questions": [
+      "Welche Rolle spielt die Höhe des Absturzes bei der Beurteilung des Verschuldensgrades bei einem Arbeitsunfall?",
+      "Unter welchen Bedingungen kann eine Bank für Beratungsfehler eines Dritten haften?",
+      "Wie ist der Begriff \"Verschuldenshaftung\" im Rahmen des Deliktsrechts zu verstehen?",
+      "Wie kann ein Kreditinstitut seine Rechte aus einer Sicherungsübereignung geltend machen?",
+      "Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf eine Bank?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein nicht im Pflichtenkreis einer Bank tätiger Dritter für dessen Beratungsfehler haftet?",
+      "Welche Rechtsgrundlage gilt für die Haftung einer Bank bei unterbliebener Aufklärung über eine an die A. AG geflossene Rückvergütung?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Bank wegen einer Beteiligung an einer sittenwidrigen vorsätzlichen Schädigung eines Kunden haften kann?",
+      "Welche Rechtsfolge tritt ein, wenn eine Bank ihre Aufklärungspflichten regarding einer arglistigen Täuschung durch einen Dritten verletzt?",
+      "Welche Rechtsgrundlage gilt für die Haftung einer Bank bei unterbliebener Aufklärung über eine bekannte arglistige Täuschung durch einen Dritten?",
+      "Wie ist der Pachtzins zu berechnen, wenn sich der Zwangsverwalter und die Vollstreckungsschuldnerin nicht auf eine quotenmäßige Verteilung einigen können?",
+      "Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf einen Zwangsverwalter?",
+      "Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf eine Bank, wenn die Bank nicht im Pflichtenkreis des Dritten tätig geworden ist?",
+      "Unter welchen Bedingungen kann ein bereits in Vollzug gesetztes Dauerschuldverhältnis gekündigt werden?",
+      "Welche Rolle spielt das Mitverschulden bei der Schadensersatzverpflichtung?",
+      "Wie kann die Höhe der Minderung des Pachtzinses aufgrund einer Gebrauchsbeeinträchtigung ermittelt werden?",
+      "Wie kann ein Insolvenzverwalter seine gesteigerte Vortragslast nachkommen, wenn er die Einzahlung von Stammeinlagen beweisen muss?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Kunde eine Schadensersatzleistung wegen mangelhafter Beratung durch eine Bank beanspruchen kann?",
+      "Wie kann ein Schuldner davon ausgehen, dass ein Gläubiger von einer Überprüfung der Entgelthöhe Abstand genommen hat?",
+      "Wer ist berechtigt, im Vollstreckungsverfahren ohne Zustimmung des Schuldners nachzuweisen, dass der titulierte Anspruch auch auf einer vorsätzlich begangenen unerlaubten Handlung beruht?",
+      "Welche Rechtsfolge tritt ein, wenn die Gesellschafter die Auflösung und Liquidation der Gesellschaft beschlossen haben und die Schadensersatzleistung zur Befriedigung der Gesellschaftsgläubiger nicht mehr benötigt wird?",
+      "Unter welchen Bedingungen kann eine Bankanweisung wirksam sein?",
+      "Welche Rechte hat eine Gemeinschuldnerin gegenüber einer Bank, wenn das Konto aufgrund einer Überweisung wirksam belastet wurde?",
+      "Wie wird der Zinsanspruch berechnet, wenn der Schuldner im Verzug ist?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Bank einen Darlehensnehmer über das Risiko einer Bauruine informieren muss?",
+      "Wer ist verpflichtet, einen Darlehensnehmer über Risiken zu informieren, und unter welchen Umständen?",
+      "Wie kann eine Bank ihre Aufklärungspflicht gegenüber einem Darlehensnehmer erfüllen?",
+      "Welche Rechtsfolgen hat es, wenn eine Bank ihre Aufklärungspflicht verletzt?",
+      "Welche Rolle spielt die Kenntnis oder Erkennbarkeit einer Fehlvorstellung des Darlehensnehmers für die Aufklärungspflicht der Bank?",
+      "Wie kann die Kausalität zwischen einer Aufklärungspflichtverletzung und dem Schaden des Darlehensnehmers bewiesen werden?",
+      "Wie kann der Schaden des Darlehensnehmers in einem solchen Fall berechnet werden?",
+      "Welche Bedeutung hat die Feststellung des Verschuldens im Zusammenhang mit der Versicherungsleistung?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Unternehmen für Beratungsfehler eines Dritten haftbar gemacht werden kann?",
+      "Welche Rechtsgrundlage gilt für die Zurechnung von Beratungsfehlern eines Dritten auf eine Bank, wenn die Bank keine eigenen Beratungspflichten hat?",
+      "Unter welchen Voraussetzungen ist ein Schuldner verpflichtet, professionellen Rechtsrat einzuholen, bevor er sich zur Hinterlegung entschließt?",
+      "Welche Rolle spielt das Mitverschulden der Versorgungsempfängerin bei der Berechnung des Schadensersatzanspruchs?",
+      "Welche Bedeutung hat die Beteiligung der Gemeinschuldnerin bei einer Einigung über die Forderungszuständigkeit?",
+      "Wie kann eine Anfechtung im Konkursverfahren ausgelöst werden, wenn Beteiligte ein \"Rechtsgeschäft\" oder eine \"Rechtshandlung\" im Sinne der § 30 Nr. 1, § 31 KO durchführen?",
+      "Welche Rechte hat ein Konkursverwalter, wenn eine Drittschuldnerin Zahlungen an den Schuldner leistet, obwohl die Forderung bereits abgetreten wurde?",
+      "Welche Rolle spielt das Einsichtsrecht eines Bürgen in die das Rechtsverhältnis des Gläubigers zum Hauptschuldner betreffenden Urkunden?",
+      "Wie kann ein Anleger nachweisen, dass eine Bank von einer arglistigen Täuschung durch einen Dritten Kenntnis hatte?",
+      "Welche Rechte hat der Gemeinschuldner, wenn die Verjährungsfrist für seine kaufrechtlichen Gewährleistungsansprüche abgelaufen ist?",
+      "Wie kann eine Gesellschaft im Liquidationsstadium Ansprüche gegen einzelne Gesellschafter geltend machen?",
+      "Welche Urkunden können im Sinne von § 810 BGB als das Rechtsverhältnis des Gläubigers zum Hauptschuldner betreffend gelten?",
+      "Welche Rolle spielt die Darlehensvaluta im Rahmen des Rückforderungsdurchgriffs nach § 9 Abs. 2 Satz 4 VerbrKrG?",
+      "Wer ist verpflichtet, Anleger über eine bekannte arglistige Täuschung durch einen Dritten zu informieren?",
+      "Welche Rolle spielt die Rechnungslegung im Rahmen einer Stufenklage?",
+      "Welche Rechtsvorschriften sind auf das Schuldverhältnis anwendbar, wenn die Leistung vor dem 1. Januar 2002 erbracht wurde?",
+      "Welche Rolle spielt der zeitliche Zusammenhang zwischen einer Kapitalerhöhung und der Rückzahlung eines Darlehens bei der Beurteilung einer verdeckten Sacheinlage?",
+      "Welche Rolle spielt der Gesellschaftsvertrag bei der Verpflichtung von Gesellschaftern, Schulden der Gesellschaft zu tilgen?",
+      "Welche Rechtsgrundlage gilt für die Verrechnung von Forderungen zur Erfüllung einer Einlageverbindlichkeit?"
+    ],
+    "ontology": {
+      "classes": [
+        "Arbeitnehmer",
+        "Bank",
+        "Dritter",
+        "Arbeitsunfall",
+        "Verschuldenshaftung",
+        "Sicherungsübereignung",
+        "Beratungsfehler",
+        "Zurechnung",
+        "Haftung",
+        "Aufklärungspflicht",
+        "Schädigung",
+        "Kunde",
+        "Zwangsverwalter",
+        "Pachtzins",
+        "Gebrauchsbeeinträchtigung",
+        "Insolvenzverwalter",
+        "Schadensersatzleistung",
+        "Gläubiger",
+        "Schuldner",
+        "Darlehensnehmer",
+        "Versicherungsleistung",
+        "Versorgungsempfänger",
+        "Anfechtung",
+        "Konkursverwalter",
+        "Bürge",
+        "Anleger",
+        "Gesellschaft",
+        "Rechtsverhältnis",
+        "Schuldverhältnis",
+        "Kapitalerhöhung",
+        "Sacheinlage",
+        "Gesellschafter",
+        "Einlageverbindlichkeit"
+      ],
+      "properties": [
+        "beinhaltet",
+        "basiert auf",
+        "verursacht",
+        "hatMindestAnspruchAuf",
+        "istVerantwortlichFür",
+        "kannHaftenFür",
+        "hatVerpflichtung",
+        "kannBeanspruchen",
+        "kannGeltendMachen",
+        "kannBewirken",
+        "kannNachweisen",
+        "kannGeltendMachen",
+        "kannVerrechnen"
+      ],
+      "relationships": [
+        [
+          "Arbeitsunfall",
+          "verursacht",
+          "Verschuldenshaftung"
+        ],
+        [
+          "Bank",
+          "kannHaftenFür",
+          "Beratungsfehler"
+        ],
+        [
+          "Dritter",
+          "istVerantwortlichFür",
+          "Beratungsfehler"
+        ],
+        [
+          "Sicherungsübereignung",
+          "kannGeltendMachen",
+          "Bank"
+        ],
+        [
+          "Zurechnung",
+          "basiert auf",
+          "Beratungsfehler"
+        ],
+        [
+          "Haftung",
+          "beinhaltet",
+          "Schädigung"
+        ],
+        [
+          "Kunde",
+          "kannBeanspruchen",
+          "Schadensersatzleistung"
+        ],
+        [
+          "Zwangsverwalter",
+          "kannGeltendMachen",
+          "Pachtzins"
+        ],
+        [
+          "Gebrauchsbeeinträchtigung",
+          "kannBewirken",
+          "Minderung"
+        ],
+        [
+          "Insolvenzverwalter",
+          "hatVerpflichtung",
+          "Vortragslast"
+        ],
+        [
+          "Schuldner",
+          "kannGeltendMachen",
+          "Rechte"
+        ],
+        [
+          "Darlehensnehmer",
+          "kannBeanspruchen",
+          "Aufklärung"
+        ],
+        [
+          "Bank",
+          "hatVerpflichtung",
+          "Aufklärung"
+        ],
+        [
+          "Schädigung",
+          "kannHaftenFür",
+          "Bank"
+        ],
+        [
+          "Anleger",
+          "kannNachweisen",
+          "Kenntnis"
+        ],
+        [
+          "Gesellschaft",
+          "kannGeltendMachen",
+          "Ansprüche"
+        ],
+        [
+          "Rechtsverhältnis",
+          "betreffend",
+          "Urkunden"
+        ],
+        [
+          "Schuldverhältnis",
+          "istAnwendbar",
+          "Rechtsvorschriften"
+        ],
+        [
+          "Kapitalerhöhung",
+          "hatZusammenhang",
+          "Rückzahlung"
+        ],
+        [
+          "Gesellschafter",
+          "hatVerpflichtung",
+          "Schulden"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "kannVerrechnen",
+          "Forderungen"
+        ]
+      ]
+    }
+  },
+  "Cluster 12": {
+    "competency_questions": [
+      "Wie kann eine Verpflichtung des Frachtführers zur Verladung des Transportgutes auch ohne ausdrückliche Vereinbarung entstehen?",
+      "Welche Rolle spielt die Absicht des Luftfahrtunternehmens bei der Feststellung einer Annullierung?",
+      "Welche Auswirkungen hat die Aufhebung einer Vorschrift, die einen obligatorischen Schlichtungsversuch vorsah, auf die Anwendung dieser Vorschrift in der Zukunft?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Widerrufsrecht wirksam ausgeübt werden kann?",
+      "Welche Rolle spielt die Widerrufsbelehrung bei der Ausübung eines vertraglich eingeräumten Widerrufsrechts?",
+      "Welche Rechtsfolgen treten ein, wenn die Widerrufsbelehrung nicht den Anforderungen an eine Belehrung über ein gesetzliches Widerrufsrecht entspricht, aber ein vertragliches Widerrufsrecht eingeräumt wurde?",
+      "Welche Bedeutung hat die Bezugnahme auf gesetzliche Bestimmungen in einer Widerrufsbelehrung, die ein vertragliches Widerrufsrecht enthält?",
+      "Welche Bedeutung hat der Verzicht auf ein vorzeitiges Erlöschen des Widerrufsrechts nach den gesetzlichen Bestimmungen in einer Widerrufsbelehrung, die ein vertragliches Widerrufsrecht enthält?",
+      "Wer hat das Recht, einen Fernabsatzvertrag widerrufen?",
+      "Wie lange dauert die Widerrufsfrist bei einem Fernabsatzvertrag?",
+      "Welche Rechtsgrundlage gilt für den Widerruf eines Fernabsatzvertrags?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Auflassung gültig ist?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Pflichtteilsanspruch abgetreten werden kann?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Annullierung eines Flugs im Sinne der Verordnung vorliegt?",
+      "Wie kann ein Luftfahrtunternehmen eine Annullierung vermeiden, wenn es einen technischen Mangel erkennt?",
+      "Welche Bedingungen müssen erfüllt sein, damit die Verjährung der Ansprüche des Klägers gehemmt wird?",
+      "Wer ist verpflichtet, die Beendigung eines Untermietverhältnisses herbeizuführen, wenn die Erlaubnis zur Untervermietung widerrufen wurde?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Zwangsverwalter Pachtzinsansprüche geltend machen kann, die innerhalb eines Jahres vor der Anordnung der Zwangsverwaltung fällig wurden?",
+      "Welche Maßnahmen können als Vorbereitungsmaßnahmen für künftige beeinträchtigende Maßnahmen der Dienstaufsicht im Sinne des § 26 Abs. 3 DRiG angesehen werden?",
+      "Welche Rechtsnatur hat ein Prozessvergleich und wie wirkt sich dies auf die Bestimmung des Widerrufsadressaten aus?",
+      "Welche Rechtsfolgen hat die unwirksame Vereinbarung eines Kündigungsausschlusses?",
+      "Welche Bedingungen müssen erfüllt sein, damit die Beklagte die ZVK-L ohne Zustimmung des Klägers ändern kann?"
+    ],
+    "ontology": {
+      "classes": [
+        "Verpflichtung",
+        "Frachtführer",
+        "Transportgut",
+        "Vereinbarung",
+        "Absicht",
+        "Luftfahrtunternehmen",
+        "Annullierung",
+        "Widerrufsrecht",
+        "Widerrufsbelehrung",
+        "Rechtsfolge",
+        "Fernabsatzvertrag",
+        "Auflassung",
+        "Pflichtteilsanspruch",
+        "Flug",
+        "Verjährung",
+        "Untermietverhältnis",
+        "Zwangsverwalter",
+        "Pachtzinsanspruch",
+        "Prozessvergleich",
+        "Kündigungsausschluss",
+        "ZVK-L"
+      ],
+      "properties": [
+        "entsteht",
+        "spielt",
+        "hatAuswirkung",
+        "mussErfülltSein",
+        "hatBedeutung",
+        "hatRechtsfolge",
+        "gilt",
+        "istGültig",
+        "kannAbgetretenSein",
+        "wirdGehemmt",
+        "kannVermeiden",
+        "mussHerbeigeführtSein",
+        "kannGeltendMachen",
+        "könnenAlsVorbereitungsmaßnahmenAngesehenSein",
+        "hatRechtsnatur",
+        "hatUnwirksameVereinbarung",
+        "mussErfülltSein"
+      ],
+      "relationships": [
+        [
+          "Verpflichtung",
+          "entsteht",
+          "Frachtführer"
+        ],
+        [
+          "Absicht",
+          "spielt",
+          "Annullierung"
+        ],
+        [
+          "Auflassung",
+          "istGültig",
+          "mussErfülltSein"
+        ],
+        [
+          "Widerrufsrecht",
+          "mussErfülltSein",
+          "Widerrufsbelehrung"
+        ],
+        [
+          "Widerrufsbelehrung",
+          "hatBedeutung",
+          "Rechtsfolge"
+        ],
+        [
+          "Fernabsatzvertrag",
+          "hatRechtsfolge",
+          "Widerrufsrecht"
+        ],
+        [
+          "Pflichtteilsanspruch",
+          "kannAbgetretenSein",
+          "mussErfülltSein"
+        ],
+        [
+          "Flug",
+          "kannVermeiden",
+          "Annullierung"
+        ],
+        [
+          "Verjährung",
+          "wirdGehemmt",
+          "mussErfülltSein"
+        ],
+        [
+          "Untermietverhältnis",
+          "mussHerbeigeführtSein",
+          "mussErfülltSein"
+        ],
+        [
+          "Zwangsverwalter",
+          "kannGeltendMachen",
+          "Pachtzinsanspruch"
+        ],
+        [
+          "Prozessvergleich",
+          "hatRechtsnatur",
+          "mussErfülltSein"
+        ],
+        [
+          "Kündigungsausschluss",
+          "hatUnwirksameVereinbarung",
+          "mussErfülltSein"
+        ],
+        [
+          "ZVK-L",
+          "mussErfülltSein",
+          "mussErfülltSein"
+        ]
+      ]
+    }
+  },
+  "Cluster 13": {
+    "competency_questions": [
+      "Wie kann ein Vertragsschluss zwischen einem Versender und einem Frachtführer trotz unklarer Wertangaben der Sendung zustande kommen?",
+      "Wie kann eine dingliche Einigung bei einer Schenkung erfolgen, ohne dass die Beteiligten das Abstraktionsprinzip kennen?",
+      "Wie kann der Wille der Vertragsparteien bei einem Erbverzicht ermittelt werden, wenn § 2350 BGB nicht zur Anwendung kommt?",
+      "Wie kann eine Partei beweisen, dass eine Klausel in einem Vertrag individuell ausgehandelt wurde, um die Anwendung des AGBG zu vermeiden?",
+      "Wer ist verpflichtet, die Anwendung des AGBG auf einen Vertrag zu überprüfen, wenn dieser vor Inkrafttreten des AGBG geschlossen wurde?",
+      "Wie kann ein Gericht feststellen, ob eine Klausel in einem Vertrag gegen wesentliche Grundgedanken der gesetzlichen Regelung verstößt und somit unwirksam ist?",
+      "Welche Bedeutung hat die Eigenhaftung des Vertreters im Vertragsschluss und wann greift sie?",
+      "Welche Rolle spielt die Schriftform bei der Geltung eines Pachtvertrags?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Klausel in einem Vertrag als Eingriff in die VOB/B als Ganzes angesehen wird?",
+      "Welche Rolle spielt die nach dem Vertrag vorausgesetzte Verwendung bei der Beurteilung der vereinbarten Beschaffenheit eines Werkes? (Berücksichtigen Sie § 633 Abs. 2 Satz 1 Nr. 2 BGB)",
+      "Wie ist zu beurteilen, ob ein Werk seine vereinbarte oder nach dem Vertrag vorausgesetzte Funktion erfüllt hat? (Berücksichtigen Sie die Rechtsprechung des Bundesgerichtshofs)",
+      "Welche Bedeutung hat der Parteiwille bei der Frage der Beschaffenheitsvereinbarung im Werkvertragsrecht? (Berücksichtigen Sie das Gesetzgebungsverfahren zur Modernisierung des Schuldrechts)",
+      "Wie wird entschieden, ob eine Klausel in einem Vertrag eine wirksame vertragliche Regelung darstellt oder dispositives Gesetzesrecht zur Anwendung kommt?",
+      "Welche Bedeutung hat die Fortentwicklung der Technik für die Beibehaltung eines vertraglich vorgegebenen Zustands?",
+      "Welche Rolle spielt die Regelung in § 5 Abs. 4 des Gesellschaftsvertrages im Vergleich zu § 8 Abs. 3?",
+      "Wer kann nach § 4 HOAI ein Honorar beanspruchen, das nach Mindestsätzen berechnet ist?",
+      "Welche Bedeutung hat die Praxis der Parteien bei der Auslegung von Verträgen und der Bestimmung der Verpflichtungen der Vertragsparteien?",
+      "Welche Auswirkungen hat es, wenn eine Partei in einem Vertrag nicht die ihr obliegenden Verpflichtungen erfüllt?",
+      "Welche Rechtsfolgen treten ein, wenn eine Partei ohne berechtigten Grund ihre vertraglichen Verpflichtungen nicht erfüllt?",
+      "Welche Bedeutung hat die Art der zu befördernden Güter bei der Bestimmung der Verpflichtungen der Vertragsparteien im Rahmen eines Frachtvertrags?",
+      "Wie kann eine Partei ihre Verpflichtungen im Rahmen eines Vertrages nachweisen?",
+      "Welche Rolle spielt die Kommunikation und das Einvernehmen zwischen den Vertragsparteien bei der Bestimmung der Verpflichtungen im Rahmen eines Vertrages?",
+      "Wie kann die Verjährung eines Erfüllungsanspruchs gehemmt werden, und welche Rolle spielen Verhandlungen dabei?",
+      "Welche Bedeutung hat die Bereitschaft des Verpflichteten, sich auf Verhandlungen einzulassen, für die Hemmung der Verjährung?",
+      "Welche Rechtsfolge tritt ein, wenn eine Partei ohne rechtfertigenden Grund von einem Vertrag zurücktritt?",
+      "Warum kann eine Partei von einem Vertrag nicht mehr zurücktreten, wenn die andere Partei die Leistung bereits erbracht hat?",
+      "Was gilt als unerlaubte Handlung im Sinne des Luganer Übereinkommens?",
+      "Wie ist der enge zeitliche Zusammenhang zwischen der mündlichen Verhandlung in einer Haustürsituation und der Vertragserklärung nach § 1 Abs. 1 HWiG zu interpretieren?",
+      "Welche Bedeutung hat die notarielle Beurkundung eines Vertrages für die Anwendbarkeit des Widerrufsrechts nach § 1 HWiG?",
+      "Welche Rolle spielt die Schriftform bei der Vereinbarung eines Vertrages nach § 126 BGB?",
+      "Welche Rechtsfolge tritt ein, wenn eine Partei eine Vereinbarung nach § 134 BGB nicht einhält?",
+      "Warum kann eine Vereinbarung nach § 226 BGB nichtig sein?",
+      "Welche Rechtsfolge tritt ein, wenn eine Partei ohne wichtigen Grund von einem Vertrag nach § 314 BGB zurücktritt?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Partei von einem Vertrag nach § 323 BGB zurücktreten kann?",
+      "Welche Bedeutung hat die Schriftform bei der Vereinbarung von bestimmten Verträgen?",
+      "Welche Rolle spielt die vertragliche Regelung in Ziffer 24 des Pachtvertrages für die Anwendung des § 539 BGB a.F.?",
+      "Unter welchen Bedingungen kann ein Vertrag nach § 138 BGB nichtig erklärt werden?",
+      "Welche Bedeutung hat die gute Sittenordnung nach § 138 BGB für die Wirksamkeit eines Vertrages?",
+      "Welche Bedeutung hat die Geschäftsfähigkeit nach § 104 BGB für die Wirksamkeit eines Vertrages?",
+      "Wie ist die Bedeutung des Toleranzrahmens bei der vereinbarten Bausumme zu verstehen?",
+      "Wer ist verpflichtet, den Nachweis einer Vertragsüberschreitung zu erbringen, wenn es um einen Schadensersatzanspruch nach § 826 BGB geht?",
+      "Welche Rechtsfolge tritt ein, wenn eine Partei einen Vertrag nach § 138 BGB anfechten möchte?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Partei von ihrem Widerrufsrecht nach § 312g BGB Gebrauch machen kann?",
+      "Welche Bedeutung haben außerhalb des Vertragstextes liegende Umstände bei der Auslegung des Gesellschaftsvertrags?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein kombinierter Fracht-/Lagervertrag geschlossen wird?",
+      "Welche Rolle spielt die genaue Bezeichnung eines Vertragsangebots bei der Vertragsauslegung?",
+      "Welche Bedeutung hat die Zusammenarbeit der Vertragsparteien bei der Vertragsauslegung?",
+      "Welche Bedeutung hat die Identifizierung der Allgemeinen Geschäftsbedingungen für ihre Einbeziehung in den Vertrag?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Honorarvereinbarung nach § 4 Abs. 1 HOAI wirksam ist?",
+      "Wer ist verpflichtet, die Honorarvereinbarung schriftlich bei Auftragserteilung zu treffen, um die Mindestsätze der HOAI zu vermeiden?",
+      "Wie ist der Begriff \"Auftragserteilung\" im Sinne des § 4 Abs. 1 HOAI zu interpretieren, wenn die gesamte Vereinbarung unter einer Bedingung steht?",
+      "Welche Rolle spielt der Wille der Parteien bei der Interpretation einer Honorarvereinbarung, die unter einer Bedingung steht?",
+      "Warum kann eine Honorarvereinbarung nach § 4 Abs. 4 HOAI Anwendung finden, wenn sie nicht schriftlich bei Auftragserteilung geschlossen wurde?",
+      "Welche Bedeutung hat die Abweichung von der ursprünglichen Planung bei der Interpretation einer Honorarvereinbarung?",
+      "Wie ist der Begriff \"Bauvorhaben\" im Zusammenhang mit der Bedingung für eine Honorarvereinbarung zu verstehen?",
+      "Welche Auswirkungen hat die Nicht-Eintreten der Bedingung für eine Honorarvereinbarung auf die Parteien?",
+      "Welche Bedeutung hat die Schriftform bei der Vereinbarung von Honoraren im Zusammenhang mit § 4 HOAI?",
+      "Wie kann ein Makler einen potentiellen Vertragspartner mit vollständigem Namen und Anschrift zur Kenntnis bringen, um einen Nachweis im Sinne des § 652 Abs. 1 Satz 1 BGB zu erbringen?",
+      "Welche Informationen müssen in einer Objektliste enthalten sein, damit sie als ausreichend konkreter Hinweis auf eine Vertragsgelegenheit angesehen werden kann?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Vertrag wegen Geschäftsunfähigkeit einer Partei nichtig ist?",
+      "Wer kann die Nichtigkeit eines Vertrages aufgrund von Geschäftsunfähigkeit einer Partei rügen?",
+      "Unter welchen Bedingungen kann ein Vertragsteil von einem Vertrag zurücktreten, wenn die andere Partei ihre Pflichten nicht erfüllt?",
+      "Welche Rolle spielt der Wille der Vertragsparteien bei der Bestätigung eines Vertrages nach § 141 BGB?",
+      "Welche Bedeutung hat die Kenntnis oder Zweifel an der Rechtsbeständigkeit eines Vertrages für die Bestätigung nach § 141 BGB?",
+      "Welche Bedeutung hat das Vorliegen von Geschäftsunfähigkeit bei der Frage der Vertragsaufhebung oder -änderung?",
+      "Wer ist verpflichtet, den Differenzschaden zu ersetzen, wenn eine Täuschungshandlung den Abschluss eines Vertrages beeinflusst hat?",
+      "Welche Rechtsfolge tritt ein, wenn eine Partei die obligatorische Streitschlichtung nicht durchführt?",
+      "Wer ist verpflichtet, den Inhalt eines Informationsschreibens bezüglich einer Veränderungssperre zu kennen, um einen Vertrag abzuschließen?",
+      "Welche Rolle spielt die Zeit zwischen dem Erstnachweis durch den Makler und dem Vertragsschluss für die Geltendmachung eines Provisionsanspruchs?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Vertragspartner eine einvernehmliche Vertragsaufhebung geltend machen kann?",
+      "Welche Rolle spielt der Abfindungsvertrag bei der Interpretation des Änderungsvertrags?",
+      "Welche Bedeutung hat die Präambel des Änderungsvertrags für die Interpretation der Vertragsinhalte?",
+      "Wer ist verpflichtet, den Vertragspartner über Änderungen seiner rechtlichen Verhältnisse und der Anschrift zu informieren?",
+      "Wie ist zu entscheiden, ob eine Vertragsänderung oder eine Novation des Schuldverhältnisses vorliegt?",
+      "Welche Rolle spielt die Zusatzvereinbarung bei der Kündigung eines Partnerschaftsvermittlungsvertrages?",
+      "Welche Bedeutung hat die Auslegung eines Vertrages für die Entscheidung über eine Hinterlegung nach § 372 BGB?",
+      "Was gilt als Verhandeln im Sinne des § 852 Abs. 2 BGB a. F.?",
+      "Wie ist die Auslegung einer Vertragserklärung zu erfolgen, die ein Widerrufsrecht enthält, das nicht auf gesetzlichen Voraussetzungen basiert?",
+      "Welche Bedeutung hat der Vertragszweck und die Interessenlage der Parteien bei der Bestimmung der Gegenleistung im Rahmen eines Werkvertrags nach § 631 BGB?",
+      "Welche Rolle spielt das Vorhandensein eines Maklervertrags für die Geltendmachung eines Provisionsanspruchs?",
+      "Welche Rolle spielt die Gründung einer Gesellschaft für die Gültigkeit einer Vertragsübernahme?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Vertragspartner eine fristlose Kündigung wegen eines wichtigen Grundes aussprechen kann?",
+      "Welche Rechtsfolge tritt ein, wenn die VOB/B nicht als Ganzes vereinbart ist?",
+      "Wer ist verpflichtet, die vereinbarte Beschaffenheit eines Werkes sicherzustellen? (Berücksichtigen Sie § 633 Abs. 1 BGB)",
+      "Wie ist die vereinbarte Beschaffenheit eines Werkes im Sinne des § 633 Abs. 2 Satz 1 BGB zu interpretieren? (Berücksichtigen Sie die Rechtsprechung des Bundesgerichtshofs)",
+      "Unter welchen Umständen kann eine vertragliche Abbedingung des § 539 BGB a.F. wirksam sein?",
+      "Wie kann eine Klausel im Pachtvertrag die Anwendung des § 539 BGB a.F. verhindern?",
+      "Welche Rechtsfolgen hat die beabsichtigte Rechtsverfolgung, wenn sie unter die Leistungsart \"Vertragsrecht\" im Sinne des § 2 d) der ARB fällt?",
+      "Welche Rechtsfolgen hat eine unwirksame Kündigung eines Partnerschaftsvermittlungsvertrages?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Gasliefervertrag als Tarifkundenvertrag (jetzt: Grundversorgungsvertrag) eingeordnet wird?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Vertragspartner den anderen zur Annahme und Verwertung von Abfällen verpflichten kann?",
+      "Welche Maßnahmen gelten als Dienstaufsichtsmaßnahmen im Sinne des § 26 Abs. 3 DRiG?",
+      "Unter welchen Umständen kann ein Parteiwechsel nach § 44 Abs. 1 WEG nachgeholt werden, wenn die Fristen des § 46 Abs. 1 Satz 2 WEG wahrt werden müssen?",
+      "Wie ist der Unterschied zwischen einer Vertragsstrafe und einer Verbandsstrafe nach § 12 der Satzung?",
+      "Welche Bedeutung hat der Begriff \"bewußtes Miteinander im Arbeitsablauf\" im Zusammenhang mit § 106 Abs. 3 3. Alternative SGB VII?",
+      "Wie kann der Kondiktionsausschluß des § 814 BGB im Zusammenhang mit der Rückforderung von Zahlungen für unwirksame Wahlleistungen geprüft werden?",
+      "Wer ist verpflichtet, die Kosten für eine notwendige Rechtsberatung zu tragen, wenn der Mandant nicht Vertragspartner ist?",
+      "Welche Rolle spielt die Einigkeit der Parteien bei der Änderung des Leistungsumfangs in einem Pauschalpreisvertrag?",
+      "Welche Bedeutung hat die ungekürzte Weiterzahlung des Pachtzinses für das Vertrauen der Vertragsparteien?",
+      "Wie beeinflusst die Geltung des alten oder neuen Verjährungsrechts die Verjährung von Ansprüchen aus einem vor dem 1. Januar 2002 begründeten Schuldverhältnis?",
+      "Welche Bedingungen müssen erfüllt sein, damit die ADSp auf einen Seefrachtvertrag angewendet werden können?",
+      "Welche Rolle spielt die Vertragsfreiheit im Zusammenhang mit der Anwendbarkeit der ADSp auf Seefrachtverträge?",
+      "Welche Anforderungen müssen an das Protokoll der mündlichen Verhandlung gestellt werden, um die Revisionszulassung zu belegen?",
+      "Wie ist der Anpassungsvorbehalt in der \"Einheitlichen Erklärung der Vorstände\" auszulegen, insbesondere im Hinblick auf den Fortbestand der Versorgungszusage für Beschäftigte, die in den Banktarif wechseln?",
+      "Wer ist befugt, über Satzungsänderungen der ZVK-L zu beschließen, und unter welchen Bedingungen ist eine solche Änderung zulässig?",
+      "Welche Rechtsgrundlage gilt für die actio pro socio?",
+      "Welche Rolle spielt das Schriftformerfordernis bei einer Kündigung im Rahmen eines VOB/B-Vertrags?",
+      "Was gilt als Kündigung im Rahmen eines VOB/B-Vertrags, wenn das Schriftformerfordernis nicht eingehalten wird?",
+      "Wie kann das Vertrauen des Klägers in die Fortbeständigkeit seiner Vertragspartnerin gestärkt werden?",
+      "Welche Bedeutung hat die Inhaltskontrolle nach §§ 305 ff. BGB für Allgemeine Geschäftsbedingungen in Partnerschaftsvermittlungsverträgen?",
+      "Welche Verantwortung hat ein Schuldner, wenn er nicht in der Lage ist, die rechtlichen Beziehungen zwischen verschiedenen Parteien zu durchschauen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vertragsschluss",
+        "Versender",
+        "Frachtführer",
+        "Sendung",
+        "Wertangaben",
+        "dingliche Einigung",
+        "Schenkung",
+        "Abstraktionsprinzip",
+        "Erbverzicht",
+        "Willen",
+        "Partei",
+        "Klausel",
+        "AGBG",
+        "Gesetz",
+        "Recht",
+        "Vertreter",
+        "Vertragspartei",
+        "Eigenhaftung",
+        "Schriftform",
+        "Pachtvertrag",
+        "VOB/B",
+        "Verwendung",
+        "Beschaffenheit",
+        "Werk",
+        "Gesetzesrecht",
+        "dispositives Recht",
+        "Fortentwicklung",
+        "Technik",
+        "Zustand",
+        "Gesellschaftsvertrag",
+        "Honorar",
+        "HOAI",
+        "Verhandlungen",
+        "Verjährung",
+        "Verpflichtungen",
+        "Vertragspartner",
+        "Rücktritt",
+        "unerlaubte Handlung",
+        "Luganer Übereinkommen",
+        "Haustürsituation",
+        "mündliche Verhandlung",
+        "Widerrufsrecht",
+        "notarielle Beurkundung",
+        "Schriftlichkeit",
+        "Vereinbarung",
+        "vertragliche Regelung",
+        "Pachtvertrag",
+        "§ 539 BGB a.F.",
+        "Geschäftsfähigkeit",
+        "Toleranzrahmen",
+        "Schadensersatzanspruch",
+        "§ 826 BGB",
+        "Anfechtung",
+        "Widerrufsrecht",
+        "§ 312g BGB",
+        "Umstände",
+        "Geschäftsbedingungen",
+        "Honorarvereinbarung",
+        "HOAI",
+        "Auftragserteilung",
+        "Bedingung",
+        "Willen",
+        "Planung",
+        "Bauvorhaben",
+        "Bedingung",
+        "Schriftform",
+        "Makler",
+        "Vertragspartner",
+        "Objektliste",
+        "Geschäftsunfähigkeit",
+        "Vertrag",
+        "Pflichten",
+        "Willen",
+        "Vertragsbestätigung",
+        "Rechtsbeständigkeit",
+        "Geschäftsunfähigkeit",
+        "Täuschungshandlung",
+        "Streitschlichtung",
+        "Informationsschreiben",
+        "Zeitraum",
+        "Vertragsaufhebung",
+        "Abfindungsvertrag",
+        "Präambel",
+        "Änderungsvertrag",
+        "Veränderungssperre",
+        "Vertragsänderung",
+        "Novation",
+        "Zusatzvereinbarung",
+        "Hinterlegung",
+        "Verhandeln",
+        "Vertragserklärung",
+        "Widerrufsrecht",
+        "Vertragszweck",
+        "Interessenlage",
+        "Gegenleistung",
+        "Maklervertrag",
+        "Vertragsübernahme",
+        "Gesellschaft",
+        "Kündigung",
+        "wichtiger Grund",
+        "VOB/B",
+        "Beschaffenheit",
+        "Werkvertrag",
+        "§ 631 BGB",
+        "Maklervertrag",
+        "Gültigkeit",
+        "Vertragsübernahme",
+        "Kündigung",
+        "wichtiger Grund",
+        "VOB/B",
+        "Beschaffenheit",
+        "Werkvertrag",
+        "§ 633 Abs. 1 BGB",
+        "§ 633 Abs. 2 Satz 1 BGB",
+        "Bundesgerichtshof",
+        "Abbedingung",
+        "§ 539 BGB a.F.",
+        "Pachtvertrag",
+        "§ 2 d) ARB",
+        "Kündigung",
+        "Partnerschaftsvermittlungsvertrag",
+        "Gasliefervertrag",
+        "Tarifkundenvertrag",
+        "Grundversorgungsvertrag",
+        "Abfall",
+        "Dienstaufsichtsmaßnahmen",
+        "§ 26 Abs. 3 DRiG",
+        "Parteiwechsel",
+        "§ 44 Abs. 1 WEG",
+        "§ 46 Abs. 1 Satz 2 WEG",
+        "Vertragsstrafe",
+        "Verbandsstrafe",
+        "§ 12 der Satzung",
+        "bewußtes Miteinander im Arbeitsablauf",
+        "§ 106 Abs. 3 3. Alternative SGB VII",
+        "Kondiktionsausschluß",
+        "§ 814 BGB",
+        "Rechtsberatung",
+        "Pauschalpreisvertrag",
+        "Pachtzins",
+        "Verjährungsrecht",
+        "ADSp",
+        "Seefrachtvertrag",
+        "Vertragsfreiheit",
+        "Protokoll",
+        "Revisionszulassung",
+        "Anpassungsvorbehalt",
+        "Einheitliche Erklärung der Vorstände",
+        "Versorgungszusage",
+        "Banktarif",
+        "Satzungsänderungen",
+        "ZVK-L",
+        "actio pro socio",
+        "Kündigung",
+        "VOB/B-Vertrag",
+        "Schriftformerfordernis",
+        "Kündigung",
+        "Vertrauen",
+        "Kläger",
+        "Vertragspartnerin",
+        "Inhaltskontrolle",
+        "Allgemeine Geschäftsbedingungen",
+        "Partnerschaftsvermittlungsverträge",
+        "Schuldner",
+        "rechtlichen Beziehungen",
+        "Parteien"
+      ],
+      "properties": [
+        "beinhaltet",
+        "basiert auf",
+        "beeinflusst",
+        "verhindert",
+        "ermitteln",
+        "beweisen",
+        "überprüfen",
+        "verstoßen",
+        "greift",
+        "spielt",
+        "erfüllen",
+        "bedeutet",
+        "erklären",
+        "anwenden",
+        "entscheiden",
+        "voraussetzen",
+        "erbringen",
+        "beachten",
+        "bestimmen",
+        "auslegen",
+        "identifizieren",
+        "einbeziehen",
+        "treffen",
+        "interpretieren",
+        "verhindern",
+        "eintreten",
+        "betreffen",
+        "kennen",
+        "wahren",
+        "prüfen",
+        "angewendet",
+        "beeinflussen",
+        "geltend machen",
+        "beeinflussen",
+        "stärken",
+        "gilt",
+        "verantworten",
+        "beschließen",
+        "zulassen",
+        "gilt",
+        "gestärkt",
+        "kontrollieren",
+        "verantworten",
+        "durchschauen"
+      ],
+      "relationships": [
+        [
+          "Vertragsschluss",
+          "beinhaltet",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsschluss"
+        ],
+        [
+          "Vertrag",
+          "basiert auf",
+          "Vertragsschluss"
+        ],
+        [
+          "Vertrag",
+          "beeinflusst",
+          "Vertragsschluss"
+        ],
+        [
+          "Vertragsschluss",
+          "verhindert",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "ermitteln",
+          "Willen"
+        ],
+        [
+          "Partei",
+          "beweisen",
+          "Klausel"
+        ],
+        [
+          "AGBG",
+          "überprüfen",
+          "Partei"
+        ],
+        [
+          "Klausel",
+          "verstoßen",
+          "wesentliche Grundgedanken"
+        ],
+        [
+          "Eigenhaftung",
+          "greift",
+          "Vertreter"
+        ],
+        [
+          "Schriftform",
+          "spielt",
+          "Geltung"
+        ],
+        [
+          "Pachtvertrag",
+          "erfüllen",
+          "Beschaffenheit"
+        ],
+        [
+          "Beschaffenheit",
+          "bedeutet",
+          "Pachtvertrag"
+        ],
+        [
+          "Fortentwicklung",
+          "beeinflussen",
+          "Technik"
+        ],
+        [
+          "Technik",
+          "beeinflussen",
+          "Fortentwicklung"
+        ],
+        [
+          "Zustand",
+          "bedeutet",
+          "Vertrag"
+        ],
+        [
+          "Gesellschaftsvertrag",
+          "entscheiden",
+          "Honorar"
+        ],
+        [
+          "Honorar",
+          "entscheiden",
+          "Gesellschaftsvertrag"
+        ],
+        [
+          "HOAI",
+          "anwenden",
+          "Honorar"
+        ],
+        [
+          "Honorar",
+          "anwenden",
+          "HOAI"
+        ],
+        [
+          "Verhandlungen",
+          "hemmen",
+          "Verjährung"
+        ],
+        [
+          "Verjährung",
+          "hemmen",
+          "Verhandlungen"
+        ],
+        [
+          "Rücktritt",
+          "eintreten",
+          "Partei"
+        ],
+        [
+          "Leistung",
+          "beeinflussen",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "beeinflussen",
+          "Leistung"
+        ],
+        [
+          "Widerrufsrecht",
+          "beachten",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "beachten",
+          "Widerrufsrecht"
+        ],
+        [
+          "notarielle Beurkundung",
+          "bestimmen",
+          "Widerrufsrecht"
+        ],
+        [
+          "Widerrufsrecht",
+          "bestimmen",
+          "notarielle Beurkundung"
+        ],
+        [
+          "Schriftlichkeit",
+          "bestimmen",
+          "Vereinbarung"
+        ],
+        [
+          "Vereinbarung",
+          "bestimmen",
+          "Schriftlichkeit"
+        ],
+        [
+          "vertragliche Regelung",
+          "identifizieren",
+          "Allgemeine Geschäftsbedingungen"
+        ],
+        [
+          "Allgemeine Geschäftsbedingungen",
+          "identifizieren",
+          "vertragliche Regelung"
+        ],
+        [
+          "Honorarvereinbarung",
+          "treffen",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "treffen",
+          "Honorarvereinbarung"
+        ],
+        [
+          "Bedingung",
+          "interpretieren",
+          "Willen"
+        ],
+        [
+          "Willen",
+          "interpretieren",
+          "Bedingung"
+        ],
+        [
+          "Planung",
+          "beeinflussen",
+          "Honorarvereinbarung"
+        ],
+        [
+          "Honorarvereinbarung",
+          "beeinflussen",
+          "Planung"
+        ],
+        [
+          "Bauvorhaben",
+          "bedeuten",
+          "Bedingung"
+        ],
+        [
+          "Bedingung",
+          "bedeuten",
+          "Bauvorhaben"
+        ],
+        [
+          "Schriftform",
+          "verhindern",
+          "Honorare"
+        ],
+        [
+          "Honorare",
+          "verhindern",
+          "Schriftform"
+        ],
+        [
+          "Makler",
+          "kennen",
+          "Vertragspartner"
+        ],
+        [
+          "Vertragspartner",
+          "kennen",
+          "Makler"
+        ],
+        [
+          "Objektliste",
+          "beachten",
+          "Vertragspartner"
+        ],
+        [
+          "Vertragspartner",
+          "beachten",
+          "Objektliste"
+        ],
+        [
+          "Geschäftsunfähigkeit",
+          "erklären",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "erklären",
+          "Geschäftsunfähigkeit"
+        ],
+        [
+          "Vertrag",
+          "beeinflussen",
+          "Pflichten"
+        ],
+        [
+          "Pflichten",
+          "beeinflussen",
+          "Vertrag"
+        ],
+        [
+          "Willen",
+          "bestätigen",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "bestätigen",
+          "Willen"
+        ],
+        [
+          "Rechtsbeständigkeit",
+          "kennen",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "kennen",
+          "Rechtsbeständigkeit"
+        ],
+        [
+          "Geschäftsunfähigkeit",
+          "beeinflussen",
+          "Vertragsaufhebung"
+        ],
+        [
+          "Vertragsaufhebung",
+          "beeinflussen",
+          "Geschäftsunfähigkeit"
+        ],
+        [
+          "Täuschungshandlung",
+          "beeinflussen",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "beeinflussen",
+          "Täuschungshandlung"
+        ],
+        [
+          "Streitschlichtung",
+          "verhindern",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "verhindern",
+          "Streitschlichtung"
+        ],
+        [
+          "Informationsschreiben",
+          "kennen",
+          "Vertragspartner"
+        ],
+        [
+          "Vertragspartner",
+          "kennen",
+          "Informationsschreiben"
+        ],
+        [
+          "Zeitraum",
+          "beeinflussen",
+          "Provisionsanspruch"
+        ],
+        [
+          "Provisionsanspruch",
+          "beeinflussen",
+          "Zeitraum"
+        ],
+        [
+          "Vertragsaufhebung",
+          "geltend machen",
+          "Vertragspartner"
+        ],
+        [
+          "Vertragspartner",
+          "geltend machen",
+          "Vertragsaufhebung"
+        ],
+        [
+          "Abfindungsvertrag",
+          "interpretieren",
+          "Änderungsvertrag"
+        ],
+        [
+          "Änderungsvertrag",
+          "interpretieren",
+          "Abfindungsvertrag"
+        ],
+        [
+          "Präambel",
+          "bedeuten",
+          "Änderungsvertrag"
+        ],
+        [
+          "Änderungsvertrag",
+          "bedeuten",
+          "Präambel"
+        ],
+        [
+          "Veränderungssperre",
+          "kennen",
+          "Vertragspartner"
+        ],
+        [
+          "Vertragspartner",
+          "kennen",
+          "Veränderungssperre"
+        ],
+        [
+          "Vertragsänderung",
+          "entscheiden",
+          "Novation"
+        ],
+        [
+          "Novation",
+          "entscheiden",
+          "Vertragsänderung"
+        ],
+        [
+          "Zusatzvereinbarung",
+          "beeinflussen",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "beeinflussen",
+          "Zusatzvereinbarung"
+        ],
+        [
+          "Hinterlegung",
+          "entscheiden",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "entscheiden",
+          "Hinterlegung"
+        ],
+        [
+          "Verhandeln",
+          "beeinflussen",
+          "Vertragserklärung"
+        ],
+        [
+          "Vertragserklärung",
+          "beeinflussen",
+          "Verhandeln"
+        ],
+        [
+          "Vertragszweck",
+          "bedeuten",
+          "Gegenleistung"
+        ],
+        [
+          "Gegenleistung",
+          "bedeuten",
+          "Vertragszweck"
+        ],
+        [
+          "Maklervertrag",
+          "beeinflussen",
+          "Provisionsanspruch"
+        ],
+        [
+          "Provisionsanspruch",
+          "beeinflussen",
+          "Maklervertrag"
+        ],
+        [
+          "Gesellschaft",
+          "gilt",
+          "Vertragsübernahme"
+        ],
+        [
+          "Vertragsübernahme",
+          "gilt",
+          "Gesellschaft"
+        ],
+        [
+          "Kündigung",
+          "entscheiden",
+          "wichtiger Grund"
+        ],
+        [
+          "wichtiger Grund",
+          "entscheiden",
+          "Kündigung"
+        ],
+        [
+          "VOB/B",
+          "beeinflussen",
+          "Beschaffenheit"
+        ],
+        [
+          "Beschaffenheit",
+          "beeinflussen",
+          "VOB/B"
+        ],
+        [
+          "Beschaffenheit",
+          "bedeuten",
+          "Werkvertrag"
+        ],
+        [
+          "Werkvertrag",
+          "bedeuten",
+          "Beschaffenheit"
+        ],
+        [
+          "§ 633 Abs. 2 Satz 1 BGB",
+          "interpretieren",
+          "Beschaffenheit"
+        ],
+        [
+          "Beschaffenheit",
+          "interpretieren",
+          "§ 633 Abs. 2 Satz 1 BGB"
+        ],
+        [
+          "§ 539 BGB a.F.",
+          "verhindern",
+          "Pachtvertrag"
+        ],
+        [
+          "Pachtvertrag",
+          "verhindern",
+          "§ 539 BGB a.F."
+        ],
+        [
+          "§ 2 d) ARB",
+          "beeinflussen",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsfolge",
+          "beeinflussen",
+          "§ 2 d) ARB"
+        ],
+        [
+          "Kündigung",
+          "eintreten",
+          "Partnerschaftsvermittlungsvertrag"
+        ],
+        [
+          "Partnerschaftsvermittlungsvertrag",
+          "eintreten",
+          "Kündigung"
+        ],
+        [
+          "Gasliefervertrag",
+          "entscheiden",
+          "Tarifkundenvertrag"
+        ],
+        [
+          "Tarifkundenvertrag",
+          "entscheiden",
+          "Gasliefervertrag"
+        ],
+        [
+          "Abfall",
+          "verpflichten",
+          "Vertragspartner"
+        ],
+        [
+          "Vertragspartner",
+          "verpflichten",
+          "Abfall"
+        ],
+        [
+          "Dienstaufsichtsmaßnahmen",
+          "bedeuten",
+          "§ 26 Abs. 3 DRiG"
+        ],
+        [
+          "§ 26 Abs. 3 DRiG",
+          "bedeuten",
+          "Dienstaufsichtsmaßnahmen"
+        ],
+        [
+          "Parteiwechsel",
+          "nachholen",
+          "Fristen"
+        ],
+        [
+          "Fristen",
+          "nachholen",
+          "Parteiwechsel"
+        ],
+        [
+          "Vertragsstrafe",
+          "bedeuten",
+          "Verbandsstrafe"
+        ],
+        [
+          "Verbandsstrafe",
+          "bedeuten",
+          "Vertragsstrafe"
+        ],
+        [
+          "bewußtes Miteinander im Arbeitsablauf",
+          "bedeuten",
+          "§ 106 Abs. 3 3. Alternative SGB VII"
+        ],
+        [
+          "§ 106 Abs. 3 3. Alternative SGB VII",
+          "bedeuten",
+          "bewußtes Miteinander im Arbeitsablauf"
+        ],
+        [
+          "Kondiktionsausschluß",
+          "prüfen",
+          "§ 814 BGB"
+        ],
+        [
+          "§ 814 BGB",
+          "prüfen",
+          "Kondiktionsausschluß"
+        ],
+        [
+          "Rechtsberatung",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Kosten",
+          "tragen",
+          "Rechtsberatung"
+        ],
+        [
+          "Einigkeit",
+          "beeinflussen",
+          "Leistungsumfang"
+        ],
+        [
+          "Leistungsumfang",
+          "beeinflussen",
+          "Einigkeit"
+        ],
+        [
+          "Pachtzins",
+          "stärken",
+          "Vertrauen"
+        ],
+        [
+          "Vertrauen",
+          "stärken",
+          "Pachtzins"
+        ],
+        [
+          "Verjährungsrecht",
+          "beeinflussen",
+          "Verjährung"
+        ],
+        [
+          "Verjährung",
+          "beeinflussen",
+          "Verjährungsrecht"
+        ],
+        [
+          "ADSp",
+          "angewendet",
+          "Seefrachtvertrag"
+        ],
+        [
+          "Seefrachtvertrag",
+          "angewendet",
+          "ADSp"
+        ],
+        [
+          "Vertragsfreiheit",
+          "beeinflussen",
+          "ADSp"
+        ],
+        [
+          "ADSp",
+          "beeinflussen",
+          "Vertragsfreiheit"
+        ],
+        [
+          "Protokoll",
+          "beeinflussen",
+          "Revisionszulassung"
+        ],
+        [
+          "Revisionszulassung",
+          "beeinflussen",
+          "Protokoll"
+        ],
+        [
+          "Anpassungsvorbehalt",
+          "interpretieren",
+          "Versorgungszusage"
+        ],
+        [
+          "Versorgungszusage",
+          "interpretieren",
+          "Anpassungsvorbehalt"
+        ],
+        [
+          "Banktarif",
+          "beeinflussen",
+          "Versorgungszusage"
+        ],
+        [
+          "Versorgungszusage",
+          "beeinflussen",
+          "Banktarif"
+        ],
+        [
+          "Satzungsänderungen",
+          "beschließen",
+          "ZVK-L"
+        ],
+        [
+          "ZVK-L",
+          "beschließen",
+          "Satzungsänderungen"
+        ],
+        [
+          "actio pro socio",
+          "gilt",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt",
+          "actio pro socio"
+        ],
+        [
+          "Schriftformerfordernis",
+          "beachten",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "beachten",
+          "Schriftformerfordernis"
+        ],
+        [
+          "Kündigung",
+          "eintreten",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "eintreten",
+          "Kündigung"
+        ],
+        [
+          "Vertrag",
+          "beeinflussen",
+          "Kläger"
+        ],
+        [
+          "Kläger",
+          "beeinflussen",
+          "Vertrag"
+        ],
+        [
+          "Inhaltskontrolle",
+          "kontrollieren",
+          "Allgemeine Geschäftsbedingungen"
+        ],
+        [
+          "Allgemeine Geschäftsbedingungen",
+          "kontrollieren",
+          "Inhaltskontrolle"
+        ],
+        [
+          "Schuldner",
+          "verantworten",
+          "rechtlichen Beziehungen"
+        ],
+        [
+          "rechtlichen Beziehungen",
+          "verantworten",
+          "Schuldner"
+        ]
+      ]
+    }
+  },
+  "Cluster 15": {
+    "competency_questions": [
+      "Welche Gebührennummern können analog abgerechnet werden, wenn sie nicht im Gebührenverzeichnis aufgeführt sind?",
+      "Wie muss die Aufstellung über die entstandenen Mehrkosten erstellt werden, damit sie dem Auftragnehmer eine sachgerechte Prüfung ermöglicht?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Betriebskostenabrechnung bezüglich der Heizkosten wirksam ist?",
+      "Welche Rolle spielt die Offenlegung der Rechenschritte in der Betriebskostenabrechnung für die Wirksamkeit der Abrechnung?",
+      "Welche Auswirkungen hat die Bereinigung der Gesamtkosten um nicht umlagefähige Kostenbestandteile auf die formelle Wirksamkeit der Betriebskostenabrechnung?",
+      "Welche Konsequenzen hat die Unwirksamkeit der Heizkostenabrechnung für die Betriebskostennachforderung?",
+      "Wie ist die Nachforderung von Betriebskosten im Falle einer unwirksamen Heizkostenabrechnung zu behandeln?",
+      "Welche Rechtsgrundlage gilt für die Bereinigung der Gesamtkosten um nicht umlagefähige Kostenbestandteile in der Betriebskostenabrechnung?",
+      "Welche Bedeutung hat die Kostenangabe im Bauantrag für die Berechnung der Gebühren?",
+      "Wie ist der Vergabegewinn, der Gewinn und Allgemeine Geschäftskosten als nicht ersparte Kosten zu berechnen?",
+      "Welche Rechtsgrundlage gilt für die Verpflichtung des Auftraggebers, dem Auftragnehmer eine Aufstellung über die entstandenen Mehrkosten zuzusenden?",
+      "Welche Rolle spielt der Bauantrag bei der Bestimmung der Baukostenobergrenze?",
+      "Unter welchen Bedingungen kann ein Gasgrundversorger seine Bezugskosten im Rahmen der Grundversorgung an seine Kunden weitergeben?",
+      "Wie ist der Streitwert in einem Verfahren zu berechnen, in dem es um die Unterlassung von Geschäftsführervergütungen geht?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Wasserversorgungsunternehmen einen angemessenen Baukostenzuschuss von Anschlussnehmern verlangen kann?",
+      "Unter welchen Bedingungen kann ein Wasserversorgungsunternehmen einen Baukostenzuschuss als weiteren Baukostenzuschuss verlangen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Gebührennummer",
+        "Gebührenverzeichnis",
+        "Mehrkosten",
+        "Auftragnehmer",
+        "Betriebskostenabrechnung",
+        "Heizkosten",
+        "Kostenbestandteile",
+        "Gesamtkosten",
+        "Rechenschritte",
+        "Nachforderung",
+        "Baukostenobergrenze",
+        "Baukostenzuschuss",
+        "Wasserversorgungsunternehmen",
+        "Anschlussnehmer"
+      ],
+      "properties": [
+        "kannAnalogAbgerechnetWerden",
+        "mussErstelltWerden",
+        "mussErfülltSein",
+        "spieltRolle",
+        "hatAuswirkungen",
+        "hatKonsequenzen",
+        "istZuBehandeln",
+        "giltAlsRechtsgrundlage",
+        "hatBedeutung",
+        "istZuBerechnen",
+        "istVerpflichtung",
+        "spieltRolleBei",
+        "kannWeitergegebenWerden",
+        "istZuBerechnen",
+        "mussErfülltSein",
+        "kannVerlangtWerden"
+      ],
+      "relationships": [
+        [
+          "Gebührennummer",
+          "kannAnalogAbgerechnetWerden",
+          "Gebührenverzeichnis"
+        ],
+        [
+          "Mehrkosten",
+          "mussErstelltWerden",
+          "Auftragnehmer"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "mussErfülltSein",
+          "Rechenschritte"
+        ],
+        [
+          "Heizkosten",
+          "hatAuswirkungen",
+          "formelleWirksamkeit"
+        ],
+        [
+          "Kostenbestandteile",
+          "hatKonsequenzen",
+          "formelleWirksamkeit"
+        ],
+        [
+          "Heizkostenabrechnung",
+          "istUnwirksam",
+          "Betriebskostennachforderung"
+        ],
+        [
+          "Betriebskostennachforderung",
+          "istZuBehandeln",
+          "Nachforderung"
+        ],
+        [
+          "Gesamtkosten",
+          "giltAlsRechtsgrundlage",
+          "Bereinigung"
+        ],
+        [
+          "Baukosten",
+          "hatBedeutung",
+          "Baukostenobergrenze"
+        ],
+        [
+          "Auftraggeber",
+          "istVerpflichtung",
+          "Mehrkosten"
+        ],
+        [
+          "Baukosten",
+          "kannWeitergegebenWerden",
+          "Gasgrundversorger"
+        ],
+        [
+          "Geschäftsführervergütungen",
+          "istZuBerechnen",
+          "Streitwert"
+        ],
+        [
+          "Baukostenzuschuss",
+          "mussErfülltSein",
+          "Wasserversorgungsunternehmen"
+        ],
+        [
+          "Baukostenzuschuss",
+          "kannVerlangtWerden",
+          "Anschlussnehmer"
+        ]
+      ]
+    }
+  }
+}
