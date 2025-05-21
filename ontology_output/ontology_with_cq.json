@@ -52,100 +52,81 @@
         "Berufungsgericht",
         "Abrechnungsjahr",
         "Abrechnung",
+        "Nachzahlungsanspruch",
         "Ausschlussfrist",
-        "Anspruch",
-        "Mieter",
-        "Vermieter",
+        "Verhalten",
+        "Analoge Anwendung",
+        "Mietvertraglicher Anspruch",
+        "Betriebskostenabrechnung",
+        "Abrechnungsfrist",
+        "Nachforderung",
         "Schuldner",
         "Gläubiger",
-        "Frist",
-        "Verhalten",
-        "Zusage",
-        "Schuldanerkenntnis",
-        "Verstoß",
-        "Betriebskostenabrechnung",
-        "Mietvertraglicher Anspruch",
-        "Betriebskosten",
-        "Abrechnungsfrist",
-        "Nachzahlungsanspruch",
-        "Nachforderung",
         "Verjährung",
         "Treu und Glauben"
       ],
       "properties": [
-        "beinhaltet",
-        "basiert auf",
+        "begründet",
+        "hat verloren",
+        "ist nicht prüffähig",
+        "ist verfristet",
         "verwehrt",
         "scheidet aus",
-        "ergeben sich",
-        "verneint",
-        "geht davon aus",
-        "annahme",
+        "hat verneint",
+        "ist unstreitig",
+        "wahrt",
         "ist ausgeschlossen",
-        "hat sich",
-        "ist es",
-        "ist es den Beklagten nicht verwehrt",
-        "ist es den Beklagten verwehrt"
+        "ist unerheblich"
       ],
       "relationships": [
         [
           "Revision",
-          "beinhaltet",
+          "begründet",
           "Berufungsgericht"
         ],
         [
-          "Abrechnungsjahr",
-          "basiert auf",
-          "Abrechnung"
+          "Klägerin",
+          "hat verloren",
+          "Nachzahlungsanspruch"
+        ],
+        [
+          "Abrechnung",
+          "ist nicht prüffähig",
+          "Abrechnungsjahr"
         ],
         [
           "Ausschlussfrist",
           "verwehrt",
-          "Anspruch"
-        ],
-        [
-          "Mieter",
-          "scheidet aus",
-          "Vermieter"
-        ],
-        [
-          "Schuldner",
-          "ergeben sich",
-          "Gläubiger"
-        ],
-        [
-          "Frist",
-          "verwehrt",
           "Verhalten"
         ],
         [
-          "Zusage",
-          "verwehrt",
-          "Schuldanerkenntnis"
+          "Analoge Anwendung",
+          "scheidet aus",
+          "Ausschlussfrist"
         ],
         [
-          "Verstoß",
-          "verwehrt",
-          "Treu und Glauben"
-        ],
-        [
-          "Betriebskostenabrechnung",
-          "verneint",
+          "Berufungsgericht",
+          "hat verneint",
           "Mietvertraglicher Anspruch"
         ],
         [
-          "Betriebskosten",
-          "geht davon aus",
+          "Betriebskostenabrechnung",
+          "ist unstreitig",
           "Abrechnungsfrist"
         ],
         [
-          "Nachzahlungsanspruch",
-          "ist ausgeschlossen",
-          "Nachforderung"
+          "Schuldner",
+          "wahrt",
+          "Verjährung"
         ],
         [
-          "Verjährung",
-          "ist es",
+          "Nachforderung",
+          "ist ausgeschlossen",
+          "Ausschlussfrist"
+        ],
+        [
+          "Erklärung",
+          "ist unerheblich",
           "Treu und Glauben"
         ]
       ]
@@ -158,28 +139,27 @@
         "Kläger",
         "Beklagte",
         "Mietvertrag",
-        "Wohnfläche",
-        "Betriebskostenabrechnung",
-        "Mietminderung"
+        "Miete",
+        "Betriebskosten",
+        "Wohnfläche"
       ],
       "properties": [
         "hatAnspruchAuf",
-        "istBerechtigtZu",
+        "istBegünstigt",
+        "istPflichtig",
         "betrifft",
-        "beträgt",
-        "liegtUnter",
-        "istZurückzuweisen"
+        "beträgt"
       ],
       "relationships": [
         [
           "Kläger",
           "hatAnspruchAuf",
-          "Zahlung der Nettokaltmiete"
+          "Miete"
         ],
         [
           "Beklagte",
-          "istBerechtigtZu",
-          "Mietminderung"
+          "istPflichtig",
+          "Miete"
         ],
         [
           "Mietvertrag",
@@ -188,17 +168,13 @@
         ],
         [
           "Wohnfläche",
-          "liegtUnter",
-          "im Mietvertrag angegebene Wohnfläche"
-        ],
-        [
-          "Betriebskostenabrechnung",
           "beträgt",
-          "geminderter Betrag von 84,06 €"
+          "54,78 m"
         ],
         [
-          "Revision",
-          "istZurückzuweisen"
+          "Betriebskosten",
+          "beträgt",
+          "84,06 €"
         ]
       ]
     },
@@ -210,39 +186,30 @@
         "Klägerin",
         "Beklagte",
         "Leasinginteressent",
-        "Leasingfinanzierungszusage",
-        "Leasingvertrag",
-        "Leasingnehmer",
         "Leasinggeberin",
+        "Leasingvertrag",
+        "Leasingfinanzierungszusage",
         "Leasingfahrzeug",
-        "Leasinggegenstand",
-        "Leasingrate",
+        "Leistungsempfänger",
+        "Kaufmann",
         "Geschäftsbesorgung",
         "Dienstleistung",
-        "Vergütungsanspruch",
-        "Provisionsanspruch",
-        "Kaufvertrag",
-        "Übergabekosten",
-        "Überführungs- und Zulassungskosten"
+        "Vergütung",
+        "Provisionsanspruch"
       ],
       "properties": [
         "beinhaltet",
         "besorgt",
-        "leistet",
         "erbringt",
-        "verursacht",
+        "verlangt",
         "umfasst",
-        "tätig wird in Ausübung seines Handelsgewerbes",
-        "besorgt ein Geschäft",
-        "besorgt eine Dienstleistung",
-        "fordert Provision",
-        "verlangt Vergütung",
-        "führt zu einem Vergütungsanspruch",
-        "führt zu einem Provisionsanspruch",
-        "führt zu einer Provisionspflicht",
-        "führt zu einer Vergütungspflicht",
-        "führt zu einer Kostenüberwälzung",
-        "führt zu einer Benachteiligung"
+        "betrifft",
+        "berechtigt",
+        "verursacht",
+        "führt",
+        "versetzt",
+        "betrifft",
+        "führt"
       ],
       "relationships": [
         [
@@ -252,68 +219,63 @@
         ],
         [
           "Leasingfinanzierungszusage",
-          "besorgt",
-          "Leasingvertrag"
-        ],
-        [
-          "Leasingvertrag",
-          "besorgt",
-          "Leasingfahrzeug"
-        ],
-        [
-          "Leasingfahrzeug",
-          "besorgt",
-          "Leasinggegenstand"
-        ],
-        [
-          "Leasinggegenstand",
-          "besorgt",
-          "Leasingrate"
+          "umfasst nicht",
+          "Überführungs- und Zulassungskosten"
         ],
         [
           "Klägerin",
-          "leistet",
+          "besorgt",
           "Geschäftsbesorgung"
         ],
         [
           "Geschäftsbesorgung",
-          "besorgt",
+          "betrifft",
+          "Leasingfahrzeug"
+        ],
+        [
+          "Leasingfahrzeug",
+          "betrifft",
+          "Leasingvertrag"
+        ],
+        [
+          "Leasingvertrag",
+          "betrifft",
+          "Leasingfinanzierungszusage"
+        ],
+        [
+          "Klägerin",
+          "erbringt",
           "Dienstleistung"
         ],
         [
           "Dienstleistung",
-          "führt zu",
-          "Vergütungsanspruch"
+          "berechtigt",
+          "Vergütung"
         ],
         [
-          "Vergütungsanspruch",
-          "führt zu",
+          "Vergütung",
+          "verlangt",
+          "Provisionsanspruch"
+        ],
+        [
+          "Provisionsanspruch",
+          "betrifft",
+          "Leistungsempfänger"
+        ],
+        [
+          "Leistungsempfänger",
+          "berechtigt",
+          "Provisionsanspruch"
+        ],
+        [
+          "Klägerin",
+          "verursacht",
           "Provisionsanspruch"
         ],
         [
           "Provisionsanspruch",
           "führt zu",
-          "Provisionspflicht"
-        ],
-        [
-          "Provisionspflicht",
-          "führt zu",
-          "Vergütungspflicht"
-        ],
-        [
-          "Leasingvertrag",
-          "verursacht",
-          "Überführungs- und Zulassungskosten"
-        ],
-        [
-          "Überführungs- und Zulassungskosten",
-          "führen zu",
-          "Kostenüberwälzung"
-        ],
-        [
-          "Kostenüberwälzung",
-          "führt zu",
-          "Benachteiligung"
+          "Vergütung"
         ]
       ]
     },
@@ -323,46 +285,57 @@
     "ontology": {
       "classes": [
         "Klägerin",
-        "Rechtsanwaltskosten",
-        "Kostentragungsregelung",
+        "Beklagte",
+        "Kosten",
         "Verzug",
-        "Klageerhebung",
-        "Kostenerstattung",
-        "Verzugsschaden",
-        "Zahlungsaufforderung"
+        "Rückerstattung",
+        "Anspruch",
+        "Rechtsanwalt",
+        "Prozess",
+        "Klage",
+        "Räumungsrechtsstreit",
+        "Kostentragungsregelung",
+        "Verzugsschaden"
       ],
       "properties": [
         "erstattet",
-        "basiert auf",
-        "führt zu",
+        "verursacht",
         "betrifft",
-        "scheidet aus"
+        "scheidet aus",
+        "scheitert",
+        "folgt",
+        "befindet sich im Verzug"
       ],
       "relationships": [
         [
           "Klägerin",
           "erstattet",
-          "Rechtsanwaltskosten"
+          "Kosten"
         ],
         [
-          "Kostentragungsregelung",
-          "basiert auf",
+          "Kosten",
+          "verursacht",
           "Verzug"
         ],
         [
-          "Klageerhebung",
-          "führt zu",
-          "Kostenerstattung"
+          "Verzug",
+          "betrifft",
+          "Rückerstattung"
+        ],
+        [
+          "Anspruch",
+          "scheitert",
+          "Verzugsschaden"
         ],
         [
           "Verzugsschaden",
-          "betrifft",
-          "Kostenerstattung"
+          "folgt",
+          "Verzug"
         ],
         [
-          "Zahlungsaufforderung",
-          "scheidet aus",
-          "Kostenerstattung"
+          "Verzug",
+          "befindet sich im Verzug",
+          "Beklagte"
         ]
       ]
     },
@@ -372,59 +345,109 @@
     "ontology": {
       "classes": [
         "Berufungsverfahren",
+        "Streitgegenstand",
         "Berufungsgericht",
         "Klägerin",
-        "Streitgegenstand",
-        "Berufungsantrag",
-        "Berufungsbegründung",
         "Anfechtung",
-        "Urteil"
+        "Entscheidung",
+        "Anträge"
       ],
       "properties": [
         "beinhaltet",
-        "verwirft",
         "betrifft",
-        "hatUmfang",
-        "wirdAngefochten",
-        "wirdGerügt",
-        "istGegenstandVon",
-        "darfEntscheiden"
+        "ist Gegenstand von",
+        "wird gerügt",
+        "wird verfolgt"
       ],
       "relationships": [
         [
           "Berufungsverfahren",
           "beinhaltet",
-          "Berufungsantrag"
-        ],
-        [
-          "Berufungsgericht",
-          "verwirft",
-          "Berufungsantrag"
-        ],
-        [
-          "Klägerin",
-          "hat",
-          "Berufungsbegründung"
-        ],
-        [
-          "Berufungsbegründung",
-          "betrifft",
-          "Anfechtung"
-        ],
-        [
-          "Anfechtung",
-          "wirdAngefochten",
-          "Urteil"
+          "Streitgegenstand"
         ],
         [
           "Streitgegenstand",
-          "wirdGerügt",
-          "Berufungsantrag"
+          "betrifft",
+          "Anträge"
         ],
         [
-          "Berufungsgericht",
-          "darfEntscheiden",
+          "Klägerin",
+          "verfolgt",
+          "Anfechtung"
+        ],
+        [
+          "Entscheidung",
+          "wird gerügt",
+          "Berufungsgericht"
+        ],
+        [
+          "Anträge",
+          "betrifft",
           "Streitgegenstand"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1525185.xml": {
+    "ontology": {
+      "classes": [
+        "Revision",
+        "Invaliditätsentschädigung",
+        "Funktionsbeeinträchtigung",
+        "Hand",
+        "Handgelenk",
+        "Invaliditätsgrad",
+        "Versicherungsbedingungen",
+        "Versicherungsnehmer"
+      ],
+      "properties": [
+        "begründet",
+        "steht zu",
+        "kommt an",
+        "betrifft",
+        "führt zu",
+        "ist möglich",
+        "kann hinweisen auf",
+        "setzt voraus",
+        "läßt den Schluß zu",
+        "geht zu Lasten"
+      ],
+      "relationships": [
+        [
+          "Revision",
+          "begründet",
+          "Invaliditätsentschädigung"
+        ],
+        [
+          "Funktionsbeeinträchtigung",
+          "betrifft",
+          "Hand im Handgelenk"
+        ],
+        [
+          "Hand im Handgelenk",
+          "führt zu",
+          "Invaliditätsgrad"
+        ],
+        [
+          "Versicherungsbedingungen",
+          "sind",
+          "Allgemeine Geschäftsbedingungen"
+        ],
+        [
+          "Versicherungsbedingungen",
+          "unterliegen",
+          "AGBG bzw. §§ 305 ff. BGB"
+        ],
+        [
+          "Versicherungsbedingungen",
+          "können",
+          "mehrdeutig sein"
+        ],
+        [
+          "Versicherungsbedingungen",
+          "gehen zu Lasten",
+          "Versicherungsnehmer"
         ]
       ]
     },
@@ -439,22 +462,15 @@
         "Mieter",
         "Vermieter",
         "Versicherer",
-        "Regressverzicht",
-        "Rückgriffsansprüche",
-        "Doppelversicherung",
-        "Haftpflichtversicherung",
-        "Versicherungsschutz"
+        "Regress"
       ],
       "properties": [
         "beinhaltet",
         "basiert auf",
         "verursacht",
-        "betrifft",
-        "schließt ein",
-        "beeinträchtigt",
-        "beeinflusst",
-        "verweist auf",
-        "beeinflusst den Umfang von"
+        "führt zu",
+        "schützt",
+        "beeinträchtigt"
       ],
       "relationships": [
         [
@@ -465,31 +481,26 @@
         [
           "Brand",
           "verursacht",
+          "Mieter"
+        ],
+        [
+          "Brand",
+          "führt zu",
           "Schaden"
         ],
         [
-          "Mieter",
-          "betrifft",
-          "Rückgriffsansprüche"
+          "Schaden",
+          "basiert auf",
+          "fahrlässiges Verhalten"
         ],
         [
-          "Doppelversicherung",
+          "Regress",
+          "schützt",
+          "Interessen des Vermieters und des Mieters"
+        ],
+        [
+          "Regress",
           "beeinträchtigt",
-          "Versicherungsschutz"
-        ],
-        [
-          "Rückgriffsansprüche",
-          "beeinflusst",
-          "Versicherungsschutz"
-        ],
-        [
-          "Haftpflichtversicherung",
-          "verweist auf",
-          "Rückgriffsansprüche"
-        ],
-        [
-          "Rückgriffsansprüche",
-          "beeinflusst den Umfang von",
           "Versicherungsschutz"
         ]
       ]
@@ -504,18 +515,14 @@
         "Fälligkeit",
         "Kautionsguthaben",
         "Betriebskostenabrechnung",
-        "Kopie",
-        "Entscheidung",
-        "Rechtsstreit"
+        "Kopie"
       ],
       "properties": [
         "betrifft",
         "versagt",
-        "zugebilligt",
         "fehlt",
         "hatAnspruchAuf",
-        "verrechnet",
-        "beanspruchen"
+        "verrechnet"
       ],
       "relationships": [
         [
@@ -525,28 +532,23 @@
         ],
         [
           "Nachforderung",
-          "versagt",
-          "Fälligkeit"
-        ],
-        [
-          "Kautionsguthaben",
-          "zugebilligt",
-          "Betriebskostenabrechnung"
-        ],
-        [
-          "Kopie",
           "fehlt",
           "Fälligkeit"
         ],
         [
-          "Klage",
-          "verrechnet",
-          "Kautionsguthaben"
+          "Kautionsguthaben",
+          "hatAnspruchAuf",
+          "Betriebskostenabrechnung"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "versagt",
+          "Kopie"
         ],
         [
           "Kautionsguthaben",
-          "beanspruchen",
-          "Restbetrag"
+          "verrechnet",
+          "Nachforderung"
         ]
       ]
     },
@@ -558,21 +560,24 @@
         "Berufungsgericht",
         "Klage",
         "Frist",
-        "Wohnungseigentümergemeinschaft",
         "Wohnungseigentümer",
+        "Wohnungseigentümergemeinschaft",
         "Verwalter",
-        "Klagebegründung",
-        "Rechtsstreit"
+        "Kläger",
+        "Beklagter"
       ],
       "properties": [
         "meint",
-        "ist",
-        "wird gewahrt",
         "ist unbegründet",
-        "wird zurückgewiesen",
-        "ist nicht zur Endentscheidung reif",
-        "fehlen",
-        "weist darauf hin"
+        "wurde erhoben",
+        "ist gerichtet",
+        "stellt einen Parteiwechsel dar",
+        "wird gewahrt",
+        "ist ohne Rechtsfehler",
+        "geht davon aus",
+        "ist entgegen",
+        "wird erreicht",
+        "ist ohne weiteres als unbegründet zurückzuweisen"
       ],
       "relationships": [
         [
@@ -582,33 +587,48 @@
         ],
         [
           "Klage",
-          "ist",
-          "nicht innerhalb der Frist des § 46 Abs. 1 Satz 2 WEG erhoben worden"
+          "ist unbegründet",
+          "weil nicht innerhalb der Frist des § 46 Abs. 1 Satz 2 WEG erhoben worden"
+        ],
+        [
+          "Klage",
+          "ist gerichtet",
+          "gegen die Wohnungseigentümergemeinschaft"
+        ],
+        [
+          "Kläger",
+          "stellt einen Parteiwechsel dar",
+          "nach Ablauf der Monatsfrist erfolgte Erklärung"
         ],
         [
           "Klage",
           "wird gewahrt",
-          "wenn die Voraussetzungen des § 44 Abs. 1 Satz 1 WEG erfüllt sind"
+          "wenn die Voraussetzungen des § 44 Abs. 1 Satz 1 WEG vorliegen"
+        ],
+        [
+          "Berufungsgericht",
+          "geht davon aus",
+          "Klage ist entgegen § 46 Abs. 1 Satz 2 WEG nicht innerhalb eines Monats nach der Beschlussfassung erhoben worden"
         ],
         [
           "Klage",
-          "ist unbegründet",
-          "wenn sie nicht innerhalb der Frist des § 46 Abs. 1 Satz 2 WEG erhoben worden ist"
+          "ist entgegen § 46 Abs. 1 Satz 2 WEG",
+          "wurde nicht innerhalb eines Monats nach der Beschlussfassung erhoben"
+        ],
+        [
+          "Kläger",
+          "ist ohne Rechtsfehler",
+          "keine Anhaltspunkte für eine versehentliche Falschbezeichnung"
         ],
         [
           "Klage",
-          "wird zurückgewiesen",
+          "wird erreicht",
+          "dass die übrigen Wohnungseigentümer möglichst rasch darüber Klarheit erlangen, welcher Beschluss aus welchen Gründen angefochten wird"
+        ],
+        [
+          "Klage",
+          "ist ohne weiteres als unbegründet zurückzuweisen",
           "wenn sie erst nach Ablauf der Monatsfrist erhoben wird"
-        ],
-        [
-          "Rechtsstreit",
-          "ist nicht zur Endentscheidung reif",
-          "wenn Feststellungen fehlen"
-        ],
-        [
-          "Senat",
-          "weist darauf hin",
-          "Verzögerungen, die aus der Zustellung an die Wohnungseigentümer herrühren, werden den Klägern nicht zugerechnet"
         ]
       ]
     },
@@ -619,22 +639,19 @@
       "classes": [
         "Kaufvertrag",
         "Wohnungseigentum",
-        "Sondereigentum",
-        "Sonnennutzungsfläche",
-        "Teilungserklärung",
+        "Sondernutzungsfläche",
         "Anfechtungserklärung",
         "Schadensersatzanspruch"
       ],
       "properties": [
         "beinhaltet",
         "basiert auf",
+        "führt zur",
         "betrifft",
-        "festlegen",
-        "bestimmen",
-        "begrenzen",
-        "ermöglichen",
-        "erfüllen",
-        "schuldeten"
+        "begrenzt",
+        "bestimmt",
+        "regelt",
+        "schließt ein"
       ],
       "relationships": [
         [
@@ -644,27 +661,17 @@
         ],
         [
           "Wohnungseigentum",
-          "beinhaltet",
-          "Sondereigentum"
-        ],
-        [
-          "Sondereigentum",
-          "beinhaltet",
-          "Sonnennutzungsfläche"
-        ],
-        [
-          "Teilungserklärung",
-          "festlegen",
-          "Rechte und Pflichten"
+          "basiert auf",
+          "Sondernutzungsfläche"
         ],
         [
           "Anfechtungserklärung",
-          "betrifft",
-          "Kaufvertrag"
+          "führt zur",
+          "Nichtigkeit des Kaufvertrags"
         ],
         [
           "Schadensersatzanspruch",
-          "basiert auf",
+          "betrifft",
           "Verschuldens bei Vertragsschluß"
         ]
       ]
@@ -675,30 +682,30 @@
     "ontology": {
       "classes": [
         "Urteil",
-        "Revision",
+        "Kündigung",
         "Mietverhältnis",
         "Mangelbeseitigung",
         "Mietminderung",
-        "Kündigung"
+        "Duldungspflicht",
+        "Rechtsstreit"
       ],
       "properties": [
-        "begründet",
+        "beinhaltet",
         "führt zur",
         "verhindert",
         "beruht auf",
-        "kann dazu führen",
-        "folgt aus"
+        "kann dazu führen"
       ],
       "relationships": [
         [
-          "Revision",
-          "begründet",
-          "Urteil"
+          "Urteil",
+          "beinhaltet",
+          "Kündigung"
         ],
         [
-          "Urteil",
+          "Kündigung",
           "führt zur",
-          "Aufhebung der angegriffenen Entscheidung"
+          "Beendigung des Mietverhältnisses"
         ],
         [
           "Mangelbeseitigung",
@@ -708,17 +715,12 @@
         [
           "Mietminderung",
           "beruht auf",
-          "Mangelbeseitigung"
+          "Mängel"
         ],
         [
-          "Kündigung",
+          "Duldungspflicht",
           "kann dazu führen",
-          "Mietverhältnis"
-        ],
-        [
-          "Mietverhältnis",
-          "folgt aus",
-          "Kündigung"
+          "Mangelbeseitigung"
         ]
       ]
     },
@@ -734,7 +736,8 @@
       ],
       "properties": [
         "beanstandet",
-        "erfüllt"
+        "hatErfüllungswirkung",
+        "stehtZuzu"
       ],
       "relationships": [
         [
@@ -744,13 +747,13 @@
         ],
         [
           "Rückzahlung",
-          "erfüllt",
+          "hatErfüllungswirkung",
           "Einlageverbindlichkeit"
         ],
         [
-          "Einlageverbindlichkeit",
-          "führt zu",
-          "Schadensersatzanspruch"
+          "Schadensersatzanspruch",
+          "stehtZuzu",
+          "Klägerin"
         ]
       ]
     },
@@ -759,70 +762,80 @@
   "1590874.xml": {
     "ontology": {
       "classes": [
-        "Berufungsgericht",
+        "Revision",
+        "Berufungsurteil",
         "Sicherungsabrede",
         "Anspruch",
-        "Rechtsfolge",
+        "Bürgschaft",
+        "Nachtragsforderung",
+        "Klage",
         "Darlegungslast",
         "Beweislast",
-        "Rechtsbegriff",
-        "Rechtshinderndes",
-        "Rechtshemmendes",
-        "Rechtsvernichtendes",
-        "Bürgschaftsurkunde",
-        "Honorarforderung",
-        "Leistung",
-        "Vorschusszahlung",
-        "Auftragnehmer",
-        "Auftraggeber"
+        "Abrechnungsreife",
+        "Vergütungsanspruch"
       ],
       "properties": [
+        "führt zur Aufhebung",
         "beinhaltet",
-        "sichert",
+        "steht zu",
+        "hinder",
         "begründet",
         "hindernd",
-        "hemmend",
         "vernichtend",
-        "beansprucht",
-        "erbracht",
-        "gesondert",
-        "vergütet"
+        "tragen",
+        "beweisen",
+        "darlegen"
       ],
       "relationships": [
         [
-          "Sicherungsabrede",
-          "beinhaltet",
-          "Sicherungszweck"
+          "Revision",
+          "führt zur Aufhebung",
+          "Berufungsurteil"
         ],
         [
           "Sicherungsabrede",
-          "sichert",
-          "Honorarforderung"
+          "beinhaltet",
+          "Stillhalteabkommen"
         ],
         [
           "Anspruch",
+          "steht zu",
+          "Herausgabe der Bürgschaft"
+        ],
+        [
+          "Nachtragsforderung",
+          "hinder",
+          "Auftragsausführung"
+        ],
+        [
+          "Klage",
           "begründet",
-          "Rechtsfolge"
+          "Feststellung eines Rechtsverhältnisses"
         ],
         [
-          "Rechtsfolge",
-          "hindernd",
-          "Honorarforderung"
+          "Darlegungslast",
+          "tragen",
+          "Beweislast"
         ],
         [
-          "Honorarforderung",
-          "beansprucht",
-          "Leistung"
+          "Beweislast",
+          "beweisen",
+          "rechtsbegründende Tatsachen"
         ],
         [
-          "Leistung",
-          "erbracht",
-          "Auftragnehmer"
+          "Beweislast",
+          "beweisen",
+          "rechtshindernde, rechtshemmende und rechtsvernichtende Tatsachen"
         ],
         [
-          "Auftraggeber",
-          "beansprucht",
-          "Rückzahlung"
+          "Abrechnungsreife",
+          "begründet",
+          "Rückgabe der Sicherheit"
+        ],
+        [
+          "Vergütungsanspruch",
+          "vernichtend",
+          "Rückgabe der Sicherheit"
         ]
       ]
     },
@@ -833,46 +846,45 @@
       "classes": [
         "Klägerin",
         "Beklagte",
-        "Signaldurchleitung",
-        "Eigentum",
         "Kabelnetz",
-        "Breitbandkabel",
-        "Internet",
-        "Gewerbebetrieb",
-        "Eigentumsbeeinträchtigung"
+        "Signale",
+        "Eigentum",
+        "Anspruch",
+        "Verträge",
+        "Gewerbebetrieb"
       ],
       "properties": [
         "beinhaltet",
-        "greift ein",
-        "beeinträchtigt",
-        "bewirkt",
-        "nutzt"
+        "greift in",
+        "erbringt",
+        "nutzt ohne Einverständnis",
+        "beeinträchtigt"
       ],
       "relationships": [
         [
           "Klägerin",
           "beinhaltet",
-          "Signaldurchleitung"
+          "Kabelnetz"
         ],
         [
           "Beklagte",
-          "greift ein",
-          "in das Eigentum der Klägerin"
-        ],
-        [
-          "Signaldurchleitung",
-          "beeinträchtigt",
-          "Eigentum"
+          "greift in",
+          "Eigentum der Klägerin"
         ],
         [
           "Klägerin",
-          "bewirkt",
-          "Durchleitung der von der Beklagten produzierten Signale"
+          "erbringt",
+          "Telekommunikationsdienstleistungen"
         ],
         [
           "Beklagte",
-          "nutzt",
-          "Kabelnetz der Klägerin ohne deren Einverständnis"
+          "nutzt ohne Einverständnis",
+          "Kabelnetz der Klägerin"
+        ],
+        [
+          "Kabelnetz",
+          "beeinträchtigt",
+          "Eigentum der Klägerin"
         ]
       ]
     },
@@ -882,23 +894,20 @@
     "ontology": {
       "classes": [
         "Schadensersatzanspruch",
-        "Patent",
+        "Patentanmeldung",
         "Erfindung",
         "Gemeinschaftsverhältnis",
-        "Schaden",
-        "Vorteile",
-        "Verpflichtung"
+        "Vermögensnachteile",
+        "Vorteile"
       ],
       "properties": [
         "beinhaltet",
         "ziehtHer",
-        "erlitt",
-        "entstanden",
+        "erfolgtAus",
         "betrifft",
         "schließtEin",
-        "setztVoraus",
-        "betrifftSachlich",
-        "stehtEntgegen"
+        "betrifftZeitlich",
+        "betrifftSachlich"
       ],
       "relationships": [
         [
@@ -909,47 +918,32 @@
         [
           "Vermögensnachteile",
           "ziehenHer",
-          "Schaden"
+          "Patentanmeldung"
         ],
         [
-          "Schaden",
-          "erlitt",
-          "Klägerin"
+          "Patentanmeldung",
+          "erfolgtAus",
+          "Erfindung"
         ],
         [
-          "Beklagte",
-          "ziehtHer",
+          "Erfindung",
+          "betrifft",
+          "Gemeinschaftsverhältnis"
+        ],
+        [
+          "Gemeinschaftsverhältnis",
+          "schließtEin",
           "Vorteile"
         ],
         [
           "Vorteile",
-          "entstanden",
-          "Nutzung"
+          "betrifftZeitlich",
+          "Schadensersatzanspruch"
         ],
         [
-          "Verpflichtung",
-          "betrifft",
-          "Vorteile"
-        ],
-        [
-          "Verpflichtung",
-          "schließtEin",
-          "entgangenen Ausgleich"
-        ],
-        [
-          "Schaden",
+          "Schadensersatzanspruch",
           "betrifftSachlich",
-          "Verpflichtung"
-        ],
-        [
-          "Verpflichtung",
-          "setztVoraus",
-          "hinreichende Wahrscheinlichkeit"
-        ],
-        [
-          "Rechtsprechung",
-          "stehtEntgegen",
-          "Ansprüche"
+          "Vorteile"
         ]
       ]
     },
@@ -960,9 +954,8 @@
       "classes": [
         "Revisionsbeklagter",
         "Berufungsgericht",
-        "Pachtvertrag",
         "Klägerin",
-        "Revisionsurteil"
+        "Pachtvertrag"
       ],
       "properties": [
         "beruht auf",
@@ -977,23 +970,13 @@
         ],
         [
           "Berufungsgericht",
-          "ist davon ausgegangen",
-          "Kündigung"
-        ],
-        [
-          "Pachtvertrag",
           "beendet",
-          "Kündigung"
+          "Pachtvertrag"
         ],
         [
           "Klägerin",
-          "hat",
-          "schützenswertes Interesse"
-        ],
-        [
-          "Pachtvertrag",
           "fortbestehen",
-          "31. Dezember 2000"
+          "Pachtvertrag"
         ]
       ]
     },
@@ -1007,7 +990,7 @@
         "Freistellungserklärung",
         "Schaden",
         "Prozessführung",
-        "Verpflichtung"
+        "Beteiligung"
       ],
       "properties": [
         "beinhaltet",
@@ -1019,22 +1002,22 @@
         [
           "Urteil",
           "beinhaltet",
-          "Freistellungserklärung"
+          "Beteiligung"
         ],
         [
-          "Freistellungserklärung",
-          "beinhaltet",
-          "Verpflichtung"
+          "Beteiligung",
+          "erfordert",
+          "Prozessführung"
         ],
         [
-          "Verpflichtung",
+          "Prozessführung",
           "verursacht",
           "Schaden"
         ],
         [
           "Schaden",
-          "erfordert",
-          "Prozessführung"
+          "basiert auf",
+          "Freistellungserklärung"
         ]
       ]
     },
@@ -1043,59 +1026,52 @@
   "1535555.xml": {
     "ontology": {
       "classes": [
-        "Revision",
-        "Klägerin",
-        "Schadensersatzanspruch",
         "Heimbewohner",
-        "Heimträger",
-        "Verkehrssicherungspflicht",
-        "Pflichtverletzung",
-        "Hüftschutzhosen"
+        "Pflegeheim",
+        "Pflegepersonal",
+        "Sicherungsmaßnahmen",
+        "Sturz",
+        "Verletzung",
+        "Vormundschaftsgericht"
       ],
       "properties": [
-        "istBegründet",
-        "stehtZu",
-        "erwachsenAus",
-        "istBegrenztAuf",
-        "kannEntschiedenWerden",
-        "hatSchuldhaftePflichtVerletzung",
-        "kannVerhindern"
+        "hatObhutspflicht",
+        "hatVerkehrssicherungspflicht",
+        "kannSchutzBieten",
+        "kannEntziehenFreiheit",
+        "kannMindernGefahr",
+        "kannHelfen"
       ],
       "relationships": [
         [
-          "Revision",
-          "istBegründet",
-          "falsch"
+          "Pflegeheim",
+          "hatObhutspflicht",
+          "Heimbewohner"
         ],
         [
-          "Klägerin",
-          "stehtZu",
-          "Schadensersatzanspruch"
+          "Pflegeheim",
+          "hatVerkehrssicherungspflicht",
+          "Heimbewohner"
         ],
         [
-          "Heimträger",
-          "erwachsenAus",
-          "Heimvertrag"
+          "Sicherungsmaßnahmen",
+          "kannSchutzBieten",
+          "Heimbewohner"
         ],
         [
-          "Heimträger",
-          "hat",
-          "Verkehrssicherungspflicht"
-        ],
-        [
-          "Verkehrssicherungspflicht",
-          "istBegrenztAuf",
-          "üblicheMaßnahmen"
-        ],
-        [
-          "Pflichtverletzung",
-          "kannEntschiedenWerden",
-          "Einzelfall"
+          "Pflegepersonal",
+          "kannEntziehenFreiheit",
+          "Heimbewohner"
         ],
         [
           "Hüftschutzhosen",
-          "kannVerhindern",
-          "Knochenbruch"
+          "kannMindernGefahr",
+          "Verletzung"
+        ],
+        [
+          "Pflegeheim",
+          "kannHelfen",
+          "Heimbewohner"
         ]
       ]
     },
