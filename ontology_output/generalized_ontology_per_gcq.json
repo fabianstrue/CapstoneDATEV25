@@ -1,0 +1,351 @@
+{
+  "Cluster 0": {
+    "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Signaldurchleitung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Netzbetreiber, um die Signalübertragung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+      "ontology": {
+        "classes": [
+          "Netzbetreiber",
+          "Signale",
+          "Netz",
+          "Rechtsnorm",
+          "Autorisierung"
+        ],
+        "properties": [
+          "erfüllen",
+          "verpflichtet",
+          "beeinträchtigen",
+          "nutzen",
+          "regulieren",
+          "sicherstellen"
+        ],
+        "relationships": [
+          [
+            "Netzbetreiber",
+            "erfüllen",
+            "Rechtsnorm"
+          ],
+          [
+            "Netzbetreiber",
+            "verpflichtet",
+            "Rechtsnorm"
+          ],
+          [
+            "Netzbetreiber",
+            "beeinträchtigen",
+            "Signale"
+          ],
+          [
+            "Netzbetreiber",
+            "nutzen",
+            "Autorisierung"
+          ],
+          [
+            "Netzbetreiber",
+            "regulieren",
+            "Signale"
+          ],
+          [
+            "Netzbetreiber",
+            "sicherstellen",
+            "Autorisierung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 100": {
+    "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+      "ontology": {
+        "classes": [
+          "Anspruchsberechtigter",
+          "Anspruchsgegner",
+          "Anspruch",
+          "Frist",
+          "Verjährung",
+          "Rechtsfolge"
+        ],
+        "properties": [
+          "begehrt",
+          "beginnen mit",
+          "ist nicht erforderlich",
+          "verpflichtet",
+          "setzt",
+          "versäumt",
+          "tritt ein"
+        ],
+        "relationships": [
+          [
+            "Anspruchsberechtigter",
+            "begehrt",
+            "Anspruch"
+          ],
+          [
+            "Frist",
+            "beginnen mit",
+            "Geltendmachung des Anspruchs durch den Anspruchsberechtigten"
+          ],
+          [
+            "Anspruchsgegner",
+            "verpflichtet",
+            "Einhaltung der Frist"
+          ],
+          [
+            "Verjährung",
+            "setzt",
+            "Frist"
+          ],
+          [
+            "Verjährung",
+            "tritt ein",
+            "Ablauf der Frist"
+          ],
+          [
+            "Verjährung",
+            "versäumt",
+            "Geltendmachung des Anspruchs"
+          ],
+          [
+            "Rechtsfolge",
+            "tritt ein",
+            "Verjährung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 102": {
+    "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen kann ein Vergleich widerrufen werden?",
+      "ontology": {
+        "classes": [
+          "Vergleich",
+          "Voraussetzung",
+          "Widerruf",
+          "Recht"
+        ],
+        "properties": [
+          "erfüllen",
+          "widerrufenKönnen",
+          "betreffen",
+          "regeln"
+        ],
+        "relationships": [
+          [
+            "Vergleich",
+            "erfüllen",
+            "Voraussetzung"
+          ],
+          [
+            "Vergleich",
+            "widerrufenKönnen",
+            "Widerruf"
+          ],
+          [
+            "Vergleich",
+            "betreffen",
+            "Recht"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 103": {
+    "generalized_question": "Welche Auswirkungen hat die Art und Weise der Zustellung von Urteilen oder Gutachten auf den Lauf von Fristen und die Wirksamkeit von Entscheidungen?",
+    "generalized_ontology": {
+      "generalized_question": "Welche Auswirkungen hat die Art und Weise der Zustellung von Urteilen oder Gutachten auf den Lauf von Fristen und die Wirksamkeit von Entscheidungen?",
+      "ontology": {
+        "classes": [
+          "Zustellung",
+          "Frist",
+          "Entscheidung"
+        ],
+        "properties": [
+          "betrifft",
+          "beeinflusst",
+          "läuftAb",
+          "istWirksam"
+        ],
+        "relationships": [
+          [
+            "Zustellung",
+            "betrifft",
+            "Frist"
+          ],
+          [
+            "Frist",
+            "läuftAb",
+            "Entscheidung"
+          ],
+          [
+            "Zustellung",
+            "beeinflusst",
+            "Entscheidung",
+            "istWirksam"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 104": {
+    "generalized_question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+    "generalized_ontology": {
+      "generalized_question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+      "ontology": {
+        "classes": [
+          "RechtlicheVoraussetzung",
+          "Beweis",
+          "Beweislast",
+          "Berechtigter",
+          "Beweisgegenstand"
+        ],
+        "properties": [
+          "müssenErfülltSein",
+          "müssenErbrachtWerden",
+          "trägtDarlegungsUndBeweislast",
+          "betrifft"
+        ],
+        "relationships": [
+          [
+            "RechtlicheVoraussetzung",
+            "müssenErfülltSein",
+            "Beweis"
+          ],
+          [
+            "Beweis",
+            "müssenErbrachtWerden",
+            "Beweisgegenstand"
+          ],
+          [
+            "Beweislast",
+            "trägtDarlegungsUndBeweislast",
+            "Berechtigter"
+          ],
+          [
+            "Berechtigter",
+            "betrifft",
+            "Beweisgegenstand"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 105": {
+    "generalized_question": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
+    "generalized_ontology": {
+      "generalized_question": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
+      "ontology": {
+        "classes": [
+          "Akteur",
+          "Geldmittel",
+          "Vorgabe",
+          "Rechnung"
+        ],
+        "properties": [
+          "überwacht",
+          "verwendet",
+          "herausgibt",
+          "überprüft",
+          "einhält"
+        ],
+        "relationships": [
+          [
+            "Akteur",
+            "überwacht",
+            "Geldmittel"
+          ],
+          [
+            "Akteur",
+            "verwendet",
+            "Geldmittel"
+          ],
+          [
+            "Akteur",
+            "herausgibt",
+            "Geldmittel"
+          ],
+          [
+            "Akteur",
+            "überprüft",
+            "Rechnung"
+          ],
+          [
+            "Akteur",
+            "einhält",
+            "Vorgabe"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 106": {
+    "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit zur Erprobung an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
+      "ontology": {
+        "classes": [
+          "Richter",
+          "Gericht",
+          "Erprobungsphase",
+          "Richteramt",
+          "Rechtsnorm"
+        ],
+        "properties": [
+          "erfülltVoraussetzungen",
+          "kannAbgeordnetWerden",
+          "wirdGewährleistet",
+          "spieltRolle",
+          "regelt",
+          "hatRechte",
+          "kannZustimmungVerweigern",
+          "istGeeignet"
+        ],
+        "relationships": [
+          [
+            "Richter",
+            "erfülltVoraussetzungen",
+            "Erprobungsphase"
+          ],
+          [
+            "Richter",
+            "kannAbgeordnetWerden",
+            "Gericht"
+          ],
+          [
+            "Rechtsnorm",
+            "wirdGewährleistet",
+            "Richter"
+          ],
+          [
+            "Erprobungsphase",
+            "spieltRolle",
+            "Bewerbung"
+          ],
+          [
+            "Erprobungsphase",
+            "regelt",
+            "Richter"
+          ],
+          [
+            "Richter",
+            "hatRechte",
+            "Erprobungsphase"
+          ],
+          [
+            "Richter",
+            "kannZustimmungVerweigern",
+            "Abordnung"
+          ],
+          [
+            "Einsichtnahme",
+            "istGeeignet",
+            "Tätigkeit"
+          ]
+        ]
+      }
+    }
+  }
+}
