@@ -13,39 +13,32 @@
     "ontology": {
       "classes": [
         "Kabelnetzbetreiber",
-        "Signale",
+        "Signaldurchleitung",
         "Netz",
-        "Verbot",
-        "Duldung",
         "Entschädigung",
         "Rechtsgrundlage",
-        "Autorisierung"
+        "Bandbreite",
+        "autorisierte Signale"
       ],
       "properties": [
-        "erfüllen",
-        "verpflichtet",
-        "verhindern",
-        "nutzen",
         "verbieten",
-        "spielen",
+        "gewähren",
+        "nutzen",
         "sicherstellen",
-        "leiten"
+        "leiten",
+        "verhindern",
+        "gewährleisten"
       ],
       "relationships": [
         [
           "Kabelnetzbetreiber",
-          "erfüllen",
-          "Verbot"
+          "verbieten",
+          "Signaldurchleitung"
         ],
         [
           "Kabelnetzbetreiber",
-          "verpflichtet",
+          "gewähren",
           "Entschädigung"
-        ],
-        [
-          "Kabelnetzbetreiber",
-          "verhindern",
-          "Signale"
         ],
         [
           "Kabelnetzbetreiber",
@@ -54,197 +47,297 @@
         ],
         [
           "Kabelnetzbetreiber",
-          "verbieten",
-          "Nutzung"
+          "sicherstellen",
+          "autorisierte Signale"
         ],
         [
-          "Signale",
-          "spielen",
+          "Signaldurchleitung",
+          "leiten",
           "Netz"
         ],
         [
-          "Kabelnetzbetreiber",
-          "sicherstellen",
-          "Autorisierung"
+          "Signaldurchleitung",
+          "verhindern",
+          "unerwünschte Signale"
         ],
         [
           "Kabelnetzbetreiber",
-          "leiten",
-          "Signale"
+          "verbieten",
+          "gewerbliche Nutzung"
+        ],
+        [
+          "Bandbreite",
+          "spielen",
+          "Signaldurchleitung"
         ]
       ]
     }
   },
-  "Cluster 100": {
+  "Cluster 1": {
     "competency_questions": [
-      "Wie lange ist ein Aufwendungsersatzanspruch des Frachtführers gegen den Auftraggeber verjährungsfrei, wenn der Auftraggeber den Rückgriff auf den Frachtführer begehrt?",
-      "Warum beginnt die Verjährungsfrist für den Aufwendungsersatzanspruch des Frachtführers erst mit der Geltendmachung des Anspruchs durch den Auftraggeber?",
-      "Unter welchen Umständen ist eine Fristsetzung mit Ablehnungsandrohung nicht erforderlich?",
-      "Wer ist verpflichtet, Einwendungen gegen ein schriftlich erstelltes Sachverständigengutachten innerhalb einer angemessenen Frist mitzuteilen?",
-      "Welche Rolle spielt die Entgeltlichkeit einer Garantie bei der Beurteilung einer Wartungsklausel?",
-      "Warum kann eine Umbuchung nicht automatisch als Annullierung betrachtet werden?",
-      "Welche Rechtsfolgen hat eine Annullierung im Vergleich zu einer Verspätung?",
-      "Wer ist für die Entscheidung über eine Annullierung oder Verspätung zuständig, wenn die Tatsachenlage unklar ist?",
-      "Welche Rechtsfolge tritt ein, wenn eine Klage innerhalb der Verjährungsfrist eingereicht wird, aber die Zustellung verzögert wird?",
-      "Welche Rolle spielt der Tag der Einreichung einer Klage bei der Hemmung der Verjährung, insbesondere wenn der letzte Tag der Frist auf einen Sonnabend fällt?",
-      "Wie kann die Verjährungsfrist gehemmt werden?",
-      "Welche Rechtsfolge tritt ein, wenn die Verjährungsfrist abgelaufen ist?",
-      "Wer ist verpflichtet, die Einhaltung der Frist für die Geltendmachung eines Ausgleichsanspruchs zu prüfen?",
-      "Welche Rechtsfolge tritt ein, wenn die Frist für die Geltendmachung eines Ausgleichsanspruchs nicht eingehalten wird?",
-      "Wer ist verantwortlich, wenn die Zustellung der Klageschrift verzögert wird?",
-      "Wer ist verpflichtet, eine Einspruchsfrist festzusetzen, und wie lange dauert diese in der Regel?",
-      "Wann beginnt die Verjährungsfrist für eine Klage, die nicht ordnungsgemäß zugestellt wurde?",
-      "Welche Rolle spielt die Billigungsfrist beim Kauf auf Probe?",
-      "Welche Auswirkungen hat die Rücknahme einer Widerklage auf die Verjährungsfrist?",
-      "Wer ist verpflichtet, eine Frist zur Nachbesserung zu setzen, um einen Schadensersatzanspruch geltend machen zu können?",
-      "Welche Rechtsfolge tritt ein, wenn eine Partei die Einspruchsfrist versäumt hat, und wie kann eine erneute Zustellung des Urteils die Rechtskraft beeinflussen?",
-      "Welche Rolle spielt die rechtzeitige Einlegung eines Rechtsmittels bei der Beurteilung der Prüfbarkeit einer Abrechnung?",
-      "Unter welchen Umständen kann eine Verzögerung der Zustellung der Klageschrift trotz Verschulden der die Zustellung betreibenden Partei noch als 'demnächst' angesehen werden?",
-      "Welche Verjährungsfrist gilt für Ansprüche auf Herausgabe der gezogenen Nutzungen?"
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage erheben darf?",
+      "Wer kann als Kläger in einem Patentnichtigkeitsverfahren auftreten?",
+      "Wie kann ein Kläger von seiner Rechtsschutzmöglichkeit im Patentnichtigkeitsverfahren ausgeschlossen werden?",
+      "Welche Rolle spielt die Rechtsschutzmöglichkeit des Klägers im Patentnichtigkeitsverfahren, wenn er als Strohmann betrachtet wird?",
+      "Welche Gründe können dazu führen, dass die Zulässigkeit einer Patentnichtigkeitsklage verneint wird?",
+      "Welche Bedeutung hat die Möglichkeit der Inanspruchnahme des Klägers aus einem angegriffenen Patent für die Zulässigkeit einer Patentnichtigkeitsklage?",
+      "Wie kann die Beklagte in einem Patentnichtigkeitsverfahren argumentieren, dass der Kläger nicht in der Lage ist, das angegriffene Patent anzuwenden?",
+      "Wie kann die Beklagte in einem Patentnichtigkeitsverfahren argumentieren, dass der Kläger nicht in der Lage ist, das angegriffene Patent zu nutzen?",
+      "Welche Rechtsgrundlage gilt für die Durchsetzung von Ansprüchen aus einer Verletzung von Urheberrechten?"
     ],
     "ontology": {
       "classes": [
-        "Frachtführer",
-        "Auftraggeber",
-        "Anspruch",
-        "Verjährungsfrist",
-        "Gutachten",
-        "Garantie",
-        "Umbuchung",
-        "Annullierung",
-        "Klage",
-        "Verjährung",
-        "Ausgleichsanspruch",
-        "Einspruch",
-        "Frist",
-        "Schadensersatzanspruch",
-        "Rechtsmittel",
-        "Abrechnung",
-        "Zustellung"
+        "Kläger",
+        "Patent",
+        "Patentnichtigkeitsklage",
+        "Rechtsschutzmöglichkeit",
+        "Beklagte"
       ],
       "properties": [
-        "begehrt",
-        "beginnen mit",
-        "ist nicht erforderlich",
-        "verpflichtet",
-        "spielt eine Rolle",
-        "kann nicht automatisch betrachtet werden",
-        "hat Rechtsfolgen",
-        "ist zuständig",
-        "tritt ein",
-        "hemmt",
-        "ist verantwortlich",
-        "setzt",
-        "versäumt",
-        "beeinflussen",
-        "ist noch als 'demnächst' angesehen",
+        "erheben",
+        "erfüllen",
+        "ausschließen",
+        "betrachtet",
+        "verneint",
+        "inanspruchnehmen",
+        "anwenden",
+        "nutzen",
         "gilt"
       ],
       "relationships": [
         [
-          "Auftraggeber",
-          "begehrt",
-          "Aufwendungsersatzanspruch des Frachtführers"
+          "Kläger",
+          "erheben",
+          "Patentnichtigkeitsklage"
         ],
         [
-          "Verjährungsfrist",
-          "beginnen mit",
-          "Geltendmachung des Anspruchs durch den Auftraggeber"
+          "Patentnichtigkeitsklage",
+          "erfüllt",
+          "Voraussetzungen"
         ],
         [
-          "Fristsetzung",
-          "ist nicht erforderlich",
-          "Angemessenheit"
+          "Kläger",
+          "ausgeschlossen",
+          "Rechtsschutzmöglichkeit"
         ],
         [
-          "Beteiligte",
-          "verpflichtet",
-          "Mitteilung von Einwendungen gegen Sachverständigengutachten"
+          "Rechtsschutzmöglichkeit",
+          "betrachtet",
+          "Strohmann"
         ],
         [
-          "Entgeltlichkeit",
-          "spielt eine Rolle",
-          "Beurteilung einer Wartungsklausel"
+          "Patentnichtigkeitsklage",
+          "verneint",
+          "Zulässigkeit"
         ],
         [
-          "Umbuchung",
-          "kann nicht automatisch betrachtet werden",
-          "Annullierung"
+          "Patent",
+          "inanspruchnehmen",
+          "Kläger"
         ],
         [
-          "Annullierung",
-          "hat Rechtsfolgen",
-          "Verspätung"
+          "Beklagte",
+          "argumentieren",
+          "Kläger anwenden"
         ],
         [
-          "Streitpartei",
-          "ist zuständig",
-          "Entscheidung über Annullierung oder Verspätung"
+          "Beklagte",
+          "argumentieren",
+          "Kläger nutzen"
         ],
         [
-          "Klage",
-          "tritt ein",
-          "Verzögerung der Zustellung"
-        ],
-        [
-          "Verjährungsfrist",
-          "hemmt",
-          "Geltendmachung eines Anspruchs"
-        ],
-        [
-          "Verjährungsfrist",
-          "tritt ein",
-          "Ablauf der Frist"
-        ],
-        [
-          "Beteiligte",
-          "verpflichtet",
-          "Prüfung der Einhaltung der Frist für die Geltendmachung eines Ausgleichsanspruchs"
-        ],
-        [
-          "Ausgleichsanspruch",
-          "tritt ein",
-          "Versäumnis der Frist"
-        ],
-        [
-          "Beteiligte",
-          "verpflichtet",
-          "Festsetzung einer Einspruchsfrist"
-        ],
-        [
-          "Verjährungsfrist",
-          "beginnen mit",
-          "ordnungsgemäße Zustellung der Klage"
-        ],
-        [
-          "Billigungsfrist",
-          "spielt eine Rolle",
-          "Kauf auf Probe"
-        ],
-        [
-          "Rücknahme",
-          "beeinflussen",
-          "Verjährungsfrist"
-        ],
-        [
-          "Beteiligte",
-          "verpflichtet",
-          "Frist zur Nachbesserung"
-        ],
-        [
-          "Einspruch",
-          "versäumt",
-          "Rechtskraft des Urteils"
-        ],
-        [
-          "Verzögerung",
-          "ist noch als 'demnächst' angesehen",
-          "Verschulden der die Zustellung betreibenden Partei"
-        ],
-        [
-          "Anspruch",
+          "Urheberrechtsverletzung",
           "gilt",
-          "Herausgabe der gezogenen Nutzungen"
+          "Rechtsgrundlage"
+        ]
+      ]
+    }
+  },
+  "Cluster 10": {
+    "competency_questions": [
+      "Welche Rechte hat ein Eigentümer, wenn er das Eigentum an einem Grundstück aufgrund einer fehlerhaften Auflassung verloren hat?",
+      "Welche Rechtsgrundlage gilt für den Fall, dass ein Eigentümer das Eigentum an einem Grundstück aufgrund einer Schenkung verloren hat?",
+      "Welche Rechte hat ein Eigentümer, wenn er das Eigentum an einem Grundstück aufgrund einer unentgeltlichen Übertragung verloren hat?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Überbau auf fremdem Grundstück rechtmäßig ist?",
+      "Welche Rechte hat der Eigentümer des überbauten Grundstücks, wenn der Überbau auf vertraglicher Grundlage erfolgte?",
+      "Wie kann der Eigentümer des überbauten Grundstücks nach dem Wechsel des Eigentums am Stammgrundstück seine Rechte am Überbau behalten?",
+      "Welche Rechtsgrundlage gilt für die Herausgabe der Teilfläche, die Bestandteil des Grundstücks ist, auf dem der Nießbrauch lastet?",
+      "Wie kann der Eigentümer des überbauten Grundstücks seine Rechte am Überbau schützen, wenn der Überbau auf seinem Grundstück errichtet wurde, ohne seine Zustimmung einzuholen?",
+      "Welche Rechtsfolgen treten ein, wenn der Eigentümer des Stammgrundstücks das Überbauen seines Grundstücks gestattet hat, aber der Überbau auf vertraglicher Grundlage erfolgte?",
+      "Wie kann der Eigentümer des überbauten Grundstücks seine Rechte am Überbau schützen, wenn der Überbau auf seinem Grundstück errichtet wurde, ohne seine Zustimmung einzoholen, aber der Überbau auf vertraglicher Grundlage erfolgte?",
+      "Welche Rolle spielt der Wechsel des Eigentums am Stammgrundstück für die Rechtslage des Überbaus?",
+      "Wie ist die Aufrechnung in diesem Fall zu behandeln, insbesondere im Hinblick auf die nicht von der Beschlagnahme erfassten Fremdflächen?",
+      "Unter welchen Voraussetzungen kann ein Bergbauberechtigter nach § 8 Abs. 2 BBergG einen Beseitigungsanspruch geltend machen?",
+      "Welche Rechte hat ein Grundstückseigentümer gegenüber einem Bergbauberechtigten, der eine Grundabtretung nach § 77 BBergG beantragt?",
+      "Wie ist die Rechtsstellung eines Bergbauberechtigten im Vergleich zu der eines Grundstückseigentümers zu bewerten?",
+      "Welche Rechte hat ein Bergbauberechtigter an der Grundstücksoberfläche, die von seinem Gewinnungsrecht erfasst ist?",
+      "Welche Rolle spielt die verfassungsrechtliche Bestandsgarantie für das Grundstückseigentum (Art. 14 Abs. 1 GG) im Konflikt zwischen Bergbauberechtigtem und Grundstückseigentümer?",
+      "Was gilt als wesentliche Beeinträchtigung der Grundstücksnutzung im Sinne des § 906 Abs. 2 Satz 1 BGB?",
+      "Wie kann eine wesentliche Beeinträchtigung der Grundstücksnutzung durch wirtschaftlich zumutbare Maßnahmen verhindert werden?",
+      "Welche Rolle spielt der Bezug zu dem beeinträchtigten Grundstück bei der Gewährung eines Ausgleichsanspruchs nach § 906 Abs. 2 Satz 2 BGB?",
+      "Wie kann die Ortsüblichkeit der Benutzung des emittierenden Grundstücks festgestellt werden?",
+      "Welche Rolle spielt die Teilungserklärung bei der Beschlusskompetenz zur Regelung der Nutzung von Rasenflächen?",
+      "Welche Rolle spielt das Alter eines Bauteils bei der Beurteilung der Beschaffenheit eines bebauten Grundstücks im Rahmen des § 434 Abs. 1 Satz 3 BGB?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Eigentumsverletzung im Sinne des § 823 Abs. 1 BGB vorliegt, wenn das Grundstück bereits mit einem Mangel behaftet ist?",
+      "Wer ist verpflichtet, die Raumbeständigkeit von Schlacke zu berücksichtigen, wenn sie als Füllmaterial für Grundstücke verwendet wird?",
+      "Welche Rolle spielt das Integritätsinteresse des Eigentümers bei einer Eigentumsverletzung, wenn das Grundstück bereits mit einem Mangel behaftet ist?",
+      "Wie kann ein Eigentümer seinen Schadenersatzanspruch geltend machen, wenn das Grundstück bereits mit einem Mangel behaftet ist, der erst später sichtbar wird?",
+      "Welche Rechtsgrundlage gilt für die Haftung eines Dritten, wenn er Schlacke auf ein Grundstück liefert, ohne die Bebaubarkeit des Grundstücks zu berücksichtigen?",
+      "Wie kann ein Eigentümer nachweisen, dass sein Eigentum durch eine Volumenvergrößerung von Schlacke verletzt wurde, wenn die Schlacke bereits im Grundstück vorhanden war, bevor er es erworben hat?",
+      "Welche Bedingungen müssen erfüllt sein, damit ein Schadenersatzanspruch aus unerlaubter Handlung geltend gemacht werden kann, wenn das Grundstück bereits mit einem Mangel behaftet ist?",
+      "Wer ist verpflichtet, wesentliche Geräuscheinwirkungen auf Grundstücke zu dulden, wenn sie durch die ortsübliche Benutzung eines anderen Grundstücks verursacht werden?",
+      "Wie ist der Interessenkonflikt zwischen den Eigentümern eines emittierenden und eines beeinträchtigten Grundstücks im Rahmen von § 906 BGB zu berücksichtigen?",
+      "Wer ist verpflichtet, dem Eigentümer den Wert seiner Nutzung des Grundstücks zu ersetzen, wenn er nicht berechtigt ist, das Grundstück zu nutzen?",
+      "Wie wird der Wert der Nutzung des Grundstücks berechnet?",
+      "Wie kann der räumliche Umfang des Alleinvertriebsrechts bestimmt werden?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Mehrerlös aus dem Weiterverkauf eines ehemals volkseigenen Grundstücks ausgekehrt werden muss?",
+      "Wie ist der Mehrerlös zu berechnen, wenn beide Grundstücke zu unterschiedlichen Preisen weiterverkauft werden?",
+      "Welche Rolle spielt das Interesse der Parteien bei der Bewertung der Grundstücke im Rahmen eines Weiterverkaufs?",
+      "Welche Rechtsgrundlage gilt für die Auskehrung des Mehrerlöses im Falle des Weiterverkaufs ehemals volkseigenen Grundstücks?",
+      "Welche Rechtsgrundlage gilt für die Haftung eines Dritten, der in Ausführung eines Auftrags handelt?",
+      "Welche Rechtsgrundlage gilt für die Haftung eines Dritten, der ohne Wissen und Willen des Eigentümers eine Sache in Besitz nimmt?",
+      "Wer hat Anspruch auf Zahlung eines angemessenen Ausgleichs in Geld, wenn Geräuschemissionen die ortsübliche Benutzung eines Grundstücks über das zumutbare Maß hinaus beeinträchtigen?",
+      "Welche Rolle spielt die Geltendmachung von Ansprüchen auf künftige Nutzungsentschädigung aus dem Eigentümer-Besitzer-Verhältnis in Bezug auf die Verjährung?",
+      "Welche Rechte hat ein Mieter, der Baulichkeiten errichtet, die zu wesentlichen Bestandteilen des Grundstücks werden, wenn er das Grundstück verlassen muss?",
+      "Welche Rechtsfolge tritt ein, wenn ein Mieter Baulichkeiten errichtet, die zu wesentlichen Bestandteilen des Grundstücks werden, und er das Grundstück verlassen muss?",
+      "Welche Rechtsgrundlage gilt für die Geltendmachung von Bereicherungsansprüchen, wenn ein Mieter Baulichkeiten errichtet, die zu wesentlichen Bestandteilen des Grundstücks werden?",
+      "Was geschieht, wenn das Sondereigentum nicht abgenommen wird?"
+    ],
+    "ontology": {
+      "classes": [
+        "Eigentümer",
+        "Grundstück",
+        "Schenkung",
+        "Übertragung",
+        "Überbau",
+        "Nießbrauch",
+        "Bergbauberechtigter",
+        "Geräuschemission",
+        "Mieter",
+        "Baulichkeit"
+      ],
+      "properties": [
+        "verlieren",
+        "basiert auf",
+        "errichten",
+        "beeinträchtigen",
+        "dulden",
+        "ersetzen",
+        "auskehren"
+      ],
+      "relationships": [
+        [
+          "Eigentümer",
+          "verlieren",
+          "Grundstück"
+        ],
+        [
+          "Schenkung",
+          "basiert auf",
+          "Übertragung"
+        ],
+        [
+          "Eigentümer",
+          "errichten",
+          "Überbau"
+        ],
+        [
+          "Nießbrauch",
+          "lastet auf",
+          "Grundstück"
+        ],
+        [
+          "Geräuschemission",
+          "beeinträchtigen",
+          "Grundstück"
+        ],
+        [
+          "Eigentümer",
+          "dulden",
+          "Geräuschemission"
+        ],
+        [
+          "Mieter",
+          "errichten",
+          "Baulichkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 101": {
+    "competency_questions": [
+      "Wer ist verpflichtet, den Vertrauensschaden nach § 648 a Abs. 5 Satz 2 BGB zu ersetzen, wenn der Unternehmer seine Pflichten nicht erfüllt?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Firmenfortführung nach § 25 Abs. 1 Satz 1 HGB die Haftung des neuen Inhabers für die Verbindlichkeiten des früheren Inhabers auslöst?",
+      "Wer ist verpflichtet, für alle im Betrieb des Geschäfts begründeten Verbindlichkeiten des früheren Inhabers zu haften, wenn er ein unter Lebenden erworbenes Handelsgeschäft unter der bisherigen Firma fortführt?",
+      "Wie beeinflusst die Eröffnung eines Insolvenzverfahrens über das Vermögen des fortgeführten Unternehmens die Anwendbarkeit von § 25 Abs. 1 Satz 1 HGB?",
+      "Welche Rolle spielt das Vertragsstatut bei der Haftung des Erwerbers aus einer Firmenfortführung für Verbindlichkeiten des fortgeführten Unternehmens?",
+      "Warum ist § 25 Abs. 1 Satz 1 HGB nicht anwendbar, wenn der neue Inhaber das Handelsgeschäft nach der Eröffnung des Insolvenzverfahrens über das Vermögen des früheren Inhabers aufnimmt?",
+      "Welche Rechtsgrundlage gilt für die Haftung des neuen Inhabers, wenn er das Handelsgeschäft des früheren Inhabers unter der bisherigen Firma fortführt, ohne dass ein Insolvenzverfahren eröffnet wurde?",
+      "Wie beeinflussen Kunden- und Lieferantenbeziehungen die Entscheidung, ob eine Firmenfortführung nach § 25 Abs. 1 Satz 1 HGB die Haftung des neuen Inhabers für die Verbindlichkeiten des früheren Inhabers auslöst?",
+      "Welche Bedeutung hat die Firmenfortführung gemäß § 25 HGB für die Haftung eines Unternehmens im Zusammenhang mit fehlerhaften Produkten?"
+    ],
+    "ontology": {
+      "classes": [
+        "Unternehmer",
+        "Inhaber",
+        "Handelsgeschäft",
+        "Verbindlichkeit",
+        "Insolvenzverfahren",
+        "Kunde",
+        "Lieferant",
+        "Produkt"
+      ],
+      "properties": [
+        "verpflichtet",
+        "erfüllt",
+        "begründet",
+        "auslöst",
+        "beeinflusst",
+        "gilt",
+        "fortführt",
+        "haftet",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Unternehmer",
+          "verpflichtet",
+          "Vertrauensschaden"
+        ],
+        [
+          "Firmenfortführung",
+          "auslöst",
+          "Haftung"
+        ],
+        [
+          "Handelsgeschäft",
+          "begründet",
+          "Verbindlichkeit"
+        ],
+        [
+          "Insolvenzverfahren",
+          "beeinflusst",
+          "Anwendbarkeit"
+        ],
+        [
+          "Vertragsstatut",
+          "betrifft",
+          "Haftung"
+        ],
+        [
+          "Neuer Inhaber",
+          "fortführt",
+          "Handelsgeschäft"
+        ],
+        [
+          "Kunde",
+          "Lieferant",
+          "beeinflussen"
+        ],
+        [
+          "Firmenfortführung",
+          "betrifft",
+          "Produkt"
         ]
       ]
     }
@@ -278,8 +371,7 @@
         "bedeuten",
         "wirken",
         "auslegen",
-        "wirksamWerden",
-        "bestimmen"
+        "wirksamWerden"
       ],
       "relationships": [
         [
@@ -305,12 +397,12 @@
         [
           "§278Abs.6ZPO",
           "bedeuten",
-          "Widerruf"
+          "Auslegung"
         ],
         [
           "Prozessvergleich",
           "wirken",
-          "Widerrufadressat"
+          "Rechtsnatur"
         ],
         [
           "KaufAufProbe",
@@ -346,77 +438,81 @@
         "Beschlussfassung",
         "Hauptmieter",
         "Endmieter",
-        "Mietverhältnis",
-        "Vergleichsgrundlage",
-        "Vergleich",
+        "Vergleichsmiete",
+        "Neu- und Bestandsmieten",
+        "Zustellung",
+        "Versäumnisurteil",
+        "Einspruchsfrist",
         "Räumungsvergleich",
         "Untermietverhältnis",
-        "Versäumnisurteil",
-        "Einspruch",
-        "Zustellung"
+        "Vergleichsgrundlage",
+        "Rechtsgrundlage"
       ],
       "properties": [
         "spieltRolle",
         "hatAuswirkungen",
-        "hemmt",
-        "machtUnwirksam",
-        "istVerwandtMit",
-        "betrachtetAls",
-        "berücksichtigt",
-        "ermittelt",
-        "beendet",
+        "betrifft",
+        "kannUnwirksamMachen",
+        "istVerhältnis",
+        "betrifftBerücksichtigung",
+        "betrifftArt",
+        "betrifftBeendigung",
         "hatBedeutung",
-        "giltAlsRechtsgrundlage",
+        "giltFür",
         "mussErfülltSein",
-        "istVerwandtMit",
         "hatAuswirkungenAuf",
-        "istWirksam"
+        "istGrundlage"
       ],
       "relationships": [
         [
           "Verjährung",
-          "hemmt",
+          "hatAuswirkungen",
           "Mangel"
         ],
         [
           "Erbanteil",
-          "hatAuswirkungenAuf",
+          "betrifft",
           "Erbengemeinschaft"
         ],
         [
           "Erbengemeinschaft",
-          "beinhaltet",
+          "betrifft",
           "Miterbe"
         ],
         [
           "Sonderumlage",
-          "machtUnwirksam",
+          "kannUnwirksamMachen",
           "Beschlussfassung"
         ],
         [
           "Hauptmieter",
-          "istVerwandtMit",
+          "istVerhältnis",
           "Endmieter"
         ],
         [
-          "Mietverhältnis",
-          "beendet",
+          "Vergleichsmiete",
+          "betrifftBerücksichtigung",
+          "Neu- und Bestandsmieten"
+        ],
+        [
+          "Zustellung",
+          "betrifftArt",
+          "Versäumnisurteil"
+        ],
+        [
+          "Räumungsvergleich",
+          "betrifftBeendigung",
           "Untermietverhältnis"
         ],
         [
           "Vergleichsgrundlage",
-          "machtWirksam",
+          "hatBedeutung",
           "Vergleich"
         ],
         [
-          "Räumungsvergleich",
-          "beendet",
-          "Untermietverhältnis"
-        ],
-        [
-          "Versäumnisurteil",
-          "istVerwandtMit",
-          "Einspruch"
+          "Verjährung",
+          "giltFür",
+          "Rechtsgrundlage"
         ],
         [
           "Einspruch",
@@ -424,7 +520,7 @@
           "Bedingungen"
         ],
         [
-          "Zustellung",
+          "unwirksameZustellung",
           "hatAuswirkungenAuf",
           "Einspruchsfrist"
         ]
@@ -445,7 +541,7 @@
       "classes": [
         "Genehmigungsbedürftigkeit",
         "Nutzungsänderung",
-        "arglistigeTäuschung",
+        "ArglistigeTäuschung",
         "Beweis",
         "Schenkungserklärung",
         "SelbständigesBeweisverfahren",
@@ -453,22 +549,19 @@
         "Betriebsplanzulassung",
         "Sachverständigengutachten",
         "Beweislast",
-        "Berechtigter",
-        "Herausgabe",
-        "Nutzung",
         "Bürge",
         "Hauptschuld",
         "SchriftlicheBegutachtung"
       ],
       "properties": [
         "hatBedeutung",
-        "müssenErfülltSein",
         "müssenErbrachtWerden",
-        "müssenErfülltSeinUm",
+        "müssenErfülltSein",
+        "müssenGestelltWerden",
         "mussNachweisen",
-        "giltAlsBeendet",
-        "trägtDarlegungsUndBeweislast",
-        "giltFürDieBeendigung"
+        "tragenDarlegungsUndBeweislast",
+        "giltFürDieBeendigung",
+        "sindVoraussetzungen"
       ],
       "relationships": [
         [
@@ -479,7 +572,7 @@
         [
           "Nutzungsänderung",
           "hatBedeutung",
-          "arglistigeTäuschung"
+          "ArglistigeTäuschung"
         ],
         [
           "Beweis",
@@ -488,71 +581,33 @@
         ],
         [
           "SelbständigesBeweisverfahren",
-          "giltAlsBeendet",
-          "Anspruch"
+          "müssenErfülltSein",
+          "Beendigung"
+        ],
+        [
+          "Beendigung",
+          "giltFürDieBeendigung",
+          "SchriftlicheBegutachtung"
         ],
         [
           "Betriebsplanzulassung",
-          "müssenErfülltSein",
-          "Sachverständigengutachten"
+          "müssenGestelltWerden",
+          "Beweislast"
         ],
         [
           "Beweislast",
-          "müssenErfülltSein",
-          "Betriebsplanzulassung"
-        ],
-        [
-          "Berechtigter",
-          "mussNachweisen",
-          "Herausgabe"
-        ],
-        [
-          "Herausgabe",
-          "betrifft",
-          "Nutzung"
+          "tragenDarlegungsUndBeweislast",
+          "Bürge"
         ],
         [
           "Bürge",
-          "trägtDarlegungsUndBeweislast",
+          "tragenDarlegungsUndBeweislast",
           "Hauptschuld"
         ],
         [
-          "SchriftlicheBegutachtung",
-          "giltFürDieBeendigung",
-          "SelbständigesBeweisverfahren"
-        ]
-      ]
-    }
-  },
-  "Cluster 105": {
-    "competency_questions": [
-      "Wer ist verpflichtet, die zweckentsprechende Verwendung von Geld zu überwachen, wenn er eine Rechnung stellt?",
-      "Wer ist verpflichtet, die Liquidität der Gesellschaft zu berücksichtigen, wenn eine Vergütung entnommen wird?",
-      "Welche Rechte haben Versicherte, wenn die Beklagte den satzungsgemäßen Vorgaben für die Überschussbeteiligung nicht nachkommt?",
-      "Welche Mindestangaben müssen in einer Rechnung enthalten sein, um dem Zahlungspflichtigen eine Nachprüfung zu ermöglichen?",
-      "Wer ist verpflichtet, erlangte Geldmittel herauszugeben, wenn sie nicht mehr vorhanden sind, aber nicht zu dem vorgesehenen Zweck verwendet wurden?",
-      "Welche Bedeutung hat die Zahlungsklage im Zusammenhang mit der Feststellung einer Forderung in die Schlußrechnung?",
-      "Wer ist verpflichtet, die Einlageverbindlichkeit zu erfüllen, wenn die ursprüngliche Einzahlung als verdeckte Finanzierung gilt?",
-      "Wie kann eine Einlageverbindlichkeit trotz verdeckter Finanzierung erfüllt werden?",
-      "Wer kann von einer Drittschuldnerin Zahlungen zurückverlangen, wenn diese auf eine unwirksame Pfändung gezahlt hat?",
-      "Welche Verpflichtungen haben die Beklagten im Hinblick auf Steuervorteile, die sie durch die Fondsbeteiligung erlangt haben, im Wege des Vorteilsausgleichs?",
-      "Wer ist verpflichtet, den Nachweis der Aufbringung von Stammeinlagen zu erbringen, wenn die Einlagen nach einem längeren Zeitabstand seit der behaupteten Zahlung und einem späteren Erwerb der Geschäftsanteile in Frage gestellt werden?",
-      "Wer ist berechtigt, Netznutzungsentgelte auf ihre Billigkeit hin zu überprüfen?",
-      "Wer trägt die Darlegungs- und Beweislast für die Mängelfreiheit des Sondereigentums, wenn dieses nicht abgenommen wurde?"
-    ],
-    "ontology": {
-      "classes": [
-        "Arbeitnehmer",
-        "Sozialversicherungsnummer"
-      ],
-      "properties": [
-        "hatIdentifikation"
-      ],
-      "relationships": [
-        [
-          "Arbeitnehmer",
-          "hatIdentifikation",
-          "Sozialversicherungsnummer"
+          "Hauptschuld",
+          "istVoraussetzungFür",
+          "Beweislast"
         ]
       ]
     }
@@ -570,62 +625,759 @@
     ],
     "ontology": {
       "classes": [
-        "RichterAufLebenszeit",
+        "Richter",
         "Oberlandesgericht",
         "Erprobung",
         "Richteramt",
         "DRiG"
       ],
       "properties": [
-        "erfülltVoraussetzungen",
-        "kannAbgeordnetWerden",
-        "wirdGewährleistet",
-        "spieltRolle",
+        "erfüllt",
+        "kann",
+        "wird gewährleistet",
+        "spielt",
         "regelt",
-        "hatRechte",
-        "kannZustimmungVerweigern",
-        "istGeeignet"
+        "hat",
+        "kann verweigern",
+        "kann sein"
       ],
       "relationships": [
         [
-          "RichterAufLebenszeit",
-          "erfülltVoraussetzungen",
-          "Erprobung"
+          "Richter",
+          "erfüllt",
+          "Voraussetzungen"
         ],
         [
-          "RichterAufLebenszeit",
-          "kannAbgeordnetWerden",
-          "Oberlandesgericht"
+          "Richter",
+          "kann",
+          "abgeordnet werden"
         ],
         [
           "DRiG",
-          "wirdGewährleistet",
-          "RichterAufLebenszeit"
+          "wird gewährleistet",
+          "Unabhängigkeit"
         ],
         [
           "Erprobung",
-          "spieltRolle",
-          "Bewerbung"
+          "spielt",
+          "Rolle"
         ],
         [
           "Erprobung",
           "regelt",
-          "RichterAufLebenszeit"
+          "Rechtsgrundlage"
         ],
         [
-          "RichterAufLebenszeit",
-          "hatRechte",
-          "Erprobung"
+          "Richter",
+          "hat",
+          "Rechte"
         ],
         [
-          "RichterAufLebenszeit",
-          "kannZustimmungVerweigern",
-          "Abordnung"
+          "Richter",
+          "kann verweigern",
+          "Zustimmung"
         ],
         [
           "Einsichtnahme",
-          "istGeeignet",
-          "Tätigkeit"
+          "kann sein",
+          "auswirken"
+        ]
+      ]
+    }
+  },
+  "Cluster 107": {
+    "competency_questions": [
+      "Welche Rechtsgrundlage gilt für die Verrechnung eines Schadensersatzanspruchs mit einer Werklohnforderung?",
+      "Wie kann eine Gesellschafterin ihre Treuepflichten verletzen, wenn sie ihre Vergütung entnimmt?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Gesellschafterin ihre Vergütung entnehmen kann, ohne ihre Treuepflichten zu verletzen?",
+      "Welche Bedingungen müssen erfüllt sein, damit ein Arbeitnehmer eine Lohnfortzahlung im Krankheitsfall beanspruchen kann?",
+      "Wer trägt die Verantwortung, die übliche Vergütung für eine Werkleistung nachzuweisen?",
+      "Unter welchen Bedingungen kann ein Werklohnanspruch durch die Aufrechnung mit Mehraufwendungen erlöschen?",
+      "Welche Bedingungen müssen erfüllt sein, damit ein Arbeitnehmer Schadensersatz wegen nicht gezahlter Vergütung fordern kann?",
+      "Welche Rechtsgrundlage gilt für die Verpflichtung zur Mängelbeseitigung und Schadensersatz bei Werkverträgen?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Gericht ein Vorbehaltsurteil über die Werklohnforderung erlassen kann, wenn der Besteller mit einem Anspruch auf Ersatz von Mängelbeseitigungskosten aufrechnet?",
+      "Wer ist berechtigt, eine Aufrechnung mit einem Anspruch auf Ersatz von Verzugsschäden gegenüber Werklohnforderungen vorzunehmen?",
+      "Wie kann ein Besteller seine Werklohnforderung durch eine Verrechnung mit einem Anspruch auf Ersatz von Mängelbeseitigungskosten gefährden?",
+      "Welche Rechtsgrundlage gilt für die Aufrechnung mit einem Anspruch auf Ersatz von Fertigstellungsmehrkosten gegenüber einer Werklohnforderung?",
+      "Welche Rechtsfolge tritt ein, wenn ein Besteller seine Werklohnforderung durch eine Aufrechnung mit einem Anspruch auf Ersatz von Mängelbeseitigungskosten durchsetzen will?",
+      "Welche Gegenforderung kann nicht zur Aufrechnung mit einer Werklohnforderung herangezogen werden, wenn sie nicht in einem rechtlichen Zusammenhang mit der Klageforderung steht?",
+      "Unter welchen Bedingungen kann eine Klausel, die Standzeiten nicht extra vergütet, unwirksam sein?",
+      "Welche Gründe können dazu führen, dass ein Gericht von seinem Ermessen Gebrauch macht und ein Vorbehaltsurteil erlässt, obwohl der Besteller mit Ansprüchen auf Ersatz von Mängelbeseitigungskosten aufrechnet?"
+    ],
+    "ontology": {
+      "classes": [
+        "Rechtsgrundlage",
+        "Schadensersatzanspruch",
+        "Werklohnforderung",
+        "Gesellschafterin",
+        "Treuepflicht",
+        "Vergütung",
+        "Arbeitnehmer",
+        "Lohnfortzahlung",
+        "Verantwortung",
+        "Werkleistung",
+        "Werklohnanspruch",
+        "Mehraufwendungen",
+        "Mängelbeseitigung",
+        "Schadensersatz",
+        "Vorbehaltsurteil",
+        "Besteller",
+        "Verzugsschäden",
+        "Fertigstellungsmehrkosten",
+        "Gegenforderung",
+        "Klausel",
+        "Standzeiten",
+        "Gericht"
+      ],
+      "properties": [
+        "gilt für",
+        "verletzen",
+        "entnehmen kann",
+        "erfüllt sein",
+        "beanspruchen kann",
+        "tragen die Verantwortung",
+        "erlöschen",
+        "fordern kann",
+        "gilt für",
+        "erlassen kann",
+        "berechtigt",
+        "gefährden",
+        "gilt für",
+        "tritt ein",
+        "herangezogen werden",
+        "unwirksam sein",
+        "führt",
+        "machen"
+      ],
+      "relationships": [
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Gesellschafterin",
+          "verletzen",
+          "Treuepflicht"
+        ],
+        [
+          "Gesellschafterin",
+          "entnehmen kann",
+          "Vergütung"
+        ],
+        [
+          "Arbeitnehmer",
+          "erfüllt sein",
+          "Lohnfortzahlung"
+        ],
+        [
+          "Verantwortung",
+          "tragen",
+          "Werkleistung"
+        ],
+        [
+          "Werklohnanspruch",
+          "erlöschen",
+          "Mehraufwendungen"
+        ],
+        [
+          "Arbeitnehmer",
+          "fordern kann",
+          "Schadensersatz"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Mängelbeseitigung"
+        ],
+        [
+          "Gericht",
+          "erlassen kann",
+          "Vorbehaltsurteil"
+        ],
+        [
+          "Besteller",
+          "berechtigt",
+          "Aufrechnung"
+        ],
+        [
+          "Besteller",
+          "gefährden",
+          "Werklohnforderung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Fertigstellungsmehrkosten"
+        ],
+        [
+          "Rechtsfolge",
+          "tritt ein",
+          "Aufrechnung"
+        ],
+        [
+          "Gegenforderung",
+          "herangezogen werden",
+          "Werklohnforderung"
+        ],
+        [
+          "Klausel",
+          "unwirksam sein",
+          "Standzeiten"
+        ],
+        [
+          "Gericht",
+          "machen",
+          "Ermessen"
+        ]
+      ]
+    }
+  },
+  "Cluster 108": {
+    "competency_questions": [
+      "Welche Rolle spielt das niederländische Recht bei der Beurteilung eines Aufwendungsersatzanspruchs des Frachtführers gegen den Auftraggeber?",
+      "Welche Rolle spielt die Unterschrift des Empfängers bei der Haftung des Frachtführers?",
+      "Welche Rechte hat der Geschädigte gegenüber dem Sachverständigen, wenn dieser seinen vertraglichen Honoraranspruch geltend macht?",
+      "Welche Rolle spielt die unmittelbare Anwesenheit des Maklers beim Vertragsabschluss für den Courtageanspruch?",
+      "Welche Rechtsgrundlage gilt für die Haftung des Beklagten zu 2 im Zusammenhang mit der Oberaufsicht über die mit der Geschäftsführung betrauten Personen?",
+      "Welche Bedeutung hat die Unterzeichnung des Bauantrags durch den Geschäftsführer der Beklagten?",
+      "Wer ist verpflichtet, eine beglaubigte Abschrift der Klageschrift zuzustellen?",
+      "Welche Rechtsfolge tritt ein, wenn die Klageschrift nicht in beglaubigter Abschrift zugestellt wird?",
+      "Welche Rolle spielt die öffentliche Zustellung einer Klage, wenn die beglaubigte Abschrift nicht auf der Geschäftsstelle vorhanden ist?",
+      "Wie kann die Beglaubigung einer Abschrift der Klageschrift vorgenommen werden?",
+      "Welche Rechtsgrundlage gilt für den Regress des Frachtführers gegen den Auftraggeber im Falle von Zollgebühren?"
+    ],
+    "ontology": {
+      "classes": [
+        "Recht",
+        "Aufwendungsersatzanspruch",
+        "Frachtführer",
+        "Auftraggeber",
+        "Haftung",
+        "Empfänger",
+        "Sachverständiger",
+        "Geschädigter",
+        "Vertrag",
+        "Makler",
+        "Bauantrag",
+        "Klage",
+        "Zollgebühr"
+      ],
+      "properties": [
+        "spieltRolle",
+        "geltendMachen",
+        "betrifft",
+        "betrifftImZusammenhangMit",
+        "hatBedeutung",
+        "verpflichtet",
+        "trittEin",
+        "kannVorgeommenWerden",
+        "giltFür"
+      ],
+      "relationships": [
+        [
+          "Recht",
+          "spieltRolle",
+          "Aufwendungsersatzanspruch"
+        ],
+        [
+          "Frachtführer",
+          "geltendMachen",
+          "Aufwendungsersatzanspruch"
+        ],
+        [
+          "Auftraggeber",
+          "betrifft",
+          "Aufwendungsersatzanspruch"
+        ],
+        [
+          "Empfänger",
+          "spieltRolle",
+          "Haftung"
+        ],
+        [
+          "Empfänger",
+          "unterschreibt",
+          "Haftung"
+        ],
+        [
+          "Sachverständiger",
+          "geltendMachen",
+          "Honoraranspruch"
+        ],
+        [
+          "Geschädigter",
+          "betrifft",
+          "Honoraranspruch"
+        ],
+        [
+          "Makler",
+          "spieltRolle",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "Courtageanspruch"
+        ],
+        [
+          "Beklagter",
+          "betrifftImZusammenhangMit",
+          "Haftung"
+        ],
+        [
+          "Bauantrag",
+          "unterzeichnetVon",
+          "Beklagter"
+        ],
+        [
+          "Klage",
+          "verpflichtet",
+          "Zustellung"
+        ],
+        [
+          "Klage",
+          "trittEin",
+          "Rechtsfolge"
+        ],
+        [
+          "Klage",
+          "betrifft",
+          "Zustellung"
+        ],
+        [
+          "Zustellung",
+          "kannVorgeommenWerden",
+          "Beglaubigung"
+        ],
+        [
+          "Frachtführer",
+          "giltFür",
+          "Regress"
+        ]
+      ]
+    }
+  },
+  "Cluster 11": {
+    "competency_questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Abtretungsklausel wirksam ist?",
+      "Wer ist verpflichtet, die Transparenz einer Abtretungsklausel sicherzustellen?",
+      "Wie kann eine unklare Abtretungsklausel zur Unwirksamkeit der gesamten Klausel führen?",
+      "Welche Rechtsfolge tritt ein, wenn eine Abtretungsklausel unwirksam ist?",
+      "Welche Rolle spielt die Verständlichkeit einer Abtretungsklausel für ihre Wirksamkeit?",
+      "Welche Bedingungen müssen für eine wirksame Abtretung eines Anspruchs erfüllt sein?"
+    ],
+    "ontology": {
+      "classes": [
+        "Abtretungsklausel",
+        "Voraussetzung",
+        "Anspruch",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "istWirksam",
+        "sichertTransparenz",
+        "führtZurUnwirksamkeit",
+        "trittEin",
+        "spieltRolle",
+        "istWirksam"
+      ],
+      "relationships": [
+        [
+          "Abtretungsklausel",
+          "istWirksam",
+          "Voraussetzung"
+        ],
+        [
+          "Abtretungsklausel",
+          "sichertTransparenz",
+          "Verpflichtung"
+        ],
+        [
+          "Abtretungsklausel",
+          "führtZurUnwirksamkeit",
+          "Unklarheit"
+        ],
+        [
+          "Abtretungsklausel",
+          "trittEin",
+          "Rechtsfolge"
+        ],
+        [
+          "Abtretungsklausel",
+          "spieltRolle",
+          "Verständlichkeit"
+        ],
+        [
+          "Abtretungsklausel",
+          "istWirksam",
+          "Bedingung"
+        ]
+      ]
+    }
+  },
+  "Cluster 110": {
+    "competency_questions": [
+      "Welche Verantwortlichkeit hat ein Unternehmer für Mängel eines von ihm erstellten Werkes, wenn er nicht alleine für dessen Errichtung verantwortlich ist? (Berücksichtigen Sie das Beispiel der Klägerin und der G. GmbH)",
+      "Welche Hinweispflichten hat ein Unternehmer gegenüber seinem Kunden bezüglich der Tauglichkeit eines Werkes? (Berücksichtigen Sie § 241 Abs. 2 BGB)",
+      "Wie kann ein Besteller seine Rechte geltend machen, wenn der Unternehmer die Mängelbeseitigung verweigert?",
+      "Unter welchen Bedingungen ist der Unternehmer von seiner Pflicht zur Vertragserfüllung frei?",
+      "Welche Rechtsfolge tritt ein, wenn der Unternehmer seine Pflichten nicht erfüllt und der Besteller keine Einreden geltend macht?",
+      "Wer ist verpflichtet, den tatsächlichen Hersteller eines Produkts zu ermitteln, wenn dieser nicht auf dem Produkt angegeben ist?",
+      "Welche Rolle spielt der Zeitpunkt des Inverkehrbringens eines Produkts bei der Haftung des Herstellers oder Lieferanten nach dem ProdHaftG?",
+      "Welche Rechtsgrundlage gilt für die Haftung eines Quasi-Herstellers, der sich durch das Anbringen seines Namens oder Kennzeichens als Hersteller ausgibt?",
+      "Wie kann ein Unternehmen seine Haftung als Quasi-Hersteller vermeiden, wenn es den Namen oder das Kennzeichen eines anderen Unternehmens verwendet?",
+      "Welche Rechte hat ein Anleger, wenn ein Unternehmer ihm ein Widerrufsrecht einräumt, ohne dazu gesetzlich verpflichtet zu sein?",
+      "Wie ist zu entscheiden, ob ein Unternehmer einem Verbraucher ein Widerrufsrecht eingeräumt hat, ohne dazu gesetzlich verpflichtet zu sein?",
+      "Welche Rechtsgrundlage gilt für den Schadensersatzanspruch des Bestellers, wenn der Unternehmer die Mängelbeseitigung verweigert?",
+      "Welche Beweislast trägt ein Kunde, wenn er geltend macht, dass der Unternehmer seine Hinweispflichten verletzt hat? (Berücksichtigen Sie das Beispiel des Beklagten)",
+      "Unter welchen Bedingungen kann ein Unternehmen als Lieferant im Sinne des § 4 Abs. 3 ProdHaftG haften?",
+      "Welche Rechte hat ein Geschädigter, der durch ein fehlerhaftes Produkt geschädigt wurde, bezüglich der Ermittlung des Herstellers oder Quasi-Herstellers?"
+    ],
+    "ontology": {
+      "classes": [
+        "Verantwortlichkeit",
+        "Mangel",
+        "Werk",
+        "Unternehmer",
+        "Hinweispflicht",
+        "Kunde",
+        "Recht",
+        "Pflicht",
+        "Haftung",
+        "Hersteller",
+        "Lieferant",
+        "Quasi-Hersteller",
+        "Anleger",
+        "Widerrufsrecht",
+        "Schadensersatzanspruch",
+        "Beweislast",
+        "Geschädigter"
+      ],
+      "properties": [
+        "hatVerantwortlichkeit",
+        "betrifft",
+        "hatPflicht",
+        "verweigert",
+        "erfüllt",
+        "giltFür",
+        "hatRecht",
+        "verursacht",
+        "kannVermeiden",
+        "hatBeweislast",
+        "betrifftGeschädigten"
+      ],
+      "relationships": [
+        [
+          "Verantwortlichkeit",
+          "betrifft",
+          "Mangel"
+        ],
+        [
+          "Mangel",
+          "hatVerantwortlichkeit",
+          "Unternehmer"
+        ],
+        [
+          "Hinweispflicht",
+          "betrifft",
+          "Kunde"
+        ],
+        [
+          "Recht",
+          "hatVerantwortlichkeit",
+          "Unternehmer"
+        ],
+        [
+          "Pflicht",
+          "betrifft",
+          "Vertragserfüllung"
+        ],
+        [
+          "Haftung",
+          "betrifft",
+          "Hersteller"
+        ],
+        [
+          "Haftung",
+          "betrifft",
+          "Lieferant"
+        ],
+        [
+          "Quasi-Hersteller",
+          "kannVermeiden",
+          "Haftung"
+        ],
+        [
+          "Anleger",
+          "hatRecht",
+          "Widerrufsrecht"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "betrifft",
+          "Mängelbeseitigung"
+        ],
+        [
+          "Beweislast",
+          "betrifft",
+          "Kunde"
+        ],
+        [
+          "Geschädigter",
+          "betrifft",
+          "Haftung"
+        ]
+      ]
+    }
+  },
+  "Cluster 111": {
+    "competency_questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit die deutschen Gerichte international zuständig sind, wenn es um unerlaubte Handlungen geht, die in einem anderen Vertragsstaat begangen wurden?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit die internationale Zuständigkeit deutscher Gerichte nach Art. 5 Nr. 3 LugÜ gegeben ist?",
+      "Welche Bedeutung hat die Mitgliedschaft in einem Anwaltsverein und der Wohnsitz in der Bundesrepublik Deutschland für die Versicherungsfähigkeit eines Selbständigen?",
+      "Welche Rechtsgrundlage gilt für die Anordnung einer förmlichen Auslandszustellung eines Urteils, und welche Auswirkungen hat dies auf die Einspruchsfrist?",
+      "Welche Verantwortung trägt der Richter bei der Anordnung einer förmlichen Auslandszustellung eines Urteils, und welche Gründe können eine solche Anordnung rechtfertigen?",
+      "Warum ist es wichtig, das ausländische Recht von Amts wegen zu ermitteln, wenn es um die Anwendung von Verjährungsfristen geht?",
+      "Welche Pflichten hat ein Gericht, wenn es das ausländische Recht anwenden muss, um einen Fall zu entscheiden?"
+    ],
+    "ontology": {
+      "classes": [
+        "Gericht",
+        "Staat",
+        "Vertragsstaat",
+        "Handlung",
+        "Anwaltsverein",
+        "Selbständiger",
+        "Urteil",
+        "Recht",
+        "Verjährungsfrist"
+      ],
+      "properties": [
+        "istZuständig",
+        "beinhaltet",
+        "erfülltVoraussetzungen",
+        "gilt",
+        "hatBedeutung",
+        "tragenVerantwortung",
+        "hatPflicht",
+        "anwenden"
+      ],
+      "relationships": [
+        [
+          "Gericht",
+          "istZuständig",
+          "Staat"
+        ],
+        [
+          "Handlung",
+          "beinhaltet",
+          "Vertragsstaat"
+        ],
+        [
+          "Anwaltsverein",
+          "erfülltVoraussetzungen",
+          "Selbständiger"
+        ],
+        [
+          "Urteil",
+          "gilt",
+          "Recht"
+        ],
+        [
+          "Gericht",
+          "hatPflicht",
+          "anwenden"
+        ],
+        [
+          "Gericht",
+          "tragenVerantwortung",
+          "Verjährungsfrist"
+        ]
+      ]
+    }
+  },
+  "Cluster 114": {
+    "competency_questions": [
+      "Welche Rechtsgrundlage gilt für die Auszahlung der erhöhten Vergütung an die Komplementär-GmbH?",
+      "Wann ist eine einstimmige Entscheidung der Gesellschafter für die Auszahlung der erhöhten Vergütung erforderlich?",
+      "Welche Rolle spielt die Kenntnis der üblichen Vergütung für den Auftraggeber bei der Vertragsverhandlung?",
+      "Welche Rechtsgrundlage gilt für die Kürzung des Vergütungsanspruchs bei Vorliegen von Mängeln in einem Werkvertrag?",
+      "Wie ist der Minderwert einer mangelhaften Leistung in einem Werkvertrag zu berechnen?",
+      "Wie ist die Vergütung für die erbrachten Leistungen im Fall eines gekündigten Pauschalpreisvertrags zu berechnen, wenn lediglich noch ganz geringfügige Leistungen ausstehen?",
+      "Wie ist die Mindestvergütung im Zusammenhang mit einem Seefrachtvertrag auszulegen?",
+      "Wie ist die Vergütung im Falle einer einvernehmlichen Vertragsaufhebung zu berechnen?",
+      "Wie ist die Abrechnung zu gestalten, wenn nur ein kleiner Teil der geschuldeten Leistung erbracht worden ist?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Mindestvergütung im Falle eines vorzeitig beendeten Pauschalpreisvertrages geltend gemacht werden kann?",
+      "Wie ist die Mindestvergütung bei einem vorzeitig beendeten Pauschalpreisvertrag zu berechnen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Rechtsgrundlage",
+        "Vergütung",
+        "Mängel",
+        "Leistung",
+        "Vertrag",
+        "Auftraggeber",
+        "Gesellschafter",
+        "Minderwert",
+        "Mindestvergütung"
+      ],
+      "properties": [
+        "gilt",
+        "erforderlich",
+        "spielt",
+        "vorliegt",
+        "zu berechnen",
+        "auszulegen",
+        "geltend machen"
+      ],
+      "relationships": [
+        [
+          "Rechtsgrundlage",
+          "gilt",
+          "Vergütung"
+        ],
+        [
+          "einstimmige Entscheidung",
+          "erforderlich",
+          "Auszahlung"
+        ],
+        [
+          "Kenntnis",
+          "spielt",
+          "Vergütung"
+        ],
+        [
+          "Mängel",
+          "vorliegt",
+          "Vergütungsanspruch"
+        ],
+        [
+          "Minderwert",
+          "zu berechnen",
+          "mangelhafte Leistung"
+        ],
+        [
+          "Vergütung",
+          "zu berechnen",
+          "gekündigter Pauschalpreisvertrag"
+        ],
+        [
+          "Mindestvergütung",
+          "auszulegen",
+          "Seefrachtvertrag"
+        ],
+        [
+          "Vergütung",
+          "zu berechnen",
+          "einvernehmliche Vertragsaufhebung"
+        ],
+        [
+          "Abrechnung",
+          "zu gestalten",
+          "erbrachte Leistung"
+        ],
+        [
+          "Bedingungen",
+          "erfüllt sein",
+          "Mindestvergütung"
+        ],
+        [
+          "Mindestvergütung",
+          "zu berechnen",
+          "vorzeitig beendeter Pauschalpreisvertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 115": {
+    "competency_questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit Genussscheininhaber im Falle eines Beherrschungs- und Gewinnabführungsvertrages einen Ausgleichsanspruch geltend machen können?",
+      "Welche Rechte hat ein Makler, wenn der Kunde den Hauptvertrag später ohne seine Mitwirkung abschließt, aber sein Erstnachweis ursächlich für den Vertragsschluss war?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Kunde eine Anzahlung zurückverlangen kann, die er für einen Partnerschaftsvermittlungsvertrag geleistet hat?",
+      "Welche Rechte hat ein Kunde, wenn er eine Anzahlung geleistet hat, aber der Vertrag nicht erfüllt wurde?",
+      "Wer ist verpflichtet, den Anleger über die Widerrufsfrist und -bedingungen zu informieren, wenn ein vertragliches Widerrufsrecht eingeräumt wird?",
+      "Wie ist im Falle eines Beherrschungs- und Gewinnabführungsvertrages zwischen der I. und der Beklagten die Anpassung der Genussscheinbedingungen an die veränderte Rechtslage vorzunehmen?",
+      "Unter welchen Bedingungen kann ein Maklerprovisionsanspruch entfallen, wenn der Kunde den Hauptvertrag später \"am Makler vorbei\" abschließt?"
+    ],
+    "ontology": {
+      "classes": [
+        "Genussscheininhaber",
+        "Beherrschungs- und Gewinnabführungsvertrag",
+        "Ausgleichsanspruch",
+        "Makler",
+        "Kunde",
+        "Hauptvertrag",
+        "Erstnachweis",
+        "Partnerschaftsvermittlungsvertrag",
+        "Anleger",
+        "Genussscheinbedingungen",
+        "Maklerprovisionsanspruch"
+      ],
+      "properties": [
+        "erfüllen",
+        "geltend machen können",
+        "hat",
+        "abschließen",
+        "ursächlich für",
+        "leisten",
+        "zurückverlangen",
+        "erfüllt wurde",
+        "informieren",
+        "anpassen",
+        "entfallen"
+      ],
+      "relationships": [
+        [
+          "Genussscheininhaber",
+          "erfüllen",
+          "Beherrschungs- und Gewinnabführungsvertrag"
+        ],
+        [
+          "Beherrschungs- und Gewinnabführungsvertrag",
+          "geltend machen können",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Makler",
+          "abschließen",
+          "Hauptvertrag"
+        ],
+        [
+          "Hauptvertrag",
+          "ursächlich für",
+          "Makler"
+        ],
+        [
+          "Kunde",
+          "leisten",
+          "Partnerschaftsvermittlungsvertrag"
+        ],
+        [
+          "Partnerschaftsvermittlungsvertrag",
+          "zurückverlangen",
+          "Kunde"
+        ],
+        [
+          "Anleger",
+          "informieren",
+          "Widerrufsfrist und -bedingungen"
+        ],
+        [
+          "Beherrschungs- und Gewinnabführungsvertrag",
+          "anpassen",
+          "Genussscheinbedingungen"
+        ],
+        [
+          "Kunde",
+          "abschließen",
+          "Maklerprovisionsanspruch"
+        ],
+        [
+          "Maklerprovisionsanspruch",
+          "entfallen",
+          "Makler"
         ]
       ]
     }
