@@ -6,111 +6,167 @@
       "ontology": {
         "classes": [
           "Netzbetreiber",
-          "Signale",
+          "Signalübertragung",
           "Netz",
-          "Rechtsnorm",
-          "Autorisierung"
+          "Entschädigung",
+          "Rechtsgrundlage",
+          "Bandbreite",
+          "autorisierte Signale"
         ],
         "properties": [
-          "erfüllen",
-          "verpflichtet",
-          "beeinträchtigen",
+          "verbieten",
+          "gewähren",
           "nutzen",
-          "regulieren",
-          "sicherstellen"
+          "sicherstellen",
+          "leiten",
+          "verhindern",
+          "gewährleisten"
         ],
         "relationships": [
           [
             "Netzbetreiber",
-            "erfüllen",
-            "Rechtsnorm"
+            "verbieten",
+            "Signalübertragung"
           ],
           [
             "Netzbetreiber",
-            "verpflichtet",
-            "Rechtsnorm"
-          ],
-          [
-            "Netzbetreiber",
-            "beeinträchtigen",
-            "Signale"
+            "gewähren",
+            "Entschädigung"
           ],
           [
             "Netzbetreiber",
             "nutzen",
-            "Autorisierung"
-          ],
-          [
-            "Netzbetreiber",
-            "regulieren",
-            "Signale"
+            "Rechtsgrundlage"
           ],
           [
             "Netzbetreiber",
             "sicherstellen",
-            "Autorisierung"
+            "autorisierte Signale"
+          ],
+          [
+            "Signalübertragung",
+            "leiten",
+            "Netz"
+          ],
+          [
+            "Signalübertragung",
+            "verhindern",
+            "unerwünschte Signale"
+          ],
+          [
+            "Netzbetreiber",
+            "verbieten",
+            "gewerbliche Nutzung"
+          ],
+          [
+            "Bandbreite",
+            "beeinflussen",
+            "Signalübertragung"
           ]
         ]
       }
     }
   },
-  "Cluster 100": {
-    "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+  "Cluster 1": {
+    "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+      "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
       "ontology": {
         "classes": [
-          "Anspruchsberechtigter",
-          "Anspruchsgegner",
-          "Anspruch",
-          "Frist",
-          "Verjährung",
-          "Rechtsfolge"
+          "Kläger",
+          "Rechtsstreit",
+          "Voraussetzung",
+          "Rechtsgrundlage"
         ],
         "properties": [
-          "begehrt",
-          "beginnen mit",
-          "ist nicht erforderlich",
-          "verpflichtet",
-          "setzt",
-          "versäumt",
-          "tritt ein"
+          "erheben",
+          "erfüllen",
+          "betreffen",
+          "gilt"
         ],
         "relationships": [
           [
-            "Anspruchsberechtigter",
-            "begehrt",
-            "Anspruch"
+            "Kläger",
+            "erheben",
+            "Rechtsstreit"
           ],
           [
-            "Frist",
-            "beginnen mit",
-            "Geltendmachung des Anspruchs durch den Anspruchsberechtigten"
+            "Rechtsstreit",
+            "erfüllt",
+            "Voraussetzung"
           ],
           [
-            "Anspruchsgegner",
-            "verpflichtet",
-            "Einhaltung der Frist"
+            "Voraussetzung",
+            "betreffen",
+            "Kläger"
           ],
           [
-            "Verjährung",
-            "setzt",
-            "Frist"
+            "Rechtsstreit",
+            "gilt",
+            "Rechtsgrundlage"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 10": {
+    "generalized_question": "Unter welchen Voraussetzungen kann ein Eigentümer seine Rechte an einem Grundstück durchsetzen, wenn diese durch Handlungen Dritter beeinträchtigt werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen kann ein Eigentümer seine Rechte an einem Eigentum durchsetzen, wenn diese durch Handlungen Dritter beeinträchtigt werden?",
+      "ontology": {
+        "classes": [
+          "Eigentümer",
+          "Eigentum",
+          "HandlungDritter"
+        ],
+        "properties": [
+          "beeinträchtigen"
+        ],
+        "relationships": [
+          [
+            "Eigentümer",
+            "beeinträchtigen",
+            "Eigentum"
           ],
           [
-            "Verjährung",
-            "tritt ein",
-            "Ablauf der Frist"
+            "HandlungDritter",
+            "beeinträchtigen",
+            "Eigentum"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 101": {
+    "generalized_question": "Unter welchen Voraussetzungen haftet ein neuer Inhaber eines Handelsgeschäfts für die Verbindlichkeiten des früheren Inhabers, wenn er das Geschäft unter der bisherigen Firma fortführt?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen haftet ein neuer Inhaber eines Handelsgeschäfts für die Verbindlichkeiten des früheren Inhabers, wenn er das Geschäft unter der bisherigen Firma fortführt?",
+      "ontology": {
+        "classes": [
+          "Inhaber",
+          "Handelsgeschäft",
+          "Verbindlichkeit"
+        ],
+        "properties": [
+          "fortführt",
+          "haftet",
+          "betrifft"
+        ],
+        "relationships": [
+          [
+            "NeuerInhaber",
+            "fortführt",
+            "Handelsgeschäft"
           ],
           [
-            "Verjährung",
-            "versäumt",
-            "Geltendmachung des Anspruchs"
+            "Handelsgeschäft",
+            "betrifft",
+            "Verbindlichkeit"
           ],
           [
-            "Rechtsfolge",
-            "tritt ein",
-            "Verjährung"
+            "NeuerInhaber",
+            "haftet",
+            "Verbindlichkeit"
           ]
         ]
       }
@@ -119,35 +175,53 @@
   "Cluster 102": {
     "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen kann ein Vergleich widerrufen werden?",
+      "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
       "ontology": {
         "classes": [
-          "Vergleich",
-          "Voraussetzung",
+          "Prozessvergleich",
           "Widerruf",
-          "Recht"
+          "Rechtsnorm",
+          "Rechtsgebiet",
+          "Vertrag"
         ],
         "properties": [
           "erfüllen",
           "widerrufenKönnen",
+          "regeln",
           "betreffen",
-          "regeln"
+          "wirksamSein",
+          "beenden"
         ],
         "relationships": [
           [
-            "Vergleich",
+            "Prozessvergleich",
             "erfüllen",
             "Voraussetzung"
           ],
           [
-            "Vergleich",
+            "Prozessvergleich",
             "widerrufenKönnen",
             "Widerruf"
           ],
           [
-            "Vergleich",
+            "Rechtsnorm",
+            "regeln",
+            "Prozessvergleich"
+          ],
+          [
+            "Rechtsnorm",
             "betreffen",
-            "Recht"
+            "Rechtsgebiet"
+          ],
+          [
+            "Vertrag",
+            "wirksamSein",
+            "Prozessvergleich"
+          ],
+          [
+            "Prozessvergleich",
+            "beenden",
+            "Vertrag"
           ]
         ]
       }
@@ -165,9 +239,7 @@
         ],
         "properties": [
           "betrifft",
-          "beeinflusst",
-          "läuftAb",
-          "istWirksam"
+          "hatAuswirkungenAuf"
         ],
         "relationships": [
           [
@@ -177,14 +249,8 @@
           ],
           [
             "Frist",
-            "läuftAb",
+            "hatAuswirkungenAuf",
             "Entscheidung"
-          ],
-          [
-            "Zustellung",
-            "beeinflusst",
-            "Entscheidung",
-            "istWirksam"
           ]
         ]
       }
@@ -199,83 +265,28 @@
           "RechtlicheVoraussetzung",
           "Beweis",
           "Beweislast",
-          "Berechtigter",
-          "Beweisgegenstand"
+          "Beweisverfahren"
         ],
         "properties": [
           "müssenErfülltSein",
           "müssenErbrachtWerden",
-          "trägtDarlegungsUndBeweislast",
-          "betrifft"
+          "tragenDarlegungsUndBeweislast"
         ],
         "relationships": [
           [
             "RechtlicheVoraussetzung",
             "müssenErfülltSein",
-            "Beweis"
+            "Beweisverfahren"
           ],
           [
             "Beweis",
             "müssenErbrachtWerden",
-            "Beweisgegenstand"
+            "Beweisverfahren"
           ],
           [
             "Beweislast",
-            "trägtDarlegungsUndBeweislast",
-            "Berechtigter"
-          ],
-          [
-            "Berechtigter",
-            "betrifft",
-            "Beweisgegenstand"
-          ]
-        ]
-      }
-    }
-  },
-  "Cluster 105": {
-    "generalized_question": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
-    "generalized_ontology": {
-      "generalized_question": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
-      "ontology": {
-        "classes": [
-          "Akteur",
-          "Geldmittel",
-          "Vorgabe",
-          "Rechnung"
-        ],
-        "properties": [
-          "überwacht",
-          "verwendet",
-          "herausgibt",
-          "überprüft",
-          "einhält"
-        ],
-        "relationships": [
-          [
-            "Akteur",
-            "überwacht",
-            "Geldmittel"
-          ],
-          [
-            "Akteur",
-            "verwendet",
-            "Geldmittel"
-          ],
-          [
-            "Akteur",
-            "herausgibt",
-            "Geldmittel"
-          ],
-          [
-            "Akteur",
-            "überprüft",
-            "Rechnung"
-          ],
-          [
-            "Akteur",
-            "einhält",
-            "Vorgabe"
+            "tragenDarlegungsUndBeweislast",
+            "Beweisverfahren"
           ]
         ]
       }
@@ -284,65 +295,426 @@
   "Cluster 106": {
     "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit zur Erprobung an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
+      "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit zur Erprobung an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
       "ontology": {
         "classes": [
           "Richter",
           "Gericht",
           "Erprobungsphase",
           "Richteramt",
-          "Rechtsnorm"
+          "Gesetz"
         ],
         "properties": [
-          "erfülltVoraussetzungen",
-          "kannAbgeordnetWerden",
-          "wirdGewährleistet",
-          "spieltRolle",
+          "erfüllt",
+          "kann",
+          "wird gewährleistet",
+          "spielt",
           "regelt",
-          "hatRechte",
-          "kannZustimmungVerweigern",
-          "istGeeignet"
+          "hat",
+          "kann verweigern"
         ],
         "relationships": [
           [
             "Richter",
-            "erfülltVoraussetzungen",
-            "Erprobungsphase"
+            "erfüllt",
+            "Voraussetzungen"
           ],
           [
             "Richter",
-            "kannAbgeordnetWerden",
-            "Gericht"
+            "kann",
+            "abgeordnet werden"
           ],
           [
-            "Rechtsnorm",
-            "wirdGewährleistet",
-            "Richter"
+            "Gesetz",
+            "wird gewährleistet",
+            "Unabhängigkeit"
           ],
           [
             "Erprobungsphase",
-            "spieltRolle",
-            "Bewerbung"
+            "spielt",
+            "Rolle"
           ],
           [
             "Erprobungsphase",
             "regelt",
-            "Richter"
+            "Rechtsgrundlage"
           ],
           [
             "Richter",
-            "hatRechte",
-            "Erprobungsphase"
+            "hat",
+            "Rechte"
           ],
           [
             "Richter",
-            "kannZustimmungVerweigern",
-            "Abordnung"
+            "kann verweigern",
+            "Zustimmung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 107": {
+    "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann eine Aufrechnung mit einer Werklohnforderung stattfinden, und welche Rechtsfolgen sind damit verbunden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann eine Aufrechnung stattfinden, und welche Rechtsfolgen sind damit verbunden?",
+      "ontology": {
+        "classes": [
+          "Rechtsgrundlage",
+          "Forderung",
+          "Verpflichtung",
+          "Rechtsfolge",
+          "Gegenforderung"
+        ],
+        "properties": [
+          "gilt für",
+          "beanspruchen kann",
+          "erfüllen",
+          "erlöschen",
+          "herangezogen werden",
+          "tritt ein"
+        ],
+        "relationships": [
+          [
+            "Rechtsgrundlage",
+            "gilt für",
+            "Forderung"
           ],
           [
-            "Einsichtnahme",
-            "istGeeignet",
-            "Tätigkeit"
+            "Forderung",
+            "beanspruchen kann",
+            "Aufrechnung"
+          ],
+          [
+            "Verpflichtung",
+            "erfüllen",
+            "Aufrechnung"
+          ],
+          [
+            "Forderung",
+            "erlöschen",
+            "Aufrechnung"
+          ],
+          [
+            "Gegenforderung",
+            "herangezogen werden",
+            "Forderung"
+          ],
+          [
+            "Rechtsfolge",
+            "tritt ein",
+            "Aufrechnung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 108": {
+    "generalized_question": "Welche rechtlichen Auswirkungen hat die Zustellung von Dokumenten im Rahmen eines Rechtsstreits oder eines Vertragsverhältnisses?",
+    "generalized_ontology": {
+      "generalized_question": "Welche rechtlichen Auswirkungen hat die Zustellung von Dokumenten im Rahmen eines Rechtsstreits oder eines Vertragsverhältnisses?",
+      "ontology": {
+        "classes": [
+          "Recht",
+          "Verpflichtung",
+          "Vertragspartei",
+          "Haftung",
+          "Dokument",
+          "Rechtsfolge"
+        ],
+        "properties": [
+          "regelt",
+          "betrifft",
+          "verpflichtet",
+          "hatBedeutung",
+          "trittEin",
+          "kannVorgeommenWerden"
+        ],
+        "relationships": [
+          [
+            "Recht",
+            "regelt",
+            "Verpflichtung"
+          ],
+          [
+            "Vertragspartei",
+            "betrifft",
+            "Verpflichtung"
+          ],
+          [
+            "Dokument",
+            "betrifft",
+            "Verpflichtung"
+          ],
+          [
+            "Haftung",
+            "hatBedeutung",
+            "Verpflichtung"
+          ],
+          [
+            "Verpflichtung",
+            "trittEin",
+            "Rechtsfolge"
+          ],
+          [
+            "Verpflichtung",
+            "kannVorgeommenWerden",
+            "Beglaubigung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 11": {
+    "generalized_question": "Unter welchen Voraussetzungen ist eine Abtretungsklausel wirksam und welche Rechtsfolgen treten ein, wenn sie unwirksam ist?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen ist eine Abtretungsklausel wirksam und welche Rechtsfolgen treten ein, wenn sie unwirksam ist?",
+      "ontology": {
+        "classes": [
+          "Vertragsklausel",
+          "Voraussetzung",
+          "Rechtsfolge"
+        ],
+        "properties": [
+          "istWirksam",
+          "trittEin"
+        ],
+        "relationships": [
+          [
+            "Vertragsklausel",
+            "istWirksam",
+            "Voraussetzung"
+          ],
+          [
+            "Vertragsklausel",
+            "trittEin",
+            "Rechtsfolge"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 110": {
+    "generalized_question": "Welche Haftungsverpflichtungen hat ein Unternehmer oder Lieferant gegenüber einem Kunden oder Verbraucher bei Mängeln oder Schäden, die durch ein von ihm hergestelltes, geliefertes oder in Verkehr gebrachtes Produkt verursacht werden, und wie kann der Geschädigte seine Rechte durchsetzen?",
+    "generalized_ontology": {
+      "generalized_question": "Welche Haftungsverpflichtungen hat ein Unternehmer oder Lieferant gegenüber einem Kunden oder Verbraucher bei Mängeln oder Schäden, die durch ein von ihm hergestelltes, geliefertes oder in Verkehr gebrachtes Produkt verursacht werden, und wie kann der Geschädigte seine Rechte durchsetzen?",
+      "ontology": {
+        "classes": [
+          "Haftung",
+          "Mangel",
+          "Produkt",
+          "Unternehmer",
+          "Kunde",
+          "Recht",
+          "Pflicht",
+          "Geschädigter"
+        ],
+        "properties": [
+          "verursacht",
+          "betrifft",
+          "hatPflicht",
+          "hatRecht",
+          "hatBeweislast"
+        ],
+        "relationships": [
+          [
+            "Haftung",
+            "verursacht",
+            "Mangel"
+          ],
+          [
+            "Mangel",
+            "betrifft",
+            "Produkt"
+          ],
+          [
+            "Produkt",
+            "verursacht",
+            "Haftung"
+          ],
+          [
+            "Haftung",
+            "betrifft",
+            "Unternehmer"
+          ],
+          [
+            "Haftung",
+            "betrifft",
+            "Kunde"
+          ],
+          [
+            "Recht",
+            "hatPflicht",
+            "Haftung"
+          ],
+          [
+            "Pflicht",
+            "betrifft",
+            "Mängelbeseitigung"
+          ],
+          [
+            "Geschädigter",
+            "hatRecht",
+            "Schadensersatz"
+          ],
+          [
+            "Geschädigter",
+            "hatBeweislast",
+            "Haftung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 111": {
+    "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit deutsche Gerichte international zuständig sind und das ausländische Recht anwenden müssen, um einen Fall zu entscheiden?",
+    "generalized_ontology": {
+      "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit deutsche Gerichte international zuständig sind und das ausländische Recht anwenden müssen, um einen Fall zu entscheiden?",
+      "ontology": {
+        "classes": [
+          "Gericht",
+          "Staat",
+          "Vertragsstaat",
+          "Handlung",
+          "Recht"
+        ],
+        "properties": [
+          "istZuständig",
+          "beinhaltet",
+          "erfülltVoraussetzungen",
+          "gilt",
+          "hatPflicht",
+          "anwenden"
+        ],
+        "relationships": [
+          [
+            "Gericht",
+            "istZuständig",
+            "Staat"
+          ],
+          [
+            "Handlung",
+            "beinhaltet",
+            "Vertragsstaat"
+          ],
+          [
+            "Gericht",
+            "erfülltVoraussetzungen",
+            "Recht"
+          ],
+          [
+            "Gericht",
+            "hatPflicht",
+            "anwenden"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 114": {
+    "generalized_question": "Unter welchen Voraussetzungen und nach welchen Kriterien ist die Vergütung in verschiedenen Vertragsverhältnissen zu berechnen oder anzupassen, insbesondere im Falle von Mängeln, Kündigungen oder vorzeitigen Beendigungen?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und nach welchen Kriterien ist die Vergütung in verschiedenen Vertragsverhältnissen zu berechnen oder anzupassen, insbesondere im Falle von Mängeln, Kündigungen oder vorzeitigen Beendigungen?",
+      "ontology": {
+        "classes": [
+          "Rechtsgrundlage",
+          "Vergütung",
+          "Mangel",
+          "Leistung",
+          "Vertrag",
+          "Vertragspartei"
+        ],
+        "properties": [
+          "gilt",
+          "erforderlich",
+          "vorliegt",
+          "zu berechnen",
+          "anzupassen"
+        ],
+        "relationships": [
+          [
+            "Rechtsgrundlage",
+            "gilt",
+            "Vergütung"
+          ],
+          [
+            "Vertrag",
+            "erforderlich",
+            "Vergütung"
+          ],
+          [
+            "Mangel",
+            "vorliegt",
+            "Vergütung"
+          ],
+          [
+            "Vergütung",
+            "zu berechnen",
+            "Leistung"
+          ],
+          [
+            "Vertrag",
+            "anzupassen",
+            "Vergütung"
+          ],
+          [
+            "Vertragspartei",
+            "erforderlich",
+            "Vergütung"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 115": {
+    "generalized_question": "Unter welchen Voraussetzungen und welche Rechte haben Vertragsparteien im Zusammenhang mit Vertragsabschlüssen, Vertragsrücktritten und Vertragsanpassungen?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und welche Rechte haben Vertragsparteien im Zusammenhang mit Vertragsabschlüssen, Vertragsrücktritten und Vertragsanpassungen?",
+      "ontology": {
+        "classes": [
+          "Vertragspartei",
+          "Vertrag",
+          "Vertragsanpassung",
+          "Vertragsrücktritt",
+          "Vertragsrecht"
+        ],
+        "properties": [
+          "abschließen",
+          "rücktreten",
+          "anpassen",
+          "geltend machen",
+          "erfüllen",
+          "ursächlich für"
+        ],
+        "relationships": [
+          [
+            "Vertragspartei",
+            "abschließen",
+            "Vertrag"
+          ],
+          [
+            "Vertrag",
+            "rücktreten",
+            "Vertragspartei"
+          ],
+          [
+            "Vertrag",
+            "anpassen",
+            "Vertragsanpassung"
+          ],
+          [
+            "Vertragsanpassung",
+            "geltend machen",
+            "Vertragspartei"
+          ],
+          [
+            "Vertragspartei",
+            "erfüllen",
+            "Vertragsrecht"
+          ],
+          [
+            "Vertragsrecht",
+            "ursächlich für",
+            "Vertrag"
           ]
         ]
       }
