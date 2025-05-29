@@ -1,0 +1,49 @@
+Basierend auf der gegebenen generalisierten Frage und den detaillierten Fragen sowie Quellen, habe ich die Ontologie wie folgt angepasst und erweitert:
+
+**Klassen:**
+
+1. **Person** (Person)
+2. **Arbeitsunfall** (Arbeitsunfall)
+3. **Pflichtverletzung** (Pflichtverletzung)
+4. **Haftung** (Haftung)
+5. **Rechtsgrundlage** (Rechtsgrundlage)
+6. **Verletzung von Pflichten und Vorschriften** (Verletzung von Pflichten und Vorschriften)
+7. **Vorsatz** (Vorsatz)
+8. **Grobe Fahrlässigkeit** (Grobe Fahrlässigkeit)
+9. **Unfallverhütungsvorschrift** (Unfallverhütungsvorschrift)
+10. **Verkehrssicherungspflicht** (Verkehrssicherungspflicht)
+11. **Gefahrenquelle** (Gefahrenquelle)
+12. **Betriebsfremde Person** (Betriebsfremde Person)
+13. **Maschine** (Maschine)
+14. **Gebrechen** (Gebrechen)
+
+**Eigenschaften:**
+
+1. **verursacht** (verursacht)
+2. **verletzt** (verletzt)
+3. **hatHaftung** (hat Haftung)
+4. **basiertAuf** (basiert auf)
+5. **betrifft** (betrifft)
+6. **giltFür** (gilt für)
+7. **verhindert** (verhindert)
+8. **istVerantwortlichFür** (ist verantwortlich für)
+9. **istVerpflichtetZurÜberprüfung** (ist verpflichtet zur Überprüfung)
+10. **hatMitgewirkt** (hat mitgewirkt)
+
+**Beziehungen:**
+
+1. ["Arbeitsunfall", "verursacht durch", "Pflichtverletzung"]
+2. ["Pflichtverletzung", "basiert auf", "Verletzung von Pflichten und Vorschriften"]
+3. ["Pflichtverletzung", "wird durch", "Vorsatz" oder "Grobe Fahrlässigkeit"]
+4. ["Pflichtverletzung", "verletzt", "Unfallverhütungsvorschrift"]
+5. ["Haftung", "betrifft", "Person"]
+6. ["Haftung", "hatHaftung", "Arbeitsunfall"]
+7. ["Haftung", "basiertAuf", "Rechtsgrundlage"]
+8. ["Verkehrssicherungspflicht", "betrifft", "Gefahrenquelle"]
+9. ["Verkehrssicherungspflicht", "verhindert", "Schädigung von", "Betriebsfremde Person"]
+10. ["Maschine", "hat", "Gebrechen"]
+11. ["Gebrechen", "mitwirkt bei", "Arbeitsunfall"]
+12. ["Person", "istVerantwortlichFür", "Einhaltung von", "Unfallverhütungsvorschrift"]
+13. ["Leasinggeber", "istVerpflichtetZurÜberprüfung", "Maschine"]
+
+Die Ontologie wurde angepasst, um relevante Konzepte wie Vorsatz, grobe Fahrlässigkeit, Unfallverhütungsvorschriften, Verkehrssicherungspflichten und Gebrechen einzubeziehen. Redundante oder nicht verwendete Klassen und Eigenschaften wurden entfernt, um die Klarheit und Relevanz der Ontologie zu verbessern. Die Beziehungen wurden aktualisiert, um die neuen Konzepte und die Beziehungen zwischen ihnen abzubilden.

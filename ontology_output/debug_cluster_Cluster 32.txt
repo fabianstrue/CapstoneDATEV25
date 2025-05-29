@@ -1,0 +1,49 @@
+Basierend auf der gegebenen generalisierten Frage und den detaillierten Fragen sowie Quellen schlage ich folgende ontology vor:
+
+Klassen:
+1. Mietvertrag
+2. Klausel
+3. Vertragspartei
+4. Wohnungseigentum
+5. Miete
+6. Härtefall
+7. Verjährung
+8. Aktivlegitimation
+9. Leistungskondiktion
+10. Besitz
+11. Veräußerlichkeit
+12. Widerrufsrecht
+13. Sonderkündigungsrecht
+14. Standard
+
+Eigenschaften:
+1. kannWirksamSein
+2. kannUnwirksamSein
+3. erfordertEinigung
+4. erfordertSchriftform
+5. erfordertHärtefallprüfung
+6. istVerjährbar
+7. erfordertAktivlegitimation
+8. betrifftLeistungskondiktion
+9. erfordertBesitz
+10. istVeräußerlich
+11. betrifftWiderrufsrecht
+12. erlaubtSonderkündigung
+13. entsprichtAllgemeinÜblichemStandard
+
+Beziehungen:
+1. Eine Klausel kannWirksamSein an einem Mietvertrag.
+2. Eine Klausel kannUnwirksamSein an einem Mietvertrag.
+3. Ein Mietvertrag erfordertEinigung zwischen den Vertragsparteien.
+4. Ein Mietvertrag erfordertSchriftform von den Vertragsparteien.
+5. Ein Mietvertrag erfordertHärtefallprüfung bei den Vertragsparteien.
+6. Eine Miete istVerjährbar durch den Mietvertrag.
+7. Ein Mietvertrag erfordertAktivlegitimation von den Vertragsparteien.
+8. Ein Mietvertrag betrifftLeistungskondiktion mit der Miete.
+9. Ein Mietvertrag erfordertBesitz von der Miete.
+10. Ein Wohnungseigentum istVeräußerlich durch den Mietvertrag.
+11. Ein Mietvertrag betrifftWiderrufsrecht bei den Vertragsparteien.
+12. Ein Mietvertrag erlaubtSonderkündigung bei den Vertragsparteien.
+13. Eine Klausel entsprichtAllgemeinÜblichemStandard in einem Mietvertrag.
+
+Hinweis: Die Klasse "Wohnungseigentum" und die Eigenschaft "istVeräußerlich" wurden hinzugefügt, um die Veräußerlichkeit von Wohnungseigentum im Zusammenhang mit § 57a ZVG zu berücksichtigen. Die Klasse "Standard" und die Eigenschaft "entsprichtAllgemeinÜblichemStandard" wurden hinzugefügt, um die Bedeutung des allgemein üblichen Standards in Bezug auf die Wirksamkeit von Klauseln zu berücksichtigen.
