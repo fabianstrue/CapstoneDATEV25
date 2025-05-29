@@ -1,0 +1,83 @@
+Basierend auf der gegebenen generalisierten Frage und den detaillierten Fragen und Quellen schlage ich die folgende Ontologie vor:
+
+Klassen:
+- Vertrag
+- Forderung
+- Leistung
+- Vertragspartei
+- Verrechnung
+- Verschuldenshaftung
+- Darlehensvaluta
+- Mitverschulden
+- Schadensersatzverpflichtung
+- Zurechnung des Verschuldens von Hilfspersonen
+- Ungekürzte Weiterzahlung des Pachtzinses
+- Berechtigter zur Nachweisführung im Vollstreckungsverfahren
+- Schutzzweck des Betrugstatbestandes
+- Greek Bondholder Act
+- Bankanweisung
+- Aufrechnung
+- Zinsanspruch
+- Mitverschulden der Versorgungsempfängerin
+- § 104 VglO
+- Pfändung
+- Zwangsmaßnahme
+- Bereicherung
+- Anfechtung im Konkursverfahren
+- Konkursverwalter
+- Entlastungsbeweis
+- Auflösung und Liquidation der Gesellschaft
+- Klausel zur Ausschließung des Anspruchs auf Standgeld
+- Verbundenes Geschäft i.S.v. § 9 Abs. 1, Abs. 3 VerbrKrG
+- Äquivalenzprinzip
+- Einmalprämie bei Vertragsschluss
+- Verrechnung von Forderungen zur Erfüllung einer Einlageverbindlichkeit
+
+Eigenschaften:
+- beinhaltet
+- betrifft
+- wirksam
+- hatRechtlicheKonsequenzen
+- istVorschriftFür
+- hatZweck
+- istVerstoßGegen
+- istAnwendbarAuf
+- istVerpflichtetZur
+- istRechtfertigungFür
+- istRechtsfolgeVon
+- istVerletzungVon
+- hatErfüllungswirkung
+- hatKeineErfüllungswirkung
+- istVerletzungDes
+- istVerstoßGegenDas
+- istAnwendbarAufDie
+- istVerletzungDesÄquivalenzprinzips
+- hatKeineVerletzungDesÄquivalenzprinzips
+
+Beziehungen:
+- Vertrag wird von Vertragspartei geschlossen
+- Vertrag beinhaltet Forderung und/oder Leistung
+- Forderung und/oder Leistung betrifft Vertragspartei
+- Verrechnung betrifft Forderung und/oder Leistung
+- Verrechnung ist wirksam
+- Verrechnung hat rechtliche Konsequenzen
+- Verschuldenshaftung ist Vorschrift für Schadensersatzverpflichtung
+- Darlehensvaluta ist relevant für Rückforderungsdurchgriff
+- Mitverschulden ist relevant für Schadensersatzverpflichtung
+- Ungekürzte Weiterzahlung des Pachtzinses ist Rechtfertigung für Anwendung von § 539 BGB a.F.
+- Berechtigter zur Nachweisführung im Vollstreckungsverfahren ist Verpflichtet zur Nachweisführung
+- Schutzzweck des Betrugstatbestandes bestimmt Umfang des Schadensersatzes
+- Greek Bondholder Act ist Verstoß gegen ordre public
+- Bankanweisung ist wirksam
+- Aufrechnung ist nicht vorgenommen, wenn es keinen Anspruch gibt
+- Zinsanspruch ergibt sich aus Zahlungsverzug
+- Mitverschulden der Versorgungsempfängerin mindert Schadensersatzanspruch
+- § 104 VglO ist Anwendbar auf Pfändung
+- Pfändung ist Verpflichtung zur Herausgabe von erlangter Bereicherung
+- Zwangsmaßnahme ist Verpflichtung zur Herausgabe von erlangter Bereicherung
+- Bereicherung ist Rechtfertigung für Anfechtung im Konkursverfahren
+- Anfechtung im Konkursverfahren ist Verpflichtung für Beteiligte
+- Konkursverwalter ist Verpflichtet zur Anfechtung im Konkursverfahren
+- Entlastungsbeweis ist Verpflichtung für Schuldner
+- Auflösung und Liquidation der Gesellschaft ist Rechtsfolge von Schadensersatzansprüchen
+- Klausel zur Ausschließung des Anspruchs auf Standgeld ist Verstoß gegen wesentlichen
