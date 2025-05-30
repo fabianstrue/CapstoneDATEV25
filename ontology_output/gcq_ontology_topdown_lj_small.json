@@ -1,210 +1,146 @@
 {
-  "Cluster 8": {
-    "gcq": "Unter welchen Voraussetzungen und in welchen Beziehungen ist eine künstliche Befruchtung als medizinisch notwendige Heilbehandlung anzuerkennen, und wer ist verpflichtet, die damit verbundenen Kosten zu tragen?",
+  "Cluster 0": {
+    "gcq": "Unter welchen Voraussetzungen und welche rechtlichen Schritte kann ein Kabelnetzbetreiber ergreifen, um die Signaldurchleitung durch sein Netz zu kontrollieren und unerwünschte oder unberechtigte Signale zu verhindern?",
     "ontology": {
       "classes": [
-        "KuenstlicheBefruchtung",
-        "MedizinischeBehandlung",
-        "Heilbehandlung",
-        "Kosten",
-        "GesetzlicheKrankenversicherung",
-        "Patient"
+        "Kabelnetzbetreiber",
+        "Signaldurchleitung",
+        "UnerwünschtesSignal",
+        "RechtlicherSchritt"
       ],
       "properties": [
-        "istNotwendig",
-        "istAnzuerkennenAls",
-        "tragtVerantwortungFuer",
-        "istVerpflichtet",
-        "decktKosten"
+        "kontrolliert",
+        "verhindert",
+        "erfordert",
+        "basiertAuf"
       ],
       "relationships": [
         [
-          "KuenstlicheBefruchtung",
-          "istAnzuerkennenAls",
-          "MedizinischeBehandlung"
+          "Kabelnetzbetreiber",
+          "kontrolliert",
+          "Signaldurchleitung"
         ],
         [
-          "MedizinischeBehandlung",
-          "istNotwendig",
-          "Heilbehandlung"
+          "Signaldurchleitung",
+          "beinhaltet",
+          "UnerwünschtesSignal"
         ],
         [
-          "Heilbehandlung",
-          "tragtVerantwortungFuer",
-          "Kosten"
-        ],
-        [
-          "GesetzlicheKrankenversicherung",
-          "istVerpflichtet",
-          "decktKosten"
-        ],
-        [
-          "Patient",
-          "hatVerpflichtung",
-          "Kosten"
-        ]
-      ]
-    }
-  },
-  "Cluster 23": {
-    "gcq": "Unter welchen Voraussetzungen ist eine Kündigung eines Mietverhältnisses wirksam, insbesondere wenn ein Kündigungsausschluss vereinbart wurde oder der Mieter in Verzug ist?",
-    "ontology": {
-      "classes": [
-        "Mietverhältnis",
-        "Kündigung",
-        "Kündigungsausschluss",
-        "Verzug"
-      ],
-      "properties": [
-        "istWirksam",
-        "basiertAuf",
-        "betrifft",
-        "verhindert"
-      ],
-      "relationships": [
-        [
-          "Kündigung",
-          "istWirksam",
-          "Mietverhältnis"
-        ],
-        [
-          "Kündigung",
-          "basiertAuf",
-          "Kündigungsausschluss"
-        ],
-        [
-          "Kündigung",
-          "basiertAuf",
-          "Verzug"
-        ],
-        [
-          "Kündigungsausschluss",
+          "Kabelnetzbetreiber",
           "verhindert",
-          "Kündigung"
+          "UnerwünschtesSignal"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "erfordert",
+          "RechtlicherSchritt"
+        ],
+        [
+          "RechtlicherSchritt",
+          "basiertAuf",
+          "Signaldurchleitung"
         ]
       ]
     }
   },
-  "Cluster 55": {
-    "gcq": "Unter welchen Voraussetzungen und welche Bedeutung haben die verschiedenen Kostenangaben in der Betriebskostenabrechnung und im Bauantrag für die Wirksamkeit der Abrechnung und die Berechnung der Gebühren?",
+  "Cluster 10": {
+    "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, die Verkehrssicherheit auf Bahnstrecken zu gewährleisten und welche Rolle spielt die Verursachung von Schäden bei der Haftungsverteilung zwischen Eisenbahninfrastrukturunternehmen und Eisenbahnverkehrsunternehmen?",
     "ontology": {
       "classes": [
-        "Betriebskostenabrechnung",
-        "Bauantrag",
-        "Kostenangabe",
-        "Wirksamkeit",
-        "Gebühr"
+        "Bahnstrecke",
+        "Verkehrssicherheit",
+        "Eisenbahninfrastrukturunternehmen",
+        "Eisenbahnverkehrsunternehmen",
+        "Schaden",
+        "Haftung"
+      ],
+      "properties": [
+        "wahrleistet",
+        "verursacht",
+        "betrifft",
+        "verursachtHaftung"
+      ],
+      "relationships": [
+        [
+          "Bahnstrecke",
+          "betrifft",
+          "Verkehrssicherheit"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "wahrleistet",
+          "Verkehrssicherheit"
+        ],
+        [
+          "Eisenbahnverkehrsunternehmen",
+          "wahrleistet",
+          "Verkehrssicherheit"
+        ],
+        [
+          "Schaden",
+          "verursacht",
+          "Eisenbahninfrastrukturunternehmen"
+        ],
+        [
+          "Schaden",
+          "verursacht",
+          "Eisenbahnverkehrsunternehmen"
+        ],
+        [
+          "Schaden",
+          "verursachtHaftung",
+          "Haftung"
+        ]
+      ]
+    }
+  },
+  "Cluster 101": {
+    "gcq": "Unter welchen Voraussetzungen und welche Rechtsfolgen treten ein, wenn Klauseln in Allgemeinen Geschäftsbedingungen unwirksam oder unangemessen benachteiligend sind, und wie kann die Wirksamkeit und Unwirksamkeit von Klauseln überprüft werden?",
+    "ontology": {
+      "classes": [
+        "AllgemeineGeschäftsbedingungen",
+        "Klausel",
+        "Rechtsfolge",
+        "Unwirksamkeit",
+        "Benachteiligung",
+        "Prüfung"
       ],
       "properties": [
         "enthält",
-        "betrifft",
-        "beeinflusst",
-        "basiert auf",
-        "führt zu"
+        "ist",
+        "führtZu",
+        "kannPrüfen"
       ],
       "relationships": [
         [
-          "Betriebskostenabrechnung",
+          "AllgemeineGeschäftsbedingungen",
           "enthält",
-          "Kostenangabe"
+          "Klausel"
         ],
         [
-          "Bauantrag",
-          "enthält",
-          "Kostenangabe"
+          "Klausel",
+          "ist",
+          "Unwirksamkeit"
         ],
         [
-          "Kostenangabe",
-          "betrifft",
-          "Wirksamkeit"
+          "Klausel",
+          "ist",
+          "Benachteiligung"
         ],
         [
-          "Kostenangabe",
-          "beeinflusst",
-          "Gebühr"
-        ],
-        [
-          "Gebühr",
-          "basiert auf",
-          "Kostenangabe"
-        ],
-        [
-          "Wirksamkeit",
-          "führt zu",
-          "Gebühr"
-        ]
-      ]
-    }
-  },
-  "Cluster 62": {
-    "gcq": "Unter welchen Voraussetzungen und in welchem Umfang kann die Berichterstattung über eine Person das allgemeine Persönlichkeitsrecht verletzen und welche Interessen müssen dabei berücksichtigt werden?",
-    "ontology": {
-      "classes": [
-        "Berichterstattung",
-        "Persönlichkeitsrecht",
-        "Person",
-        "Interesse"
-      ],
-      "properties": [
-        "verletzt",
-        "betrifft",
-        "berücksichtigt"
-      ],
-      "relationships": [
-        [
-          "Berichterstattung",
-          "verletzt",
-          "Persönlichkeitsrecht"
-        ],
-        [
-          "Persönlichkeitsrecht",
-          "betrifft",
-          "Person"
-        ],
-        [
-          "Berichterstattung",
-          "berücksichtigt",
-          "Interesse"
-        ]
-      ]
-    }
-  },
-  "Cluster 81": {
-    "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, bei der Beendigung eines Pauschalpreisvertrages die Abrechnung von Teilleistungen vorzunehmen und welche Rechtsfolgen treten ein, wenn diese nicht den Anforderungen entspricht?",
-    "ontology": {
-      "classes": [
-        "Vertragsbeendigung",
-        "Teilleistung",
-        "Abrechnung",
-        "Verpflichtung",
-        "Rechtsfolge"
-      ],
-      "properties": [
-        "beinhaltet",
-        "istVerpflichtet",
-        "entsprichtAnforderungen",
-        "führtZu"
-      ],
-      "relationships": [
-        [
-          "Vertragsbeendigung",
-          "beinhaltet",
-          "Teilleistung"
-        ],
-        [
-          "Teilleistung",
-          "beinhaltet",
-          "Abrechnung"
-        ],
-        [
-          "Abrechnung",
-          "entsprichtAnforderungen",
+          "Unwirksamkeit",
+          "führtZu",
           "Rechtsfolge"
         ],
         [
-          "Vertrag",
-          "istVerpflichtet",
-          "Verpflichtung"
+          "Benachteiligung",
+          "führtZu",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsfolge",
+          "kannPrüfen",
+          "Prüfung"
         ]
       ]
     }
