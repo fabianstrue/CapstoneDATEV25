@@ -1,306 +1,321 @@
 {
-  "Cluster 23": {
-    "generalized_question": "Unter welchen Voraussetzungen ist eine wirksame Abnahme des gemeinschaftlichen Eigentums im Rahmen des § 15 Abs. 2 WEG möglich und welche rechtlichen Konsequenzen hat ein nicht ordnungsmäßiger Gebrauch des gemeinschaftlichen Eigentums?",
+  "Cluster 101": {
+    "generalized_question": "Unter welchen Voraussetzungen kann ein Vertragspartner von seinem Widerrufs- oder Rücktrittsrecht Gebrauch machen und welche Bedeutung haben dabei die verschiedenen rechtlichen Bestimmungen, wie z.B. §§ 312g, 323, 355 BGB oder § 626 BGB?",
     "refined_ontology": {
       "classes": [
-        "Eigentum",
-        "Rechtsfolge",
-        "Abnahme",
-        "Verwalter",
-        "Gebrauch"
+        "Kündigungserklärung",
+        "Rücktrittsrecht",
+        "Verbraucher",
+        "Kunde",
+        "Widerrufsrecht",
+        "Verkäufer",
+        "Vertrag",
+        "Kündigung",
+        "Besteller",
+        "Mängelanspruch",
+        "Kündigungsgrund",
+        "Sondereigentum",
+        "VOB/B",
+        "OrdentlicheKündigung",
+        "Untreue",
+        "Kündigungsfrist",
+        "Mangel"
       ],
       "properties": [
-        "kannErklären",
-        "istMöglichUnter",
-        "gestattet",
-        "erfülltVoraussetzungen",
-        "istOrdungsmässig",
-        "kannGeltendMachen",
-        "istWirksam",
-        "verstößtGegen",
-        "führtZu"
-      ],
-      "relationships": [
-        [
-          "Abnahme",
-          "istMöglichUnter",
-          "§ 15 Abs. 2 WEG"
-        ],
-        [
-          "Eigentum",
-          "istWirksam",
-          "Abnahme"
-        ],
-        [
-          "Gebrauch",
-          "istOrdungsmässig",
-          "Eigentum"
-        ],
-        [
-          "Gebrauch",
-          "führtZu",
-          "Rechtsfolge"
-        ],
-        [
-          "§ 14 WEG",
-          "gestattet",
-          "Gebrauch"
-        ],
-        [
-          "Gebrauch",
-          "verstößtGegen",
-          "gesetzlicheVorschriften"
-        ],
-        [
-          "Abnahme",
-          "erfülltVoraussetzungen",
-          "Rechtsfähigkeit"
-        ],
-        [
-          "Käufer",
-          "kannGeltendMachen",
-          "Mängel"
-        ],
-        [
-          "Verwalter",
-          "kannErklären",
-          "Abnahme"
-        ]
-      ]
-    }
-  },
-  "Cluster 55": {
-    "generalized_question": "Unter welchen Voraussetzungen und mit welchen Kriterien ist die Kausalität zwischen einem Unfallereignis und einer Gesundheitsbeeinträchtigung im Rahmen der privaten Unfallversicherung zu beurteilen?",
-    "refined_ontology": {
-      "classes": [
-        "Unfallereignis",
-        "Verletzungspflichtigen",
-        "Kausalität",
-        "Adäquanz",
-        "Äquivalenztheorie",
-        "Vorschädigung",
-        "Gesundheitsbeeinträchtigung",
-        "Gesundheitsschaden",
-        "Mitwirkung"
-      ],
-      "properties": [
-        "basiertAuf",
-        "beruhtAuf",
-        "beeinträchtigt",
-        "beweist",
+        "giltFuer",
+        "kannAbbedungenWerden",
+        "betrifftKündigung",
+        "betrifftWiderruf",
         "betrifft",
-        "verursacht",
-        "entspricht",
-        "beeinflusst",
-        "führtZu",
-        "spieltEineRolle"
+        "dauert",
+        "betrifftVerjährung",
+        "hatBedeutungFuer",
+        "betrifftRücktritt",
+        "betrifftErsetzung",
+        "betrifftMängel",
+        "betrifftUntreue",
+        "kannGebrauchMachenVon",
+        "kannErsetztWerden",
+        "betrifftAnpassung",
+        "erfülltVoraussetzungen",
+        "regelt"
       ],
       "relationships": [
         [
-          "Unfallereignis",
-          "führtZu",
-          "Gesundheitsbeeinträchtigung"
+          "Kunde",
+          "kannGebrauchMachenVon",
+          "Rücktrittsrecht"
         ],
         [
-          "Kausalität",
-          "basiertAuf",
-          "Unfallereignis"
+          "Kunde",
+          "kannGebrauchMachenVon",
+          "Widerrufsrecht"
         ],
         [
-          "Kausalität",
-          "basiertAuf",
-          "Gesundheitsbeeinträchtigung"
+          "Verbraucher",
+          "kannGebrauchMachenVon",
+          "Widerrufsrecht"
         ],
         [
-          "Verletzungspflichtigen",
-          "beweist",
-          "Kausalität"
+          "Besteller",
+          "kannGebrauchMachenVon",
+          "Rücktrittsrecht"
         ],
         [
-          "Gesundheitsschaden",
-          "verursacht",
-          "Unfallereignis"
-        ],
-        [
-          "Vorschädigung",
-          "beeinträchtigt",
-          "Gesundheitsbeeinträchtigung"
-        ],
-        [
-          "Adäquanz",
-          "entspricht",
-          "Kausalität"
-        ],
-        [
-          "Äquivalenztheorie",
-          "entspricht",
-          "Kausalität"
-        ],
-        [
-          "Mitwirkung",
-          "beeinflusst",
-          "Kausalität"
-        ],
-        [
-          "Gesundheitsschaden",
+          "Verkäufer",
           "betrifft",
-          "PrivateUnfallversicherung"
-        ]
-      ]
-    }
-  },
-  "Cluster 81": {
-    "generalized_question": "Unter welchen Voraussetzungen und nach welchen Regeln ist die Vergütung für erbrachte oder noch ausstehende Leistungen bei einem vorzeitig beendeten Pauschalpreisvertrag zu berechnen und wer trägt die Verantwortung dafür?",
-    "refined_ontology": {
-      "classes": [
-        "Minderwert",
-        "Mindestvergütung",
-        "KalkulatorischeVerschiebung",
-        "Pauschalpreisvertrag",
-        "Mangel",
-        "Gesamtleistung",
-        "ErsparteAufwendungen",
-        "Teilleistung",
-        "Teilleistungswert",
-        "Leistungsempfänger"
-      ],
-      "properties": [
-        "beinhaltet",
-        "kannBeseitigtWerden",
-        "istVerhältnis",
-        "wirdBerechnetNach",
-        "istMindestens",
-        "istAusstehend",
-        "istHöhe",
-        "istVerantwortlichFür"
-      ],
-      "relationships": [
-        [
-          "Pauschalpreisvertrag",
-          "beinhaltet",
-          "Leistung"
-        ],
-        [
-          "Leistung",
-          "wirdBerechnetNach",
-          "Vergütung"
-        ],
-        [
-          "Vergütung",
-          "istVerantwortlichFür",
-          "Vertragspartei"
-        ],
-        [
-          "Leistung",
-          "istAusstehend",
-          "Pauschalpreisvertrag"
+          "Rücktrittsrecht"
         ],
         [
           "Mangel",
-          "kannBeseitigtWerden",
-          "Leistung"
-        ],
-        [
-          "Minderwert",
-          "istVerhältnis",
-          "Vergütung"
-        ],
-        [
-          "Teilleistung",
-          "istHöhe",
-          "Vergütung"
-        ],
-        [
-          "Teilleistung",
-          "istVerhältnis",
-          "Gesamtleistung"
-        ],
-        [
-          "KalkulatorischeVerschiebung",
-          "istVerantwortlichFür",
-          "Leistungsempfänger"
-        ],
-        [
-          "Teilleistungswert",
-          "istHöhe",
-          "Vergütung"
-        ],
-        [
-          "ErsparteAufwendungen",
-          "istMindestens",
-          "Mindestvergütung"
-        ]
-      ]
-    }
-  },
-  "Cluster 62": {
-    "generalized_question": "Unter welchen Voraussetzungen und wer ist verpflichtet, bestimmte Informationen oder Handlungen im Zusammenhang mit einer Vertragsänderung, einer Schenkung, einer Pacht oder einem Sachverständigengutachten mitzuteilen oder zu berücksichtigen, um das Vertrauen der Vertragsparteien zu wahren und die rechtlichen Auswirkungen zu verstehen?",
-    "refined_ontology": {
-      "classes": [
-        "Pacht",
-        "Schenkung",
-        "Vertrauen",
-        "RechtlicheAuswirkung",
-        "Sachverständigengutachten",
-        "Vertragspartei",
-        "Vertrag"
-      ],
-      "properties": [
-        "vorliegen",
-        "beenden",
-        "abschließen",
-        "zuBerücksichtigen",
-        "voraussetzen",
-        "verpflichtet",
-        "herleiten",
-        "erklären",
-        "erfüllen",
-        "betrifft",
-        "kennen",
-        "betreffen",
-        "mitzuteilen",
-        "wahren",
-        "erfassen",
-        "ändern",
-        "beeinträchtigen",
-        "aufkommen",
-        "verstehen"
-      ],
-      "relationships": [
-        [
-          "Vertrag",
           "betrifft",
-          "Schenkung"
+          "Rücktrittsrecht"
         ],
         [
-          "Vertrag",
+          "Mängelanspruch",
           "betrifft",
-          "Pacht"
+          "Rücktrittsrecht"
         ],
         [
-          "Vertrag",
+          "Kündigung",
           "betrifft",
-          "Sachverständigengutachten"
+          "Kündigungsgrund"
         ],
         [
-          "Vertragsänderung",
+          "Kündigungsgrund",
+          "betrifft",
+          "Kündigung"
+        ],
+        [
+          "Widerrufsrecht",
           "betrifft",
           "Vertrag"
         ],
         [
-          "Vertragspartei",
-          "wahren",
-          "Vertrauen"
+          "Rücktrittsrecht",
+          "betrifft",
+          "Vertrag"
         ],
         [
-          "RechtlicheAuswirkung",
-          "zuBerücksichtigen",
-          "Vertragsänderung"
+          "§ 323 BGB",
+          "regelt",
+          "Rücktrittsrecht"
         ],
         [
-          "Vertragspartei",
-          "verstehen",
-          "RechtlicheAuswirkung"
+          "§ 626 BGB",
+          "regelt",
+          "Kündigungsgrund"
+        ],
+        [
+          "§ 312g BGB",
+          "regelt",
+          "Widerrufsrecht"
+        ],
+        [
+          "§ 355 BGB",
+          "regelt",
+          "Widerrufsrecht"
+        ],
+        [
+          "Sondereigentum",
+          "betrifft",
+          "Mängelanspruch"
+        ],
+        [
+          "VOB/B",
+          "giltFuer",
+          "Mängelanspruch"
+        ],
+        [
+          "§ 313 BGB",
+          "regelt",
+          "Anpassung"
+        ],
+        [
+          "§ 609 BGB a.F.",
+          "regelt",
+          "Kündigungsfrist"
+        ],
+        [
+          "Untreue",
+          "betrifft",
+          "Kündigungsfrist"
+        ],
+        [
+          "Kündigungserklärung",
+          "kannErsetztWerden",
+          "OrdentlicheKündigung"
+        ],
+        [
+          "§ 627 BGB",
+          "kannAbbedungenWerden",
+          "Widerrufsrecht"
+        ],
+        [
+          "§ 313 BGB",
+          "betrifft",
+          "Anpassung"
+        ],
+        [
+          "§ 621 Nr. 5 BGB",
+          "betrifft",
+          "OrdentlicheKündigung"
+        ]
+      ]
+    }
+  },
+  "Cluster 0": {
+    "generalized_question": "Unter welchen Voraussetzungen und welche rechtlichen Konsequenzen hat Art. 2 Nr. 9 der Richtlinie in Bezug auf den Begriff 'Verbraucher' und die Einhaltung der Bedingungen?",
+    "refined_ontology": {
+      "classes": [
+        "Bestimmung",
+        "Artikel",
+        "Ausnahmebedingung",
+        "Gericht",
+        "Sachverhalt",
+        "Richtlinie",
+        "Entscheidungsformel",
+        "Bedingung",
+        "Verbraucher",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "hatKonsequenz",
+        "betrifftSachverhalt",
+        "definiert",
+        "erfüllt",
+        "betrifft",
+        "einschränkt",
+        "unterscheidet",
+        "betrifftEntscheidung",
+        "beinhaltet"
+      ],
+      "relationships": [
+        [
+          "Richtlinie",
+          "beinhaltet",
+          "Artikel"
+        ],
+        [
+          "Artikel",
+          "beinhaltet",
+          "Bedingung"
+        ],
+        [
+          "Bedingung",
+          "betrifft",
+          "Verbraucher"
+        ],
+        [
+          "Verbraucher",
+          "erfüllt",
+          "Bedingung"
+        ],
+        [
+          "Bedingung",
+          "hatKonsequenz",
+          "Rechtsfolge"
+        ],
+        [
+          "Artikel",
+          "definiert",
+          "Verbraucher"
+        ],
+        [
+          "Artikel",
+          "einschränkt",
+          "Ausnahmebedingung"
+        ],
+        [
+          "Artikel",
+          "betrifftSachverhalt",
+          "Sachverhalt"
+        ],
+        [
+          "Artikel",
+          "betrifftEntscheidung",
+          "Entscheidungsformel"
+        ],
+        [
+          "Entscheidungsformel",
+          "betrifft",
+          "Gericht"
+        ],
+        [
+          "Gericht",
+          "betrifft",
+          "Artikel"
+        ],
+        [
+          "Artikel",
+          "unterscheidet",
+          "Bestimmung"
+        ]
+      ]
+    }
+  },
+  "Cluster 10": {
+    "generalized_question": "Unter welchen Voraussetzungen und welche Aufgaben hat ein Öffentlich bestellter Vermessungsingenieur in Nordrhein-Westfalen bei der Erstellung und Verwendung von amtlichen Lageplänen im öffentlichen Vermessungswesen?",
+    "refined_ontology": {
+      "classes": [
+        "AmtlicherLageplan",
+        "ÖffentlichBestellterVermessungsingenieur",
+        "Vergütung",
+        "Liegenschaftskataster",
+        "ÖffentlichesVermessungswesen",
+        "Lageplan",
+        "Gebühr"
+      ],
+      "properties": [
+        "wahrnimmtAufgaben",
+        "erstelltAmtlichenLageplan",
+        "regeltVergütung",
+        "hatAufgabenImKonkret",
+        "giltAlsAmtlich",
+        "erfülltVoraussetzungen",
+        "stehtZuGebühr",
+        "unterschiedlichVonEinfachemLageplan"
+      ],
+      "relationships": [
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "erfülltVoraussetzungen",
+          "ÖffentlichesVermessungswesen"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "wahrnimmtAufgaben",
+          "ÖffentlichesVermessungswesen"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "regeltVergütung",
+          "Vergütung"
+        ],
+        [
+          "Lageplan",
+          "giltAlsAmtlich",
+          "AmtlicherLageplan"
+        ],
+        [
+          "AmtlicherLageplan",
+          "unterschiedlichVonEinfachemLageplan",
+          "Lageplan"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "erstelltAmtlichenLageplan",
+          "AmtlicherLageplan"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "stehtZuGebühr",
+          "Gebühr"
+        ],
+        [
+          "AmtlicherLageplan",
+          "hatAufgabenImKonkret",
+          "Liegenschaftskataster"
         ]
       ]
     }

@@ -1,256 +1,144 @@
 {
-  "Cluster 55": {
-    "gcq": "Unter welchen Voraussetzungen und mit welchen Kriterien ist die Kausalität zwischen einem Unfallereignis und einer Gesundheitsbeeinträchtigung im Rahmen der privaten Unfallversicherung zu beurteilen?",
+  "Cluster 101": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Vertragspartner von seinem Widerrufs- oder Rücktrittsrecht Gebrauch machen und welche Bedeutung haben dabei die verschiedenen rechtlichen Bestimmungen, wie z.B. §§ 312g, 323, 355 BGB oder § 626 BGB?",
     "ontology": {
       "classes": [
-        "Rechtsfolge",
-        "Leistungserbringer",
-        "Vertragsbeendigung",
-        "Pauschalpreisvertrag",
-        "Abrechnung",
-        "Teilleistung",
-        "Vertragsstrafe",
-        "Leistungsempfänger",
-        "Schadensersatz",
-        "Rechtsverletzung",
-        "Verpflichtung"
+        "Vertragspartner",
+        "Verständlichkeit",
+        "Transparenz",
+        "Interesse",
+        "Gericht",
+        "Unwirksamkeit",
+        "Prüfung",
+        "Klausel",
+        "Gesetz",
+        "Benachteiligung",
+        "AllgemeineGeschäftsbedingungen",
+        "Rechtsfolge"
       ],
       "properties": [
-        "findet Statt",
-        "führtZu",
-        "wirdBeurteiltNach",
-        "basiertAuf"
+        "kannGebrauchMachenVon",
+        "hatBedeutungFuer",
+        "regelt"
       ],
       "relationships": [
         [
-          "Unfallereignis",
-          "findet Statt",
-          "PrivateUnfallversicherung"
+          "Vertragspartner",
+          "kannGebrauchMachenVon",
+          "Widerrufsrecht"
         ],
         [
-          "Unfallereignis",
-          "führtZu",
-          "Gesundheitsbeeinträchtigung"
+          "Vertragspartner",
+          "kannGebrauchMachenVon",
+          "Rücktrittsrecht"
         ],
         [
-          "Kausalität",
-          "wirdBeurteiltNach",
-          "Unfallereignis"
+          "RechtlicheBestimmung",
+          "regelt",
+          "Widerrufsrecht"
         ],
         [
-          "Kausalität",
-          "basiertAuf",
-          "Gesundheitsbeeinträchtigung"
+          "RechtlicheBestimmung",
+          "regelt",
+          "Rücktrittsrecht"
+        ],
+        [
+          "Widerrufsrecht",
+          "hatBedeutungFuer",
+          "Vertrag"
+        ],
+        [
+          "Rücktrittsrecht",
+          "hatBedeutungFuer",
+          "Vertrag"
         ]
       ]
     }
   },
-  "Cluster 8": {
-    "gcq": "Unter welchen Voraussetzungen und in welchem Rahmen können Ärzte ihre Leistungen abrechnen und welche rechtlichen Anforderungen müssen dabei erfüllt sein?",
+  "Cluster 10": {
+    "gcq": "Unter welchen Voraussetzungen und welche Aufgaben hat ein Öffentlich bestellter Vermessungsingenieur in Nordrhein-Westfalen bei der Erstellung und Verwendung von amtlichen Lageplänen im öffentlichen Vermessungswesen?",
     "ontology": {
       "classes": [
-        "Rechtsfolge",
-        "Leistungserbringer",
-        "Vertragsbeendigung",
-        "Pauschalpreisvertrag",
-        "Abrechnung",
-        "Teilleistung",
-        "Vertragsstrafe",
-        "Leistungsempfänger",
-        "Schadensersatz",
-        "Rechtsverletzung",
-        "Verpflichtung"
+        "Vertragspartner",
+        "Verständlichkeit",
+        "Transparenz",
+        "Interesse",
+        "Gericht",
+        "Unwirksamkeit",
+        "Prüfung",
+        "Klausel",
+        "Gesetz",
+        "Benachteiligung",
+        "AllgemeineGeschäftsbedingungen",
+        "Rechtsfolge"
       ],
       "properties": [
-        "kannAbrechnen",
-        "mussErfüllen",
-        "beinhaltet"
+        "erstellt",
+        "verwendet",
+        "hatAufgaben"
       ],
       "relationships": [
         [
-          "Arzt",
-          "kannAbrechnen",
-          "Leistung"
+          "ÖffentlichBestellterVermessungsingenieur",
+          "erstellt",
+          "Lageplan"
         ],
         [
-          "Leistung",
-          "beinhaltet",
-          "Abrechnung"
+          "ÖffentlichBestellterVermessungsingenieur",
+          "verwendet",
+          "Lageplan"
         ],
         [
-          "Abrechnung",
-          "mussErfüllen",
-          "RechtlicheAnforderung"
+          "ÖffentlichBestellterVermessungsingenieur",
+          "hatAufgaben",
+          "ÖffentlichesVermessungswesen"
         ]
       ]
     }
   },
-  "Cluster 62": {
-    "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, bestimmte Informationen oder Handlungen im Zusammenhang mit einer Vertragsänderung, einer Schenkung, einer Pacht oder einem Sachverständigengutachten mitzuteilen oder zu berücksichtigen, um das Vertrauen der Vertragsparteien zu wahren und die rechtlichen Auswirkungen zu verstehen?",
+  "Cluster 0": {
+    "gcq": "Unter welchen Voraussetzungen und welche rechtlichen Konsequenzen hat Art. 2 Nr. 9 der Richtlinie in Bezug auf den Begriff 'Verbraucher' und die Einhaltung der Bedingungen?",
     "ontology": {
       "classes": [
-        "Rechtsfolge",
-        "Leistungserbringer",
-        "Vertragsbeendigung",
-        "Pauschalpreisvertrag",
-        "Abrechnung",
-        "Teilleistung",
-        "Vertragsstrafe",
-        "Leistungsempfänger",
-        "Schadensersatz",
-        "Rechtsverletzung",
-        "Verpflichtung"
-      ],
-      "properties": [
-        "betrifft",
-        "verpflichtet",
-        "mitzuteilen",
-        "zuBerücksichtigen",
-        "wahren",
-        "verstehen"
-      ],
-      "relationships": [
-        [
-          "Vertragsänderung",
-          "betrifft",
-          "Vertrag"
-        ],
-        [
-          "Vertragspartei",
-          "verpflichtet",
-          "mitzuteilen"
-        ],
-        [
-          "Schenkung",
-          "betrifft",
-          "Vertrag"
-        ],
-        [
-          "Pacht",
-          "betrifft",
-          "Vertrag"
-        ],
-        [
-          "Sachverständigengutachten",
-          "betrifft",
-          "Vertrag"
-        ],
-        [
-          "Information",
-          "betrifft",
-          "Vertragsänderung"
-        ],
-        [
-          "Handlung",
-          "betrifft",
-          "Vertragsänderung"
-        ],
-        [
-          "Vertragspartei",
-          "wahren",
-          "Vertrauen"
-        ],
-        [
-          "RechtlicheAuswirkung",
-          "zuBerücksichtigen",
-          "Vertragsänderung"
-        ],
-        [
-          "Vertragspartei",
-          "verstehen",
-          "RechtlicheAuswirkung"
-        ]
-      ]
-    }
-  },
-  "Cluster 81": {
-    "gcq": "Unter welchen Voraussetzungen und nach welchen Regeln ist die Vergütung für erbrachte oder noch ausstehende Leistungen bei einem vorzeitig beendeten Pauschalpreisvertrag zu berechnen und wer trägt die Verantwortung dafür?",
-    "ontology": {
-      "classes": [
-        "Rechtsfolge",
-        "Leistungserbringer",
-        "Vertragsbeendigung",
-        "Pauschalpreisvertrag",
-        "Abrechnung",
-        "Teilleistung",
-        "Vertragsstrafe",
-        "Leistungsempfänger",
-        "Schadensersatz",
-        "Rechtsverletzung",
-        "Verpflichtung"
+        "Vertragspartner",
+        "Verständlichkeit",
+        "Transparenz",
+        "Interesse",
+        "Gericht",
+        "Unwirksamkeit",
+        "Prüfung",
+        "Klausel",
+        "Gesetz",
+        "Benachteiligung",
+        "AllgemeineGeschäftsbedingungen",
+        "Rechtsfolge"
       ],
       "properties": [
         "beinhaltet",
-        "istVerantwortlichFür",
-        "wirdBerechnetNach",
-        "istAusstehend"
+        "betrifft",
+        "erfüllt",
+        "hatKonsequenz"
       ],
       "relationships": [
         [
-          "Pauschalpreisvertrag",
+          "Richtlinie",
           "beinhaltet",
-          "Leistung"
+          "Artikel"
         ],
         [
-          "Leistung",
-          "wirdBerechnetNach",
-          "Vergütung"
+          "Artikel",
+          "betrifft",
+          "Verbraucher"
         ],
         [
-          "Vergütung",
-          "istVerantwortlichFür",
-          "Vertragspartei"
+          "Verbraucher",
+          "erfüllt",
+          "Bedingung"
         ],
         [
-          "Leistung",
-          "istAusstehend",
-          "Pauschalpreisvertrag"
-        ]
-      ]
-    }
-  },
-  "Cluster 23": {
-    "gcq": "Unter welchen Voraussetzungen ist eine wirksame Abnahme des gemeinschaftlichen Eigentums im Rahmen des § 15 Abs. 2 WEG möglich und welche rechtlichen Konsequenzen hat ein nicht ordnungsmäßiger Gebrauch des gemeinschaftlichen Eigentums?",
-    "ontology": {
-      "classes": [
-        "Rechtsfolge",
-        "Leistungserbringer",
-        "Vertragsbeendigung",
-        "Pauschalpreisvertrag",
-        "Abrechnung",
-        "Teilleistung",
-        "Vertragsstrafe",
-        "Leistungsempfänger",
-        "Schadensersatz",
-        "Rechtsverletzung",
-        "Verpflichtung"
-      ],
-      "properties": [
-        "istMöglichUnter",
-        "istWirksam",
-        "istOrdungsmässig",
-        "führtZu"
-      ],
-      "relationships": [
-        [
-          "Abnahme",
-          "istMöglichUnter",
-          "§ 15 Abs. 2 WEG"
-        ],
-        [
-          "Eigentum",
-          "istWirksam",
-          "Abnahme"
-        ],
-        [
-          "Gebrauch",
-          "istOrdungsmässig",
-          "Eigentum"
-        ],
-        [
-          "Gebrauch",
-          "führtZu",
-          "Rechtsfolge"
+          "Bedingung",
+          "hatKonsequenz",
+          "RechtlicheKonsequenz"
         ]
       ]
     }
