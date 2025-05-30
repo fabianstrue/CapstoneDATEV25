@@ -1,0 +1,258 @@
+{
+  "Cluster 55": {
+    "gcq": "Unter welchen Voraussetzungen und mit welchen Kriterien ist die Kausalität zwischen einem Unfallereignis und einer Gesundheitsbeeinträchtigung im Rahmen der privaten Unfallversicherung zu beurteilen?",
+    "ontology": {
+      "classes": [
+        "Rechtsfolge",
+        "Leistungserbringer",
+        "Vertragsbeendigung",
+        "Pauschalpreisvertrag",
+        "Abrechnung",
+        "Teilleistung",
+        "Vertragsstrafe",
+        "Leistungsempfänger",
+        "Schadensersatz",
+        "Rechtsverletzung",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "findet Statt",
+        "führtZu",
+        "wirdBeurteiltNach",
+        "basiertAuf"
+      ],
+      "relationships": [
+        [
+          "Unfallereignis",
+          "findet Statt",
+          "PrivateUnfallversicherung"
+        ],
+        [
+          "Unfallereignis",
+          "führtZu",
+          "Gesundheitsbeeinträchtigung"
+        ],
+        [
+          "Kausalität",
+          "wirdBeurteiltNach",
+          "Unfallereignis"
+        ],
+        [
+          "Kausalität",
+          "basiertAuf",
+          "Gesundheitsbeeinträchtigung"
+        ]
+      ]
+    }
+  },
+  "Cluster 8": {
+    "gcq": "Unter welchen Voraussetzungen und in welchem Rahmen können Ärzte ihre Leistungen abrechnen und welche rechtlichen Anforderungen müssen dabei erfüllt sein?",
+    "ontology": {
+      "classes": [
+        "Rechtsfolge",
+        "Leistungserbringer",
+        "Vertragsbeendigung",
+        "Pauschalpreisvertrag",
+        "Abrechnung",
+        "Teilleistung",
+        "Vertragsstrafe",
+        "Leistungsempfänger",
+        "Schadensersatz",
+        "Rechtsverletzung",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "kannAbrechnen",
+        "mussErfüllen",
+        "beinhaltet"
+      ],
+      "relationships": [
+        [
+          "Arzt",
+          "kannAbrechnen",
+          "Leistung"
+        ],
+        [
+          "Leistung",
+          "beinhaltet",
+          "Abrechnung"
+        ],
+        [
+          "Abrechnung",
+          "mussErfüllen",
+          "RechtlicheAnforderung"
+        ]
+      ]
+    }
+  },
+  "Cluster 62": {
+    "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, bestimmte Informationen oder Handlungen im Zusammenhang mit einer Vertragsänderung, einer Schenkung, einer Pacht oder einem Sachverständigengutachten mitzuteilen oder zu berücksichtigen, um das Vertrauen der Vertragsparteien zu wahren und die rechtlichen Auswirkungen zu verstehen?",
+    "ontology": {
+      "classes": [
+        "Rechtsfolge",
+        "Leistungserbringer",
+        "Vertragsbeendigung",
+        "Pauschalpreisvertrag",
+        "Abrechnung",
+        "Teilleistung",
+        "Vertragsstrafe",
+        "Leistungsempfänger",
+        "Schadensersatz",
+        "Rechtsverletzung",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "betrifft",
+        "verpflichtet",
+        "mitzuteilen",
+        "zuBerücksichtigen",
+        "wahren",
+        "verstehen"
+      ],
+      "relationships": [
+        [
+          "Vertragsänderung",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Vertragspartei",
+          "verpflichtet",
+          "mitzuteilen"
+        ],
+        [
+          "Schenkung",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Pacht",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Sachverständigengutachten",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Information",
+          "betrifft",
+          "Vertragsänderung"
+        ],
+        [
+          "Handlung",
+          "betrifft",
+          "Vertragsänderung"
+        ],
+        [
+          "Vertragspartei",
+          "wahren",
+          "Vertrauen"
+        ],
+        [
+          "RechtlicheAuswirkung",
+          "zuBerücksichtigen",
+          "Vertragsänderung"
+        ],
+        [
+          "Vertragspartei",
+          "verstehen",
+          "RechtlicheAuswirkung"
+        ]
+      ]
+    }
+  },
+  "Cluster 81": {
+    "gcq": "Unter welchen Voraussetzungen und nach welchen Regeln ist die Vergütung für erbrachte oder noch ausstehende Leistungen bei einem vorzeitig beendeten Pauschalpreisvertrag zu berechnen und wer trägt die Verantwortung dafür?",
+    "ontology": {
+      "classes": [
+        "Rechtsfolge",
+        "Leistungserbringer",
+        "Vertragsbeendigung",
+        "Pauschalpreisvertrag",
+        "Abrechnung",
+        "Teilleistung",
+        "Vertragsstrafe",
+        "Leistungsempfänger",
+        "Schadensersatz",
+        "Rechtsverletzung",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "beinhaltet",
+        "istVerantwortlichFür",
+        "wirdBerechnetNach",
+        "istAusstehend"
+      ],
+      "relationships": [
+        [
+          "Pauschalpreisvertrag",
+          "beinhaltet",
+          "Leistung"
+        ],
+        [
+          "Leistung",
+          "wirdBerechnetNach",
+          "Vergütung"
+        ],
+        [
+          "Vergütung",
+          "istVerantwortlichFür",
+          "Vertragspartei"
+        ],
+        [
+          "Leistung",
+          "istAusstehend",
+          "Pauschalpreisvertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 23": {
+    "gcq": "Unter welchen Voraussetzungen ist eine wirksame Abnahme des gemeinschaftlichen Eigentums im Rahmen des § 15 Abs. 2 WEG möglich und welche rechtlichen Konsequenzen hat ein nicht ordnungsmäßiger Gebrauch des gemeinschaftlichen Eigentums?",
+    "ontology": {
+      "classes": [
+        "Rechtsfolge",
+        "Leistungserbringer",
+        "Vertragsbeendigung",
+        "Pauschalpreisvertrag",
+        "Abrechnung",
+        "Teilleistung",
+        "Vertragsstrafe",
+        "Leistungsempfänger",
+        "Schadensersatz",
+        "Rechtsverletzung",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "istMöglichUnter",
+        "istWirksam",
+        "istOrdungsmässig",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Abnahme",
+          "istMöglichUnter",
+          "§ 15 Abs. 2 WEG"
+        ],
+        [
+          "Eigentum",
+          "istWirksam",
+          "Abnahme"
+        ],
+        [
+          "Gebrauch",
+          "istOrdungsmässig",
+          "Eigentum"
+        ],
+        [
+          "Gebrauch",
+          "führtZu",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  }
+}
