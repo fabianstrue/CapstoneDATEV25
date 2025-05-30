@@ -1,0 +1,212 @@
+{
+  "Cluster 8": {
+    "gcq": "Unter welchen Voraussetzungen und in welchen Beziehungen ist eine künstliche Befruchtung als medizinisch notwendige Heilbehandlung anzuerkennen, und wer ist verpflichtet, die damit verbundenen Kosten zu tragen?",
+    "ontology": {
+      "classes": [
+        "KuenstlicheBefruchtung",
+        "MedizinischeBehandlung",
+        "Heilbehandlung",
+        "Kosten",
+        "GesetzlicheKrankenversicherung",
+        "Patient"
+      ],
+      "properties": [
+        "istNotwendig",
+        "istAnzuerkennenAls",
+        "tragtVerantwortungFuer",
+        "istVerpflichtet",
+        "decktKosten"
+      ],
+      "relationships": [
+        [
+          "KuenstlicheBefruchtung",
+          "istAnzuerkennenAls",
+          "MedizinischeBehandlung"
+        ],
+        [
+          "MedizinischeBehandlung",
+          "istNotwendig",
+          "Heilbehandlung"
+        ],
+        [
+          "Heilbehandlung",
+          "tragtVerantwortungFuer",
+          "Kosten"
+        ],
+        [
+          "GesetzlicheKrankenversicherung",
+          "istVerpflichtet",
+          "decktKosten"
+        ],
+        [
+          "Patient",
+          "hatVerpflichtung",
+          "Kosten"
+        ]
+      ]
+    }
+  },
+  "Cluster 23": {
+    "gcq": "Unter welchen Voraussetzungen ist eine Kündigung eines Mietverhältnisses wirksam, insbesondere wenn ein Kündigungsausschluss vereinbart wurde oder der Mieter in Verzug ist?",
+    "ontology": {
+      "classes": [
+        "Mietverhältnis",
+        "Kündigung",
+        "Kündigungsausschluss",
+        "Verzug"
+      ],
+      "properties": [
+        "istWirksam",
+        "basiertAuf",
+        "betrifft",
+        "verhindert"
+      ],
+      "relationships": [
+        [
+          "Kündigung",
+          "istWirksam",
+          "Mietverhältnis"
+        ],
+        [
+          "Kündigung",
+          "basiertAuf",
+          "Kündigungsausschluss"
+        ],
+        [
+          "Kündigung",
+          "basiertAuf",
+          "Verzug"
+        ],
+        [
+          "Kündigungsausschluss",
+          "verhindert",
+          "Kündigung"
+        ]
+      ]
+    }
+  },
+  "Cluster 55": {
+    "gcq": "Unter welchen Voraussetzungen und welche Bedeutung haben die verschiedenen Kostenangaben in der Betriebskostenabrechnung und im Bauantrag für die Wirksamkeit der Abrechnung und die Berechnung der Gebühren?",
+    "ontology": {
+      "classes": [
+        "Betriebskostenabrechnung",
+        "Bauantrag",
+        "Kostenangabe",
+        "Wirksamkeit",
+        "Gebühr"
+      ],
+      "properties": [
+        "enthält",
+        "betrifft",
+        "beeinflusst",
+        "basiert auf",
+        "führt zu"
+      ],
+      "relationships": [
+        [
+          "Betriebskostenabrechnung",
+          "enthält",
+          "Kostenangabe"
+        ],
+        [
+          "Bauantrag",
+          "enthält",
+          "Kostenangabe"
+        ],
+        [
+          "Kostenangabe",
+          "betrifft",
+          "Wirksamkeit"
+        ],
+        [
+          "Kostenangabe",
+          "beeinflusst",
+          "Gebühr"
+        ],
+        [
+          "Gebühr",
+          "basiert auf",
+          "Kostenangabe"
+        ],
+        [
+          "Wirksamkeit",
+          "führt zu",
+          "Gebühr"
+        ]
+      ]
+    }
+  },
+  "Cluster 62": {
+    "gcq": "Unter welchen Voraussetzungen und in welchem Umfang kann die Berichterstattung über eine Person das allgemeine Persönlichkeitsrecht verletzen und welche Interessen müssen dabei berücksichtigt werden?",
+    "ontology": {
+      "classes": [
+        "Berichterstattung",
+        "Persönlichkeitsrecht",
+        "Person",
+        "Interesse"
+      ],
+      "properties": [
+        "verletzt",
+        "betrifft",
+        "berücksichtigt"
+      ],
+      "relationships": [
+        [
+          "Berichterstattung",
+          "verletzt",
+          "Persönlichkeitsrecht"
+        ],
+        [
+          "Persönlichkeitsrecht",
+          "betrifft",
+          "Person"
+        ],
+        [
+          "Berichterstattung",
+          "berücksichtigt",
+          "Interesse"
+        ]
+      ]
+    }
+  },
+  "Cluster 81": {
+    "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, bei der Beendigung eines Pauschalpreisvertrages die Abrechnung von Teilleistungen vorzunehmen und welche Rechtsfolgen treten ein, wenn diese nicht den Anforderungen entspricht?",
+    "ontology": {
+      "classes": [
+        "Vertragsbeendigung",
+        "Teilleistung",
+        "Abrechnung",
+        "Verpflichtung",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "beinhaltet",
+        "istVerpflichtet",
+        "entsprichtAnforderungen",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Vertragsbeendigung",
+          "beinhaltet",
+          "Teilleistung"
+        ],
+        [
+          "Teilleistung",
+          "beinhaltet",
+          "Abrechnung"
+        ],
+        [
+          "Abrechnung",
+          "entsprichtAnforderungen",
+          "Rechtsfolge"
+        ],
+        [
+          "Vertrag",
+          "istVerpflichtet",
+          "Verpflichtung"
+        ]
+      ]
+    }
+  }
+}
