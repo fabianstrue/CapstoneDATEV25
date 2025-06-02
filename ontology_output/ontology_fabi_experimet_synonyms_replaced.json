@@ -1,0 +1,8685 @@
+[
+  {
+    "cluster": "Cluster 0",
+    "ontology": {
+      "Klassen": [
+        "Bandbreite",
+        "Entschädigung",
+        "Kabelnetzbetreiber",
+        "Netz",
+        "Rechtsgrundlage",
+        "Signaldurchleitung",
+        "Signale"
+      ],
+      "Eigenschaften": [
+        "gewähren",
+        "gewährleisten",
+        "leiten",
+        "nutzen",
+        "sicherstellen",
+        "verbieten",
+        "verhindern"
+      ],
+      "Beziehungen": [
+        [
+          "Bandbreite",
+          "spielt eine Rolle bei",
+          "Signaldurchleitung durch das Netz eines anderen Betreibers"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "gewähren",
+          "Duldung der Signaldurchleitung"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "gewährleisten",
+          "angemessene Entschädigung zu zahlen"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "leiten",
+          "Signale durch das Netz eines anderen Betreibers"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "nutzen",
+          "Netz eines anderen Betreibers gewerblich"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "sicherstellen",
+          "nur autorisierte Signale durch sein Netz geleitet werden"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "verbieten",
+          "Signaldurchleitung durch das Netz eines anderen Betreibers"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "verhindern",
+          "Signaldurchleitung unerwünschter Signale"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "den Fall der gewerblichen Nutzung ohne Einverständnis"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 1",
+    "ontology": {
+      "Klassen": [
+        "Kläger",
+        "Patent",
+        "Patentnichtigkeitsklage"
+      ],
+      "Eigenschaften": [
+        "argumentieren",
+        "auftreten",
+        "ausschließen",
+        "betrachtet",
+        "erheben",
+        "inanspruchnehmen",
+        "verletzen",
+        "verneinen"
+      ],
+      "Beziehungen": [
+        [
+          "Beklagte",
+          "argumentieren",
+          "Anwendung",
+          "angegriffenes Patent"
+        ],
+        [
+          "Beklagte",
+          "argumentieren",
+          "Nutzung",
+          "angegriffenes Patent"
+        ],
+        [
+          "Kläger",
+          "auftreten",
+          "Patentnichtigkeitsverfahren"
+        ],
+        [
+          "Kläger",
+          "ausschließen",
+          "Rechtsschutzmöglichkeit"
+        ],
+        [
+          "Kläger",
+          "betrachtet",
+          "Strohmann"
+        ],
+        [
+          "Kläger",
+          "erheben",
+          "Patentnichtigkeitsklage"
+        ],
+        [
+          "Kläger",
+          "inanspruchnehmen",
+          "angegriffenes Patent"
+        ],
+        [
+          "Patentnichtigkeitsklage",
+          "verneinen",
+          "Zulässigkeit"
+        ],
+        [
+          "Urheberrechtsverletzung",
+          "verletzen",
+          "Urheberrechte"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 2",
+    "ontology": {
+      "Klassen": [
+        "Entschädigung",
+        "Reise",
+        "Reisender",
+        "Reisepreis",
+        "Reiseveranstalter"
+      ],
+      "Eigenschaften": [
+        "angemessen",
+        "bemessen",
+        "betrifft",
+        "erfüllen",
+        "vereitelt",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Entschädigung",
+          "bemessen",
+          "Reisepreis"
+        ],
+        [
+          "Reise",
+          "vereitelt",
+          "Entschädigung"
+        ],
+        [
+          "Reisender",
+          "hat",
+          "Rechte"
+        ],
+        [
+          "Reiseveranstalter",
+          "verpflichtet",
+          "Abhilfe"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 3",
+    "ontology": {
+      "Klassen": [
+        "Anklageschrift",
+        "Anspruch",
+        "Handlung",
+        "Recht",
+        "Tötung",
+        "Verjährung",
+        "Zusammenstoß"
+      ],
+      "Eigenschaften": [
+        "gilt für",
+        "gilt für die Anwendung",
+        "hat Bedeutung",
+        "kann die Verjährung unterbrechen",
+        "kann unterbrochen werden",
+        "spielt eine Rolle",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Anklageschrift",
+          "kann die Verjährung unterbrechen",
+          "Verjährung"
+        ],
+        [
+          "Anspruch",
+          "kann unterbrochen werden",
+          "Verjährung"
+        ],
+        [
+          "Handlung",
+          "hat Bedeutung",
+          "Verjährung"
+        ],
+        [
+          "Recht",
+          "gilt für die Anwendung",
+          "Unfall"
+        ],
+        [
+          "Tötung",
+          "gilt für",
+          "Verjährung"
+        ],
+        [
+          "Verjährung",
+          "gilt für",
+          "Anspruch"
+        ],
+        [
+          "Zusammenstoß",
+          "spielt eine Rolle",
+          "Verjährung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 4",
+    "ontology": {
+      "Klassen": [
+        "Eisenbahninfrastrukturunternehmen",
+        "Eisenbahnverkehrsunternehmen",
+        "Haftpflicht",
+        "Schaden",
+        "Verkehrssicherungspflicht"
+      ],
+      "Eigenschaften": [
+        "angelastet",
+        "befreit",
+        "betrifft",
+        "haftet",
+        "regeln",
+        "verletzen",
+        "verursachen"
+      ],
+      "Beziehungen": [
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "haftet",
+          "Schaden"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "verletzt",
+          "Verkehrssicherungspflicht"
+        ],
+        [
+          "Eisenbahnverkehrsunternehmen",
+          "befreit",
+          "Haftpflicht"
+        ],
+        [
+          "Schaden",
+          "betrifft",
+          "Eisenbahninfrastrukturunternehmen"
+        ],
+        [
+          "Schaden",
+          "betrifft",
+          "Eisenbahnverkehrsunternehmen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 5",
+    "ontology": {
+      "Klassen": [
+        "Gemeinwohlinteresse",
+        "Geräuschemission",
+        "Mietwohnung",
+        "Regel der Technik",
+        "Schallschutzstandard"
+      ],
+      "Eigenschaften": [
+        "entspricht",
+        "gilt als wesentlich",
+        "hat Bedeutung",
+        "ist einzuschätzen",
+        "ist zu bestimmen",
+        "wird betrachtet"
+      ],
+      "Beziehungen": [
+        [
+          "Gemeinwohlinteresse",
+          "hat Bedeutung",
+          "bei der Bestimmung der Zumutbarkeitsgrenze von Geräuschemissionen im Zusammenhang mit dem Schienenverkehr"
+        ],
+        [
+          "Geräuschemission",
+          "gilt als wesentlich",
+          "im Sinne der 16. BImSchV"
+        ],
+        [
+          "Geräuschemission",
+          "wird betrachtet",
+          "als besonders schädlich für die Nachtruhe"
+        ],
+        [
+          "Schallschutzstandard",
+          "ist einzuschätzen",
+          "wenn die DIN 4109 nicht den anerkannten Regeln der Technik entspricht"
+        ],
+        [
+          "Schallschutzstandard",
+          "ist einzuschätzen",
+          "wenn erhöhte Anforderungen an den Schallschutz vereinbart wurden"
+        ],
+        [
+          "Schallschutzstandard",
+          "ist einzuschätzen",
+          "wenn es keine Parteivereinbarung über die Bauweise des Mietobjekts gibt"
+        ],
+        [
+          "Wesentlichkeitsgrenze",
+          "ist zu bestimmen",
+          "im Sinne von § 906 BGB"
+        ],
+        [
+          "Zumutbarkeitsgrenze",
+          "ist zu bestimmen",
+          "im direkten Anwendungsbereich von § 906 Abs. 2 Satz 2 BGB"
+        ],
+        [
+          "enteignungsrechtliche Zumutbarkeitsschwelle",
+          "hat Bedeutung",
+          "bei der Bestimmung der Zumutbarkeitsgrenze von Geräuschemissionen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 6",
+    "ontology": {
+      "Klassen": [
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Verantwortung"
+      ],
+      "Eigenschaften": [
+        "gilt für",
+        "tragen bei",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Rechtsfolge",
+          "tritt ein",
+          "Aufhebung und Zurückverweisung eines Berufungsurteils"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Zurückweisung von Beweisanträgen"
+        ],
+        [
+          "Verantwortung",
+          "tragen bei",
+          "Überprüfung von Verjährungsfragen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 7",
+    "ontology": {
+      "Klassen": [
+        "Arzt",
+        "Einwilligung",
+        "GOÄ",
+        "Krankenhaus",
+        "Leistung",
+        "Patient",
+        "Pflegeleistung",
+        "Rechnung",
+        "Verordnung",
+        "Wahlleistung"
+      ],
+      "Eigenschaften": [
+        "abrechnet",
+        "enthält",
+        "entspricht",
+        "erfüllen",
+        "geltend",
+        "prüfen",
+        "schützt",
+        "verlangt",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "Arzt",
+          "abrechnet",
+          "Leistung"
+        ],
+        [
+          "Arzt",
+          "kann",
+          "keine",
+          "Vergütung",
+          "verlangen",
+          "wenn",
+          "Wahlleistungsvereinbarung",
+          "nichtig"
+        ],
+        [
+          "Arzt",
+          "verlangt",
+          "Vergütung"
+        ],
+        [
+          "Einwilligung",
+          "ist",
+          "notwendig",
+          "für",
+          "Haftung"
+        ],
+        [
+          "GOÄ",
+          "enthält",
+          "Leistung"
+        ],
+        [
+          "Krankenhaus",
+          "hat",
+          "Vertreter",
+          "der",
+          "unterschreibt",
+          "Wahlleistungsvereinbarung"
+        ],
+        [
+          "Krankenhaus",
+          "ist",
+          "verpflichtet",
+          "Kosten",
+          "des",
+          "Heimaufenthalts",
+          "zu",
+          "tragen",
+          "wenn",
+          "Pflegeverpflichtung",
+          "nicht",
+          "erbracht",
+          "werden",
+          "kann"
+        ],
+        [
+          "Krankenhaus",
+          "muss",
+          "Formvorschriften",
+          "für",
+          "Vereinbarung",
+          "von",
+          "Wahlleistungen",
+          "einhalten"
+        ],
+        [
+          "Patient",
+          "erhält",
+          "Rechnung"
+        ],
+        [
+          "Patient",
+          "hat",
+          "Recht",
+          "gegen",
+          "Rechnung"
+        ],
+        [
+          "Patient",
+          "kann",
+          "Anspruch",
+          "auf",
+          "Geldersatz",
+          "für",
+          "ersparte",
+          "Pflegeleistung",
+          "machen",
+          "wenn",
+          "Bedingungen",
+          "erfüllt"
+        ],
+        [
+          "Rechnung",
+          "entspricht",
+          "§ 12 GOÄ"
+        ],
+        [
+          "Wahlleistung",
+          "ist",
+          "nichtig",
+          "wenn",
+          "Verordnung",
+          "nichtig"
+        ],
+        [
+          "Wahlleistungsvereinbarung",
+          "ist",
+          "nichtig",
+          "wenn",
+          "Patient",
+          "keine",
+          "Einwilligung",
+          "erteilt"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 8",
+    "ontology": {
+      "Klassen": [
+        "Einlageverbindlichkeit",
+        "Gesellschaft",
+        "Gesellschafter",
+        "Haftungsvergütung",
+        "Kreditwürdigkeit",
+        "Stammkapitalerhöhung"
+      ],
+      "Eigenschaften": [
+        "bei der Beurteilung",
+        "bei der Entscheidung",
+        "bei der Erfüllung",
+        "betrifft",
+        "führt zu",
+        "hat Rechtsfolgen",
+        "liegt im Interesse",
+        "rechtfertigt",
+        "spielt eine Rolle"
+      ],
+      "Beziehungen": [
+        [
+          "Einlageverbindlichkeit",
+          "bei der Erfüllung",
+          "Kapitalaufbringung"
+        ],
+        [
+          "Kreditwürdigkeit",
+          "spielt eine Rolle",
+          "Entscheidung über Stammkapitalerhöhung"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "führt zu",
+          "Erhöhung der Haftungsvergütung"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "hat Rechtsfolgen",
+          "Gesellschaft"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "hat Rechtsfolgen",
+          "Gesellschafter"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "liegt im Interesse",
+          "Gesellschaft"
+        ],
+        [
+          "Zeitlicher Zusammenhang",
+          "spielt eine Rolle",
+          "Beurteilung verdeckter Sacheinlage"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 9",
+    "ontology": {
+      "Klassen": [
+        "Frist",
+        "Mieter",
+        "Mietvertrag",
+        "Schönheitsreparaturklausel",
+        "Vermieter"
+      ],
+      "Eigenschaften": [
+        "abweichen",
+        "erfüllen",
+        "festlegen",
+        "gelten",
+        "sicherstellen",
+        "verkürzen",
+        "verlängern"
+      ],
+      "Beziehungen": [
+        [
+          "Abnutzungsgrad",
+          "festlegen",
+          "Frist"
+        ],
+        [
+          "Mieter",
+          "abweichen",
+          "Bedingungen"
+        ],
+        [
+          "Mieter",
+          "abweichen",
+          "Frist"
+        ],
+        [
+          "Mieter",
+          "erfüllen",
+          "Frist"
+        ],
+        [
+          "Mieter",
+          "sicherstellen",
+          "keine Renovierungsbedarf"
+        ],
+        [
+          "Schönheitsreparatur",
+          "zurechenbar",
+          "Mieter"
+        ],
+        [
+          "Schönheitsreparaturklausel",
+          "gelten",
+          "angemessen"
+        ],
+        [
+          "Vermieter",
+          "festlegen",
+          "Frist"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 10",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Eigentümer",
+        "Grundstück",
+        "Recht",
+        "Rechtsgrundlage"
+      ],
+      "Eigenschaften": [
+        "beeinträchtigen",
+        "beinhaltet",
+        "duldet",
+        "erfolgt",
+        "gilt_fuer",
+        "hat",
+        "hat_Anpruch_auf",
+        "lastet",
+        "schützt",
+        "spielt_Rolle_in",
+        "verliert"
+      ],
+      "Beziehungen": [
+        [
+          "Anspruch",
+          "hat_Anspruch_auf",
+          "Zahlung"
+        ],
+        [
+          "Eigentümer",
+          "verliert",
+          "Grundstück"
+        ],
+        [
+          "Grundstück",
+          "beinhaltet",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "beinhaltet",
+          "Eigentümer"
+        ],
+        [
+          "Recht",
+          "spielt_Rolle_in",
+          "Verjährung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt_fuer",
+          "Haftung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 11",
+    "ontology": {
+      "Klassen": [
+        "Abtretungsklausel",
+        "Rechtsfolge",
+        "Verständlichkeit"
+      ],
+      "Eigenschaften": [
+        "führen zu",
+        "sicherstellen",
+        "spielen eine Rolle für",
+        "treten ein",
+        "wirksam sein"
+      ],
+      "Beziehungen": [
+        [
+          "Abtretung",
+          "wirksam sein",
+          "Bedingungen"
+        ],
+        [
+          "Abtretungsklausel",
+          "unklare",
+          "Unwirksamkeit"
+        ],
+        [
+          "Abtretungsklausel",
+          "unwirksam sein",
+          "Rechtsfolge"
+        ],
+        [
+          "Abtretungsklausel",
+          "wirksam sein",
+          "Voraussetzungen"
+        ],
+        [
+          "Transparenz",
+          "sicherstellen",
+          "Abtretungsklausel"
+        ],
+        [
+          "Verständlichkeit",
+          "spielen eine Rolle für",
+          "Wirksamkeit"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 12",
+    "ontology": {
+      "Klassen": [
+        "Ehepartner",
+        "Erkrankung",
+        "Heilbehandlung",
+        "Krankenversicherung",
+        "KünstlicheBefruchtung"
+      ],
+      "Eigenschaften": [
+        "benötigt",
+        "giltAls",
+        "hatNotwendigkeit",
+        "istSchwerwiegend",
+        "tragenKosten",
+        "überwindenUnfruchtbarkeit"
+      ],
+      "Beziehungen": [
+        [
+          "Ehepartner",
+          "tragenKosten",
+          "KünstlicheBefruchtung"
+        ],
+        [
+          "Erkrankung",
+          "benötigt",
+          "KünstlicheBefruchtung"
+        ],
+        [
+          "Erkrankung",
+          "istSchwerwiegend",
+          "Ehepartner"
+        ],
+        [
+          "KünstlicheBefruchtung",
+          "giltAls",
+          "Heilbehandlung"
+        ],
+        [
+          "KünstlicheBefruchtung",
+          "überwindenUnfruchtbarkeit",
+          "Ehepartner"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 13",
+    "ontology": {
+      "Klassen": [
+        "Altleitung",
+        "Anschluss",
+        "Anschlussnehmer",
+        "Baukostenzuschuss",
+        "Wasserversorgungsunternehmen"
+      ],
+      "Eigenschaften": [
+        "besitzen",
+        "einbauen",
+        "erneuern",
+        "verlangen",
+        "vorhalten"
+      ],
+      "Beziehungen": [
+        [
+          "Anschluss",
+          "erneuern",
+          "Wasserversorgungsunternehmen"
+        ],
+        [
+          "Anschluss",
+          "vorhalten",
+          "Wasserversorgungsunternehmen"
+        ],
+        [
+          "Anschlussnehmer",
+          "zahlen",
+          "Baukostenzuschuss"
+        ],
+        [
+          "Wasserversorgungsunternehmen",
+          "besitzen",
+          "Altleitung"
+        ],
+        [
+          "Wasserversorgungsunternehmen",
+          "einbauen",
+          "Wasserzähler"
+        ],
+        [
+          "Wasserversorgungsunternehmen",
+          "verlangen",
+          "Baukostenzuschuss"
+        ],
+        [
+          "Wasserzähler",
+          "besitzen",
+          "Wasserversorgungsunternehmen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 14",
+    "ontology": {
+      "Klassen": [
+        "Beschlussfassung",
+        "Hausordnung",
+        "Immobiliengesellschaft",
+        "Anklageschrift",
+        "Rasenfläche",
+        "Sonderumlage",
+        "Streithelferin",
+        "Verwaltung",
+        "Wohnungseigentümergemeinschaft"
+      ],
+      "Eigenschaften": [
+        "begrenzen",
+        "benennen",
+        "berücksichtigen",
+        "bezeichnen",
+        "entscheiden",
+        "erfüllen",
+        "ermöglichen",
+        "fassen",
+        "haben",
+        "müssen",
+        "sicherzustellen",
+        "wichtig",
+        "ziehen"
+      ],
+      "Beziehungen": [
+        [
+          "Beschlussfassung",
+          "bezeichnet werden durch",
+          "Gegenstand"
+        ],
+        [
+          "Beschlussfassung",
+          "ermöglicht von",
+          "Unterlage"
+        ],
+        [
+          "Ermessen",
+          "begrenzt werden durch",
+          "Beschlussfassung"
+        ],
+        [
+          "Hausordnung",
+          "relevant für",
+          "Beschlusskompetenz"
+        ],
+        [
+          "Immobiliengesellschaft",
+          "entscheidet über",
+          "Sonderumlage"
+        ],
+        [
+          "Immobiliengesellschaft",
+          "zieht unangemessene Vorteile aus",
+          "Beschlussfassung"
+        ],
+        [
+          "Klageschrift",
+          "benannt werden von",
+          "Mitglieder"
+        ],
+        [
+          "Rasenfläche",
+          "regelbar durch",
+          "Mehrheitsbeschluss"
+        ],
+        [
+          "Sonderumlage",
+          "erfüllt werden von",
+          "Voraussetzungen"
+        ],
+        [
+          "Streithelferin",
+          "berücksichtigt werden durch",
+          "Teilrechtsfähigkeit"
+        ],
+        [
+          "Verwaltung",
+          "sicherzustellen von",
+          "Wohnungseigentümergemeinschaft"
+        ],
+        [
+          "Verwaltung",
+          "wichtig für",
+          "Wohnungseigentümergemeinschaft"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 15",
+    "ontology": {
+      "Klassen": [
+        "Abnahme",
+        "Beschluss",
+        "Eigentum",
+        "Gebrauch",
+        "Mangel",
+        "Verwalter"
+      ],
+      "Eigenschaften": [
+        "geltend machen",
+        "gestalten",
+        "ordnungsmäßig",
+        "regeln",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "Abnahme",
+          "ist wirksam",
+          "Eigentum nutzen"
+        ],
+        [
+          "Beschluss",
+          "wird gefasst",
+          "Eigentum regeln"
+        ],
+        [
+          "Eigentum",
+          "hat Mangel",
+          "ist nicht ordnungsmäßig"
+        ],
+        [
+          "Gebrauch",
+          "ist ordnungsmäßig",
+          "Eigentum gestalten"
+        ],
+        [
+          "Käufer",
+          "kann Mangel geltend machen",
+          "wenn Abnahme nicht wirksam ist"
+        ],
+        [
+          "Verwalter",
+          "ist verpflichtet",
+          "Gebrauch gestalten"
+        ],
+        [
+          "Verwalter",
+          "kann Abnahme erklären",
+          "wenn Eigentum ordnungsmäßig ist"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 16",
+    "ontology": {
+      "Klassen": [
+        "Bedingung",
+        "Information",
+        "Rechtsgrundlage",
+        "Satire",
+        "Schutz",
+        "Verpflichtung",
+        "Äußerung"
+      ],
+      "Eigenschaften": [
+        "erfüllen",
+        "genießt",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Rechtsgrundlage",
+          "tritt ein",
+          "Folgen"
+        ],
+        [
+          "Satire",
+          "erfüllen",
+          "Bedingungen"
+        ],
+        [
+          "Äußerung",
+          "genießt",
+          "Schutz"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 17",
+    "ontology": {
+      "Klassen": [
+        "Kaufsache",
+        "Käufer",
+        "Mangel",
+        "Mietwagenkosten",
+        "Schadensersatz",
+        "Verkäufer"
+      ],
+      "Eigenschaften": [
+        "beanspruchen",
+        "beanspruchen können",
+        "beinhaltet",
+        "verlangt"
+      ],
+      "Beziehungen": [
+        [
+          "Käufer",
+          "beanspruchen kann",
+          "Mietwagenkosten"
+        ],
+        [
+          "Käufer",
+          "verlangt",
+          "Schadensersatz"
+        ],
+        [
+          "Mangel",
+          "beinhaltet",
+          "Schadensersatz"
+        ],
+        [
+          "Verkäufer",
+          "verursacht",
+          "Schadensersatz"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 18",
+    "ontology": {
+      "Klassen": [
+        "Anlage",
+        "Gesetzgeber",
+        "Haftungsvorschrift",
+        "Schadensanspruch"
+      ],
+      "Eigenschaften": [
+        "bedeuten",
+        "bestehen",
+        "erfüllen",
+        "interpretieren",
+        "verpflichten"
+      ],
+      "Beziehungen": [
+        [
+          "Anlage",
+          "erfüllen",
+          "§ 2 Abs. 1 Satz 1 HPflG"
+        ],
+        [
+          "Haftungsvorschrift",
+          "interpretieren",
+          "Schutzzweck"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "bestehen",
+          "§ 2 Abs. 1 Satz 1 HPflG"
+        ],
+        [
+          "§ 2 Abs. 1 Satz 3 HPflG",
+          "bedeuten",
+          "ordnungsmäßiger Zustand"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 19",
+    "ontology": {
+      "Klassen": [
+        "Kündigung",
+        "Kündigungsausschluss",
+        "Mietverhältnis",
+        "Mietvertrag",
+        "Verzug"
+      ],
+      "Eigenschaften": [
+        "aussprechen",
+        "fortsetzen",
+        "vereinbart",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "Kündigung",
+          "wirksam",
+          "wenn Kündigungsausschluss vereinbart"
+        ],
+        [
+          "Mieter",
+          "hat Recht",
+          "außerordentliche Kündigung auszusprechen"
+        ],
+        [
+          "außerordentliche Kündigung",
+          "wirksam",
+          "wenn Mietverhältnis fortgesetzt wird"
+        ],
+        [
+          "außerordentliche Kündigung",
+          "wirksam",
+          "wenn Verzug vorliegt"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 20",
+    "ontology": {
+      "Klassen": [
+        "Baulärm",
+        "Betriebskostenabrechnung",
+        "Heimaufenthalt",
+        "Kündigung",
+        "Mangelbeseitigung",
+        "Mietausfall",
+        "Mietverhältnis",
+        "Nutzungsentschädigung",
+        "Renovierung",
+        "Rückgabe",
+        "Verkauf"
+      ],
+      "Eigenschaften": [
+        "angeben",
+        "berechnen",
+        "bestimmen",
+        "beteiligen",
+        "gilt",
+        "spielt",
+        "tragen",
+        "verlangen"
+      ],
+      "Beziehungen": [
+        [
+          "Absicht",
+          "berechnen",
+          "Nutzungsentschädigung"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "angeben",
+          "Gesamtkosten"
+        ],
+        [
+          "Erwerber",
+          "beteiligen",
+          "Kosten"
+        ],
+        [
+          "Kündigung",
+          "spielt",
+          "Verpflichtung"
+        ],
+        [
+          "Mangelbeseitigung",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Mietverhältnis",
+          "verlangen",
+          "Nutzungsentschädigung"
+        ],
+        [
+          "Renovierung",
+          "bestimmen",
+          "Nutzungsentschädigung"
+        ],
+        [
+          "Rückgabe",
+          "gilt",
+          "Nutzungsentschädigung"
+        ],
+        [
+          "Verkauf",
+          "tragen",
+          "Kosten"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 21",
+    "ontology": {
+      "Klassen": [
+        "Fassade",
+        "Genehmigung",
+        "Grundstück",
+        "Mieter",
+        "Mietobjekt",
+        "Mietzins",
+        "Nutzungsentschädigung",
+        "Raum",
+        "Vermieter",
+        "Wohnraum"
+      ],
+      "Eigenschaften": [
+        "angepriesen",
+        "beeinträchtigen",
+        "behaupten",
+        "beschaffenheit",
+        "gemindert",
+        "installieren",
+        "nötig",
+        "sicherstellen",
+        "versteigern",
+        "warten"
+      ],
+      "Beziehungen": [
+        [
+          "Fassade",
+          "beschaffenheit",
+          "Mietwohnung"
+        ],
+        [
+          "Genehmigung",
+          "nötig",
+          "Nutzung von Räumen als Wohnraum"
+        ],
+        [
+          "Grundstück",
+          "versteigern",
+          "Mietverhältnis"
+        ],
+        [
+          "Mieter",
+          "sicherstellen",
+          "Gebrauchstauglichkeit des Mietobjekts"
+        ],
+        [
+          "Mietobjekt",
+          "beeinträchtigen",
+          "Stromschwankungen"
+        ],
+        [
+          "Mietzins",
+          "gemindert",
+          "Mietzins"
+        ],
+        [
+          "Raum",
+          "angepriesen",
+          "Wohnraum"
+        ],
+        [
+          "Vermieter",
+          "installieren",
+          "Schließsystem"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 22",
+    "ontology": {
+      "Klassen": [
+        "GOÄ",
+        "Gesetzgeber",
+        "Rechnung",
+        "Rechtsprechung",
+        "Richtlinie",
+        "Schlichtungsverfahren",
+        "Verbraucher"
+      ],
+      "Eigenschaften": [
+        "beachten",
+        "definieren",
+        "einschränken",
+        "erfüllen",
+        "interpretieren",
+        "verpflichten"
+      ],
+      "Beziehungen": [
+        [
+          "Gesetzgeber",
+          "interpretieren",
+          "Schlichtungsverfahren"
+        ],
+        [
+          "Rechnung",
+          "verpflichten",
+          "GOÄ"
+        ],
+        [
+          "Rechtsprechung",
+          "beachten",
+          "Richtlinie"
+        ],
+        [
+          "Richtlinie",
+          "definieren",
+          "Verbraucher"
+        ],
+        [
+          "Richtlinie",
+          "einschränken",
+          "Ausnahmebedingungen"
+        ],
+        [
+          "Richtlinie",
+          "erfüllen",
+          "Verbraucher"
+        ],
+        [
+          "§ 15a EGZPO",
+          "definieren",
+          "Schlichtungsverfahren"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 23",
+    "ontology": {
+      "Klassen": [
+        "Mieter",
+        "Mieterhöhungsverlangen",
+        "Mietverhältnis",
+        "Mietvertrag",
+        "Mietzins",
+        "Modernisierungsmaßnahmen",
+        "Sachverständigengutachten",
+        "Vermieter",
+        "Wohnung",
+        "Öffentliche Fördermittel"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beachten",
+        "beeinflussen",
+        "begründen",
+        "beinhaltet",
+        "bezeichnen",
+        "darstellen",
+        "erfüllen",
+        "erhalten",
+        "ermitteln",
+        "verlangen"
+      ],
+      "Beziehungen": [
+        [
+          "Mieterhöhungsverlangen",
+          "beinhaltet",
+          "Modernisierungsmaßnahmen"
+        ],
+        [
+          "Mietverhältnis",
+          "beenden",
+          "Anschlussnehmer"
+        ],
+        [
+          "Mietvertrag",
+          "begründen",
+          "Mietzins"
+        ],
+        [
+          "Mietzins",
+          "beeinflussen",
+          "Mietverhältnis"
+        ],
+        [
+          "Modernisierungsmaßnahmen",
+          "basiert auf",
+          "Mietvertrag"
+        ],
+        [
+          "Sachverständigengutachten",
+          "begründen",
+          "Mieterhöhungsverlangen"
+        ],
+        [
+          "Vermieter",
+          "erhalten",
+          "Öffentliche Fördermittel"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 24",
+    "ontology": {
+      "Klassen": [
+        "AGB",
+        "Erfüllungsanspruch",
+        "Forderung",
+        "Grenze",
+        "Makler",
+        "Mietvertrag",
+        "Mietzins",
+        "Mietzinsanspruch",
+        "Planunterlagen",
+        "Regelung",
+        "Vertrag",
+        "Vertragspartei",
+        "Vertragsstrafe"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "betrifft",
+        "gilt für"
+      ],
+      "Beziehungen": [
+        [
+          "Erfüllungsanspruch",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Forderung",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Makler",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Mietvertrag",
+          "beinhaltet",
+          "Grenze"
+        ],
+        [
+          "Mietzins",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Mietzinsanspruch",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Planunterlagen",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Regelung",
+          "gilt für",
+          "AGB"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Vertragspartei",
+          "betrifft",
+          "Mietvertrag"
+        ],
+        [
+          "Vertragsstrafe",
+          "betrifft",
+          "Mietvertrag"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 25",
+    "ontology": {
+      "Klassen": [
+        "Beschenkter",
+        "Gesellschaftsvertrag",
+        "Innengesellschaft",
+        "Schenker",
+        "Schenkung",
+        "Schenkungsvertrag",
+        "Unterbeteiligung"
+      ],
+      "Eigenschaften": [
+        "eingeräumt",
+        "verpflichtet",
+        "vollzieht",
+        "vollzogen",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "Innengesellschaft",
+          "beinhaltet",
+          "Unterbeteiligung"
+        ],
+        [
+          "Schenkung",
+          "vollzieht",
+          "Schenkungsvertrag"
+        ],
+        [
+          "Schenkung",
+          "vollzogen",
+          "mit Abschluss des Gesellschaftsvertrages"
+        ],
+        [
+          "Schenkung",
+          "wirksam",
+          "wenn Bedingungen erfüllt sind"
+        ],
+        [
+          "Schenkungsvertrag",
+          "vollzieht",
+          "Schenkung"
+        ],
+        [
+          "Unterbeteiligung",
+          "eingeräumt",
+          "mitgliedschaftliche Rechte"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 26",
+    "ontology": {
+      "Klassen": [
+        "Anteilsübertragung",
+        "Beschlussfassung",
+        "Gesellschafterversammlung",
+        "Mehrheitsentscheidung",
+        "Mehrheitsklausel",
+        "Personengesellschaftsvertrag",
+        "Reichweite",
+        "Treuepflicht",
+        "Zustimmung"
+      ],
+      "Eigenschaften": [
+        "auszulegen",
+        "hat",
+        "im Hinblick auf",
+        "spielt",
+        "unterliegt",
+        "verletzen",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Anteilsübertragung",
+          "verpflichtet",
+          "Gesellschafterversammlung"
+        ],
+        [
+          "Bestimmtheitsgrundsatz",
+          "spielt",
+          "Mehrheitsklausel"
+        ],
+        [
+          "Mehrheitsentscheidung",
+          "unterliegt",
+          "Zustimmung"
+        ],
+        [
+          "Mehrheitsklausel",
+          "auszulegen",
+          "Reichweite"
+        ],
+        [
+          "Mehrheitsklausel",
+          "im Hinblick auf",
+          "Beschlussfassung"
+        ],
+        [
+          "Mehrheitsmacht",
+          "verletzt",
+          "Treuepflicht"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 27",
+    "ontology": {
+      "Klassen": [
+        "Frachtführer",
+        "Gut",
+        "Pachtzinsanspruch",
+        "Transportgut",
+        "Verlust",
+        "Versorgungsanspruch",
+        "Vertragspartner",
+        "Verzollung"
+      ],
+      "Eigenschaften": [
+        "hat_Anpruch_auf",
+        "ist_befugt",
+        "ist_zu_beziffern",
+        "kann_verpflichten",
+        "muss_haften_für",
+        "spielt_Rolle_bei"
+      ],
+      "Beziehungen": [
+        [
+          "Frachtführer",
+          "hat_Anpruch_auf",
+          "Ersatz_von_Aufwendungen_für_Verzollung_von_Gütern"
+        ],
+        [
+          "Frachtführer",
+          "muss_haften_für",
+          "Verlust_von_Gütern_während_des_Transports"
+        ],
+        [
+          "Gut",
+          "hat",
+          "Wert"
+        ],
+        [
+          "Pachtzinsanspruch",
+          "entfällt_auf",
+          "Pachtobjekt"
+        ],
+        [
+          "Verladevorrichtung",
+          "spielt_Rolle_bei",
+          "Verladung_von_Transportgut"
+        ],
+        [
+          "Vertragspartner",
+          "kann_verpflichten",
+          "Annahme_und_Verwertung_von_Abfällen"
+        ],
+        [
+          "Witwe",
+          "hat",
+          "Versorgungsanspruch"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 28",
+    "ontology": {
+      "Klassen": [
+        "Mieter",
+        "Mietrückgabe",
+        "Mietvertrag",
+        "Mietzahlung",
+        "Vermieter"
+      ],
+      "Eigenschaften": [
+        "hat",
+        "tritt ein",
+        "verlangt",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Mieter",
+          "hat",
+          "Recht auf Mietrückgabe"
+        ],
+        [
+          "Mieter",
+          "verpflichtet",
+          "Mietzahlung"
+        ],
+        [
+          "Mietrückgabe",
+          "verhindert",
+          "Mietvertragsbeendigung"
+        ],
+        [
+          "Mietvertrag",
+          "endet",
+          "Mietrückgabe"
+        ],
+        [
+          "Vermieter",
+          "hat",
+          "Recht auf Mietzahlung"
+        ],
+        [
+          "Vermieter",
+          "verlangt",
+          "ortsübliche Miete"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 29",
+    "ontology": {
+      "Klassen": [
+        "Beschränkung",
+        "Entscheidung",
+        "Förderungsvertrag",
+        "Mieter",
+        "Mietvertrag",
+        "Modernisierungsmieterhöhung",
+        "Optionsrecht",
+        "Vermieter",
+        "Verpflichtung",
+        "Vertrag"
+      ],
+      "Eigenschaften": [
+        "auslegen",
+        "ausüben",
+        "beeinflussen",
+        "beeinflusst",
+        "erfüllen",
+        "festlegen",
+        "gilt",
+        "gültig bleiben",
+        "verhindern",
+        "verlängern"
+      ],
+      "Beziehungen": [
+        [
+          "Entscheidung",
+          "beeinflusst",
+          "Optionsrecht"
+        ],
+        [
+          "Mietvertrag",
+          "erfüllt",
+          "Verpflichtung"
+        ],
+        [
+          "Optionsrecht",
+          "beeinflusst",
+          "Mietvertrag"
+        ],
+        [
+          "Verpflichtung",
+          "beeinflusst",
+          "Entscheidung"
+        ],
+        [
+          "Vertrag",
+          "festlegt",
+          "Beschränkung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 30",
+    "ontology": {
+      "Klassen": [
+        "Entschädigung",
+        "Mangel",
+        "Mietfläche",
+        "Mietgebrauch",
+        "Mietgegenstand",
+        "Mietvertrag",
+        "Mietwohnung"
+      ],
+      "Eigenschaften": [
+        "berücksichtigt",
+        "bestimmt",
+        "betrifft",
+        "erfordert",
+        "errichtet",
+        "festsetzt",
+        "führtzu",
+        "rechtfertigt",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Mangel",
+          "führtzu",
+          "Mietminderung"
+        ],
+        [
+          "Mieter",
+          "errichtet",
+          "Baulichkeiten"
+        ],
+        [
+          "Mietfläche",
+          "berücksichtigt",
+          "Ortsüblichkeit"
+        ],
+        [
+          "Mietminderung",
+          "rechtfertigt",
+          "Mietwohnung"
+        ],
+        [
+          "Mietvertrag",
+          "bestimmt",
+          "Mietfläche"
+        ],
+        [
+          "Mietvertrag",
+          "erfordert",
+          "Schriftform"
+        ],
+        [
+          "Mietvertrag",
+          "festsetzt",
+          "Miete"
+        ],
+        [
+          "Mietvertrag",
+          "verpflichtet",
+          "Mietwohnung"
+        ],
+        [
+          "Mietwohnung",
+          "betrifft",
+          "Mangel"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 31",
+    "ontology": {
+      "Klassen": [
+        "Kunde",
+        "Makler",
+        "Mieter",
+        "Mietverhältnis",
+        "Vermieter",
+        "Vertrag"
+      ],
+      "Eigenschaften": [
+        "beachten",
+        "erfüllen",
+        "fehlt",
+        "geltend machen",
+        "sicherstellen",
+        "verletzen",
+        "widerrufen"
+      ],
+      "Beziehungen": [
+        [
+          "Kunde",
+          "ausgehen",
+          "Vertrag"
+        ],
+        [
+          "Makler",
+          "geltend machen",
+          "Provisionsanspruch"
+        ],
+        [
+          "Makler",
+          "sicherstellen",
+          "Vertragsbereitschaft"
+        ],
+        [
+          "Mieter",
+          "beachten",
+          "Widerruf"
+        ],
+        [
+          "Mieter",
+          "erfüllen",
+          "Pflichten"
+        ],
+        [
+          "Vermieter",
+          "widerrufen",
+          "Erlaubnis"
+        ],
+        [
+          "Vermieterin",
+          "verletzt",
+          "Aufklärungspflicht"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 32",
+    "ontology": {
+      "Klassen": [
+        "Grund",
+        "Kündigung",
+        "Mietvertrag",
+        "Mietzahlung",
+        "Vermieterpflichtenverletzung"
+      ],
+      "Eigenschaften": [
+        "aussprechen",
+        "einstellen",
+        "kündigen",
+        "sicherstellen",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Kündigung",
+          "basiert auf",
+          "Grund"
+        ],
+        [
+          "Mietvertrag",
+          "beinhaltet",
+          "Mietzahlung"
+        ],
+        [
+          "Mietvertrag",
+          "beinhaltet",
+          "Vermieterpflichten"
+        ],
+        [
+          "Vermieterpflichtenverletzung",
+          "verhindert",
+          "Mietzahlung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 33",
+    "ontology": {
+      "Klassen": [
+        "Instandhaltung",
+        "Miete",
+        "Mieter",
+        "Mieterhöhung",
+        "Mietvertrag",
+        "Mietwohnung",
+        "Mietzinsanspruch",
+        "Pflicht",
+        "Recht",
+        "Rechtsfolge",
+        "Vermieter"
+      ],
+      "Eigenschaften": [
+        "angeben",
+        "anschließen",
+        "ausüben",
+        "beinhaltet",
+        "betrifft",
+        "einhalten",
+        "erhöht",
+        "fordern",
+        "gilt",
+        "sicherstellen",
+        "verlangt",
+        "vermietet",
+        "widerrufen",
+        "zahlt",
+        "zurechenbar"
+      ],
+      "Beziehungen": [
+        [
+          "Miete",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Miete",
+          "hat",
+          "Rechtsfolge"
+        ],
+        [
+          "Mieter",
+          "hat",
+          "Mietzinsanspruch"
+        ],
+        [
+          "Mieterhöhung",
+          "betrifft",
+          "Miete"
+        ],
+        [
+          "Mietvertrag",
+          "beinhaltet",
+          "Miete"
+        ],
+        [
+          "Mietwohnung",
+          "erfordert",
+          "Instandhaltung"
+        ],
+        [
+          "Recht",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Vermieter",
+          "hat",
+          "Pflicht"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 34",
+    "ontology": {
+      "Klassen": [
+        "Disziplinarstrafbefugnis",
+        "Haftungsausschluss",
+        "Klausel",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Verbandsstrafe"
+      ],
+      "Eigenschaften": [
+        "entfällt",
+        "erfüllt sein",
+        "gilt für",
+        "greift nicht ein",
+        "hat",
+        "unterscheiden"
+      ],
+      "Beziehungen": [
+        [
+          "Disziplinarstrafbefugnis",
+          "entfällt",
+          "Verband"
+        ],
+        [
+          "Haftungsausschluss",
+          "greift nicht ein",
+          "higher Gewalt"
+        ],
+        [
+          "Klausel",
+          "unterscheiden",
+          "§ 412 Abs. 3 HGB"
+        ],
+        [
+          "Rechtsfolge",
+          "hat",
+          "Ausschluss"
+        ],
+        [
+          "Verbandsstrafe",
+          "erfüllt sein",
+          "Voraussetzungen"
+        ],
+        [
+          "Verbandsstrafe",
+          "gilt für",
+          "Mitglied"
+        ],
+        [
+          "Vertragsstrafe",
+          "unterscheiden",
+          "Verbandsstrafe"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 35",
+    "ontology": {
+      "Klassen": [
+        "Absatzorganisation",
+        "Arglistige Täuschung",
+        "Handelsvertreterausgleich",
+        "Hersteller",
+        "Kaufvertrag",
+        "Kunde",
+        "Käufer",
+        "Lieferant",
+        "Schadensanspruch",
+        "Stammkunde",
+        "Stammkundenanteil",
+        "Tankstellenhalter",
+        "Vertragshändler",
+        "Verwaltungsanteil"
+      ],
+      "Eigenschaften": [
+        "anwenden",
+        "berechnen",
+        "berücksichtigen",
+        "bestimmen",
+        "beweisen",
+        "erfüllen",
+        "geltend machen",
+        "verlangen"
+      ],
+      "Beziehungen": [
+        [
+          "Absatzorganisation",
+          "einbinden",
+          "Vertragshändler"
+        ],
+        [
+          "Hersteller",
+          "anwenden",
+          "§ 89b HGB"
+        ],
+        [
+          "Kunde",
+          "bestimmen",
+          "Stammkundenanteil"
+        ],
+        [
+          "Käufer",
+          "erfüllt",
+          "arglistige Täuschung"
+        ],
+        [
+          "Käufer",
+          "geltend machen",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Lieferant",
+          "übertragen",
+          "Kundenstamm"
+        ],
+        [
+          "Stammkunde",
+          "berechnen",
+          "Stammkundenanteil"
+        ],
+        [
+          "Tankstellenhalter",
+          "berücksichtigen",
+          "Verwaltungsanteil"
+        ],
+        [
+          "Tankstellenhalter",
+          "verlangen",
+          "Handelsvertreterausgleich"
+        ],
+        [
+          "Vertragshändler",
+          "beweisen",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Vertragshändler",
+          "geltend machen",
+          "Ausgleichsanspruch"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 36",
+    "ontology": {
+      "Klassen": [
+        "Aktuar",
+        "Bonuspunkte",
+        "Rückstellung",
+        "Satzung",
+        "Versicherter",
+        "Verwaltungsrat",
+        "Überschussverteilung"
+      ],
+      "Eigenschaften": [
+        "basiert",
+        "bemessen",
+        "bestimmen",
+        "entscheidet",
+        "erfüllen",
+        "regeln",
+        "spielt",
+        "tragen"
+      ],
+      "Beziehungen": [
+        [
+          "Aktuar",
+          "tragen",
+          "Verantwortung für Überschussbeteiligung"
+        ],
+        [
+          "Satzung",
+          "regelt",
+          "Höhe der Überschussbeteiligung"
+        ],
+        [
+          "Versicherter",
+          "erfüllen",
+          "Voraussetzungen für Überschussbeteiligung"
+        ],
+        [
+          "Verwaltungsrat",
+          "entscheidet",
+          "Verwendung der Rückstellung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 37",
+    "ontology": {
+      "Klassen": [
+        "Anwartschaft",
+        "Bonuspunkte",
+        "Versicherer",
+        "Versicherter",
+        "Überschussbeteiligung"
+      ],
+      "Eigenschaften": [
+        "beeinflusst",
+        "befugt",
+        "beurteilen",
+        "entscheidet",
+        "erfüllen",
+        "ermittelt",
+        "regelt"
+      ],
+      "Beziehungen": [
+        [
+          "Anwartschaft",
+          "beeinflusst",
+          "Zuteilung"
+        ],
+        [
+          "Versicherer",
+          "befugt",
+          "Entscheidung"
+        ],
+        [
+          "Versicherer",
+          "entscheidet",
+          "Zuteilung"
+        ],
+        [
+          "Versicherer",
+          "erfüllt",
+          "Voraussetzungen"
+        ],
+        [
+          "Versicherer",
+          "ermittelt",
+          "Überschüsse"
+        ],
+        [
+          "Versicherter",
+          "hat",
+          "Anpruch"
+        ],
+        [
+          "Überschussbeteiligung",
+          "beurteilt",
+          "Höhe"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 38",
+    "ontology": {
+      "Klassen": [
+        "Arbeitsvertrag",
+        "Architekt",
+        "Bauaufsicht",
+        "Gewährleistung",
+        "Honorar",
+        "Klient",
+        "Kündigung",
+        "Mangel",
+        "Pflicht",
+        "Planungsleistung",
+        "Schaden",
+        "Standsicherheitsnachweis",
+        "Vergleich",
+        "Verjährung"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "betrifft",
+        "dauert",
+        "erfüllen",
+        "gilt",
+        "hat",
+        "kann",
+        "liegt vor",
+        "tritt ein",
+        "unterliegt",
+        "verpflichtet",
+        "überschreitet"
+      ],
+      "Beziehungen": [
+        [
+          "Architekt",
+          "hat",
+          "Pflicht"
+        ],
+        [
+          "Klient",
+          "betrifft",
+          "Bauaufsicht"
+        ],
+        [
+          "Kündigung",
+          "betrifft",
+          "Architekt"
+        ],
+        [
+          "Mangel",
+          "betrifft",
+          "Arbeitsvertrag"
+        ],
+        [
+          "Pflicht",
+          "beinhaltet",
+          "Arbeitsvertrag"
+        ],
+        [
+          "Planungsleistung",
+          "betrifft",
+          "Standsicherheitsnachweis"
+        ],
+        [
+          "Schaden",
+          "betrifft",
+          "Mangel"
+        ],
+        [
+          "Vergleich",
+          "betrifft",
+          "Honorar"
+        ],
+        [
+          "Verjährung",
+          "betrifft",
+          "Gewährleistung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 39",
+    "ontology": {
+      "Klassen": [],
+      "Eigenschaften": [],
+      "Beziehungen": []
+    }
+  },
+  {
+    "cluster": "Cluster 40",
+    "ontology": {
+      "Klassen": [
+        "Gefahr",
+        "Makler",
+        "Obliegenheit",
+        "Versicherer",
+        "Versicherungsnehmer"
+      ],
+      "Eigenschaften": [
+        "erfüllen",
+        "geltend machen",
+        "in Frage stellen",
+        "verlangen",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Versicherer",
+          "aussprechen",
+          "Kündigung"
+        ],
+        [
+          "Versicherer",
+          "befreien",
+          "Leistungspflicht"
+        ],
+        [
+          "Versicherer",
+          "erfüllen",
+          "Eintrittspflicht"
+        ],
+        [
+          "Versicherer",
+          "in Frage stellen",
+          "Versicherungsfähigkeit"
+        ],
+        [
+          "Versicherer",
+          "verletzen",
+          "Obliegenheit"
+        ],
+        [
+          "Versicherungsnehmer",
+          "beweisen",
+          "Versicherungsfähigkeit"
+        ],
+        [
+          "Versicherungsnehmer",
+          "beweisen",
+          "Versicherungspflicht"
+        ],
+        [
+          "Versicherungsnehmer",
+          "geltend machen",
+          "Schadensersatz"
+        ],
+        [
+          "Versicherungsnehmer",
+          "verlangen",
+          "Schadensersatz"
+        ],
+        [
+          "Versicherungsnehmer",
+          "verletzen",
+          "Obliegenheit"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 41",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Ausschlussklausel",
+        "Einstandspflicht",
+        "Rückzahlungsanspruch",
+        "Treuwidrigkeit",
+        "Unwirksamkeit",
+        "Verjährung",
+        "Versicherung",
+        "Wahlleistungsvereinbarung"
+      ],
+      "Eigenschaften": [
+        "beachten",
+        "hemmen",
+        "klären",
+        "regeln",
+        "stützen",
+        "überprüfen"
+      ],
+      "Beziehungen": [
+        [
+          "Versicherung",
+          "beachten",
+          "Ausschlussklausel"
+        ],
+        [
+          "Versicherung",
+          "hemmen",
+          "Verjährung"
+        ],
+        [
+          "Versicherung",
+          "klären",
+          "Einstandspflicht"
+        ],
+        [
+          "Versicherung",
+          "regeln",
+          "Verjährung"
+        ],
+        [
+          "Versicherung",
+          "stützen",
+          "Rückzahlungsanspruch"
+        ],
+        [
+          "Versicherung",
+          "überprüfen",
+          "Wahlleistungsvereinbarung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 42",
+    "ontology": {
+      "Klassen": [
+        "Interessenlage",
+        "Kunde",
+        "Mehrfachversicherung",
+        "Subsidiaritätsklausel",
+        "Verantwortlichkeit",
+        "Versicherungsbedingungen",
+        "Versicherungsfall",
+        "Versicherungsleistung",
+        "Versicherungsmakler",
+        "Versicherungsmaklerpflicht",
+        "Versicherungsnehmer",
+        "Versicherungsvertrag",
+        "Überschussbeteiligung"
+      ],
+      "Eigenschaften": [
+        "bezieht",
+        "entfällt",
+        "erfüllen",
+        "gilt_für",
+        "hat",
+        "hat_auswirkungen_auf",
+        "hat_bedeutung_für",
+        "hat_obligenheit",
+        "ist_verantwortlich_für",
+        "ist_wirksam",
+        "spielt_rolle_in"
+      ],
+      "Beziehungen": [
+        [
+          "Aufhebung_von_Subsidiaritätsklauseln",
+          "hat_auswirkungen_auf",
+          "Innenausgleich"
+        ],
+        [
+          "Auslegung_von_Auflage",
+          "hat_bedeutung_für",
+          "Obliegenheit_des_Versicherungsnehmers"
+        ],
+        [
+          "Eintrittspflicht_des_Versicherers",
+          "entfällt_bei",
+          "Mehrfachversicherungen"
+        ],
+        [
+          "Innenausgleich",
+          "gilt_für",
+          "Mehrfachversicherungen"
+        ],
+        [
+          "Interessenlage_des_Versicherungsnehmers",
+          "spielt_Rolle_in",
+          "Auslegung_von_Versicherungsbedingungen"
+        ],
+        [
+          "Klausel",
+          "ist_wirksam_in",
+          "Allgemeine_Versicherungsbedingungen"
+        ],
+        [
+          "Subsidiaritätsklauseln",
+          "treffen_aufeinander",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Verantwortlichkeit",
+          "ist_verantwortlich_für",
+          "Leistungspflicht",
+          "Mehrfachversicherungen"
+        ],
+        [
+          "Versicherer",
+          "ist_verpflichtet_zur_Erstattung_von",
+          "Versicherungsleistungen",
+          "Versicherungsnehmer"
+        ],
+        [
+          "Versicherter",
+          "hat_Anspruch_auf",
+          "Überschussbeteiligung",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Versicherungsfall",
+          "liegt_vor",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Versicherungsmakler",
+          "hat",
+          "umfassende_Beratungspflicht",
+          "Kunde"
+        ],
+        [
+          "Versicherungsnehmer",
+          "bezieht",
+          "Enteignungsangelegenheiten",
+          "schuldrechtliche_Ansprüche"
+        ],
+        [
+          "Versicherungsnehmer",
+          "hat_obligenheit_in",
+          "Versicherungsbedingungen"
+        ],
+        [
+          "Vertragsgestaltung",
+          "bestimmt_Pflichten_eines",
+          "Versicherungsmaklers"
+        ],
+        [
+          "Wille_des_Versicherungsnehmers",
+          "spielt_Rolle_bei",
+          "Auslegung_von_Subsidiaritätsklauseln"
+        ],
+        [
+          "finanzielle_Leistungsfähigkeit_eines_Kunden",
+          "hat_Bedeutung_für",
+          "Beratungspflicht_eines_Versicherungsmaklers"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 43",
+    "ontology": {
+      "Klassen": [
+        "AGB-Gesetz",
+        "Allgemeine Geschäftsbedingungen",
+        "Frachtführer",
+        "Haftung",
+        "Klausel",
+        "Kündigungsausschluss",
+        "Kündigungserklärung",
+        "Hinauskündigungsklausel",
+        "Kündigungsschutzgesetz",
+        "Mängelansprüche",
+        "Rechtsmissbrauch",
+        "Schriftformerfordernis",
+        "VOB/B",
+        "Vergütung",
+        "Verjährung",
+        "Vertragspartner",
+        "außerordentliche Kündigung",
+        "fristlose Kündigung",
+        "ordentliche Kündigung",
+        "wichtiger Grund"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "dauert",
+        "erforderlich für",
+        "erfüllt sein",
+        "ersetzt",
+        "festgestellt werden kann",
+        "hat Rechtsfolgen",
+        "hat eine Bedeutung",
+        "ist ein Eingriff in",
+        "ist rechtsmissbräuchlich",
+        "spielt eine Rolle bei",
+        "tritt ein",
+        "verpflichtet",
+        "wird als"
+      ],
+      "Beziehungen": [
+        [
+          "Allgemeine Geschäftsbedingungen",
+          "beinhaltet",
+          "Haftung"
+        ],
+        [
+          "Arbeitgeber",
+          "verstößt gegen",
+          "Kündigungsschutzgesetz",
+          "mit",
+          "Rechtsfolge"
+        ],
+        [
+          "Arbeitnehmer",
+          "kann",
+          "Arbeitsverhältnis kündigen",
+          "ohne wichtigen Grund",
+          "mit",
+          "Rechtsfolge"
+        ],
+        [
+          "Ausschluss der ordentlichen Kündigung",
+          "hat eine Bedeutung bei",
+          "Allgemeinen Geschäftsbedingungen"
+        ],
+        [
+          "Klausel",
+          "in einem Vertrag",
+          "wenn",
+          "Eingriff in die VOB/B als Ganzes",
+          "angesehen wird",
+          "mit",
+          "Bedingungen"
+        ],
+        [
+          "Kündigung",
+          "eines Partnerschaftsvermittlungsvertrages",
+          "wenn unwirksam ist",
+          "hat",
+          "Rechtsfolgen"
+        ],
+        [
+          "Kündigung",
+          "im Rahmen eines VOB/B-Vertrags",
+          "wenn",
+          "Schriftformerfordernis",
+          "nicht eingehalten wird",
+          "gilt als"
+        ],
+        [
+          "Kündigung",
+          "wenn unwirksam ist",
+          "der Vertragspartner",
+          "die vereinbarte Vergütung",
+          "nicht zahlt",
+          "mit",
+          "Rechtsfolge"
+        ],
+        [
+          "Kündigungserklärung",
+          "kann",
+          "ersetzt werden durch",
+          "ordentliche Kündigung",
+          "wenn",
+          "Bedingungen",
+          "erfüllt sind"
+        ],
+        [
+          "Kündigungserklärung",
+          "kann erstmalig abgegeben werden",
+          "wenn",
+          "Kündigungsausschluss",
+          "für eine bestimmte Dauer",
+          "vereinbart wurde"
+        ],
+        [
+          "Kündigungsklausel",
+          "kann",
+          "unwirksam sein",
+          "im Rahmen des",
+          "AGB-Gesetzes",
+          "festgestellt werden"
+        ],
+        [
+          "Kündigungsklausel",
+          "wird überprüft durch",
+          "AGB-Gesetz"
+        ],
+        [
+          "Mängelansprüche",
+          "am Sondereigentum",
+          "dauern",
+          "Verjährungsfrist",
+          "wenn",
+          "VOB/B",
+          "anwendet"
+        ],
+        [
+          "VOB/B",
+          "wenn nicht als Ganzes vereinbart",
+          "verpflichtet",
+          "Inhaltskontrolle",
+          "durchzuführen"
+        ],
+        [
+          "Verjährung",
+          "spielt eine Rolle bei",
+          "Mängelansprüchen",
+          "am Sondereigentum",
+          "wenn",
+          "VOB/B",
+          "anwendet"
+        ],
+        [
+          "Vertragspartner",
+          "kann",
+          "fristlose Kündigung",
+          "aussprechen",
+          "wenn",
+          "wichtiger Grund",
+          "erfüllt ist"
+        ],
+        [
+          "außerordentliche Kündigung",
+          "ist",
+          "rechtsmissbräuchlich",
+          "wenn"
+        ],
+        [
+          "unwirksame Vereinbarung",
+          "eines Kündigungsausschlusses",
+          "hat",
+          "Rechtsfolgen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 44",
+    "ontology": {
+      "Klassen": [
+        "Auftraggeber",
+        "Auftragnehmer",
+        "Gasgrundversorger",
+        "Geschäftsführervergütung",
+        "Kunde",
+        "Mangel",
+        "Mehrkosten",
+        "Pauschalpreis"
+      ],
+      "Eigenschaften": [
+        "geltend machen",
+        "verpflichtet",
+        "weitergeben",
+        "zusenden"
+      ],
+      "Beziehungen": [
+        [
+          "Auftraggeber",
+          "verpflichtet",
+          "Auftragnehmer"
+        ],
+        [
+          "Auftragnehmer",
+          "einhalten",
+          "Pauschalpreis"
+        ],
+        [
+          "Auftragnehmer",
+          "empfangen",
+          "Mehrkosten"
+        ],
+        [
+          "Auftragnehmer",
+          "geltend machen",
+          "Einrede"
+        ],
+        [
+          "Besteller",
+          "tragen",
+          "Risiko"
+        ],
+        [
+          "Gasgrundversorger",
+          "weitergeben",
+          "Bezugskosten"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 45",
+    "ontology": {
+      "Klassen": [
+        "Auskunftsanspruch",
+        "Leistungsantrag",
+        "Rechtsfolge",
+        "Rückzahlungsanspruch",
+        "Schenkung",
+        "Treu und Glauben",
+        "Verjährung",
+        "Verwirkung"
+      ],
+      "Eigenschaften": [
+        "erscheint als",
+        "führt zu",
+        "hat Auswirkungen auf",
+        "ist unwirksam",
+        "muss erfüllt sein",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Auskunftsanspruch",
+          "hat Auswirkungen auf",
+          "Leistungsantrag"
+        ],
+        [
+          "Rechtsfolge",
+          "tritt ein",
+          "Verweigerung eines Auskunftsanspruchs"
+        ],
+        [
+          "Rückzahlungsanspruch",
+          "hat Auswirkungen auf",
+          "Verjährung"
+        ],
+        [
+          "Rückzahlungsanspruch",
+          "muss erfüllt sein",
+          "Verwirkung"
+        ],
+        [
+          "Schenkung",
+          "ist unwirksam",
+          "führt zu",
+          "Rechtsfolge"
+        ],
+        [
+          "Verzögerte Geltendmachung eines Rückzahlungsanspruchs",
+          "erscheint als",
+          "Verstoß gegen Treu und Glauben"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 46",
+    "ontology": {
+      "Klassen": [
+        "GesellschaftBürgerlichenRechts",
+        "Gesellschaftsvertrag",
+        "Schadensanspruch",
+        "Vertreter"
+      ],
+      "Eigenschaften": [
+        "kannAußergerichtlichVertretenSein",
+        "kannGeltendMachen",
+        "kannGerichtlichVertretenSein",
+        "kannRepräsentieren"
+      ],
+      "Beziehungen": [
+        [
+          "GesellschaftBürgerlichenRechts",
+          "kannAußergerichtlichVertretenSein",
+          "Vertreter"
+        ],
+        [
+          "GesellschaftBürgerlichenRechts",
+          "kannGeltendMachen",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "GesellschaftBürgerlichenRechts",
+          "kannGerichtlichVertretenSein",
+          "Vertreter"
+        ],
+        [
+          "GesellschaftBürgerlichenRechts",
+          "kannRepräsentieren",
+          "Gesellschaftsvertrag"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 47",
+    "ontology": {
+      "Klassen": [
+        "Bereicherung",
+        "Gebrechen",
+        "Krankheit",
+        "Pfändung",
+        "Ungerechtfertigte Bereicherung",
+        "Zwangsmaßnahme"
+      ],
+      "Eigenschaften": [
+        "anwendbar",
+        "interpretieren",
+        "verpflichtet",
+        "verstehen"
+      ],
+      "Beziehungen": [
+        [
+          "Gebrechen",
+          "verstehen",
+          "im Sinne der Nr. 3 AUB 2000"
+        ],
+        [
+          "Krankheit",
+          "verstehen",
+          "im Sinne der Nr. 3 Satz 2 AUB 2000"
+        ],
+        [
+          "Pfändung",
+          "Wirksamkeit",
+          "für die Anwendbarkeit von § 104 VglO"
+        ],
+        [
+          "Ungerechtfertigte Bereicherung",
+          "verpflichtet",
+          "erlangte Befriedigung herauszugeben"
+        ],
+        [
+          "Zwangsmaßnahme",
+          "interpretieren",
+          "in § 104 VglO"
+        ],
+        [
+          "§ 104 VglO",
+          "Bereicherung",
+          "zu verstehen"
+        ],
+        [
+          "§ 104 VglO",
+          "anwendbar",
+          "unter bestimmten Voraussetzungen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 48",
+    "ontology": {
+      "Klassen": [
+        "Auftragserteilung",
+        "HOAI",
+        "Honorar",
+        "Honorarvereinbarung",
+        "Mindestsatz"
+      ],
+      "Eigenschaften": [
+        "beanspruchen",
+        "erfüllen",
+        "finden Anwendung",
+        "haben Bedeutung",
+        "interpretieren",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Auftraggeber",
+          "verpflichtet",
+          "Honorarvereinbarung"
+        ],
+        [
+          "Auftragserteilung",
+          "interpretieren",
+          "Bedingung"
+        ],
+        [
+          "Honorar",
+          "beanspruchen",
+          "Mindestsätze"
+        ],
+        [
+          "Honorarvereinbarung",
+          "erfüllen",
+          "Voraussetzungen"
+        ],
+        [
+          "Honorarvereinbarung",
+          "finden Anwendung",
+          "HOAI"
+        ],
+        [
+          "Schriftform",
+          "haben Bedeutung",
+          "Honorarvereinbarung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 49",
+    "ontology": {
+      "Klassen": [
+        "Beförderung",
+        "Dritter",
+        "Frachtführer",
+        "Gebühr",
+        "Gut",
+        "Klausel",
+        "Schaden",
+        "Standgeld",
+        "Verwaltungsakt",
+        "Verzollung",
+        "Wartezeit"
+      ],
+      "Eigenschaften": [
+        "ausschließen",
+        "benachteiligend",
+        "beruhen",
+        "einzuschätzen",
+        "entschädigen",
+        "erfüllen",
+        "festsetzen",
+        "tragen",
+        "verpflichtet",
+        "vorsieht",
+        "zuzurechnen"
+      ],
+      "Beziehungen": [
+        [
+          "Frachtführer",
+          "einzuschätzen",
+          "Standgeld"
+        ],
+        [
+          "Frachtführer",
+          "entschädigen",
+          "Wartezeit"
+        ],
+        [
+          "Frachtführer",
+          "erfüllen",
+          "Voraussetzungen"
+        ],
+        [
+          "Frachtführer",
+          "tragen",
+          "Gebühren"
+        ],
+        [
+          "Frachtführer",
+          "verpflichtet",
+          "Standgeld"
+        ],
+        [
+          "Frachtführer",
+          "verpflichtet",
+          "beförderungssichere Verladung"
+        ],
+        [
+          "Klausel",
+          "ausschließen",
+          "Standgeld"
+        ],
+        [
+          "Verwaltungsakt",
+          "festsetzen",
+          "Gebühren"
+        ],
+        [
+          "Wartezeit",
+          "beruhen",
+          "Umstände"
+        ],
+        [
+          "§ 412 Abs. 1 Satz 1 HGB",
+          "vorsieht",
+          "Beförderung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 50",
+    "ontology": {
+      "Klassen": [
+        "Kündigung",
+        "Mietobjekt",
+        "Pflichtteilsanspruch",
+        "Recht",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Sonderkündigungsrecht"
+      ],
+      "Eigenschaften": [
+        "aussprechen",
+        "bedeuten",
+        "gelten",
+        "geltend machen",
+        "gilt",
+        "interpretieren",
+        "spielen"
+      ],
+      "Beziehungen": [
+        [
+          "Kündigung",
+          "aussprechen",
+          "§ 57a ZVG"
+        ],
+        [
+          "Kündigung",
+          "verpflichten",
+          "Räumen und Herausgeben der Wohnung"
+        ],
+        [
+          "Mietobjekt",
+          "spielen",
+          "Wirksamkeit einer Kündigung nach § 57a ZVG"
+        ],
+        [
+          "Pflichtteilsanspruch",
+          "geltend machen",
+          "Abtretung"
+        ],
+        [
+          "Rechte",
+          "geltend machen",
+          "Altersversorgung"
+        ],
+        [
+          "Rechtsfolgen",
+          "betreffen",
+          "Kläger und seine Altersversorgung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt",
+          "Unwirksamkeit der Übergangsregelungen"
+        ],
+        [
+          "Sonderkündigungsrecht",
+          "bedeuten",
+          "Interesse der Realgläubiger"
+        ],
+        [
+          "Sonderkündigungsrecht",
+          "gelten",
+          "§ 57a ZVG"
+        ],
+        [
+          "Sonderkündigungsrecht",
+          "interpretieren",
+          "gesetzliche Kündigungsfrist"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 51",
+    "ontology": {
+      "Klassen": [
+        "Anspruchsbegründung",
+        "Anspruchsunterwerfung",
+        "Beeinträchtigung",
+        "Handlungsstörerin",
+        "Prozeßvorbringen",
+        "Rechtsanspruch",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Rechtsinteresse",
+        "Rechtsstreit",
+        "Verletzungspflicht"
+      ],
+      "Eigenschaften": [
+        "beachten",
+        "begründen",
+        "erfüllen",
+        "feststellen",
+        "geltend machen",
+        "rechtfertigen",
+        "unterliegen",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Anspruchsunterwerfung",
+          "unterliegen",
+          "Rechtsstreit"
+        ],
+        [
+          "Beeinträchtigung",
+          "rechtfertigen",
+          "Rechtsanspruch"
+        ],
+        [
+          "Handlungsstörerin",
+          "geltend machen",
+          "Rechtsanspruch"
+        ],
+        [
+          "Prozeßvorbringen",
+          "beachten",
+          "Anspruchsbegründung"
+        ],
+        [
+          "Rechtsanspruch",
+          "begründen",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsgrundlage",
+          "feststellen",
+          "Rechtsanspruch"
+        ],
+        [
+          "Rechtsinteresse",
+          "beachten",
+          "Rechtsanspruch"
+        ],
+        [
+          "Verletzungspflicht",
+          "verletzen",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 52",
+    "ontology": {
+      "Klassen": [
+        "Handlung",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Schaden",
+        "Schadensabrechnung",
+        "Schadensanspruch",
+        "Schadensersatzpflicht",
+        "Verjährung",
+        "Verletzung"
+      ],
+      "Eigenschaften": [
+        "bestimmtUmfang",
+        "betrifft",
+        "hatRechtsfolge",
+        "istErsatzfaehig",
+        "istUnzulässig",
+        "kannBeurteiltWerden",
+        "kannGeltendGemachtWerden",
+        "kannGewaehltWerden",
+        "spieltRolle"
+      ],
+      "Beziehungen": [
+        [
+          "Geschädigter",
+          "kannSchadensabrechnungWählen",
+          "§ 249 Abs. 2 Satz 1 BGB"
+        ],
+        [
+          "Handlung",
+          "kannBeurteiltWerden",
+          "gemäß § 823 BGB im Verhältnis zwischen Grundstücksnachbarn"
+        ],
+        [
+          "Kosten",
+          "sindErsatzfähig",
+          "fiktive Schadensabrechnung nach § 249 Abs. 2 Satz 1 BGB"
+        ],
+        [
+          "Schaden",
+          "istErsatzfähig",
+          "nach § 13 Nr. 7 VOB/B"
+        ],
+        [
+          "Schadensabrechnung",
+          "istUnzulässig",
+          "Kombination von fiktiver und konkreter Schadensabrechnung nach § 249 Abs. 2 Satz 1 BGB"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "hatRechtsgrundlage",
+          "§ 280 BGB"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "kannGeltendGemachtWerden",
+          "§ 844 Abs. 2 BGB oder § 845 BGB"
+        ],
+        [
+          "Schadensersatzpflicht",
+          "hatRechtsgrundlage",
+          "arglistige Täuschung nach § 123 BGB"
+        ],
+        [
+          "Schutzzweck des Betrugstatbestandes gemäß § 263 StGB",
+          "bestimmtUmfang",
+          "nach § 823 Abs. 2, §§ 249 ff. BGB geschuldeter Schadensersatz"
+        ],
+        [
+          "Verjährung",
+          "betrifft",
+          "Geltendmachung von Schadensersatzansprüchen nach § 823 BGB"
+        ],
+        [
+          "Verjährung",
+          "betrifft",
+          "Schadensersatzanspruch nach § 195 BGB"
+        ],
+        [
+          "Verletzung",
+          "betrifft",
+          "nach § 823 BGB geschütztes Rechtsgut im Verhältnis zwischen Grundstücksnachbarn"
+        ],
+        [
+          "§ 249 Abs. 2 Satz 2 BGB",
+          "hatRechtsfolge",
+          "Schadensersatzleistung im Falle einer Beschädigung von Sachen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 53",
+    "ontology": {
+      "Klassen": [
+        "Beweis",
+        "Beweislast",
+        "Gesellschafter",
+        "Haftung",
+        "Rechtsposition",
+        "Schadensanspruch"
+      ],
+      "Eigenschaften": [
+        "beurteilen",
+        "erfüllen",
+        "geltend machen",
+        "haben",
+        "regeln",
+        "unterscheiden",
+        "unterstützen",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Beweislast",
+          "ist",
+          "regeln"
+        ],
+        [
+          "Gesellschafter",
+          "kann",
+          "unterstützen"
+        ],
+        [
+          "Haftung",
+          "hat",
+          "Beweis"
+        ],
+        [
+          "Rechtsposition",
+          "kann",
+          "verletzen"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "kann",
+          "geltend machen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 54",
+    "ontology": {
+      "Klassen": [
+        "Haftung",
+        "Herausgabeanspruch",
+        "Inhaltskontrolle",
+        "Klausel",
+        "Mittelverwendung",
+        "RechtlichesInteresse",
+        "Schutzwürdigkeit",
+        "Tatbestandsmerkmal"
+      ],
+      "Eigenschaften": [
+        "bedeuten",
+        "betreffen",
+        "erfüllt sein",
+        "geltend machen",
+        "gestellt werden",
+        "regeln",
+        "spielen",
+        "unterliegen"
+      ],
+      "Beziehungen": [
+        [
+          "Haftung",
+          "regeln",
+          "§ 831 BGB"
+        ],
+        [
+          "Herausgabeanspruch",
+          "geltend machen",
+          "§ 952 BGB"
+        ],
+        [
+          "Inhaltskontrolle",
+          "spielen",
+          "§§ 307 Abs. 1 und 2, 308, 309 BGB"
+        ],
+        [
+          "Klausel",
+          "unterliegen",
+          "§§ 307 ff. BGB"
+        ],
+        [
+          "Mittelverwendung",
+          "betreffen",
+          "§ 826 BGB"
+        ],
+        [
+          "RechtlichesInteresse",
+          "gestellt werden",
+          "§ 810 BGB"
+        ],
+        [
+          "Schutzwürdigkeit",
+          "bedeuten",
+          "Einsichtsrecht nach § 810 BGB"
+        ],
+        [
+          "Tatbestandsmerkmal",
+          "erfüllt sein",
+          "§ 823 BGB"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 55",
+    "ontology": {
+      "Klassen": [
+        "Auftrag",
+        "Auskunftsanspruch",
+        "Gefälligkeit",
+        "Geschäftsführer",
+        "Kündigungsausschluss",
+        "Kündigungsgrund",
+        "Kündigungsrecht",
+        "Rücktrittsrecht",
+        "Umgehungsverbot",
+        "Vertrag",
+        "Widerrufsrecht"
+      ],
+      "Eigenschaften": [
+        "Gebrauch machen",
+        "ausschließen",
+        "berücksichtigen",
+        "durchgeführt werden",
+        "erfüllt sein",
+        "geltend machen",
+        "geregelt werden",
+        "gilt",
+        "gilt als",
+        "qualifiziert werden",
+        "spielen",
+        "unterscheiden",
+        "vereinbaren",
+        "vorliegt"
+      ],
+      "Beziehungen": [
+        [
+          "Auskunftsanspruch",
+          "geregelt werden",
+          "Vertrag"
+        ],
+        [
+          "Geschäftsführer",
+          "gilt als",
+          "berechtigter Geschäftsführer"
+        ],
+        [
+          "Geschäftsführung",
+          "unterscheiden",
+          "Gefälligkeit"
+        ],
+        [
+          "Geschäftsführung",
+          "vorliegt",
+          "Auftrag"
+        ],
+        [
+          "Kündigungsausschluss",
+          "vereinbart werden",
+          "Vertrag"
+        ],
+        [
+          "Kündigungsgrund",
+          "erfüllt sein",
+          "Vertrag"
+        ],
+        [
+          "Kündigungsrecht",
+          "geltend gemacht werden",
+          "Vertrag"
+        ],
+        [
+          "Rücktrittsrecht",
+          "erfüllt sein",
+          "Vertrag"
+        ],
+        [
+          "Umgehungsverbot",
+          "geltend gemacht werden",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "geregelt werden",
+          "Grundabtretung"
+        ],
+        [
+          "Vertrag",
+          "qualifiziert werden",
+          "Werkvertrag"
+        ],
+        [
+          "Widerrufsrecht",
+          "erfüllt sein",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 56",
+    "ontology": {
+      "Klassen": [
+        "Angemessenheit",
+        "Anspruch",
+        "Auslegung",
+        "Bedingung",
+        "Frist",
+        "Ungewissheit",
+        "Zeitraumsangabe"
+      ],
+      "Eigenschaften": [
+        "gelten für",
+        "hat eine Bedeutung für",
+        "ist auszulegen als",
+        "ist zu verstehen als",
+        "müssen erfüllt sein",
+        "spielt eine Rolle"
+      ],
+      "Beziehungen": [
+        [
+          "Angemessenheit",
+          "ist zu verstehen als",
+          "Frist"
+        ],
+        [
+          "Bedingung",
+          "müssen erfüllt sein",
+          "Frist"
+        ],
+        [
+          "Frist",
+          "gelten für",
+          "Anspruch"
+        ],
+        [
+          "Frist",
+          "ist auszulegen als",
+          "Auslegung"
+        ],
+        [
+          "Ungewissheit",
+          "hat eine Bedeutung für",
+          "Schuldner"
+        ],
+        [
+          "Zeitraumsangabe",
+          "spielt eine Rolle",
+          "Frist"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 57",
+    "ontology": {
+      "Klassen": [
+        "Beherrschungs- und Gewinnabführungsvertrag",
+        "Beweisverfahren",
+        "Genussscheinbedingungen",
+        "Gewährleistungsanspruch",
+        "Rechtsfolge",
+        "Schadensanspruch",
+        "Verhaltender Anspruch",
+        "Verjährungsfrist"
+      ],
+      "Eigenschaften": [
+        "beginnen",
+        "bestimmen",
+        "beträgt",
+        "dauert",
+        "gilt für",
+        "profitieren von",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Genussscheinbedingungen",
+          "gilt für",
+          "Beherrschungs- und Gewinnabführungsvertrag"
+        ],
+        [
+          "Gewährleistungsanspruch",
+          "beginnen",
+          "Verjährungsfrist"
+        ],
+        [
+          "Rechtsfolge",
+          "tritt ein",
+          "Verjährungsfrist"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "beträgt",
+          "Verjährungsfrist"
+        ],
+        [
+          "Verhaltender Anspruch",
+          "beginnen",
+          "Verjährungsfrist"
+        ],
+        [
+          "Verjährungsfrist",
+          "bestimmen",
+          "Beweisverfahren"
+        ],
+        [
+          "Verjährungsfrist",
+          "dauert",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Verjährungsfrist",
+          "profitieren von",
+          "Beweisverfahren"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 58",
+    "ontology": {
+      "Klassen": [
+        "Abrechnung",
+        "Gebührennummer",
+        "Geschäftskosten",
+        "Gewinn",
+        "Konsequenz",
+        "Kosten",
+        "Kostenangabe",
+        "Rechenschritt",
+        "Rechtsgrundlage",
+        "Voraussetzung"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "betrifft",
+        "beträgt",
+        "erfüllen",
+        "gilt für",
+        "rechnet sich",
+        "wirkt auf"
+      ],
+      "Beziehungen": [
+        [
+          "Abrechnung",
+          "ermöglicht",
+          "sachgerechte Prüfung"
+        ],
+        [
+          "Gebührennummer",
+          "kann analog abgerechnet werden",
+          "Abrechnung"
+        ],
+        [
+          "Gewinn",
+          "rechnet sich",
+          "Geschäftskosten"
+        ],
+        [
+          "Heizkostenabrechnung",
+          "betrifft",
+          "Betriebskostennachforderung"
+        ],
+        [
+          "Kosten",
+          "betrifft",
+          "formelle Wirksamkeit"
+        ],
+        [
+          "Kostenangabe",
+          "betrifft",
+          "Gebühren"
+        ],
+        [
+          "Rechenschritt",
+          "spielt eine Rolle",
+          "Abrechnung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Bereinigung"
+        ],
+        [
+          "Unwirksamkeit",
+          "hat Konsequenzen",
+          "Betriebskostennachforderung"
+        ],
+        [
+          "Voraussetzung",
+          "muss erfüllt sein",
+          "Abrechnung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 59",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Auskunftsanspruch",
+        "Berechtigter",
+        "Entscheidungsgrund",
+        "Erbe",
+        "Frachtführer",
+        "Geschädigter",
+        "Person",
+        "Rechtsträger",
+        "Schädiger",
+        "Tatbestand",
+        "Urteil",
+        "Verpflichteter"
+      ],
+      "Eigenschaften": [
+        "ausschlagen",
+        "begehen",
+        "einrichten",
+        "erfüllen",
+        "ermitteln",
+        "geltend machen",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Auskunftsanspruch",
+          "basiert auf",
+          "Treu und Glauben"
+        ],
+        [
+          "Berechtigter",
+          "kann",
+          "recht nicht geltend machen"
+        ],
+        [
+          "Erbe",
+          "hat",
+          "Anspruch"
+        ],
+        [
+          "Frachtführer",
+          "kann",
+          "seine Rechte geltend machen"
+        ],
+        [
+          "Geschädigter",
+          "hat",
+          "Rechte gegen Schädiger"
+        ],
+        [
+          "Rechtsträger",
+          "verpflichtet",
+          "Urteil"
+        ],
+        [
+          "Schädiger",
+          "begeht",
+          "Verstoß gegen Treu und Glauben"
+        ],
+        [
+          "Verpflichteter",
+          "kann",
+          "sich einrichten"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 60",
+    "ontology": {
+      "Klassen": [
+        "Arbeitsunfall",
+        "Ausgleichsanspruch",
+        "Bürgenrecht",
+        "Dauerschuldverhältnis",
+        "Drittschuldner",
+        "Forderungszuständigkeit",
+        "Gemeinschuldner",
+        "Gläubiger",
+        "Hilfspersonen",
+        "Konkursverwalter",
+        "Minderung",
+        "Mitverschulden",
+        "Pachtzins",
+        "Rechnungslegung",
+        "Schadensersatzpflicht",
+        "Schuldner",
+        "Verschuldensfeststellung",
+        "Verschuldensgrad",
+        "Verschuldenshaftung",
+        "Versorgungsempfängerin",
+        "Zinsanspruch"
+      ],
+      "Eigenschaften": [
+        "beeinträchtigen",
+        "beinhaltet",
+        "berechnen",
+        "beruhen auf",
+        "beteiligen",
+        "betreffen",
+        "ermitteln",
+        "feststellen",
+        "hinterlegen",
+        "kündigen",
+        "mindernd",
+        "rechnen",
+        "rechtlich",
+        "vereisen",
+        "verpflichten",
+        "verzichten",
+        "zuschulden kommen"
+      ],
+      "Beziehungen": [
+        [
+          "Arbeitsunfall",
+          "beinhaltet",
+          "Verschuldensgrad"
+        ],
+        [
+          "Bürgenrecht",
+          "beinhaltet",
+          "Gläubiger"
+        ],
+        [
+          "Dauerschuldverhältnis",
+          "kündigen",
+          "Verschuldenshaftung"
+        ],
+        [
+          "Gemeinschuldnerin",
+          "beteiligen",
+          "Forderungszuständigkeit"
+        ],
+        [
+          "Hilfspersonen",
+          "zuschulden kommen",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Konkursverwalter",
+          "betreffen",
+          "Drittschuldnerin"
+        ],
+        [
+          "Pachtzins",
+          "ermitteln",
+          "Minderung"
+        ],
+        [
+          "Rechnungslegung",
+          "beinhaltet",
+          "Stufenklage"
+        ],
+        [
+          "Schadensersatzverpflichtung",
+          "beinhaltet",
+          "Mitverschulden"
+        ],
+        [
+          "Schuldner",
+          "verzichten",
+          "Zinsanspruch"
+        ],
+        [
+          "Verschuldensfeststellung",
+          "beinhaltet",
+          "Versorgungsempfängerin"
+        ],
+        [
+          "Verschuldenshaftung",
+          "beinhaltet",
+          "Verschuldensgrad"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 61",
+    "ontology": {
+      "Klassen": [
+        "Aufgabe",
+        "Gebühr",
+        "Lageplan",
+        "Vergütung",
+        "Öffentlich Bestellter Vermessungsingenieur"
+      ],
+      "Eigenschaften": [
+        "hatAufgabe",
+        "istGeregelt",
+        "istRegelt",
+        "kannErstelltWerden",
+        "kannWahrnehmen",
+        "stehtZu"
+      ],
+      "Beziehungen": [
+        [
+          "Gebühr",
+          "stehtZu",
+          "Erstellung von Lageplänen"
+        ],
+        [
+          "Lageplan",
+          "istGeregelt",
+          "Vergütung"
+        ],
+        [
+          "Lageplan",
+          "kannErstelltWerden",
+          "Öffentlich Bestellter Vermessungsingenieur"
+        ],
+        [
+          "Vergütung",
+          "istRegelt",
+          "Öffentlich Bestellter Vermessungsingenieur"
+        ],
+        [
+          "Öffentlich Bestellter Vermessungsingenieur",
+          "hatAufgabe",
+          "Erstellung von Lageplänen"
+        ],
+        [
+          "Öffentlich Bestellter Vermessungsingenieur",
+          "kannWahrnehmen",
+          "Aufgabe"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 62",
+    "ontology": {
+      "Klassen": [
+        "Bank",
+        "Bauruine",
+        "Darlehensnehmer",
+        "Fehlvorstellung",
+        "Risiko",
+        "Schaden"
+      ],
+      "Eigenschaften": [
+        "berechnet werden",
+        "bewiesen werden",
+        "erfüllen",
+        "informieren",
+        "spielen"
+      ],
+      "Beziehungen": [
+        [
+          "Aufklärungspflichtverletzung",
+          "bewiesen werden",
+          "Schaden"
+        ],
+        [
+          "Bank",
+          "erfüllen",
+          "Aufklärungspflicht"
+        ],
+        [
+          "Bank",
+          "informieren",
+          "Darlehensnehmer"
+        ],
+        [
+          "Risiko",
+          "spielen",
+          "Fehlvorstellung"
+        ],
+        [
+          "Schaden",
+          "berechnet werden",
+          "Darlehensnehmer"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 63",
+    "ontology": {
+      "Klassen": [
+        "Anlage",
+        "Elektrizität",
+        "Inhaber",
+        "Rechtsgrundlage",
+        "Rohrleitungsanlage",
+        "Schaden",
+        "Stromleitungsanlage"
+      ],
+      "Eigenschaften": [
+        "betrifft",
+        "dulden",
+        "verpflichtet",
+        "verursachen"
+      ],
+      "Beziehungen": [
+        [
+          "Anlage",
+          "betrifft",
+          "Schaden"
+        ],
+        [
+          "Inhaber",
+          "verpflichtet zum Schadensersatz",
+          "Schaden"
+        ],
+        [
+          "Kohleabbau",
+          "verursacht",
+          "Erschütterungen"
+        ],
+        [
+          "Schaden",
+          "verursacht durch",
+          "Elektrizität"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 64",
+    "ontology": {
+      "Klassen": [
+        "Absturzsicherungen",
+        "Aufrechnung",
+        "Bauausführung",
+        "Baufortschritt",
+        "Bautenstand",
+        "Bauvorhaben",
+        "Gesellschafter",
+        "Haftung",
+        "Mangel",
+        "Maurerarbeiten",
+        "Schadensanspruch",
+        "Vertragsauslegung"
+      ],
+      "Eigenschaften": [
+        "berechnen",
+        "bestimmen",
+        "erfüllen",
+        "erklären",
+        "geltend machen",
+        "gilt für",
+        "tragen",
+        "verantwortlich sein",
+        "vereinbaren",
+        "vorsehen"
+      ],
+      "Beziehungen": [
+        [
+          "Bauausführung",
+          "beurteilen",
+          "Vertragsauslegung"
+        ],
+        [
+          "Bauausführung",
+          "gilt für",
+          "Schadensersatzpflicht"
+        ],
+        [
+          "Bauvorhaben",
+          "erfüllen",
+          "Aufrechnung"
+        ],
+        [
+          "Bauvorhaben",
+          "erklären",
+          "Aufrechnung"
+        ],
+        [
+          "Gesellschafter",
+          "geltend machen",
+          "Haftung"
+        ],
+        [
+          "Mangel",
+          "nicht rechtzeitig erkennen und behoben werden",
+          "Bauausführung"
+        ],
+        [
+          "Maurerarbeiten",
+          "vorsehen",
+          "Absturzsicherungen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 65",
+    "ontology": {
+      "Klassen": [
+        "Anleger",
+        "Bank",
+        "Beratungsfehler",
+        "Dritter",
+        "Pflichtenkreis",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Täuschung"
+      ],
+      "Eigenschaften": [
+        "hatKenntnis",
+        "hatVerletzung",
+        "istVerpflichtet",
+        "kannHaften"
+      ],
+      "Beziehungen": [
+        [
+          "Anleger",
+          "hatVerletzung",
+          "Täuschung"
+        ],
+        [
+          "Bank",
+          "hatKenntnis",
+          "Täuschung"
+        ],
+        [
+          "Bank",
+          "hatVerletzung",
+          "Pflichtenkreis"
+        ],
+        [
+          "Bank",
+          "hatVerletzung",
+          "Rechtsfolge"
+        ],
+        [
+          "Bank",
+          "hatVerletzung",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Bank",
+          "istVerpflichtet",
+          "Anleger"
+        ],
+        [
+          "Bank",
+          "kannHaften",
+          "Beratungsfehler"
+        ],
+        [
+          "Dritter",
+          "hatVerletzung",
+          "Beratungsfehler"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 66",
+    "ontology": {
+      "Klassen": [
+        "Aufklärungspflicht",
+        "Bank",
+        "Bankanweisung",
+        "Kunde",
+        "Rückvergütung",
+        "Schadensersatz"
+      ],
+      "Eigenschaften": [
+        "beanspruchen",
+        "erfüllen",
+        "gilt für",
+        "verletzen",
+        "wirksam sein"
+      ],
+      "Beziehungen": [
+        [
+          "Bank",
+          "erfüllen",
+          "Bedingungen"
+        ],
+        [
+          "Bank",
+          "gilt für",
+          "Haftung"
+        ],
+        [
+          "Bank",
+          "verletzen",
+          "Aufklärungspflicht"
+        ],
+        [
+          "Bankanweisung",
+          "wirksam sein",
+          "Bedingungen"
+        ],
+        [
+          "Kunde",
+          "beanspruchen",
+          "Schadensersatzleistung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 67",
+    "ontology": {
+      "Klassen": [
+        "Schenkung",
+        "Täuschung",
+        "Verhandlung",
+        "Verjährung",
+        "Vertrag",
+        "Vertragspartner"
+      ],
+      "Eigenschaften": [
+        "beeinflussen",
+        "beeinträchtigen",
+        "begründen",
+        "gestärken",
+        "hemmen"
+      ],
+      "Beziehungen": [
+        [
+          "Verjährung",
+          "hemmen",
+          "Verhandlung"
+        ],
+        [
+          "Vertrag",
+          "beeinflussen",
+          "Täuschung"
+        ],
+        [
+          "Vertragspartner",
+          "gestärken",
+          "Vertrauen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 68",
+    "ontology": {
+      "Klassen": [
+        "Annullierung",
+        "Luftfahrtunternehmen",
+        "Pachtzinsanspruch",
+        "Widerrufsrecht",
+        "Zwangsverwalter"
+      ],
+      "Eigenschaften": [
+        "erfüllt sein",
+        "geltend machen",
+        "vermeiden",
+        "vorliegen",
+        "wirksam ausüben"
+      ],
+      "Beziehungen": [
+        [
+          "Absicht",
+          "spielt Rolle bei",
+          "Annullierung"
+        ],
+        [
+          "Annullierung",
+          "erfüllt sein",
+          "Luftfahrtunternehmen"
+        ],
+        [
+          "Luftfahrtunternehmen",
+          "vermeiden",
+          "Annullierung"
+        ],
+        [
+          "Widerrufsrecht",
+          "wirksam ausüben",
+          "Verbraucher"
+        ],
+        [
+          "Zwangsverwalter",
+          "geltend machen",
+          "Pachtzinsanspruch"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 69",
+    "ontology": {
+      "Klassen": [
+        "Fernabsatzvertrag",
+        "Frachtführer",
+        "Schlichtungsverfahren",
+        "Transportgut",
+        "Verpflichtung",
+        "Vertrag",
+        "Vertragserklärung",
+        "Vorschrift",
+        "Widerrufsbelehrung",
+        "Widerrufsrecht"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beeinflussen",
+        "beinhaltet",
+        "betrifft",
+        "einräumen",
+        "enthält",
+        "entsprechen",
+        "entstehen",
+        "gilt",
+        "vorsieht"
+      ],
+      "Beziehungen": [
+        [
+          "Fernabsatzvertrag",
+          "gilt",
+          "Widerrufsfrist"
+        ],
+        [
+          "Verpflichtung",
+          "entstehen",
+          "Frachtführer"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "Widerrufsrecht"
+        ],
+        [
+          "Vertragserklärung",
+          "basiert auf",
+          "gesetzlichen Voraussetzungen"
+        ],
+        [
+          "Vorschrift",
+          "vorsieht",
+          "Schlichtungsversuch"
+        ],
+        [
+          "Widerrufsbelehrung",
+          "beinhaltet",
+          "gesetzliche Bestimmungen"
+        ],
+        [
+          "Widerrufsbelehrung",
+          "einräumen",
+          "Widerrufsrecht"
+        ],
+        [
+          "Widerrufsbelehrung",
+          "entsprechen",
+          "gesetzliches Widerrufsrecht"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 70",
+    "ontology": {
+      "Klassen": [
+        "Auskunftsanspruch",
+        "BGB",
+        "Bergrecht",
+        "Geschäftsbesorgung",
+        "HGB",
+        "Verjährungsvorschrift"
+      ],
+      "Eigenschaften": [
+        "berechtigt",
+        "bestimmt",
+        "betrifft",
+        "einzustufen",
+        "erfüllen",
+        "verlangen"
+      ],
+      "Beziehungen": [
+        [
+          "Auskunftsanspruch",
+          "berechtigt",
+          "§ 666 BGB"
+        ],
+        [
+          "Auskunftsanspruch",
+          "einzustufen",
+          "§ 666 BGB"
+        ],
+        [
+          "Auskunftsanspruch",
+          "erfüllt",
+          "§ 666 BGB"
+        ],
+        [
+          "Geschäftsbesorgung",
+          "betrifft",
+          "§ 675 BGB"
+        ],
+        [
+          "Grundabtretung",
+          "berechtigt",
+          "§ 77 BBergG"
+        ],
+        [
+          "Verjährungsvorschrift",
+          "bestimmt",
+          "§ 439 HGB"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 71",
+    "ontology": {
+      "Klassen": [
+        "Anfechtung",
+        "Artikel",
+        "Baulichkeit",
+        "Einsichtsrecht",
+        "Erbverzicht",
+        "Formvorschrift",
+        "Kosten",
+        "Mangelbeseitigung",
+        "Schenkung",
+        "Schenkungswiderruf",
+        "Unwirksamkeit",
+        "Urkunde",
+        "Verjährung",
+        "Vermutung",
+        "Vertragspflicht",
+        "Verwendung",
+        "Widerrufsrecht"
+      ],
+      "Eigenschaften": [
+        "bedeutet",
+        "begründen",
+        "einzuordnen",
+        "entspricht",
+        "erfüllen",
+        "geboten",
+        "genügt",
+        "gilt",
+        "hat",
+        "rechtfertigt",
+        "tragen",
+        "verletzen",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Anfechtung",
+          "erfüllt",
+          "§ 123 BGB"
+        ],
+        [
+          "Anfechtung",
+          "erfüllt",
+          "§ 142 BGB"
+        ],
+        [
+          "Anspruch",
+          "nicht verjährt",
+          "§ 988 BGB"
+        ],
+        [
+          "Artikel 229 § 9 EGBGB",
+          "einzuordnen",
+          "Artikel 229 § 5 Satz 2 EGBGB"
+        ],
+        [
+          "Aufrechnung",
+          "nicht vorgenommen",
+          "§ 393 BGB"
+        ],
+        [
+          "Baulichkeiten",
+          "gilt",
+          "Verwendungen im Sinne des § 994 Abs. 1 BGB"
+        ],
+        [
+          "Bergrechtliche Bewilligung",
+          "gilt",
+          "§ 1004 BGB"
+        ],
+        [
+          "Erbanteil",
+          "veräußert",
+          "Schutzzweck des § 2034 BGB"
+        ],
+        [
+          "Erbverzicht",
+          "bedeutet",
+          "Vermutung"
+        ],
+        [
+          "Hinterlegung",
+          "unberechtigt",
+          "§ 372 BGB"
+        ],
+        [
+          "Klausel",
+          "nicht überraschend",
+          "§ 305c BGB"
+        ],
+        [
+          "Kosten",
+          "tragen",
+          "notwendige Aufklärung nach § 129 BGB"
+        ],
+        [
+          "Mangelbeseitigung",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Pachtzins",
+          "gekürzte Weiterzahlung",
+          "§ 539 BGB a.F."
+        ],
+        [
+          "Schenkung",
+          "entspricht",
+          "Formvorschrift"
+        ],
+        [
+          "Schenkungswiderruf",
+          "gilt",
+          "grober Undanks nach § 530 BGB"
+        ],
+        [
+          "Urkunde",
+          "bezeichnet",
+          "Einsichtsrecht nach § 810 BGB i.V.m. § 422 ZPO"
+        ],
+        [
+          "Urkunde",
+          "genügt",
+          "§ 810 BGB"
+        ],
+        [
+          "Verjährung",
+          "gilt",
+          "Geltendmachung von Ansprüchen"
+        ],
+        [
+          "Vertragspflicht",
+          "verletzt",
+          "§ 280 BGB"
+        ],
+        [
+          "Widerrufsrecht",
+          "erfüllt",
+          "§ 495 Abs. 1 BGB n.F. oder §§ 312, 355 BGB n.F."
+        ],
+        [
+          "teleologische Reduktion",
+          "geboten",
+          "§ 229 § 5 Satz 2 EGBGB"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 72",
+    "ontology": {
+      "Klassen": [
+        "Angabe",
+        "Berichterstattung",
+        "Interesse",
+        "Meldung",
+        "Persönlichkeitsrecht",
+        "Täuschung"
+      ],
+      "Eigenschaften": [
+        "abwägen",
+        "beeinträchtigen",
+        "betrifft",
+        "schützt",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Angabe",
+          "betrifft",
+          "Richtigkeit"
+        ],
+        [
+          "Berichterstattung",
+          "beeinträchtigt",
+          "Persönlichkeitsrecht"
+        ],
+        [
+          "Berichterstattung",
+          "schützt",
+          "Interesse"
+        ],
+        [
+          "Meldung",
+          "verletzt",
+          "Persönlichkeitsrecht"
+        ],
+        [
+          "Persönlichkeitsrecht",
+          "abwägen",
+          "Meinungsfreiheit"
+        ],
+        [
+          "Täuschung",
+          "betrifft",
+          "Beweislast"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 73",
+    "ontology": {
+      "Klassen": [
+        "Bauvorhaben",
+        "Bedingung",
+        "Geschäftsunfähigkeit",
+        "Honorarvereinbarung",
+        "Klausel",
+        "Partei",
+        "Verpflichtung",
+        "Vertrag"
+      ],
+      "Eigenschaften": [
+        "aufheben",
+        "beinhaltet",
+        "betrifft",
+        "erfüllen",
+        "interpretiert",
+        "rücktritt",
+        "rügen",
+        "verhindert",
+        "voraussetzungen",
+        "ändern"
+      ],
+      "Beziehungen": [
+        [
+          "Bauvorhaben",
+          "betrifft",
+          "Honorarvereinbarung"
+        ],
+        [
+          "Geschäftsunfähigkeit",
+          "voraussetzungen",
+          "Vertrag"
+        ],
+        [
+          "Partei",
+          "beweist",
+          "Klausel"
+        ],
+        [
+          "Partei",
+          "erfüllt",
+          "Verpflichtung"
+        ],
+        [
+          "Partei",
+          "interpretiert",
+          "Honorarvereinbarung"
+        ],
+        [
+          "Partei",
+          "rücktritt",
+          "Vertrag"
+        ],
+        [
+          "Partei",
+          "rügen",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 74",
+    "ontology": {
+      "Klassen": [
+        "Kaufsache",
+        "Käufer",
+        "Mangel",
+        "Schaden",
+        "Schadensersatz",
+        "Verkäufer"
+      ],
+      "Eigenschaften": [
+        "ist verpflichtet",
+        "ist zurückzuführen auf",
+        "realisiert",
+        "verlangt"
+      ],
+      "Beziehungen": [
+        [
+          "Käufer",
+          "verlangt",
+          "Schadensersatz"
+        ],
+        [
+          "Mangel",
+          "ist zurückzuführen auf",
+          "Bausubstanz"
+        ],
+        [
+          "Schaden",
+          "realisiert",
+          "Möglichkeit"
+        ],
+        [
+          "Verkäufer",
+          "ist verpflichtet",
+          "Schadensersatz"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 75",
+    "ontology": {
+      "Klassen": [
+        "Allgemeine Geschäftsbedingungen",
+        "Beschaffenheit",
+        "Domäneschriftform",
+        "Geschäftsfähigkeit",
+        "Hinterlegung",
+        "Pachtvertrag",
+        "Pachtvertragsregelung",
+        "Partnerschaftsvermittlungsvertrag",
+        "Schadensanspruch",
+        "Schriftform",
+        "Vereinbarung",
+        "Verhandeln",
+        "Vertrag",
+        "Vertragsabbedingung",
+        "Vertragsauslegung",
+        "Vertragsbestätigung",
+        "Vertragsstrafe",
+        "Verwendung",
+        "Werk",
+        "§ 138 BGB",
+        "§ 339 BGB",
+        "§ 372 BGB",
+        "§ 539 BGB a.F.",
+        "§ 826 BGB",
+        "§ 852 Abs. 2 BGB a. F."
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beinhaltet",
+        "kann beeinflussen",
+        "kann bestimmen",
+        "kann erfordern",
+        "kann führen zu",
+        "kann verhindern"
+      ],
+      "Beziehungen": [
+        [
+          "Pachtvertrag",
+          "beinhaltet",
+          "Pachtvertragsregelung"
+        ],
+        [
+          "Pachtvertragsregelung",
+          "kann beeinflussen",
+          "§ 539 BGB a.F."
+        ],
+        [
+          "Vereinbarung",
+          "kann führen zu",
+          "Domäneschriftform"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vereinbarung"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Allgemeine Geschäftsbedingungen"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Beschaffenheit"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Geschäftsfähigkeit"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Hinterlegung"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Partnerschaftsvermittlungsvertrag"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Verhandeln"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Vertragsabbedingung"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Vertragsauslegung"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Vertragsbestätigung"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Vertragsstrafe"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Verwendung"
+        ],
+        [
+          "Vertrag",
+          "kann erfordern",
+          "Werk"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 76",
+    "ontology": {
+      "Klassen": [
+        "Arbeitgeber",
+        "Arbeitsplatz",
+        "Erwerbstätigkeit",
+        "Garantie",
+        "Gefahr",
+        "Kosten",
+        "Leistung",
+        "Mangel",
+        "Mitarbeiter",
+        "Pflicht",
+        "Reparatur",
+        "Schaden",
+        "Umsatzsteuer",
+        "Vertriebsrecht",
+        "Wartung"
+      ],
+      "Eigenschaften": [
+        "aufweisen",
+        "berücksichtigen",
+        "beseitigen",
+        "betreiben",
+        "ersetzen",
+        "ersparen",
+        "schützen",
+        "tragen",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Arbeitgeber",
+          "schützen",
+          "Mitarbeiter"
+        ],
+        [
+          "Arbeitsplatz",
+          "Gefahr",
+          "schützen"
+        ],
+        [
+          "Erwerbstätigkeit",
+          "betreiben",
+          "Schadensminderung"
+        ],
+        [
+          "Garantie",
+          "unwirksam",
+          "Schaden"
+        ],
+        [
+          "Kosten",
+          "tragen",
+          "Mangel"
+        ],
+        [
+          "Leistung",
+          "ersetzen",
+          "Schaden"
+        ],
+        [
+          "Mangel",
+          "aufweisen",
+          "Kosten"
+        ],
+        [
+          "Reparatur",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Umsatzsteuer",
+          "ersparen",
+          "Schaden"
+        ],
+        [
+          "Vertriebsrecht",
+          "verletzen",
+          "Schaden"
+        ],
+        [
+          "Wartung",
+          "verletzen",
+          "Schaden"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 77",
+    "ontology": {
+      "Klassen": [
+        "Partei",
+        "Rechtsfolge",
+        "Vereinbarung",
+        "Vertrag",
+        "Voraussetzung",
+        "Widerruf",
+        "Wille"
+      ],
+      "Eigenschaften": [
+        "kannAnfechten",
+        "kannErmitteltWerden",
+        "kannMachen",
+        "mussErfülltSein",
+        "spieltEineRolle",
+        "trittEin"
+      ],
+      "Beziehungen": [
+        [
+          "Partei",
+          "kannAnfechten",
+          "Rechtsfolge"
+        ],
+        [
+          "Partei",
+          "kannMachen",
+          "Widerruf"
+        ],
+        [
+          "Partei",
+          "mussErfülltSein",
+          "Voraussetzung"
+        ],
+        [
+          "Partei",
+          "trittEin",
+          "Vereinbarung"
+        ],
+        [
+          "Vertrag",
+          "kannErmitteltWerden",
+          "Wille"
+        ],
+        [
+          "Wille",
+          "spieltEineRolle",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 78",
+    "ontology": {
+      "Klassen": [
+        "Betriebsstätte",
+        "Bundesgerichtshof",
+        "Duldungsanspruch",
+        "Modernisierungsverlangen",
+        "Mündliche Verhandlung",
+        "Protokoll",
+        "Rechtsfolge",
+        "Rechtsprechung",
+        "Revision",
+        "Urteil"
+      ],
+      "Eigenschaften": [
+        "auszulegen",
+        "hat",
+        "ist relevant für",
+        "spielt eine Rolle",
+        "stellt Anforderungen",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Betriebsstätte",
+          "auszulegen",
+          "Bundesgerichtshof"
+        ],
+        [
+          "Modernisierungsverlangen",
+          "spielt eine Rolle",
+          "Duldungsanspruch"
+        ],
+        [
+          "Mündliche Verhandlung",
+          "spielt eine Rolle",
+          "Revision"
+        ],
+        [
+          "Protokoll",
+          "stellt Anforderungen",
+          "Revisionszulassung"
+        ],
+        [
+          "Rechtsprechung",
+          "spielt eine Rolle",
+          "Revision"
+        ],
+        [
+          "Revision",
+          "ist unzulässig",
+          "hat Rechtsfolgen"
+        ],
+        [
+          "Revision",
+          "tritt ein",
+          "Rechtsfolge"
+        ],
+        [
+          "Urteilsverkündung",
+          "ist relevant für",
+          "Revision"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 79",
+    "ontology": {
+      "Klassen": [
+        "Anteilsübertragung",
+        "Auflassung",
+        "Courtage",
+        "Eigentumsübertragung",
+        "Eigentümer",
+        "Genehmigung",
+        "Grundbuch",
+        "Kommanditgesellschaft",
+        "Makler",
+        "Notariatsangestellte"
+      ],
+      "Eigenschaften": [
+        "erfüllen",
+        "gesetzlich vorgeschrieben",
+        "korrigieren",
+        "verlangen",
+        "vermitteln"
+      ],
+      "Beziehungen": [
+        [
+          "Anteilsübertragung",
+          "gesetzlich vorgeschrieben",
+          "Einstimmigkeit"
+        ],
+        [
+          "Eigentümer",
+          "erfüllen",
+          "Voraussetzungen"
+        ],
+        [
+          "Eigentümer",
+          "korrigieren",
+          "Eigentumsübertragung"
+        ],
+        [
+          "Eigentümer",
+          "verlangen",
+          "Auflassung"
+        ],
+        [
+          "Makler",
+          "vermitteln",
+          "Wohnung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 80",
+    "ontology": {
+      "Klassen": [
+        "Geschäftssitz",
+        "Kaution",
+        "Leasinggeber",
+        "Leasingnehmer",
+        "Leasingvertrag",
+        "Mangel",
+        "Maschine",
+        "Pachtzins",
+        "Pächter",
+        "Rückgabeklausel"
+      ],
+      "Eigenschaften": [
+        "bewerten",
+        "einbehalten",
+        "erfüllen",
+        "haben",
+        "pflichten",
+        "rollen",
+        "spielen",
+        "verlangen",
+        "verweigern"
+      ],
+      "Beziehungen": [
+        [
+          "Klausel",
+          "benachteiligen",
+          "Leasingnehmer"
+        ],
+        [
+          "Leasinggeber",
+          "einbehalten",
+          "Kaution"
+        ],
+        [
+          "Leasinggeber",
+          "pflichten",
+          "Rücknahme der Maschinen"
+        ],
+        [
+          "Leasinggeber",
+          "verweigern",
+          "Rückgabe der Maschinen"
+        ],
+        [
+          "Leasingnehmer",
+          "haben",
+          "Rückgaberecht"
+        ],
+        [
+          "Leasingnehmer",
+          "verlangen",
+          "Rückzahlung der Kaution"
+        ],
+        [
+          "Pächter",
+          "verlangen",
+          "Minderung des Pachtzinses"
+        ],
+        [
+          "Rückgabeklausel",
+          "spielen",
+          "Kautionsrückzahlungsanspruch"
+        ],
+        [
+          "Rückgabeklausel",
+          "spielen",
+          "Verweigerung der Rücknahme"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 81",
+    "ontology": {
+      "Klassen": [
+        "Arglistige Täuschung",
+        "Auflassung",
+        "Beschlussfassung",
+        "Einlageverbindlichkeit",
+        "Garantie",
+        "Mängelrüge",
+        "Pflichtteilsanspruch",
+        "Untermietverhältnis",
+        "Verjährung",
+        "Aufrechnung",
+        "ZVK-L",
+        "Zwischenurteil"
+      ],
+      "Eigenschaften": [
+        "bewirken",
+        "erfüllt sein",
+        "gehemmt werden",
+        "gilt als",
+        "herbeiführen",
+        "unwirksam sein",
+        "ändern können"
+      ],
+      "Beziehungen": [
+        [
+          "Arglistige Täuschung",
+          "gilt als",
+          "Täuschung"
+        ],
+        [
+          "Auflassung",
+          "erfüllt sein",
+          "Bedingungen"
+        ],
+        [
+          "Beschlussfassung",
+          "teilnehmen",
+          "berechtigt"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "bewirken",
+          "Verrechnung"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "erfüllt sein",
+          "Voraussetzungen"
+        ],
+        [
+          "Garantie",
+          "unwirksam sein",
+          "Bedingungen"
+        ],
+        [
+          "Mängelrüge",
+          "gilt als",
+          "ordnungsgemäß"
+        ],
+        [
+          "Pflichtteilsanspruch",
+          "abgetreten werden",
+          "Voraussetzungen"
+        ],
+        [
+          "Untermietverhältnis",
+          "herbeiführen",
+          "verpflichtet"
+        ],
+        [
+          "Verjährung",
+          "gehemmt werden",
+          "Bedingungen"
+        ],
+        [
+          "ZVK-L",
+          "ändern können",
+          "Bedingungen"
+        ],
+        [
+          "Zwischenurteil",
+          "ergehen",
+          "Anforderungen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 82",
+    "ontology": {
+      "Klassen": [
+        "Beurteilung",
+        "Gerichtskostenvorschuss",
+        "Haftung",
+        "Kosten",
+        "Rechtsfolge",
+        "Verpflichtung",
+        "Zustimmung",
+        "Übertragung"
+      ],
+      "Eigenschaften": [
+        "beeinflussen",
+        "betreffen",
+        "erfüllen",
+        "führen",
+        "schaffen",
+        "tragen"
+      ],
+      "Beziehungen": [
+        [
+          "Beurteilung",
+          "erfüllen",
+          "quotale Haftung"
+        ],
+        [
+          "Gerichtskostenvorschuss",
+          "tragen",
+          "Verpflichtung"
+        ],
+        [
+          "Haftung",
+          "erfüllen",
+          "Verpflichtung"
+        ],
+        [
+          "Kosten",
+          "beeinflussen",
+          "Rechtsfolge"
+        ],
+        [
+          "Prospektfehler",
+          "betreffen",
+          "Beurteilung"
+        ],
+        [
+          "Verpflichtung",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Zustimmung",
+          "beeinflussen",
+          "Übertragung"
+        ],
+        [
+          "Übertragung",
+          "schaffen",
+          "Verpflichtung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 83",
+    "ontology": {
+      "Klassen": [
+        "Ausschlussgrund",
+        "Deckungszusage",
+        "Geschädigter",
+        "Haftpflichtversicherer",
+        "Kostendeckungsschutz-Zusage",
+        "Rechtsverfolgungskosten"
+      ],
+      "Eigenschaften": [
+        "erteilen",
+        "feststellen",
+        "gilt",
+        "hat",
+        "tragen"
+      ],
+      "Beziehungen": [
+        [
+          "Ausschlussgrund",
+          "wird festgestellt",
+          "von Deckungszusage"
+        ],
+        [
+          "Geschädigter",
+          "hat",
+          "Rechtsverfolgungskosten"
+        ],
+        [
+          "Haftpflichtversicherer",
+          "erteilen",
+          "Deckungszusage"
+        ],
+        [
+          "Kostendeckungsschutz-Zusage",
+          "hat",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 84",
+    "ontology": {
+      "Klassen": [
+        "Fahrlässigkeit",
+        "Gebrechen",
+        "Gesundheitsbeeinträchtigung",
+        "Gesundheitsschaden",
+        "Kausalität",
+        "Krankheit",
+        "Obliegenheit",
+        "Unfallereignis",
+        "Unfallverhütungsvorschrift",
+        "Verstoß"
+      ],
+      "Eigenschaften": [
+        "ausreichend sein",
+        "bei der Beurteilung",
+        "bei der Beurteilung der Kausalität",
+        "betrachtet werden",
+        "beweisen",
+        "eingehalten werden",
+        "mitwirken",
+        "unterschiedlich von",
+        "verantwortlich für",
+        "verursacht werden"
+      ],
+      "Beziehungen": [
+        [
+          "Adäquanztheorie",
+          "bei der Beurteilung",
+          "der Kausalität zwischen einem Ereignis und einer Gesundheitsbeeinträchtigung"
+        ],
+        [
+          "Fahrlässigkeit",
+          "unterschiedlich von",
+          "Fahrlässigkeit"
+        ],
+        [
+          "Kausalität",
+          "ist ausreichend",
+          "für einen Zusammenhang zwischen einem Unfallereignis und einer Gesundheitsbeeinträchtigung"
+        ],
+        [
+          "Krankheit",
+          "Gebrechen",
+          "bei der Beurteilung",
+          "der Kausalität eines Unfallereignisses für eine Gesundheitsbeeinträchtigung"
+        ],
+        [
+          "Unfallereignis",
+          "betrachtet werden als",
+          "Gelegenheitsursache"
+        ],
+        [
+          "Unfallereignis",
+          "verursacht werden",
+          "Gesundheitsschaden"
+        ],
+        [
+          "Verantwortlicher",
+          "ist für die",
+          "Einhaltung der Unfallverhütungsvorschriften"
+        ],
+        [
+          "Verantwortlicher",
+          "ist verpflichtet",
+          "die Kausalität eines Unfallgeschehens zu beweisen"
+        ],
+        [
+          "Verstoß",
+          "als",
+          "grob fahrlässig"
+        ],
+        [
+          "degenerative Vorschädigung",
+          "bei der Beurteilung",
+          "der Kausalität eines Unfallereignisses für eine Gesundheitsbeeinträchtigung"
+        ],
+        [
+          "Äquivalenztheorie",
+          "bei der Beurteilung",
+          "der Kausalität zwischen einem Unfallereignis und einer Gesundheitsbeeinträchtigung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 85",
+    "ontology": {
+      "Klassen": [
+        "Arbeitsunfall",
+        "Drittperson",
+        "Pflichtverletzung",
+        "Rechtsfolge",
+        "Rechtsgrundlage"
+      ],
+      "Eigenschaften": [
+        "angestiftet",
+        "herbeiführt",
+        "ignoriert",
+        "kennt",
+        "verletzen",
+        "verursachen"
+      ],
+      "Beziehungen": [
+        [
+          "Arbeitsunfall",
+          "basiert auf",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Arbeitsunfall",
+          "führt zu",
+          "Rechtsfolge"
+        ],
+        [
+          "Person",
+          "herbeiführt",
+          "Arbeitsunfall"
+        ],
+        [
+          "Person",
+          "verletzt",
+          "Pflicht"
+        ],
+        [
+          "Person",
+          "wird angestiftet von",
+          "Drittperson"
+        ],
+        [
+          "Pflichtverletzung",
+          "hat Einfluss auf",
+          "Arbeitsunfall"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 86",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Forderung",
+        "Handlung",
+        "Rechtsgrundlage",
+        "Rechtsschutz",
+        "Verfahrensgegenstand",
+        "actio pro socio"
+      ],
+      "Eigenschaften": [
+        "bildet",
+        "gilt für",
+        "wird als",
+        "wird bewilligt"
+      ],
+      "Beziehungen": [
+        [
+          "Anspruch",
+          "wird durch",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Forderung",
+          "wird als",
+          "Rechtsschutz"
+        ],
+        [
+          "Verfahrensgegenstand",
+          "bildet",
+          "Handlung"
+        ],
+        [
+          "actio pro socio",
+          "wird durch",
+          "Rechtsgrundlage"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 87",
+    "ontology": {
+      "Klassen": [
+        "Fracht/Lagervertrag",
+        "Gasliefervertrag",
+        "Klausel",
+        "Maklervertrag",
+        "Vertrag",
+        "Vertragspartner",
+        "Vertreter"
+      ],
+      "Eigenschaften": [
+        "eingeordnet",
+        "erfüllen",
+        "geltendMachen",
+        "hatEigenhaftung",
+        "repräsentiert",
+        "schließt",
+        "spieltRolle",
+        "verstößtGegen"
+      ],
+      "Beziehungen": [
+        [
+          "Fracht/Lagervertrag",
+          "schließt",
+          "Vertrag"
+        ],
+        [
+          "Gasliefervertrag",
+          "eingeordnet",
+          "Tarifkundenvertrag"
+        ],
+        [
+          "Klausel",
+          "repräsentiert",
+          "vertraglicheRegelung"
+        ],
+        [
+          "Klausel",
+          "verstößtGegen",
+          "gesetzlicheRegelung"
+        ],
+        [
+          "Maklervertrag",
+          "geltendMachen",
+          "Provisionsanspruch"
+        ],
+        [
+          "Vertragspartner",
+          "erfüllt",
+          "Voraussetzungen"
+        ],
+        [
+          "Vertreter",
+          "hatEigenhaftung",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 88",
+    "ontology": {
+      "Klassen": [
+        "Funktion",
+        "Gut",
+        "Partei",
+        "Praktik",
+        "Verpflichtung",
+        "Vertrag",
+        "Zustand"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beeinflusst",
+        "beinhaltet",
+        "bestimmt",
+        "erfüllen",
+        "nachweist",
+        "spielt eine Rolle"
+      ],
+      "Beziehungen": [
+        [
+          "Gut",
+          "beeinflusst",
+          "Verpflichtung"
+        ],
+        [
+          "Partei",
+          "hat",
+          "Verpflichtung"
+        ],
+        [
+          "Praktik",
+          "bestimmt",
+          "Verpflichtung"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Verpflichtung"
+        ],
+        [
+          "Zustand",
+          "beeinflusst",
+          "Funktion"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 89",
+    "ontology": {
+      "Klassen": [
+        "Anstellungsvertrag",
+        "Geschäftsanteil",
+        "Geschäftsführer",
+        "Gesellschafter",
+        "GmbH",
+        "Kündigung"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "betrifft",
+        "erklären",
+        "gilt für",
+        "hat",
+        "spielen",
+        "wirksam sein"
+      ],
+      "Beziehungen": [
+        [
+          "Abberufung",
+          "gilt für",
+          "Geschäftsführer"
+        ],
+        [
+          "Anstellungsvertrag",
+          "betrifft",
+          "Gesellschafterstellung"
+        ],
+        [
+          "Kündigung",
+          "basiert auf",
+          "Grund"
+        ],
+        [
+          "Kündigung",
+          "betrifft",
+          "Anstellungsvertrag"
+        ],
+        [
+          "Kündigung",
+          "betrifft",
+          "Geschäftsanteil"
+        ],
+        [
+          "Kündigung",
+          "erklären",
+          "Gesellschafter"
+        ],
+        [
+          "Kündigung",
+          "wirksam sein",
+          "Geschäftsführer"
+        ],
+        [
+          "Motive",
+          "spielen",
+          "Wirksamkeit"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 90",
+    "ontology": {
+      "Klassen": [
+        "Allgemeine Geschäftsbedingungen",
+        "Anspruch",
+        "Geschäftsgrundlage",
+        "Klausel",
+        "Mangel",
+        "Rechtsbindungswille",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Tatbestand",
+        "Urteil",
+        "Verpflichtung",
+        "Vertragsleistung"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beinhaltet",
+        "belehren",
+        "bemessen",
+        "erfüllen",
+        "sicherstellen",
+        "unwirksam",
+        "verstößt gegen",
+        "wirksam",
+        "zuzurechnen"
+      ],
+      "Beziehungen": [
+        [
+          "Anspruch",
+          "basiert auf",
+          "Tatbestand"
+        ],
+        [
+          "Klausel",
+          "unwirksam",
+          "Rechtsfolge"
+        ],
+        [
+          "Klausel",
+          "verstößt gegen",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Mangel",
+          "verhindert",
+          "Vertragsleistung"
+        ],
+        [
+          "Rechtsbindungswille",
+          "spielt Rolle bei",
+          "Abgrenzung"
+        ],
+        [
+          "Urteil",
+          "beinhaltet",
+          "Tatbestand"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 91",
+    "ontology": {
+      "Klassen": [
+        "Aktie",
+        "Anleger",
+        "Aufklärung",
+        "Beratung",
+        "Gefälligkeit",
+        "Geschäftsführer",
+        "Geschäftsmodell",
+        "Gesellschafter",
+        "GmbH",
+        "Kunde",
+        "Prospekt",
+        "Rechtsabteilung",
+        "Repräsentant",
+        "Verbindlichkeit",
+        "Vergütung",
+        "Vertragserfüllung",
+        "Vertreter"
+      ],
+      "Eigenschaften": [
+        "erfüllen",
+        "haftet für",
+        "hat Bedeutung",
+        "hat Rechte",
+        "ist angelegt",
+        "ist relevant",
+        "ist verpflichtet",
+        "spielt Rolle",
+        "steht ein",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Aktie",
+          "hat",
+          "Prospekt"
+        ],
+        [
+          "Anleger",
+          "hat Rechte",
+          "Aufklärung"
+        ],
+        [
+          "Gefälligkeit",
+          "ist relevant",
+          "Abgrenzung"
+        ],
+        [
+          "Geschäftsführung",
+          "ist relevant",
+          "Abgrenzung"
+        ],
+        [
+          "Geschäftsmodell",
+          "ist angelegt",
+          "Sittenwidrigkeit"
+        ],
+        [
+          "Gesellschafter",
+          "erfüllt",
+          "Verbindlichkeit"
+        ],
+        [
+          "Gesellschafter",
+          "hat",
+          "Vergütung"
+        ],
+        [
+          "Gesellschafter",
+          "hat Rechte",
+          "Vertragserfüllung"
+        ],
+        [
+          "Gesellschafter",
+          "verstoßen gegen",
+          "Treuepflicht"
+        ],
+        [
+          "GmbH",
+          "hat",
+          "Gesellschafter"
+        ],
+        [
+          "Kunde",
+          "hat Rechte",
+          "Aufteilung"
+        ],
+        [
+          "Rechtsabteilung",
+          "spielt Rolle",
+          "Entscheidung"
+        ],
+        [
+          "Repräsentant",
+          "steht ein",
+          "Geschäft"
+        ],
+        [
+          "Unternehmen",
+          "ist verpflichtet",
+          "Aufklärung"
+        ],
+        [
+          "Vertreter",
+          "ist",
+          "Repräsentant"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 92",
+    "ontology": {
+      "Klassen": [
+        "Abfindung",
+        "Gesellschaftsrechtlicher Gleichbehandlungsgrundsatz",
+        "Gesetz zur Regelung des Rechts der Allgemeinen Geschäftsbedingungen",
+        "GmbH",
+        "Hinauskündigungsklausel"
+      ],
+      "Eigenschaften": [
+        "gestalten",
+        "spielen",
+        "vereinbaren",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "GmbH",
+          "enthält",
+          "Hinauskündigungsklausel"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "beinhaltet",
+          "Abfindung"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "vereinbaren",
+          "Gesellschaftsrechtlicher Gleichbehandlungsgrundsatz"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "vereinbaren",
+          "Gesetz zur Regelung des Rechts der Allgemeinen Geschäftsbedingungen"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "wirksam",
+          "GmbH"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 93",
+    "ontology": {
+      "Klassen": [
+        "Abfindungsklausel",
+        "Beschluss",
+        "Frachtführer",
+        "Geschäftsführer",
+        "Geschäftsführeranstellungsvertrag",
+        "Geschäftsführervergütung",
+        "Gesellschafter",
+        "Gewinnbezugsrecht",
+        "GmbH",
+        "Haftung",
+        "Honorarvereinbarung",
+        "Kommanditgesellschaft",
+        "Komplementär-GmbH",
+        "Mitarbeiter",
+        "Recht",
+        "Rechtsfolge",
+        "Schaden",
+        "Vermögensbetreuungspflicht",
+        "Vertrag"
+      ],
+      "Eigenschaften": [
+        "ausüben",
+        "beeinflussen",
+        "behandeln",
+        "bestätigen",
+        "betreuen",
+        "beurteilen",
+        "erfolgen",
+        "erfüllen",
+        "erleiden",
+        "erschweren",
+        "führen",
+        "gilt für",
+        "haftet für",
+        "praktizieren",
+        "unwirksam sein",
+        "vereinnahmen",
+        "verletzen",
+        "verursachen",
+        "wirksam sein"
+      ],
+      "Beziehungen": [
+        [
+          "Abfindungsklausel",
+          "kann unwirksam sein",
+          "wenn bestimmte Bedingungen erfüllt sind"
+        ],
+        [
+          "Anstellungsvertrag",
+          "spielt eine Rolle",
+          "für die Haftung des Geschäftsführers gegenüber einer Kommanditgesellschaft"
+        ],
+        [
+          "Geschäftsführer",
+          "hat Rechte",
+          "im Falle von Schäden, die er bei der Ausführung des Auftrags erleidet"
+        ],
+        [
+          "Geschäftsführer",
+          "hat Rechte",
+          "wenn der Vertrag unwirksam ist, aber er bereits als Geschäftsführer tätig war"
+        ],
+        [
+          "Geschäftsführer",
+          "ist verpflichtet",
+          "die Geschäfte einer Kommanditgesellschaft zu führen"
+        ],
+        [
+          "Geschäftsführer",
+          "ist verpflichtet",
+          "die Vermögensbetreuungspflicht zu erfüllen"
+        ],
+        [
+          "Geschäftsführer",
+          "ist verpflichtet",
+          "keine höheren Geschäftsführervergütungen zu vereinnahmen als in einem Beschluss festgelegt"
+        ],
+        [
+          "Geschäftsführer",
+          "kann eine Änderung der Geschäftsführerverträge",
+          "erfolgen"
+        ],
+        [
+          "Geschäftsführer",
+          "kann unmittelbar haften",
+          "gegenüber einer Kommanditgesellschaft"
+        ],
+        [
+          "Geschäftsführervertrag",
+          "ist unwirksam",
+          "wenn bestimmte Rechtsfolgen eintreten"
+        ],
+        [
+          "Geschäftsführervertrag",
+          "ist wirksam",
+          "wenn bestimmte Voraussetzungen erfüllt sind"
+        ],
+        [
+          "Geschäftsführervertrag",
+          "kann für die Zukunft behandelt werden",
+          "wenn er unwirksam ist"
+        ],
+        [
+          "Gesellschafter",
+          "ist befugt",
+          "einen Geschäftsführeranstellungsvertrag abzuschließen"
+        ],
+        [
+          "Gesellschafter",
+          "können die Wirksamkeit eines Geschäftsführervertrages",
+          "bestätigen"
+        ],
+        [
+          "Gewinnbezugsrecht",
+          "hat Bedeutung",
+          "beim Ausscheiden des Geschäftsführers aus der Gesellschaft"
+        ],
+        [
+          "Haftung",
+          "gilt",
+          "für den Frachtführer bei vorsätzlicher Pflichtverletzung durch seinen Mitarbeiter"
+        ],
+        [
+          "Haftung",
+          "gilt",
+          "für den Geschäftsführer einer Komplementär-GmbH gegenüber einer Kommanditgesellschaft"
+        ],
+        [
+          "Honorarvereinbarung",
+          "kann als pflichtwidrig angesehen werden",
+          "wenn bestimmte Bedingungen erfüllt sind"
+        ],
+        [
+          "Klausel",
+          "kann unzulässig sein",
+          "wenn sie die Beendigung des Vertrages erschwert"
+        ],
+        [
+          "Kommanditgesellschaft",
+          "hat Rechte",
+          "gegenüber dem Geschäftsführer einer Komplementär-GmbH"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "kann bestehen",
+          "gegen den Geschäftsführer einer Komplementär-GmbH"
+        ],
+        [
+          "Vermögensbetreuungspflicht",
+          "kann verletzt werden",
+          "mit bestimmten Rechtsfolgen"
+        ],
+        [
+          "Vertragsdauer",
+          "spielt eine Rolle",
+          "bei der Beurteilung der Wirksamkeit eines Geschäftsführervertrages"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 94",
+    "ontology": {
+      "Klassen": [
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Verfahrensgrundrecht",
+        "Verpflichtung"
+      ],
+      "Eigenschaften": [
+        "gilt für",
+        "ist erforderlich",
+        "ist relevant",
+        "können verletzt werden",
+        "treten ein",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Einlageverbindlichkeit",
+          "wird nicht ordnungsgemäß erfüllt",
+          "Rechtsfolge"
+        ],
+        [
+          "Erbverzicht",
+          "tritt ein",
+          "Rechtsfolge"
+        ],
+        [
+          "Forderung",
+          "wird verrechnet",
+          "Einlageverbindlichkeit"
+        ],
+        [
+          "Gesellschafter",
+          "ist verpflichtet zur Herausgabe",
+          "Erlangtes"
+        ],
+        [
+          "Pfändung",
+          "ist unwirksam",
+          "Rechtsfolge"
+        ],
+        [
+          "Verpflichteter",
+          "ist verpflichtet zur Erteilung",
+          "Auskunft"
+        ],
+        [
+          "Versorgungsanspruch",
+          "ist unverfallbar",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Zustellung",
+          "kann verletzt werden",
+          "Verfahrensgrundrecht"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 95",
+    "ontology": {
+      "Klassen": [
+        "Aufwendungsersatzanspruch",
+        "Gefälligkeit",
+        "Tätigkeit"
+      ],
+      "Eigenschaften": [
+        "charakterisieren",
+        "spielen"
+      ],
+      "Beziehungen": [
+        [
+          "Gefälligkeit",
+          "charakterisieren",
+          "Aufwendungsersatzanspruch"
+        ],
+        [
+          "Tätigkeit",
+          "charakterisieren",
+          "Gefälligkeit"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 96",
+    "ontology": {
+      "Klassen": [
+        "Betriebsgefahr",
+        "Haftpflichtversicherung",
+        "Haftungsquote",
+        "Kosten",
+        "Sachverständigenkosten",
+        "Schadensersatzrecht",
+        "Schadensverursachung",
+        "Umstand"
+      ],
+      "Eigenschaften": [
+        "gilt",
+        "haben",
+        "hat",
+        "müssen",
+        "sind",
+        "spielt"
+      ],
+      "Beziehungen": [
+        [
+          "Betriebsgefahr",
+          "spielt",
+          "Haftungsquote"
+        ],
+        [
+          "Erstattung",
+          "gilt",
+          "Sachverständigenkosten"
+        ],
+        [
+          "Geschädigter",
+          "kann",
+          "Kosten"
+        ],
+        [
+          "Haftpflichtversicherung",
+          "spielt",
+          "Haftung"
+        ],
+        [
+          "Sachverständigenkosten",
+          "müssen",
+          "quotiert werden"
+        ],
+        [
+          "Sachverständigenkosten",
+          "sind",
+          "einzuordnen"
+        ],
+        [
+          "Schadensverursachung",
+          "hat",
+          "Quotierung"
+        ],
+        [
+          "Umstände",
+          "haben",
+          "Bedeutung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 97",
+    "ontology": {
+      "Klassen": [
+        "Auskunftsanspruch",
+        "Erfüllungsanspruch",
+        "Folgeschäden",
+        "Garantieanspruch",
+        "Geschädigter",
+        "Haftung",
+        "Klage",
+        "Rechtsfolge",
+        "Schaden",
+        "Schadensanspruch",
+        "Schadensanspruch",
+        "Schadensminderungspflicht",
+        "Schuld",
+        "Schädiger",
+        "Verjährung",
+        "Verjährungsfrist",
+        "Verletzung des Alleinvertriebsrechts",
+        "Werkleistung"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beeinflusst",
+        "beeinträchtigen",
+        "beinhaltet",
+        "betrifft",
+        "führt zu",
+        "gilt für",
+        "ist Grundlage für",
+        "kann führen zu",
+        "kann geltend gemacht werden",
+        "muss erfüllt sein",
+        "regelt"
+      ],
+      "Beziehungen": [
+        [
+          "Auskunftsanspruch",
+          "ist Grundlage für",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Erfüllungsanspruch",
+          "wird umgewandelt in",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Folgeschäden",
+          "können geheilt werden durch",
+          "Fristsetzung mit Ablehnungsandrohung"
+        ],
+        [
+          "Garantieanspruch",
+          "kann geltend gemacht werden bei",
+          "Motorschaden"
+        ],
+        [
+          "Haftung",
+          "regelt",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Klage",
+          "kann geheilt werden durch",
+          "ordnungsgemäße Zustellung"
+        ],
+        [
+          "Schaden",
+          "basiert auf",
+          "Werkleistung"
+        ],
+        [
+          "Schaden",
+          "führt zu",
+          "Schuld"
+        ],
+        [
+          "Schadensanspruch",
+          "wird beeinflusst von",
+          "Verjährung"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "basiert auf",
+          "Verletzung des Alleinvertriebsrechts"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "beinhaltet",
+          "Schaden"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "betrifft",
+          "Verjährungsfrist"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "führt zu",
+          "Rechtsfolge"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "wird beeinflusst von",
+          "Schadensminderungspflicht"
+        ],
+        [
+          "Schadensminderungspflicht",
+          "wird geltend gemacht von",
+          "Geschädigter"
+        ],
+        [
+          "Schuld",
+          "betrifft",
+          "Geschädigter"
+        ],
+        [
+          "Schuld",
+          "betrifft",
+          "Schädiger"
+        ],
+        [
+          "Verletzung des Alleinvertriebsrechts",
+          "führt zu",
+          "Schadensersatzanspruch"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 98",
+    "ontology": {
+      "Klassen": [],
+      "Eigenschaften": [],
+      "Beziehungen": []
+    }
+  },
+  {
+    "cluster": "Cluster 99",
+    "ontology": {
+      "Klassen": [
+        "Bezeichnung",
+        "Einwendungsdurchgriff",
+        "Entscheidungsreife",
+        "Heilung",
+        "Klage",
+        "Klageerhebung",
+        "Prüfung",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Rechtshängigkeit",
+        "Rechtsverfolgung",
+        "Schadensanspruch",
+        "Schlichtungsverfahren",
+        "Schlichtungsverfahren",
+        "Stellungnahme",
+        "Streitgegenstand",
+        "Verjährung",
+        "Vorfrage",
+        "Zulässigkeit"
+      ],
+      "Eigenschaften": [
+        "beginnt",
+        "beinhaltet",
+        "gilt für",
+        "hat Bedeutung",
+        "hat Rechtsfolgen",
+        "ist berechtigt",
+        "ist erforderlich",
+        "ist verpflichtet",
+        "ist vorgeschrieben",
+        "ist wichtig",
+        "kann entstehen",
+        "müssen erfüllt sein",
+        "spielt eine Rolle",
+        "tritt ein"
+      ],
+      "Beziehungen": [
+        [
+          "Einwendungsdurchgriff",
+          "kann stattfinden",
+          "wenn bestimmte Bedingungen erfüllt sind"
+        ],
+        [
+          "Klage",
+          "ist nicht zulässig",
+          "wenn nicht vorher Schlichtungsverfahren durchgeführt wurde"
+        ],
+        [
+          "Klage",
+          "wird rechtshängig",
+          "wenn bestimmte Voraussetzungen erfüllt sind"
+        ],
+        [
+          "Rechtsverfolgung",
+          "hat Rechtsfolgen",
+          "wenn sie unter die Leistungsart 'Vertragsrecht' fällt"
+        ],
+        [
+          "Schadensersatzansprüche",
+          "werden verjährt",
+          "wenn bestimmte Fristen verstreichen"
+        ],
+        [
+          "Schlichtungsverfahren",
+          "beinhaltet",
+          "Klageerhebung"
+        ],
+        [
+          "Schlichtungsverfahren",
+          "ist wichtig",
+          "um Ziele des Gesetzgebers zu erreichen"
+        ],
+        [
+          "Schlichtungsversuch",
+          "ist vorgeschrieben",
+          "Klageerhebung"
+        ],
+        [
+          "Verjährung",
+          "beginnt",
+          "wenn bestimmte Voraussetzungen erfüllt sind"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 100",
+    "ontology": {
+      "Klassen": [
+        "Abrechnung",
+        "Annullierung",
+        "Anspruch",
+        "Einspruch",
+        "Frist",
+        "Geltendmachung",
+        "Klage",
+        "Nachbesserung",
+        "Rechtsmittel",
+        "Umbuchung",
+        "Verjährung",
+        "Widerklage",
+        "Zustellung"
+      ],
+      "Eigenschaften": [
+        "beginnt mit",
+        "beinhaltet",
+        "gilt für",
+        "hat Auswirkungen auf",
+        "ist erforderlich",
+        "ist relevant für",
+        "ist verpflichtet",
+        "kann beeinflussen",
+        "tritt ein",
+        "wird gehemmt",
+        "wird versäumt",
+        "wird verzögert"
+      ],
+      "Beziehungen": [
+        [
+          "Abrechnung",
+          "ist relevant für",
+          "Rechtsmittel"
+        ],
+        [
+          "Annullierung",
+          "hat Auswirkungen auf",
+          "Klage"
+        ],
+        [
+          "Anspruch",
+          "beinhaltet",
+          "Frist"
+        ],
+        [
+          "Einspruch",
+          "wird versäumt von",
+          "Partei"
+        ],
+        [
+          "Herausgabe",
+          "gilt für",
+          "Ansprüche"
+        ],
+        [
+          "Klage",
+          "wird gehemmt durch",
+          "Zustellung"
+        ],
+        [
+          "Nachbesserung",
+          "ist erforderlich für",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Umbuchung",
+          "wird nicht automatisch als",
+          "Annullierung"
+        ],
+        [
+          "Verjährung",
+          "beginnt mit",
+          "Geltendmachung"
+        ],
+        [
+          "Widerklage",
+          "hat Auswirkungen auf",
+          "Verjährung"
+        ],
+        [
+          "Zustellung",
+          "wird verzögert trotz",
+          "Verschulden"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 101",
+    "ontology": {
+      "Klassen": [
+        "Handelsgeschäft",
+        "Inhaber",
+        "Insolvenzverfahren",
+        "Unternehmer",
+        "Verbindlichkeit"
+      ],
+      "Eigenschaften": [
+        "auslöstHaftung",
+        "beeinflusst",
+        "begründet",
+        "erfülltPflichten",
+        "fortführt",
+        "gilt Fuer",
+        "nimmtAuf"
+      ],
+      "Beziehungen": [
+        [
+          "Handelsgeschäft",
+          "auslöstHaftung",
+          "Verbindlichkeit"
+        ],
+        [
+          "Handelsgeschäft",
+          "begründet",
+          "Verbindlichkeit"
+        ],
+        [
+          "Inhaber",
+          "fortführt",
+          "Handelsgeschäft"
+        ],
+        [
+          "Inhaber",
+          "nimmtAuf",
+          "Handelsgeschäft"
+        ],
+        [
+          "Insolvenzverfahren",
+          "beeinflusst",
+          "Anwendbarkeit"
+        ],
+        [
+          "Unternehmer",
+          "erfülltPflichten",
+          "Vertrauensschaden"
+        ],
+        [
+          "Verbindlichkeit",
+          "gilt Fuer",
+          "Inhaber"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 102",
+    "ontology": {
+      "Klassen": [
+        "Kauf auf Probe",
+        "Materielles Recht",
+        "Prozessrecht",
+        "Prozessvergleich",
+        "Prüfungsantrag",
+        "Rechtsnatur",
+        "Vereinbarung",
+        "Widerruf"
+      ],
+      "Eigenschaften": [
+        "auslegen",
+        "bestimmen",
+        "betrachten",
+        "erfüllen",
+        "wirken",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "Kauf auf Probe",
+          "wirksam",
+          "Bedingungen"
+        ],
+        [
+          "Prozessvergleich",
+          "bestimmen",
+          "Widerrufsadressat"
+        ],
+        [
+          "Prozessvergleich",
+          "betrachten",
+          "Materielles Recht"
+        ],
+        [
+          "Prozessvergleich",
+          "betrachten",
+          "Prozessrecht"
+        ],
+        [
+          "Prozessvergleich",
+          "widerrufen",
+          "Widerruf"
+        ],
+        [
+          "Prüfungsantrag",
+          "erfüllen",
+          "Voraussetzungen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 103",
+    "ontology": {
+      "Klassen": [
+        "Einspruch",
+        "Erbanteil",
+        "Erbengemeinschaft",
+        "Mangel",
+        "Mietverhältnis",
+        "Sonderumlage",
+        "Vergleichsgrundlage",
+        "Verjährung",
+        "Zustellung"
+      ],
+      "Eigenschaften": [
+        "beendet",
+        "berücksichtigt",
+        "betrifft",
+        "erfüllen",
+        "gilt",
+        "hemmt",
+        "unwirksam",
+        "verwirkt",
+        "übertragen"
+      ],
+      "Beziehungen": [
+        [
+          "Einspruch",
+          "unzulässig",
+          "Verwerfung"
+        ],
+        [
+          "Erbanteil",
+          "übertragen",
+          "Erbengemeinschaft"
+        ],
+        [
+          "Mangel",
+          "betrifft",
+          "Verjährung"
+        ],
+        [
+          "Mangel",
+          "hemmt",
+          "Verjährung"
+        ],
+        [
+          "Mietverhältnis",
+          "beendet",
+          "Vergleichsgrundlage"
+        ],
+        [
+          "Räumungsvergleich",
+          "beendet",
+          "Untermietverhältnis"
+        ],
+        [
+          "Sonderumlage",
+          "unwirksam",
+          "Beschlussfassung"
+        ],
+        [
+          "Vergleichsgrundlage",
+          "wirksam",
+          "Vergleich"
+        ],
+        [
+          "Zustellung",
+          "betrifft",
+          "Einspruch"
+        ],
+        [
+          "Zustellung",
+          "unwirksam",
+          "Einspruchsfrist"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 104",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Arglistige Täuschung",
+        "Betriebsplanzulassung",
+        "Beweis",
+        "Bürge",
+        "Genehmigungsbedürftigkeit",
+        "Hauptschuld",
+        "Herausgabe",
+        "Nutzungen",
+        "Nutzungsänderung",
+        "Sachverständigengutachten",
+        "Schenkungserklärung",
+        "Schriftliche Begutachtung",
+        "Selbständiges Beweisverfahren",
+        "Verjährung"
+      ],
+      "Eigenschaften": [
+        "giltFür",
+        "giltFürDieBeendigungVon",
+        "hatBedeutung",
+        "hatRechtsgrundlage",
+        "mussErbrachtWerden",
+        "mussNachgewiesenWerden",
+        "müssenErfülltSein",
+        "tragenFür"
+      ],
+      "Beziehungen": [
+        [
+          "Betriebsplanzulassung",
+          "mussNachgewiesenWerden",
+          "Sachverständigengutachten"
+        ],
+        [
+          "Bürge",
+          "tragenFür",
+          "Hauptschuld"
+        ],
+        [
+          "Genehmigungsbedürftigkeit",
+          "hatBedeutung",
+          "Arglistige Täuschung"
+        ],
+        [
+          "Nutzungen",
+          "müssenHerausgegebenWerden",
+          "Herausgabe"
+        ],
+        [
+          "Schenkungserklärung",
+          "mussErbrachtWerden",
+          "Beweis"
+        ],
+        [
+          "Selbständiges Beweisverfahren",
+          "hatRechtsgrundlage",
+          "Schriftliche Begutachtung"
+        ],
+        [
+          "Selbständiges Beweisverfahren",
+          "müssenErfülltSein",
+          "Verjährung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 105",
+    "ontology": {
+      "Klassen": [
+        "Drittschuldner",
+        "Einlageverbindlichkeit",
+        "Geldmittel",
+        "Rechnung",
+        "Rechtsträger",
+        "Verpflichteter"
+      ],
+      "Eigenschaften": [
+        "berücksichtigt",
+        "enthält",
+        "erfüllen",
+        "erlangt",
+        "herausgibt",
+        "tragen",
+        "verlangt",
+        "verpflichtet",
+        "überwacht"
+      ],
+      "Beziehungen": [
+        [
+          "Drittschuldner",
+          "verlangt",
+          "Zahlungen"
+        ],
+        [
+          "Rechnung",
+          "enthält",
+          "Mindestangaben"
+        ],
+        [
+          "Verpflichteter",
+          "berücksichtigt",
+          "Liquidität"
+        ],
+        [
+          "Verpflichteter",
+          "erfüllt",
+          "Einlageverbindlichkeit"
+        ],
+        [
+          "Verpflichteter",
+          "herausgibt",
+          "Geldmittel"
+        ],
+        [
+          "Verpflichteter",
+          "verpflichtet",
+          "Rechtsträger"
+        ],
+        [
+          "Verpflichteter",
+          "überwacht",
+          "Geldmittel"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 106",
+    "ontology": {
+      "Klassen": [
+        "Erprobung",
+        "Oberlandesgericht",
+        "Richter",
+        "Richter"
+      ],
+      "Eigenschaften": [
+        "erfüllen",
+        "hat",
+        "regelt"
+      ],
+      "Beziehungen": [
+        [
+          "DRiG",
+          "gewährleistet",
+          "persönliche Unabhängigkeit"
+        ],
+        [
+          "Einsichtnahme",
+          "kann",
+          "auswirken auf Tätigkeit"
+        ],
+        [
+          "Erprobung",
+          "regelt",
+          "Richter"
+        ],
+        [
+          "Erprobung",
+          "spielt Rolle bei",
+          "Bewerbung"
+        ],
+        [
+          "Richter",
+          "erfüllen",
+          "Voraussetzungen"
+        ],
+        [
+          "Richter",
+          "hat",
+          "Rechte"
+        ],
+        [
+          "Richter",
+          "kann",
+          "Zustimmung verweigern"
+        ],
+        [
+          "Richter",
+          "kann",
+          "abgeordnet werden"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 107",
+    "ontology": {
+      "Klassen": [
+        "Arbeitnehmer",
+        "Besteller",
+        "Fertigstellungsmehrkosten",
+        "Gesellschafterin",
+        "Klageforderung",
+        "Klausel",
+        "Lohnfortzahlung",
+        "Mehraufwendungen",
+        "Mangelbeseitigung",
+        "Rechtsgrundlage",
+        "Schadensersatz",
+        "Schadensanspruch",
+        "Standzeiten",
+        "Treuepflicht",
+        "Vergütung",
+        "Verzugsschäden",
+        "Vorbehaltsurteil",
+        "Werkleistung",
+        "Werklohnanspruch",
+        "Werklohnforderung"
+      ],
+      "Eigenschaften": [
+        "Gebrauch machen",
+        "beanspruchen kann",
+        "entnehmen kann",
+        "erfüllen",
+        "erlassen kann",
+        "erlöschen",
+        "fordern kann",
+        "gilt für",
+        "herangezogen werden",
+        "tragen",
+        "unwirksam sein",
+        "verletzen"
+      ],
+      "Beziehungen": [
+        [
+          "Arbeitnehmer",
+          "beanspruchen kann",
+          "Lohnfortzahlung"
+        ],
+        [
+          "Arbeitnehmer",
+          "fordern kann",
+          "Schadensersatz"
+        ],
+        [
+          "Besteller",
+          "erlassen kann",
+          "Vorbehaltsurteil"
+        ],
+        [
+          "Gesellschafterin",
+          "entnehmen kann",
+          "Vergütung"
+        ],
+        [
+          "Gesellschafterin",
+          "verletzt",
+          "Treuepflicht"
+        ],
+        [
+          "Klausel",
+          "unwirksam sein",
+          "Standzeiten"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "gilt für",
+          "Werklohnforderung"
+        ],
+        [
+          "Verzugsschäden",
+          "herangezogen werden",
+          "Klageforderung"
+        ],
+        [
+          "Werkleistung",
+          "tragen",
+          "Verantwortung"
+        ],
+        [
+          "Werklohnanspruch",
+          "erlöschen",
+          "Mehraufwendungen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 108",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Entscheidungsgrund",
+        "Ewendung",
+        "Person",
+        "Rechtsträger",
+        "Rubrum",
+        "Tatbestand",
+        "Tenor",
+        "Urteil"
+      ],
+      "Eigenschaften": [
+        "basiert auf",
+        "beinhaltet",
+        "erörtern",
+        "verhindert"
+      ],
+      "Beziehungen": [
+        [
+          "Anspruch",
+          "basiert auf",
+          "Tatbestand"
+        ],
+        [
+          "Person",
+          "erörtern",
+          "Ewendung"
+        ],
+        [
+          "Rechtsträger",
+          "beinhaltet",
+          "Entscheidungsgrund"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 109",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Beklagte",
+        "Beweis",
+        "Entscheidung",
+        "Klausel",
+        "Partei",
+        "Verpflichteter"
+      ],
+      "Eigenschaften": [
+        "behandelt",
+        "enthält",
+        "erfüllen",
+        "geltend machen",
+        "nachweisen",
+        "verpflichtet",
+        "vertretenden",
+        "vorlegen",
+        "wirksam"
+      ],
+      "Beziehungen": [
+        [
+          "Klausel",
+          "wirksam",
+          "Beurteilung"
+        ],
+        [
+          "Partei",
+          "behandelt",
+          "Beklagte"
+        ],
+        [
+          "Partei",
+          "enthält",
+          "Klausel"
+        ],
+        [
+          "Partei",
+          "erfüllen",
+          "Bedingungen"
+        ],
+        [
+          "Partei",
+          "geltend machen",
+          "Einspruch"
+        ],
+        [
+          "Partei",
+          "nachweisen",
+          "Anspruch"
+        ],
+        [
+          "Partei",
+          "sicherstellen",
+          "Rechtskraft"
+        ],
+        [
+          "Partei",
+          "verpflichtet",
+          "Nachweis"
+        ],
+        [
+          "Partei",
+          "verpflichtet",
+          "Schaden"
+        ],
+        [
+          "Partei",
+          "vertretenden",
+          "Rechte"
+        ],
+        [
+          "Partei",
+          "vorlegen",
+          "Beweis"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 110",
+    "ontology": {
+      "Klassen": [
+        "Besteller",
+        "Haftung",
+        "Hersteller",
+        "Hinweispflicht",
+        "Mangel",
+        "Pflicht",
+        "Produkt",
+        "Recht",
+        "Unternehmer",
+        "Verantwortlichkeit"
+      ],
+      "Eigenschaften": [
+        "betrifft",
+        "betrifft nicht",
+        "einräumt",
+        "geltend machen",
+        "gilt für",
+        "haftet für",
+        "hat",
+        "verletzen",
+        "verursachen",
+        "verweigert"
+      ],
+      "Beziehungen": [
+        [
+          "Besteller",
+          "geltend machen",
+          "Recht"
+        ],
+        [
+          "Haftung",
+          "betrifft",
+          "Produkt"
+        ],
+        [
+          "Hersteller",
+          "hat",
+          "Produkt"
+        ],
+        [
+          "Hinweispflicht",
+          "gilt für",
+          "Verantwortlichkeit"
+        ],
+        [
+          "Mangel",
+          "betrifft",
+          "Verantwortlichkeit"
+        ],
+        [
+          "Pflicht",
+          "betrifft",
+          "Verantwortlichkeit"
+        ],
+        [
+          "Recht",
+          "gilt für",
+          "Mangel"
+        ],
+        [
+          "Unternehmer",
+          "verweigert",
+          "Mängelbeseitigung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 111",
+    "ontology": {
+      "Klassen": [
+        "Pflicht",
+        "Verjährungsfrist",
+        "Voraussetzung"
+      ],
+      "Eigenschaften": [
+        "anwenden",
+        "erfüllt sein",
+        "gilt"
+      ],
+      "Beziehungen": [
+        [
+          "Pflicht",
+          "anwenden",
+          "ausländisches Recht"
+        ],
+        [
+          "Verjährungsfrist",
+          "gilt",
+          "ausländisches Recht"
+        ],
+        [
+          "Voraussetzung",
+          "erfüllt sein",
+          "internationale Zuständigkeit"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 112",
+    "ontology": {
+      "Klassen": [
+        "Anordnung",
+        "Gericht",
+        "Klagefrist",
+        "Partei",
+        "Vortrag"
+      ],
+      "Eigenschaften": [
+        "betrifft",
+        "erfüllen",
+        "hat",
+        "kann",
+        "muss",
+        "wird"
+      ],
+      "Beziehungen": [
+        [
+          "Anordnung",
+          "betrifft",
+          "Klagefrist"
+        ],
+        [
+          "Gericht",
+          "hat",
+          "Aufklärungspflicht"
+        ],
+        [
+          "Gericht",
+          "kann",
+          "treffen"
+        ],
+        [
+          "Gericht",
+          "wird",
+          "ergreifen"
+        ],
+        [
+          "Partei",
+          "betrifft",
+          "Vortrag"
+        ],
+        [
+          "Partei",
+          "muss",
+          "erfüllen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 113",
+    "ontology": {
+      "Klassen": [
+        "Ausgleichsanspruch",
+        "Einmalprämie",
+        "Entschädigung",
+        "Pachtzins",
+        "Vergütungsanspruch"
+      ],
+      "Eigenschaften": [
+        "bezahlen",
+        "geschuldet",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Anstellungsvertrag",
+          "beeinflusst",
+          "Entschädigung"
+        ],
+        [
+          "Beherrschungs- und Gewinnabführungsvertrag",
+          "verpflichtet",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Verpächter",
+          "verpflichtet",
+          "Pachtzins"
+        ],
+        [
+          "Vertragsaufhebung",
+          "beeinflusst",
+          "Vergütungsanspruch"
+        ],
+        [
+          "Vertragskündigung",
+          "beeinflusst",
+          "Vergütung"
+        ],
+        [
+          "Vertragsschluss",
+          "basiert auf",
+          "Einmalprämie"
+        ],
+        [
+          "Vertragsschluss",
+          "beeinflusst",
+          "Einmalprämie"
+        ],
+        [
+          "Zahlungsantrag",
+          "führt zu",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 114",
+    "ontology": {
+      "Klassen": [
+        "Entscheidung",
+        "Leistung",
+        "Mangel",
+        "Rechtsgrundlage",
+        "Vergütung",
+        "Vertrag"
+      ],
+      "Eigenschaften": [
+        "gilt für",
+        "ist Grundlage für",
+        "ist auszulegen als",
+        "ist erforderlich für",
+        "ist zu berechnen als",
+        "ist zu berechnen bei",
+        "ist zu gestalten als",
+        "kann geltend gemacht werden wenn",
+        "spielt eine Rolle"
+      ],
+      "Beziehungen": [
+        [
+          "Entscheidung",
+          "ist erforderlich für",
+          "Vergütung"
+        ],
+        [
+          "Leistung",
+          "ist zu berechnen als",
+          "Vergütung"
+        ],
+        [
+          "Leistung",
+          "ist zu gestalten als",
+          "Abrechnung"
+        ],
+        [
+          "Mängel",
+          "ist Grundlage für",
+          "Vergütung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "ist Grundlage für",
+          "Vergütung"
+        ],
+        [
+          "Vergütung",
+          "spielt eine Rolle",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "ist auszulegen als",
+          "Mindestvergütung"
+        ],
+        [
+          "Vertrag",
+          "ist zu berechnen bei",
+          "Vergütung"
+        ],
+        [
+          "Vertrag",
+          "kann geltend gemacht werden wenn",
+          "Mindestvergütung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 115",
+    "ontology": {
+      "Klassen": [
+        "Anleger",
+        "Anzahlung",
+        "Ausgleichsanspruch",
+        "Beherrschungs- und Gewinnabführungsvertrag",
+        "Erstnachweis",
+        "Genussscheinbedingungen",
+        "Genussscheininhaber",
+        "Hauptvertrag",
+        "Kunde",
+        "Makler",
+        "Maklerprovisionsanspruch",
+        "Partnerschaftsvermittlungsvertrag",
+        "Rechtslage",
+        "Vertragserfüllung"
+      ],
+      "Eigenschaften": [
+        "abschließen",
+        "anpassen",
+        "entfallen",
+        "erfüllen",
+        "geltend machen",
+        "informieren",
+        "leisten"
+      ],
+      "Beziehungen": [
+        [
+          "Anleger",
+          "informieren",
+          "Widerrufsfrist"
+        ],
+        [
+          "Anzahlung",
+          "beinhaltet",
+          "Partnerschaftsvermittlungsvertrag"
+        ],
+        [
+          "Beherrschungs- und Gewinnabführungsvertrag",
+          "beinhaltet",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Genussscheinbedingungen",
+          "anpassen",
+          "Rechtslage"
+        ],
+        [
+          "Genussscheininhaber",
+          "erfüllen",
+          "Beherrschungs- und Gewinnabführungsvertrag"
+        ],
+        [
+          "Kunde",
+          "informieren",
+          "Anleger"
+        ],
+        [
+          "Kunde",
+          "leisten",
+          "Anzahlung"
+        ],
+        [
+          "Makler",
+          "abschließen",
+          "Hauptvertrag"
+        ],
+        [
+          "Maklerprovisionsanspruch",
+          "entfallen",
+          "Kunde"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 116",
+    "ontology": {
+      "Klassen": [
+        "Arbeitseinkommen",
+        "Frist",
+        "Gericht",
+        "Leistung",
+        "Rechtsgrundlage",
+        "Sittenwidrigkeit",
+        "Vergütung",
+        "Vergütungsregelung",
+        "Verpflichtung",
+        "Vertrag",
+        "Vertragspartei",
+        "Werkvertrag"
+      ],
+      "Eigenschaften": [
+        "bestimmen",
+        "betrifft",
+        "durchsetzen",
+        "feststellen",
+        "gilt für",
+        "verhindern",
+        "vornehmen"
+      ],
+      "Beziehungen": [
+        [
+          "Gericht",
+          "feststellen",
+          "Vergütung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "bestimmen",
+          "pfändbaren Teil des Arbeitseinkommens"
+        ],
+        [
+          "Sittenwidrigkeit",
+          "betrifft",
+          "Vergütungsvereinbarung"
+        ],
+        [
+          "Vergütungsregelung",
+          "gilt für",
+          "Werkvertrag"
+        ],
+        [
+          "Vertragspartei",
+          "durchsetzen",
+          "Werklohnforderung"
+        ],
+        [
+          "Vertragspartei",
+          "vornehmen",
+          "Erfüllung des Vertrages"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 117",
+    "ontology": {
+      "Klassen": [
+        "Arbeitnehmer",
+        "Arbeitsleistung",
+        "Arbeitsvertrag",
+        "Bauzeit",
+        "Unternehmer",
+        "Vergütung",
+        "Vergütungsanspruch",
+        "Werkvertrag"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "bestimmt",
+        "bestimmt wird",
+        "erbringt",
+        "feststellbar",
+        "liegt",
+        "spielt",
+        "verantwortlich",
+        "zuordnen"
+      ],
+      "Beziehungen": [
+        [
+          "Arbeitnehmer",
+          "erbringt",
+          "Arbeitsleistung"
+        ],
+        [
+          "Arbeitsleistung",
+          "erbringt",
+          "Arbeitnehmer"
+        ],
+        [
+          "Arbeitsvertrag",
+          "bestimmt",
+          "Vergütungsanspruch"
+        ],
+        [
+          "Bauzeit",
+          "zuordnen",
+          "Vergütung"
+        ],
+        [
+          "Unternehmer",
+          "verantwortlich",
+          "Vergütungsanspruch"
+        ],
+        [
+          "Vergütungsanspruch",
+          "beinhaltet",
+          "Nachfristsetzung"
+        ],
+        [
+          "Werkvertrag",
+          "bestimmt",
+          "Vergütung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 118",
+    "ontology": {
+      "Klassen": [
+        "Antrag",
+        "Feststellungsausspruch",
+        "Klage",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Rechtslage",
+        "Satzungsbestimmung",
+        "Streitgegenstand",
+        "Voraussetzung"
+      ],
+      "Eigenschaften": [
+        "bezieht sich auf",
+        "gilt für",
+        "hindert nicht",
+        "ist unzulässig",
+        "kann unbegründet sein",
+        "spielt eine Rolle bei",
+        "tritt ein",
+        "wird zurückgewiesen"
+      ],
+      "Beziehungen": [
+        [
+          "Antrag",
+          "wird zurückgewiesen",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Feststellungsausspruch",
+          "hindert nicht",
+          "Einwand"
+        ],
+        [
+          "Klage",
+          "kann unbegründet sein",
+          "Lebenssachverhalt"
+        ],
+        [
+          "Rechtsfolge",
+          "tritt ein",
+          "Fall"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Fall"
+        ],
+        [
+          "Rechtslage",
+          "bezieht sich auf",
+          "Rechtsverhältnis"
+        ],
+        [
+          "Satzungsbestimmung",
+          "spielt eine Rolle bei",
+          "Auslegung"
+        ],
+        [
+          "Streitgegenstand",
+          "bezieht sich auf",
+          "Rechtskraft"
+        ],
+        [
+          "Voraussetzung",
+          "ist unzulässig",
+          "Widerwiderklage"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 119",
+    "ontology": {
+      "Klassen": [
+        "Auftraggeber",
+        "Hersteller",
+        "Kaufobjekt",
+        "Kunde",
+        "Lieferant",
+        "Makler",
+        "Verkäufer",
+        "Vertragshändler"
+      ],
+      "Eigenschaften": [
+        "beeinflusst",
+        "erfüllt Verpflichtungen",
+        "fordert Provision",
+        "hat Informationspflichten",
+        "hat Marktposition",
+        "hat Pflichten",
+        "hat Verpflichtungen",
+        "informiert über"
+      ],
+      "Beziehungen": [
+        [
+          "Auftraggeber",
+          "hat Marktposition",
+          "Markt"
+        ],
+        [
+          "Makler",
+          "fordert Provision",
+          "Verkäufer"
+        ],
+        [
+          "Verkäufer",
+          "hat Pflichten",
+          "Kunde"
+        ],
+        [
+          "Verkäufer",
+          "informiert über",
+          "Kaufobjekt"
+        ],
+        [
+          "Vertragshändler",
+          "erfüllt Verpflichtungen",
+          "Hersteller"
+        ],
+        [
+          "Vertragshändler",
+          "hat Verpflichtungen",
+          "Kunde"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 120",
+    "ontology": {
+      "Klassen": [
+        "Auftragnehmer",
+        "Beherrschungs- und Gewinnabführungsvertrag",
+        "Beklagte",
+        "Besteller",
+        "Forderung",
+        "Gemeinschuldner",
+        "Genussschein",
+        "Pauschalpreisvertrag",
+        "Prognose",
+        "Umfang des entgangenen Gewinns",
+        "Weiterverkaufsvertrag",
+        "kaufrechtliche Gewährleistungsansprüche",
+        "vertraglich eingeräumtes Vertriebsrecht",
+        "wirtschaftliche Entwicklung"
+      ],
+      "Eigenschaften": [
+        "hat Pflichten",
+        "hat Rechte",
+        "ist abgelaufen",
+        "kann geschätzt werden",
+        "spielt Rolle"
+      ],
+      "Beziehungen": [
+        [
+          "Auftragnehmer",
+          "hat Rechte",
+          "bei",
+          "Abrechnung",
+          "von",
+          "vorzeitig beendeten Pauschalpreisvertrag"
+        ],
+        [
+          "Beklagter",
+          "hat",
+          "Genussschein"
+        ],
+        [
+          "Besteller",
+          "hat Pflichten",
+          "bei",
+          "Verteidigung",
+          "gegen",
+          "Forderung",
+          "im Zusammenhang mit",
+          "vorzeitig beendeten Pauschalpreisvertrag"
+        ],
+        [
+          "Gemeinschuldner",
+          "hat Rechte",
+          "wenn",
+          "Verjährungsfrist",
+          "für",
+          "kaufrechtliche Gewährleistungsansprüche",
+          "ist abgelaufen"
+        ],
+        [
+          "Genussschein",
+          "betrifft",
+          "Beherrschungs- und Gewinnabführungsvertrag"
+        ],
+        [
+          "Prognose",
+          "betrifft",
+          "wirtschaftliche Entwicklung"
+        ],
+        [
+          "Umfang des entgangenen Gewinns",
+          "kann geschätzt werden",
+          "bei",
+          "Verletzung",
+          "von",
+          "vertraglich eingeräumtes Vertriebsrecht"
+        ],
+        [
+          "Weiterverkaufsvertrag",
+          "betrifft",
+          "Zeitpunkt des Abschlusses"
+        ],
+        [
+          "Zeitpunkt des Abschlusses",
+          "betrifft",
+          "erzielten Mehrerlös"
+        ],
+        [
+          "vertraglich eingeräumtes Vertriebsrecht",
+          "betrifft",
+          "Umfang des entgangenen Gewinns"
+        ],
+        [
+          "wirtschaftliche Entwicklung",
+          "betrifft",
+          "Beklagter"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 121",
+    "ontology": {
+      "Klassen": [
+        "Abrechnung",
+        "Annahmeverzug",
+        "Kündigung",
+        "Leistung",
+        "Pauschalpreisvertrag",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Verantwortung"
+      ],
+      "Eigenschaften": [
+        "abgrenzen",
+        "beinhaltet",
+        "darlegen",
+        "entspricht",
+        "erfüllen",
+        "feststellen",
+        "gilt",
+        "gilt für",
+        "treten ein",
+        "verantwortlich",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Abrechnung",
+          "entspricht",
+          "Anforderungen"
+        ],
+        [
+          "Abrechnung",
+          "führt zu",
+          "Rechtsfolgen"
+        ],
+        [
+          "Abrechnung",
+          "wird von",
+          "Verantwortlicher"
+        ],
+        [
+          "Annahmeverzug",
+          "wird festgestellt",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Kündigung",
+          "erfordert",
+          "erfüllte Voraussetzungen"
+        ],
+        [
+          "Leistung",
+          "muss",
+          "dargelegt und abgegrenzt werden"
+        ],
+        [
+          "Pauschalpreisvertrag",
+          "beinhaltet",
+          "erbrachte Leistungen"
+        ],
+        [
+          "Pauschalpreisvertrag",
+          "wird gekündigt",
+          "Kündigung"
+        ],
+        [
+          "Pauschalpreisvertrag",
+          "wird vorzeitig beendet",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Pauschalpreisvertrag",
+          "wird vorzeitig beendet",
+          "vorzeitige Beendigung"
+        ],
+        [
+          "vorzeitige Beendigung",
+          "erfordert",
+          "erfüllte Voraussetzungen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 122",
+    "ontology": {
+      "Klassen": [
+        "Eigentümer",
+        "Empfänger",
+        "Kaufsache",
+        "Käufer",
+        "Schadensanspruch",
+        "Verkäufer",
+        "Vertrag"
+      ],
+      "Eigenschaften": [
+        "berechnen",
+        "erfüllen",
+        "feststellen",
+        "geltend machen",
+        "haftet",
+        "kennen",
+        "nichterfüllen",
+        "verschweigen"
+      ],
+      "Beziehungen": [
+        [
+          "Besteller",
+          "feststellen",
+          "Mangel"
+        ],
+        [
+          "Käufer",
+          "geltend machen",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Käufer",
+          "kennen",
+          "Mängelursache"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "berechnen",
+          "Käufer"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "geltend machen",
+          "Eigentümer"
+        ],
+        [
+          "Verkäufer",
+          "haftet",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Verkäufer",
+          "nichterfüllen",
+          "Vertrag"
+        ],
+        [
+          "Verkäufer",
+          "verschweigen",
+          "Fehler"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 123",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Beklagte",
+        "Beklagte",
+        "Geschäft",
+        "Gründungsgesellschafter",
+        "Kläger",
+        "Kläger",
+        "Rechtsgrundlage",
+        "Strohmann",
+        "Unternehmen",
+        "Vertragsverhältnis",
+        "Veränderung"
+      ],
+      "Eigenschaften": [
+        "betrachtet",
+        "gilt",
+        "hat",
+        "hat Auswirkungen",
+        "hat Kenntnis",
+        "ist verpflichtet",
+        "spielt"
+      ],
+      "Beziehungen": [
+        [
+          "Beklagte",
+          "gilt",
+          "Klägerin"
+        ],
+        [
+          "Beklagte",
+          "hat",
+          "Anspruch"
+        ],
+        [
+          "Beklagte",
+          "hat",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Beklagte",
+          "ist verpflichtet",
+          "Veränderung"
+        ],
+        [
+          "Beklagte",
+          "spielt",
+          "Vertragsverhältnis"
+        ],
+        [
+          "Kläger",
+          "betrachtet",
+          "Strohmann"
+        ],
+        [
+          "Kläger",
+          "hat Kenntnis",
+          "Geschäft"
+        ],
+        [
+          "Kläger",
+          "hat Kenntnis",
+          "Veränderung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 124",
+    "ontology": {
+      "Klassen": [
+        "Anspruch",
+        "Feststellungsbegehren",
+        "Forderung",
+        "Kenntnisnahme",
+        "Pflicht",
+        "Rechtsgrundlage",
+        "Rechtshängigkeit",
+        "Verhalten"
+      ],
+      "Eigenschaften": [
+        "beeinflusst",
+        "führt zu",
+        "gilt für",
+        "hat Bedeutung für",
+        "hätte",
+        "hätte gehabt",
+        "kann die Verjährung hemmen",
+        "kann die fachlichen Feststellungen überprüfen",
+        "kann durch"
+      ],
+      "Beziehungen": [
+        [
+          "Beklagte",
+          "hätte",
+          "Pflicht"
+        ],
+        [
+          "Beklagte",
+          "kann",
+          "Verjährung hemmen"
+        ],
+        [
+          "Gutachter",
+          "kann die fachlichen Feststellungen überprüfen",
+          "Gericht"
+        ],
+        [
+          "Kenntnis",
+          "beeinflusst",
+          "Verjährungsfrist"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt für",
+          "Anspruch"
+        ],
+        [
+          "Verhalten",
+          "hat Bedeutung für",
+          "Geltendmachung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 125",
+    "ontology": {
+      "Klassen": [
+        "Anleger",
+        "Fehler",
+        "Informationsschreiben",
+        "Irrtum",
+        "Kaufsache",
+        "Käufer",
+        "Schadensanspruch",
+        "Täuschung",
+        "Verkäufer",
+        "Veränderungssperre"
+      ],
+      "Eigenschaften": [
+        "bereitstellen",
+        "beseitigen",
+        "beweisen",
+        "informieren",
+        "kennen",
+        "schädigen",
+        "spielt eine Rolle",
+        "verantwortlich",
+        "verknüpfen",
+        "verpflichtet"
+      ],
+      "Beziehungen": [
+        [
+          "Anleger",
+          "schädigen",
+          "Täuschung"
+        ],
+        [
+          "Fehler",
+          "bereitgestellt werden",
+          "Käufer"
+        ],
+        [
+          "Fehler",
+          "kennen",
+          "Verkäufer"
+        ],
+        [
+          "Informationsschreiben",
+          "verknüpfen",
+          "Veränderungssperre"
+        ],
+        [
+          "Käufer",
+          "beweisen",
+          "Täuschung"
+        ],
+        [
+          "Käufer",
+          "informieren",
+          "Veränderungssperre"
+        ],
+        [
+          "Käufer",
+          "spielt eine Rolle bei",
+          "Täuschung"
+        ],
+        [
+          "Verkäufer",
+          "verpflichtet",
+          "Käufer"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 126",
+    "ontology": {
+      "Klassen": [
+        "Beweisantrag",
+        "Entscheidung",
+        "Fall",
+        "Gericht",
+        "Klage",
+        "Lebenssachverhalt",
+        "Prozeßförderung",
+        "Präklusionsvorschrift",
+        "Rechtskraft",
+        "Richter",
+        "Umstand",
+        "dienstaufsichtliche Maßnahmen",
+        "dienstliche Erklärungen"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "betrifft",
+        "hat"
+      ],
+      "Beziehungen": [
+        [
+          "Entscheidung",
+          "hat",
+          "Rechtskraft"
+        ],
+        [
+          "Fall",
+          "betrifft",
+          "Präklusionsvorschrift"
+        ],
+        [
+          "Gericht",
+          "hat",
+          "Prozeßförderung"
+        ],
+        [
+          "Gericht",
+          "kennt",
+          "Umstand"
+        ],
+        [
+          "Klage",
+          "betrifft",
+          "Lebenssachverhalt"
+        ],
+        [
+          "Prozeßförderung",
+          "betrifft",
+          "Beweisantrag"
+        ],
+        [
+          "Rechtskraft",
+          "betrifft",
+          "Klage"
+        ],
+        [
+          "Richter",
+          "hat",
+          "Recht"
+        ],
+        [
+          "Umstand",
+          "betrifft",
+          "Fall"
+        ],
+        [
+          "dienstliche Erklärungen",
+          "betrifft",
+          "dienstaufsichtliche Maßnahmen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 127",
+    "ontology": {
+      "Klassen": [
+        "Antrag",
+        "Entscheidung",
+        "Gericht",
+        "Interesse",
+        "Klage",
+        "Prozesshandlung",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Rechtskraft",
+        "Ursächlichkeit",
+        "Zuständigkeit"
+      ],
+      "Eigenschaften": [
+        "aufnehmen",
+        "beachten",
+        "beeinflussen",
+        "berücksichtigen",
+        "beschließen",
+        "bestimmen",
+        "betreffen",
+        "eintreten",
+        "entgegennehmen",
+        "entscheiden",
+        "erwachsen",
+        "feststellen",
+        "gilt"
+      ],
+      "Beziehungen": [
+        [
+          "Entscheidung",
+          "hat",
+          "Rechtsfolge"
+        ],
+        [
+          "Gericht",
+          "beachtet",
+          "Entscheidung"
+        ],
+        [
+          "Gericht",
+          "berücksichtigt",
+          "Interesse"
+        ],
+        [
+          "Gericht",
+          "entscheidet über",
+          "Antrag"
+        ],
+        [
+          "Gericht",
+          "entscheidet über",
+          "Klage"
+        ],
+        [
+          "Gericht",
+          "entscheidet über",
+          "Zuständigkeit"
+        ],
+        [
+          "Klage",
+          "erwirbt",
+          "Rechtskraft"
+        ],
+        [
+          "Klage",
+          "hat",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Prospektfehler",
+          "hat",
+          "Ursächlichkeit"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 128",
+    "ontology": {
+      "Klassen": [
+        "Kaufsache",
+        "Käufer",
+        "Mangel",
+        "Verkäufer"
+      ],
+      "Eigenschaften": [
+        "beheben",
+        "berechtigt",
+        "erfüllen",
+        "hat",
+        "pflichten",
+        "sicherstellen",
+        "spielen",
+        "treten",
+        "verweigern"
+      ],
+      "Beziehungen": [
+        [
+          "Grundsatz von Treu und Glauben",
+          "spielen",
+          "Käufer"
+        ],
+        [
+          "Käufer",
+          "beheben",
+          "Mangel"
+        ],
+        [
+          "Käufer",
+          "berechtigt",
+          "Abnahme"
+        ],
+        [
+          "Käufer",
+          "sicherstellen",
+          "Verzugszinsen"
+        ],
+        [
+          "Käufer",
+          "treten",
+          "Annahmeverzug"
+        ],
+        [
+          "Käufer",
+          "verweigern",
+          "mangelhafte Kaufsache"
+        ],
+        [
+          "Verkäufer",
+          "erfüllen",
+          "Pflicht zur Verschaffung"
+        ],
+        [
+          "Verkäufer",
+          "pflichten",
+          "mangelhafte Kaufsache"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 129",
+    "ontology": {
+      "Klassen": [
+        "Arglistige Täuschung",
+        "Eigentumsanwartschaftsrecht",
+        "Erbanteil",
+        "Erbengemeinschaft",
+        "Kaufrecht",
+        "Kaufsache",
+        "Kaufvertrag",
+        "Käufer",
+        "Lagerhalter",
+        "Makler",
+        "Mehrerlös",
+        "Miterbe",
+        "Mangelanspruch",
+        "Provision",
+        "Sachmangel",
+        "Sondereigentum",
+        "Verkäufer",
+        "Vorkaufsrecht",
+        "Widerrufsrecht"
+      ],
+      "Eigenschaften": [
+        "beinhaltet",
+        "definieren",
+        "gilt für",
+        "hat Auswirkungen",
+        "hat Auswirkungen auf",
+        "hat eine Bedeutung",
+        "hat eine Funktion",
+        "ist nicht vorkaufsberechtigt",
+        "kann ausüben",
+        "kann beanspruchen",
+        "kann mindern",
+        "kann verhindern",
+        "schützt",
+        "spielt eine Rolle",
+        "tritt ein",
+        "verliert",
+        "verpflichtet",
+        "wirkt sich aus"
+      ],
+      "Beziehungen": [
+        [
+          "Arglistige Täuschung",
+          "beinhaltet",
+          "Täuschung"
+        ],
+        [
+          "Erbanteil",
+          "beinhaltet",
+          "Vorkaufsrecht"
+        ],
+        [
+          "Erbengemeinschaft",
+          "beinhaltet",
+          "Vorkaufsrecht"
+        ],
+        [
+          "Kaufrecht",
+          "definiert",
+          "Sachmangel"
+        ],
+        [
+          "Kaufsache",
+          "beinhaltet",
+          "Mangel"
+        ],
+        [
+          "Kaufvertrag",
+          "kann angefochten werden",
+          "wegen arglistiger Täuschung"
+        ],
+        [
+          "Käufer",
+          "hat",
+          "Widerrufsrecht"
+        ],
+        [
+          "Lagerhalter",
+          "gilt für",
+          "Haftung"
+        ],
+        [
+          "Makler",
+          "kann beanspruchen",
+          "Provision"
+        ],
+        [
+          "Miterbe",
+          "verliert",
+          "Vorkaufsrecht"
+        ],
+        [
+          "Verkäufer",
+          "verpflichtet",
+          "Mehrerlös"
+        ]
+      ]
+    }
+  }
+]

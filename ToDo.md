@@ -36,4 +36,14 @@ Domain-Acceptance	Fachlich bestätigte Cluster ÷ Gesamt	> 80 %
 
 
 
+Ontologien verbinden
+
+Möglicherweise Klassen nochmal clustern:
+Semantic type	Examples
+Legal Role	Kläger, Beklagter, Zeuge
+Legal Concept	Vertragsauslegung, Vertragserklärung
+Legal Institution	Versicherung, Gericht
+Legal Object/Event	Mängelrüge, Vertragsleistung
+
+
 
