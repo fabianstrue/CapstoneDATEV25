@@ -1,0 +1,3557 @@
+[
+  {
+    "term_1": "Versicherter",
+    "term_2": "Versicherer",
+    "similarity": 0.9933505654335022
+  },
+  {
+    "term_1": "Gemeinschuldnerin",
+    "term_2": "Gemeinschuldner",
+    "similarity": 0.9833338856697083
+  },
+  {
+    "term_1": "Gesellschafter",
+    "term_2": "Gesellschafterin",
+    "similarity": 0.982067346572876
+  },
+  {
+    "term_1": "Mängelrüge",
+    "term_2": "Mängel",
+    "similarity": 0.9769129753112793
+  },
+  {
+    "term_1": "Drittschuldnerin",
+    "term_2": "Drittschuldner",
+    "similarity": 0.9764378070831299
+  },
+  {
+    "term_1": "Abrechnung",
+    "term_2": "Verrechnung",
+    "similarity": 0.9748086333274841
+  },
+  {
+    "term_1": "Rechnung",
+    "term_2": "Verrechnung",
+    "similarity": 0.9733046889305115
+  },
+  {
+    "term_1": "Aufrechnung",
+    "term_2": "Verrechnung",
+    "similarity": 0.9724656343460083
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Vermieterin",
+    "similarity": 0.9706593155860901
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.9674131274223328
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.9666413068771362
+  },
+  {
+    "term_1": "Käufer",
+    "term_2": "Verkäufer",
+    "similarity": 0.964266300201416
+  },
+  {
+    "term_1": "Rechnung",
+    "term_2": "Aufrechnung",
+    "similarity": 0.96384596824646
+  },
+  {
+    "term_1": "Verschuldensgrad",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.9636200070381165
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragserklärung",
+    "similarity": 0.9633750319480896
+  },
+  {
+    "term_1": "Leasinggeber",
+    "term_2": "Leasingnehmer",
+    "similarity": 0.9624592065811157
+  },
+  {
+    "term_1": "Mängelrüge",
+    "term_2": "Mängelanspruch",
+    "similarity": 0.9615679383277893
+  },
+  {
+    "term_1": "Versicherter",
+    "term_2": "Versicherung",
+    "similarity": 0.9613169431686401
+  },
+  {
+    "term_1": "Vertragsbestätigung",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.9592791199684143
+  },
+  {
+    "term_1": "Gewährleistungsanspruch",
+    "term_2": "Garantieanspruch",
+    "similarity": 0.9585602879524231
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensersatzverpflichtung",
+    "similarity": 0.9576818943023682
+  },
+  {
+    "term_1": "Entscheidung",
+    "term_2": "Entscheidungsreife",
+    "similarity": 0.95694500207901
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.956882655620575
+  },
+  {
+    "term_1": "Rechnung",
+    "term_2": "Abrechnung",
+    "similarity": 0.9566223621368408
+  },
+  {
+    "term_1": "Gewährleistung",
+    "term_2": "Gewährleistungsanspruch",
+    "similarity": 0.9558191895484924
+  },
+  {
+    "term_1": "Verletzungspflicht",
+    "term_2": "Pflichtverletzung",
+    "similarity": 0.9556493759155273
+  },
+  {
+    "term_1": "Auftraggeber",
+    "term_2": "Auftragnehmer",
+    "similarity": 0.9553877115249634
+  },
+  {
+    "term_1": "Versicherer",
+    "term_2": "Versicherung",
+    "similarity": 0.9544744491577148
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Vermieter",
+    "similarity": 0.9538628458976746
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.953124463558197
+  },
+  {
+    "term_1": "Abrechnung",
+    "term_2": "Aufrechnung",
+    "similarity": 0.9530327916145325
+  },
+  {
+    "term_1": "Gebühren",
+    "term_2": "Gebühr",
+    "similarity": 0.9515114426612854
+  },
+  {
+    "term_1": "Vertragsleistung",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.9514569640159607
+  },
+  {
+    "term_1": "Haftpflichtversicherer",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.9508079886436462
+  },
+  {
+    "term_1": "Verwaltung",
+    "term_2": "Verwaltungsakt",
+    "similarity": 0.9507204294204712
+  },
+  {
+    "term_1": "Schadensverursachung",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.950631320476532
+  },
+  {
+    "term_1": "Rechnung",
+    "term_2": "Rechnungslegung",
+    "similarity": 0.9500855207443237
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.9498280882835388
+  },
+  {
+    "term_1": "Schenker",
+    "term_2": "Schenkung",
+    "similarity": 0.9496878981590271
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.9494379758834839
+  },
+  {
+    "term_1": "Mängelansprüche",
+    "term_2": "Mängelanspruch",
+    "similarity": 0.9491746425628662
+  },
+  {
+    "term_1": "Arbeitsvertrag",
+    "term_2": "Werkvertrag",
+    "similarity": 0.9479331374168396
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtslage",
+    "similarity": 0.9470663070678711
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtslage",
+    "similarity": 0.9467344284057617
+  },
+  {
+    "term_1": "Gebrauch",
+    "term_2": "Verwendung",
+    "similarity": 0.9443866610527039
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.9439621567726135
+  },
+  {
+    "term_1": "Mitverschulden",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.9438809156417847
+  },
+  {
+    "term_1": "Mieterhöhungsverlangen",
+    "term_2": "Mieterhöhung",
+    "similarity": 0.9429119229316711
+  },
+  {
+    "term_1": "Gewährleistung",
+    "term_2": "Garantie",
+    "similarity": 0.9423278570175171
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.9413590431213379
+  },
+  {
+    "term_1": "Kunde",
+    "term_2": "Klient",
+    "similarity": 0.9413221478462219
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.9411369562149048
+  },
+  {
+    "term_1": "Mitverschulden",
+    "term_2": "Verschuldensgrad",
+    "similarity": 0.9410812854766846
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsanspruch",
+    "similarity": 0.9410572052001953
+  },
+  {
+    "term_1": "Erkrankung",
+    "term_2": "Krankheit",
+    "similarity": 0.9409329891204834
+  },
+  {
+    "term_1": "§ 339 BGB",
+    "term_2": "§ 372 BGB",
+    "similarity": 0.940484344959259
+  },
+  {
+    "term_1": "Gesellschaft",
+    "term_2": "Gesellschafter",
+    "similarity": 0.940102219581604
+  },
+  {
+    "term_1": "Vergütung",
+    "term_2": "Vergütungsanspruch",
+    "similarity": 0.9386051297187805
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.9379283785820007
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.9375842213630676
+  },
+  {
+    "term_1": "Vertragsbestätigung",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.9372183084487915
+  },
+  {
+    "term_1": "Beklagte",
+    "term_2": "Beklagter",
+    "similarity": 0.9368382096290588
+  },
+  {
+    "term_1": "Gewährleistung",
+    "term_2": "Garantieanspruch",
+    "similarity": 0.9366347789764404
+  },
+  {
+    "term_1": "Beschlussfassung",
+    "term_2": "Beschluss",
+    "similarity": 0.9362280368804932
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.9356142282485962
+  },
+  {
+    "term_1": "Beweis",
+    "term_2": "Beweislast",
+    "similarity": 0.9353026151657104
+  },
+  {
+    "term_1": "Rechnungslegung",
+    "term_2": "Verrechnung",
+    "similarity": 0.9344375133514404
+  },
+  {
+    "term_1": "Rückgabe",
+    "term_2": "Rückgabeklausel",
+    "similarity": 0.9332809448242188
+  },
+  {
+    "term_1": "Feststellungsausspruch",
+    "term_2": "Feststellungsbegehren",
+    "similarity": 0.932604193687439
+  },
+  {
+    "term_1": "Eigentümer",
+    "term_2": "Inhaber",
+    "similarity": 0.9314637184143066
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.9312373399734497
+  },
+  {
+    "term_1": "Versicherer",
+    "term_2": "Versicherungsnehmer",
+    "similarity": 0.9311879873275757
+  },
+  {
+    "term_1": "Garantie",
+    "term_2": "Garantieanspruch",
+    "similarity": 0.9308029413223267
+  },
+  {
+    "term_1": "Mängel",
+    "term_2": "Mängelanspruch",
+    "similarity": 0.9305017590522766
+  },
+  {
+    "term_1": "Verwaltungsrat",
+    "term_2": "Verwaltungsakt",
+    "similarity": 0.9295727014541626
+  },
+  {
+    "term_1": "Versicherter",
+    "term_2": "Versicherungsnehmer",
+    "similarity": 0.9295487403869629
+  },
+  {
+    "term_1": "Verschuldensfeststellung",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.9293013215065002
+  },
+  {
+    "term_1": "Beweislast",
+    "term_2": "Beweisantrag",
+    "similarity": 0.9284635782241821
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "Kündigungsklausel",
+    "similarity": 0.927839457988739
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Versicherungsfall",
+    "similarity": 0.927300214767456
+  },
+  {
+    "term_1": "Kläger",
+    "term_2": "Klägerin",
+    "similarity": 0.9272064566612244
+  },
+  {
+    "term_1": "Arbeitgeber",
+    "term_2": "Arbeitnehmer",
+    "similarity": 0.9265768527984619
+  },
+  {
+    "term_1": "Gesellschaft",
+    "term_2": "Gesellschafterin",
+    "similarity": 0.925859808921814
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Versicherung",
+    "similarity": 0.9255596995353699
+  },
+  {
+    "term_1": "Prüfung",
+    "term_2": "Prüfungsantrag",
+    "similarity": 0.9254929423332214
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "Kündigungserklärung",
+    "similarity": 0.9247787594795227
+  },
+  {
+    "term_1": "AGB",
+    "term_2": "AGB-Gesetz",
+    "similarity": 0.9246106743812561
+  },
+  {
+    "term_1": "Verordnung",
+    "term_2": "Regelung",
+    "similarity": 0.9238451719284058
+  },
+  {
+    "term_1": "Versicherter",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.9229040741920471
+  },
+  {
+    "term_1": "Reise",
+    "term_2": "Reisender",
+    "similarity": 0.9228833317756653
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.9228832721710205
+  },
+  {
+    "term_1": "Versicherer",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.9211680293083191
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtsstreit",
+    "similarity": 0.9211556911468506
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Versicherungsleistung",
+    "similarity": 0.920804500579834
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "Kündigungsklausel",
+    "similarity": 0.9205367565155029
+  },
+  {
+    "term_1": "Verwaltungsanteil",
+    "term_2": "Verwaltungsakt",
+    "similarity": 0.9200229048728943
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Miete",
+    "similarity": 0.9197046160697937
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.9188503623008728
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.9162366390228271
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "Kündigungsgrund",
+    "similarity": 0.9156773090362549
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Miete",
+    "similarity": 0.915410041809082
+  },
+  {
+    "term_1": "Kaufrecht",
+    "term_2": "Vorkaufsrecht",
+    "similarity": 0.9151294231414795
+  },
+  {
+    "term_1": "Rechtsposition",
+    "term_2": "Rechtslage",
+    "similarity": 0.9148433208465576
+  },
+  {
+    "term_1": "Klageschrift",
+    "term_2": "Klage",
+    "similarity": 0.9143671989440918
+  },
+  {
+    "term_1": "Rechtsmittel",
+    "term_2": "Rechtslage",
+    "similarity": 0.9137721061706543
+  },
+  {
+    "term_1": "Mietvertrag",
+    "term_2": "Leasingvertrag",
+    "similarity": 0.913590669631958
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Vermieterin",
+    "similarity": 0.9125944972038269
+  },
+  {
+    "term_1": "Schadensersatzverpflichtung",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.9124971032142639
+  },
+  {
+    "term_1": "Entscheidungsgrund",
+    "term_2": "Entscheidungsreife",
+    "similarity": 0.9123743772506714
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Schadensabrechnung",
+    "similarity": 0.9118450880050659
+  },
+  {
+    "term_1": "Abrechnung",
+    "term_2": "Rechnungslegung",
+    "similarity": 0.9115796089172363
+  },
+  {
+    "term_1": "Versicherungsmaklerpflicht",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.9113810658454895
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Miete",
+    "similarity": 0.9113484621047974
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensersatzleistung",
+    "similarity": 0.9110479354858398
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsstreit",
+    "similarity": 0.910576581954956
+  },
+  {
+    "term_1": "Schenkung",
+    "term_2": "Schenkungswiderruf",
+    "similarity": 0.9081730246543884
+  },
+  {
+    "term_1": "Mängelansprüche",
+    "term_2": "Mängelrüge",
+    "similarity": 0.907891035079956
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtslage",
+    "similarity": 0.9077644944190979
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.9077203869819641
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensersatzpflicht",
+    "similarity": 0.9074792861938477
+  },
+  {
+    "term_1": "Beweis",
+    "term_2": "Beweisantrag",
+    "similarity": 0.9071028828620911
+  },
+  {
+    "term_1": "Rechtsinteresse",
+    "term_2": "RechtlichesInteresse",
+    "similarity": 0.9069609642028809
+  },
+  {
+    "term_1": "Klage",
+    "term_2": "Klageerhebung",
+    "similarity": 0.9069322347640991
+  },
+  {
+    "term_1": "Werklohnanspruch",
+    "term_2": "Werklohnforderung",
+    "similarity": 0.9069088101387024
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.9062172770500183
+  },
+  {
+    "term_1": "Verantwortung",
+    "term_2": "Verantwortlichkeit",
+    "similarity": 0.9061567187309265
+  },
+  {
+    "term_1": "Entscheidung",
+    "term_2": "Entscheidungsgrund",
+    "similarity": 0.9059407711029053
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsfolgen",
+    "similarity": 0.9057945013046265
+  },
+  {
+    "term_1": "Eigentümer",
+    "term_2": "Eigentum",
+    "similarity": 0.9056605696678162
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Geschädigter",
+    "similarity": 0.905648946762085
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.9056230783462524
+  },
+  {
+    "term_1": "Mangel",
+    "term_2": "Sachmangel",
+    "similarity": 0.9053896069526672
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.9046326279640198
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "Kündigungsausschluss",
+    "similarity": 0.9038788676261902
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.9035885334014893
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Haftungsausschluss",
+    "similarity": 0.902777910232544
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Haftung",
+    "similarity": 0.9026585221290588
+  },
+  {
+    "term_1": "Rechtsfolgen",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.9023253917694092
+  },
+  {
+    "term_1": "Verpflichtung",
+    "term_2": "Verpflichteter",
+    "similarity": 0.9020448327064514
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "Kündigungserklärung",
+    "similarity": 0.9018315076828003
+  },
+  {
+    "term_1": "Rechnungslegung",
+    "term_2": "Aufrechnung",
+    "similarity": 0.9018040895462036
+  },
+  {
+    "term_1": "Mietverhältnis",
+    "term_2": "Untermietverhältnis",
+    "similarity": 0.9017103910446167
+  },
+  {
+    "term_1": "Klage",
+    "term_2": "Klageforderung",
+    "similarity": 0.9011793732643127
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.9009150266647339
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.9006211757659912
+  },
+  {
+    "term_1": "Kosten",
+    "term_2": "Kostenangabe",
+    "similarity": 0.9005992412567139
+  },
+  {
+    "term_1": "Geschäftsführervergütung",
+    "term_2": "Geschäftsführer",
+    "similarity": 0.9004035592079163
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Schadensersatzleistung",
+    "similarity": 0.9000171422958374
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mieter",
+    "similarity": 0.8997325897216797
+  },
+  {
+    "term_1": "Leistung",
+    "term_2": "Leistungsantrag",
+    "similarity": 0.8987488150596619
+  },
+  {
+    "term_1": "Mitarbeiter",
+    "term_2": "Arbeitnehmer",
+    "similarity": 0.8984465003013611
+  },
+  {
+    "term_1": "Klage",
+    "term_2": "Beklagte",
+    "similarity": 0.8982992172241211
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensabrechnung",
+    "similarity": 0.8982933163642883
+  },
+  {
+    "term_1": "Verschuldensfeststellung",
+    "term_2": "Verschuldensgrad",
+    "similarity": 0.898267924785614
+  },
+  {
+    "term_1": "Pflicht",
+    "term_2": "Verpflichteter",
+    "similarity": 0.8982239365577698
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.8980494141578674
+  },
+  {
+    "term_1": "Bautenstand",
+    "term_2": "Bauvorhaben",
+    "similarity": 0.897641122341156
+  },
+  {
+    "term_1": "Haftungsvorschrift",
+    "term_2": "Haftungsquote",
+    "similarity": 0.8965966105461121
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Haftungsquote",
+    "similarity": 0.896018922328949
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Schadensersatz",
+    "similarity": 0.8958173990249634
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8952620029449463
+  },
+  {
+    "term_1": "Handelsgeschäft",
+    "term_2": "Geschäft",
+    "similarity": 0.8950198888778687
+  },
+  {
+    "term_1": "Geschäftsunfähigkeit",
+    "term_2": "Geschäftsfähigkeit",
+    "similarity": 0.8947651386260986
+  },
+  {
+    "term_1": "Versicherungsfall",
+    "term_2": "Versicherungsleistung",
+    "similarity": 0.8947303891181946
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "Kündigungsgrund",
+    "similarity": 0.8946174383163452
+  },
+  {
+    "term_1": "Schadensersatzverpflichtung",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.8945261240005493
+  },
+  {
+    "term_1": "Vertragspflicht",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8944759368896484
+  },
+  {
+    "term_1": "Verschuldenshaftung",
+    "term_2": "Insolvenzverfahren",
+    "similarity": 0.8943808674812317
+  },
+  {
+    "term_1": "Versicherungsleistung",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.89409339427948
+  },
+  {
+    "term_1": "Versicherungsmaklerpflicht",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.8935935497283936
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8933122158050537
+  },
+  {
+    "term_1": "Verantwortlichkeit",
+    "term_2": "Fahrlässigkeit",
+    "similarity": 0.8929567933082581
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtsposition",
+    "similarity": 0.8928544521331787
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragspflicht",
+    "similarity": 0.892505407333374
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8920695185661316
+  },
+  {
+    "term_1": "Rückzahlungsanspruch",
+    "term_2": "Rückvergütung",
+    "similarity": 0.8920092582702637
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8916270732879639
+  },
+  {
+    "term_1": "Heilbehandlung",
+    "term_2": "Heilung",
+    "similarity": 0.8914576172828674
+  },
+  {
+    "term_1": "Mietgegenstand",
+    "term_2": "Miete",
+    "similarity": 0.891059160232544
+  },
+  {
+    "term_1": "Mietzahlung",
+    "term_2": "Miete",
+    "similarity": 0.8910447955131531
+  },
+  {
+    "term_1": "Schadensverursachung",
+    "term_2": "Verzugsschäden",
+    "similarity": 0.8908624649047852
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.8907477259635925
+  },
+  {
+    "term_1": "Einstandspflicht",
+    "term_2": "Verpflichteter",
+    "similarity": 0.8903949856758118
+  },
+  {
+    "term_1": "Vertragsbestätigung",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8901987075805664
+  },
+  {
+    "term_1": "Verwendung",
+    "term_2": "Nutzungen",
+    "similarity": 0.8899160027503967
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Versicherungsleistung",
+    "similarity": 0.8896045088768005
+  },
+  {
+    "term_1": "Kündigungserklärung",
+    "term_2": "Kündigungsgrund",
+    "similarity": 0.8890825510025024
+  },
+  {
+    "term_1": "Gesundheitsbeeinträchtigung",
+    "term_2": "Gesundheitsschaden",
+    "similarity": 0.8886510133743286
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherter",
+    "similarity": 0.8885772228240967
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.8885071277618408
+  },
+  {
+    "term_1": "Folgeschäden",
+    "term_2": "Verzugsschäden",
+    "similarity": 0.888306200504303
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensersatzverpflichtung",
+    "similarity": 0.8881401419639587
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8881333470344543
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Fernabsatzvertrag",
+    "similarity": 0.8875393867492676
+  },
+  {
+    "term_1": "Vertragspflicht",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.887168824672699
+  },
+  {
+    "term_1": "Schadensersatzleistung",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.8869749903678894
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Wohnung",
+    "similarity": 0.8869516253471375
+  },
+  {
+    "term_1": "Einlageverbindlichkeit",
+    "term_2": "Verbindlichkeit",
+    "similarity": 0.8868021368980408
+  },
+  {
+    "term_1": "Vermieterin",
+    "term_2": "Miete",
+    "similarity": 0.886253297328949
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragsauslegung",
+    "similarity": 0.886193573474884
+  },
+  {
+    "term_1": "Gefälligkeit",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.8861369490623474
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsposition",
+    "similarity": 0.886054515838623
+  },
+  {
+    "term_1": "Mängelansprüche",
+    "term_2": "Mängel",
+    "similarity": 0.8859536051750183
+  },
+  {
+    "term_1": "Baulichkeit",
+    "term_2": "Beschaffenheit",
+    "similarity": 0.8852792978286743
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.885053277015686
+  },
+  {
+    "term_1": "Kündigungsklausel",
+    "term_2": "Kündigungsgrund",
+    "similarity": 0.8850347995758057
+  },
+  {
+    "term_1": "Bauausführung",
+    "term_2": "Bauvorhaben",
+    "similarity": 0.884574294090271
+  },
+  {
+    "term_1": "Versicherungsmakler",
+    "term_2": "Versicherungsmaklerpflicht",
+    "similarity": 0.8845409154891968
+  },
+  {
+    "term_1": "Kündigungserklärung",
+    "term_2": "Kündigungsklausel",
+    "similarity": 0.8845095038414001
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Schadensabrechnung",
+    "similarity": 0.8844690918922424
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8844457864761353
+  },
+  {
+    "term_1": "Genehmigung",
+    "term_2": "Genehmigungsbedürftigkeit",
+    "similarity": 0.8841256499290466
+  },
+  {
+    "term_1": "Geschädigter",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.8841192722320557
+  },
+  {
+    "term_1": "Eigentum",
+    "term_2": "Eigentumsübertragung",
+    "similarity": 0.8841061592102051
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Haftungsvorschrift",
+    "similarity": 0.8840643763542175
+  },
+  {
+    "term_1": "Werk",
+    "term_2": "Werkleistung",
+    "similarity": 0.8835225701332092
+  },
+  {
+    "term_1": "Mängelrüge",
+    "term_2": "Mängelbeseitigung",
+    "similarity": 0.8830480575561523
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8829247951507568
+  },
+  {
+    "term_1": "Klageerhebung",
+    "term_2": "Klageforderung",
+    "similarity": 0.8823217749595642
+  },
+  {
+    "term_1": "Sachverständigengutachten",
+    "term_2": "Sachverständigenkosten",
+    "similarity": 0.8821105360984802
+  },
+  {
+    "term_1": "Versicherungsfall",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.8820326924324036
+  },
+  {
+    "term_1": "Vertragspflicht",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8817936778068542
+  },
+  {
+    "term_1": "Gefälligkeit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.8816550374031067
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Versicherungsfall",
+    "similarity": 0.8807215094566345
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Vermieter",
+    "similarity": 0.8806034326553345
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsposition",
+    "similarity": 0.8800615668296814
+  },
+  {
+    "term_1": "Verhandlung",
+    "term_2": "Mündliche Verhandlung",
+    "similarity": 0.8797242641448975
+  },
+  {
+    "term_1": "Mietzins",
+    "term_2": "Mietzinsanspruch",
+    "similarity": 0.8795806765556335
+  },
+  {
+    "term_1": "Verwaltung",
+    "term_2": "Verwaltungsanteil",
+    "similarity": 0.8793236613273621
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragserklärung",
+    "similarity": 0.8791782259941101
+  },
+  {
+    "term_1": "Mietzins",
+    "term_2": "Vermieterin",
+    "similarity": 0.8791658878326416
+  },
+  {
+    "term_1": "Mietzinsanspruch",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8788923025131226
+  },
+  {
+    "term_1": "Verwaltung",
+    "term_2": "Verwaltungsrat",
+    "similarity": 0.8782223463058472
+  },
+  {
+    "term_1": "Haftungsvorschrift",
+    "term_2": "Verjährungsvorschrift",
+    "similarity": 0.8778672218322754
+  },
+  {
+    "term_1": "Klageschrift",
+    "term_2": "Klageerhebung",
+    "similarity": 0.8775596022605896
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtslage",
+    "similarity": 0.8774986863136292
+  },
+  {
+    "term_1": "Haftungsvorschrift",
+    "term_2": "Haftungsausschluss",
+    "similarity": 0.8771330118179321
+  },
+  {
+    "term_1": "fristlose Kündigung",
+    "term_2": "ordentliche Kündigung",
+    "similarity": 0.8766471147537231
+  },
+  {
+    "term_1": "Beschluss",
+    "term_2": "Entscheidung",
+    "similarity": 0.876460075378418
+  },
+  {
+    "term_1": "Versicherter",
+    "term_2": "Versicherungsleistung",
+    "similarity": 0.8763507604598999
+  },
+  {
+    "term_1": "Gebrauch",
+    "term_2": "Nutzungen",
+    "similarity": 0.8759112358093262
+  },
+  {
+    "term_1": "Schadensminderungspflicht",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.875589907169342
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Vermieterin",
+    "similarity": 0.875423789024353
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherung",
+    "similarity": 0.8752193450927734
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Geschädigter",
+    "similarity": 0.8743239045143127
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Schadensersatzanspruch",
+    "similarity": 0.8742572665214539
+  },
+  {
+    "term_1": "Rechtsfolgen",
+    "term_2": "Rechtslage",
+    "similarity": 0.8737208247184753
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8736766576766968
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Mietzins",
+    "similarity": 0.873344898223877
+  },
+  {
+    "term_1": "Pachtvertrag",
+    "term_2": "Pachtvertragsregelung",
+    "similarity": 0.8725630640983582
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8723024129867554
+  },
+  {
+    "term_1": "Werkleistung",
+    "term_2": "Arbeitsleistung",
+    "similarity": 0.8722999095916748
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsprechung",
+    "similarity": 0.8717843890190125
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "ordentliche Kündigung",
+    "similarity": 0.8716387152671814
+  },
+  {
+    "term_1": "Verbindlichkeit",
+    "term_2": "Zulässigkeit",
+    "similarity": 0.871230959892273
+  },
+  {
+    "term_1": "Schuldner",
+    "term_2": "Gemeinschuldner",
+    "similarity": 0.871050238609314
+  },
+  {
+    "term_1": "Verzollung",
+    "term_2": "Auflassung",
+    "similarity": 0.8706542253494263
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Vertragserklärung",
+    "similarity": 0.8705952167510986
+  },
+  {
+    "term_1": "Mietzins",
+    "term_2": "Miete",
+    "similarity": 0.8705911636352539
+  },
+  {
+    "term_1": "Sittenwidrigkeit",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.8703191876411438
+  },
+  {
+    "term_1": "Abfindung",
+    "term_2": "Abfindungsklausel",
+    "similarity": 0.8702681660652161
+  },
+  {
+    "term_1": "Schadensersatzleistung",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.8698040246963501
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsanspruch",
+    "similarity": 0.869599461555481
+  },
+  {
+    "term_1": "Werklohnforderung",
+    "term_2": "Arbeitseinkommen",
+    "similarity": 0.8695058226585388
+  },
+  {
+    "term_1": "Kündigungsklausel",
+    "term_2": "fristlose Kündigung",
+    "similarity": 0.8689373135566711
+  },
+  {
+    "term_1": "Interessenlage",
+    "term_2": "Interesse",
+    "similarity": 0.8689199686050415
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.8688716888427734
+  },
+  {
+    "term_1": "Recht",
+    "term_2": "Rechte",
+    "similarity": 0.8686378002166748
+  },
+  {
+    "term_1": "Obliegenheit",
+    "term_2": "Gefälligkeit",
+    "similarity": 0.8686106204986572
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8684728145599365
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Verpflichteter",
+    "similarity": 0.8682572245597839
+  },
+  {
+    "term_1": "Beschluss",
+    "term_2": "Entscheidungsreife",
+    "similarity": 0.8680561184883118
+  },
+  {
+    "term_1": "Mängelbeseitigung",
+    "term_2": "Mängelanspruch",
+    "similarity": 0.8677539229393005
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherer",
+    "similarity": 0.8676234483718872
+  },
+  {
+    "term_1": "Gewährleistungsanspruch",
+    "term_2": "Garantie",
+    "similarity": 0.8673167824745178
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "fristlose Kündigung",
+    "similarity": 0.8672218322753906
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Pachtvertrag",
+    "similarity": 0.867033839225769
+  },
+  {
+    "term_1": "Verschuldensgrad",
+    "term_2": "Insolvenzverfahren",
+    "similarity": 0.8670184016227722
+  },
+  {
+    "term_1": "Versicherungsleistung",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.8667190670967102
+  },
+  {
+    "term_1": "außerordentliche Kündigung",
+    "term_2": "ordentliche Kündigung",
+    "similarity": 0.8666309118270874
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Vertragspflicht",
+    "similarity": 0.8666003942489624
+  },
+  {
+    "term_1": "Folgeschäden",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.8663685917854309
+  },
+  {
+    "term_1": "Versicherter",
+    "term_2": "Versicherungsfall",
+    "similarity": 0.8660938739776611
+  },
+  {
+    "term_1": "Verwaltungsanteil",
+    "term_2": "Verwaltungsrat",
+    "similarity": 0.8660326600074768
+  },
+  {
+    "term_1": "Rechtslage",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8658333420753479
+  },
+  {
+    "term_1": "Verwendung",
+    "term_2": "Ewendung",
+    "similarity": 0.8651295304298401
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Mietzins",
+    "similarity": 0.8648387789726257
+  },
+  {
+    "term_1": "Schadensersatzanspruch",
+    "term_2": "Schadensersatzrecht",
+    "similarity": 0.8647577166557312
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.8647304177284241
+  },
+  {
+    "term_1": "Mitverschulden",
+    "term_2": "Insolvenzverfahren",
+    "similarity": 0.8642987608909607
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8635743260383606
+  },
+  {
+    "term_1": "Erwerbstätigkeit",
+    "term_2": "Arbeitsleistung",
+    "similarity": 0.86343914270401
+  },
+  {
+    "term_1": "Klageschrift",
+    "term_2": "Klageforderung",
+    "similarity": 0.8633343577384949
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.8631514310836792
+  },
+  {
+    "term_1": "Gläubiger",
+    "term_2": "Darlehensnehmer",
+    "similarity": 0.8630994558334351
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.8630800843238831
+  },
+  {
+    "term_1": "Klage",
+    "term_2": "Beklagter",
+    "similarity": 0.8628033995628357
+  },
+  {
+    "term_1": "Mietgegenstand",
+    "term_2": "Vermieterin",
+    "similarity": 0.8627930879592896
+  },
+  {
+    "term_1": "Kündigung",
+    "term_2": "Kündigungsrecht",
+    "similarity": 0.8622793555259705
+  },
+  {
+    "term_1": "Auftragserteilung",
+    "term_2": "Auftrag",
+    "similarity": 0.8621294498443604
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8619428873062134
+  },
+  {
+    "term_1": "Schadensersatzleistung",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.8614997863769531
+  },
+  {
+    "term_1": "Versicherer",
+    "term_2": "Versicherungsleistung",
+    "similarity": 0.8612059950828552
+  },
+  {
+    "term_1": "Widerrufsbelehrung",
+    "term_2": "Widerklage",
+    "similarity": 0.8611130714416504
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Haftung",
+    "similarity": 0.8608913421630859
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.860837996006012
+  },
+  {
+    "term_1": "Mitverschulden",
+    "term_2": "Schuldner",
+    "similarity": 0.8602298498153687
+  },
+  {
+    "term_1": "Rechtsgrundlage",
+    "term_2": "Rechtslage",
+    "similarity": 0.8601088523864746
+  },
+  {
+    "term_1": "Versicherungsmakler",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.859850287437439
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "fristlose Kündigung",
+    "similarity": 0.8597668409347534
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "Kündigungsrecht",
+    "similarity": 0.8594910502433777
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.8586780428886414
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8586302399635315
+  },
+  {
+    "term_1": "Geschädigter",
+    "term_2": "Folgeschäden",
+    "similarity": 0.8583463430404663
+  },
+  {
+    "term_1": "Versicherer",
+    "term_2": "Versicherungsfall",
+    "similarity": 0.8578599691390991
+  },
+  {
+    "term_1": "Mietzinsanspruch",
+    "term_2": "Mietzahlung",
+    "similarity": 0.8577250242233276
+  },
+  {
+    "term_1": "Schadensverursachung",
+    "term_2": "Folgeschäden",
+    "similarity": 0.8576885461807251
+  },
+  {
+    "term_1": "Anspruchsbegründung",
+    "term_2": "Anspruchsunterwerfung",
+    "similarity": 0.8576348423957825
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsstreit",
+    "similarity": 0.8575823307037354
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherungsnehmer",
+    "similarity": 0.8575634360313416
+  },
+  {
+    "term_1": "Pachtvertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8569961190223694
+  },
+  {
+    "term_1": "Beweisverfahren",
+    "term_2": "Beweisantrag",
+    "similarity": 0.8568198680877686
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.8568063974380493
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.8565804362297058
+  },
+  {
+    "term_1": "Klageerhebung",
+    "term_2": "Beklagte",
+    "similarity": 0.8562856912612915
+  },
+  {
+    "term_1": "Richter",
+    "term_2": "Richteramt",
+    "similarity": 0.8562749624252319
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mietzinsanspruch",
+    "similarity": 0.8560551404953003
+  },
+  {
+    "term_1": "Vertragspflicht",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.8557935953140259
+  },
+  {
+    "term_1": "Verpflichtung",
+    "term_2": "Pflicht",
+    "similarity": 0.8557101488113403
+  },
+  {
+    "term_1": "Bauruine",
+    "term_2": "Bauvorhaben",
+    "similarity": 0.8556697964668274
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Verzugsschäden",
+    "similarity": 0.8555678129196167
+  },
+  {
+    "term_1": "Auflassung",
+    "term_2": "Geltendmachung",
+    "similarity": 0.8552504777908325
+  },
+  {
+    "term_1": "Rechtsposition",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8552225232124329
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Folgeschäden",
+    "similarity": 0.8548833727836609
+  },
+  {
+    "term_1": "Verschuldensfeststellung",
+    "term_2": "Insolvenzverfahren",
+    "similarity": 0.8547136783599854
+  },
+  {
+    "term_1": "Schenker",
+    "term_2": "Schenkungswiderruf",
+    "similarity": 0.8545825481414795
+  },
+  {
+    "term_1": "Verständlichkeit",
+    "term_2": "Zulässigkeit",
+    "similarity": 0.8545418381690979
+  },
+  {
+    "term_1": "Gesellschafterin",
+    "term_2": "Unternehmen",
+    "similarity": 0.8544628620147705
+  },
+  {
+    "term_1": "Mitverschulden",
+    "term_2": "Verschuldensfeststellung",
+    "similarity": 0.8544579148292542
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherungsleistung",
+    "similarity": 0.854188859462738
+  },
+  {
+    "term_1": "Auflassung",
+    "term_2": "Deckungszusage",
+    "similarity": 0.8541040420532227
+  },
+  {
+    "term_1": "Verkäufer",
+    "term_2": "Verkauf",
+    "similarity": 0.8538320064544678
+  },
+  {
+    "term_1": "Kündigungsklausel",
+    "term_2": "ordentliche Kündigung",
+    "similarity": 0.8536914587020874
+  },
+  {
+    "term_1": "Mietgegenstand",
+    "term_2": "Untermietverhältnis",
+    "similarity": 0.8534662127494812
+  },
+  {
+    "term_1": "Haftungsausschluss",
+    "term_2": "Haftungsquote",
+    "similarity": 0.8533546924591064
+  },
+  {
+    "term_1": "Gesellschaftsvertrag",
+    "term_2": "Personengesellschaftsvertrag",
+    "similarity": 0.853335440158844
+  },
+  {
+    "term_1": "Patent",
+    "term_2": "Patentnichtigkeitsklage",
+    "similarity": 0.8533324003219604
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Mietzinsanspruch",
+    "similarity": 0.8532361388206482
+  },
+  {
+    "term_1": "Geschädigter",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.8532199263572693
+  },
+  {
+    "term_1": "Schadensanspruch",
+    "term_2": "Verzugsschäden",
+    "similarity": 0.8530216813087463
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Versicherungsmaklerpflicht",
+    "similarity": 0.85298752784729
+  },
+  {
+    "term_1": "Gewährleistungsanspruch",
+    "term_2": "kaufrechtliche Gewährleistungsansprüche",
+    "similarity": 0.8529670238494873
+  },
+  {
+    "term_1": "Kündigungsschutzgesetz",
+    "term_2": "Kündigungsrecht",
+    "similarity": 0.8529424071311951
+  },
+  {
+    "term_1": "Rechtsfolgen",
+    "term_2": "Rechtsanspruch",
+    "similarity": 0.8528707027435303
+  },
+  {
+    "term_1": "Krankenversicherung",
+    "term_2": "Versicherungsfall",
+    "similarity": 0.8527880907058716
+  },
+  {
+    "term_1": "außerordentliche Kündigung",
+    "term_2": "fristlose Kündigung",
+    "similarity": 0.8524996042251587
+  },
+  {
+    "term_1": "Kündigungsklausel",
+    "term_2": "Hinauskündigungsklausel",
+    "similarity": 0.8524775505065918
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Folgeschäden",
+    "similarity": 0.852272093296051
+  },
+  {
+    "term_1": "Lohnfortzahlung",
+    "term_2": "Werklohnforderung",
+    "similarity": 0.8522432446479797
+  },
+  {
+    "term_1": "Anteilsübertragung",
+    "term_2": "Überschussverteilung",
+    "similarity": 0.8521714806556702
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.8519408702850342
+  },
+  {
+    "term_1": "Pflicht",
+    "term_2": "Einstandspflicht",
+    "similarity": 0.8518931865692139
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Schadensersatzleistung",
+    "similarity": 0.8518723249435425
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mietzins",
+    "similarity": 0.8515068292617798
+  },
+  {
+    "term_1": "Haftung",
+    "term_2": "Haftungsquote",
+    "similarity": 0.8512454628944397
+  },
+  {
+    "term_1": "Schenkungswiderruf",
+    "term_2": "Schenkungserklärung",
+    "similarity": 0.8510332703590393
+  },
+  {
+    "term_1": "Mangelbeseitigung",
+    "term_2": "Mängelbeseitigung",
+    "similarity": 0.8509085178375244
+  },
+  {
+    "term_1": "Kündigungserklärung",
+    "term_2": "Kündigungsrecht",
+    "similarity": 0.8509052395820618
+  },
+  {
+    "term_1": "Verständlichkeit",
+    "term_2": "Verbindlichkeit",
+    "similarity": 0.8506398797035217
+  },
+  {
+    "term_1": "Versicherungsleistung",
+    "term_2": "Versicherungsmaklerpflicht",
+    "similarity": 0.8506160378456116
+  },
+  {
+    "term_1": "Verletzungspflicht",
+    "term_2": "Schadensersatzpflicht",
+    "similarity": 0.8504642248153687
+  },
+  {
+    "term_1": "Klage",
+    "term_2": "Klagefrist",
+    "similarity": 0.8495283126831055
+  },
+  {
+    "term_1": "Käufer",
+    "term_2": "Verkauf",
+    "similarity": 0.8493042588233948
+  },
+  {
+    "term_1": "Versicherungsnehmer",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.8492093086242676
+  },
+  {
+    "term_1": "Bank",
+    "term_2": "Bankanweisung",
+    "similarity": 0.8486606478691101
+  },
+  {
+    "term_1": "Rechtsfolgen",
+    "term_2": "Rechtsposition",
+    "similarity": 0.8482983112335205
+  },
+  {
+    "term_1": "Schadensverursachung",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8482641577720642
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Vertragsverhältnis",
+    "similarity": 0.8481906056404114
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtshängigkeit",
+    "similarity": 0.8480291366577148
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragspflicht",
+    "similarity": 0.8479949831962585
+  },
+  {
+    "term_1": "Herausgabeanspruch",
+    "term_2": "Herausgabe",
+    "similarity": 0.8479301929473877
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Geschädigter",
+    "similarity": 0.8477751612663269
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Pflichtverletzung",
+    "similarity": 0.847637951374054
+  },
+  {
+    "term_1": "Arglistige Täuschung",
+    "term_2": "Täuschung",
+    "similarity": 0.847581148147583
+  },
+  {
+    "term_1": "Mietzahlung",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8470558524131775
+  },
+  {
+    "term_1": "Vergleich",
+    "term_2": "Vergleichsgrundlage",
+    "similarity": 0.8469306826591492
+  },
+  {
+    "term_1": "Prozessrecht",
+    "term_2": "Prozesshandlung",
+    "similarity": 0.846446692943573
+  },
+  {
+    "term_1": "Rechtsfolgen",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8462002873420715
+  },
+  {
+    "term_1": "Arbeitgeber",
+    "term_2": "Mitarbeiter",
+    "similarity": 0.846181333065033
+  },
+  {
+    "term_1": "Versorgungsanspruch",
+    "term_2": "Versorgungsempfängerin",
+    "similarity": 0.8453349471092224
+  },
+  {
+    "term_1": "Verjährungsvorschrift",
+    "term_2": "Präklusionsvorschrift",
+    "similarity": 0.8449919819831848
+  },
+  {
+    "term_1": "Versicherungsfall",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.8448373675346375
+  },
+  {
+    "term_1": "Klageschrift",
+    "term_2": "Klagefrist",
+    "similarity": 0.8448127508163452
+  },
+  {
+    "term_1": "Klageerhebung",
+    "term_2": "Beklagter",
+    "similarity": 0.8447324633598328
+  },
+  {
+    "term_1": "Gläubiger",
+    "term_2": "Schuldner",
+    "similarity": 0.8446248769760132
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtsschutz",
+    "similarity": 0.8445836305618286
+  },
+  {
+    "term_1": "Beschlussfassung",
+    "term_2": "Entscheidungsreife",
+    "similarity": 0.8443477749824524
+  },
+  {
+    "term_1": "Rechtsverfolgung",
+    "term_2": "Rechtslage",
+    "similarity": 0.8442475199699402
+  },
+  {
+    "term_1": "Rechtshängigkeit",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8437219858169556
+  },
+  {
+    "term_1": "Pflichtteilsanspruch",
+    "term_2": "Verpflichteter",
+    "similarity": 0.8435751795768738
+  },
+  {
+    "term_1": "Vertragsbestätigung",
+    "term_2": "Vertragsverhältnis",
+    "similarity": 0.8434315919876099
+  },
+  {
+    "term_1": "Transportgut",
+    "term_2": "Beförderung",
+    "similarity": 0.8434259295463562
+  },
+  {
+    "term_1": "Streithelferin",
+    "term_2": "Streitgegenstand",
+    "similarity": 0.843122124671936
+  },
+  {
+    "term_1": "Klageerhebung",
+    "term_2": "Klagefrist",
+    "similarity": 0.8430454730987549
+  },
+  {
+    "term_1": "Verzollung",
+    "term_2": "Geltendmachung",
+    "similarity": 0.8428387641906738
+  },
+  {
+    "term_1": "Aufklärungspflicht",
+    "term_2": "Aufklärung",
+    "similarity": 0.8419610857963562
+  },
+  {
+    "term_1": "Eisenbahninfrastrukturunternehmen",
+    "term_2": "Eisenbahnverkehrsunternehmen",
+    "similarity": 0.8415395021438599
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8413620591163635
+  },
+  {
+    "term_1": "Mietzinsanspruch",
+    "term_2": "Miete",
+    "similarity": 0.8412367105484009
+  },
+  {
+    "term_1": "ordentliche Kündigung",
+    "term_2": "Kündigungsgrund",
+    "similarity": 0.8408685326576233
+  },
+  {
+    "term_1": "Versicherungsmakler",
+    "term_2": "Haftpflichtversicherung",
+    "similarity": 0.8408422470092773
+  },
+  {
+    "term_1": "Gefälligkeit",
+    "term_2": "Angemessenheit",
+    "similarity": 0.8407959342002869
+  },
+  {
+    "term_1": "Planungsleistung",
+    "term_2": "Betriebsplanzulassung",
+    "similarity": 0.8406212329864502
+  },
+  {
+    "term_1": "Vertragspartner",
+    "term_2": "Partnerschaftsvermittlungsvertrag",
+    "similarity": 0.8403095602989197
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Vergütungsanspruch",
+    "similarity": 0.8402324914932251
+  },
+  {
+    "term_1": "Haftungsvorschrift",
+    "term_2": "Haftung",
+    "similarity": 0.8401040434837341
+  },
+  {
+    "term_1": "Mietfläche",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8400248289108276
+  },
+  {
+    "term_1": "Kündigungsklausel",
+    "term_2": "Kündigungsrecht",
+    "similarity": 0.8398686051368713
+  },
+  {
+    "term_1": "Entschädigung",
+    "term_2": "Schadensersatzanspruch",
+    "similarity": 0.8395246267318726
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vertragsverhältnis",
+    "similarity": 0.8395193815231323
+  },
+  {
+    "term_1": "Widerruf",
+    "term_2": "Widerklage",
+    "similarity": 0.8393557667732239
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Widerrufsrecht",
+    "similarity": 0.8391292095184326
+  },
+  {
+    "term_1": "Frachtführer",
+    "term_2": "Transportgut",
+    "similarity": 0.8389158248901367
+  },
+  {
+    "term_1": "Anstellungsvertrag",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.8388860821723938
+  },
+  {
+    "term_1": "Rechtsposition",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8388618230819702
+  },
+  {
+    "term_1": "Vertragsleistung",
+    "term_2": "Vertragsverhältnis",
+    "similarity": 0.8388022780418396
+  },
+  {
+    "term_1": "Zulässigkeit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.8385412693023682
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Prozessrecht",
+    "similarity": 0.8382076621055603
+  },
+  {
+    "term_1": "Treuwidrigkeit",
+    "term_2": "Verbindlichkeit",
+    "similarity": 0.8381369113922119
+  },
+  {
+    "term_1": "Klageforderung",
+    "term_2": "Beklagte",
+    "similarity": 0.837918758392334
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtsposition",
+    "similarity": 0.8378689885139465
+  },
+  {
+    "term_1": "Verständlichkeit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.8375596404075623
+  },
+  {
+    "term_1": "Verjährung",
+    "term_2": "Verjährungsvorschrift",
+    "similarity": 0.8373891711235046
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.8371890187263489
+  },
+  {
+    "term_1": "Haftungsausschluss",
+    "term_2": "Haftung",
+    "similarity": 0.8371725678443909
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vereinbarung",
+    "similarity": 0.8371577858924866
+  },
+  {
+    "term_1": "Rückstellung",
+    "term_2": "Rückvergütung",
+    "similarity": 0.8371514678001404
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.8371087908744812
+  },
+  {
+    "term_1": "Schadensverursachung",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.837023138999939
+  },
+  {
+    "term_1": "Rechtsposition",
+    "term_2": "Rechtshängigkeit",
+    "similarity": 0.8370048999786377
+  },
+  {
+    "term_1": "Mietobjekt",
+    "term_2": "Vermieterin",
+    "similarity": 0.836970865726471
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Mietzahlung",
+    "similarity": 0.8367267847061157
+  },
+  {
+    "term_1": "Verständlichkeit",
+    "term_2": "Gefälligkeit",
+    "similarity": 0.8363609313964844
+  },
+  {
+    "term_1": "Bauaufsicht",
+    "term_2": "Bauausführung",
+    "similarity": 0.8360223770141602
+  },
+  {
+    "term_1": "Rechtsgrundlage",
+    "term_2": "Rechtsanspruch",
+    "similarity": 0.8359149098396301
+  },
+  {
+    "term_1": "Gesellschafter",
+    "term_2": "Unternehmen",
+    "similarity": 0.835888683795929
+  },
+  {
+    "term_1": "Kündigungsgrund",
+    "term_2": "Kündigungsrecht",
+    "similarity": 0.8355119824409485
+  },
+  {
+    "term_1": "Klageforderung",
+    "term_2": "Klagefrist",
+    "similarity": 0.8354474902153015
+  },
+  {
+    "term_1": "Anschluss",
+    "term_2": "Anschlussnehmer",
+    "similarity": 0.8351594805717468
+  },
+  {
+    "term_1": "Einstandspflicht",
+    "term_2": "Pflichtteilsanspruch",
+    "similarity": 0.8351461291313171
+  },
+  {
+    "term_1": "Entschädigung",
+    "term_2": "Schadensersatzleistung",
+    "similarity": 0.8351150155067444
+  },
+  {
+    "term_1": "Lohnfortzahlung",
+    "term_2": "Vergütungsanspruch",
+    "similarity": 0.8350706100463867
+  },
+  {
+    "term_1": "Widerrufsbelehrung",
+    "term_2": "Widerruf",
+    "similarity": 0.8350469470024109
+  },
+  {
+    "term_1": "Schlichtungsverfahren",
+    "term_2": "Verfahrensgegenstand",
+    "similarity": 0.8348853588104248
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Mietzinsanspruch",
+    "similarity": 0.8346177935600281
+  },
+  {
+    "term_1": "Rechtsschutz",
+    "term_2": "Rechtslage",
+    "similarity": 0.8345352411270142
+  },
+  {
+    "term_1": "Treuepflicht",
+    "term_2": "Verpflichteter",
+    "similarity": 0.8344153165817261
+  },
+  {
+    "term_1": "Vergütungsanspruch",
+    "term_2": "Vergütungsregelung",
+    "similarity": 0.834331214427948
+  },
+  {
+    "term_1": "Erwerbstätigkeit",
+    "term_2": "Arbeitseinkommen",
+    "similarity": 0.834318220615387
+  },
+  {
+    "term_1": "Gemeinschuldnerin",
+    "term_2": "Mitverschulden",
+    "similarity": 0.8342523574829102
+  },
+  {
+    "term_1": "Abnahme",
+    "term_2": "Minderung",
+    "similarity": 0.8340731263160706
+  },
+  {
+    "term_1": "Beschluss",
+    "term_2": "Entscheidungsgrund",
+    "similarity": 0.8339857459068298
+  },
+  {
+    "term_1": "fristlose Kündigung",
+    "term_2": "Kündigungsgrund",
+    "similarity": 0.8336061239242554
+  },
+  {
+    "term_1": "Formvorschrift",
+    "term_2": "Schriftform",
+    "similarity": 0.8335562348365784
+  },
+  {
+    "term_1": "Gefahr",
+    "term_2": "Risiko",
+    "similarity": 0.8332483768463135
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Vertragspflicht",
+    "similarity": 0.8331734538078308
+  },
+  {
+    "term_1": "Mietzinsanspruch",
+    "term_2": "Untermietverhältnis",
+    "similarity": 0.8331459164619446
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Fernabsatzvertrag",
+    "similarity": 0.8330456614494324
+  },
+  {
+    "term_1": "Bauvorhaben",
+    "term_2": "Baulichkeit",
+    "similarity": 0.8329265713691711
+  },
+  {
+    "term_1": "Mietzinsanspruch",
+    "term_2": "Vermieterin",
+    "similarity": 0.8328742384910583
+  },
+  {
+    "term_1": "Verletzungspflicht",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8326473236083984
+  },
+  {
+    "term_1": "Gefälligkeit",
+    "term_2": "Zulässigkeit",
+    "similarity": 0.8324677348136902
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.8322575092315674
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "ordentliche Kündigung",
+    "similarity": 0.8319780230522156
+  },
+  {
+    "term_1": "Eigentum",
+    "term_2": "Inhaber",
+    "similarity": 0.8319096565246582
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensersatzleistung",
+    "similarity": 0.8312281370162964
+  },
+  {
+    "term_1": "Vergütung",
+    "term_2": "Gebühr",
+    "similarity": 0.8312153220176697
+  },
+  {
+    "term_1": "Mietzahlung",
+    "term_2": "Vermieterin",
+    "similarity": 0.831093430519104
+  },
+  {
+    "term_1": "Kündigungserklärung",
+    "term_2": "fristlose Kündigung",
+    "similarity": 0.8309233784675598
+  },
+  {
+    "term_1": "Schadensanspruch",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.8306843042373657
+  },
+  {
+    "term_1": "Mietzins",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8303439617156982
+  },
+  {
+    "term_1": "Mietobjekt",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8301584720611572
+  },
+  {
+    "term_1": "Inhaber",
+    "term_2": "Genussscheininhaber",
+    "similarity": 0.8300420045852661
+  },
+  {
+    "term_1": "Mietobjekt",
+    "term_2": "Mietzins",
+    "similarity": 0.829842209815979
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8298307657241821
+  },
+  {
+    "term_1": "Schenkungsvertrag",
+    "term_2": "Fernabsatzvertrag",
+    "similarity": 0.8298293948173523
+  },
+  {
+    "term_1": "Rechtsverfolgung",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8296584486961365
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Mietzahlung",
+    "similarity": 0.8296138644218445
+  },
+  {
+    "term_1": "Arbeitsplatz",
+    "term_2": "Betriebsstätte",
+    "similarity": 0.8294627666473389
+  },
+  {
+    "term_1": "Pachtzinsanspruch",
+    "term_2": "Pachtzins",
+    "similarity": 0.8294408917427063
+  },
+  {
+    "term_1": "Entschädigung",
+    "term_2": "Schadensabrechnung",
+    "similarity": 0.8293129801750183
+  },
+  {
+    "term_1": "Verständlichkeit",
+    "term_2": "Angemessenheit",
+    "similarity": 0.8292045593261719
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Pflicht",
+    "similarity": 0.8292040824890137
+  },
+  {
+    "term_1": "Gesetzgeber",
+    "term_2": "Rechtslage",
+    "similarity": 0.8291600942611694
+  },
+  {
+    "term_1": "Anstellungsvertrag",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.829052746295929
+  },
+  {
+    "term_1": "Anspruch",
+    "term_2": "Anspruchsbegründung",
+    "similarity": 0.8289439678192139
+  },
+  {
+    "term_1": "Gebrauch",
+    "term_2": "Ewendung",
+    "similarity": 0.8287480473518372
+  },
+  {
+    "term_1": "Unterbeteiligung",
+    "term_2": "Überschussbeteiligung",
+    "similarity": 0.8287387490272522
+  },
+  {
+    "term_1": "Gemeinschuldnerin",
+    "term_2": "Verschuldensgrad",
+    "similarity": 0.8286980986595154
+  },
+  {
+    "term_1": "Rechtsmissbrauch",
+    "term_2": "Rechtsanspruch",
+    "similarity": 0.8286491632461548
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Fernabsatzvertrag",
+    "similarity": 0.8282392024993896
+  },
+  {
+    "term_1": "Schadensanspruch",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8281401991844177
+  },
+  {
+    "term_1": "Eigentumsübertragung",
+    "term_2": "Eigentumsanwartschaftsrecht",
+    "similarity": 0.8280680179595947
+  },
+  {
+    "term_1": "Minderung",
+    "term_2": "Annullierung",
+    "similarity": 0.8279811143875122
+  },
+  {
+    "term_1": "Rechtsmissbrauch",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8279686570167542
+  },
+  {
+    "term_1": "Rechtsgrundlage",
+    "term_2": "Rechtsposition",
+    "similarity": 0.8278656005859375
+  },
+  {
+    "term_1": "Kündigungsrecht",
+    "term_2": "Rücktrittsrecht",
+    "similarity": 0.8276821374893188
+  },
+  {
+    "term_1": "Rechtsmissbrauch",
+    "term_2": "Rechtslage",
+    "similarity": 0.8276703357696533
+  },
+  {
+    "term_1": "Gemeinschuldnerin",
+    "term_2": "Schuldner",
+    "similarity": 0.8276546001434326
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Vertragsauslegung",
+    "similarity": 0.8273479342460632
+  },
+  {
+    "term_1": "Verletzung",
+    "term_2": "Geschädigter",
+    "similarity": 0.8272738456726074
+  },
+  {
+    "term_1": "Rechtsbindungswille",
+    "term_2": "Rechtshängigkeit",
+    "similarity": 0.827056884765625
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Leasingvertrag",
+    "similarity": 0.8268922567367554
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Versicherungsmaklerpflicht",
+    "similarity": 0.8265796303749084
+  },
+  {
+    "term_1": "Rechtsgrundlage",
+    "term_2": "Rechtsprechung",
+    "similarity": 0.8260653018951416
+  },
+  {
+    "term_1": "Vergütung",
+    "term_2": "Lohnfortzahlung",
+    "similarity": 0.8257512450218201
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8256398439407349
+  },
+  {
+    "term_1": "Rechtsschutz",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8252648115158081
+  },
+  {
+    "term_1": "Obliegenheit",
+    "term_2": "Beeinträchtigung",
+    "similarity": 0.8252587914466858
+  },
+  {
+    "term_1": "Kommanditgesellschaft",
+    "term_2": "Gründungsgesellschafter",
+    "similarity": 0.8251544833183289
+  },
+  {
+    "term_1": "Mitverschulden",
+    "term_2": "Gemeinschuldner",
+    "similarity": 0.8249894976615906
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.8249726295471191
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensanspruch",
+    "similarity": 0.8248856663703918
+  },
+  {
+    "term_1": "Verpflichtung",
+    "term_2": "Einstandspflicht",
+    "similarity": 0.8248165249824524
+  },
+  {
+    "term_1": "Schuldner",
+    "term_2": "Verschuldensgrad",
+    "similarity": 0.8246738314628601
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Leasingnehmer",
+    "similarity": 0.8246389627456665
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Vereinbarung",
+    "similarity": 0.8244473934173584
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Pachtvertrag",
+    "similarity": 0.824444591999054
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Schadensersatzansprüche",
+    "similarity": 0.8242067098617554
+  },
+  {
+    "term_1": "Genehmigung",
+    "term_2": "Zustimmung",
+    "similarity": 0.823955774307251
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Rechtsbindungswille",
+    "similarity": 0.8237890601158142
+  },
+  {
+    "term_1": "Prozessrecht",
+    "term_2": "Rechtslage",
+    "similarity": 0.8234698176383972
+  },
+  {
+    "term_1": "Verpflichtung",
+    "term_2": "Treuepflicht",
+    "similarity": 0.8234131336212158
+  },
+  {
+    "term_1": "Beeinträchtigung",
+    "term_2": "Gefälligkeit",
+    "similarity": 0.8233921527862549
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Einstandspflicht",
+    "similarity": 0.8232744932174683
+  },
+  {
+    "term_1": "Unternehmer",
+    "term_2": "Unternehmen",
+    "similarity": 0.823218584060669
+  },
+  {
+    "term_1": "Schadensersatzverpflichtung",
+    "term_2": "Schadensersatzleistung",
+    "similarity": 0.8232021927833557
+  },
+  {
+    "term_1": "Mietzahlung",
+    "term_2": "Untermietverhältnis",
+    "similarity": 0.8231388330459595
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8231361508369446
+  },
+  {
+    "term_1": "Schuldner",
+    "term_2": "Schuld",
+    "similarity": 0.8230854868888855
+  },
+  {
+    "term_1": "Treuepflicht",
+    "term_2": "Treuwidrigkeit",
+    "similarity": 0.8228015303611755
+  },
+  {
+    "term_1": "Leasinggeber",
+    "term_2": "Leasingvertrag",
+    "similarity": 0.8227670788764954
+  },
+  {
+    "term_1": "Bauvorhaben",
+    "term_2": "Beschaffenheit",
+    "similarity": 0.8226134181022644
+  },
+  {
+    "term_1": "Versicherungsfall",
+    "term_2": "Versicherungsmaklerpflicht",
+    "similarity": 0.822487473487854
+  },
+  {
+    "term_1": "Schenkung",
+    "term_2": "Schenkungserklärung",
+    "similarity": 0.8220812082290649
+  },
+  {
+    "term_1": "Pflicht",
+    "term_2": "Pflichtverletzung",
+    "similarity": 0.821946382522583
+  },
+  {
+    "term_1": "Versicherungsleistung",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.821905255317688
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Verhandlung",
+    "similarity": 0.8218944668769836
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Widerrufsrecht",
+    "similarity": 0.8218110203742981
+  },
+  {
+    "term_1": "Obliegenheit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.8213779926300049
+  },
+  {
+    "term_1": "Auslegung",
+    "term_2": "Hinterlegung",
+    "similarity": 0.8213618993759155
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Kaufvertrag",
+    "similarity": 0.8211818933486938
+  },
+  {
+    "term_1": "Raum",
+    "term_2": "Wohnraum",
+    "similarity": 0.8209388852119446
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Mietobjekt",
+    "similarity": 0.8209303617477417
+  },
+  {
+    "term_1": "Deckungszusage",
+    "term_2": "Geltendmachung",
+    "similarity": 0.8205594420433044
+  },
+  {
+    "term_1": "Mietzinsanspruch",
+    "term_2": "Mietgebrauch",
+    "similarity": 0.8204748034477234
+  },
+  {
+    "term_1": "Anspruch",
+    "term_2": "Forderung",
+    "similarity": 0.8203330636024475
+  },
+  {
+    "term_1": "Kündigungsausschluss",
+    "term_2": "außerordentliche Kündigung",
+    "similarity": 0.8199792504310608
+  },
+  {
+    "term_1": "Frist",
+    "term_2": "Wartezeit",
+    "similarity": 0.819818913936615
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Haftungsvergütung",
+    "similarity": 0.8196983933448792
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Pflichtverletzung",
+    "similarity": 0.8196649551391602
+  },
+  {
+    "term_1": "Rückvergütung",
+    "term_2": "Rückgabeklausel",
+    "similarity": 0.819592297077179
+  },
+  {
+    "term_1": "Rückgabe",
+    "term_2": "Rückvergütung",
+    "similarity": 0.8194876313209534
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsfolgen",
+    "similarity": 0.8194062113761902
+  },
+  {
+    "term_1": "Schadensabrechnung",
+    "term_2": "Schadensersatzpflicht",
+    "similarity": 0.8193436861038208
+  },
+  {
+    "term_1": "Obliegenheit",
+    "term_2": "Bedingung",
+    "similarity": 0.8193252682685852
+  },
+  {
+    "term_1": "Haftungsausschluss",
+    "term_2": "Verschuldensfeststellung",
+    "similarity": 0.8193113207817078
+  },
+  {
+    "term_1": "Vereinbarung",
+    "term_2": "Vertragsleistung",
+    "similarity": 0.8192358613014221
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Folgeschäden",
+    "similarity": 0.8188937902450562
+  },
+  {
+    "term_1": "Rechtsmittel",
+    "term_2": "Rechtskraft",
+    "similarity": 0.818634033203125
+  },
+  {
+    "term_1": "Verständlichkeit",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.8184878826141357
+  },
+  {
+    "term_1": "Planunterlagen",
+    "term_2": "Planungsleistung",
+    "similarity": 0.8181270956993103
+  },
+  {
+    "term_1": "Rechtsposition",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.8179534673690796
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mietobjekt",
+    "similarity": 0.8179117441177368
+  },
+  {
+    "term_1": "Vermieter",
+    "term_2": "Leasinggeber",
+    "similarity": 0.8179102540016174
+  },
+  {
+    "term_1": "Signaldurchleitung",
+    "term_2": "Signale",
+    "similarity": 0.817874550819397
+  },
+  {
+    "term_1": "Treuwidrigkeit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.8177916407585144
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mietfläche",
+    "similarity": 0.8174351453781128
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Maklervertrag",
+    "similarity": 0.8170356154441833
+  },
+  {
+    "term_1": "Haftungsausschluss",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.8169249296188354
+  },
+  {
+    "term_1": "Pachtvertragsregelung",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8168913722038269
+  },
+  {
+    "term_1": "Rechtshängigkeit",
+    "term_2": "Rechtslage",
+    "similarity": 0.8168166279792786
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Schadensersatzrecht",
+    "similarity": 0.8167329430580139
+  },
+  {
+    "term_1": "Angemessenheit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.816024661064148
+  },
+  {
+    "term_1": "Versicherer",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.8159337043762207
+  },
+  {
+    "term_1": "Schadensersatzleistung",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8157567977905273
+  },
+  {
+    "term_1": "Pachtvertrag",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8155641555786133
+  },
+  {
+    "term_1": "Versicherter",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.8152212500572205
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Verschuldensgrad",
+    "similarity": 0.8150069117546082
+  },
+  {
+    "term_1": "Unternehmer",
+    "term_2": "Gesellschafterin",
+    "similarity": 0.814954400062561
+  },
+  {
+    "term_1": "Vertrag",
+    "term_2": "Vertragsverhältnis",
+    "similarity": 0.81478351354599
+  },
+  {
+    "term_1": "Schuldner",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.8143962621688843
+  },
+  {
+    "term_1": "Kaufvertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8141608238220215
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensersatzrecht",
+    "similarity": 0.813967764377594
+  },
+  {
+    "term_1": "Zulässigkeit",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.8138898015022278
+  },
+  {
+    "term_1": "Kündigungserklärung",
+    "term_2": "ordentliche Kündigung",
+    "similarity": 0.8138658404350281
+  },
+  {
+    "term_1": "Arbeitseinkommen",
+    "term_2": "Arbeitsleistung",
+    "similarity": 0.8138636946678162
+  },
+  {
+    "term_1": "Schutz",
+    "term_2": "Schutzwürdigkeit",
+    "similarity": 0.8138570189476013
+  },
+  {
+    "term_1": "Schadensersatzpflicht",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.813606321811676
+  },
+  {
+    "term_1": "Mietwohnung",
+    "term_2": "Mietzahlung",
+    "similarity": 0.8134998083114624
+  },
+  {
+    "term_1": "Garantieanspruch",
+    "term_2": "kaufrechtliche Gewährleistungsansprüche",
+    "similarity": 0.8132262229919434
+  },
+  {
+    "term_1": "Schriftformerfordernis",
+    "term_2": "Schriftform",
+    "similarity": 0.8131877779960632
+  },
+  {
+    "term_1": "Mängelbeseitigung",
+    "term_2": "Mängel",
+    "similarity": 0.8130893707275391
+  },
+  {
+    "term_1": "Handlung",
+    "term_2": "Handlungsstörerin",
+    "similarity": 0.8130800724029541
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8123844265937805
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtshängigkeit",
+    "similarity": 0.8120912313461304
+  },
+  {
+    "term_1": "Pachtzinsanspruch",
+    "term_2": "Pfändung",
+    "similarity": 0.8120474815368652
+  },
+  {
+    "term_1": "Schadensersatz",
+    "term_2": "Schadensersatzpflicht",
+    "similarity": 0.8119735717773438
+  },
+  {
+    "term_1": "Kündigungsklausel",
+    "term_2": "außerordentliche Kündigung",
+    "similarity": 0.811957836151123
+  },
+  {
+    "term_1": "Abtretungsklausel",
+    "term_2": "Deckungszusage",
+    "similarity": 0.8117692470550537
+  },
+  {
+    "term_1": "Mehrfachversicherung",
+    "term_2": "Versicherungsmakler",
+    "similarity": 0.8116497993469238
+  },
+  {
+    "term_1": "Vereinbarung",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.811636745929718
+  },
+  {
+    "term_1": "Angemessenheit",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.811613917350769
+  },
+  {
+    "term_1": "Kaufvertrag",
+    "term_2": "Maklervertrag",
+    "similarity": 0.8114872574806213
+  },
+  {
+    "term_1": "Prospekt",
+    "term_2": "Provision",
+    "similarity": 0.8114690184593201
+  },
+  {
+    "term_1": "Verzollung",
+    "term_2": "Deckungszusage",
+    "similarity": 0.8114620447158813
+  },
+  {
+    "term_1": "Vereinbarung",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8114144206047058
+  },
+  {
+    "term_1": "Pflicht",
+    "term_2": "Pflichtteilsanspruch",
+    "similarity": 0.8112357258796692
+  },
+  {
+    "term_1": "Gemeinschuldnerin",
+    "term_2": "Verschuldenshaftung",
+    "similarity": 0.8111705780029297
+  },
+  {
+    "term_1": "Verwalter",
+    "term_2": "Schädiger",
+    "similarity": 0.8109370470046997
+  },
+  {
+    "term_1": "Verschuldensgrad",
+    "term_2": "Gemeinschuldner",
+    "similarity": 0.8107954859733582
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Pauschalpreisvertrag",
+    "similarity": 0.8106663823127747
+  },
+  {
+    "term_1": "Mietgebrauch",
+    "term_2": "Mietgegenstand",
+    "similarity": 0.8105575442314148
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Verschuldensfeststellung",
+    "similarity": 0.8104805946350098
+  },
+  {
+    "term_1": "Rechtsverfolgungskosten",
+    "term_2": "Rechtsverfolgung",
+    "similarity": 0.8104361295700073
+  },
+  {
+    "term_1": "Eigentümer",
+    "term_2": "Eigentumsübertragung",
+    "similarity": 0.8103951811790466
+  },
+  {
+    "term_1": "Rechtsfolge",
+    "term_2": "Rechtsmittel",
+    "similarity": 0.8103680610656738
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Pauschalpreisvertrag",
+    "similarity": 0.81035977602005
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Haftpflichtversicherer",
+    "similarity": 0.8102870583534241
+  },
+  {
+    "term_1": "Verletzungspflicht",
+    "term_2": "Verletzung",
+    "similarity": 0.8102722764015198
+  },
+  {
+    "term_1": "Vertragsauslegung",
+    "term_2": "Pachtvertrag",
+    "similarity": 0.810073971748352
+  },
+  {
+    "term_1": "Information",
+    "term_2": "Informationsschreiben",
+    "similarity": 0.809919536113739
+  },
+  {
+    "term_1": "Geschädigter",
+    "term_2": "Verzugsschäden",
+    "similarity": 0.8096143007278442
+  },
+  {
+    "term_1": "Rechtsprechung",
+    "term_2": "Rechtsschutz",
+    "similarity": 0.8095604181289673
+  },
+  {
+    "term_1": "Schenkungsvertrag",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8092266321182251
+  },
+  {
+    "term_1": "Verjährung",
+    "term_2": "Haftung",
+    "similarity": 0.8091439008712769
+  },
+  {
+    "term_1": "AGB",
+    "term_2": "HGB",
+    "similarity": 0.8088324666023254
+  },
+  {
+    "term_1": "Bauausführung",
+    "term_2": "Bautenstand",
+    "similarity": 0.808815598487854
+  },
+  {
+    "term_1": "Bauaufsicht",
+    "term_2": "Bauvorhaben",
+    "similarity": 0.8087174296379089
+  },
+  {
+    "term_1": "Wahlleistung",
+    "term_2": "Wahlleistungsvereinbarung",
+    "similarity": 0.8085141777992249
+  },
+  {
+    "term_1": "Beeinträchtigung",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.8084833025932312
+  },
+  {
+    "term_1": "Pflichtverletzung",
+    "term_2": "Schadensminderungspflicht",
+    "similarity": 0.8083009123802185
+  },
+  {
+    "term_1": "Richteramt",
+    "term_2": "Beklagter",
+    "similarity": 0.8082214593887329
+  },
+  {
+    "term_1": "Handlung",
+    "term_2": "Tätigkeit",
+    "similarity": 0.808161199092865
+  },
+  {
+    "term_1": "Versorgungsempfängerin",
+    "term_2": "Empfänger",
+    "similarity": 0.8081262707710266
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtshängigkeit",
+    "similarity": 0.8078731894493103
+  },
+  {
+    "term_1": "Rechtsanspruch",
+    "term_2": "Prozessrecht",
+    "similarity": 0.8078469038009644
+  },
+  {
+    "term_1": "Verbindlichkeit",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.8078159689903259
+  },
+  {
+    "term_1": "Haftung",
+    "term_2": "Beklagte",
+    "similarity": 0.8076207637786865
+  },
+  {
+    "term_1": "Gesellschaft",
+    "term_2": "Unternehmen",
+    "similarity": 0.8075395822525024
+  },
+  {
+    "term_1": "Vertragserklärung",
+    "term_2": "Pachtvertrag",
+    "similarity": 0.8074734210968018
+  },
+  {
+    "term_1": "Haftungsvergütung",
+    "term_2": "Schadensersatzverpflichtung",
+    "similarity": 0.8072054386138916
+  },
+  {
+    "term_1": "Mietobjekt",
+    "term_2": "Miete",
+    "similarity": 0.807107150554657
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Verpflichtung",
+    "similarity": 0.8066244721412659
+  },
+  {
+    "term_1": "Verantwortung",
+    "term_2": "Schuld",
+    "similarity": 0.8065006732940674
+  },
+  {
+    "term_1": "Schenkungsvertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.806484043598175
+  },
+  {
+    "term_1": "Beeinträchtigung",
+    "term_2": "Sittenwidrigkeit",
+    "similarity": 0.806307852268219
+  },
+  {
+    "term_1": "Stammkunde",
+    "term_2": "Stammkundenanteil",
+    "similarity": 0.8062303066253662
+  },
+  {
+    "term_1": "Wohnung",
+    "term_2": "Miete",
+    "similarity": 0.8062127828598022
+  },
+  {
+    "term_1": "Verletzungspflicht",
+    "term_2": "Schadensersatzverpflichtung",
+    "similarity": 0.8061860799789429
+  },
+  {
+    "term_1": "Entschädigung",
+    "term_2": "Schadensverursachung",
+    "similarity": 0.8061251640319824
+  },
+  {
+    "term_1": "Entschädigung",
+    "term_2": "Haftungsvergütung",
+    "similarity": 0.805978000164032
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Haftungsvorschrift",
+    "similarity": 0.8055571913719177
+  },
+  {
+    "term_1": "Rechtsgrundlage",
+    "term_2": "Rechtsfolge",
+    "similarity": 0.805522620677948
+  },
+  {
+    "term_1": "Fernabsatzvertrag",
+    "term_2": "Pachtvertragsregelung",
+    "similarity": 0.8053746223449707
+  },
+  {
+    "term_1": "Schuldner",
+    "term_2": "Drittschuldner",
+    "similarity": 0.8052463531494141
+  },
+  {
+    "term_1": "Rechtsgrundlage",
+    "term_2": "Rechtsstreit",
+    "similarity": 0.8051167726516724
+  },
+  {
+    "term_1": "Abnahme",
+    "term_2": "Verzug",
+    "similarity": 0.8050916790962219
+  },
+  {
+    "term_1": "Schaden",
+    "term_2": "Verletzung",
+    "similarity": 0.8050216436386108
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtsschutz",
+    "similarity": 0.8050156235694885
+  },
+  {
+    "term_1": "Verkäufer",
+    "term_2": "Vertragshändler",
+    "similarity": 0.8049917817115784
+  },
+  {
+    "term_1": "Grenze",
+    "term_2": "Beschränkung",
+    "similarity": 0.8049538731575012
+  },
+  {
+    "term_1": "Rückgabe",
+    "term_2": "Rückstellung",
+    "similarity": 0.8048680424690247
+  },
+  {
+    "term_1": "Verfahrensgegenstand",
+    "term_2": "Verfahrensgrundrecht",
+    "similarity": 0.8047131299972534
+  },
+  {
+    "term_1": "Kaufvertrag",
+    "term_2": "Vertragsbestätigung",
+    "similarity": 0.8046838641166687
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Rechtskraft",
+    "similarity": 0.8045260310173035
+  },
+  {
+    "term_1": "Erbe",
+    "term_2": "Erbanteil",
+    "similarity": 0.8044672012329102
+  },
+  {
+    "term_1": "Verordnung",
+    "term_2": "Anordnung",
+    "similarity": 0.8044135570526123
+  },
+  {
+    "term_1": "Rechtsposition",
+    "term_2": "Einsichtsrecht",
+    "similarity": 0.8043997883796692
+  },
+  {
+    "term_1": "Verzollung",
+    "term_2": "Minderung",
+    "similarity": 0.8043984174728394
+  },
+  {
+    "term_1": "Vermieterin",
+    "term_2": "Leasingnehmer",
+    "similarity": 0.8041998147964478
+  },
+  {
+    "term_1": "Vertragspflicht",
+    "term_2": "Vertragsverhältnis",
+    "similarity": 0.8040958046913147
+  },
+  {
+    "term_1": "Grundstück",
+    "term_2": "Eigentum",
+    "similarity": 0.8040620684623718
+  },
+  {
+    "term_1": "Gerichtskostenvorschuss",
+    "term_2": "Rechtsverfolgungskosten",
+    "similarity": 0.8035588264465332
+  },
+  {
+    "term_1": "Rechtsstreit",
+    "term_2": "Prozessrecht",
+    "similarity": 0.8034824132919312
+  },
+  {
+    "term_1": "Vertragspflicht",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8034703135490417
+  },
+  {
+    "term_1": "Abnahme",
+    "term_2": "Annullierung",
+    "similarity": 0.8034696578979492
+  },
+  {
+    "term_1": "Mieter",
+    "term_2": "Mietobjekt",
+    "similarity": 0.8031726479530334
+  },
+  {
+    "term_1": "Miete",
+    "term_2": "Leasinggeber",
+    "similarity": 0.8031247854232788
+  },
+  {
+    "term_1": "Versicherungsmakler",
+    "term_2": "Versicherungsvertrag",
+    "similarity": 0.8029670119285583
+  },
+  {
+    "term_1": "Pachtvertrag",
+    "term_2": "Anstellungsvertrag",
+    "similarity": 0.8027891516685486
+  },
+  {
+    "term_1": "Zustellung",
+    "term_2": "Anordnung",
+    "similarity": 0.8026911616325378
+  },
+  {
+    "term_1": "Pachtvertragsregelung",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.8026753067970276
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Vertragserklärung",
+    "similarity": 0.8025612831115723
+  },
+  {
+    "term_1": "Partnerschaftsvermittlungsvertrag",
+    "term_2": "Vertragsabbedingung",
+    "similarity": 0.802463948726654
+  },
+  {
+    "term_1": "Vergütung",
+    "term_2": "Gebühren",
+    "similarity": 0.8023822903633118
+  },
+  {
+    "term_1": "Obliegenheit",
+    "term_2": "Angemessenheit",
+    "similarity": 0.8022739291191101
+  },
+  {
+    "term_1": "Vertragsabbedingung",
+    "term_2": "Leasingvertrag",
+    "similarity": 0.8022466897964478
+  },
+  {
+    "term_1": "Förderungsvertrag",
+    "term_2": "Vertragserfüllung",
+    "similarity": 0.8021307587623596
+  },
+  {
+    "term_1": "Haftpflicht",
+    "term_2": "Pflichtteilsanspruch",
+    "similarity": 0.8020403385162354
+  },
+  {
+    "term_1": "Verpflichteter",
+    "term_2": "Pflichtverletzung",
+    "similarity": 0.8020150661468506
+  },
+  {
+    "term_1": "Kreditwürdigkeit",
+    "term_2": "Gläubiger",
+    "similarity": 0.8019586801528931
+  },
+  {
+    "term_1": "Gefälligkeit",
+    "term_2": "Verbindlichkeit",
+    "similarity": 0.8017791509628296
+  },
+  {
+    "term_1": "Versicherung",
+    "term_2": "Versicherungsvertrag",
+    "similarity": 0.8016510009765625
+  },
+  {
+    "term_1": "Bedingungen",
+    "term_2": "Zustand",
+    "similarity": 0.8011531829833984
+  },
+  {
+    "term_1": "Zustand",
+    "term_2": "Umstände",
+    "similarity": 0.8008071780204773
+  },
+  {
+    "term_1": "Verwalter",
+    "term_2": "Verzollung",
+    "similarity": 0.8007433414459229
+  },
+  {
+    "term_1": "Verzollung",
+    "term_2": "Pfändung",
+    "similarity": 0.8006806373596191
+  },
+  {
+    "term_1": "Verbindlichkeit",
+    "term_2": "Ursächlichkeit",
+    "similarity": 0.8005989193916321
+  },
+  {
+    "term_1": "Schadensersatzverpflichtung",
+    "term_2": "Pflichtverletzung",
+    "similarity": 0.8003997802734375
+  },
+  {
+    "term_1": "Gesellschafter",
+    "term_2": "Unternehmer",
+    "similarity": 0.8002498149871826
+  }
+]

@@ -1,0 +1,5287 @@
+[
+  {
+    "term_1": "spielt_Rolle_in",
+    "term_2": "spielt_Rolle_bei",
+    "similarity": 0.9898146390914917
+  },
+  {
+    "term_1": "muss erfüllt sein",
+    "term_2": "müssen erfüllt sein",
+    "similarity": 0.9883097410202026
+  },
+  {
+    "term_1": "beeinträchtigt",
+    "term_2": "beeinträchtigen",
+    "similarity": 0.9850639700889587
+  },
+  {
+    "term_1": "hat eine Bedeutung für",
+    "term_2": "hat Bedeutung für",
+    "similarity": 0.9842302203178406
+  },
+  {
+    "term_1": "beanspruchen kann",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.9820547103881836
+  },
+  {
+    "term_1": "berechnen",
+    "term_2": "rechnen",
+    "similarity": 0.981688380241394
+  },
+  {
+    "term_1": "hat Auswirkungen auf",
+    "term_2": "hat Auswirkungen",
+    "similarity": 0.9809651970863342
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spielt eine Rolle bei",
+    "similarity": 0.9807722568511963
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.9793733954429626
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spielt Rolle",
+    "similarity": 0.9779307246208191
+  },
+  {
+    "term_1": "mussErfülltSein",
+    "term_2": "müssenErfülltSein",
+    "similarity": 0.9761279225349426
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "gelten",
+    "similarity": 0.9755340218544006
+  },
+  {
+    "term_1": "regeln",
+    "term_2": "regelt",
+    "similarity": 0.9754801392555237
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "verursachen",
+    "similarity": 0.9746624231338501
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "pflichten",
+    "similarity": 0.9742074608802795
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "festsetzen",
+    "similarity": 0.9731481075286865
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "wirksam sein",
+    "similarity": 0.9727910757064819
+  },
+  {
+    "term_1": "hat eine Bedeutung",
+    "term_2": "hat eine Bedeutung für",
+    "similarity": 0.9723301529884338
+  },
+  {
+    "term_1": "begrenzen",
+    "term_2": "abgrenzen",
+    "similarity": 0.9716531038284302
+  },
+  {
+    "term_1": "spielt_Rolle_in",
+    "term_2": "spielt_rolle_in",
+    "similarity": 0.9712098240852356
+  },
+  {
+    "term_1": "interpretieren",
+    "term_2": "interpretiert",
+    "similarity": 0.9710476398468018
+  },
+  {
+    "term_1": "verantwortlich sein",
+    "term_2": "verantwortlich",
+    "similarity": 0.9685165286064148
+  },
+  {
+    "term_1": "müssen",
+    "term_2": "muss",
+    "similarity": 0.9682192206382751
+  },
+  {
+    "term_1": "spielt",
+    "term_2": "spielen",
+    "similarity": 0.9656879901885986
+  },
+  {
+    "term_1": "ist erforderlich",
+    "term_2": "ist erforderlich für",
+    "similarity": 0.9653353095054626
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "führtzu",
+    "similarity": 0.9648077487945557
+  },
+  {
+    "term_1": "unwirksam sein",
+    "term_2": "unwirksam",
+    "similarity": 0.9646983742713928
+  },
+  {
+    "term_1": "berücksichtigen",
+    "term_2": "berücksichtigt",
+    "similarity": 0.9625851511955261
+  },
+  {
+    "term_1": "rechtfertigt",
+    "term_2": "rechtfertigen",
+    "similarity": 0.9623315334320068
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "haben Bedeutung",
+    "similarity": 0.9603160619735718
+  },
+  {
+    "term_1": "erfüllt",
+    "term_2": "erfüllt sein",
+    "similarity": 0.9589885473251343
+  },
+  {
+    "term_1": "spielt_Rolle_bei",
+    "term_2": "spielt_rolle_in",
+    "similarity": 0.9589058756828308
+  },
+  {
+    "term_1": "ist relevant für",
+    "term_2": "ist relevant",
+    "similarity": 0.9587079286575317
+  },
+  {
+    "term_1": "abschließen",
+    "term_2": "beschließen",
+    "similarity": 0.9571579098701477
+  },
+  {
+    "term_1": "zahlt",
+    "term_2": "bezahlen",
+    "similarity": 0.9571436047554016
+  },
+  {
+    "term_1": "spielt eine Rolle bei",
+    "term_2": "spielt Rolle",
+    "similarity": 0.9571368098258972
+  },
+  {
+    "term_1": "basiert auf",
+    "term_2": "basiert",
+    "similarity": 0.9567710757255554
+  },
+  {
+    "term_1": "hat eine Bedeutung",
+    "term_2": "hat Bedeutung für",
+    "similarity": 0.9544129967689514
+  },
+  {
+    "term_1": "kann erfordern",
+    "term_2": "fordern kann",
+    "similarity": 0.9538828134536743
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "betrachtet werden",
+    "similarity": 0.9538769721984863
+  },
+  {
+    "term_1": "ist zu berechnen als",
+    "term_2": "ist zu berechnen bei",
+    "similarity": 0.9529283046722412
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.9522051811218262
+  },
+  {
+    "term_1": "wird betrachtet",
+    "term_2": "betrachtet werden",
+    "similarity": 0.9520705938339233
+  },
+  {
+    "term_1": "verhindern",
+    "term_2": "verhindert",
+    "similarity": 0.9511606693267822
+  },
+  {
+    "term_1": "kennt",
+    "term_2": "kennen",
+    "similarity": 0.9504477381706238
+  },
+  {
+    "term_1": "prüfen",
+    "term_2": "überprüfen",
+    "similarity": 0.949494481086731
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "betrachten",
+    "similarity": 0.9487848281860352
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "hat eine Bedeutung",
+    "similarity": 0.947338342666626
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "treten ein",
+    "similarity": 0.9470319151878357
+  },
+  {
+    "term_1": "beginnen",
+    "term_2": "beginnt",
+    "similarity": 0.9462646842002869
+  },
+  {
+    "term_1": "schützt",
+    "term_2": "schützen",
+    "similarity": 0.9458756446838379
+  },
+  {
+    "term_1": "wirkt auf",
+    "term_2": "wirkt sich aus",
+    "similarity": 0.9456785917282104
+  },
+  {
+    "term_1": "bedeuten",
+    "term_2": "bedeutet",
+    "similarity": 0.9449331760406494
+  },
+  {
+    "term_1": "sicherstellen",
+    "term_2": "sicherzustellen",
+    "similarity": 0.9445407390594482
+  },
+  {
+    "term_1": "enthält",
+    "term_2": "beinhaltet",
+    "similarity": 0.9437058568000793
+  },
+  {
+    "term_1": "hätte",
+    "term_2": "hätte gehabt",
+    "similarity": 0.9422231912612915
+  },
+  {
+    "term_1": "verantwortlich für",
+    "term_2": "verantwortlich",
+    "similarity": 0.9413439631462097
+  },
+  {
+    "term_1": "ersetzt",
+    "term_2": "ersetzen",
+    "similarity": 0.9412943124771118
+  },
+  {
+    "term_1": "nutzen",
+    "term_2": "anwenden",
+    "similarity": 0.9400849938392639
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "führen",
+    "similarity": 0.9399455785751343
+  },
+  {
+    "term_1": "wichtig",
+    "term_2": "ist wichtig",
+    "similarity": 0.9394429922103882
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "erfolgen",
+    "similarity": 0.9387262463569641
+  },
+  {
+    "term_1": "bewirken",
+    "term_2": "mitwirken",
+    "similarity": 0.9370793700218201
+  },
+  {
+    "term_1": "erforderlich für",
+    "term_2": "ist erforderlich für",
+    "similarity": 0.9370635747909546
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "fordern",
+    "similarity": 0.9370311498641968
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "dulden",
+    "similarity": 0.9360118508338928
+  },
+  {
+    "term_1": "verantwortlich sein",
+    "term_2": "verantwortlich für",
+    "similarity": 0.9355741143226624
+  },
+  {
+    "term_1": "berechtigt",
+    "term_2": "ist berechtigt",
+    "similarity": 0.935430109500885
+  },
+  {
+    "term_1": "genügt",
+    "term_2": "ausreichend sein",
+    "similarity": 0.935269296169281
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "beeinflusst",
+    "similarity": 0.9336126446723938
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "ist verpflichtet",
+    "similarity": 0.9334855079650879
+  },
+  {
+    "term_1": "hat_Anspruch_auf",
+    "term_2": "hat_Anpruch_auf",
+    "similarity": 0.9333885908126831
+  },
+  {
+    "term_1": "ist unwirksam",
+    "term_2": "unwirksam sein",
+    "similarity": 0.9320659637451172
+  },
+  {
+    "term_1": "verweigern",
+    "term_2": "verweigert",
+    "similarity": 0.9315135478973389
+  },
+  {
+    "term_1": "tragen bei",
+    "term_2": "tragen",
+    "similarity": 0.9311144948005676
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "aufheben",
+    "similarity": 0.93110191822052
+  },
+  {
+    "term_1": "beruhen",
+    "term_2": "beruhen auf",
+    "similarity": 0.9304647445678711
+  },
+  {
+    "term_1": "rechnet sich",
+    "term_2": "berechnet werden",
+    "similarity": 0.9299250245094299
+  },
+  {
+    "term_1": "beweisen",
+    "term_2": "bewiesen werden",
+    "similarity": 0.9295327067375183
+  },
+  {
+    "term_1": "behandeln",
+    "term_2": "behandelt",
+    "similarity": 0.9289946556091309
+  },
+  {
+    "term_1": "hat eine Bedeutung",
+    "term_2": "haben Bedeutung",
+    "similarity": 0.9288113713264465
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "betreuen",
+    "similarity": 0.9286535978317261
+  },
+  {
+    "term_1": "belehren",
+    "term_2": "betreuen",
+    "similarity": 0.9282200336456299
+  },
+  {
+    "term_1": "hemmen",
+    "term_2": "hemmt",
+    "similarity": 0.9281195402145386
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "befugt",
+    "similarity": 0.9279816746711731
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "hat Bedeutung für",
+    "similarity": 0.9272456765174866
+  },
+  {
+    "term_1": "beweisen",
+    "term_2": "nachweisen",
+    "similarity": 0.9271267652511597
+  },
+  {
+    "term_1": "herbeiführen",
+    "term_2": "herbeiführt",
+    "similarity": 0.9265716075897217
+  },
+  {
+    "term_1": "treten ein",
+    "term_2": "treten",
+    "similarity": 0.9265459775924683
+  },
+  {
+    "term_1": "bewirken",
+    "term_2": "verwirkt",
+    "similarity": 0.9247500896453857
+  },
+  {
+    "term_1": "betrachtet werden",
+    "term_2": "betrachten",
+    "similarity": 0.9243474006652832
+  },
+  {
+    "term_1": "erleiden",
+    "term_2": "erörtern",
+    "similarity": 0.9242222309112549
+  },
+  {
+    "term_1": "kann geltend gemacht werden",
+    "term_2": "kann geltend gemacht werden wenn",
+    "similarity": 0.9241658449172974
+  },
+  {
+    "term_1": "abrechnet",
+    "term_2": "rechnet sich",
+    "similarity": 0.9233656525611877
+  },
+  {
+    "term_1": "vorlegen",
+    "term_2": "vornehmen",
+    "similarity": 0.9230437278747559
+  },
+  {
+    "term_1": "ist unwirksam",
+    "term_2": "unwirksam",
+    "similarity": 0.9224076867103577
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "darlegen",
+    "similarity": 0.92133629322052
+  },
+  {
+    "term_1": "kannErstelltWerden",
+    "term_2": "kannErmitteltWerden",
+    "similarity": 0.9210933446884155
+  },
+  {
+    "term_1": "zuzurechnen",
+    "term_2": "rechnen",
+    "similarity": 0.9204742312431335
+  },
+  {
+    "term_1": "verursacht werden",
+    "term_2": "verursachen",
+    "similarity": 0.9189186096191406
+  },
+  {
+    "term_1": "ermitteln",
+    "term_2": "feststellen",
+    "similarity": 0.9184728860855103
+  },
+  {
+    "term_1": "entscheiden",
+    "term_2": "entscheidet",
+    "similarity": 0.9181219935417175
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "geltend machen",
+    "similarity": 0.917900800704956
+  },
+  {
+    "term_1": "bezieht",
+    "term_2": "bezieht sich auf",
+    "similarity": 0.9172464609146118
+  },
+  {
+    "term_1": "gelten",
+    "term_2": "geltend machen",
+    "similarity": 0.9163159728050232
+  },
+  {
+    "term_1": "erlangt",
+    "term_2": "erbringt",
+    "similarity": 0.9159907102584839
+  },
+  {
+    "term_1": "einschränken",
+    "term_2": "abgrenzen",
+    "similarity": 0.9157646894454956
+  },
+  {
+    "term_1": "entnehmen kann",
+    "term_2": "erlassen kann",
+    "similarity": 0.9154947400093079
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "wird betrachtet",
+    "similarity": 0.9154108762741089
+  },
+  {
+    "term_1": "berechnen",
+    "term_2": "berechnet werden",
+    "similarity": 0.9153443574905396
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "erforderlich für",
+    "similarity": 0.9145212173461914
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "wirksam ausüben",
+    "similarity": 0.9139692783355713
+  },
+  {
+    "term_1": "kann die Verjährung unterbrechen",
+    "term_2": "kann die Verjährung hemmen",
+    "similarity": 0.9136279821395874
+  },
+  {
+    "term_1": "aufheben",
+    "term_2": "aufnehmen",
+    "similarity": 0.9135939478874207
+  },
+  {
+    "term_1": "ist_befugt",
+    "term_2": "ist_zu_beziffern",
+    "similarity": 0.9135442972183228
+  },
+  {
+    "term_1": "istUnzulässig",
+    "term_2": "ist unzulässig",
+    "similarity": 0.9133257269859314
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "einhalten",
+    "similarity": 0.9132229685783386
+  },
+  {
+    "term_1": "berechnen",
+    "term_2": "zuzurechnen",
+    "similarity": 0.9131073355674744
+  },
+  {
+    "term_1": "gelten",
+    "term_2": "gelten für",
+    "similarity": 0.9120815396308899
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "vereisen",
+    "similarity": 0.9108015298843384
+  },
+  {
+    "term_1": "gilt für",
+    "term_2": "gilt",
+    "similarity": 0.9106018543243408
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "ist erforderlich",
+    "similarity": 0.9093922972679138
+  },
+  {
+    "term_1": "gilt",
+    "term_2": "gilt als",
+    "similarity": 0.9088156223297119
+  },
+  {
+    "term_1": "wird gehemmt",
+    "term_2": "wird versäumt",
+    "similarity": 0.9085078239440918
+  },
+  {
+    "term_1": "kannGewaehltWerden",
+    "term_2": "kannErmitteltWerden",
+    "similarity": 0.90813148021698
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "vereisen",
+    "similarity": 0.9075459837913513
+  },
+  {
+    "term_1": "rechnen",
+    "term_2": "berechnet werden",
+    "similarity": 0.9074012637138367
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spielen eine Rolle für",
+    "similarity": 0.9067946672439575
+  },
+  {
+    "term_1": "vorsieht",
+    "term_2": "vorsehen",
+    "similarity": 0.9065067172050476
+  },
+  {
+    "term_1": "einzuordnen",
+    "term_2": "zuordnen",
+    "similarity": 0.9064756631851196
+  },
+  {
+    "term_1": "kann führen zu",
+    "term_2": "kann durch",
+    "similarity": 0.9059284925460815
+  },
+  {
+    "term_1": "kannGeltendMachen",
+    "term_2": "kannMachen",
+    "similarity": 0.9058139324188232
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "verursacht werden",
+    "similarity": 0.9055526256561279
+  },
+  {
+    "term_1": "klären",
+    "term_2": "erklären",
+    "similarity": 0.9052315950393677
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "verlangen",
+    "similarity": 0.905073344707489
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "verneinen",
+    "similarity": 0.9044805765151978
+  },
+  {
+    "term_1": "erlangt",
+    "term_2": "erörtern",
+    "similarity": 0.9043286442756653
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "nötig",
+    "similarity": 0.9040191173553467
+  },
+  {
+    "term_1": "eingeräumt",
+    "term_2": "einräumt",
+    "similarity": 0.9039715528488159
+  },
+  {
+    "term_1": "haben Bedeutung",
+    "term_2": "hat Bedeutung für",
+    "similarity": 0.9038112163543701
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "betreuen",
+    "similarity": 0.9033777713775635
+  },
+  {
+    "term_1": "erforderlich für",
+    "term_2": "ist erforderlich",
+    "similarity": 0.9033353924751282
+  },
+  {
+    "term_1": "erfüllt Verpflichtungen",
+    "term_2": "hat Verpflichtungen",
+    "similarity": 0.9024092555046082
+  },
+  {
+    "term_1": "erleiden",
+    "term_2": "erlangt",
+    "similarity": 0.9020060300827026
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "wirksam ausüben",
+    "similarity": 0.9018848538398743
+  },
+  {
+    "term_1": "einstellen",
+    "term_2": "einrichten",
+    "similarity": 0.9016752243041992
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "abwägen",
+    "similarity": 0.9016489386558533
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "führen zu",
+    "similarity": 0.9007845520973206
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "befugt",
+    "similarity": 0.9002695679664612
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "erfordert",
+    "similarity": 0.9001308679580688
+  },
+  {
+    "term_1": "istVerpflichtet",
+    "term_2": "ist verpflichtet",
+    "similarity": 0.8992949724197388
+  },
+  {
+    "term_1": "anwenden",
+    "term_2": "Gebrauch machen",
+    "similarity": 0.8986020684242249
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "hat eine Bedeutung für",
+    "similarity": 0.8984463214874268
+  },
+  {
+    "term_1": "rechnet sich",
+    "term_2": "rechnen",
+    "similarity": 0.89840167760849
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "erlangt",
+    "similarity": 0.8973168730735779
+  },
+  {
+    "term_1": "schließt",
+    "term_2": "beschließen",
+    "similarity": 0.8972638249397278
+  },
+  {
+    "term_1": "bestimmen",
+    "term_2": "entscheidet",
+    "similarity": 0.897163987159729
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "vornehmen",
+    "similarity": 0.8969509601593018
+  },
+  {
+    "term_1": "wirkt auf",
+    "term_2": "wirken",
+    "similarity": 0.8967299461364746
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "verpflichten",
+    "similarity": 0.8963973522186279
+  },
+  {
+    "term_1": "regelt",
+    "term_2": "istRegelt",
+    "similarity": 0.8963265419006348
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "auslegen",
+    "similarity": 0.8961801528930664
+  },
+  {
+    "term_1": "abrechnet",
+    "term_2": "rechnen",
+    "similarity": 0.895620584487915
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "befugt",
+    "similarity": 0.895307719707489
+  },
+  {
+    "term_1": "gilt_fuer",
+    "term_2": "gilt_für",
+    "similarity": 0.8951706290245056
+  },
+  {
+    "term_1": "ist einzuschätzen",
+    "term_2": "einzuschätzen",
+    "similarity": 0.8951363563537598
+  },
+  {
+    "term_1": "kannGeltendGemachtWerden",
+    "term_2": "kannGewaehltWerden",
+    "similarity": 0.8950238227844238
+  },
+  {
+    "term_1": "ändern",
+    "term_2": "ersetzen",
+    "similarity": 0.8949900269508362
+  },
+  {
+    "term_1": "gehemmt werden",
+    "term_2": "wird gehemmt",
+    "similarity": 0.8942437767982483
+  },
+  {
+    "term_1": "entspricht",
+    "term_2": "entsprechen",
+    "similarity": 0.8938774466514587
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "festsetzen",
+    "similarity": 0.8936941027641296
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "betreuen",
+    "similarity": 0.893655002117157
+  },
+  {
+    "term_1": "informieren",
+    "term_2": "informiert über",
+    "similarity": 0.8936434388160706
+  },
+  {
+    "term_1": "begrenzen",
+    "term_2": "einschränken",
+    "similarity": 0.8926446437835693
+  },
+  {
+    "term_1": "gilt für",
+    "term_2": "gilt als",
+    "similarity": 0.892053484916687
+  },
+  {
+    "term_1": "nutzen",
+    "term_2": "Gebrauch machen",
+    "similarity": 0.8914238810539246
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "erlangt",
+    "similarity": 0.8904076814651489
+  },
+  {
+    "term_1": "schließt",
+    "term_2": "abschließen",
+    "similarity": 0.8899905681610107
+  },
+  {
+    "term_1": "abrechnet",
+    "term_2": "berechnet werden",
+    "similarity": 0.8891118764877319
+  },
+  {
+    "term_1": "verhindern",
+    "term_2": "kann verhindern",
+    "similarity": 0.8888719081878662
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "begehen",
+    "similarity": 0.8880407810211182
+  },
+  {
+    "term_1": "mitwirken",
+    "term_2": "verwirkt",
+    "similarity": 0.8879452347755432
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "vollzieht",
+    "similarity": 0.8874027132987976
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "vereisen",
+    "similarity": 0.8872244358062744
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "verneinen",
+    "similarity": 0.8859206438064575
+  },
+  {
+    "term_1": "einzuordnen",
+    "term_2": "eingeordnet",
+    "similarity": 0.8854113817214966
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "erlangt",
+    "similarity": 0.8853570222854614
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8852587342262268
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "ist_wirksam",
+    "similarity": 0.8851745128631592
+  },
+  {
+    "term_1": "durchgeführt werden",
+    "term_2": "erfolgen",
+    "similarity": 0.8850228786468506
+  },
+  {
+    "term_1": "wirken",
+    "term_2": "verwirkt",
+    "similarity": 0.8841902017593384
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "erleiden",
+    "similarity": 0.8839708566665649
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "einbehalten",
+    "similarity": 0.8839077353477478
+  },
+  {
+    "term_1": "tragen",
+    "term_2": "tragenFür",
+    "similarity": 0.8836255073547363
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "hat Auswirkungen",
+    "similarity": 0.8834648728370667
+  },
+  {
+    "term_1": "wirkt auf",
+    "term_2": "verwirkt",
+    "similarity": 0.8832603693008423
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "einrichten",
+    "similarity": 0.8832322955131531
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "gelten für",
+    "similarity": 0.8830869197845459
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "betreuen",
+    "similarity": 0.8830001354217529
+  },
+  {
+    "term_1": "verhindert",
+    "term_2": "kann verhindern",
+    "similarity": 0.8825412392616272
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "betreuen",
+    "similarity": 0.8823543787002563
+  },
+  {
+    "term_1": "führtzu",
+    "term_2": "verwirkt",
+    "similarity": 0.8817620873451233
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "auslegen",
+    "similarity": 0.881754994392395
+  },
+  {
+    "term_1": "führtzu",
+    "term_2": "führen",
+    "similarity": 0.8808268308639526
+  },
+  {
+    "term_1": "erfüllt sein",
+    "term_2": "muss erfüllt sein",
+    "similarity": 0.8805525898933411
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "durchgeführt werden",
+    "similarity": 0.8804681301116943
+  },
+  {
+    "term_1": "verhindern",
+    "term_2": "vermeiden",
+    "similarity": 0.8804523348808289
+  },
+  {
+    "term_1": "haben Bedeutung",
+    "term_2": "hat eine Bedeutung für",
+    "similarity": 0.8802470564842224
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "festsetzt",
+    "similarity": 0.8800370097160339
+  },
+  {
+    "term_1": "berechnen",
+    "term_2": "rechnet sich",
+    "similarity": 0.8797999024391174
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "unwirksam sein",
+    "similarity": 0.8797061443328857
+  },
+  {
+    "term_1": "vorsehen",
+    "term_2": "vornehmen",
+    "similarity": 0.8795254230499268
+  },
+  {
+    "term_1": "darlegen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8793252110481262
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "verwirkt",
+    "similarity": 0.8790898323059082
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "nachweist",
+    "similarity": 0.8785223364830017
+  },
+  {
+    "term_1": "bewirken",
+    "term_2": "wirken",
+    "similarity": 0.878230631351471
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "belehren",
+    "similarity": 0.8782020211219788
+  },
+  {
+    "term_1": "entscheiden",
+    "term_2": "bestimmen",
+    "similarity": 0.877899169921875
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "vornehmen",
+    "similarity": 0.877642810344696
+  },
+  {
+    "term_1": "haftet",
+    "term_2": "haftet für",
+    "similarity": 0.8776388764381409
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "abwägen",
+    "similarity": 0.8773529529571533
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "führen",
+    "similarity": 0.8772596716880798
+  },
+  {
+    "term_1": "nötig",
+    "term_2": "erforderlich für",
+    "similarity": 0.8766758441925049
+  },
+  {
+    "term_1": "zuzurechnen",
+    "term_2": "rechnet sich",
+    "similarity": 0.8766737580299377
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "ist_wirksam",
+    "similarity": 0.8763891458511353
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "pflichten",
+    "similarity": 0.8761093020439148
+  },
+  {
+    "term_1": "betreuen",
+    "term_2": "erörtern",
+    "similarity": 0.8759980201721191
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "erleiden",
+    "similarity": 0.8758643269538879
+  },
+  {
+    "term_1": "einbauen",
+    "term_2": "einrichten",
+    "similarity": 0.8756688833236694
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "betreuen",
+    "similarity": 0.8755166530609131
+  },
+  {
+    "term_1": "spieltRolle",
+    "term_2": "spieltEineRolle",
+    "similarity": 0.8754310011863708
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "erörtern",
+    "similarity": 0.8753488659858704
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "betreuen",
+    "similarity": 0.8752715587615967
+  },
+  {
+    "term_1": "vornehmen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8752128481864929
+  },
+  {
+    "term_1": "erfülltPflichten",
+    "term_2": "erfüllt Verpflichtungen",
+    "similarity": 0.875122606754303
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "angepriesen",
+    "similarity": 0.8745542764663696
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "erteilen",
+    "similarity": 0.8742853403091431
+  },
+  {
+    "term_1": "istVerpflichtet",
+    "term_2": "hat Pflichten",
+    "similarity": 0.873968243598938
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "beteiligen",
+    "similarity": 0.8739654421806335
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "kannErmitteltWerden",
+    "similarity": 0.8736746907234192
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "erlangt",
+    "similarity": 0.8731775283813477
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "beschließen",
+    "similarity": 0.8731719255447388
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "abwägen",
+    "similarity": 0.8730530738830566
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "erörtern",
+    "similarity": 0.8730423450469971
+  },
+  {
+    "term_1": "widerrufen",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8727142214775085
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "befugt",
+    "similarity": 0.872512936592102
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "abwägen",
+    "similarity": 0.8721823692321777
+  },
+  {
+    "term_1": "geltend machen",
+    "term_2": "gelten für",
+    "similarity": 0.8721514940261841
+  },
+  {
+    "term_1": "wird als",
+    "term_2": "wird",
+    "similarity": 0.87176913022995
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "geltendMachen",
+    "similarity": 0.8717686533927917
+  },
+  {
+    "term_1": "zuzurechnen",
+    "term_2": "berechnet werden",
+    "similarity": 0.8717207908630371
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "eingehalten werden",
+    "similarity": 0.8716119527816772
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "treten",
+    "similarity": 0.8715976476669312
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "hat Auswirkungen",
+    "similarity": 0.8714668154716492
+  },
+  {
+    "term_1": "hat Pflichten",
+    "term_2": "hat Verpflichtungen",
+    "similarity": 0.8714531064033508
+  },
+  {
+    "term_1": "kann",
+    "term_2": "kann durch",
+    "similarity": 0.8713072538375854
+  },
+  {
+    "term_1": "regelt",
+    "term_2": "geregelt werden",
+    "similarity": 0.8711383938789368
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "darlegen",
+    "similarity": 0.8710474967956543
+  },
+  {
+    "term_1": "nötig",
+    "term_2": "muss",
+    "similarity": 0.8709262013435364
+  },
+  {
+    "term_1": "regeln",
+    "term_2": "geregelt werden",
+    "similarity": 0.8708946108818054
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "darlegen",
+    "similarity": 0.8704438805580139
+  },
+  {
+    "term_1": "erfordert",
+    "term_2": "fordern",
+    "similarity": 0.8701258301734924
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "erlangt",
+    "similarity": 0.8700469136238098
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "wirken",
+    "similarity": 0.8697717785835266
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "entfallen",
+    "similarity": 0.8697353005409241
+  },
+  {
+    "term_1": "abrechnet",
+    "term_2": "berechnen",
+    "similarity": 0.8697206377983093
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "einrichten",
+    "similarity": 0.8696156144142151
+  },
+  {
+    "term_1": "einbauen",
+    "term_2": "auslegen",
+    "similarity": 0.8696072697639465
+  },
+  {
+    "term_1": "spielen eine Rolle für",
+    "term_2": "spielt eine Rolle bei",
+    "similarity": 0.8695532083511353
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "eintreten",
+    "similarity": 0.8693037629127502
+  },
+  {
+    "term_1": "vorlegen",
+    "term_2": "darlegen",
+    "similarity": 0.8691182732582092
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "vorlegen",
+    "similarity": 0.8688284158706665
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "betreuen",
+    "similarity": 0.8687052726745605
+  },
+  {
+    "term_1": "gilt",
+    "term_2": "giltFür",
+    "similarity": 0.868138313293457
+  },
+  {
+    "term_1": "beginnt",
+    "term_2": "beginnt mit",
+    "similarity": 0.8679690361022949
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "befugt",
+    "similarity": 0.8678647875785828
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "erfolgen",
+    "similarity": 0.8678105473518372
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "erleiden",
+    "similarity": 0.8677162528038025
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "darlegen",
+    "similarity": 0.8676937222480774
+  },
+  {
+    "term_1": "gilt für",
+    "term_2": "gelten für",
+    "similarity": 0.8675681352615356
+  },
+  {
+    "term_1": "vorsehen",
+    "term_2": "betrachten",
+    "similarity": 0.8675565719604492
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "unwirksam",
+    "similarity": 0.8674139380455017
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "betreiben",
+    "similarity": 0.8672168254852295
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "vollzieht",
+    "similarity": 0.8671073913574219
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "abwägen",
+    "similarity": 0.8670533895492554
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "kann beeinflussen",
+    "similarity": 0.8669628500938416
+  },
+  {
+    "term_1": "vorlegen",
+    "term_2": "bereitstellen",
+    "similarity": 0.8661947250366211
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "betreuen",
+    "similarity": 0.8661308884620667
+  },
+  {
+    "term_1": "wird betrachtet",
+    "term_2": "betrachten",
+    "similarity": 0.8660104870796204
+  },
+  {
+    "term_1": "ist verpflichtet",
+    "term_2": "hat Pflichten",
+    "similarity": 0.8660097718238831
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "ist erforderlich für",
+    "similarity": 0.8659132122993469
+  },
+  {
+    "term_1": "betreuen",
+    "term_2": "erleiden",
+    "similarity": 0.8659043908119202
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "abwägen",
+    "similarity": 0.8658930063247681
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "entfallen",
+    "similarity": 0.8655834794044495
+  },
+  {
+    "term_1": "ist zu bestimmen",
+    "term_2": "bestimmen",
+    "similarity": 0.8648718595504761
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "lastet",
+    "similarity": 0.8644793033599854
+  },
+  {
+    "term_1": "gelten",
+    "term_2": "geltendMachen",
+    "similarity": 0.8642184138298035
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "hat Auswirkungen auf",
+    "similarity": 0.863804280757904
+  },
+  {
+    "term_1": "verstößtGegen",
+    "term_2": "entfallen",
+    "similarity": 0.8636450171470642
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "ausschlagen",
+    "similarity": 0.8636257648468018
+  },
+  {
+    "term_1": "aufheben",
+    "term_2": "darlegen",
+    "similarity": 0.8634895086288452
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "verwirkt",
+    "similarity": 0.863473653793335
+  },
+  {
+    "term_1": "zurechenbar",
+    "term_2": "anwendbar",
+    "similarity": 0.8634463548660278
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "ziehen",
+    "similarity": 0.8634033203125
+  },
+  {
+    "term_1": "rechtlich",
+    "term_2": "gesetzlich vorgeschrieben",
+    "similarity": 0.8632894158363342
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "einräumt",
+    "similarity": 0.8632177114486694
+  },
+  {
+    "term_1": "spielen eine Rolle für",
+    "term_2": "spielt Rolle",
+    "similarity": 0.8629334568977356
+  },
+  {
+    "term_1": "überschreitet",
+    "term_2": "entfallen",
+    "similarity": 0.8625213503837585
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "betreuen",
+    "similarity": 0.8625130653381348
+  },
+  {
+    "term_1": "hatNotwendigkeit",
+    "term_2": "nötig",
+    "similarity": 0.86215740442276
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8619338870048523
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "einstellen",
+    "similarity": 0.8617950081825256
+  },
+  {
+    "term_1": "nötig",
+    "term_2": "ist erforderlich",
+    "similarity": 0.8617715835571289
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "abwägen",
+    "similarity": 0.8615803122520447
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "abwägen",
+    "similarity": 0.8613415956497192
+  },
+  {
+    "term_1": "vermeiden",
+    "term_2": "verhindert",
+    "similarity": 0.8611310720443726
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "erbringt",
+    "similarity": 0.8607071042060852
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "erfordert",
+    "similarity": 0.860325038433075
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "erfolgen",
+    "similarity": 0.8602290153503418
+  },
+  {
+    "term_1": "regeln",
+    "term_2": "istRegelt",
+    "similarity": 0.8600091338157654
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "vereisen",
+    "similarity": 0.8599666953086853
+  },
+  {
+    "term_1": "beanspruchen kann",
+    "term_2": "entnehmen kann",
+    "similarity": 0.8599274158477783
+  },
+  {
+    "term_1": "gilt für",
+    "term_2": "gilt_für",
+    "similarity": 0.8598477840423584
+  },
+  {
+    "term_1": "entstehen",
+    "term_2": "kann entstehen",
+    "similarity": 0.8597631454467773
+  },
+  {
+    "term_1": "beurteilen",
+    "term_2": "bewerten",
+    "similarity": 0.8596104979515076
+  },
+  {
+    "term_1": "abrechnet",
+    "term_2": "zuzurechnen",
+    "similarity": 0.8594635725021362
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "abweichen",
+    "similarity": 0.8594213724136353
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "muss",
+    "similarity": 0.8594173192977905
+  },
+  {
+    "term_1": "verlangen",
+    "term_2": "fordern",
+    "similarity": 0.8591814041137695
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.8591698408126831
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "abwägen",
+    "similarity": 0.8591106534004211
+  },
+  {
+    "term_1": "berücksichtigen",
+    "term_2": "einzuschätzen",
+    "similarity": 0.8590120077133179
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "vornehmen",
+    "similarity": 0.8589351177215576
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "abwägen",
+    "similarity": 0.8588720560073853
+  },
+  {
+    "term_1": "kann führen zu",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.8587216138839722
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "aufheben",
+    "similarity": 0.8585160374641418
+  },
+  {
+    "term_1": "kann",
+    "term_2": "kann ausüben",
+    "similarity": 0.8580621480941772
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "erleiden",
+    "similarity": 0.8579568862915039
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "vereitelt",
+    "similarity": 0.8577696681022644
+  },
+  {
+    "term_1": "ermitteln",
+    "term_2": "ermittelt",
+    "similarity": 0.8576886653900146
+  },
+  {
+    "term_1": "erfüllt sein",
+    "term_2": "müssen erfüllt sein",
+    "similarity": 0.8576849699020386
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "erlangt",
+    "similarity": 0.8574275374412537
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "überschreitet",
+    "similarity": 0.8574193120002747
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.8573243618011475
+  },
+  {
+    "term_1": "beendet",
+    "term_2": "abschließen",
+    "similarity": 0.8571247458457947
+  },
+  {
+    "term_1": "führen",
+    "term_2": "treten",
+    "similarity": 0.8569535613059998
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "wirken",
+    "similarity": 0.8568696975708008
+  },
+  {
+    "term_1": "bewiesen werden",
+    "term_2": "nachweisen",
+    "similarity": 0.8568108081817627
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "darlegen",
+    "similarity": 0.856620192527771
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "vorlegen",
+    "similarity": 0.8564066290855408
+  },
+  {
+    "term_1": "ausschlagen",
+    "term_2": "abwägen",
+    "similarity": 0.856402575969696
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "festsetzen",
+    "similarity": 0.8558524250984192
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "belehren",
+    "similarity": 0.8557266592979431
+  },
+  {
+    "term_1": "entnehmen kann",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.8556248545646667
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "vollzieht",
+    "similarity": 0.855553925037384
+  },
+  {
+    "term_1": "erhalten",
+    "term_2": "erfolgen",
+    "similarity": 0.8554405570030212
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "festsetzen",
+    "similarity": 0.8553920388221741
+  },
+  {
+    "term_1": "prüfen",
+    "term_2": "feststellen",
+    "similarity": 0.8551481366157532
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "vereisen",
+    "similarity": 0.8548141717910767
+  },
+  {
+    "term_1": "kann führen zu",
+    "term_2": "kann ausüben",
+    "similarity": 0.854756236076355
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "hat Auswirkungen auf",
+    "similarity": 0.8545235991477966
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "vornehmen",
+    "similarity": 0.8545055985450745
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8542682528495789
+  },
+  {
+    "term_1": "angepriesen",
+    "term_2": "betreuen",
+    "similarity": 0.8539604544639587
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "erbringt",
+    "similarity": 0.8536784648895264
+  },
+  {
+    "term_1": "vornehmen",
+    "term_2": "darlegen",
+    "similarity": 0.8533943295478821
+  },
+  {
+    "term_1": "müssen",
+    "term_2": "nötig",
+    "similarity": 0.853364884853363
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "vollzogen",
+    "similarity": 0.8533068895339966
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "entnehmen kann",
+    "similarity": 0.8532918691635132
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "erbringt",
+    "similarity": 0.8531738519668579
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "führen",
+    "similarity": 0.8531658053398132
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "müssen",
+    "similarity": 0.8528537154197693
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "vereisen",
+    "similarity": 0.8527719378471375
+  },
+  {
+    "term_1": "kann ausüben",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.852331280708313
+  },
+  {
+    "term_1": "repräsentiert",
+    "term_2": "vertretenden",
+    "similarity": 0.8519763350486755
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "entfällt",
+    "similarity": 0.8518359065055847
+  },
+  {
+    "term_1": "liegt vor",
+    "term_2": "liegt",
+    "similarity": 0.8518190979957581
+  },
+  {
+    "term_1": "betreiben",
+    "term_2": "führen",
+    "similarity": 0.8517612814903259
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "begehen",
+    "similarity": 0.8516332507133484
+  },
+  {
+    "term_1": "pflichten",
+    "term_2": "erfülltPflichten",
+    "similarity": 0.8516194820404053
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "erörtern",
+    "similarity": 0.851603627204895
+  },
+  {
+    "term_1": "pflichten",
+    "term_2": "hat Pflichten",
+    "similarity": 0.8516004681587219
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "erfolgen",
+    "similarity": 0.8515403866767883
+  },
+  {
+    "term_1": "ersetzt",
+    "term_2": "ändern",
+    "similarity": 0.8514396548271179
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "auszulegen",
+    "similarity": 0.8513862490653992
+  },
+  {
+    "term_1": "führtzu",
+    "term_2": "bewirken",
+    "similarity": 0.850436270236969
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "erbringt",
+    "similarity": 0.8503128290176392
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "festsetzt",
+    "similarity": 0.8501659035682678
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "vereisen",
+    "similarity": 0.8496379256248474
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "fortsetzen",
+    "similarity": 0.8495866656303406
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8494608402252197
+  },
+  {
+    "term_1": "belehren",
+    "term_2": "erörtern",
+    "similarity": 0.8494147658348083
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "verstößtGegen",
+    "similarity": 0.849064290523529
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "wirken",
+    "similarity": 0.8488365411758423
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "benötigt",
+    "similarity": 0.848709225654602
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "bewirken",
+    "similarity": 0.8485783338546753
+  },
+  {
+    "term_1": "betreuen",
+    "term_2": "erlangt",
+    "similarity": 0.8484713435173035
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "erleiden",
+    "similarity": 0.8484091758728027
+  },
+  {
+    "term_1": "einrichten",
+    "term_2": "bereitstellen",
+    "similarity": 0.8483374118804932
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "befugt",
+    "similarity": 0.8481059074401855
+  },
+  {
+    "term_1": "überschreitet",
+    "term_2": "abwägen",
+    "similarity": 0.847804605960846
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "fassen",
+    "similarity": 0.8477681875228882
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "befugt",
+    "similarity": 0.8477659821510315
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "überschreitet",
+    "similarity": 0.8472175598144531
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "gestärken",
+    "similarity": 0.8469749093055725
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "aufnehmen",
+    "similarity": 0.8468998670578003
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "erfülltPflichten",
+    "similarity": 0.8467181324958801
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "ersparen",
+    "similarity": 0.8467056751251221
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "betreuen",
+    "similarity": 0.8464639186859131
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "erbringt",
+    "similarity": 0.8462948203086853
+  },
+  {
+    "term_1": "wird",
+    "term_2": "bestimmt wird",
+    "similarity": 0.8462209701538086
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "vereisen",
+    "similarity": 0.8460220694541931
+  },
+  {
+    "term_1": "verstößt gegen",
+    "term_2": "entgegennehmen",
+    "similarity": 0.8460088968276978
+  },
+  {
+    "term_1": "einrichten",
+    "term_2": "darlegen",
+    "similarity": 0.8459412455558777
+  },
+  {
+    "term_1": "ausschlagen",
+    "term_2": "entfallen",
+    "similarity": 0.8458889722824097
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "befugt",
+    "similarity": 0.8456867933273315
+  },
+  {
+    "term_1": "kannBeurteiltWerden",
+    "term_2": "kannGewaehltWerden",
+    "similarity": 0.8456692099571228
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "führtzu",
+    "similarity": 0.8456223011016846
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "unwirksam sein",
+    "similarity": 0.8455412983894348
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "durchgeführt werden",
+    "similarity": 0.8453673720359802
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "unwirksam",
+    "similarity": 0.8452251553535461
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "abwägen",
+    "similarity": 0.8448227047920227
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "festsetzt",
+    "similarity": 0.8448140621185303
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "aufheben",
+    "similarity": 0.8445499539375305
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "abwägen",
+    "similarity": 0.8445206880569458
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "schädigen",
+    "similarity": 0.844498872756958
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "festsetzt",
+    "similarity": 0.8444948792457581
+  },
+  {
+    "term_1": "hat_Anpruch_auf",
+    "term_2": "ist_zu_beziffern",
+    "similarity": 0.8443905115127563
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "gestärken",
+    "similarity": 0.8443829417228699
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "verwirkt",
+    "similarity": 0.8443809747695923
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "muss",
+    "similarity": 0.844317615032196
+  },
+  {
+    "term_1": "mitwirken",
+    "term_2": "wirken",
+    "similarity": 0.8443001508712769
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "gestellt werden",
+    "similarity": 0.8442668914794922
+  },
+  {
+    "term_1": "kannErstelltWerden",
+    "term_2": "kannWahrnehmen",
+    "similarity": 0.8442655205726624
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "beteiligen",
+    "similarity": 0.8441856503486633
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "fassen",
+    "similarity": 0.8441264033317566
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "abweichen",
+    "similarity": 0.8441255688667297
+  },
+  {
+    "term_1": "treten ein",
+    "term_2": "eintreten",
+    "similarity": 0.8440635800361633
+  },
+  {
+    "term_1": "kannGeltendMachen",
+    "term_2": "kannGewaehltWerden",
+    "similarity": 0.8440400958061218
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "vermitteln",
+    "similarity": 0.8439801335334778
+  },
+  {
+    "term_1": "verursachen",
+    "term_2": "schädigen",
+    "similarity": 0.8439494371414185
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "nötig",
+    "similarity": 0.8438277840614319
+  },
+  {
+    "term_1": "angepriesen",
+    "term_2": "erörtern",
+    "similarity": 0.8437637090682983
+  },
+  {
+    "term_1": "kannHaften",
+    "term_2": "kannMachen",
+    "similarity": 0.8437187075614929
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "treten",
+    "similarity": 0.8436779975891113
+  },
+  {
+    "term_1": "hat Auswirkungen auf",
+    "term_2": "kann beeinflussen",
+    "similarity": 0.8436610698699951
+  },
+  {
+    "term_1": "einbehalten",
+    "term_2": "aufnehmen",
+    "similarity": 0.8436482548713684
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "treten",
+    "similarity": 0.8435373902320862
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "angelastet",
+    "similarity": 0.8433509469032288
+  },
+  {
+    "term_1": "tragen bei",
+    "term_2": "tragenFür",
+    "similarity": 0.8433088064193726
+  },
+  {
+    "term_1": "beweisen",
+    "term_2": "nachweist",
+    "similarity": 0.8433022499084473
+  },
+  {
+    "term_1": "ändern",
+    "term_2": "ändern können",
+    "similarity": 0.8432744145393372
+  },
+  {
+    "term_1": "kann beeinflussen",
+    "term_2": "hat Auswirkungen",
+    "similarity": 0.84309321641922
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "abweichen",
+    "similarity": 0.8430593013763428
+  },
+  {
+    "term_1": "unterliegen",
+    "term_2": "vorliegen",
+    "similarity": 0.8428903222084045
+  },
+  {
+    "term_1": "begehen",
+    "term_2": "treten",
+    "similarity": 0.842761754989624
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "einräumt",
+    "similarity": 0.8427305817604065
+  },
+  {
+    "term_1": "kann erfordern",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.8425346612930298
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "vornehmen",
+    "similarity": 0.8425336480140686
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "verlangt",
+    "similarity": 0.8424531817436218
+  },
+  {
+    "term_1": "berechnet werden",
+    "term_2": "ist zu berechnen bei",
+    "similarity": 0.8420381546020508
+  },
+  {
+    "term_1": "angeben",
+    "term_2": "aufweisen",
+    "similarity": 0.8419753313064575
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "vereisen",
+    "similarity": 0.8419440388679504
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "bewirken",
+    "similarity": 0.8418365716934204
+  },
+  {
+    "term_1": "verstehen",
+    "term_2": "erklären",
+    "similarity": 0.841766357421875
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "kannWahrnehmen",
+    "similarity": 0.8414728045463562
+  },
+  {
+    "term_1": "festsetzen",
+    "term_2": "aufheben",
+    "similarity": 0.8412507772445679
+  },
+  {
+    "term_1": "gelten",
+    "term_2": "gilt",
+    "similarity": 0.8411219716072083
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "fassen",
+    "similarity": 0.8410500288009644
+  },
+  {
+    "term_1": "ist verpflichtet",
+    "term_2": "ist vorgeschrieben",
+    "similarity": 0.8408845067024231
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "abwägen",
+    "similarity": 0.8407689332962036
+  },
+  {
+    "term_1": "haftet",
+    "term_2": "geschuldet",
+    "similarity": 0.8405014276504517
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "erbringt",
+    "similarity": 0.8404374122619629
+  },
+  {
+    "term_1": "erfolgen",
+    "term_2": "bereitstellen",
+    "similarity": 0.8401384949684143
+  },
+  {
+    "term_1": "kannGeltendMachen",
+    "term_2": "kannWahrnehmen",
+    "similarity": 0.8399946093559265
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "verwirkt",
+    "similarity": 0.8399713635444641
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "müssen",
+    "similarity": 0.8399597406387329
+  },
+  {
+    "term_1": "kann erfordern",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.8397650122642517
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "erlangt",
+    "similarity": 0.839738667011261
+  },
+  {
+    "term_1": "beseitigen",
+    "term_2": "erlöschen",
+    "similarity": 0.8396952152252197
+  },
+  {
+    "term_1": "widerrufen",
+    "term_2": "überschreitet",
+    "similarity": 0.8395661115646362
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "wirkt auf",
+    "similarity": 0.8393808007240295
+  },
+  {
+    "term_1": "erleiden",
+    "term_2": "entfallen",
+    "similarity": 0.8393788933753967
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "hat Pflichten",
+    "similarity": 0.8388948440551758
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "vereisen",
+    "similarity": 0.838690996170044
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "verwirkt",
+    "similarity": 0.8386521935462952
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "widerrufen",
+    "similarity": 0.8386163115501404
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "darlegen",
+    "similarity": 0.8386144638061523
+  },
+  {
+    "term_1": "rechnet sich",
+    "term_2": "ist zu berechnen bei",
+    "similarity": 0.8385247588157654
+  },
+  {
+    "term_1": "überschreitet",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8384486436843872
+  },
+  {
+    "term_1": "kann führen zu",
+    "term_2": "entnehmen kann",
+    "similarity": 0.8381595611572266
+  },
+  {
+    "term_1": "kann führen zu",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.8381229639053345
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "erörtern",
+    "similarity": 0.8379367589950562
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "gestellt werden",
+    "similarity": 0.8378095626831055
+  },
+  {
+    "term_1": "ersparen",
+    "term_2": "entfallen",
+    "similarity": 0.8378020524978638
+  },
+  {
+    "term_1": "kann durch",
+    "term_2": "kann ausüben",
+    "similarity": 0.8377066254615784
+  },
+  {
+    "term_1": "hemmt",
+    "term_2": "erlangt",
+    "similarity": 0.8376905918121338
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "erlangt",
+    "similarity": 0.8376705050468445
+  },
+  {
+    "term_1": "wirkt auf",
+    "term_2": "bewirken",
+    "similarity": 0.8376055955886841
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "wirken",
+    "similarity": 0.8375067710876465
+  },
+  {
+    "term_1": "verstehen",
+    "term_2": "ist zu verstehen als",
+    "similarity": 0.837504506111145
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "bereitstellen",
+    "similarity": 0.8373101949691772
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "entfallen",
+    "similarity": 0.8369995355606079
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "entnehmen kann",
+    "similarity": 0.8368942141532898
+  },
+  {
+    "term_1": "führen",
+    "term_2": "erfolgen",
+    "similarity": 0.836832582950592
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "befugt",
+    "similarity": 0.8367982506752014
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "auszulegen",
+    "similarity": 0.8366571068763733
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "eingehalten werden",
+    "similarity": 0.8366105556488037
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "erleiden",
+    "similarity": 0.8366056084632874
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8365973830223083
+  },
+  {
+    "term_1": "unterliegt",
+    "term_2": "unterliegen",
+    "similarity": 0.8364589810371399
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "erlangt",
+    "similarity": 0.8363907933235168
+  },
+  {
+    "term_1": "einräumen",
+    "term_2": "einräumt",
+    "similarity": 0.8362405300140381
+  },
+  {
+    "term_1": "berücksichtigt",
+    "term_2": "einzuschätzen",
+    "similarity": 0.8361763954162598
+  },
+  {
+    "term_1": "entnehmen kann",
+    "term_2": "kann ausüben",
+    "similarity": 0.8361189365386963
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8360253572463989
+  },
+  {
+    "term_1": "gestärken",
+    "term_2": "erörtern",
+    "similarity": 0.8360050916671753
+  },
+  {
+    "term_1": "führtzu",
+    "term_2": "erbringt",
+    "similarity": 0.8359807133674622
+  },
+  {
+    "term_1": "benachteiligend",
+    "term_2": "mindernd",
+    "similarity": 0.8358548283576965
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "vollzieht",
+    "similarity": 0.8358134627342224
+  },
+  {
+    "term_1": "unwirksam",
+    "term_2": "verwirkt",
+    "similarity": 0.8357142210006714
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "aufnehmen",
+    "similarity": 0.8356145620346069
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "aufweisen",
+    "similarity": 0.83550626039505
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "gestärken",
+    "similarity": 0.8352592587471008
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "gestärken",
+    "similarity": 0.8350367546081543
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "führen",
+    "similarity": 0.8348872065544128
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "gehemmt werden",
+    "similarity": 0.8346967697143555
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "betreuen",
+    "similarity": 0.8346922397613525
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "vollzieht",
+    "similarity": 0.834504246711731
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "vorsieht",
+    "similarity": 0.8344863057136536
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "gemindert",
+    "similarity": 0.834424614906311
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "wirkt auf",
+    "similarity": 0.8343771696090698
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "nachweist",
+    "similarity": 0.8342719078063965
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "lastet",
+    "similarity": 0.8342710137367249
+  },
+  {
+    "term_1": "widerrufen",
+    "term_2": "abwägen",
+    "similarity": 0.8342517614364624
+  },
+  {
+    "term_1": "kannGewaehltWerden",
+    "term_2": "kannErstelltWerden",
+    "similarity": 0.8341308832168579
+  },
+  {
+    "term_1": "beanspruchen kann",
+    "term_2": "kann ausüben",
+    "similarity": 0.8337629437446594
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "befugt",
+    "similarity": 0.8337583541870117
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "ausüben",
+    "similarity": 0.8336979746818542
+  },
+  {
+    "term_1": "vorsieht",
+    "term_2": "betrachten",
+    "similarity": 0.8335611820220947
+  },
+  {
+    "term_1": "bewiesen werden",
+    "term_2": "nachweist",
+    "similarity": 0.8335370421409607
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "aufweisen",
+    "similarity": 0.8334534764289856
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "aufweisen",
+    "similarity": 0.8334372639656067
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8333867788314819
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "ist unwirksam",
+    "similarity": 0.8333709239959717
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "ausüben",
+    "similarity": 0.8333358764648438
+  },
+  {
+    "term_1": "einstellen",
+    "term_2": "einzuordnen",
+    "similarity": 0.8333294987678528
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "belehren",
+    "similarity": 0.8332796692848206
+  },
+  {
+    "term_1": "lastet",
+    "term_2": "vereisen",
+    "similarity": 0.8330422639846802
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "betreuen",
+    "similarity": 0.8330309987068176
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "überschreitet",
+    "similarity": 0.8328658938407898
+  },
+  {
+    "term_1": "gilt Fuer",
+    "term_2": "giltFür",
+    "similarity": 0.8328215479850769
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "ausschlagen",
+    "similarity": 0.8327736854553223
+  },
+  {
+    "term_1": "ermittelt",
+    "term_2": "vorliegt",
+    "similarity": 0.832679033279419
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "abweichen",
+    "similarity": 0.8326689600944519
+  },
+  {
+    "term_1": "ermittelt",
+    "term_2": "feststellen",
+    "similarity": 0.8326342701911926
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "ziehen",
+    "similarity": 0.8325347900390625
+  },
+  {
+    "term_1": "erlangt",
+    "term_2": "einräumt",
+    "similarity": 0.8323819637298584
+  },
+  {
+    "term_1": "geltend machen",
+    "term_2": "geltendMachen",
+    "similarity": 0.8323708176612854
+  },
+  {
+    "term_1": "festsetzen",
+    "term_2": "darlegen",
+    "similarity": 0.8323611617088318
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "erfolgt",
+    "similarity": 0.8323132991790771
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "festsetzt",
+    "similarity": 0.8322683572769165
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "lastet",
+    "similarity": 0.8322510123252869
+  },
+  {
+    "term_1": "erleiden",
+    "term_2": "verursachen",
+    "similarity": 0.8321319818496704
+  },
+  {
+    "term_1": "erleiden",
+    "term_2": "erbringt",
+    "similarity": 0.8320446014404297
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "gilt",
+    "similarity": 0.8320042490959167
+  },
+  {
+    "term_1": "begehen",
+    "term_2": "führen",
+    "similarity": 0.8319968581199646
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "führen",
+    "similarity": 0.8318449258804321
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "betreuen",
+    "similarity": 0.8317900896072388
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "kannHaften",
+    "similarity": 0.8317629098892212
+  },
+  {
+    "term_1": "kannGeltendMachen",
+    "term_2": "kannErmitteltWerden",
+    "similarity": 0.8316850066184998
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "erleiden",
+    "similarity": 0.8313760161399841
+  },
+  {
+    "term_1": "gilt_fuer",
+    "term_2": "ist_zu_beziffern",
+    "similarity": 0.8309817314147949
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "bereitstellen",
+    "similarity": 0.8309441804885864
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "erörtern",
+    "similarity": 0.8309183716773987
+  },
+  {
+    "term_1": "beginnen",
+    "term_2": "beginnt mit",
+    "similarity": 0.8308662176132202
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "vollzieht",
+    "similarity": 0.8308312296867371
+  },
+  {
+    "term_1": "basiert",
+    "term_2": "begründet",
+    "similarity": 0.8308119773864746
+  },
+  {
+    "term_1": "gilt_fuer",
+    "term_2": "hat_Anspruch_auf",
+    "similarity": 0.8308042883872986
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "abschließen",
+    "similarity": 0.8307992815971375
+  },
+  {
+    "term_1": "kann geltend gemacht werden",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.8307487368583679
+  },
+  {
+    "term_1": "nachweist",
+    "term_2": "nachweisen",
+    "similarity": 0.8306783437728882
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "vereitelt",
+    "similarity": 0.8306729197502136
+  },
+  {
+    "term_1": "wird gehemmt",
+    "term_2": "wird",
+    "similarity": 0.8302238583564758
+  },
+  {
+    "term_1": "kannGeltendGemachtWerden",
+    "term_2": "kannErmitteltWerden",
+    "similarity": 0.830191433429718
+  },
+  {
+    "term_1": "rechnet sich",
+    "term_2": "ist zu berechnen als",
+    "similarity": 0.8301454782485962
+  },
+  {
+    "term_1": "erfüllt",
+    "term_2": "erfüllen",
+    "similarity": 0.830077052116394
+  },
+  {
+    "term_1": "bedeuten",
+    "term_2": "haben Bedeutung",
+    "similarity": 0.8300284147262573
+  },
+  {
+    "term_1": "angepriesen",
+    "term_2": "belehren",
+    "similarity": 0.8300173878669739
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "erbringt",
+    "similarity": 0.8299569487571716
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "abwägen",
+    "similarity": 0.8299179077148438
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "erbringt",
+    "similarity": 0.8297953009605408
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "abwägen",
+    "similarity": 0.829604983329773
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "festsetzen",
+    "similarity": 0.829523503780365
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "beanspruchen",
+    "similarity": 0.8292909264564514
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "erlangt",
+    "similarity": 0.8291861414909363
+  },
+  {
+    "term_1": "geltend machen",
+    "term_2": "gestellt werden",
+    "similarity": 0.8290979862213135
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "gestellt werden",
+    "similarity": 0.8290676474571228
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "entfallen",
+    "similarity": 0.829039454460144
+  },
+  {
+    "term_1": "berechtigt",
+    "term_2": "hat Rechte",
+    "similarity": 0.8289976119995117
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "fordern",
+    "similarity": 0.8289862871170044
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "erlangt",
+    "similarity": 0.8289663195610046
+  },
+  {
+    "term_1": "festsetzen",
+    "term_2": "abwägen",
+    "similarity": 0.8288130164146423
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "vorliegt",
+    "similarity": 0.8285869359970093
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "ausüben",
+    "similarity": 0.8283365964889526
+  },
+  {
+    "term_1": "betreuen",
+    "term_2": "erbringt",
+    "similarity": 0.828336238861084
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "kann ausüben",
+    "similarity": 0.8281948566436768
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "abwägen",
+    "similarity": 0.8281801342964172
+  },
+  {
+    "term_1": "fordern",
+    "term_2": "fordern kann",
+    "similarity": 0.8277352452278137
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "belehren",
+    "similarity": 0.8276300430297852
+  },
+  {
+    "term_1": "anwendbar",
+    "term_2": "abwägen",
+    "similarity": 0.8275896310806274
+  },
+  {
+    "term_1": "kann durch",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.827533483505249
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "erfolgen",
+    "similarity": 0.8274528384208679
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "bestehen",
+    "similarity": 0.8274317383766174
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "betreffen",
+    "similarity": 0.8273703455924988
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "aufweisen",
+    "similarity": 0.827307403087616
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "erbringt",
+    "similarity": 0.8272647857666016
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "erörtern",
+    "similarity": 0.8271116018295288
+  },
+  {
+    "term_1": "basiert auf",
+    "term_2": "begründet",
+    "similarity": 0.8268880248069763
+  },
+  {
+    "term_1": "belehren",
+    "term_2": "erleiden",
+    "similarity": 0.8268564343452454
+  },
+  {
+    "term_1": "vorliegt",
+    "term_2": "nachweist",
+    "similarity": 0.8268510699272156
+  },
+  {
+    "term_1": "ist erforderlich",
+    "term_2": "muss",
+    "similarity": 0.8265047073364258
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "treten",
+    "similarity": 0.8263704180717468
+  },
+  {
+    "term_1": "gilt_fuer",
+    "term_2": "hat_Anpruch_auf",
+    "similarity": 0.8263401985168457
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "abweichen",
+    "similarity": 0.8261078000068665
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "vornehmen",
+    "similarity": 0.8260562419891357
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "schaffen",
+    "similarity": 0.8260262608528137
+  },
+  {
+    "term_1": "kannGewaehltWerden",
+    "term_2": "kannWahrnehmen",
+    "similarity": 0.8259846568107605
+  },
+  {
+    "term_1": "einbauen",
+    "term_2": "errichtet",
+    "similarity": 0.8258456587791443
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "vorsehen",
+    "similarity": 0.8258193731307983
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "vollzieht",
+    "similarity": 0.8257220983505249
+  },
+  {
+    "term_1": "vorliegt",
+    "term_2": "nachweisen",
+    "similarity": 0.8256948590278625
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "entfällt",
+    "similarity": 0.8256295323371887
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "weitergeben",
+    "similarity": 0.8256292939186096
+  },
+  {
+    "term_1": "ist zu bestimmen",
+    "term_2": "entscheidet",
+    "similarity": 0.8255688548088074
+  },
+  {
+    "term_1": "verletzt",
+    "term_2": "schädigen",
+    "similarity": 0.8255575895309448
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "überschreitet",
+    "similarity": 0.825546145439148
+  },
+  {
+    "term_1": "gewährleisten",
+    "term_2": "sicherzustellen",
+    "similarity": 0.82552170753479
+  },
+  {
+    "term_1": "widerrufen",
+    "term_2": "entfallen",
+    "similarity": 0.8253760933876038
+  },
+  {
+    "term_1": "geregelt werden",
+    "term_2": "istRegelt",
+    "similarity": 0.8253596425056458
+  },
+  {
+    "term_1": "erörtern",
+    "term_2": "erbringt",
+    "similarity": 0.8252685070037842
+  },
+  {
+    "term_1": "erteilen",
+    "term_2": "darlegen",
+    "similarity": 0.8250827789306641
+  },
+  {
+    "term_1": "nötig",
+    "term_2": "ist erforderlich für",
+    "similarity": 0.8246625065803528
+  },
+  {
+    "term_1": "überschreitet",
+    "term_2": "erlangt",
+    "similarity": 0.8246556520462036
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "einräumt",
+    "similarity": 0.8244315981864929
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "fassen",
+    "similarity": 0.8243942260742188
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "durchsetzen",
+    "similarity": 0.8243457078933716
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "erforderlich für",
+    "similarity": 0.8243393301963806
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "begehen",
+    "similarity": 0.8242188096046448
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "beteiligen",
+    "similarity": 0.8241643309593201
+  },
+  {
+    "term_1": "überprüfen",
+    "term_2": "feststellen",
+    "similarity": 0.8241332769393921
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "vereisen",
+    "similarity": 0.8241313695907593
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "entfällt",
+    "similarity": 0.8240939378738403
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "erbringt",
+    "similarity": 0.8240581154823303
+  },
+  {
+    "term_1": "kennt",
+    "term_2": "hat Kenntnis",
+    "similarity": 0.8240580558776855
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "befugt",
+    "similarity": 0.8239650130271912
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "abwägen",
+    "similarity": 0.8239631652832031
+  },
+  {
+    "term_1": "erhalten",
+    "term_2": "zusenden",
+    "similarity": 0.823891818523407
+  },
+  {
+    "term_1": "einrichten",
+    "term_2": "einzuordnen",
+    "similarity": 0.8237365484237671
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "erfolgen",
+    "similarity": 0.8236889243125916
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "einhalten",
+    "similarity": 0.8236519694328308
+  },
+  {
+    "term_1": "einbauen",
+    "term_2": "darlegen",
+    "similarity": 0.823588490486145
+  },
+  {
+    "term_1": "gilt_fuer",
+    "term_2": "ist_befugt",
+    "similarity": 0.8234634399414062
+  },
+  {
+    "term_1": "kann",
+    "term_2": "kann führen zu",
+    "similarity": 0.8234243392944336
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "entfällt",
+    "similarity": 0.8233956098556519
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "ausüben",
+    "similarity": 0.8232825398445129
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "aufweisen",
+    "similarity": 0.8232781887054443
+  },
+  {
+    "term_1": "wirken",
+    "term_2": "wirkt sich aus",
+    "similarity": 0.8231996297836304
+  },
+  {
+    "term_1": "verwirkt",
+    "term_2": "wirkt sich aus",
+    "similarity": 0.8231983780860901
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "hat Pflichten",
+    "similarity": 0.8231444954872131
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "entfallen",
+    "similarity": 0.8230333924293518
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "kann beeinflussen",
+    "similarity": 0.8230161666870117
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "erfolgen",
+    "similarity": 0.8229648470878601
+  },
+  {
+    "term_1": "führen",
+    "term_2": "erbringt",
+    "similarity": 0.8228644132614136
+  },
+  {
+    "term_1": "hemmt",
+    "term_2": "erörtern",
+    "similarity": 0.8228612542152405
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "einbehalten",
+    "similarity": 0.8227647542953491
+  },
+  {
+    "term_1": "interpretieren",
+    "term_2": "verstehen",
+    "similarity": 0.8225451707839966
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "erfolgen",
+    "similarity": 0.822532057762146
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "festsetzt",
+    "similarity": 0.8224706649780273
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "kann erfordern",
+    "similarity": 0.8223817348480225
+  },
+  {
+    "term_1": "weitergeben",
+    "term_2": "einbehalten",
+    "similarity": 0.8222697377204895
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "entfällt",
+    "similarity": 0.8222259283065796
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "ausschlagen",
+    "similarity": 0.8221472501754761
+  },
+  {
+    "term_1": "festsetzen",
+    "term_2": "vereisen",
+    "similarity": 0.8221454620361328
+  },
+  {
+    "term_1": "kann",
+    "term_2": "kannWahrnehmen",
+    "similarity": 0.8218414783477783
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "ist verpflichtet",
+    "similarity": 0.8217746615409851
+  },
+  {
+    "term_1": "widerrufen",
+    "term_2": "befugt",
+    "similarity": 0.8217477798461914
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "erlangt",
+    "similarity": 0.8217031955718994
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "beschließen",
+    "similarity": 0.8216823935508728
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "treten",
+    "similarity": 0.8216390609741211
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "muss",
+    "similarity": 0.8216059803962708
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "gemindert",
+    "similarity": 0.8215422034263611
+  },
+  {
+    "term_1": "beanspruchen kann",
+    "term_2": "kann durch",
+    "similarity": 0.8213531970977783
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "festsetzen",
+    "similarity": 0.821222722530365
+  },
+  {
+    "term_1": "angemessen",
+    "term_2": "entsprechen",
+    "similarity": 0.8210262060165405
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "ausschlagen",
+    "similarity": 0.8209750056266785
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "entfallen",
+    "similarity": 0.8209012746810913
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "erhalten",
+    "similarity": 0.8208369612693787
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "angepriesen",
+    "similarity": 0.8207244277000427
+  },
+  {
+    "term_1": "betreiben",
+    "term_2": "bewirken",
+    "similarity": 0.8206457495689392
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "einräumt",
+    "similarity": 0.8206232786178589
+  },
+  {
+    "term_1": "ersparen",
+    "term_2": "betreuen",
+    "similarity": 0.8206190466880798
+  },
+  {
+    "term_1": "leiten",
+    "term_2": "vereisen",
+    "similarity": 0.8204154968261719
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "bereitstellen",
+    "similarity": 0.8203262090682983
+  },
+  {
+    "term_1": "kannHaften",
+    "term_2": "kannAnfechten",
+    "similarity": 0.8202872276306152
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "erörtern",
+    "similarity": 0.8202864527702332
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "führen",
+    "similarity": 0.8202742338180542
+  },
+  {
+    "term_1": "ermöglichen",
+    "term_2": "kann",
+    "similarity": 0.8202257752418518
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "beanspruchen",
+    "similarity": 0.8201832175254822
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "vereisen",
+    "similarity": 0.8201786279678345
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "festsetzen",
+    "similarity": 0.8201377391815186
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "vornehmen",
+    "similarity": 0.8200588822364807
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "bewirken",
+    "similarity": 0.8199854493141174
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "bewirken",
+    "similarity": 0.8199553489685059
+  },
+  {
+    "term_1": "kannBeurteiltWerden",
+    "term_2": "kannErmitteltWerden",
+    "similarity": 0.8198991417884827
+  },
+  {
+    "term_1": "hemmt",
+    "term_2": "erbringt",
+    "similarity": 0.8197841644287109
+  },
+  {
+    "term_1": "einräumt",
+    "term_2": "erbringt",
+    "similarity": 0.8197705149650574
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "auslegen",
+    "similarity": 0.8196882605552673
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "befugt",
+    "similarity": 0.8196666240692139
+  },
+  {
+    "term_1": "kann",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.8194158673286438
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "erlangt",
+    "similarity": 0.8191502094268799
+  },
+  {
+    "term_1": "erfolgen",
+    "term_2": "erbringt",
+    "similarity": 0.818957507610321
+  },
+  {
+    "term_1": "eingeräumt",
+    "term_2": "einräumen",
+    "similarity": 0.818839430809021
+  },
+  {
+    "term_1": "aufheben",
+    "term_2": "einbehalten",
+    "similarity": 0.8185604810714722
+  },
+  {
+    "term_1": "weitergeben",
+    "term_2": "aufheben",
+    "similarity": 0.8184191584587097
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "betreuen",
+    "similarity": 0.8181232810020447
+  },
+  {
+    "term_1": "angemessen",
+    "term_2": "entspricht",
+    "similarity": 0.8180665969848633
+  },
+  {
+    "term_1": "kannHaften",
+    "term_2": "hemmt",
+    "similarity": 0.8179463148117065
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "kann ausüben",
+    "similarity": 0.8179267644882202
+  },
+  {
+    "term_1": "ermitteln",
+    "term_2": "nachweisen",
+    "similarity": 0.8178240656852722
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "betreffen",
+    "similarity": 0.8178080320358276
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "führen",
+    "similarity": 0.8178064823150635
+  },
+  {
+    "term_1": "mindernd",
+    "term_2": "kann mindern",
+    "similarity": 0.8177342414855957
+  },
+  {
+    "term_1": "kann geltend gemacht werden",
+    "term_2": "kann beanspruchen",
+    "similarity": 0.8177043199539185
+  },
+  {
+    "term_1": "verstehen",
+    "term_2": "interpretiert",
+    "similarity": 0.8176537156105042
+  },
+  {
+    "term_1": "ist zu bestimmen",
+    "term_2": "kann bestimmen",
+    "similarity": 0.8176486492156982
+  },
+  {
+    "term_1": "begehen",
+    "term_2": "eintreten",
+    "similarity": 0.8176328539848328
+  },
+  {
+    "term_1": "führen",
+    "term_2": "vornehmen",
+    "similarity": 0.8175499439239502
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "einräumt",
+    "similarity": 0.8174527883529663
+  },
+  {
+    "term_1": "vereinbart",
+    "term_2": "vereinbaren",
+    "similarity": 0.8173004388809204
+  },
+  {
+    "term_1": "nötig",
+    "term_2": "erfordert",
+    "similarity": 0.817188024520874
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "festsetzen",
+    "similarity": 0.817131519317627
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "nachweist",
+    "similarity": 0.8171193599700928
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "müssen",
+    "similarity": 0.8170970678329468
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "ist angelegt",
+    "similarity": 0.8170914649963379
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "mitwirken",
+    "similarity": 0.8170612454414368
+  },
+  {
+    "term_1": "ist_verantwortlich_für",
+    "term_2": "verantwortlich für",
+    "similarity": 0.8170562982559204
+  },
+  {
+    "term_1": "begehen",
+    "term_2": "vornehmen",
+    "similarity": 0.817039966583252
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "darlegen",
+    "similarity": 0.8167906403541565
+  },
+  {
+    "term_1": "vollzogen",
+    "term_2": "einräumt",
+    "similarity": 0.8167763352394104
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "ist zurückzuführen auf",
+    "similarity": 0.8164394497871399
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "gestärken",
+    "similarity": 0.8164318799972534
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8164036273956299
+  },
+  {
+    "term_1": "betreiben",
+    "term_2": "erfolgen",
+    "similarity": 0.8163841962814331
+  },
+  {
+    "term_1": "festlegen",
+    "term_2": "aufheben",
+    "similarity": 0.8162737488746643
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "gestärken",
+    "similarity": 0.8162152767181396
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "belehren",
+    "similarity": 0.81617271900177
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "begehen",
+    "similarity": 0.8161094784736633
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "erörtern",
+    "similarity": 0.8161013722419739
+  },
+  {
+    "term_1": "erfolgen",
+    "term_2": "vornehmen",
+    "similarity": 0.8160837292671204
+  },
+  {
+    "term_1": "ermöglichen",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.8160526752471924
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "erörtern",
+    "similarity": 0.8160330653190613
+  },
+  {
+    "term_1": "vorliegt",
+    "term_2": "aufweisen",
+    "similarity": 0.8158960342407227
+  },
+  {
+    "term_1": "erfüllt",
+    "term_2": "vollzogen",
+    "similarity": 0.8158875107765198
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "aufweisen",
+    "similarity": 0.8158712983131409
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "zurechenbar",
+    "similarity": 0.8158701062202454
+  },
+  {
+    "term_1": "hat Rechte",
+    "term_2": "ist berechtigt",
+    "similarity": 0.8157338500022888
+  },
+  {
+    "term_1": "bei der Beurteilung",
+    "term_2": "bei der Beurteilung der Kausalität",
+    "similarity": 0.815714418888092
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "erteilen",
+    "similarity": 0.8156235814094543
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "istVerpflichtet",
+    "similarity": 0.8155592083930969
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8155456185340881
+  },
+  {
+    "term_1": "verlangen",
+    "term_2": "erfordert",
+    "similarity": 0.8154827952384949
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "angelastet",
+    "similarity": 0.8154589533805847
+  },
+  {
+    "term_1": "ermitteln",
+    "term_2": "vorliegt",
+    "similarity": 0.8154289722442627
+  },
+  {
+    "term_1": "lastet",
+    "term_2": "erlangt",
+    "similarity": 0.8154246807098389
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "erlangt",
+    "similarity": 0.8154163956642151
+  },
+  {
+    "term_1": "hat_Anspruch_auf",
+    "term_2": "ist_zu_beziffern",
+    "similarity": 0.8152607679367065
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "vornehmen",
+    "similarity": 0.815233588218689
+  },
+  {
+    "term_1": "istVerpflichtet",
+    "term_2": "ist vorgeschrieben",
+    "similarity": 0.8150903582572937
+  },
+  {
+    "term_1": "fordern",
+    "term_2": "stellt Anforderungen",
+    "similarity": 0.815083920955658
+  },
+  {
+    "term_1": "auftreten",
+    "term_2": "führen",
+    "similarity": 0.8150198459625244
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "erfüllen",
+    "similarity": 0.8149835467338562
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "geboten",
+    "similarity": 0.8149648308753967
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "belehren",
+    "similarity": 0.8147538304328918
+  },
+  {
+    "term_1": "erfüllt",
+    "term_2": "bestehen",
+    "similarity": 0.814672589302063
+  },
+  {
+    "term_1": "erlassen kann",
+    "term_2": "kann ausüben",
+    "similarity": 0.8145433068275452
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "gemindert",
+    "similarity": 0.8144776225090027
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "erteilen",
+    "similarity": 0.814464271068573
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "bestehen",
+    "similarity": 0.8144577145576477
+  },
+  {
+    "term_1": "aufheben",
+    "term_2": "aufweisen",
+    "similarity": 0.8144454956054688
+  },
+  {
+    "term_1": "beeinflusst",
+    "term_2": "wirkt auf",
+    "similarity": 0.8144210577011108
+  },
+  {
+    "term_1": "kannWahrnehmen",
+    "term_2": "kannMachen",
+    "similarity": 0.8142399787902832
+  },
+  {
+    "term_1": "klären",
+    "term_2": "verstehen",
+    "similarity": 0.814177393913269
+  },
+  {
+    "term_1": "lastet",
+    "term_2": "vollzieht",
+    "similarity": 0.8140661716461182
+  },
+  {
+    "term_1": "inanspruchnehmen",
+    "term_2": "abwägen",
+    "similarity": 0.8140291571617126
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "erteilen",
+    "similarity": 0.8139305114746094
+  },
+  {
+    "term_1": "erfordert",
+    "term_2": "stellt Anforderungen",
+    "similarity": 0.8138474225997925
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "erteilen",
+    "similarity": 0.8138272762298584
+  },
+  {
+    "term_1": "betrifft",
+    "term_2": "betreffen",
+    "similarity": 0.813779890537262
+  },
+  {
+    "term_1": "ersparen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8137484788894653
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "erteilen",
+    "similarity": 0.8136292695999146
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "gestellt werden",
+    "similarity": 0.8136285543441772
+  },
+  {
+    "term_1": "entschädigen",
+    "term_2": "profitieren von",
+    "similarity": 0.813618540763855
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "ersparen",
+    "similarity": 0.8134957551956177
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "befugt",
+    "similarity": 0.8133916854858398
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "ist angelegt",
+    "similarity": 0.8133152723312378
+  },
+  {
+    "term_1": "benötigt",
+    "term_2": "genügt",
+    "similarity": 0.8132874369621277
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "ersparen",
+    "similarity": 0.8132299780845642
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "treten",
+    "similarity": 0.8131851553916931
+  },
+  {
+    "term_1": "schließt",
+    "term_2": "beendet",
+    "similarity": 0.8131546378135681
+  },
+  {
+    "term_1": "kann",
+    "term_2": "entnehmen kann",
+    "similarity": 0.812904417514801
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "fassen",
+    "similarity": 0.8128089904785156
+  },
+  {
+    "term_1": "hat_Anpruch_auf",
+    "term_2": "ist_befugt",
+    "similarity": 0.8127973079681396
+  },
+  {
+    "term_1": "hinterlegen",
+    "term_2": "vorlegen",
+    "similarity": 0.8127520680427551
+  },
+  {
+    "term_1": "betreiben",
+    "term_2": "erbringt",
+    "similarity": 0.8125916719436646
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "ist unwirksam",
+    "similarity": 0.8125495314598083
+  },
+  {
+    "term_1": "darlegen",
+    "term_2": "bereitstellen",
+    "similarity": 0.8125413060188293
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "duldet",
+    "similarity": 0.812541127204895
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "bestehen",
+    "similarity": 0.8124599456787109
+  },
+  {
+    "term_1": "wird als",
+    "term_2": "gilt als",
+    "similarity": 0.8124589920043945
+  },
+  {
+    "term_1": "kannRepräsentieren",
+    "term_2": "repräsentiert",
+    "similarity": 0.8124511241912842
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "beteiligen",
+    "similarity": 0.8124396204948425
+  },
+  {
+    "term_1": "ausschlagen",
+    "term_2": "betreuen",
+    "similarity": 0.8124082088470459
+  },
+  {
+    "term_1": "fortsetzen",
+    "term_2": "festsetzen",
+    "similarity": 0.8121950626373291
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "erlangt",
+    "similarity": 0.8121918439865112
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "festsetzen",
+    "similarity": 0.8121725916862488
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "erlangt",
+    "similarity": 0.8121517300605774
+  },
+  {
+    "term_1": "müssen erfüllt sein",
+    "term_2": "müssenErfülltSein",
+    "similarity": 0.8120958805084229
+  },
+  {
+    "term_1": "unwirksam sein",
+    "term_2": "verwirkt",
+    "similarity": 0.8120052218437195
+  },
+  {
+    "term_1": "hat_Anspruch_auf",
+    "term_2": "gilt_für",
+    "similarity": 0.8120021224021912
+  },
+  {
+    "term_1": "führtzu",
+    "term_2": "treten",
+    "similarity": 0.8119783401489258
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "aufheben",
+    "similarity": 0.8117465376853943
+  },
+  {
+    "term_1": "beeinträchtigen",
+    "term_2": "beeinflusst",
+    "similarity": 0.8114365339279175
+  },
+  {
+    "term_1": "erbringt",
+    "term_2": "darlegen",
+    "similarity": 0.8113936185836792
+  },
+  {
+    "term_1": "weitergeben",
+    "term_2": "aufnehmen",
+    "similarity": 0.8112348318099976
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "erfüllt sein",
+    "similarity": 0.811214804649353
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "einräumt",
+    "similarity": 0.8108850717544556
+  },
+  {
+    "term_1": "nachweist",
+    "term_2": "erfolgen",
+    "similarity": 0.8108497858047485
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "aufheben",
+    "similarity": 0.8108237981796265
+  },
+  {
+    "term_1": "feststellen",
+    "term_2": "nachweisen",
+    "similarity": 0.8107646703720093
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "erbringt",
+    "similarity": 0.8107472062110901
+  },
+  {
+    "term_1": "eingeordnet",
+    "term_2": "zuordnen",
+    "similarity": 0.8106698393821716
+  },
+  {
+    "term_1": "vornehmen",
+    "term_2": "bereitstellen",
+    "similarity": 0.810653567314148
+  },
+  {
+    "term_1": "entnehmen kann",
+    "term_2": "kann durch",
+    "similarity": 0.8106059432029724
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "auslegen",
+    "similarity": 0.8106048107147217
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "festsetzen",
+    "similarity": 0.8105967044830322
+  },
+  {
+    "term_1": "gilt als wesentlich",
+    "term_2": "gilt als",
+    "similarity": 0.8105792999267578
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "aufweisen",
+    "similarity": 0.8105245232582092
+  },
+  {
+    "term_1": "müssen",
+    "term_2": "ist erforderlich",
+    "similarity": 0.810428261756897
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "aufnehmen",
+    "similarity": 0.810350239276886
+  },
+  {
+    "term_1": "wird als",
+    "term_2": "ist auszulegen als",
+    "similarity": 0.810306191444397
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "erbringt",
+    "similarity": 0.8102202415466309
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "ausschlagen",
+    "similarity": 0.8101834058761597
+  },
+  {
+    "term_1": "zurechenbar",
+    "term_2": "feststellbar",
+    "similarity": 0.8101093173027039
+  },
+  {
+    "term_1": "gewährleisten",
+    "term_2": "sicherstellen",
+    "similarity": 0.8100911974906921
+  },
+  {
+    "term_1": "anwendbar",
+    "term_2": "istUnzulässig",
+    "similarity": 0.810085654258728
+  },
+  {
+    "term_1": "wird versäumt",
+    "term_2": "wird",
+    "similarity": 0.8100593686103821
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "ausüben",
+    "similarity": 0.8100301027297974
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "erleiden",
+    "similarity": 0.8099309802055359
+  },
+  {
+    "term_1": "erbringt",
+    "term_2": "treten",
+    "similarity": 0.8098128437995911
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "abwägen",
+    "similarity": 0.8098013997077942
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "erbringt",
+    "similarity": 0.8097145557403564
+  },
+  {
+    "term_1": "bei der Entscheidung",
+    "term_2": "entscheidet",
+    "similarity": 0.8097099661827087
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "erleiden",
+    "similarity": 0.8095839023590088
+  },
+  {
+    "term_1": "erlangt",
+    "term_2": "entfallen",
+    "similarity": 0.809535801410675
+  },
+  {
+    "term_1": "verstößtGegen",
+    "term_2": "erleiden",
+    "similarity": 0.8094786405563354
+  },
+  {
+    "term_1": "vollzieht",
+    "term_2": "entfallen",
+    "similarity": 0.809453010559082
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "betreuen",
+    "similarity": 0.8094283938407898
+  },
+  {
+    "term_1": "ist erforderlich",
+    "term_2": "ist vorgeschrieben",
+    "similarity": 0.8092103600502014
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "anwendbar",
+    "similarity": 0.8092050552368164
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "belehren",
+    "similarity": 0.8091864585876465
+  },
+  {
+    "term_1": "gestärken",
+    "term_2": "erleiden",
+    "similarity": 0.8091519474983215
+  },
+  {
+    "term_1": "berechnet werden",
+    "term_2": "ist zu berechnen als",
+    "similarity": 0.8089905381202698
+  },
+  {
+    "term_1": "kennen",
+    "term_2": "hat Kenntnis",
+    "similarity": 0.8088670372962952
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "darlegen",
+    "similarity": 0.8087970018386841
+  },
+  {
+    "term_1": "berechnen",
+    "term_2": "ist zu berechnen bei",
+    "similarity": 0.8087779879570007
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "bedeuten",
+    "similarity": 0.8086145520210266
+  },
+  {
+    "term_1": "rechtfertigt",
+    "term_2": "berechtigt",
+    "similarity": 0.808550238609314
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "ausschlagen",
+    "similarity": 0.8085380792617798
+  },
+  {
+    "term_1": "kann führen zu",
+    "term_2": "erlassen kann",
+    "similarity": 0.8085060715675354
+  },
+  {
+    "term_1": "genügt",
+    "term_2": "ist erforderlich",
+    "similarity": 0.8084398508071899
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "erhalten",
+    "similarity": 0.8084270358085632
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "führtzu",
+    "similarity": 0.808388352394104
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "abwägen",
+    "similarity": 0.8083775639533997
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "einhalten",
+    "similarity": 0.8083722591400146
+  },
+  {
+    "term_1": "führtzu",
+    "term_2": "mitwirken",
+    "similarity": 0.8082919120788574
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "gestärken",
+    "similarity": 0.8082517981529236
+  },
+  {
+    "term_1": "erforderlich für",
+    "term_2": "muss",
+    "similarity": 0.8082204461097717
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "überschreitet",
+    "similarity": 0.8082058429718018
+  },
+  {
+    "term_1": "vorsehen",
+    "term_2": "vorlegen",
+    "similarity": 0.8081696033477783
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "ausüben",
+    "similarity": 0.8081175088882446
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "abschließen",
+    "similarity": 0.8080909252166748
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "vornehmen",
+    "similarity": 0.8080869913101196
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "hemmt",
+    "similarity": 0.8080698251724243
+  },
+  {
+    "term_1": "vereitelt",
+    "term_2": "überschreitet",
+    "similarity": 0.8080093264579773
+  },
+  {
+    "term_1": "lastet",
+    "term_2": "festsetzt",
+    "similarity": 0.8079231977462769
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "kann führen zu",
+    "similarity": 0.8079087734222412
+  },
+  {
+    "term_1": "wird",
+    "term_2": "erbringt",
+    "similarity": 0.8078839778900146
+  },
+  {
+    "term_1": "kannGeltendMachen",
+    "term_2": "kannHaften",
+    "similarity": 0.8078646063804626
+  },
+  {
+    "term_1": "widerrufen",
+    "term_2": "betreuen",
+    "similarity": 0.8078080415725708
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "vereinnahmen",
+    "similarity": 0.8075681924819946
+  },
+  {
+    "term_1": "unwirksam",
+    "term_2": "wirken",
+    "similarity": 0.8075482249259949
+  },
+  {
+    "term_1": "beeinträchtigt",
+    "term_2": "abwägen",
+    "similarity": 0.8074783682823181
+  },
+  {
+    "term_1": "kann",
+    "term_2": "beanspruchen kann",
+    "similarity": 0.8074132204055786
+  },
+  {
+    "term_1": "basiert auf",
+    "term_2": "ist Grundlage für",
+    "similarity": 0.8074060678482056
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "erbringt",
+    "similarity": 0.8073142170906067
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "vorlegen",
+    "similarity": 0.8073004484176636
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "vereisen",
+    "similarity": 0.8072901964187622
+  },
+  {
+    "term_1": "betreuen",
+    "term_2": "entfallen",
+    "similarity": 0.8072787523269653
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "aufweisen",
+    "similarity": 0.8072770237922668
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "zurechenbar",
+    "similarity": 0.807260274887085
+  },
+  {
+    "term_1": "ist_wirksam",
+    "term_2": "wirksam ausüben",
+    "similarity": 0.8072251677513123
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "beanspruchen",
+    "similarity": 0.807219386100769
+  },
+  {
+    "term_1": "geltend machen",
+    "term_2": "durchgeführt werden",
+    "similarity": 0.807218611240387
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "vereitelt",
+    "similarity": 0.807213544845581
+  },
+  {
+    "term_1": "treten ein",
+    "term_2": "begehen",
+    "similarity": 0.8070843815803528
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "vereisen",
+    "similarity": 0.8070818185806274
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "erfolgt",
+    "similarity": 0.8069676160812378
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "widerrufen",
+    "similarity": 0.806808590888977
+  },
+  {
+    "term_1": "ist verpflichtet",
+    "term_2": "muss",
+    "similarity": 0.806742787361145
+  },
+  {
+    "term_1": "beanspruchen kann",
+    "term_2": "fordern kann",
+    "similarity": 0.806657075881958
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "aufweisen",
+    "similarity": 0.8066370487213135
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "feststellbar",
+    "similarity": 0.8066160082817078
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "vollzieht",
+    "similarity": 0.8066059350967407
+  },
+  {
+    "term_1": "beeinträchtigen",
+    "term_2": "verwirkt",
+    "similarity": 0.8065956234931946
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "entfällt",
+    "similarity": 0.8063139915466309
+  },
+  {
+    "term_1": "zurechenbar",
+    "term_2": "befugt",
+    "similarity": 0.8062317967414856
+  },
+  {
+    "term_1": "fortsetzen",
+    "term_2": "fortführt",
+    "similarity": 0.8061995506286621
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "festsetzen",
+    "similarity": 0.8061573505401611
+  },
+  {
+    "term_1": "vorlegen",
+    "term_2": "aufnehmen",
+    "similarity": 0.806074321269989
+  },
+  {
+    "term_1": "einrichten",
+    "term_2": "vorlegen",
+    "similarity": 0.8060664534568787
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "erleiden",
+    "similarity": 0.8060483932495117
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "festsetzen",
+    "similarity": 0.8059718608856201
+  },
+  {
+    "term_1": "angepriesen",
+    "term_2": "gestärken",
+    "similarity": 0.8059501647949219
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "aufweisen",
+    "similarity": 0.805887758731842
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "betrachten",
+    "similarity": 0.8058580756187439
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "darlegen",
+    "similarity": 0.8058310747146606
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "betreiben",
+    "similarity": 0.8057949542999268
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "vorsehen",
+    "similarity": 0.8057703375816345
+  },
+  {
+    "term_1": "leiten",
+    "term_2": "betreuen",
+    "similarity": 0.8057562112808228
+  },
+  {
+    "term_1": "erhalten",
+    "term_2": "gestellt werden",
+    "similarity": 0.8055557608604431
+  },
+  {
+    "term_1": "vereinbart",
+    "term_2": "geboten",
+    "similarity": 0.8055358529090881
+  },
+  {
+    "term_1": "gelten für",
+    "term_2": "geltendMachen",
+    "similarity": 0.8054986596107483
+  },
+  {
+    "term_1": "ausschlagen",
+    "term_2": "erlangt",
+    "similarity": 0.8054863810539246
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "führen zu",
+    "similarity": 0.805475652217865
+  },
+  {
+    "term_1": "erfolgen",
+    "term_2": "treten",
+    "similarity": 0.8054336309432983
+  },
+  {
+    "term_1": "zurechenbar",
+    "term_2": "kannHaften",
+    "similarity": 0.8053448796272278
+  },
+  {
+    "term_1": "erteilen",
+    "term_2": "erbringt",
+    "similarity": 0.805334210395813
+  },
+  {
+    "term_1": "ausüben",
+    "term_2": "vornehmen",
+    "similarity": 0.8053199648857117
+  },
+  {
+    "term_1": "abweichen",
+    "term_2": "entfallen",
+    "similarity": 0.8053123354911804
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "eingehalten werden",
+    "similarity": 0.8052530288696289
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "vollzieht",
+    "similarity": 0.8051455616950989
+  },
+  {
+    "term_1": "lastet",
+    "term_2": "befugt",
+    "similarity": 0.805121660232544
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "aufnehmen",
+    "similarity": 0.8051166534423828
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "aufweisen",
+    "similarity": 0.8050914406776428
+  },
+  {
+    "term_1": "überschreitet",
+    "term_2": "einräumt",
+    "similarity": 0.8050209283828735
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "erteilen",
+    "similarity": 0.8050153851509094
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "angepriesen",
+    "similarity": 0.8050079345703125
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "begehen",
+    "similarity": 0.8048434257507324
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "leiten",
+    "similarity": 0.8048129081726074
+  },
+  {
+    "term_1": "festsetzen",
+    "term_2": "entfallen",
+    "similarity": 0.8047925233840942
+  },
+  {
+    "term_1": "entspricht",
+    "term_2": "gilt als",
+    "similarity": 0.8047562837600708
+  },
+  {
+    "term_1": "berücksichtigen",
+    "term_2": "beurteilen",
+    "similarity": 0.8047289848327637
+  },
+  {
+    "term_1": "beendet",
+    "term_2": "beschließen",
+    "similarity": 0.8047156929969788
+  },
+  {
+    "term_1": "beweisen",
+    "term_2": "feststellen",
+    "similarity": 0.80467289686203
+  },
+  {
+    "term_1": "festsetzen",
+    "term_2": "einräumt",
+    "similarity": 0.804481565952301
+  },
+  {
+    "term_1": "vornehmen",
+    "term_2": "erbringt",
+    "similarity": 0.8044614195823669
+  },
+  {
+    "term_1": "verhindert",
+    "term_2": "hindert nicht",
+    "similarity": 0.8044410347938538
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "führen",
+    "similarity": 0.8044366836547852
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "führt zu",
+    "similarity": 0.8044350147247314
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "angelastet",
+    "similarity": 0.804241418838501
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "erörtern",
+    "similarity": 0.8042391538619995
+  },
+  {
+    "term_1": "eingeräumt",
+    "term_2": "beseitigen",
+    "similarity": 0.8041512966156006
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "gestärken",
+    "similarity": 0.804104745388031
+  },
+  {
+    "term_1": "überschreitet",
+    "term_2": "erleiden",
+    "similarity": 0.8040848970413208
+  },
+  {
+    "term_1": "ersparen",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8040787577629089
+  },
+  {
+    "term_1": "abwägen",
+    "term_2": "verursachen",
+    "similarity": 0.8040561676025391
+  },
+  {
+    "term_1": "auslegen",
+    "term_2": "entfällt",
+    "similarity": 0.8040139675140381
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "überschreitet",
+    "similarity": 0.8040034174919128
+  },
+  {
+    "term_1": "verursachen",
+    "term_2": "entfallen",
+    "similarity": 0.8039863705635071
+  },
+  {
+    "term_1": "darlegen",
+    "term_2": "treten",
+    "similarity": 0.8039212822914124
+  },
+  {
+    "term_1": "beeinträchtigt",
+    "term_2": "verwirkt",
+    "similarity": 0.8038661479949951
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "durchsetzen",
+    "similarity": 0.8038579821586609
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "rügen",
+    "similarity": 0.8038467764854431
+  },
+  {
+    "term_1": "eingehalten werden",
+    "term_2": "beschließen",
+    "similarity": 0.8038142323493958
+  },
+  {
+    "term_1": "belehren",
+    "term_2": "erlangt",
+    "similarity": 0.8038045167922974
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "betreuen",
+    "similarity": 0.8037707209587097
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "bewirken",
+    "similarity": 0.8035650253295898
+  },
+  {
+    "term_1": "bestimmt",
+    "term_2": "bestimmt wird",
+    "similarity": 0.8035280704498291
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "ausüben",
+    "similarity": 0.803496241569519
+  },
+  {
+    "term_1": "lastet",
+    "term_2": "betreuen",
+    "similarity": 0.8034746646881104
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "abwägen",
+    "similarity": 0.803462564945221
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "angelastet",
+    "similarity": 0.8034346103668213
+  },
+  {
+    "term_1": "ermöglichen",
+    "term_2": "beanspruchen können",
+    "similarity": 0.8033705949783325
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "gestärken",
+    "similarity": 0.8032377362251282
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "vereisen",
+    "similarity": 0.8030450940132141
+  },
+  {
+    "term_1": "müssen",
+    "term_2": "erforderlich für",
+    "similarity": 0.8029475808143616
+  },
+  {
+    "term_1": "gestärken",
+    "term_2": "betreuen",
+    "similarity": 0.8028602004051208
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "bedeutet",
+    "similarity": 0.8028022050857544
+  },
+  {
+    "term_1": "wirkt auf",
+    "term_2": "wirksam ausüben",
+    "similarity": 0.8027610182762146
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "istVerpflichtet",
+    "similarity": 0.802757740020752
+  },
+  {
+    "term_1": "muss erfüllt sein",
+    "term_2": "müssenErfülltSein",
+    "similarity": 0.8027356266975403
+  },
+  {
+    "term_1": "erteilen",
+    "term_2": "betreuen",
+    "similarity": 0.8027355670928955
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "entfallen",
+    "similarity": 0.8026976585388184
+  },
+  {
+    "term_1": "gilt",
+    "term_2": "gilt_für",
+    "similarity": 0.8026704788208008
+  },
+  {
+    "term_1": "aufweisen",
+    "term_2": "beschließen",
+    "similarity": 0.8026232719421387
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "verursachen",
+    "similarity": 0.8026098012924194
+  },
+  {
+    "term_1": "wirkt auf",
+    "term_2": "mitwirken",
+    "similarity": 0.8025032877922058
+  },
+  {
+    "term_1": "wirksam ausüben",
+    "term_2": "verwirkt",
+    "similarity": 0.8024816513061523
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "überschreitet",
+    "similarity": 0.8024499416351318
+  },
+  {
+    "term_1": "zurechenbar",
+    "term_2": "abwägen",
+    "similarity": 0.8024401664733887
+  },
+  {
+    "term_1": "ist vorgeschrieben",
+    "term_2": "ist erforderlich für",
+    "similarity": 0.8024321794509888
+  },
+  {
+    "term_1": "erhalten",
+    "term_2": "nachweist",
+    "similarity": 0.8024059534072876
+  },
+  {
+    "term_1": "haben Bedeutung",
+    "term_2": "bedeutet",
+    "similarity": 0.8023927807807922
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "ausschlagen",
+    "similarity": 0.8023508787155151
+  },
+  {
+    "term_1": "enthält",
+    "term_2": "bestehen",
+    "similarity": 0.8023425340652466
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "mindernd",
+    "similarity": 0.8022212982177734
+  },
+  {
+    "term_1": "ist auszulegen als",
+    "term_2": "ist zu gestalten als",
+    "similarity": 0.8022001385688782
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "weitergeben",
+    "similarity": 0.8020929098129272
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "vornehmen",
+    "similarity": 0.8020628094673157
+  },
+  {
+    "term_1": "angelastet",
+    "term_2": "haftet",
+    "similarity": 0.8020278811454773
+  },
+  {
+    "term_1": "ist_befugt",
+    "term_2": "befugt",
+    "similarity": 0.8018299341201782
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "bereitstellen",
+    "similarity": 0.8018102645874023
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "belehren",
+    "similarity": 0.8017887473106384
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "entfällt",
+    "similarity": 0.8017340898513794
+  },
+  {
+    "term_1": "beschaffenheit",
+    "term_2": "errichtet",
+    "similarity": 0.801701545715332
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "vornehmen",
+    "similarity": 0.801690936088562
+  },
+  {
+    "term_1": "müssen",
+    "term_2": "ist verpflichtet",
+    "similarity": 0.8016865849494934
+  },
+  {
+    "term_1": "gewähren",
+    "term_2": "vornehmen",
+    "similarity": 0.8016849160194397
+  },
+  {
+    "term_1": "ziehen",
+    "term_2": "einhalten",
+    "similarity": 0.8016367554664612
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "betreiben",
+    "similarity": 0.8016349673271179
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "führen",
+    "similarity": 0.8015540242195129
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "geboten",
+    "similarity": 0.8014416694641113
+  },
+  {
+    "term_1": "vornehmen",
+    "term_2": "treten",
+    "similarity": 0.8013238310813904
+  },
+  {
+    "term_1": "feststellen",
+    "term_2": "vorliegt",
+    "similarity": 0.8013104796409607
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "betreuen",
+    "similarity": 0.8013074398040771
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "treten ein",
+    "similarity": 0.8012656569480896
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "darlegen",
+    "similarity": 0.8012571334838867
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "kann geltend gemacht werden",
+    "similarity": 0.8012524843215942
+  },
+  {
+    "term_1": "entfällt",
+    "term_2": "ausschlagen",
+    "similarity": 0.8011841773986816
+  },
+  {
+    "term_1": "beeinträchtigt",
+    "term_2": "beeinflusst",
+    "similarity": 0.8011788129806519
+  },
+  {
+    "term_1": "erfüllt",
+    "term_2": "muss erfüllt sein",
+    "similarity": 0.8011766076087952
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "einbehalten",
+    "similarity": 0.801174521446228
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "vereisen",
+    "similarity": 0.8011497855186462
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "vorlegen",
+    "similarity": 0.8011021614074707
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "erteilen",
+    "similarity": 0.8010508418083191
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "widerrufen",
+    "similarity": 0.8010044693946838
+  },
+  {
+    "term_1": "behaupten",
+    "term_2": "bestätigen",
+    "similarity": 0.8009212017059326
+  },
+  {
+    "term_1": "fassen",
+    "term_2": "festsetzt",
+    "similarity": 0.8009020686149597
+  },
+  {
+    "term_1": "aufheben",
+    "term_2": "vornehmen",
+    "similarity": 0.8008811473846436
+  },
+  {
+    "term_1": "begehen",
+    "term_2": "aufnehmen",
+    "similarity": 0.8006998896598816
+  },
+  {
+    "term_1": "gemindert",
+    "term_2": "verstößtGegen",
+    "similarity": 0.8006206154823303
+  },
+  {
+    "term_1": "hat_auswirkungen_auf",
+    "term_2": "ist_wirksam",
+    "similarity": 0.8004962801933289
+  },
+  {
+    "term_1": "erfülltPflichten",
+    "term_2": "hat Pflichten",
+    "similarity": 0.8004069328308105
+  },
+  {
+    "term_1": "haben",
+    "term_2": "sind",
+    "similarity": 0.8003193140029907
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "geboten",
+    "similarity": 0.8002247214317322
+  },
+  {
+    "term_1": "befugt",
+    "term_2": "ersparen",
+    "similarity": 0.8001577258110046
+  }
+]
