@@ -1,0 +1,5568 @@
+{
+  "Cluster 0": {
+    "gcq": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Signaldurchleitung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+    "ontology": {
+      "classes": [
+        "Kabelnetzbetreiber",
+        "Signaldurchleitung",
+        "Netz"
+      ],
+      "properties": [
+        "kontrolliert",
+        "reguliert",
+        "hatRechtAuf"
+      ],
+      "relationships": [
+        [
+          "Kabelnetzbetreiber",
+          "kontrolliert",
+          "Signaldurchleitung"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "reguliert",
+          "Signaldurchleitung"
+        ],
+        [
+          "Signaldurchleitung",
+          "findet StattIn",
+          "Netz"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "hatRechtAuf",
+          "Signaldurchleitung"
+        ]
+      ]
+    }
+  },
+  "Cluster 1": {
+    "gcq": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
+    "ontology": {
+      "classes": [
+        "Kläger",
+        "Patent",
+        "Urheberrecht",
+        "Verletzung",
+        "Klage"
+      ],
+      "properties": [
+        "erheben",
+        "erfüllen",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Kläger",
+          "erheben",
+          "Klage"
+        ],
+        [
+          "Klage",
+          "betrifft",
+          "Patent"
+        ],
+        [
+          "Klage",
+          "betrifft",
+          "Urheberrecht"
+        ],
+        [
+          "Urheberrecht",
+          "erfüllen",
+          "Verletzung"
+        ]
+      ]
+    }
+  },
+  "Cluster 2": {
+    "gcq": "Wann und unter welchen Voraussetzungen hat ein Reisender Anspruch auf Entschädigung oder Schadensersatz bei einer vereitelten oder gestrichenen Reise, und welche Faktoren beeinflussen die Höhe der Entschädigung?",
+    "ontology": {
+      "classes": [
+        "Reisender",
+        "Entschädigung",
+        "Schadensersatz",
+        "Vereitelung",
+        "Streichung",
+        "Höhe"
+      ],
+      "properties": [
+        "hatAnspruchAuf",
+        "beeinflusst",
+        "beträgt"
+      ],
+      "relationships": [
+        [
+          "Reisender",
+          "hatAnspruchAuf",
+          "Entschädigung"
+        ],
+        [
+          "Reisender",
+          "hatAnspruchAuf",
+          "Schadensersatz"
+        ],
+        [
+          "Entschädigung",
+          "beträgt",
+          "Höhe"
+        ],
+        [
+          "Schadensersatz",
+          "beträgt",
+          "Höhe"
+        ],
+        [
+          "Vereitelung",
+          "beeinflusst",
+          "Höhe"
+        ],
+        [
+          "Streichung",
+          "beeinflusst",
+          "Höhe"
+        ]
+      ]
+    }
+  },
+  "Cluster 3": {
+    "gcq": "Welche Rolle spielt die Kenntnis des Schadenseintritts bei der Verjährung von Ansprüchen aus unerlaubter Handlung in Thailand?",
+    "ontology": {
+      "classes": [
+        "Anspruch",
+        "UnerlaubteHandlung",
+        "Verjährung",
+        "Schadenseintritt"
+      ],
+      "properties": [
+        "betrifft",
+        "führtZu",
+        "endet"
+      ],
+      "relationships": [
+        [
+          "Anspruch",
+          "betrifft",
+          "UnerlaubteHandlung"
+        ],
+        [
+          "Verjährung",
+          "endet",
+          "Anspruch"
+        ],
+        [
+          "Verjährung",
+          "führtZu",
+          "Schadenseintritt"
+        ]
+      ]
+    }
+  },
+  "Cluster 4": {
+    "gcq": "Unter welchen Voraussetzungen und in welchem Umfang haften Eisenbahninfrastrukturunternehmen und Eisenbahnverkehrsunternehmen für Schäden, die auf der Eisenbahninfrastruktur entstehen, und wie ist die Haftung zwischen ihnen zu verteilen?",
+    "ontology": {
+      "classes": [
+        "Eisenbahninfrastrukturunternehmen",
+        "Eisenbahnverkehrsunternehmen",
+        "Schaden",
+        "Haftung"
+      ],
+      "properties": [
+        "verursacht",
+        "betrifft",
+        "istVerteiltAuf"
+      ],
+      "relationships": [
+        [
+          "Schaden",
+          "betrifft",
+          "Eisenbahninfrastruktur"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Eisenbahnverkehrsunternehmen",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Haftung",
+          "istVerteiltAuf",
+          "Eisenbahninfrastrukturunternehmen"
+        ],
+        [
+          "Haftung",
+          "istVerteiltAuf",
+          "Eisenbahnverkehrsunternehmen"
+        ]
+      ]
+    }
+  },
+  "Cluster 5": {
+    "gcq": "Welche Geräuschemissionen sind als unzumutbar im Sinne des Schallschutzrechts zu betrachten und welche Faktoren beeinflussen die Bestimmung der Zumutbarkeitsgrenze?",
+    "ontology": {
+      "classes": [
+        "Geräuschemission",
+        "Schallschutzrecht",
+        "Zumutbarkeitsgrenze",
+        "Faktor"
+      ],
+      "properties": [
+        "betrachtetAls",
+        "beeinflusst",
+        "bestimmt"
+      ],
+      "relationships": [
+        [
+          "Geräuschemission",
+          "betrachtetAls",
+          "unzumutbar"
+        ],
+        [
+          "Faktor",
+          "beeinflusst",
+          "Zumutbarkeitsgrenze"
+        ],
+        [
+          "Schallschutzrecht",
+          "bestimmt",
+          "Zumutbarkeitsgrenze"
+        ]
+      ]
+    }
+  },
+  "Cluster 6": {
+    "gcq": "Unter welchen Voraussetzungen und mit welchen Konsequenzen kann ein Berufungsurteil aufgehoben und die Sache zur erneuten Verhandlung zurückverweist werden?",
+    "ontology": {
+      "classes": [
+        "Berufungsurteil",
+        "Aufhebung",
+        "NeueVerhandlung",
+        "Voraussetzungen",
+        "Konsequenzen"
+      ],
+      "properties": [
+        "kannAufgehobenWerden",
+        "führtZu",
+        "erfordert",
+        "hatKonsequenzen"
+      ],
+      "relationships": [
+        [
+          "Berufungsurteil",
+          "kannAufgehobenWerden",
+          "Aufhebung"
+        ],
+        [
+          "Aufhebung",
+          "führtZu",
+          "NeueVerhandlung"
+        ],
+        [
+          "NeueVerhandlung",
+          "erfordert",
+          "Voraussetzungen"
+        ],
+        [
+          "Berufungsurteil",
+          "hatKonsequenzen",
+          "Konsequenzen"
+        ]
+      ]
+    }
+  },
+  "Cluster 7": {
+    "gcq": "Unter welchen Voraussetzungen und nach welchen Regeln können Ärzte ihre Leistungen abrechnen und welche Rechte haben Patienten in Bezug auf die Rechnungsstellung und die Abrechnung?",
+    "ontology": {
+      "classes": [
+        "Arzt",
+        "Patient",
+        "Leistung",
+        "Rechnung",
+        "Gesetz",
+        "Regel"
+      ],
+      "properties": [
+        "kannAbrechnen",
+        "hatRechtAuf",
+        "basiertAuf",
+        "betrifft",
+        "stelltRechnung"
+      ],
+      "relationships": [
+        [
+          "Arzt",
+          "kannAbrechnen",
+          "Leistung"
+        ],
+        [
+          "Leistung",
+          "basiertAuf",
+          "Gesetz"
+        ],
+        [
+          "Gesetz",
+          "enthält",
+          "Regel"
+        ],
+        [
+          "Regel",
+          "betrifft",
+          "Abrechnung"
+        ],
+        [
+          "Patient",
+          "hatRechtAuf",
+          "Rechnung"
+        ],
+        [
+          "Arzt",
+          "stelltRechnung",
+          "Patient"
+        ]
+      ]
+    }
+  },
+  "Cluster 8": {
+    "gcq": "Unter welchen Voraussetzungen und unter welchen Umständen ist eine Stammkapitalerhöhung im Interesse der Gesellschaft und ihrer Gesellschafter zulässig und rechtmäßig?",
+    "ontology": {
+      "classes": [
+        "Gesellschaft",
+        "Gesellschafter",
+        "Stammkapitalerhöhung",
+        "Rechtmäßigkeit"
+      ],
+      "properties": [
+        "istImInteresseVon",
+        "istZulässig",
+        "istRechtmäßig"
+      ],
+      "relationships": [
+        [
+          "Stammkapitalerhöhung",
+          "istImInteresseVon",
+          "Gesellschaft"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "istImInteresseVon",
+          "Gesellschafter"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "istZulässig",
+          "Rechtmäßigkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 9": {
+    "gcq": "Unter welchen Voraussetzungen und in welchem Umfang ist ein Mieter zur Durchführung von Schönheitsreparaturen in einer Mietwohnung verpflichtet?",
+    "ontology": {
+      "classes": [
+        "Mieter",
+        "Schönheitsreparaturen",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "istVerpflichtetZurDurchführung",
+        "umfasst"
+      ],
+      "relationships": [
+        [
+          "Mieter",
+          "istVerpflichtetZurDurchführung",
+          "Schönheitsreparaturen"
+        ],
+        [
+          "Schönheitsreparaturen",
+          "umfasst",
+          "Verpflichtung"
+        ]
+      ]
+    }
+  },
+  "Cluster 10": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Eigentümer seine Rechte an einem Grundstück durchsetzen, wenn diese durch Handlungen Dritter beeinträchtigt werden?",
+    "ontology": {
+      "classes": [
+        "Eigentümer",
+        "Grundstück",
+        "Recht",
+        "Handlung"
+      ],
+      "properties": [
+        "besitzt",
+        "beeinträchtigt",
+        "kannDurchsetzen"
+      ],
+      "relationships": [
+        [
+          "Eigentümer",
+          "besitzt",
+          "Grundstück"
+        ],
+        [
+          "Handlung",
+          "beeinträchtigt",
+          "Recht"
+        ],
+        [
+          "Eigentümer",
+          "kannDurchsetzen",
+          "Recht"
+        ]
+      ]
+    }
+  },
+  "Cluster 11": {
+    "gcq": "Unter welchen Voraussetzungen ist eine Abtretungsklausel wirksam und welche Rechtsfolgen treten ein, wenn sie unwirksam ist?",
+    "ontology": {
+      "classes": [
+        "Abtretungsklausel",
+        "Vertrag",
+        "Gläubiger",
+        "Drittem",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "istWirksam",
+        "istUnwirksam",
+        "führtZu",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Abtretungsklausel",
+          "istWirksam",
+          "Vertrag"
+        ],
+        [
+          "Abtretungsklausel",
+          "istUnwirksam",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "führtZu",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsfolge",
+          "betrifft",
+          "Gläubiger"
+        ],
+        [
+          "Rechtsfolge",
+          "betrifft",
+          "Drittem"
+        ]
+      ]
+    }
+  },
+  "Cluster 12": {
+    "gcq": "Unter welchen Voraussetzungen gilt eine künstliche Befruchtung als medizinisch notwendige Heilbehandlung und wer ist verpflichtet, die Kosten dafür zu tragen?",
+    "ontology": {
+      "classes": [
+        "KünstlicheBefruchtung",
+        "Heilbehandlung",
+        "Versicherter",
+        "Krankenkasse"
+      ],
+      "properties": [
+        "giltAls",
+        "istVerpflichtetZugunsten"
+      ],
+      "relationships": [
+        [
+          "KünstlicheBefruchtung",
+          "giltAls",
+          "Heilbehandlung"
+        ],
+        [
+          "Versicherter",
+          "istVerpflichtetZugunsten",
+          "KünstlicheBefruchtung"
+        ],
+        [
+          "KünstlicheBefruchtung",
+          "istVerpflichtetZugunsten",
+          "Krankenkasse"
+        ]
+      ]
+    }
+  },
+  "Cluster 13": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Wasserversorgungsunternehmen einen angemessenen Baukostenzuschuss von Anschlussnehmern verlangen, und welche Pflichten und Rechte hat es dabei im Hinblick auf das Eigentum an Altleitungen und den Einbau von Wasserzählern?",
+    "ontology": {
+      "classes": [
+        "Wasserversorgungsunternehmen",
+        "Anschlussnehmer",
+        "Altleitung",
+        "Wasserzähler",
+        "Baukostenzuschuss"
+      ],
+      "properties": [
+        "kannVerlangen",
+        "hatPflicht",
+        "hatRecht",
+        "betrifft",
+        "eignetSichFür",
+        "hatAnschlussAn"
+      ],
+      "relationships": [
+        [
+          "Wasserversorgungsunternehmen",
+          "kannVerlangen",
+          "Baukostenzuschuss"
+        ],
+        [
+          "Baukostenzuschuss",
+          "betrifft",
+          "Anschlussnehmer"
+        ],
+        [
+          "Wasserversorgungsunternehmen",
+          "hatPflicht",
+          "Einbau von Wasserzählern"
+        ],
+        [
+          "Wasserzähler",
+          "eignetSichFür",
+          "Anschlussnehmer"
+        ],
+        [
+          "Anschlussnehmer",
+          "hatRecht",
+          "Eigentum an Altleitungen"
+        ],
+        [
+          "Anschlussnehmer",
+          "hatAnschlussAn",
+          "Altleitung"
+        ]
+      ]
+    }
+  },
+  "Cluster 14": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Wohnungseigentümergemeinschaft gültige Beschlüsse fassen und welche Rechte und Pflichten haben die Wohnungseigentümer dabei?",
+    "ontology": {
+      "classes": [
+        "Wohnungseigentümergemeinschaft",
+        "Beschluss",
+        "Recht",
+        "Pflicht"
+      ],
+      "properties": [
+        "kannGültigFassen",
+        "hatRechtAuf",
+        "hatPflicht"
+      ],
+      "relationships": [
+        [
+          "Wohnungseigentümergemeinschaft",
+          "kannGültigFassen",
+          "Beschluss"
+        ],
+        [
+          "Beschluss",
+          "hatRechtAuf",
+          "Recht"
+        ],
+        [
+          "Beschluss",
+          "hatPflicht",
+          "Pflicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 15": {
+    "gcq": "Wer ist verpflichtet, den Gebrauch des gemeinschaftlichen Eigentums ordnungsmäßig zu gestalten und welche Rechte und Pflichten sind damit verbunden?",
+    "ontology": {
+      "classes": [
+        "GemeinschaftlichesEigentum",
+        "Eigentümer",
+        "Verwaltung"
+      ],
+      "properties": [
+        "istVerpflichtet",
+        "hatRechte",
+        "hatPflichten",
+        "gestaltet"
+      ],
+      "relationships": [
+        [
+          "Eigentümer",
+          "istVerpflichtet",
+          "Verwaltung"
+        ],
+        [
+          "Verwaltung",
+          "gestaltet",
+          "GemeinschaftlichesEigentum"
+        ],
+        [
+          "Eigentümer",
+          "hatRechte",
+          "GemeinschaftlichesEigentum"
+        ],
+        [
+          "Eigentümer",
+          "hatPflichten",
+          "GemeinschaftlichesEigentum"
+        ]
+      ]
+    }
+  },
+  "Cluster 16": {
+    "gcq": "Unter welchen Voraussetzungen und Bedingungen genießt eine Äußerung in einem satirischen Kontext Schutz vor rechtlichen Konsequenzen, und wie kann ihre tatsächliche Bedeutung und Absicht richtig erkannt und gewürdigt werden?",
+    "ontology": {
+      "classes": [
+        "Satire",
+        "Äußerung",
+        "RechtlicheKonsequenzen",
+        "Schutz",
+        "Absicht",
+        "Bedeutung"
+      ],
+      "properties": [
+        "genießt",
+        "schütztVor",
+        "kannErkanntWerden",
+        "kannGewürdigtWerden",
+        "hatAbsicht",
+        "hatBedeutung"
+      ],
+      "relationships": [
+        [
+          "Äußerung",
+          "genießt",
+          "Schutz"
+        ],
+        [
+          "Schutz",
+          "schütztVor",
+          "RechtlicheKonsequenzen"
+        ],
+        [
+          "Satire",
+          "hatBedingungen",
+          "Äußerung"
+        ],
+        [
+          "Äußerung",
+          "kannErkanntWerden",
+          "Bedeutung"
+        ],
+        [
+          "Bedeutung",
+          "kannGewürdigtWerden",
+          "Absicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 17": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Mieter oder Käufer Schadensersatz oder Erstattung von Kosten verlangen, wenn er durch einen Mangel oder eine mangelhafte Sache geschädigt wurde?",
+    "ontology": {
+      "classes": [
+        "Mieter",
+        "Käufer",
+        "Schaden",
+        "Mangel",
+        "Sache",
+        "Erstattung"
+      ],
+      "properties": [
+        "verlangt",
+        "wirdGeschädigtDurch",
+        "istMangelhaft"
+      ],
+      "relationships": [
+        [
+          "Mieter",
+          "verlangt",
+          "Erstattung"
+        ],
+        [
+          "Käufer",
+          "verlangt",
+          "Erstattung"
+        ],
+        [
+          "Schaden",
+          "wirdGeschädigtDurch",
+          "Mangel"
+        ],
+        [
+          "Sache",
+          "istMangelhaft",
+          "Mangel"
+        ]
+      ]
+    }
+  },
+  "Cluster 18": {
+    "gcq": "Unter welchen Voraussetzungen besteht eine Schadensersatzpflicht aufgrund einer mangelhaften Anlage nach § 2 HPflG?",
+    "ontology": {
+      "classes": [
+        "Schadensersatzpflicht",
+        "MangelhafteAnlage",
+        "§2HPflG"
+      ],
+      "properties": [
+        "kannBestehenAuf",
+        "führtZu",
+        "basiertAuf"
+      ],
+      "relationships": [
+        [
+          "Schadensersatzpflicht",
+          "kannBestehenAuf",
+          "MangelhafteAnlage"
+        ],
+        [
+          "MangelhafteAnlage",
+          "führtZu",
+          "Schadensersatzpflicht"
+        ],
+        [
+          "Schadensersatzpflicht",
+          "basiertAuf",
+          "§2HPflG"
+        ]
+      ]
+    }
+  },
+  "Cluster 19": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Mietverhältnis wirksam gekündigt werden?",
+    "ontology": {
+      "classes": [
+        "Mietverhältnis",
+        "Kündigung",
+        "Voraussetzung"
+      ],
+      "properties": [
+        "kannWirksam",
+        "erfordert"
+      ],
+      "relationships": [
+        [
+          "Mietverhältnis",
+          "kannWirksam",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "erfordert",
+          "Voraussetzung"
+        ]
+      ]
+    }
+  },
+  "Cluster 20": {
+    "gcq": "Unter welchen Voraussetzungen und in welchen Fällen hat ein Mieter Anspruch auf Nutzungsentschädigung oder wer trägt die Kosten für Mängelbeseitigung und Betriebskosten in einem Mietverhältnis?",
+    "ontology": {
+      "classes": [
+        "Mieter",
+        "Vermieter",
+        "Mietverhältnis",
+        "Mängel",
+        "Betriebskosten",
+        "Nutzungsentschädigung"
+      ],
+      "properties": [
+        "hatAnspruchAuf",
+        "trägtKostenFür",
+        "hatMängel",
+        "hatBetriebskosten"
+      ],
+      "relationships": [
+        [
+          "Mieter",
+          "hatAnspruchAuf",
+          "Nutzungsentschädigung"
+        ],
+        [
+          "Vermieter",
+          "trägtKostenFür",
+          "Mängelbeseitigung"
+        ],
+        [
+          "Mietverhältnis",
+          "hatMängel",
+          "Mängel"
+        ],
+        [
+          "Mietverhältnis",
+          "hatBetriebskosten",
+          "Betriebskosten"
+        ]
+      ]
+    }
+  },
+  "Cluster 21": {
+    "gcq": "Welche Bedeutung hat die Genehmigungsbedürftigkeit und die Einhaltung von Vorschriften für die Nutzung von Räumen als Wohnraum und welche Auswirkungen hat dies auf das Mietverhältnis?",
+    "ontology": {
+      "classes": [
+        "Genehmigungsbedürftigkeit",
+        "Vorschriften",
+        "Wohnraumnutzung",
+        "Mietverhältnis"
+      ],
+      "properties": [
+        "betrifft",
+        "erfordert",
+        "hatAuswirkungAuf"
+      ],
+      "relationships": [
+        [
+          "Genehmigungsbedürftigkeit",
+          "betrifft",
+          "Wohnraumnutzung"
+        ],
+        [
+          "Vorschriften",
+          "erfordert",
+          "Genehmigungsbedürftigkeit"
+        ],
+        [
+          "Wohnraumnutzung",
+          "hatAuswirkungAuf",
+          "Mietverhältnis"
+        ]
+      ]
+    }
+  },
+  "Cluster 22": {
+    "gcq": "Welche Bedeutung hat die obligatorische Schlichtung nach § 15a EGZPO und welche Voraussetzungen müssen erfüllt sein, damit sie anwendbar ist?",
+    "ontology": {
+      "classes": [
+        "Schlichtung",
+        "Vereinbarung",
+        "Voraussetzung"
+      ],
+      "properties": [
+        "istObligatorisch",
+        "basiertAuf",
+        "erfüllt",
+        "istAnwendbar"
+      ],
+      "relationships": [
+        [
+          "Schlichtung",
+          "istObligatorisch",
+          "§ 15a EGZPO"
+        ],
+        [
+          "Schlichtung",
+          "basiertAuf",
+          "Vereinbarung"
+        ],
+        [
+          "Vereinbarung",
+          "erfüllt",
+          "Voraussetzung"
+        ],
+        [
+          "Schlichtung",
+          "istAnwendbar",
+          "Voraussetzung"
+        ]
+      ]
+    }
+  },
+  "Cluster 23": {
+    "gcq": "Unter welchen Voraussetzungen und mit welchen Anforderungen kann ein Vermieter ein Mieterhöhungsverlangen aufgrund von Modernisierungsmaßnahmen oder öffentlichen Fördermitteln wirksam stellen, und welche Rechte hat der Mieter in diesem Zusammenhang?",
+    "ontology": {
+      "classes": [
+        "Vermieter",
+        "Mieter",
+        "Mieterhöhungsverlangen",
+        "Modernisierungsmaßnahmen",
+        "ÖffentlicheFördermittel",
+        "Recht"
+      ],
+      "properties": [
+        "kannWirksamStellen",
+        "hatAnforderungen",
+        "hatRechte"
+      ],
+      "relationships": [
+        [
+          "Vermieter",
+          "kannWirksamStellen",
+          "Mieterhöhungsverlangen"
+        ],
+        [
+          "Mieterhöhungsverlangen",
+          "basiertAuf",
+          "Modernisierungsmaßnahmen"
+        ],
+        [
+          "Mieterhöhungsverlangen",
+          "basiertAuf",
+          "ÖffentlicheFördermittel"
+        ],
+        [
+          "Mieter",
+          "hatRecht",
+          "Recht"
+        ]
+      ]
+    }
+  },
+  "Cluster 24": {
+    "gcq": "Welche Bedeutung hat die Vereinbarung von Bedingungen und Modalitäten in einem Mietvertrag für die Rechte und Pflichten der Vertragsparteien?",
+    "ontology": {
+      "classes": [
+        "Mietvertrag",
+        "Bedingung",
+        "Modalität",
+        "Recht",
+        "Pflicht"
+      ],
+      "properties": [
+        "regelt",
+        "beinhaltet",
+        "betrifft",
+        "gründet"
+      ],
+      "relationships": [
+        [
+          "Mietvertrag",
+          "regelt",
+          "Bedingung"
+        ],
+        [
+          "Mietvertrag",
+          "regelt",
+          "Modalität"
+        ],
+        [
+          "Bedingung",
+          "beinhaltet",
+          "Recht"
+        ],
+        [
+          "Bedingung",
+          "beinhaltet",
+          "Pflicht"
+        ],
+        [
+          "Modalität",
+          "betrifft",
+          "Recht"
+        ],
+        [
+          "Modalität",
+          "betrifft",
+          "Pflicht"
+        ],
+        [
+          "Recht",
+          "gründet",
+          "Mietvertrag"
+        ],
+        [
+          "Pflicht",
+          "gründet",
+          "Mietvertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 25": {
+    "gcq": "Unter welchen Voraussetzungen und mit welchen Rechtsfolgen kann eine Unterbeteiligung an einer Innengesellschaft als Schenkung betrachtet werden, und welche Rechte und Pflichten hat der Unterbeteiligte in diesem Zusammenhang?",
+    "ontology": {
+      "classes": [
+        "Unterbeteiligung",
+        "Schenkung",
+        "Recht",
+        "Pflicht",
+        "Rechtfolge"
+      ],
+      "properties": [
+        "betrachtetAls",
+        "hatRechteUndPflichten",
+        "führtZu",
+        "erfordert"
+      ],
+      "relationships": [
+        [
+          "Unterbeteiligung",
+          "betrachtetAls",
+          "Schenkung"
+        ],
+        [
+          "Schenkung",
+          "führtZu",
+          "Rechtfolge"
+        ],
+        [
+          "Unterbeteiligung",
+          "hatRechteUndPflichten",
+          "Recht"
+        ],
+        [
+          "Unterbeteiligung",
+          "erfordert",
+          "Pflicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 26": {
+    "gcq": "Unter welchen Voraussetzungen und welche Bedeutung hat die Mehrheitsentscheidung bei der Zustimmung zur Übertragung von Gesellschaftsanteilen in Personengesellschaften?",
+    "ontology": {
+      "classes": [
+        "Personengesellschaft",
+        "Mehrheitsentscheidung",
+        "Zustimmung"
+      ],
+      "properties": [
+        "hatBedeutung",
+        "erfordert",
+        "basiertAuf"
+      ],
+      "relationships": [
+        [
+          "Personengesellschaft",
+          "erfordert",
+          "Mehrheitsentscheidung"
+        ],
+        [
+          "Mehrheitsentscheidung",
+          "basiertAuf",
+          "Zustimmung"
+        ],
+        [
+          "Zustimmung",
+          "hatBedeutung",
+          "Übertragung von Gesellschaftsanteilen"
+        ]
+      ]
+    }
+  },
+  "Cluster 27": {
+    "gcq": "Unter welchen Voraussetzungen und Pflichten sind die Beteiligten bei der Durchführung von Transporten und Beschaffungsprozessen verantwortlich und welche Ansprüche können geltend gemacht werden?",
+    "ontology": {
+      "classes": [
+        "Transport",
+        "Beschaffungsprozess",
+        "Beteiligter",
+        "Verantwortlichkeit",
+        "Pflicht",
+        "Anspruch"
+      ],
+      "properties": [
+        "betrifft",
+        "hatVerantwortungFür",
+        "hatPflicht",
+        "kannGeltendMade",
+        "basiertAuf"
+      ],
+      "relationships": [
+        [
+          "Transport",
+          "betrifft",
+          "Beschaffungsprozess"
+        ],
+        [
+          "Beteiligter",
+          "hatVerantwortungFür",
+          "Transport"
+        ],
+        [
+          "Beteiligter",
+          "hatVerantwortungFür",
+          "Beschaffungsprozess"
+        ],
+        [
+          "Verantwortlichkeit",
+          "basiertAuf",
+          "Transport"
+        ],
+        [
+          "Verantwortlichkeit",
+          "basiertAuf",
+          "Beschaffungsprozess"
+        ],
+        [
+          "Pflicht",
+          "basiertAuf",
+          "Verantwortlichkeit"
+        ],
+        [
+          "Anspruch",
+          "kannGeltendMade",
+          "Beteiligter"
+        ]
+      ]
+    }
+  },
+  "Cluster 28": {
+    "gcq": "Unter welchen Umständen kann der Vermieter die für vergleichbare Sachen ortsübliche Miete verlangen, wenn der Mieter die Mietsache nach Beendigung des Mietverhältnisses nicht rechtzeitig zurückgibt?",
+    "ontology": {
+      "classes": [
+        "Vermieter",
+        "Mietverhältnis",
+        "Mietvertrag",
+        "Mietrückgabe",
+        "Mietminderung",
+        "Mietzins",
+        "Mietobjekt"
+      ],
+      "properties": [
+        "beinhaltet",
+        "regelt",
+        "verlangt",
+        "führtZu",
+        "beeinträchtigt",
+        "beendet",
+        "betrifft",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Vermieter",
+          "verlangt",
+          "Mietzins"
+        ],
+        [
+          "Mietvertrag",
+          "beinhaltet",
+          "Mietzins"
+        ],
+        [
+          "Mietvertrag",
+          "regelt",
+          "Mietrückgabe"
+        ],
+        [
+          "Mietrückgabe",
+          "beeinträchtigt",
+          "Mietzins"
+        ],
+        [
+          "Mietzins",
+          "betrifft",
+          "Mietobjekt"
+        ],
+        [
+          "Mietverhältnis",
+          "beendet",
+          "Mietrückgabe"
+        ],
+        [
+          "Mietzins",
+          "betrifft",
+          "Mietverhältnis"
+        ],
+        [
+          "Mietzins",
+          "betrifft",
+          "Mietminderung"
+        ],
+        [
+          "Mietminderung",
+          "führtZu",
+          "Mietzins"
+        ]
+      ]
+    }
+  },
+  "Cluster 29": {
+    "gcq": "Wann und unter welchen Voraussetzungen kann ein Mietvertrag über den vereinbarten Endzeitpunkt hinaus verlängert werden oder fortbestehen?",
+    "ontology": {
+      "classes": [
+        "Mietvertrag",
+        "Vertragsverlängerung",
+        "Vertragsfortbestand",
+        "Vertragsendezeitpunkt"
+      ],
+      "properties": [
+        "kannVerlängertWerden",
+        "kannFortbestehen",
+        "unterliegtBedingungen",
+        "überschreitetZeitpunkt"
+      ],
+      "relationships": [
+        [
+          "Mietvertrag",
+          "kannVerlängertWerden",
+          "Vertragsverlängerung"
+        ],
+        [
+          "Mietvertrag",
+          "kannFortbestehen",
+          "Vertragsfortbestand"
+        ],
+        [
+          "Mietvertrag",
+          "unterliegtBedingungen",
+          "Vertragsendezeitpunkt"
+        ],
+        [
+          "Vertragsverlängerung",
+          "überschreitetZeitpunkt",
+          "Vertragsendezeitpunkt"
+        ]
+      ]
+    }
+  },
+  "Cluster 30": {
+    "gcq": "Unter welchen Voraussetzungen und durch wen müssen welche Pflichten im Mietverhältnis erfüllt werden, um die Rechte und Pflichten der Vertragsparteien zu klären und durchzusetzen?",
+    "ontology": {
+      "classes": [
+        "Mietverhältnis",
+        "Vertragspartei",
+        "Pflicht",
+        "Recht"
+      ],
+      "properties": [
+        "mussErfülltSein",
+        "hatRechtAuf",
+        "hatPflicht",
+        "klärt",
+        "durchsetzt"
+      ],
+      "relationships": [
+        [
+          "Vertragspartei",
+          "hatPflicht",
+          "Pflicht"
+        ],
+        [
+          "Pflicht",
+          "mussErfülltSein",
+          "Vertragspartei"
+        ],
+        [
+          "Vertragspartei",
+          "hatRechtAuf",
+          "Recht"
+        ],
+        [
+          "Mietverhältnis",
+          "klärt",
+          "Recht"
+        ],
+        [
+          "Mietverhältnis",
+          "klärt",
+          "Pflicht"
+        ],
+        [
+          "Vertragspartei",
+          "durchsetzt",
+          "Recht"
+        ],
+        [
+          "Vertragspartei",
+          "durchsetzt",
+          "Pflicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 31": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Partei im Mietrecht ihre vertraglichen Pflichten verletzen und welche Rechtsfolgen hat dies für die andere Partei?",
+    "ontology": {
+      "classes": [
+        "Mietpartei",
+        "VertraglichePflicht",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "verletzt",
+        "hatRechtsfolge"
+      ],
+      "relationships": [
+        [
+          "Mietpartei",
+          "verletzt",
+          "VertraglichePflicht"
+        ],
+        [
+          "VertraglichePflicht",
+          "hatRechtsfolge",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 32": {
+    "gcq": "Unter welchen Umständen kann ein Mieter seine Mietzahlungen einstellen oder welche Rechte hat er, wenn der Vermieter seine vertraglichen Pflichten verletzt oder ihn ohne ausreichenden Grund kündigt, und welche Pflichten hat der Vermieter in Bezug auf die Kündigung?",
+    "ontology": {
+      "classes": [
+        "Mieter",
+        "Vermieter",
+        "Mietzahlung",
+        "Kündigung",
+        "Grund"
+      ],
+      "properties": [
+        "kannEinstellen",
+        "hatRechtAuf",
+        "verletzt",
+        "hatPflicht",
+        "istAusreichend"
+      ],
+      "relationships": [
+        [
+          "Mieter",
+          "kannEinstellen",
+          "Mietzahlung"
+        ],
+        [
+          "Mieter",
+          "hatRechtAuf",
+          "Entschädigung"
+        ],
+        [
+          "Vermieter",
+          "verletzt",
+          "Pflichten"
+        ],
+        [
+          "Vermieter",
+          "hatPflicht",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "istAusreichend",
+          "Grund"
+        ]
+      ]
+    }
+  },
+  "Cluster 33": {
+    "gcq": "Welche Rechte und Pflichten haben Mieter und Vermieter im Zusammenhang mit der Zahlung der Miete und der Instandhaltung der Mietwohnung?",
+    "ontology": {
+      "classes": [
+        "Mieter",
+        "Vermieter",
+        "Miete",
+        "Instandhaltung"
+      ],
+      "properties": [
+        "hatPflicht",
+        "hatRecht",
+        "betrifft",
+        "istVerpflichtetZu",
+        "istBerechtigtAuf"
+      ],
+      "relationships": [
+        [
+          "Mieter",
+          "hatPflicht",
+          "Zahlung der Miete"
+        ],
+        [
+          "Vermieter",
+          "hatPflicht",
+          "Instandhaltung der Mietwohnung"
+        ],
+        [
+          "Miete",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Instandhaltung",
+          "betrifft",
+          "Vermieter"
+        ],
+        [
+          "Mieter",
+          "istBerechtigtAuf",
+          "Instandhaltung der Mietwohnung"
+        ],
+        [
+          "Vermieter",
+          "istVerpflichtetZu",
+          "Zahlung der Miete"
+        ]
+      ]
+    }
+  },
+  "Cluster 34": {
+    "gcq": "Wann kann ein Mitglied einer Genossenschaft mit einer Verbandsstrafe belegt werden und welche Voraussetzungen müssen dafür erfüllt sein?",
+    "ontology": {
+      "classes": [
+        "Genossenschaftsmitglied",
+        "Verbandsstrafe",
+        "Verbandsstrafrecht"
+      ],
+      "properties": [
+        "kannBelegtWerdenMit",
+        "erfülltVoraussetzungen"
+      ],
+      "relationships": [
+        [
+          "Genossenschaftsmitglied",
+          "kannBelegtWerdenMit",
+          "Verbandsstrafe"
+        ],
+        [
+          "Verbandsstrafe",
+          "erfülltVoraussetzungen",
+          "Verbandsstrafrecht"
+        ]
+      ]
+    }
+  },
+  "Cluster 35": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Käufer oder Vertragshändler einen Anspruch auf einen Ausgleich oder Schadensersatz geltend machen, wenn er vom Vertrag zurücktritt oder dieser angefochten wird, insbesondere im Zusammenhang mit § 437 Nr. 3 BGB, § 89b HGB oder § 123 Abs. 1 BGB?",
+    "ontology": {
+      "classes": [
+        "Käufer",
+        "Vertragshändler",
+        "Vertrag",
+        "Rücktritt",
+        "Anfechtung",
+        "Anspruch",
+        "Ausgleich",
+        "Schadensersatz",
+        "§437 Nr. 3 BGB",
+        "§89b HGB",
+        "§123 Abs. 1 BGB"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "beinhaltet",
+        "basiertAuf",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Käufer",
+          "kannGeltendMachen",
+          "Anspruch"
+        ],
+        [
+          "Vertragshändler",
+          "kannGeltendMachen",
+          "Anspruch"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Rücktritt"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Anfechtung"
+        ],
+        [
+          "Anspruch",
+          "beinhaltet",
+          "Ausgleich"
+        ],
+        [
+          "Anspruch",
+          "beinhaltet",
+          "Schadensersatz"
+        ],
+        [
+          "Anspruch",
+          "basiertAuf",
+          "§437 Nr. 3 BGB"
+        ],
+        [
+          "Anspruch",
+          "basiertAuf",
+          "§89b HGB"
+        ],
+        [
+          "Anspruch",
+          "basiertAuf",
+          "§123 Abs. 1 BGB"
+        ]
+      ]
+    }
+  },
+  "Cluster 36": {
+    "gcq": "Welche Rolle spielt der Verwaltungsrat bei der Entscheidungsfindung über die Verwendung der Rückstellung für Überschussverteilung und die Zuteilung von Bonuspunkten?",
+    "ontology": {
+      "classes": [
+        "Verwaltungsrat",
+        "Entscheidungsfindung",
+        "Rückstellung",
+        "Überschussverteilung",
+        "Bonuspunkt",
+        "Zuteilung"
+      ],
+      "properties": [
+        "spieltRolleIn",
+        "betrifft",
+        "betrifft",
+        "betrifft",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Verwaltungsrat",
+          "spieltRolleIn",
+          "Entscheidungsfindung"
+        ],
+        [
+          "Entscheidungsfindung",
+          "betrifft",
+          "Verwendung",
+          "Rückstellung"
+        ],
+        [
+          "Entscheidungsfindung",
+          "betrifft",
+          "Zuteilung",
+          "Bonuspunkt"
+        ],
+        [
+          "Rückstellung",
+          "betrifft",
+          "Überschussverteilung"
+        ],
+        [
+          "Bonuspunkt",
+          "betrifft",
+          "Zuteilung"
+        ]
+      ]
+    }
+  },
+  "Cluster 37": {
+    "gcq": "Wann und unter welchen Voraussetzungen haben Versicherte einen Anspruch auf Bonuspunkte oder eine Beteiligung an Überschüssen aus einem Versicherungsverhältnis?",
+    "ontology": {
+      "classes": [
+        "Versicherungsvertrag",
+        "Versicherungsnehmer",
+        "Versicherungsgesellschaft",
+        "Bonuspunkte",
+        "Überschüsse"
+      ],
+      "properties": [
+        "hatAnspruchAuf",
+        "basiertAuf",
+        "enthält",
+        "erwirbt"
+      ],
+      "relationships": [
+        [
+          "Versicherungsnehmer",
+          "hatAnspruchAuf",
+          "Bonuspunkte"
+        ],
+        [
+          "Versicherungsnehmer",
+          "hatAnspruchAuf",
+          "Überschüsse"
+        ],
+        [
+          "Versicherungsvertrag",
+          "enthält",
+          "Bonuspunkte"
+        ],
+        [
+          "Versicherungsvertrag",
+          "enthält",
+          "Überschüsse"
+        ],
+        [
+          "Versicherungsgesellschaft",
+          "erwirbt",
+          "Überschüsse"
+        ],
+        [
+          "Versicherungsvertrag",
+          "basiertAuf",
+          "Versicherungsnehmer"
+        ],
+        [
+          "Versicherungsvertrag",
+          "basiertAuf",
+          "Versicherungsgesellschaft"
+        ]
+      ]
+    }
+  },
+  "Cluster 38": {
+    "gcq": "Unter welchen Voraussetzungen und Pflichten ist ein Architekt während und nach der Ausführung von Bauarbeiten für Mängel verantwortlich und welche Rechte hat er im Falle eines Vergleichs oder einer Kündigung des Architektenvertrags?",
+    "ontology": {
+      "classes": [
+        "Architekt",
+        "Bauarbeiten",
+        "Mangel",
+        "Vergleich",
+        "Kündigung",
+        "Architektenvertrag"
+      ],
+      "properties": [
+        "führtAus",
+        "hatVerantwortungFür",
+        "hatRechtAuf",
+        "hatPflicht",
+        "führtZu",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Architekt",
+          "führtAus",
+          "Bauarbeiten"
+        ],
+        [
+          "Bauarbeiten",
+          "kannHaben",
+          "Mangel"
+        ],
+        [
+          "Mangel",
+          "betrifft",
+          "Bauarbeiten"
+        ],
+        [
+          "Architekt",
+          "hatVerantwortungFür",
+          "Mangel"
+        ],
+        [
+          "Architekt",
+          "hatPflicht",
+          "Mangel"
+        ],
+        [
+          "Architekt",
+          "hatRechtAuf",
+          "Vergleich"
+        ],
+        [
+          "Architekt",
+          "hatRechtAuf",
+          "Kündigung"
+        ],
+        [
+          "Architekt",
+          "hatPflicht",
+          "Kündigung"
+        ],
+        [
+          "Architekt",
+          "hatPflicht",
+          "Architektenvertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 39": {
+    "gcq": "Welche rechtlichen Konsequenzen hat die Verletzung von Obliegenheiten durch den Versicherungsnehmer im Versicherungsvertragsrecht?",
+    "ontology": {
+      "classes": [
+        "Versicherungsvertrag",
+        "Versicherungsnehmer",
+        "Obliegenheit",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "verletzt",
+        "hatRechtsfolge"
+      ],
+      "relationships": [
+        [
+          "Versicherungsvertrag",
+          "beinhaltet",
+          "Obliegenheit"
+        ],
+        [
+          "Versicherungsnehmer",
+          "verletzt",
+          "Obliegenheit"
+        ],
+        [
+          "Obliegenheit",
+          "hatRechtsfolge",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 40": {
+    "gcq": "Wann und unter welchen Bedingungen kann ein Versicherungsnehmer Schadensersatz oder Leistung von seinem Versicherer verlangen, und welche Rolle spielen dabei die Obliegenheiten und Kenntnisse des Versicherungsnehmers sowie des Versicherers?",
+    "ontology": {
+      "classes": [
+        "Versicherungsnehmer",
+        "Versicherer",
+        "Schaden",
+        "Obliegenheit",
+        "Kenntnis"
+      ],
+      "properties": [
+        "verursacht",
+        "hatObliegenheit",
+        "hatKenntnis",
+        "kannVerlangen",
+        "leistet"
+      ],
+      "relationships": [
+        [
+          "Schaden",
+          "verursacht",
+          "Versicherungsnehmer"
+        ],
+        [
+          "Versicherungsnehmer",
+          "hatObliegenheit",
+          "Obliegenheit"
+        ],
+        [
+          "Versicherungsnehmer",
+          "hatKenntnis",
+          "Kenntnis"
+        ],
+        [
+          "Versicherungsnehmer",
+          "kannVerlangen",
+          "Schadensersatz"
+        ],
+        [
+          "Versicherer",
+          "leistet",
+          "Schadensersatz"
+        ]
+      ]
+    }
+  },
+  "Cluster 41": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Versicherung ihre Einstandspflicht im Zusammenhang mit einer Wahlleistungsvereinbarung oder der Verjährung von Ansprüchen im Versicherungsrecht überprüfen und welche Rechtsgrundlagen sind hierfür relevant?",
+    "ontology": {
+      "classes": [
+        "Versicherung",
+        "Einstandspflicht",
+        "Wahlleistungsvereinbarung",
+        "Verjährung",
+        "Anspruch",
+        "Rechtsgrundlage"
+      ],
+      "properties": [
+        "kannPrüfen",
+        "betrifft",
+        "basiertAuf",
+        "relevantFür"
+      ],
+      "relationships": [
+        [
+          "Versicherung",
+          "kannPrüfen",
+          "Einstandspflicht"
+        ],
+        [
+          "Einstandspflicht",
+          "betrifft",
+          "Wahlleistungsvereinbarung"
+        ],
+        [
+          "Einstandspflicht",
+          "betrifft",
+          "Verjährung"
+        ],
+        [
+          "Einstandspflicht",
+          "basiertAuf",
+          "Anspruch"
+        ],
+        [
+          "Rechtsgrundlage",
+          "relevantFür",
+          "Einstandspflicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 42": {
+    "gcq": "Unter welchen Voraussetzungen und Bedingungen entstehen, bestehen oder entfallen Rechte und Pflichten im Zusammenhang mit Versicherungsverträgen und -bedingungen?",
+    "ontology": {
+      "classes": [
+        "Versicherungsvertrag",
+        "Versicherungsbedingungen",
+        "Recht",
+        "Pflicht",
+        "Versicherungsfall",
+        "Versicherungsnehmer",
+        "Versicherer"
+      ],
+      "properties": [
+        "beinhaltet",
+        "gründet",
+        "entsteht",
+        "besteht",
+        "entfällt",
+        "betrifft",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Versicherungsvertrag",
+          "beinhaltet",
+          "Versicherungsbedingungen"
+        ],
+        [
+          "Recht",
+          "gründet",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Pflicht",
+          "gründet",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Versicherungsfall",
+          "entsteht",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Versicherungsfall",
+          "betrifft",
+          "Versicherungsnehmer"
+        ],
+        [
+          "Versicherungsfall",
+          "betrifft",
+          "Versicherer"
+        ],
+        [
+          "Recht",
+          "entfällt",
+          "Versicherungsfall"
+        ],
+        [
+          "Pflicht",
+          "entfällt",
+          "Versicherungsfall"
+        ]
+      ]
+    }
+  },
+  "Cluster 43": {
+    "gcq": "Unter welchen Voraussetzungen und Rechtsfolgen kann eine Kündigung im Rahmen eines Vertragsverhältnisses wirksam oder unwirksam sein?",
+    "ontology": {
+      "classes": [
+        "Kündigung",
+        "Vertragsverhältnis",
+        "Rechtsfolge",
+        "Voraussetzung",
+        "Wirksamkeit",
+        "Unwirksamkeit"
+      ],
+      "properties": [
+        "kannWirksamSein",
+        "kannUnwirksamSein",
+        "führtZu",
+        "erfordert"
+      ],
+      "relationships": [
+        [
+          "Kündigung",
+          "kannWirksamSein",
+          "Vertragsverhältnis"
+        ],
+        [
+          "Kündigung",
+          "kannUnwirksamSein",
+          "Vertragsverhältnis"
+        ],
+        [
+          "Kündigung",
+          "führtZu",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsfolge",
+          "erfordert",
+          "Voraussetzung"
+        ],
+        [
+          "Kündigung",
+          "kannWirksamSein",
+          "Wirksamkeit"
+        ],
+        [
+          "Kündigung",
+          "kannUnwirksamSein",
+          "Unwirksamkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 44": {
+    "gcq": "Welche Verpflichtungen und Rechte bestehen in Bezug auf die Kostenregelung und -weitergabe in verschiedenen Vertragsbeziehungen?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vertragspartei",
+        "Kostenregelung",
+        "Kostenweitergabe"
+      ],
+      "properties": [
+        "regelt",
+        "weitergibt",
+        "betrifft",
+        "hatVerpflichtung",
+        "hatRecht"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "regelt",
+          "Kostenregelung"
+        ],
+        [
+          "Kostenregelung",
+          "betrifft",
+          "Vertragspartei"
+        ],
+        [
+          "Vertragspartei",
+          "hatVerpflichtung",
+          "Kostenweitergabe"
+        ],
+        [
+          "Vertragspartei",
+          "hatRecht",
+          "Kostenweitergabe"
+        ]
+      ]
+    }
+  },
+  "Cluster 45": {
+    "gcq": "Welche Rechtsfolgen treten ein, wenn eine Leistung oder ein Anspruch nicht ordnungsgemäß erbracht oder geltend gemacht wird?",
+    "ontology": {
+      "classes": [
+        "Leistung",
+        "Anspruch",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "wird nicht ordnungsgemäß erbracht",
+        "wird nicht ordnungsgemäß geltend gemacht",
+        "tritt ein"
+      ],
+      "relationships": [
+        [
+          "Leistung",
+          "wird nicht ordnungsgemäß erbracht",
+          "Rechtsfolge"
+        ],
+        [
+          "Anspruch",
+          "wird nicht ordnungsgemäß geltend gemacht",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 46": {
+    "gcq": "Unter welchen Voraussetzungen und durch wen kann eine Gesellschaft bürgerlichen Rechts (GbR) ordnungsgemäß vertreten werden, und welche rechtlichen Konsequenzen hat eine nicht ordnungsgemäße Vertretung?",
+    "ontology": {
+      "classes": [
+        "GesellschaftBürgerlichenRechts",
+        "Vertreter",
+        "Gesellschafter",
+        "Vertretungsbefugnis",
+        "Rechtsgeschäft",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "kannRepräsentieren",
+        "istBefugtFuer",
+        "führtZu",
+        "istGesetzlichVorgesehenFuer",
+        "istNichtig"
+      ],
+      "relationships": [
+        [
+          "GesellschaftBürgerlichenRechts",
+          "kannRepräsentieren",
+          "Vertreter"
+        ],
+        [
+          "Vertreter",
+          "istBefugtFuer",
+          "Gesellschafter"
+        ],
+        [
+          "Vertretungsbefugnis",
+          "istGesetzlichVorgesehenFuer",
+          "GesellschaftBürgerlichenRechts"
+        ],
+        [
+          "Rechtsgeschäft",
+          "führtZu",
+          "Rechtsfolge"
+        ],
+        [
+          "Rechtsfolge",
+          "istNichtig",
+          "GesellschaftBürgerlichenRechts"
+        ]
+      ]
+    }
+  },
+  "Cluster 47": {
+    "gcq": "Unter welchen Voraussetzungen und in welchen Zusammenhängen ist eine Herausgabe von erlangter Bereicherung aufgrund einer ungerechtfertigten Bereicherung nach § 104 VglO möglich?",
+    "ontology": {
+      "classes": [
+        "UngerechtfertigteBereicherung",
+        "Herausgabe",
+        "§104VglO",
+        "Voraussetzungen",
+        "Zusammenhänge"
+      ],
+      "properties": [
+        "istMöglichAufGrundVon",
+        "erfordert",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Herausgabe",
+          "istMöglichAufGrundVon",
+          "UngerechtfertigteBereicherung"
+        ],
+        [
+          "UngerechtfertigteBereicherung",
+          "erfordert",
+          "Voraussetzungen"
+        ],
+        [
+          "Herausgabe",
+          "betrifft",
+          "Zusammenhänge"
+        ],
+        [
+          "§104VglO",
+          "betrifft",
+          "Herausgabe"
+        ]
+      ]
+    }
+  },
+  "Cluster 48": {
+    "gcq": "Unter welchen Voraussetzungen und durch wen kann ein Honorar beansprucht werden, das auf der Grundlage der Mindestsätze der Honorarordnung für Architekten und Ingenieure (HOAI) berechnet wurde?",
+    "ontology": {
+      "classes": [
+        "Honorar",
+        "Mindestsatz",
+        "HOAI",
+        "Architekt",
+        "Ingenieur",
+        "Auftraggeber"
+      ],
+      "properties": [
+        "berechnetAufGrundlage",
+        "beanspruchtVon",
+        "hatMindestsatz"
+      ],
+      "relationships": [
+        [
+          "Honorar",
+          "berechnetAufGrundlage",
+          "Mindestsatz"
+        ],
+        [
+          "Mindestsatz",
+          "hatMindestsatz",
+          "HOAI"
+        ],
+        [
+          "Honorar",
+          "beanspruchtVon",
+          "Architekt"
+        ],
+        [
+          "Honorar",
+          "beanspruchtVon",
+          "Ingenieur"
+        ],
+        [
+          "Architekt",
+          "beanspruchtVon",
+          "Auftraggeber"
+        ],
+        [
+          "Ingenieur",
+          "beanspruchtVon",
+          "Auftraggeber"
+        ]
+      ]
+    }
+  },
+  "Cluster 49": {
+    "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, Kosten oder Entschädigungen im Zusammenhang mit der Beförderung von Gütern zu tragen oder zu leisten?",
+    "ontology": {
+      "classes": [
+        "Beförderer",
+        "Gut",
+        "Entschädigung",
+        "Kosten",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "befördert",
+        "trägt",
+        "leistet",
+        "betrifft",
+        "basiert auf"
+      ],
+      "relationships": [
+        [
+          "Beförderer",
+          "befördert",
+          "Gut"
+        ],
+        [
+          "Beförderer",
+          "trägt",
+          "Kosten"
+        ],
+        [
+          "Beförderer",
+          "leistet",
+          "Entschädigung"
+        ],
+        [
+          "Entschädigung",
+          "betrifft",
+          "Gut"
+        ],
+        [
+          "Kosten",
+          "betrifft",
+          "Gut"
+        ],
+        [
+          "Verpflichtung",
+          "basiert auf",
+          "Beförderer"
+        ]
+      ]
+    }
+  },
+  "Cluster 50": {
+    "gcq": "Unter welchen Voraussetzungen und wer ist befugt, Sonderkündigungsrechte oder Pensionsansprüche geltend zu machen oder zu ändern, insbesondere im Zusammenhang mit dem ZVG, ZVK-L und BetrAVG?",
+    "ontology": {
+      "classes": [
+        "Sonderkündigungsrecht",
+        "Pensionsanspruch",
+        "ZVG",
+        "ZVK-L",
+        "BetrAVG",
+        "Befugnis",
+        "Person"
+      ],
+      "properties": [
+        "geltendmachen",
+        "ändern",
+        "beinhaltet",
+        "basiert auf",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Sonderkündigungsrecht",
+          "geltendmachen",
+          "Person"
+        ],
+        [
+          "Pensionsanspruch",
+          "ändern",
+          "Person"
+        ],
+        [
+          "ZVG",
+          "beinhaltet",
+          "Sonderkündigungsrecht"
+        ],
+        [
+          "ZVK-L",
+          "beinhaltet",
+          "Sonderkündigungsrecht"
+        ],
+        [
+          "BetrAVG",
+          "beinhaltet",
+          "Pensionsanspruch"
+        ],
+        [
+          "Sonderkündigungsrecht",
+          "basiert auf",
+          "Befugnis"
+        ],
+        [
+          "Pensionsanspruch",
+          "basiert auf",
+          "Befugnis"
+        ],
+        [
+          "Befugnis",
+          "betrifft",
+          "Person"
+        ]
+      ]
+    }
+  },
+  "Cluster 51": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Rechtsträger für Schäden oder Nachteile in Anspruch genommen werden, die durch das Verhalten einer anderen Person oder Stelle verursacht wurden?",
+    "ontology": {
+      "classes": [
+        "Rechtsträger",
+        "Person",
+        "Stelle",
+        "Schaden",
+        "Nachteil",
+        "Verhalten"
+      ],
+      "properties": [
+        "verursacht",
+        "kannInAnspruchGenommenWerden"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Stelle",
+          "verursacht",
+          "Nachteil"
+        ],
+        [
+          "Schaden",
+          "kannInAnspruchGenommenWerden",
+          "Rechtsträger"
+        ],
+        [
+          "Nachteil",
+          "kannInAnspruchGenommenWerden",
+          "Rechtsträger"
+        ],
+        [
+          "Verhalten",
+          "verursacht",
+          "Schaden"
+        ]
+      ]
+    }
+  },
+  "Cluster 52": {
+    "gcq": "Welche Voraussetzungen müssen erfüllt sein, damit ein Schadensersatzanspruch aufgrund einer widerrechtlichen Handlung oder eines Vertragsverstoßes geltend gemacht werden kann?",
+    "ontology": {
+      "classes": [
+        "Schadensersatzanspruch",
+        "Verschulden"
+      ],
+      "properties": [
+        "kannGeltendGemachtWerden",
+        "istWiderrechtlich",
+        "istVertragsverstoß",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Schadensersatzanspruch",
+          "kannGeltendGemachtWerden",
+          "Verschulden"
+        ],
+        [
+          "Handlung",
+          "istWiderrechtlich",
+          "führtZu",
+          "Verschulden"
+        ],
+        [
+          "Vertrag",
+          "istVertragsverstoß",
+          "führtZu",
+          "Verschulden"
+        ]
+      ]
+    }
+  },
+  "Cluster 53": {
+    "gcq": "Welche Anforderungen müssen erfüllt sein, damit eine Haftung nach § 826 BGB in Betracht kommt?",
+    "ontology": {
+      "classes": [
+        "Haftung",
+        "Handlung",
+        "Vorsatz",
+        "Schadenszufügung",
+        "Rechtswidrigkeit"
+      ],
+      "properties": [
+        "kannInBetrachtKommen",
+        "beinhaltet",
+        "führtZu",
+        "ist"
+      ],
+      "relationships": [
+        [
+          "Haftung",
+          "kannInBetrachtKommen",
+          "Handlung"
+        ],
+        [
+          "Handlung",
+          "beinhaltet",
+          "Vorsatz"
+        ],
+        [
+          "Handlung",
+          "beinhaltet",
+          "Schadenszufügung"
+        ],
+        [
+          "Handlung",
+          "ist",
+          "Rechtswidrigkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 54": {
+    "gcq": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Anspruch auf Herausgabe, Schadensersatz oder Haftung geltend gemacht werden kann?",
+    "ontology": {
+      "classes": [
+        "Anspruch",
+        "Rechtsvoraussetzung",
+        "Herausgabe",
+        "Schadensersatz",
+        "Haftung"
+      ],
+      "properties": [
+        "kannGeltendGemachtWerden",
+        "basiertAuf",
+        "erfordert"
+      ],
+      "relationships": [
+        [
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Herausgabe"
+        ],
+        [
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Schadensersatz"
+        ],
+        [
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Haftung"
+        ],
+        [
+          "Herausgabe",
+          "basiertAuf",
+          "Rechtsvoraussetzung"
+        ],
+        [
+          "Schadensersatz",
+          "basiertAuf",
+          "Rechtsvoraussetzung"
+        ],
+        [
+          "Haftung",
+          "basiertAuf",
+          "Rechtsvoraussetzung"
+        ],
+        [
+          "Rechtsvoraussetzung",
+          "erfordert",
+          "Anspruch"
+        ]
+      ]
+    }
+  },
+  "Cluster 55": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Person von ihrem Kündigungs- oder Widerrufsrecht Gebrauch machen oder welche Bedingungen müssen erfüllt sein, damit bestimmte Rechtsbeziehungen wie Geschäftsführung ohne Auftrag, Werkvertrag oder Grundabtretung vorliegen?",
+    "ontology": {
+      "classes": [
+        "Person",
+        "Kündigung",
+        "Widerruf",
+        "Bedingung",
+        "GeschäftsführungOhneAuftrag",
+        "Werkvertrag",
+        "Grundabtretung"
+      ],
+      "properties": [
+        "kannGebrauchMachenVon",
+        "mussErfülltSein",
+        "liegtVor"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "kannGebrauchMachenVon",
+          "Kündigung"
+        ],
+        [
+          "Person",
+          "kannGebrauchMachenVon",
+          "Widerruf"
+        ],
+        [
+          "Kündigung",
+          "mussErfülltSein",
+          "Bedingung"
+        ],
+        [
+          "Widerruf",
+          "mussErfülltSein",
+          "Bedingung"
+        ],
+        [
+          "Person",
+          "liegtVor",
+          "GeschäftsführungOhneAuftrag"
+        ],
+        [
+          "Person",
+          "liegtVor",
+          "Werkvertrag"
+        ],
+        [
+          "Person",
+          "liegtVor",
+          "Grundabtretung"
+        ]
+      ]
+    }
+  },
+  "Cluster 56": {
+    "gcq": "Welche Anforderungen müssen erfüllt sein, damit eine Fristsetzung im Sinne des § 281 Abs. 1 BGB wirksam ist?",
+    "ontology": {
+      "classes": [
+        "Fristsetzung",
+        "Wirksamkeit",
+        "§281Abs1BGB"
+      ],
+      "properties": [
+        "erfüllt",
+        "istWirksam"
+      ],
+      "relationships": [
+        [
+          "Fristsetzung",
+          "erfüllt",
+          "Wirksamkeit"
+        ],
+        [
+          "Wirksamkeit",
+          "istWirksam",
+          "§281Abs1BGB"
+        ]
+      ]
+    }
+  },
+  "Cluster 57": {
+    "gcq": "Welche Fristen gelten für die Geltendmachung von Ansprüchen und welche Rechtsfolgen treten ein, wenn diese Fristen nicht eingehalten werden?",
+    "ontology": {
+      "classes": [
+        "Anspruch",
+        "Frist",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "giltFuer",
+        "kannGeltendGemachtWerden",
+        "trittEin"
+      ],
+      "relationships": [
+        [
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Frist"
+        ],
+        [
+          "Frist",
+          "trittEin",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 58": {
+    "gcq": "Welche rechtlichen Voraussetzungen müssen für eine wirksame Betriebskostenabrechnung erfüllt sein, und welche Konsequenzen hat die Unwirksamkeit einer solchen Abrechnung für die Nachforderung von Betriebskosten?",
+    "ontology": {
+      "classes": [
+        "Betriebskostenabrechnung",
+        "RechtlicheVoraussetzungen",
+        "Wirkung",
+        "Nachforderung"
+      ],
+      "properties": [
+        "erfüllt",
+        "hatKonsequenz"
+      ],
+      "relationships": [
+        [
+          "Betriebskostenabrechnung",
+          "erfüllt",
+          "RechtlicheVoraussetzungen"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "hatKonsequenz",
+          "Wirkung"
+        ],
+        [
+          "Wirkung",
+          "hatKonsequenz",
+          "Nachforderung"
+        ]
+      ]
+    }
+  },
+  "Cluster 59": {
+    "gcq": "Welche Rechte und Pflichten hat eine Person in Bezug auf die Geltendmachung von Ansprüchen und die Einhaltung von Treu und Glauben?",
+    "ontology": {
+      "classes": [
+        "Person",
+        "Anspruch",
+        "Pflicht",
+        "Recht",
+        "Treu und Glauben"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "hatVerpflichtungZu",
+        "istVerpflichtetZu",
+        "istRechtAuf",
+        "istInBezugAuf"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "kannGeltendMachen",
+          "Anspruch"
+        ],
+        [
+          "Person",
+          "istVerpflichtetZu",
+          "Treu und Glauben"
+        ],
+        [
+          "Person",
+          "hatVerpflichtungZu",
+          "Pflicht"
+        ],
+        [
+          "Recht",
+          "istInBezugAuf",
+          "Treu und Glauben"
+        ],
+        [
+          "Pflicht",
+          "istInBezugAuf",
+          "Treu und Glauben"
+        ]
+      ]
+    }
+  },
+  "Cluster 60": {
+    "gcq": "Unter welchen Voraussetzungen und in welchem Umfang kann eine Person für Schäden oder Verluste haftbar gemacht werden, die durch ihr Verhalten oder das Verhalten von Dritten verursacht wurden, die in einem bestimmten Zusammenhang zu ihr stehen?",
+    "ontology": {
+      "classes": [
+        "Person",
+        "Schaden",
+        "Dritter"
+      ],
+      "properties": [
+        "verursacht",
+        "stehtInZusammenhangMit",
+        "kannHaftbarGemachtWerden"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Dritter",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Person",
+          "stehtInZusammenhangMit",
+          "Dritter"
+        ],
+        [
+          "Schaden",
+          "kannHaftbarGemachtWerden",
+          "Person"
+        ]
+      ]
+    }
+  },
+  "Cluster 61": {
+    "gcq": "Welche Voraussetzungen und Aufgaben haben Öffentlich bestellte Vermessungsingenieure in Nordrhein-Westfalen bei der Erstellung und Verwendung von Lageplänen im öffentlichen Vermessungswesen?",
+    "ontology": {
+      "classes": [
+        "ÖffentlichBestellterVermessungsingenieur",
+        "Lageplan",
+        "ÖffentlichesVermessungswesen"
+      ],
+      "properties": [
+        "erstellt",
+        "verwendet",
+        "hatAufgaben",
+        "hatVoraussetzungen"
+      ],
+      "relationships": [
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "erstellt",
+          "Lageplan"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "verwendet",
+          "Lageplan"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "hatAufgaben",
+          "ÖffentlichesVermessungswesen"
+        ],
+        [
+          "ÖffentlichBestellterVermessungsingenieur",
+          "hatVoraussetzungen",
+          "ÖffentlichesVermessungswesen"
+        ]
+      ]
+    }
+  },
+  "Cluster 62": {
+    "gcq": "Unter welchen Voraussetzungen und Pflichten muss eine Bank einen Darlehensnehmer über Risiken aufklären und welche rechtlichen Konsequenzen treten ein, wenn diese Pflicht verletzt wird?",
+    "ontology": {
+      "classes": [
+        "Bank",
+        "Darlehensnehmer",
+        "Risiko",
+        "Aufklärungspflicht",
+        "Rechtsverletzung",
+        "rechtliche Konsequenz"
+      ],
+      "properties": [
+        "hatPflicht",
+        "beinhaltet",
+        "verletzt",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Bank",
+          "hatPflicht",
+          "Aufklärungspflicht"
+        ],
+        [
+          "Aufklärungspflicht",
+          "beinhaltet",
+          "Risiko"
+        ],
+        [
+          "Darlehensnehmer",
+          "hatAnspruchAuf",
+          "Aufklärungspflicht"
+        ],
+        [
+          "Rechtsverletzung",
+          "führtZu",
+          "rechtliche Konsequenz"
+        ]
+      ]
+    }
+  },
+  "Cluster 63": {
+    "gcq": "Wer ist verpflichtet, den Schaden zu ersetzen, wenn dieser durch das Vorhandensein oder die Wirkungen einer Anlage verursacht wurde?",
+    "ontology": {
+      "classes": [
+        "Schaden",
+        "Anlage",
+        "Verpflichteter"
+      ],
+      "properties": [
+        "verursacht",
+        "istVerpflichtetZumErsetzen"
+      ],
+      "relationships": [
+        [
+          "Schaden",
+          "verursacht",
+          "Anlage"
+        ],
+        [
+          "Verpflichteter",
+          "istVerpflichtetZumErsetzen",
+          "Schaden"
+        ]
+      ]
+    }
+  },
+  "Cluster 64": {
+    "gcq": "Unter welchen Voraussetzungen und Verantwortlichkeiten kann eine Partei im Rahmen von Bauvorhaben Schadensersatzansprüche geltend machen oder in Anspruch genommen werden, insbesondere im Zusammenhang mit Mängeln, Unkenntnis, Aufrechnung und Absturzsicherungen?",
+    "ontology": {
+      "classes": [
+        "Bauvorhaben",
+        "Partei",
+        "Schadensersatzanspruch",
+        "Mangel"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "kannInAnspruchGenommenWerden",
+        "istVerantwortlichFür",
+        "hatMängel",
+        "hatUnkenntnis",
+        "machtAufrechnung",
+        "hatAbsturzsicherungen"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "kannGeltendMachen",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Partei",
+          "kannInAnspruchGenommenWerden",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Bauvorhaben",
+          "istVerantwortlichFür",
+          "Mangel"
+        ],
+        [
+          "Partei",
+          "istVerantwortlichFür",
+          "Mangel"
+        ],
+        [
+          "Partei",
+          "hatUnkenntnis",
+          "Mangel"
+        ],
+        [
+          "Partei",
+          "machtAufrechnung",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Bauvorhaben",
+          "hatAbsturzsicherungen"
+        ]
+      ]
+    }
+  },
+  "Cluster 65": {
+    "gcq": "Unter welchen Voraussetzungen und nach welchen Rechtsgrundlagen kann eine Bank oder ein Unternehmen für Beratungsfehler eines Dritten haften, insbesondere wenn sie keine eigenen Beratungspflichten haben oder nicht im Pflichtenkreis des Dritten tätig geworden sind?",
+    "ontology": {
+      "classes": [
+        "Bank",
+        "Unternehmen",
+        "Dritter",
+        "Beratungsfehler",
+        "Rechtsgrundlage",
+        "Haftung"
+      ],
+      "properties": [
+        "kannHaftenFür",
+        "hatEigenePflichten",
+        "istImPflichtenkreisVon"
+      ],
+      "relationships": [
+        [
+          "Bank",
+          "kannHaftenFür",
+          "Beratungsfehler"
+        ],
+        [
+          "Unternehmen",
+          "kannHaftenFür",
+          "Beratungsfehler"
+        ],
+        [
+          "Beratungsfehler",
+          "wirdVerursachtVon",
+          "Dritter"
+        ],
+        [
+          "Bank",
+          "hatEigenePflichten",
+          "False"
+        ],
+        [
+          "Unternehmen",
+          "hatEigenePflichten",
+          "False"
+        ],
+        [
+          "Haftung",
+          "basiertAuf",
+          "Rechtsgrundlage"
+        ]
+      ]
+    }
+  },
+  "Cluster 66": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Bank für Schäden haften, die durch mangelhafte Aufklärung oder Beratung entstanden sind?",
+    "ontology": {
+      "classes": [
+        "Bank",
+        "Schaden",
+        "Aufklärung",
+        "Beratung",
+        "Haftung"
+      ],
+      "properties": [
+        "verursacht",
+        "basiert auf",
+        "hatVoraussetzungen",
+        "hatPflicht"
+      ],
+      "relationships": [
+        [
+          "Schaden",
+          "verursacht",
+          "Bank"
+        ],
+        [
+          "Schaden",
+          "basiert auf",
+          "mangelhafte Aufklärung"
+        ],
+        [
+          "Schaden",
+          "basiert auf",
+          "mangelhafte Beratung"
+        ],
+        [
+          "Bank",
+          "hatPflicht",
+          "Aufklärung"
+        ],
+        [
+          "Bank",
+          "hatPflicht",
+          "Beratung"
+        ],
+        [
+          "Haftung",
+          "hatVoraussetzungen",
+          "Schaden"
+        ],
+        [
+          "Haftung",
+          "hatVoraussetzungen",
+          "mangelhafte Aufklärung"
+        ],
+        [
+          "Haftung",
+          "hatVoraussetzungen",
+          "mangelhafte Beratung"
+        ]
+      ]
+    }
+  },
+  "Cluster 67": {
+    "gcq": "Unter welchen Umständen kann ein Vertrag trotz besonderer Umstände oder Unklarheiten zustande kommen oder seine Gültigkeit behalten?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "besondererUmstand",
+        "Unklarheit"
+      ],
+      "properties": [
+        "kannZustandeKommen",
+        "behältGültigkeit",
+        "betrifft",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "kannZustandeKommen",
+          "trotz",
+          [
+            "besondererUmstand",
+            "Unklarheit"
+          ]
+        ],
+        [
+          "Vertrag",
+          "behältGültigkeit",
+          "trotz",
+          [
+            "besondererUmstand",
+            "Unklarheit"
+          ]
+        ],
+        [
+          "besondererUmstand",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Unklarheit",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "besondererUmstand",
+          "führtZu",
+          "Unklarheit"
+        ]
+      ]
+    }
+  },
+  "Cluster 68": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Recht geltend gemacht oder ausgeübt werden?",
+    "ontology": {
+      "classes": [
+        "Recht",
+        "Rechtsinhaber",
+        "Voraussetzung"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "kannAusuben",
+        "erfordert",
+        "istVoraussetzungFur"
+      ],
+      "relationships": [
+        [
+          "Rechtsinhaber",
+          "kannGeltendMachen",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "kannAusuben",
+          "Rechtsinhaber"
+        ],
+        [
+          "Recht",
+          "erfordert",
+          "Voraussetzung"
+        ],
+        [
+          "Voraussetzung",
+          "istVoraussetzungFur",
+          "Recht"
+        ]
+      ]
+    }
+  },
+  "Cluster 69": {
+    "gcq": "Welche Bedeutung hat das Widerrufsrecht in verschiedenen Vertragsbeziehungen und wie ist es unter Berücksichtigung gesetzlicher Bestimmungen und vertraglicher Vereinbarungen anzuwenden?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Widerrufsrecht",
+        "Gesetzliche Bestimmung",
+        "Vertragliche Vereinbarung"
+      ],
+      "properties": [
+        "regelt",
+        "betrifft",
+        "berücksichtigt"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "betrifft",
+          "Widerrufsrecht"
+        ],
+        [
+          "Widerrufsrecht",
+          "regelt",
+          "Vertrag"
+        ],
+        [
+          "Widerrufsrecht",
+          "berücksichtigt",
+          "Gesetzliche Bestimmung"
+        ],
+        [
+          "Widerrufsrecht",
+          "berücksichtigt",
+          "Vertragliche Vereinbarung"
+        ]
+      ]
+    }
+  },
+  "Cluster 70": {
+    "gcq": "Welche Rechte und Pflichten entstehen aus der Geschäftsbesorgung im Zusammenhang mit der Verjährung von Ansprüchen im Handelsrecht?",
+    "ontology": {
+      "classes": [
+        "Geschäftsbesorgung",
+        "Recht",
+        "Pflicht",
+        "Anspruch",
+        "Verjährung"
+      ],
+      "properties": [
+        "erzeugt",
+        "beinhaltet",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Geschäftsbesorgung",
+          "erzeugt",
+          "Recht"
+        ],
+        [
+          "Geschäftsbesorgung",
+          "erzeugt",
+          "Pflicht"
+        ],
+        [
+          "Recht",
+          "beinhaltet",
+          "Pflicht"
+        ],
+        [
+          "Anspruch",
+          "betrifft",
+          "Verjährung"
+        ]
+      ]
+    }
+  },
+  "Cluster 71": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Rechtshandlung oder ein Vertrag aufgrund mangelnder Formwirksamkeit, Verjährung, Anfechtung oder überraschender Klauseln unwirksam sein?",
+    "ontology": {
+      "classes": [
+        "Rechtshandlung",
+        "Vertrag",
+        "Formwirksamkeit",
+        "Verjährung",
+        "Anfechtung",
+        "surprise Klauseln"
+      ],
+      "properties": [
+        "kannUnwirksamSeinDue",
+        "betrifft",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Rechtshandlung",
+          "kannUnwirksamSeinDue",
+          "Formwirksamkeit"
+        ],
+        [
+          "Vertrag",
+          "kannUnwirksamSeinDue",
+          "Formwirksamkeit"
+        ],
+        [
+          "Rechtshandlung",
+          "kannUnwirksamSeinDue",
+          "Verjährung"
+        ],
+        [
+          "Vertrag",
+          "kannUnwirksamSeinDue",
+          "Verjährung"
+        ],
+        [
+          "Rechtshandlung",
+          "kannUnwirksamSeinDue",
+          "Anfechtung"
+        ],
+        [
+          "Vertrag",
+          "kannUnwirksamSeinDue",
+          "Anfechtung"
+        ],
+        [
+          "Rechtshandlung",
+          "betrifft",
+          "surprise Klauseln"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "surprise Klauseln"
+        ],
+        [
+          "Formwirksamkeit",
+          "führtZu",
+          "Unwirksamkeit"
+        ],
+        [
+          "Verjährung",
+          "führtZu",
+          "Unwirksamkeit"
+        ],
+        [
+          "Anfechtung",
+          "führtZu",
+          "Unwirksamkeit"
+        ],
+        [
+          "surprise Klauseln",
+          "führtZu",
+          "Unwirksamkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 72": {
+    "gcq": "Welche rechtlichen Rahmenbedingungen müssen bei der Berichterstattung über eine Person beachtet werden, um das allgemeine Persönlichkeitsrecht zu schützen?",
+    "ontology": {
+      "classes": [
+        "Berichterstattung",
+        "Person",
+        "Persönlichkeitsschutzrecht"
+      ],
+      "properties": [
+        "betrifft",
+        "schützt"
+      ],
+      "relationships": [
+        [
+          "Berichterstattung",
+          "betrifft",
+          "Person"
+        ],
+        [
+          "Persönlichkeitsschutzrecht",
+          "schützt",
+          "Person"
+        ]
+      ]
+    }
+  },
+  "Cluster 73": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Vertrag aufgrund von Geschäftsunfähigkeit einer Partei nichtig sein oder welche Rechtsfolgen treten ein, wenn eine Partei ihre vertraglichen Verpflichtungen nicht erfüllt oder ohne rechtfertigenden Grund von einem Vertrag zurücktritt?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Partei",
+        "Verpflichtung",
+        "Geschäftsunfähigkeit",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "kannNichigSein",
+        "erfülltNicht",
+        "trittRücktrittOhneGrundAn"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "kannNichigSein",
+          "Geschäftsunfähigkeit"
+        ],
+        [
+          "Partei",
+          "erfülltNicht",
+          "Verpflichtung"
+        ],
+        [
+          "Partei",
+          "trittRücktrittOhneGrundAn",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "hatRechtsfolge",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 74": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Geschädigter Schadensersatz für ein Fahrzeug verlangen und wie ist dieser zu berechnen?",
+    "ontology": {
+      "classes": [
+        "Geschädigter",
+        "Fahrzeug",
+        "Schadensersatz"
+      ],
+      "properties": [
+        "kannVerlangen",
+        "istZuBerechnen"
+      ],
+      "relationships": [
+        [
+          "Geschädigter",
+          "kannVerlangen",
+          "Schadensersatz"
+        ],
+        [
+          "Schadensersatz",
+          "istZuBerechnen",
+          "Fahrzeug"
+        ]
+      ]
+    }
+  },
+  "Cluster 75": {
+    "gcq": "Welche Bedeutung haben die vertraglichen Vereinbarungen und die Einhaltung der rechtlichen Anforderungen für die Wirksamkeit und Durchsetzung von Verträgen?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "VertraglicheVereinbarung",
+        "RechtlicheAnforderung",
+        "Wirksamkeit",
+        "Durchsetzung"
+      ],
+      "properties": [
+        "regelt",
+        "erfüllt",
+        "bedingt",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "regelt",
+          "VertraglicheVereinbarung"
+        ],
+        [
+          "VertraglicheVereinbarung",
+          "erfüllt",
+          "RechtlicheAnforderung"
+        ],
+        [
+          "RechtlicheAnforderung",
+          "bedingt",
+          "Wirksamkeit"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "Durchsetzung"
+        ]
+      ]
+    }
+  },
+  "Cluster 76": {
+    "gcq": "Wer ist verpflichtet, welche Kosten zu tragen, um einen Mangel oder Schaden zu beheben oder zu ersetzen?",
+    "ontology": {
+      "classes": [
+        "Verpflichteter",
+        "Kosten",
+        "Mangel",
+        "Schaden"
+      ],
+      "properties": [
+        "tragen",
+        "beheben",
+        "ersetzen"
+      ],
+      "relationships": [
+        [
+          "Verpflichteter",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Mangel",
+          "beheben",
+          "Kosten"
+        ],
+        [
+          "Schaden",
+          "ersetzen",
+          "Kosten"
+        ]
+      ]
+    }
+  },
+  "Cluster 77": {
+    "gcq": "Welche Rechtsfolgen treten ein, wenn eine Partei einen Vertrag nicht einhält oder von ihm zurücktritt, und welche Voraussetzungen müssen erfüllt sein, um von einem Vertrag zurücktreten oder ihn anfechten zu können?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Partei",
+        "Pflichtverletzung",
+        "Rücktritt",
+        "Anfechtung",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "einhalten",
+        "rücktreten",
+        "anfechten",
+        "voraussetzen",
+        "tretenEin"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "einhalten",
+          "Vertrag"
+        ],
+        [
+          "Partei",
+          "rücktreten",
+          "Vertrag"
+        ],
+        [
+          "Partei",
+          "anfechten",
+          "Vertrag"
+        ],
+        [
+          "Pflichtverletzung",
+          "voraussetzen",
+          "Rücktritt"
+        ],
+        [
+          "Pflichtverletzung",
+          "voraussetzen",
+          "Anfechtung"
+        ],
+        [
+          "Rücktritt",
+          "tretenEin",
+          "Rechtsfolge"
+        ],
+        [
+          "Anfechtung",
+          "tretenEin",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 78": {
+    "gcq": "Welche Rechtsfolgen hat die Revision in einem gerichtlichen Verfahren?",
+    "ontology": {
+      "classes": [
+        "Gerichtliches Verfahren",
+        "Revision",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "hat",
+        "führt zu"
+      ],
+      "relationships": [
+        [
+          "Gerichtliches Verfahren",
+          "hat",
+          "Revision"
+        ],
+        [
+          "Revision",
+          "führt zu",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 79": {
+    "gcq": "Unter welchen Voraussetzungen kann ein nicht im Grundbuch eingetragener Eigentümer eine (Rück-)Auflassung verlangen, um seine Eigentumsrechte durchzusetzen?",
+    "ontology": {
+      "classes": [
+        "Eigentümer",
+        "Grundbuch",
+        "Eigentumsrecht",
+        "Auflassung"
+      ],
+      "properties": [
+        "istEingetragenIn",
+        "verlangt",
+        "kannDurchsetzen"
+      ],
+      "relationships": [
+        [
+          "Eigentümer",
+          "istEingetragenIn",
+          "Grundbuch"
+        ],
+        [
+          "Eigentümer",
+          "verlangt",
+          "Auflassung"
+        ],
+        [
+          "Eigentümer",
+          "kannDurchsetzen",
+          "Eigentumsrecht"
+        ]
+      ]
+    }
+  },
+  "Cluster 80": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Leasingnehmer seine Kaution zurückverlangen, wenn er von einem Leasingvertrag zurücktritt?",
+    "ontology": {
+      "classes": [
+        "Leasingnehmer",
+        "Leasingvertrag",
+        "Rücktritt"
+      ],
+      "properties": [
+        "hatAnspruchAuf",
+        "beinhaltet",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Leasingnehmer",
+          "hatAnspruchAuf",
+          "Rückgabe der Kaution"
+        ],
+        [
+          "Rücktritt",
+          "führtZu",
+          "Rückgabe der Kaution"
+        ],
+        [
+          "Leasingvertrag",
+          "beinhaltet",
+          "Rücktritt"
+        ]
+      ]
+    }
+  },
+  "Cluster 81": {
+    "gcq": "Unter welchen Voraussetzungen ist eine rechtliche Handlung oder eine Vereinbarung gültig und wirksam?",
+    "ontology": {
+      "classes": [
+        "RechtlicheHandlung",
+        "Vereinbarung",
+        "RechtlicheVorschrift",
+        "Parteien",
+        "Willensbekundung"
+      ],
+      "properties": [
+        "entspricht",
+        "erfüllt",
+        "istGültigUndWirksam",
+        "istGültig",
+        "istWirksam",
+        "basiertAuf",
+        "hatTeilnehmer"
+      ],
+      "relationships": [
+        [
+          "RechtlicheHandlung",
+          "entspricht",
+          "RechtlicheVorschrift"
+        ],
+        [
+          "Vereinbarung",
+          "entspricht",
+          "RechtlicheVorschrift"
+        ],
+        [
+          "RechtlicheHandlung",
+          "istGültigUndWirksam",
+          "True"
+        ],
+        [
+          "Vereinbarung",
+          "istGültigUndWirksam",
+          "True"
+        ],
+        [
+          "RechtlicheHandlung",
+          "istGültig",
+          "True"
+        ],
+        [
+          "Vereinbarung",
+          "istGültig",
+          "True"
+        ],
+        [
+          "RechtlicheHandlung",
+          "istWirksam",
+          "True"
+        ],
+        [
+          "Vereinbarung",
+          "istWirksam",
+          "True"
+        ],
+        [
+          "RechtlicheHandlung",
+          "basiertAuf",
+          "Willensbekundung"
+        ],
+        [
+          "Vereinbarung",
+          "basiertAuf",
+          "Willensbekundung"
+        ],
+        [
+          "RechtlicheHandlung",
+          "hatTeilnehmer",
+          "Parteien"
+        ],
+        [
+          "Vereinbarung",
+          "hatTeilnehmer",
+          "Parteien"
+        ]
+      ]
+    }
+  },
+  "Cluster 82": {
+    "gcq": "Wer ist verpflichtet, Kosten zu tragen oder welche Rolle spielt die quotale Haftung in verschiedenen rechtlichen Kontexten?",
+    "ontology": {
+      "classes": [
+        "Verpflichtung",
+        "Kosten",
+        "Haftung",
+        "Rolle",
+        "RechtlicherKontext"
+      ],
+      "properties": [
+        "tragen",
+        "spielt",
+        "betrifft",
+        "istVerpflichtet",
+        "istHaftbar",
+        "istQuotaleHaftung"
+      ],
+      "relationships": [
+        [
+          "Verpflichtung",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Kosten",
+          "betrifft",
+          "Verpflichtung"
+        ],
+        [
+          "Haftung",
+          "istVerpflichtet",
+          "Verpflichtung"
+        ],
+        [
+          "Rolle",
+          "spielt",
+          "Haftung"
+        ],
+        [
+          "RechtlicherKontext",
+          "betrifft",
+          "Haftung"
+        ],
+        [
+          "Haftung",
+          "istHaftbar",
+          "Verpflichtung"
+        ],
+        [
+          "Haftung",
+          "istQuotaleHaftung",
+          "Verpflichtung"
+        ]
+      ]
+    }
+  },
+  "Cluster 83": {
+    "gcq": "Unter welchen Voraussetzungen und in welchem Umfang sind Kosten im Zusammenhang mit einem Haftpflichtprozess oder einem Heimaufenthalt von einer beteiligten Person zu tragen?",
+    "ontology": {
+      "classes": [
+        "Haftpflichtprozess",
+        "Heimaufenthalt",
+        "Kosten",
+        "Person"
+      ],
+      "properties": [
+        "betrifft",
+        "tragen"
+      ],
+      "relationships": [
+        [
+          "Haftpflichtprozess",
+          "betrifft",
+          "Kosten"
+        ],
+        [
+          "Heimaufenthalt",
+          "betrifft",
+          "Kosten"
+        ],
+        [
+          "Kosten",
+          "tragen",
+          "Person"
+        ]
+      ]
+    }
+  },
+  "Cluster 84": {
+    "gcq": "Unter welchen Voraussetzungen und nach welchen Kriterien wird die Kausalität zwischen einem Unfallereignis und einer Gesundheitsbeeinträchtigung in der privaten Unfallversicherung beurteilt?",
+    "ontology": {
+      "classes": [
+        "Unfallereignis",
+        "Gesundheitsbeeinträchtigung",
+        "Kausalität",
+        "Privatunfallversicherung"
+      ],
+      "properties": [
+        "führtzu",
+        "wirdbeurteiltnach",
+        "basiertauf"
+      ],
+      "relationships": [
+        [
+          "Unfallereignis",
+          "führtzu",
+          "Gesundheitsbeeinträchtigung"
+        ],
+        [
+          "Kausalität",
+          "wirdbeurteiltnach",
+          "Kriterien"
+        ],
+        [
+          "Kausalität",
+          "basiertauf",
+          "Privatunfallversicherung"
+        ]
+      ]
+    }
+  },
+  "Cluster 85": {
+    "gcq": "Unter welchen Umständen und mit welchen Konsequenzen kann eine Person für einen Arbeitsunfall haftbar gemacht werden, wenn sie ihre Pflichten verletzt hat?",
+    "ontology": {
+      "classes": [
+        "Arbeitnehmer",
+        "Arbeitsunfall",
+        "Pflichtverletzung",
+        "Haftung"
+      ],
+      "properties": [
+        "verursacht",
+        "hatPflicht",
+        "verletzt",
+        "führtZu",
+        "kannHaftbarGemachtWerden"
+      ],
+      "relationships": [
+        [
+          "Arbeitnehmer",
+          "verursacht",
+          "Arbeitsunfall"
+        ],
+        [
+          "Arbeitnehmer",
+          "hatPflicht",
+          "Arbeitsvertrag"
+        ],
+        [
+          "Arbeitnehmer",
+          "verletzt",
+          "Pflichtverletzung"
+        ],
+        [
+          "Pflichtverletzung",
+          "führtZu",
+          "Haftung"
+        ],
+        [
+          "Arbeitnehmer",
+          "kannHaftbarGemachtWerden",
+          "Arbeitsunfall"
+        ]
+      ]
+    }
+  },
+  "Cluster 86": {
+    "gcq": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Anspruch auf Schadensersatz aufgrund einer unerlaubten Handlung geltend gemacht werden kann?",
+    "ontology": {
+      "classes": [
+        "Anspruch",
+        "Schadensersatz",
+        "Handlung",
+        "Rechtsvoraussetzung"
+      ],
+      "properties": [
+        "kannGeltendGemachtWerden",
+        "istUnerlaubt",
+        "mussErfülltSein"
+      ],
+      "relationships": [
+        [
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Schadensersatz"
+        ],
+        [
+          "Handlung",
+          "istUnerlaubt",
+          "Schadensersatz"
+        ],
+        [
+          "Rechtsvoraussetzung",
+          "mussErfülltSein",
+          "Anspruch"
+        ]
+      ]
+    }
+  },
+  "Cluster 87": {
+    "gcq": "Unter welchen Voraussetzungen und Umständen kann eine Vertragsklausel wirksam oder unwirksam sein und welche Rolle spielt dabei die Eigenhaftung des Vertreters, die Geltendmachung von Ansprüchen und die Einordnung von Verträgen?",
+    "ontology": {
+      "classes": [
+        "Vertragsklausel",
+        "Vertrag",
+        "Vertreter",
+        "Eigenhaftung"
+      ],
+      "properties": [
+        "istWirksam",
+        "istUnwirksam",
+        "basiertAuf",
+        "hatAnspruchAuf",
+        "betrifft",
+        "istVerantwortlichFuer"
+      ],
+      "relationships": [
+        [
+          "Vertragsklausel",
+          "istWirksam",
+          "Vertrag"
+        ],
+        [
+          "Vertragsklausel",
+          "istUnwirksam",
+          "Vertrag"
+        ],
+        [
+          "Vertragsklausel",
+          "basiertAuf",
+          "Eigenhaftung"
+        ],
+        [
+          "Vertreter",
+          "istVerantwortlichFuer",
+          "Eigenhaftung"
+        ],
+        [
+          "Vertreter",
+          "hatAnspruchAuf",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "Vertragsklausel"
+        ]
+      ]
+    }
+  },
+  "Cluster 88": {
+    "gcq": "Welche Bedeutung haben die Umstände des Einzelfalls bei der Vertragsauslegung und -anwendung?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Umstände",
+        "Einzelfall",
+        "Auslegung",
+        "Anwendung"
+      ],
+      "properties": [
+        "berücksichtigen",
+        "bestimmen",
+        "beeinflussen"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "berücksichtigen",
+          "Umstände"
+        ],
+        [
+          "Umstände",
+          "bestimmen",
+          "Einzelfall"
+        ],
+        [
+          "Einzelfall",
+          "beeinflussen",
+          "Auslegung"
+        ],
+        [
+          "Einzelfall",
+          "beeinflussen",
+          "Anwendung"
+        ]
+      ]
+    }
+  },
+  "Cluster 89": {
+    "gcq": "Unter welchen Voraussetzungen und durch wen kann eine ordentliche Kündigung des Anstellungsvertrags eines Geschäftsführers einer GmbH wirksam sein, und welche Rechtsfolgen treten in diesem Zusammenhang ein?",
+    "ontology": {
+      "classes": [
+        "Geschäftsführer",
+        "Anstellungsvertrag",
+        "Kündigung",
+        "Arbeitgeber",
+        "Arbeitsgericht"
+      ],
+      "properties": [
+        "kannWirksamKündigen",
+        "hatRechtsfolge",
+        "betrifft",
+        "entscheidet"
+      ],
+      "relationships": [
+        [
+          "Arbeitgeber",
+          "kannWirksamKündigen",
+          "Geschäftsführer"
+        ],
+        [
+          "Geschäftsführer",
+          "betrifft",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "betrifft",
+          "Anstellungsvertrag"
+        ],
+        [
+          "Arbeitsgericht",
+          "entscheidet",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "hatRechtsfolge",
+          "Arbeitsgericht"
+        ]
+      ]
+    }
+  },
+  "Cluster 90": {
+    "gcq": "Unter welchen Voraussetzungen und Rechtsfolgen kann die Wirksamkeit von Klauseln in Allgemeinen Geschäftsbedingungen überprüft und festgestellt werden?",
+    "ontology": {
+      "classes": [
+        "AllgemeineGeschäftsbedingungen",
+        "Klausel",
+        "Wirksamkeit",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "kannÜberprüftWerden",
+        "kannFestgestelltWerden",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Klausel",
+          "kannÜberprüftWerden",
+          "AllgemeineGeschäftsbedingungen"
+        ],
+        [
+          "Wirksamkeit",
+          "kannFestgestelltWerden",
+          "Klausel"
+        ],
+        [
+          "Rechtsfolge",
+          "führtZu",
+          "Wirksamkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 91": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Person oder ein Unternehmen für Schäden haften, die durch ihre Handlungen oder Unterlassungen verursacht wurden, insbesondere im Zusammenhang mit Geschäftsführungs- und Aufklärungspflichten?",
+    "ontology": {
+      "classes": [
+        "Person",
+        "Unternehmen",
+        "Schaden",
+        "Handlung",
+        "Unterlassung",
+        "Pflicht",
+        "Geschäftsführungsverpflichtung",
+        "Aufklärungspflicht"
+      ],
+      "properties": [
+        "verursacht",
+        "hatPflicht",
+        "verletztPflicht",
+        "führtZu",
+        "kannHaftenFür"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "kannHaftenFür",
+          "Schaden"
+        ],
+        [
+          "Unternehmen",
+          "kannHaftenFür",
+          "Schaden"
+        ],
+        [
+          "Handlung",
+          "führtZu",
+          "Schaden"
+        ],
+        [
+          "Unterlassung",
+          "führtZu",
+          "Schaden"
+        ],
+        [
+          "Pflicht",
+          "hatPflicht",
+          "Person"
+        ],
+        [
+          "Pflicht",
+          "hatPflicht",
+          "Unternehmen"
+        ],
+        [
+          "Geschäftsführungsverpflichtung",
+          "istArtVon",
+          "Pflicht"
+        ],
+        [
+          "Aufklärungspflicht",
+          "istArtVon",
+          "Pflicht"
+        ],
+        [
+          "Handlung",
+          "verletztPflicht",
+          "Pflicht"
+        ],
+        [
+          "Unterlassung",
+          "verletztPflicht",
+          "Pflicht"
+        ],
+        [
+          "Pflichtverletzung",
+          "führtZu",
+          "Schaden"
+        ]
+      ]
+    }
+  },
+  "Cluster 92": {
+    "gcq": "Unter welchen Voraussetzungen und Bedingungen kann eine Hinauskündigungsklausel in einer GmbH wirksam vereinbart und gestaltet werden, um den gesellschaftsrechtlichen Gleichbehandlungsgrundsatz und das Verbot der ungleichen Kündigungslage einzuhalten und nicht gegen die guten Sitten zu verstoßen?",
+    "ontology": {
+      "classes": [
+        "GmbH",
+        "Hinauskündigungsklausel",
+        "Gleichbehandlungsgrundsatz",
+        "Kündigungslage",
+        "GuteSitten"
+      ],
+      "properties": [
+        "kannVereinbartWerden",
+        "einhalten",
+        "verstoßenGegen"
+      ],
+      "relationships": [
+        [
+          "GmbH",
+          "kannVereinbartWerden",
+          "Hinauskündigungsklausel"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "einhalten",
+          "Gleichbehandlungsgrundsatz"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "einhalten",
+          "Kündigungslage"
+        ],
+        [
+          "Hinauskündigungsklausel",
+          "verstoßenGegen",
+          "GuteSitten"
+        ]
+      ]
+    }
+  },
+  "Cluster 93": {
+    "gcq": "Unter welchen Voraussetzungen und Bedingungen kann die Wirksamkeit von Geschäftsführerverträgen in einer GmbH gewährleistet werden, und welche Rechte und Pflichten haben die beteiligten Parteien im Falle von Unwirksamkeit oder Pflichtverletzung?",
+    "ontology": {
+      "classes": [
+        "Geschäftsführervertrag",
+        "GmbH",
+        "Geschäftsführer",
+        "Partei",
+        "Pflicht",
+        "Unwirksamkeit"
+      ],
+      "properties": [
+        "kannWirksamGewährleistetSein",
+        "hatRechte",
+        "hatPflichten",
+        "imFalleVon",
+        "verletzt"
+      ],
+      "relationships": [
+        [
+          "Geschäftsführervertrag",
+          "kannWirksamGewährleistetSein",
+          "GmbH"
+        ],
+        [
+          "Partei",
+          "hatRechte",
+          "Geschäftsführervertrag"
+        ],
+        [
+          "Partei",
+          "hatPflichten",
+          "Geschäftsführervertrag"
+        ],
+        [
+          "Geschäftsführervertrag",
+          "imFalleVon",
+          "Unwirksamkeit"
+        ],
+        [
+          "Geschäftsführer",
+          "verletzt",
+          "Pflicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 94": {
+    "gcq": "Welche rechtlichen Konsequenzen hat die Unwirksamkeit oder Unvollständigkeit einer Willenserklärung im Hinblick auf die ursprünglichen Absichten der Beteiligten?",
+    "ontology": {
+      "classes": [
+        "Willenserklärung",
+        "Absicht",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "istUnwirksam",
+        "istUnvollständig",
+        "betrifft",
+        "hatKonsequenz"
+      ],
+      "relationships": [
+        [
+          "Willenserklärung",
+          "istUnwirksam",
+          "Rechtsfolge"
+        ],
+        [
+          "Willenserklärung",
+          "istUnvollständig",
+          "Rechtsfolge"
+        ],
+        [
+          "Absicht",
+          "betrifft",
+          "Willenserklärung"
+        ],
+        [
+          "Rechtsfolge",
+          "hatKonsequenz",
+          "Absicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 95": {
+    "gcq": "Welche Bedeutung hat die Perspektive eines Dritten bei der Interpretation einer Äußerung oder der Beurteilung eines Verhaltens?",
+    "ontology": {
+      "classes": [
+        "Perspektive",
+        "Dritter",
+        "Äußerung",
+        "Verhalten",
+        "Interpretation",
+        "Beurteilung"
+      ],
+      "properties": [
+        "betrachtet",
+        "beeinflusst",
+        "bezieht sich auf"
+      ],
+      "relationships": [
+        [
+          "Perspektive",
+          "betrachtet",
+          "Dritter"
+        ],
+        [
+          "Dritter",
+          "beeinflusst",
+          "Interpretation"
+        ],
+        [
+          "Dritter",
+          "beeinflusst",
+          "Beurteilung"
+        ],
+        [
+          "Interpretation",
+          "bezieht sich auf",
+          "Äußerung"
+        ],
+        [
+          "Beurteilung",
+          "bezieht sich auf",
+          "Verhalten"
+        ]
+      ]
+    }
+  },
+  "Cluster 96": {
+    "gcq": "Welche Faktoren beeinflussen die Quotierung von Sachverständigenkosten im Schadensersatzrecht und welche Rolle spielt die Haftung für den Schaden?",
+    "ontology": {
+      "classes": [
+        "Sachverständigenkosten",
+        "Schadensersatzrecht",
+        "Haftung"
+      ],
+      "properties": [
+        "beeinflusst",
+        "spieltRolleIn"
+      ],
+      "relationships": [
+        [
+          "Sachverständigenkosten",
+          "beeinflusst",
+          "Quotierung"
+        ],
+        [
+          "Haftung",
+          "spieltRolleIn",
+          "Schadensersatzrecht"
+        ]
+      ]
+    }
+  },
+  "Cluster 97": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Schadensersatzanspruch geltend gemacht werden, und welche Faktoren beeinflussen die Höhe des Schadensersatzes?",
+    "ontology": {
+      "classes": [
+        "Schadensersatzanspruch",
+        "Schaden",
+        "HöheDesSchadens"
+      ],
+      "properties": [
+        "kannGeltendGemachtWerden",
+        "beeinflusst",
+        "beträgt"
+      ],
+      "relationships": [
+        [
+          "Schadensersatzanspruch",
+          "kannGeltendGemachtWerden",
+          "Schaden"
+        ],
+        [
+          "Schaden",
+          "beeinflusst",
+          "HöheDesSchadens"
+        ],
+        [
+          "HöheDesSchadens",
+          "beträgt",
+          "Schadensersatzanspruch"
+        ]
+      ]
+    }
+  },
+  "Cluster 98": {
+    "gcq": "Welche rechtlichen Konsequenzen hat die Verletzung vertraglicher Pflichten durch eine Partei oder deren Erfüllungsgehilfen, insbesondere im Hinblick auf die Beweislast, die Geltendmachung von Ansprüchen und die Verjährung?",
+    "ontology": {
+      "classes": [
+        "Vertragspflicht",
+        "Partei",
+        "Erfüllungsgehilfe",
+        "Verletzung",
+        "Anspruch",
+        "Verjährung"
+      ],
+      "properties": [
+        "verletzt",
+        "hatBeweislast",
+        "kannGeltendMachen",
+        "istVerjährt"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "verletzt",
+          "Vertragspflicht"
+        ],
+        [
+          "Erfüllungsgehilfe",
+          "verletzt",
+          "Vertragspflicht"
+        ],
+        [
+          "Verletzung",
+          "hatBeweislast",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "kannGeltendMachen",
+          "Anspruch"
+        ],
+        [
+          "Anspruch",
+          "istVerjährt",
+          "Verjährung"
+        ]
+      ]
+    }
+  },
+  "Cluster 99": {
+    "gcq": "Unter welchen Voraussetzungen und in welchen Verfahren ist die Einleitung oder Durchführung eines Schlichtungsverfahrens vorgeschrieben oder von Bedeutung?",
+    "ontology": {
+      "classes": [
+        "Schlichtungsverfahren",
+        "Einleitung",
+        "Durchführung",
+        "Vorschrift",
+        "Bedeutung",
+        "Verfahrensart"
+      ],
+      "properties": [
+        "istVorschrieben",
+        "istVonBedeutung",
+        "beinhaltet",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Schlichtungsverfahren",
+          "beinhaltet",
+          "Einleitung"
+        ],
+        [
+          "Schlichtungsverfahren",
+          "beinhaltet",
+          "Durchführung"
+        ],
+        [
+          "Einleitung",
+          "istVorschrieben",
+          "Vorschrift"
+        ],
+        [
+          "Durchführung",
+          "istVorschrieben",
+          "Vorschrift"
+        ],
+        [
+          "Schlichtungsverfahren",
+          "istVonBedeutung",
+          "Bedeutung"
+        ],
+        [
+          "Verfahrensart",
+          "betrifft",
+          "Schlichtungsverfahren"
+        ]
+      ]
+    }
+  },
+  "Cluster 100": {
+    "gcq": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+    "ontology": {
+      "classes": [
+        "Anspruch",
+        "Frist",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "kannGeltendGemachtWerden",
+        "trittEinWenn"
+      ],
+      "relationships": [
+        [
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Frist"
+        ],
+        [
+          "Frist",
+          "trittEinWenn",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 101": {
+    "gcq": "Unter welchen Voraussetzungen haftet ein neuer Inhaber eines Handelsgeschäfts für die Verbindlichkeiten des früheren Inhabers, wenn er das Geschäft unter der bisherigen Firma fortführt?",
+    "ontology": {
+      "classes": [
+        "Handelsgeschäft",
+        "Verbindlichkeit",
+        "Inhaber",
+        "Firma"
+      ],
+      "properties": [
+        "fortführt",
+        "haftet für"
+      ],
+      "relationships": [
+        [
+          "Handelsgeschäft",
+          "fortgeführt durch",
+          "Inhaber"
+        ],
+        [
+          "Inhaber",
+          "haftet für",
+          "Verbindlichkeit"
+        ],
+        [
+          "Handelsgeschäft",
+          "hat",
+          "Firma"
+        ]
+      ]
+    }
+  },
+  "Cluster 102": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
+    "ontology": {
+      "classes": [
+        "Prozessvergleich",
+        "Prozesspartei",
+        "Gericht",
+        "Widerrufsgrund"
+      ],
+      "properties": [
+        "kannWiderrufenWerden",
+        "wirdDurchgeführtVon",
+        "wirdBegründetDurch",
+        "hatRechtsgrundlage"
+      ],
+      "relationships": [
+        [
+          "Prozessvergleich",
+          "kannWiderrufenWerden",
+          "Widerrufsgrund"
+        ],
+        [
+          "Prozessvergleich",
+          "wirdDurchgeführtVon",
+          "Prozesspartei"
+        ],
+        [
+          "Prozessvergleich",
+          "hatRechtsgrundlage",
+          "Gericht"
+        ]
+      ]
+    }
+  },
+  "Cluster 103": {
+    "gcq": "Welche Auswirkungen hat die Art und Weise der Zustellung von Urteilen oder Gutachten auf den Lauf von Fristen und die Wirksamkeit von Entscheidungen?",
+    "ontology": {
+      "classes": [
+        "Urteil",
+        "Gutachten",
+        "Zustellung",
+        "Frist",
+        "Entscheidung"
+      ],
+      "properties": [
+        "betrifft",
+        "wirktAuf",
+        "beginntMit",
+        "endetMit"
+      ],
+      "relationships": [
+        [
+          "Urteil",
+          "betrifft",
+          "Entscheidung"
+        ],
+        [
+          "Gutachten",
+          "betrifft",
+          "Entscheidung"
+        ],
+        [
+          "Zustellung",
+          "wirktAuf",
+          "Frist"
+        ],
+        [
+          "Zustellung",
+          "wirktAuf",
+          "Entscheidung"
+        ],
+        [
+          "Frist",
+          "beginntMit",
+          "Zustellung"
+        ],
+        [
+          "Frist",
+          "endetMit",
+          "Zustellung"
+        ]
+      ]
+    }
+  },
+  "Cluster 104": {
+    "gcq": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+    "ontology": {
+      "classes": [
+        "Beweisverfahren",
+        "RechtlicheVoraussetzung",
+        "Beweis",
+        "Erfüllung"
+      ],
+      "properties": [
+        "erfordert",
+        "erbracht"
+      ],
+      "relationships": [
+        [
+          "Beweisverfahren",
+          "erfordert",
+          "RechtlicheVoraussetzung"
+        ],
+        [
+          "RechtlicheVoraussetzung",
+          "erfordert",
+          "Erfüllung"
+        ],
+        [
+          "Beweisverfahren",
+          "erfordert",
+          "Beweis"
+        ],
+        [
+          "Beweis",
+          "erbracht",
+          "Erfüllung"
+        ]
+      ]
+    }
+  },
+  "Cluster 105": {
+    "gcq": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
+    "ontology": {
+      "classes": [
+        "Geldmittel",
+        "Verpflichtung",
+        "Recht",
+        "Satzung",
+        "Rechnung"
+      ],
+      "properties": [
+        "betrifft",
+        "regelt",
+        "einhält",
+        "enthält",
+        "mindestsatzungsgemäß",
+        "mindestangabe"
+      ],
+      "relationships": [
+        [
+          "Geldmittel",
+          "betrifft",
+          "Verpflichtung"
+        ],
+        [
+          "Geldmittel",
+          "betrifft",
+          "Recht"
+        ],
+        [
+          "Verpflichtung",
+          "regelt",
+          "Geldmittel"
+        ],
+        [
+          "Recht",
+          "regelt",
+          "Geldmittel"
+        ],
+        [
+          "Satzung",
+          "einhält",
+          "Verpflichtung"
+        ],
+        [
+          "Satzung",
+          "einhält",
+          "Recht"
+        ],
+        [
+          "Rechnung",
+          "enthält",
+          "Mindestangabe"
+        ],
+        [
+          "Mindestangabe",
+          "mindestsatzungsgemäß",
+          "Rechnung"
+        ]
+      ]
+    }
+  },
+  "Cluster 106": {
+    "gcq": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit zur Erprobung an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
+    "ontology": {
+      "classes": [
+        "Richter",
+        "Oberlandesgericht",
+        "Erprobung"
+      ],
+      "properties": [
+        "kannAbgeordnetWerden",
+        "hatRechte"
+      ],
+      "relationships": [
+        [
+          "Richter",
+          "kannAbgeordnetWerden",
+          "Oberlandesgericht"
+        ],
+        [
+          "Richter",
+          "hatRechte",
+          "Erprobung"
+        ]
+      ]
+    }
+  },
+  "Cluster 107": {
+    "gcq": "Unter welchen Voraussetzungen und Bedingungen kann eine Aufrechnung mit einer Werklohnforderung stattfinden, und welche Rechtsfolgen sind damit verbunden?",
+    "ontology": {
+      "classes": [
+        "Aufrechnung",
+        "Werklohnforderung",
+        "Vertrag",
+        "Leistung",
+        "Pflicht",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "kannStattfindenUnter",
+        "istVerbundenMit",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Aufrechnung",
+          "kannStattfindenUnter",
+          "Vertrag"
+        ],
+        [
+          "Aufrechnung",
+          "istVerbundenMit",
+          "Werklohnforderung"
+        ],
+        [
+          "Werklohnforderung",
+          "istVerbundenMit",
+          "Leistung"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Pflicht"
+        ],
+        [
+          "Aufrechnung",
+          "führtZu",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 108": {
+    "gcq": "Welche rechtlichen Auswirkungen hat die Zustellung von Dokumenten im Rahmen eines Rechtsstreits oder eines Vertragsverhältnisses?",
+    "ontology": {
+      "classes": [
+        "Dokument",
+        "Rechtsstreit",
+        "Vertragsverhältnis",
+        "Zustellung"
+      ],
+      "properties": [
+        "betrifft",
+        "hatAuswirkungenAuf"
+      ],
+      "relationships": [
+        [
+          "Dokument",
+          "betrifft",
+          "Rechtsstreit"
+        ],
+        [
+          "Dokument",
+          "betrifft",
+          "Vertragsverhältnis"
+        ],
+        [
+          "Zustellung",
+          "hatAuswirkungenAuf",
+          "Rechtsstreit"
+        ],
+        [
+          "Zustellung",
+          "hatAuswirkungenAuf",
+          "Vertragsverhältnis"
+        ]
+      ]
+    }
+  },
+  "Cluster 109": {
+    "gcq": "Unter welchen Voraussetzungen ist eine Partei in einem Rechtsstreit prozessfähig und wer trägt die Verantwortung für die ordnungsgemäße Vertretung einer prozessunfähigen Partei?",
+    "ontology": {
+      "classes": [
+        "Partei",
+        "Rechtsstreit",
+        "Prozessfähigkeit",
+        "Vertreter",
+        "Verantwortung"
+      ],
+      "properties": [
+        "besitzt",
+        "trägt",
+        "istVerantwortlichFür",
+        "istRechtsstreit"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "besitzt",
+          "Prozessfähigkeit"
+        ],
+        [
+          "Partei",
+          "istRechtsstreit",
+          "Rechtsstreit"
+        ],
+        [
+          "Vertreter",
+          "istVerantwortlichFür",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "trägt",
+          "Verantwortung"
+        ]
+      ]
+    }
+  },
+  "Cluster 110": {
+    "gcq": "Welche Haftungsverpflichtungen hat ein Unternehmer oder Lieferant gegenüber einem Kunden oder Verbraucher bei Mängeln oder Schäden, die durch ein von ihm hergestelltes, geliefertes oder in Verkehr gebrachtes Produkt verursacht werden, und wie kann der Geschädigte seine Rechte durchsetzen?",
+    "ontology": {
+      "classes": [
+        "Produkt",
+        "Mangel",
+        "Schaden",
+        "Hersteller",
+        "Lieferant",
+        "Kunde",
+        "Verbraucher",
+        "Haftungsverpflichtung"
+      ],
+      "properties": [
+        "verursacht",
+        "hatHaftungsverpflichtung",
+        "kannDurchsetzen"
+      ],
+      "relationships": [
+        [
+          "Produkt",
+          "verursacht",
+          "Mangel"
+        ],
+        [
+          "Produkt",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Hersteller",
+          "hatHaftungsverpflichtung",
+          "Mangel"
+        ],
+        [
+          "Hersteller",
+          "hatHaftungsverpflichtung",
+          "Schaden"
+        ],
+        [
+          "Lieferant",
+          "hatHaftungsverpflichtung",
+          "Mangel"
+        ],
+        [
+          "Lieferant",
+          "hatHaftungsverpflichtung",
+          "Schaden"
+        ],
+        [
+          "Kunde",
+          "kannDurchsetzen",
+          "Haftungsverpflichtung"
+        ],
+        [
+          "Verbraucher",
+          "kannDurchsetzen",
+          "Haftungsverpflichtung"
+        ]
+      ]
+    }
+  },
+  "Cluster 111": {
+    "gcq": "Welche Voraussetzungen müssen erfüllt sein, damit deutsche Gerichte international zuständig sind und das ausländische Recht anwenden müssen, um einen Fall zu entscheiden?",
+    "ontology": {
+      "classes": [
+        "Gericht",
+        "Fall",
+        "Recht",
+        "Staat"
+      ],
+      "properties": [
+        "istZuständigFür",
+        "wendetAn",
+        "betrifft",
+        "istAusländisch"
+      ],
+      "relationships": [
+        [
+          "Gericht",
+          "istZuständigFür",
+          "Fall"
+        ],
+        [
+          "Fall",
+          "betrifft",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "istAusländisch",
+          "Staat"
+        ],
+        [
+          "Gericht",
+          "wendetAn",
+          "Recht"
+        ]
+      ]
+    }
+  },
+  "Cluster 112": {
+    "gcq": "Unter welchen Voraussetzungen und welche Rechtsfolgen hat die Nichtbeachtung von Verfahrensvorschriften durch eine Partei in einem Zivilprozess?",
+    "ontology": {
+      "classes": [
+        "Partei",
+        "Verfahrensvorschrift",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "beachtet",
+        "hatRechtsfolge"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "beachtet",
+          "Verfahrensvorschrift"
+        ],
+        [
+          "Verfahrensvorschrift",
+          "hatRechtsfolge",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 113": {
+    "gcq": "Unter welchen Umständen ist eine Person verpflichtet, eine bestimmte Zahlung zu leisten, wenn ein Vertrag nicht ordnungsgemäß erfüllt wird oder vorzeitig endet?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Pflicht",
+        "Person",
+        "Zahlung"
+      ],
+      "properties": [
+        "verpflichtet",
+        "beinhaltet",
+        "endet"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Pflicht"
+        ],
+        [
+          "Pflicht",
+          "verpflichtet",
+          "Person"
+        ],
+        [
+          "Vertrag",
+          "endet",
+          "Zahlung"
+        ]
+      ]
+    }
+  },
+  "Cluster 114": {
+    "gcq": "Unter welchen Voraussetzungen und nach welchen Kriterien ist die Vergütung in verschiedenen Vertragsverhältnissen zu berechnen oder anzupassen, insbesondere im Falle von Mängeln, Kündigungen oder vorzeitigen Beendigungen?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vergütung",
+        "Mangel",
+        "Kündigung",
+        "Vertragspartei",
+        "Vertragsbeendigung"
+      ],
+      "properties": [
+        "regelt",
+        "betrifft",
+        "führtZu",
+        "istGrundFür",
+        "istMangelhaft",
+        "istGültigBis"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "regelt",
+          "Vergütung"
+        ],
+        [
+          "Vergütung",
+          "betrifft",
+          "Vertragspartei"
+        ],
+        [
+          "Mangel",
+          "istGrundFür",
+          "Vergütungsanpassung"
+        ],
+        [
+          "Kündigung",
+          "führtZu",
+          "Vertragsbeendigung"
+        ],
+        [
+          "Vertragsbeendigung",
+          "istGültigBis",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 115": {
+    "gcq": "Unter welchen Voraussetzungen und welche Rechte haben Vertragsparteien im Zusammenhang mit Vertragsabschlüssen, Vertragsrücktritten und Vertragsanpassungen?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vertragspartei",
+        "Vertragsabschluss",
+        "Vertragsrücktritt",
+        "Vertragsanpassung",
+        "Recht"
+      ],
+      "properties": [
+        "hatRechtAuf",
+        "hatVoraussetzung",
+        "betrifft",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Vertragspartei",
+          "hatRechtAuf",
+          "Vertragsabschluss"
+        ],
+        [
+          "Vertragspartei",
+          "hatRechtAuf",
+          "Vertragsanpassung"
+        ],
+        [
+          "Vertragspartei",
+          "hatRechtAuf",
+          "Vertragsrücktritt"
+        ],
+        [
+          "Vertragsabschluss",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Vertragsanpassung",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Vertragsrücktritt",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Vertragsabschluss",
+          "hatVoraussetzung",
+          "Recht"
+        ],
+        [
+          "Vertragsanpassung",
+          "hatVoraussetzung",
+          "Recht"
+        ],
+        [
+          "Vertragsrücktritt",
+          "hatVoraussetzung",
+          "Recht"
+        ],
+        [
+          "Vertragsabschluss",
+          "führtZu",
+          "Vertrag"
+        ],
+        [
+          "Vertragsanpassung",
+          "führtZu",
+          "Vertrag"
+        ],
+        [
+          "Vertragsrücktritt",
+          "führtZu",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 116": {
+    "gcq": "Welche rechtlichen Bestimmungen gelten für die Vergütung von Werkverträgen, insbesondere wenn keine explizite Vereinbarung getroffen wurde?",
+    "ontology": {
+      "classes": [
+        "Vergütung",
+        "Werkvertrag",
+        "Arbeitsvertrag",
+        "Vereinbarung"
+      ],
+      "properties": [
+        "regelt",
+        "betrifft",
+        "istExplizit",
+        "istImplicite"
+      ],
+      "relationships": [
+        [
+          "Vergütung",
+          "regelt",
+          "Werkvertrag"
+        ],
+        [
+          "Werkvertrag",
+          "betrifft",
+          "Arbeitsvertrag"
+        ],
+        [
+          "Vereinbarung",
+          "istExplizit",
+          "Vergütung"
+        ],
+        [
+          "Vergütung",
+          "istImplicite",
+          "Arbeitsvertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 117": {
+    "gcq": "Welche Bedeutung hat die Vergütung im Rahmen eines Werkvertrags nach § 631 BGB und welche Faktoren beeinflussen ihre Bestimmung?",
+    "ontology": {
+      "classes": [
+        "Vergütung",
+        "Werkvertrag",
+        "Faktor"
+      ],
+      "properties": [
+        "hatBedeutungImRahmenVon",
+        "beeinflusstBestimmungVon"
+      ],
+      "relationships": [
+        [
+          "Vergütung",
+          "hatBedeutungImRahmenVon",
+          "Werkvertrag"
+        ],
+        [
+          "Faktor",
+          "beeinflusstBestimmungVon",
+          "Vergütung"
+        ]
+      ]
+    }
+  },
+  "Cluster 118": {
+    "gcq": "Welche rechtlichen Konsequenzen hat es, wenn eine Partei ohne die erforderliche Berechtigung handelt oder wenn eine Klage auf denselben Lebenssachverhalt gestützt ist wie eine vorher abgewiesene Klage?",
+    "ontology": {
+      "classes": [
+        "Partei",
+        "Berechtigung",
+        "Klage",
+        "Lebenssachverhalt"
+      ],
+      "properties": [
+        "ohne",
+        "erfordert",
+        "gestützt auf",
+        "abgewiesen"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "ohne",
+          "Berechtigung"
+        ],
+        [
+          "Klage",
+          "gestützt auf",
+          "Lebenssachverhalt"
+        ],
+        [
+          "Klage",
+          "abgewiesen",
+          "Lebenssachverhalt"
+        ]
+      ]
+    }
+  },
+  "Cluster 119": {
+    "gcq": "Welche Pflichten und Verpflichtungen treffen Vertragspartner im Rahmen von Vertriebs- und Kaufverträgen, und welche Konsequenzen können sich daraus ergeben?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vertragspartner",
+        "Pflicht",
+        "Verpflichtung",
+        "Vertriebsvertrag",
+        "Kaufvertrag",
+        "Konsequenz"
+      ],
+      "properties": [
+        "beinhaltet",
+        "hat",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Pflicht"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Verpflichtung"
+        ],
+        [
+          "Vertragspartner",
+          "hat",
+          "Pflicht"
+        ],
+        [
+          "Vertragspartner",
+          "hat",
+          "Verpflichtung"
+        ],
+        [
+          "Vertriebsvertrag",
+          "istEin",
+          "Vertrag"
+        ],
+        [
+          "Kaufvertrag",
+          "istEin",
+          "Vertrag"
+        ],
+        [
+          "Pflicht",
+          "führtZu",
+          "Konsequenz"
+        ],
+        [
+          "Verpflichtung",
+          "führtZu",
+          "Konsequenz"
+        ]
+      ]
+    }
+  },
+  "Cluster 120": {
+    "gcq": "Welche Rechte und Pflichten ergeben sich für die Vertragsparteien bei der Beendigung oder Abwicklung von Verträgen, insbesondere im Hinblick auf die Abrechnung, den entgangenen Gewinn und die Verteidigung gegen Forderungen?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vertragspartei",
+        "Pflicht",
+        "Recht",
+        "Vertragsbeendigung",
+        "Vertragsabwicklung",
+        "Abrechnung",
+        "EntgangenerGewinn",
+        "Forderung",
+        "Verteidigung"
+      ],
+      "properties": [
+        "beinhaltet",
+        "hat",
+        "führtZu",
+        "betrifft",
+        "betrifftEntgangenenGewinn",
+        "betrifftForderung",
+        "betrifftVerteidigung"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragspartei"
+        ],
+        [
+          "Vertragspartei",
+          "hat",
+          "Pflicht"
+        ],
+        [
+          "Vertragspartei",
+          "hat",
+          "Recht"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsbeendigung"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsabwicklung"
+        ],
+        [
+          "Vertragsabwicklung",
+          "beinhaltet",
+          "Abrechnung"
+        ],
+        [
+          "Vertragsbeendigung",
+          "führtZu",
+          "EntgangenerGewinn"
+        ],
+        [
+          "Vertragspartei",
+          "betrifft",
+          "EntgangenerGewinn"
+        ],
+        [
+          "Vertragspartei",
+          "betrifft",
+          "Forderung"
+        ],
+        [
+          "Vertragspartei",
+          "betrifft",
+          "Verteidigung"
+        ]
+      ]
+    }
+  },
+  "Cluster 121": {
+    "gcq": "Unter welchen Voraussetzungen und Rechtsgrundlagen kann ein Pauschalpreisvertrag vorzeitig beendet oder gekündigt werden, und welche Rechte und Pflichten entstehen für die Vertragsparteien im Zusammenhang mit der Abrechnung und der Beendigung des Vertrages?",
+    "ontology": {
+      "classes": [
+        "Pauschalpreisvertrag",
+        "Vertragspartei",
+        "Kündigung",
+        "Rechtsgrundlage",
+        "Abrechnung"
+      ],
+      "properties": [
+        "kannBeendetWerden",
+        "kannGekündigtWerden",
+        "hatRechtAuf",
+        "hatPflicht",
+        "betrifft",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Pauschalpreisvertrag",
+          "kannBeendetWerden",
+          "Kündigung"
+        ],
+        [
+          "Pauschalpreisvertrag",
+          "kannGekündigtWerden",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Vertragspartei",
+          "hatRechtAuf",
+          "Abrechnung"
+        ],
+        [
+          "Vertragspartei",
+          "hatPflicht",
+          "Abrechnung"
+        ],
+        [
+          "Kündigung",
+          "führtZu",
+          "Abrechnung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "betrifft",
+          "Kündigung"
+        ]
+      ]
+    }
+  },
+  "Cluster 122": {
+    "gcq": "Wann und unter welchen Umständen kann ein Käufer Schadensersatzansprüche gegen einen Verkäufer geltend machen, und welche Rolle spielt dabei die Kenntnis von Mängeln oder Täuschungen?",
+    "ontology": {
+      "classes": [
+        "Käufer",
+        "Mangel",
+        "Täuschung",
+        "Schadensersatzanspruch"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "kennt",
+        "hat"
+      ],
+      "relationships": [
+        [
+          "Käufer",
+          "kannGeltendMachen",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "basiertAuf",
+          "Mangel"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "basiertAuf",
+          "Täuschung"
+        ],
+        [
+          "Käufer",
+          "kennt",
+          "Mangel"
+        ],
+        [
+          "Käufer",
+          "kennt",
+          "Täuschung"
+        ]
+      ]
+    }
+  },
+  "Cluster 123": {
+    "gcq": "Welche rechtlichen Auswirkungen hat die Einstufung eines Vertragspartners als Strohmann und welche Verpflichtungen und Rechte entstehen daraus für die beteiligten Parteien?",
+    "ontology": {
+      "classes": [
+        "Vertragspartner",
+        "Strohmann",
+        "Vertrag"
+      ],
+      "properties": [
+        "wirdEingestuftAls",
+        "hatVerpflichtung",
+        "hatRecht"
+      ],
+      "relationships": [
+        [
+          "Vertragspartner",
+          "wirdEingestuftAls",
+          "Strohmann"
+        ],
+        [
+          "Strohmann",
+          "hatVerpflichtung",
+          "Vertrag"
+        ],
+        [
+          "Strohmann",
+          "hatRecht",
+          "Vertrag"
+        ]
+      ]
+    }
+  },
+  "Cluster 124": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Gläubiger seine Ansprüche gegen einen Schuldner geltend machen und welche Rechte hat er dabei?",
+    "ontology": {
+      "classes": [
+        "Gläubiger",
+        "Schuldner",
+        "Anspruch",
+        "Recht",
+        "Voraussetzung"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "hatRechtAuf",
+        "erfüllt",
+        "istNotwendigFür"
+      ],
+      "relationships": [
+        [
+          "Gläubiger",
+          "kannGeltendMachen",
+          "Anspruch"
+        ],
+        [
+          "Anspruch",
+          "hatRechtAuf",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "istNotwendigFür",
+          "Voraussetzung"
+        ],
+        [
+          "Voraussetzung",
+          "erfüllt",
+          "Schuldner"
+        ]
+      ]
+    }
+  },
+  "Cluster 125": {
+    "gcq": "Wann kann ein Käufer erfolgreich Schadensersatz wegen arglistiger Täuschung durch den Verkäufer geltend machen?",
+    "ontology": {
+      "classes": [
+        "Käufer",
+        "Verkäufer",
+        "Schadensersatz",
+        "arglistige Täuschung"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "betrifft",
+        "istGrundFür"
+      ],
+      "relationships": [
+        [
+          "Käufer",
+          "kannGeltendMachen",
+          "Schadensersatz"
+        ],
+        [
+          "arglistige Täuschung",
+          "istGrundFür",
+          "Schadensersatz"
+        ],
+        [
+          "arglistige Täuschung",
+          "betrifft",
+          "Verkäufer"
+        ]
+      ]
+    }
+  },
+  "Cluster 126": {
+    "gcq": "Welche Bedeutung hat die Rechtskraft einer Entscheidung für die Zulässigkeit und Beurteilung von Rechtsbehelfen in einem späteren Verfahren?",
+    "ontology": {
+      "classes": [
+        "Entscheidung",
+        "Rechtskraft",
+        "Rechtsbehelf"
+      ],
+      "properties": [
+        "betrifft",
+        "beeinflusst",
+        "istZulässig",
+        "wirdBeurteilt"
+      ],
+      "relationships": [
+        [
+          "Entscheidung",
+          "betrifft",
+          "Rechtskraft"
+        ],
+        [
+          "Rechtskraft",
+          "beeinflusst",
+          "Rechtsbehelf"
+        ],
+        [
+          "Rechtsbehelf",
+          "istZulässig",
+          "in",
+          "Verfahren"
+        ],
+        [
+          "Rechtsbehelf",
+          "wirdBeurteilt",
+          "in",
+          "Verfahren"
+        ]
+      ]
+    }
+  },
+  "Cluster 127": {
+    "gcq": "Welche rechtlichen Konsequenzen hat das Nichtbeachten einer gerichtlichen Entscheidung und wie kann die Zuständigkeit der Gerichte bei konkurrierenden Ansprüchen bestimmt werden?",
+    "ontology": {
+      "classes": [
+        "GerichtlicheEntscheidung",
+        "Rechtsfolge",
+        "Gerichtsbarkeit",
+        "Gerichtsbarkeitskonflikt"
+      ],
+      "properties": [
+        "wirdIgnoriert",
+        "führtZu",
+        "bestimmtDieZuständigkeit"
+      ],
+      "relationships": [
+        [
+          "GerichtlicheEntscheidung",
+          "wirdIgnoriert",
+          "Rechtsfolge"
+        ],
+        [
+          "Gerichtsbarkeitskonflikt",
+          "führtZu",
+          "Gerichtsbarkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 128": {
+    "gcq": "Unter welchen Umständen kann ein Käufer eine mangelhafte Kaufsache zurückweisen und welche Rechte und Pflichten hat er dabei?",
+    "ontology": {
+      "classes": [
+        "Käufer",
+        "Kaufsache",
+        "Mangel",
+        "Rückweisung",
+        "Recht",
+        "Pflicht"
+      ],
+      "properties": [
+        "kann",
+        "hat",
+        "betrifft",
+        "beinhaltet"
+      ],
+      "relationships": [
+        [
+          "Käufer",
+          "kann",
+          "Rückweisung"
+        ],
+        [
+          "Rückweisung",
+          "betrifft",
+          "Mangel"
+        ],
+        [
+          "Mangel",
+          "beinhaltet",
+          "Kaufsache"
+        ],
+        [
+          "Käufer",
+          "hat",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "beinhaltet",
+          "Rückweisung"
+        ],
+        [
+          "Käufer",
+          "hat",
+          "Pflicht"
+        ]
+      ]
+    }
+  },
+  "Cluster 129": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Käufer seine Rechte im Zusammenhang mit einer mangelhaften Kaufsache geltend machen?",
+    "ontology": {
+      "classes": [
+        "Käufer",
+        "Kaufsache",
+        "Mangel",
+        "Recht"
+      ],
+      "properties": [
+        "kannGeltendMachen",
+        "betrifft",
+        "hat"
+      ],
+      "relationships": [
+        [
+          "Käufer",
+          "kannGeltendMachen",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "betrifft",
+          "Mangel"
+        ],
+        [
+          "Mangel",
+          "hat",
+          "Kaufsache"
+        ]
+      ]
+    }
+  }
+}
