@@ -1,0 +1,900 @@
+{
+  "Cluster 0": {
+    "gcq": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Signaldurchleitung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+    "ontology": {
+      "classes": [
+        "Kabelnetzbetreiber",
+        "Signaldurchleitung",
+        "Netz",
+        "Recht"
+      ],
+      "properties": [
+        "kontrolliert",
+        "reguliert",
+        "basiert auf",
+        "hatRechtAuf"
+      ],
+      "relationships": [
+        [
+          "Kabelnetzbetreiber",
+          "kontrolliert",
+          "Signaldurchleitung"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "reguliert",
+          "Signaldurchleitung"
+        ],
+        [
+          "Signaldurchleitung",
+          "findet statt durch",
+          "Netz"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "hatRechtAuf",
+          "Signaldurchleitung"
+        ],
+        [
+          "Recht",
+          "basiert auf",
+          "Signaldurchleitung"
+        ]
+      ]
+    }
+  },
+  "Cluster 10": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Eigentümer seine Rechte an einem Grundstück durchsetzen, wenn diese durch Handlungen Dritter beeinträchtigt werden?",
+    "ontology": {
+      "classes": [
+        "Eigentümer",
+        "Grundstück",
+        "Recht",
+        "Handlung",
+        "Dritter"
+      ],
+      "properties": [
+        "besitzt",
+        "beeinträchtigt",
+        "kannDurchsetzen"
+      ],
+      "relationships": [
+        [
+          "Eigentümer",
+          "besitzt",
+          "Grundstück"
+        ],
+        [
+          "Handlung",
+          "beeinträchtigt",
+          "Recht"
+        ],
+        [
+          "Eigentümer",
+          "kannDurchsetzen",
+          "Recht"
+        ],
+        [
+          "Handlung",
+          "wirdVon",
+          "Dritter"
+        ]
+      ]
+    }
+  },
+  "Cluster 12": {
+    "gcq": "Unter welchen Voraussetzungen gilt eine künstliche Befruchtung als medizinisch notwendige Heilbehandlung und wer ist verpflichtet, die Kosten dafür zu tragen?",
+    "ontology": {
+      "classes": [
+        "KünstlicheBefruchtung",
+        "Versicherungsfall",
+        "Versicherer"
+      ],
+      "properties": [
+        "giltAls",
+        "istVerpflichtet",
+        "trägtKosten"
+      ],
+      "relationships": [
+        [
+          "KünstlicheBefruchtung",
+          "giltAls",
+          "medizinischNotwendigeHeilbehandlung"
+        ],
+        [
+          "medizinischNotwendigeHeilbehandlung",
+          "istVersicherungsfall"
+        ],
+        [
+          "Versicherungsfall",
+          "istVerpflichtet",
+          "Versicherer"
+        ],
+        [
+          "Versicherer",
+          "trägtKosten",
+          "KünstlicheBefruchtung"
+        ]
+      ]
+    }
+  },
+  "Cluster 14": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Wohnungseigentümergemeinschaft gültige Beschlüsse fassen und welche Rechte und Pflichten haben die Wohnungseigentümer dabei?",
+    "ontology": {
+      "classes": [
+        "Wohnungseigentümergemeinschaft",
+        "Beschluss",
+        "Wohnungseigentümer"
+      ],
+      "properties": [
+        "kannGültigFassen",
+        "hatRechtAuf",
+        "hatPflicht",
+        "betrifft",
+        "istTeilVon"
+      ],
+      "relationships": [
+        [
+          "Wohnungseigentümergemeinschaft",
+          "kannGültigFassen",
+          "Beschluss"
+        ],
+        [
+          "Beschluss",
+          "betrifft",
+          "Wohnungseigentümer"
+        ],
+        [
+          "Wohnungseigentümer",
+          "hatRechtAuf",
+          "Beschluss"
+        ],
+        [
+          "Wohnungseigentümer",
+          "hatPflicht",
+          "Beschluss"
+        ],
+        [
+          "Beschluss",
+          "istTeilVon",
+          "Wohnungseigentümergemeinschaft"
+        ]
+      ]
+    }
+  },
+  "Cluster 19": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Mietverhältnis wirksam gekündigt werden?",
+    "ontology": {
+      "classes": [
+        "Mietverhältnis",
+        "Kündigung",
+        "Vermieter",
+        "Mieter",
+        "Kündigungsgrund"
+      ],
+      "properties": [
+        "kannWirksamGekündigtWerden",
+        "hatKündigungsgrund"
+      ],
+      "relationships": [
+        [
+          "Mietverhältnis",
+          "kannWirksamGekündigtWerden",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "hatKündigungsgrund",
+          "Kündigungsgrund"
+        ],
+        [
+          "Kündigung",
+          "hatVermieter",
+          "Vermieter"
+        ],
+        [
+          "Kündigung",
+          "hatMieter",
+          "Mieter"
+        ]
+      ]
+    }
+  },
+  "Cluster 23": {
+    "gcq": "Unter welchen Voraussetzungen und mit welchen Anforderungen kann ein Vermieter ein Mieterhöhungsverlangen aufgrund von Modernisierungsmaßnahmen oder öffentlichen Fördermitteln wirksam stellen, und welche Rechte hat der Mieter in diesem Zusammenhang?",
+    "ontology": {
+      "classes": [
+        "Vermieter",
+        "Mieter",
+        "Mieterhöhungsverlangen",
+        "Modernisierungsmaßnahme",
+        "ÖffentlicheFördermittel"
+      ],
+      "properties": [
+        "kannWirksamStellen",
+        "hatRechtAuf",
+        "betrifft",
+        "basiertAuf"
+      ],
+      "relationships": [
+        [
+          "Vermieter",
+          "kannWirksamStellen",
+          "Mieterhöhungsverlangen"
+        ],
+        [
+          "Mieterhöhungsverlangen",
+          "basiertAuf",
+          "Modernisierungsmaßnahme"
+        ],
+        [
+          "Mieterhöhungsverlangen",
+          "basiertAuf",
+          "ÖffentlicheFördermittel"
+        ],
+        [
+          "Mieter",
+          "hatRechtAuf",
+          "Information"
+        ],
+        [
+          "Mieter",
+          "hatRechtAuf",
+          "Widerspruch"
+        ],
+        [
+          "Modernisierungsmaßnahme",
+          "betrifft",
+          "Wohneigentum"
+        ],
+        [
+          "ÖffentlicheFördermittel",
+          "betrifft",
+          "Wohneigentum"
+        ]
+      ]
+    }
+  },
+  "Cluster 27": {
+    "gcq": "Unter welchen Voraussetzungen und Pflichten sind die Beteiligten bei der Durchführung von Transporten und Beschaffungsprozessen verantwortlich und welche Ansprüche können geltend gemacht werden?",
+    "ontology": {
+      "classes": [
+        "Transport",
+        "Beschaffungsprozess",
+        "Beteiligter",
+        "Verantwortlichkeit",
+        "Anspruch"
+      ],
+      "properties": [
+        "istBeteiligtAn",
+        "hatPflicht",
+        "istVerantwortlichFür",
+        "kannGeltendMachen"
+      ],
+      "relationships": [
+        [
+          "Beteiligter",
+          "istBeteiligtAn",
+          "Transport"
+        ],
+        [
+          "Beteiligter",
+          "istBeteiligtAn",
+          "Beschaffungsprozess"
+        ],
+        [
+          "Beteiligter",
+          "hatPflicht",
+          "Verantwortlichkeit"
+        ],
+        [
+          "Verantwortlichkeit",
+          "istVerantwortlichFür",
+          "Transport"
+        ],
+        [
+          "Verantwortlichkeit",
+          "istVerantwortlichFür",
+          "Beschaffungsprozess"
+        ],
+        [
+          "Beteiligter",
+          "kannGeltendMachen",
+          "Anspruch"
+        ]
+      ]
+    }
+  },
+  "Cluster 33": {
+    "gcq": "Welche Rechte und Pflichten haben Mieter und Vermieter im Zusammenhang mit der Zahlung der Miete und der Instandhaltung der Mietwohnung?",
+    "ontology": {
+      "classes": [
+        "Mieter",
+        "Vermieter",
+        "Miete",
+        "Instandhaltung",
+        "Recht",
+        "Pflicht"
+      ],
+      "properties": [
+        "hat",
+        "istVerpflichtet",
+        "istBerechtigt",
+        "betrifft",
+        "beinhaltet"
+      ],
+      "relationships": [
+        [
+          "Mieter",
+          "istBerechtigt",
+          "Miete"
+        ],
+        [
+          "Vermieter",
+          "istVerpflichtet",
+          "Miete"
+        ],
+        [
+          "Miete",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Miete",
+          "betrifft",
+          "Vermieter"
+        ],
+        [
+          "Mieter",
+          "istBerechtigt",
+          "Instandhaltung"
+        ],
+        [
+          "Vermieter",
+          "istVerpflichtet",
+          "Instandhaltung"
+        ],
+        [
+          "Instandhaltung",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Instandhaltung",
+          "betrifft",
+          "Vermieter"
+        ],
+        [
+          "Recht",
+          "beinhaltet",
+          "Mieter"
+        ],
+        [
+          "Recht",
+          "beinhaltet",
+          "Vermieter"
+        ],
+        [
+          "Pflicht",
+          "beinhaltet",
+          "Mieter"
+        ],
+        [
+          "Pflicht",
+          "beinhaltet",
+          "Vermieter"
+        ]
+      ]
+    }
+  },
+  "Cluster 41": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Versicherung ihre Einstandspflicht im Zusammenhang mit einer Wahlleistungsvereinbarung oder der Verjährung von Ansprüchen im Versicherungsrecht überprüfen und welche Rechtsgrundlagen sind hierfür relevant?",
+    "ontology": {
+      "classes": [
+        "Versicherung",
+        "Versicherungsvertrag",
+        "Wahlleistungsvereinbarung",
+        "Verjährung",
+        "Anspruch",
+        "Rechtsgrundlage"
+      ],
+      "properties": [
+        "kannEinstandspflichtPruefen",
+        "betrifft",
+        "regelt"
+      ],
+      "relationships": [
+        [
+          "Versicherung",
+          "kannEinstandspflichtPruefen",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Versicherungsvertrag",
+          "betrifft",
+          "Wahlleistungsvereinbarung"
+        ],
+        [
+          "Versicherungsvertrag",
+          "betrifft",
+          "Verjährung"
+        ],
+        [
+          "Verjährung",
+          "betrifft",
+          "Anspruch"
+        ],
+        [
+          "Wahlleistungsvereinbarung",
+          "regelt",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Verjährung",
+          "regelt",
+          "Rechtsgrundlage"
+        ]
+      ]
+    }
+  },
+  "Cluster 45": {
+    "gcq": "Welche Rechtsfolgen treten ein, wenn eine Leistung oder ein Anspruch nicht ordnungsgemäß erbracht oder geltend gemacht wird?",
+    "ontology": {
+      "classes": [
+        "Leistung",
+        "Anspruch",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "wirdNichtErbracht",
+        "wirdNichtGeltendGemacht",
+        "trittEin"
+      ],
+      "relationships": [
+        [
+          "Leistung",
+          "wirdNichtErbracht",
+          "Rechtsfolge"
+        ],
+        [
+          "Anspruch",
+          "wirdNichtGeltendGemacht",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 51": {
+    "gcq": "Unter welchen Voraussetzungen kann ein Rechtsträger für Schäden oder Nachteile in Anspruch genommen werden, die durch das Verhalten einer anderen Person oder Stelle verursacht wurden?",
+    "ontology": {
+      "classes": [
+        "Rechtsträger",
+        "Schaden",
+        "Nachteil",
+        "Verhalten",
+        "Person",
+        "Stelle"
+      ],
+      "properties": [
+        "verursacht",
+        "kannInAnspruchgenommenWerden"
+      ],
+      "relationships": [
+        [
+          "Schaden",
+          "verursacht",
+          "Verhalten"
+        ],
+        [
+          "Nachteil",
+          "verursacht",
+          "Verhalten"
+        ],
+        [
+          "Rechtsträger",
+          "kannInAnspruchgenommenWerden",
+          "Schaden"
+        ],
+        [
+          "Rechtsträger",
+          "kannInAnspruchgenommenWerden",
+          "Nachteil"
+        ],
+        [
+          "Verhalten",
+          "von",
+          "Person"
+        ],
+        [
+          "Verhalten",
+          "von",
+          "Stelle"
+        ]
+      ]
+    }
+  },
+  "Cluster 55": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Person von ihrem Kündigungs- oder Widerrufsrecht Gebrauch machen oder welche Bedingungen müssen erfüllt sein, damit bestimmte Rechtsbeziehungen wie Geschäftsführung ohne Auftrag, Werkvertrag oder Grundabtretung vorliegen?",
+    "ontology": {
+      "classes": [
+        "Person",
+        "Kündigung",
+        "Widerruf",
+        "Bedingung",
+        "GeschäftsführungOhneAuftrag",
+        "Werkvertrag",
+        "Grundabtretung"
+      ],
+      "properties": [
+        "kannGebrauchMachenVon",
+        "mussErfülltSein",
+        "vorliegtWenn"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "kannGebrauchMachenVon",
+          "Kündigung"
+        ],
+        [
+          "Person",
+          "kannGebrauchMachenVon",
+          "Widerruf"
+        ],
+        [
+          "Kündigung",
+          "mussErfülltSein",
+          "Bedingung"
+        ],
+        [
+          "Widerruf",
+          "mussErfülltSein",
+          "Bedingung"
+        ],
+        [
+          "GeschäftsführungOhneAuftrag",
+          "vorliegtWenn",
+          "Bedingung"
+        ],
+        [
+          "Werkvertrag",
+          "vorliegtWenn",
+          "Bedingung"
+        ],
+        [
+          "Grundabtretung",
+          "vorliegtWenn",
+          "Bedingung"
+        ]
+      ]
+    }
+  },
+  "Cluster 67": {
+    "gcq": "Unter welchen Umständen kann ein Vertrag trotz besonderer Umstände oder Unklarheiten zustande kommen oder seine Gültigkeit behalten?",
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Vertragspartei",
+        "Vertragsinhalt",
+        "BesondererUmstand",
+        "Ungültigkeit"
+      ],
+      "properties": [
+        "kannZustandeKommen",
+        "behältGültigkeit",
+        "betrifft",
+        "führtZu",
+        "beinhaltet"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "kannZustandeKommen",
+          "trotz",
+          "BesondererUmstand"
+        ],
+        [
+          "Vertrag",
+          "behältGültigkeit",
+          "trotz",
+          "Ungültigkeit"
+        ],
+        [
+          "Vertragspartei",
+          "betrifft",
+          "Vertragsinhalt"
+        ],
+        [
+          "BesondererUmstand",
+          "führtZu",
+          "Ungültigkeit"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsinhalt"
+        ]
+      ]
+    }
+  },
+  "Cluster 72": {
+    "gcq": "Welche rechtlichen Rahmenbedingungen müssen bei der Berichterstattung über eine Person beachtet werden, um das allgemeine Persönlichkeitsrecht zu schützen?",
+    "ontology": {
+      "classes": [
+        "Berichterstattung",
+        "Person",
+        "Persönlichkeit",
+        "Recht"
+      ],
+      "properties": [
+        "betrifft",
+        "schützt",
+        "beeinträchtigt"
+      ],
+      "relationships": [
+        [
+          "Berichterstattung",
+          "betrifft",
+          "Person"
+        ],
+        [
+          "Persönlichkeit",
+          "schützt",
+          "Recht"
+        ],
+        [
+          "Berichterstattung",
+          "beeinträchtigt",
+          "Persönlichkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 81": {
+    "gcq": "Unter welchen Voraussetzungen ist eine rechtliche Handlung oder eine Vereinbarung gültig und wirksam?",
+    "ontology": {
+      "classes": [
+        "RechtlicheHandlung",
+        "Vereinbarung",
+        "Recht",
+        "Tatbestand",
+        "Voraussetzung",
+        "Gültigkeit",
+        "Wirksamkeit"
+      ],
+      "properties": [
+        "erfüllt",
+        "basiertAuf",
+        "führtZu",
+        "istRechtlichGültig",
+        "istWirksam"
+      ],
+      "relationships": [
+        [
+          "RechtlicheHandlung",
+          "erfüllt",
+          "Voraussetzung"
+        ],
+        [
+          "Vereinbarung",
+          "erfüllt",
+          "Voraussetzung"
+        ],
+        [
+          "Voraussetzung",
+          "basiertAuf",
+          "Recht"
+        ],
+        [
+          "Voraussetzung",
+          "basiertAuf",
+          "Tatbestand"
+        ],
+        [
+          "RechtlicheHandlung",
+          "istRechtlichGültig",
+          "Gültigkeit"
+        ],
+        [
+          "Vereinbarung",
+          "istRechtlichGültig",
+          "Gültigkeit"
+        ],
+        [
+          "Gültigkeit",
+          "führtZu",
+          "Wirksamkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 89": {
+    "gcq": "Unter welchen Voraussetzungen und durch wen kann eine ordentliche Kündigung des Anstellungsvertrags eines Geschäftsführers einer GmbH wirksam sein, und welche Rechtsfolgen treten in diesem Zusammenhang ein?",
+    "ontology": {
+      "classes": [
+        "Kündigung",
+        "Anstellungsvertrag",
+        "Geschäftsführer",
+        "GmbH",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "kannWirksamSein",
+        "trittEin"
+      ],
+      "relationships": [
+        [
+          "Kündigung",
+          "kannWirksamSein",
+          "Anstellungsvertrag"
+        ],
+        [
+          "Anstellungsvertrag",
+          "kannWirksamSein",
+          "Geschäftsführer"
+        ],
+        [
+          "Geschäftsführer",
+          "kannWirksamSein",
+          "GmbH"
+        ],
+        [
+          "Kündigung",
+          "trittEin",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 91": {
+    "gcq": "Unter welchen Voraussetzungen kann eine Person oder ein Unternehmen für Schäden haften, die durch ihre Handlungen oder Unterlassungen verursacht wurden, insbesondere im Zusammenhang mit Geschäftsführungs- und Aufklärungspflichten?",
+    "ontology": {
+      "classes": [
+        "Person",
+        "Schaden",
+        "Geschäftsführungs- und Aufklärungspflicht"
+      ],
+      "properties": [
+        "verursacht",
+        "hatPflicht",
+        "verletztPflicht",
+        "führtZu"
+      ],
+      "relationships": [
+        [
+          "Person",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Person",
+          "hatPflicht",
+          "Geschäftsführungs- und Aufklärungspflicht"
+        ],
+        [
+          "Geschäftsführungs- und Aufklärungspflicht",
+          "führtZu",
+          "Schaden"
+        ],
+        [
+          "Person",
+          "verletztPflicht",
+          "Geschäftsführungs- und Aufklärungspflicht"
+        ],
+        [
+          "Schaden",
+          "führtZu",
+          "Haftung"
+        ]
+      ]
+    }
+  },
+  "Cluster 101": {
+    "gcq": "Unter welchen Voraussetzungen haftet ein neuer Inhaber eines Handelsgeschäfts für die Verbindlichkeiten des früheren Inhabers, wenn er das Geschäft unter der bisherigen Firma fortführt?",
+    "ontology": {
+      "classes": [
+        "Handelsgeschäft",
+        "Verbindlichkeit",
+        "Inhaber",
+        "Firma"
+      ],
+      "properties": [
+        "fortführt",
+        "haftet für",
+        "unter der"
+      ],
+      "relationships": [
+        [
+          "Inhaber",
+          "fortführt",
+          "Handelsgeschäft"
+        ],
+        [
+          "Handelsgeschäft",
+          "unter der",
+          "Firma"
+        ],
+        [
+          "Inhaber",
+          "haftet für",
+          "Verbindlichkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 104": {
+    "gcq": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+    "ontology": {
+      "classes": [
+        "Beweisverfahren",
+        "RechtlicheVoraussetzung",
+        "Beweis",
+        "Erfolg"
+      ],
+      "properties": [
+        "erfüllt",
+        "erbracht"
+      ],
+      "relationships": [
+        [
+          "Beweisverfahren",
+          "erfordert",
+          "RechtlicheVoraussetzung"
+        ],
+        [
+          "RechtlicheVoraussetzung",
+          "erfüllt",
+          "Beweisverfahren"
+        ],
+        [
+          "Beweisverfahren",
+          "erfordert",
+          "Beweis"
+        ],
+        [
+          "Beweis",
+          "erbracht",
+          "Beweisverfahren"
+        ],
+        [
+          "Beweisverfahren",
+          "führtZu",
+          "Erfolg"
+        ]
+      ]
+    }
+  },
+  "Cluster 109": {
+    "gcq": "Unter welchen Voraussetzungen ist eine Partei in einem Rechtsstreit prozessfähig und wer trägt die Verantwortung für die ordnungsgemäße Vertretung einer prozessunfähigen Partei?",
+    "ontology": {
+      "classes": [
+        "Partei",
+        "Rechtsstreit",
+        "Vertretung",
+        "VerantwortlichePerson"
+      ],
+      "properties": [
+        "istProzessfähig",
+        "trägtVerantwortungFür",
+        "istOrdnungsgemäß"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "istProzessfähig",
+          "Rechtsstreit"
+        ],
+        [
+          "VerantwortlichePerson",
+          "trägtVerantwortungFür",
+          "Vertretung"
+        ],
+        [
+          "Vertretung",
+          "istOrdnungsgemäß",
+          "Partei"
+        ]
+      ]
+    }
+  }
+}
