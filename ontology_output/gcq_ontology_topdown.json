@@ -10,6 +10,7 @@
       "properties": [
         "kontrolliert",
         "reguliert",
+        "betrifft",
         "hatRechtAuf"
       ],
       "relationships": [
@@ -25,7 +26,7 @@
         ],
         [
           "Signaldurchleitung",
-          "findet StattIn",
+          "betrifft",
           "Netz"
         ],
         [
@@ -41,36 +42,23 @@
     "ontology": {
       "classes": [
         "Kläger",
-        "Patent",
-        "Urheberrecht",
-        "Verletzung",
-        "Klage"
+        "Klage",
+        "Voraussetzung"
       ],
       "properties": [
-        "erheben",
-        "erfüllen",
-        "betrifft"
+        "erheben Dürfen",
+        "erfüllt sein müssen"
       ],
       "relationships": [
         [
           "Kläger",
-          "erheben",
+          "erheben Dürfen",
           "Klage"
         ],
         [
           "Klage",
-          "betrifft",
-          "Patent"
-        ],
-        [
-          "Klage",
-          "betrifft",
-          "Urheberrecht"
-        ],
-        [
-          "Urheberrecht",
-          "erfüllen",
-          "Verletzung"
+          "erfüllt sein müssen",
+          "Voraussetzung"
         ]
       ]
     }
@@ -82,7 +70,7 @@
         "Reisender",
         "Entschädigung",
         "Schadensersatz",
-        "Vereitelung",
+        "Verhinderung",
         "Streichung",
         "Höhe"
       ],
@@ -113,7 +101,7 @@
           "Höhe"
         ],
         [
-          "Vereitelung",
+          "Verhinderung",
           "beeinflusst",
           "Höhe"
         ],
@@ -130,30 +118,30 @@
     "ontology": {
       "classes": [
         "Anspruch",
-        "UnerlaubteHandlung",
+        "Schaden",
         "Verjährung",
-        "Schadenseintritt"
+        "Handlung"
       ],
       "properties": [
         "betrifft",
         "führtZu",
-        "endet"
+        "beginntMit"
       ],
       "relationships": [
         [
           "Anspruch",
           "betrifft",
-          "UnerlaubteHandlung"
-        ],
-        [
-          "Verjährung",
-          "endet",
-          "Anspruch"
+          "Schaden"
         ],
         [
           "Verjährung",
           "führtZu",
-          "Schadenseintritt"
+          "Ende von Anspruch"
+        ],
+        [
+          "Schaden",
+          "beginntMit",
+          "Handlung"
         ]
       ]
     }
@@ -174,11 +162,6 @@
       ],
       "relationships": [
         [
-          "Schaden",
-          "betrifft",
-          "Eisenbahninfrastruktur"
-        ],
-        [
           "Eisenbahninfrastrukturunternehmen",
           "verursacht",
           "Schaden"
@@ -189,14 +172,14 @@
           "Schaden"
         ],
         [
-          "Haftung",
-          "istVerteiltAuf",
-          "Eisenbahninfrastrukturunternehmen"
+          "Schaden",
+          "betrifft",
+          "Eisenbahninfrastruktur"
         ],
         [
           "Haftung",
           "istVerteiltAuf",
-          "Eisenbahnverkehrsunternehmen"
+          "Eisenbahninfrastrukturunternehmen und Eisenbahnverkehrsunternehmen"
         ]
       ]
     }
@@ -207,29 +190,29 @@
       "classes": [
         "Geräuschemission",
         "Schallschutzrecht",
-        "Zumutbarkeitsgrenze",
+        "Zumutbarkeit",
         "Faktor"
       ],
       "properties": [
         "betrachtetAls",
         "beeinflusst",
-        "bestimmt"
+        "bestimmtGrenze"
       ],
       "relationships": [
         [
           "Geräuschemission",
           "betrachtetAls",
-          "unzumutbar"
+          "Zumutbarkeit"
         ],
         [
           "Faktor",
           "beeinflusst",
-          "Zumutbarkeitsgrenze"
+          "Zumutbarkeit"
         ],
         [
           "Schallschutzrecht",
-          "bestimmt",
-          "Zumutbarkeitsgrenze"
+          "bestimmtGrenze",
+          "Zumutbarkeit"
         ]
       ]
     }
@@ -241,14 +224,14 @@
         "Berufungsurteil",
         "Aufhebung",
         "NeueVerhandlung",
-        "Voraussetzungen",
-        "Konsequenzen"
+        "Voraussetzung",
+        "Konsequenz"
       ],
       "properties": [
         "kannAufgehobenWerden",
         "führtZu",
         "erfordert",
-        "hatKonsequenzen"
+        "hatKonsequenz"
       ],
       "relationships": [
         [
@@ -264,12 +247,12 @@
         [
           "NeueVerhandlung",
           "erfordert",
-          "Voraussetzungen"
+          "Voraussetzung"
         ],
         [
-          "Berufungsurteil",
-          "hatKonsequenzen",
-          "Konsequenzen"
+          "NeueVerhandlung",
+          "hatKonsequenz",
+          "Konsequenz"
         ]
       ]
     }
@@ -279,9 +262,9 @@
     "ontology": {
       "classes": [
         "Arzt",
-        "Patient",
         "Leistung",
         "Rechnung",
+        "Patient",
         "Gesetz",
         "Regel"
       ],
@@ -289,8 +272,7 @@
         "kannAbrechnen",
         "hatRechtAuf",
         "basiertAuf",
-        "betrifft",
-        "stelltRechnung"
+        "regelt"
       ],
       "relationships": [
         [
@@ -304,13 +286,8 @@
           "Gesetz"
         ],
         [
-          "Gesetz",
-          "enthält",
-          "Regel"
-        ],
-        [
           "Regel",
-          "betrifft",
+          "regelt",
           "Abrechnung"
         ],
         [
@@ -319,9 +296,9 @@
           "Rechnung"
         ],
         [
-          "Arzt",
-          "stelltRechnung",
-          "Patient"
+          "Rechnung",
+          "basiertAuf",
+          "Abrechnung"
         ]
       ]
     }
@@ -332,13 +309,12 @@
       "classes": [
         "Gesellschaft",
         "Gesellschafter",
-        "Stammkapitalerhöhung",
-        "Rechtmäßigkeit"
+        "Stammkapitalerhöhung"
       ],
       "properties": [
         "istImInteresseVon",
-        "istZulässig",
-        "istRechtmäßig"
+        "istZulässigUnter",
+        "istRechtmäßigUnter"
       ],
       "relationships": [
         [
@@ -353,8 +329,13 @@
         ],
         [
           "Stammkapitalerhöhung",
-          "istZulässig",
-          "Rechtmäßigkeit"
+          "istZulässigUnter",
+          "Voraussetzungen"
+        ],
+        [
+          "Stammkapitalerhöhung",
+          "istRechtmäßigUnter",
+          "Umstände"
         ]
       ]
     }
@@ -365,22 +346,22 @@
       "classes": [
         "Mieter",
         "Schönheitsreparaturen",
-        "Verpflichtung"
+        "Umfang"
       ],
       "properties": [
-        "istVerpflichtetZurDurchführung",
+        "istVerpflichtetZu",
         "umfasst"
       ],
       "relationships": [
         [
           "Mieter",
-          "istVerpflichtetZurDurchführung",
+          "istVerpflichtetZu",
           "Schönheitsreparaturen"
         ],
         [
           "Schönheitsreparaturen",
           "umfasst",
-          "Verpflichtung"
+          "Umfang"
         ]
       ]
     }
@@ -392,7 +373,8 @@
         "Eigentümer",
         "Grundstück",
         "Recht",
-        "Handlung"
+        "Handlung",
+        "Dritter"
       ],
       "properties": [
         "besitzt",
@@ -414,6 +396,11 @@
           "Eigentümer",
           "kannDurchsetzen",
           "Recht"
+        ],
+        [
+          "Handlung",
+          "wirdVon",
+          "Dritter"
         ]
       ]
     }
@@ -426,13 +413,13 @@
         "Vertrag",
         "Gläubiger",
         "Drittem",
-        "Rechtsfolge"
+        "Schuldner"
       ],
       "properties": [
         "istWirksam",
         "istUnwirksam",
-        "führtZu",
-        "betrifft"
+        "übertragenAuf",
+        "hatRechtsfolge"
       ],
       "relationships": [
         [
@@ -447,18 +434,18 @@
         ],
         [
           "Vertrag",
-          "führtZu",
-          "Rechtsfolge"
+          "übertragenAuf",
+          "Drittem"
         ],
         [
-          "Rechtsfolge",
-          "betrifft",
+          "Abtretungsklausel",
+          "hatRechtsfolge",
           "Gläubiger"
         ],
         [
-          "Rechtsfolge",
-          "betrifft",
-          "Drittem"
+          "Abtretungsklausel",
+          "hatRechtsfolge",
+          "Schuldner"
         ]
       ]
     }
@@ -468,29 +455,29 @@
     "ontology": {
       "classes": [
         "KünstlicheBefruchtung",
-        "Heilbehandlung",
-        "Versicherter",
-        "Krankenkasse"
+        "Versicherungsleistung",
+        "GesetzlicheVerpflichtung"
       ],
       "properties": [
         "giltAls",
-        "istVerpflichtetZugunsten"
+        "istVerpflichtet",
+        "tragenKosten"
       ],
       "relationships": [
         [
           "KünstlicheBefruchtung",
           "giltAls",
-          "Heilbehandlung"
+          "medizinischNotwendigeHeilbehandlung"
         ],
         [
-          "Versicherter",
-          "istVerpflichtetZugunsten",
-          "KünstlicheBefruchtung"
+          "medizinischNotwendigeHeilbehandlung",
+          "istVerpflichtet",
+          "Versicherungsleistung"
         ],
         [
-          "KünstlicheBefruchtung",
-          "istVerpflichtetZugunsten",
-          "Krankenkasse"
+          "Versicherungsleistung",
+          "tragenKosten",
+          "GesetzlicheVerpflichtung"
         ]
       ]
     }
@@ -501,7 +488,9 @@
       "classes": [
         "Wasserversorgungsunternehmen",
         "Anschlussnehmer",
-        "Altleitung",
+        "Wasserversorgung",
+        "Eigentum",
+        "Wasserleitung",
         "Wasserzähler",
         "Baukostenzuschuss"
       ],
@@ -510,8 +499,8 @@
         "hatPflicht",
         "hatRecht",
         "betrifft",
-        "eignetSichFür",
-        "hatAnschlussAn"
+        "einschließen",
+        "installieren"
       ],
       "relationships": [
         [
@@ -522,27 +511,32 @@
         [
           "Baukostenzuschuss",
           "betrifft",
-          "Anschlussnehmer"
+          "Wasserversorgung"
         ],
         [
           "Wasserversorgungsunternehmen",
           "hatPflicht",
-          "Einbau von Wasserzählern"
+          "Eigentum"
         ],
         [
-          "Wasserzähler",
-          "eignetSichFür",
-          "Anschlussnehmer"
+          "Eigentum",
+          "betrifft",
+          "Wasserleitung"
         ],
         [
-          "Anschlussnehmer",
+          "Wasserversorgungsunternehmen",
+          "hatPflicht",
+          "installieren"
+        ],
+        [
+          "installieren",
+          "einschließen",
+          "Wasserzähler"
+        ],
+        [
+          "Wasserversorgungsunternehmen",
           "hatRecht",
-          "Eigentum an Altleitungen"
-        ],
-        [
-          "Anschlussnehmer",
-          "hatAnschlussAn",
-          "Altleitung"
+          "Anschlussnehmer"
         ]
       ]
     }
@@ -552,30 +546,28 @@
     "ontology": {
       "classes": [
         "Wohnungseigentümergemeinschaft",
-        "Beschluss",
-        "Recht",
-        "Pflicht"
+        "Beschluss"
       ],
       "properties": [
-        "kannGültigFassen",
+        "kannFassen",
         "hatRechtAuf",
         "hatPflicht"
       ],
       "relationships": [
         [
           "Wohnungseigentümergemeinschaft",
-          "kannGültigFassen",
+          "kannFassen",
           "Beschluss"
         ],
         [
-          "Beschluss",
+          "Wohnungseigentümer",
           "hatRechtAuf",
-          "Recht"
+          "Beschluss"
         ],
         [
-          "Beschluss",
+          "Wohnungseigentümer",
           "hatPflicht",
-          "Pflicht"
+          "Beschluss"
         ]
       ]
     }
@@ -584,35 +576,41 @@
     "gcq": "Wer ist verpflichtet, den Gebrauch des gemeinschaftlichen Eigentums ordnungsmäßig zu gestalten und welche Rechte und Pflichten sind damit verbunden?",
     "ontology": {
       "classes": [
-        "GemeinschaftlichesEigentum",
         "Eigentümer",
-        "Verwaltung"
+        "GemeinschaftlichesEigentum",
+        "Recht",
+        "Pflicht"
       ],
       "properties": [
-        "istVerpflichtet",
-        "hatRechte",
-        "hatPflichten",
-        "gestaltet"
+        "verpflichtet",
+        "gestalten",
+        "beinhaltet",
+        "verbundenMit"
       ],
       "relationships": [
         [
           "Eigentümer",
-          "istVerpflichtet",
-          "Verwaltung"
-        ],
-        [
-          "Verwaltung",
-          "gestaltet",
+          "verpflichtet",
           "GemeinschaftlichesEigentum"
         ],
         [
-          "Eigentümer",
-          "hatRechte",
+          "GemeinschaftlichesEigentum",
+          "beinhaltet",
+          "Recht"
+        ],
+        [
+          "GemeinschaftlichesEigentum",
+          "beinhaltet",
+          "Pflicht"
+        ],
+        [
+          "Recht",
+          "verbundenMit",
           "GemeinschaftlichesEigentum"
         ],
         [
-          "Eigentümer",
-          "hatPflichten",
+          "Pflicht",
+          "verbundenMit",
           "GemeinschaftlichesEigentum"
         ]
       ]
@@ -622,46 +620,44 @@
     "gcq": "Unter welchen Voraussetzungen und Bedingungen genießt eine Äußerung in einem satirischen Kontext Schutz vor rechtlichen Konsequenzen, und wie kann ihre tatsächliche Bedeutung und Absicht richtig erkannt und gewürdigt werden?",
     "ontology": {
       "classes": [
-        "Satire",
         "Äußerung",
         "RechtlicheKonsequenzen",
-        "Schutz",
+        "Satire",
+        "Bedingungen",
         "Absicht",
         "Bedeutung"
       ],
       "properties": [
-        "genießt",
-        "schütztVor",
-        "kannErkanntWerden",
-        "kannGewürdigtWerden",
+        "genießtSchutzVor",
+        "kannErkanntUndGewürdigtWerden",
         "hatAbsicht",
         "hatBedeutung"
       ],
       "relationships": [
         [
           "Äußerung",
-          "genießt",
-          "Schutz"
-        ],
-        [
-          "Schutz",
-          "schütztVor",
+          "genießtSchutzVor",
           "RechtlicheKonsequenzen"
         ],
         [
           "Satire",
-          "hatBedingungen",
+          "kannErkanntUndGewürdigtWerden",
           "Äußerung"
         ],
         [
           "Äußerung",
-          "kannErkanntWerden",
+          "hatAbsicht",
+          "Absicht"
+        ],
+        [
+          "Äußerung",
+          "hatBedeutung",
           "Bedeutung"
         ],
         [
-          "Bedeutung",
-          "kannGewürdigtWerden",
-          "Absicht"
+          "Satire",
+          "hatBedingungen",
+          "Bedingungen"
         ]
       ]
     }
@@ -672,17 +668,36 @@
       "classes": [
         "Mieter",
         "Käufer",
-        "Schaden",
         "Mangel",
-        "Sache",
-        "Erstattung"
+        "Schaden",
+        "Kosten"
       ],
       "properties": [
+        "verursacht",
         "verlangt",
-        "wirdGeschädigtDurch",
-        "istMangelhaft"
+        "erstattet"
       ],
       "relationships": [
+        [
+          "Mieter",
+          "verlangt",
+          "Schadensersatz"
+        ],
+        [
+          "Käufer",
+          "verlangt",
+          "Erstattung"
+        ],
+        [
+          "Mangel",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Mangel",
+          "verursacht",
+          "Kosten"
+        ],
         [
           "Mieter",
           "verlangt",
@@ -691,17 +706,7 @@
         [
           "Käufer",
           "verlangt",
-          "Erstattung"
-        ],
-        [
-          "Schaden",
-          "wirdGeschädigtDurch",
-          "Mangel"
-        ],
-        [
-          "Sache",
-          "istMangelhaft",
-          "Mangel"
+          "Schadensersatz"
         ]
       ]
     }
@@ -711,13 +716,11 @@
     "ontology": {
       "classes": [
         "Schadensersatzpflicht",
-        "MangelhafteAnlage",
-        "§2HPflG"
+        "MangelhafteAnlage"
       ],
       "properties": [
         "kannBestehenAuf",
-        "führtZu",
-        "basiertAuf"
+        "führtZu"
       ],
       "relationships": [
         [
@@ -729,11 +732,6 @@
           "MangelhafteAnlage",
           "führtZu",
           "Schadensersatzpflicht"
-        ],
-        [
-          "Schadensersatzpflicht",
-          "basiertAuf",
-          "§2HPflG"
         ]
       ]
     }
@@ -748,7 +746,7 @@
       ],
       "properties": [
         "kannWirksam",
-        "erfordert"
+        "erfüllen"
       ],
       "relationships": [
         [
@@ -758,7 +756,7 @@
         ],
         [
           "Kündigung",
-          "erfordert",
+          "erfüllen",
           "Voraussetzung"
         ]
       ]
@@ -769,17 +767,18 @@
     "ontology": {
       "classes": [
         "Mieter",
-        "Vermieter",
         "Mietverhältnis",
-        "Mängel",
+        "Nutzungsentschädigung",
+        "Mangel",
         "Betriebskosten",
-        "Nutzungsentschädigung"
+        "Kosten"
       ],
       "properties": [
         "hatAnspruchAuf",
-        "trägtKostenFür",
-        "hatMängel",
-        "hatBetriebskosten"
+        "tragenKosten",
+        "führtZu",
+        "betrifft",
+        "beinhaltet"
       ],
       "relationships": [
         [
@@ -788,19 +787,24 @@
           "Nutzungsentschädigung"
         ],
         [
-          "Vermieter",
-          "trägtKostenFür",
-          "Mängelbeseitigung"
+          "Mangel",
+          "führtZu",
+          "Nutzungsentschädigung"
         ],
         [
           "Mietverhältnis",
-          "hatMängel",
-          "Mängel"
+          "beinhaltet",
+          "Mangel"
+        ],
+        [
+          "Betriebskosten",
+          "betrifft",
+          "Mietverhältnis"
         ],
         [
           "Mietverhältnis",
-          "hatBetriebskosten",
-          "Betriebskosten"
+          "tragenKosten",
+          "Kosten"
         ]
       ]
     }
@@ -817,22 +821,27 @@
       "properties": [
         "betrifft",
         "erfordert",
-        "hatAuswirkungAuf"
+        "beeinflusst"
       ],
       "relationships": [
         [
-          "Genehmigungsbedürftigkeit",
+          "Wohnraumnutzung",
           "betrifft",
-          "Wohnraumnutzung"
-        ],
-        [
-          "Vorschriften",
-          "erfordert",
           "Genehmigungsbedürftigkeit"
         ],
         [
+          "Genehmigungsbedürftigkeit",
+          "erfordert",
+          "Einhalten von Vorschriften"
+        ],
+        [
           "Wohnraumnutzung",
-          "hatAuswirkungAuf",
+          "betrifft",
+          "Vorschriften"
+        ],
+        [
+          "Genehmigungsbedürftigkeit",
+          "beeinflusst",
           "Mietverhältnis"
         ]
       ]
@@ -843,13 +852,14 @@
     "ontology": {
       "classes": [
         "Schlichtung",
+        "EGZPO",
         "Vereinbarung",
         "Voraussetzung"
       ],
       "properties": [
         "istObligatorisch",
         "basiertAuf",
-        "erfüllt",
+        "erfordert",
         "istAnwendbar"
       ],
       "relationships": [
@@ -859,14 +869,14 @@
           "§ 15a EGZPO"
         ],
         [
-          "Schlichtung",
+          "§ 15a EGZPO",
           "basiertAuf",
-          "Vereinbarung"
+          "EGZPO"
         ],
         [
-          "Vereinbarung",
-          "erfüllt",
-          "Voraussetzung"
+          "Schlichtung",
+          "erfordert",
+          "Vereinbarung"
         ],
         [
           "Schlichtung",
@@ -889,8 +899,10 @@
       ],
       "properties": [
         "kannWirksamStellen",
-        "hatAnforderungen",
-        "hatRechte"
+        "hatRechtAuf",
+        "betrifft",
+        "basiertAuf",
+        "unterliegtBedingungen"
       ],
       "relationships": [
         [
@@ -900,17 +912,22 @@
         ],
         [
           "Mieterhöhungsverlangen",
-          "basiertAuf",
+          "betrifft",
           "Modernisierungsmaßnahmen"
         ],
         [
           "Mieterhöhungsverlangen",
-          "basiertAuf",
+          "betrifft",
           "ÖffentlicheFördermittel"
         ],
         [
+          "Mieterhöhungsverlangen",
+          "unterliegtBedingungen",
+          "Recht"
+        ],
+        [
           "Mieter",
-          "hatRecht",
+          "hatRechtAuf",
           "Recht"
         ]
       ]
@@ -929,8 +946,8 @@
       "properties": [
         "regelt",
         "beinhaltet",
-        "betrifft",
-        "gründet"
+        "verleiht",
+        "legtFest"
       ],
       "relationships": [
         [
@@ -945,33 +962,18 @@
         ],
         [
           "Bedingung",
-          "beinhaltet",
+          "verleiht",
           "Recht"
         ],
         [
           "Bedingung",
-          "beinhaltet",
+          "legtFest",
           "Pflicht"
         ],
         [
           "Modalität",
-          "betrifft",
-          "Recht"
-        ],
-        [
-          "Modalität",
-          "betrifft",
+          "legtFest",
           "Pflicht"
-        ],
-        [
-          "Recht",
-          "gründet",
-          "Mietvertrag"
-        ],
-        [
-          "Pflicht",
-          "gründet",
-          "Mietvertrag"
         ]
       ]
     }
@@ -980,38 +982,38 @@
     "gcq": "Unter welchen Voraussetzungen und mit welchen Rechtsfolgen kann eine Unterbeteiligung an einer Innengesellschaft als Schenkung betrachtet werden, und welche Rechte und Pflichten hat der Unterbeteiligte in diesem Zusammenhang?",
     "ontology": {
       "classes": [
-        "Unterbeteiligung",
         "Schenkung",
+        "Unterbeteiligung",
         "Recht",
         "Pflicht",
-        "Rechtfolge"
+        "Rechtsfolge"
       ],
       "properties": [
         "betrachtetAls",
-        "hatRechteUndPflichten",
-        "führtZu",
-        "erfordert"
+        "hatRechtsfolge",
+        "hatRecht",
+        "hatPflicht"
       ],
       "relationships": [
         [
-          "Unterbeteiligung",
-          "betrachtetAls",
-          "Schenkung"
-        ],
-        [
           "Schenkung",
-          "führtZu",
-          "Rechtfolge"
+          "betrachtetAls",
+          "Unterbeteiligung"
         ],
         [
           "Unterbeteiligung",
-          "hatRechteUndPflichten",
+          "hatRecht",
           "Recht"
         ],
         [
           "Unterbeteiligung",
-          "erfordert",
+          "hatPflicht",
           "Pflicht"
+        ],
+        [
+          "Schenkung",
+          "hatRechtsfolge",
+          "Rechtsfolge"
         ]
       ]
     }
@@ -1020,30 +1022,29 @@
     "gcq": "Unter welchen Voraussetzungen und welche Bedeutung hat die Mehrheitsentscheidung bei der Zustimmung zur Übertragung von Gesellschaftsanteilen in Personengesellschaften?",
     "ontology": {
       "classes": [
-        "Personengesellschaft",
         "Mehrheitsentscheidung",
         "Zustimmung"
       ],
       "properties": [
         "hatBedeutung",
         "erfordert",
-        "basiertAuf"
+        "basiert auf"
       ],
       "relationships": [
         [
-          "Personengesellschaft",
-          "erfordert",
-          "Mehrheitsentscheidung"
-        ],
-        [
           "Mehrheitsentscheidung",
-          "basiertAuf",
+          "erfordert",
           "Zustimmung"
         ],
         [
           "Zustimmung",
+          "basiert auf",
+          "Mehrheitsentscheidung"
+        ],
+        [
+          "Mehrheitsentscheidung",
           "hatBedeutung",
-          "Übertragung von Gesellschaftsanteilen"
+          "Übertragung von Gesellschaftsanteilen in Personengesellschaften"
         ]
       ]
     }
@@ -1055,18 +1056,30 @@
         "Transport",
         "Beschaffungsprozess",
         "Beteiligter",
-        "Verantwortlichkeit",
-        "Pflicht",
-        "Anspruch"
+        "Anpruch"
       ],
       "properties": [
         "betrifft",
-        "hatVerantwortungFür",
         "hatPflicht",
-        "kannGeltendMade",
-        "basiertAuf"
+        "hatVerantwortlichkeit",
+        "kannGeltendGemachtWerden"
       ],
       "relationships": [
+        [
+          "Transport",
+          "betrifft",
+          "Beteiligter"
+        ],
+        [
+          "Beteiligter",
+          "hatPflicht",
+          "Transport"
+        ],
+        [
+          "Beteiligter",
+          "hatVerantwortlichkeit",
+          "Transport"
+        ],
         [
           "Transport",
           "betrifft",
@@ -1074,32 +1087,17 @@
         ],
         [
           "Beteiligter",
-          "hatVerantwortungFür",
-          "Transport"
+          "hatPflicht",
+          "Beschaffungsprozess"
         ],
         [
           "Beteiligter",
-          "hatVerantwortungFür",
+          "hatVerantwortlichkeit",
           "Beschaffungsprozess"
         ],
         [
-          "Verantwortlichkeit",
-          "basiertAuf",
-          "Transport"
-        ],
-        [
-          "Verantwortlichkeit",
-          "basiertAuf",
-          "Beschaffungsprozess"
-        ],
-        [
-          "Pflicht",
-          "basiertAuf",
-          "Verantwortlichkeit"
-        ],
-        [
-          "Anspruch",
-          "kannGeltendMade",
+          "Anpruch",
+          "kannGeltendGemachtWerden",
           "Beteiligter"
         ]
       ]
@@ -1110,68 +1108,37 @@
     "ontology": {
       "classes": [
         "Vermieter",
+        "Mieter",
         "Mietverhältnis",
-        "Mietvertrag",
-        "Mietrückgabe",
-        "Mietminderung",
-        "Mietzins",
-        "Mietobjekt"
+        "Mietobjekt",
+        "ortsübliche Miete"
       ],
       "properties": [
-        "beinhaltet",
-        "regelt",
         "verlangt",
-        "führtZu",
-        "beeinträchtigt",
         "beendet",
-        "betrifft",
-        "betrifft"
+        "rückgibt",
+        "rechtzeitig"
       ],
       "relationships": [
         [
           "Vermieter",
           "verlangt",
-          "Mietzins"
-        ],
-        [
-          "Mietvertrag",
-          "beinhaltet",
-          "Mietzins"
-        ],
-        [
-          "Mietvertrag",
-          "regelt",
-          "Mietrückgabe"
-        ],
-        [
-          "Mietrückgabe",
-          "beeinträchtigt",
-          "Mietzins"
-        ],
-        [
-          "Mietzins",
-          "betrifft",
-          "Mietobjekt"
+          "ortsübliche Miete"
         ],
         [
           "Mietverhältnis",
           "beendet",
-          "Mietrückgabe"
+          "Mieter"
         ],
         [
-          "Mietzins",
-          "betrifft",
-          "Mietverhältnis"
+          "Mieter",
+          "rückgibt",
+          "Mietobjekt"
         ],
         [
-          "Mietzins",
-          "betrifft",
-          "Mietminderung"
-        ],
-        [
-          "Mietminderung",
-          "führtZu",
-          "Mietzins"
+          "Mietobjekt",
+          "rückgibt",
+          "rechtzeitig"
         ]
       ]
     }
@@ -1181,36 +1148,43 @@
     "ontology": {
       "classes": [
         "Mietvertrag",
-        "Vertragsverlängerung",
-        "Vertragsfortbestand",
-        "Vertragsendezeitpunkt"
+        "Mietverhältnis",
+        "Mietvertragspartei",
+        "Verlängerung",
+        "Fortbestand"
       ],
       "properties": [
-        "kannVerlängertWerden",
+        "beinhaltet",
         "kannFortbestehen",
-        "unterliegtBedingungen",
-        "überschreitetZeitpunkt"
+        "kannVerlängertWerden",
+        "unterliegt",
+        "voraussetzt"
       ],
       "relationships": [
         [
           "Mietvertrag",
-          "kannVerlängertWerden",
-          "Vertragsverlängerung"
+          "beinhaltet",
+          "Mietverhältnis"
         ],
         [
           "Mietvertrag",
           "kannFortbestehen",
-          "Vertragsfortbestand"
+          "Fortbestand"
         ],
         [
           "Mietvertrag",
-          "unterliegtBedingungen",
-          "Vertragsendezeitpunkt"
+          "kannVerlängertWerden",
+          "Verlängerung"
         ],
         [
-          "Vertragsverlängerung",
-          "überschreitetZeitpunkt",
-          "Vertragsendezeitpunkt"
+          "Mietvertrag",
+          "unterliegt",
+          "Verlängerung"
+        ],
+        [
+          "Verlängerung",
+          "voraussetzt",
+          "Mietvertragspartei"
         ]
       ]
     }
@@ -1219,53 +1193,30 @@
     "gcq": "Unter welchen Voraussetzungen und durch wen müssen welche Pflichten im Mietverhältnis erfüllt werden, um die Rechte und Pflichten der Vertragsparteien zu klären und durchzusetzen?",
     "ontology": {
       "classes": [
-        "Mietverhältnis",
-        "Vertragspartei",
+        "Mietpartei",
         "Pflicht",
         "Recht"
       ],
       "properties": [
         "mussErfülltSein",
-        "hatRechtAuf",
-        "hatPflicht",
         "klärt",
         "durchsetzt"
       ],
       "relationships": [
         [
-          "Vertragspartei",
-          "hatPflicht",
+          "Mietpartei",
+          "mussErfülltSein",
           "Pflicht"
         ],
         [
           "Pflicht",
-          "mussErfülltSein",
-          "Vertragspartei"
-        ],
-        [
-          "Vertragspartei",
-          "hatRechtAuf",
-          "Recht"
-        ],
-        [
-          "Mietverhältnis",
           "klärt",
           "Recht"
         ],
         [
-          "Mietverhältnis",
-          "klärt",
-          "Pflicht"
-        ],
-        [
-          "Vertragspartei",
+          "Pflicht",
           "durchsetzt",
           "Recht"
-        ],
-        [
-          "Vertragspartei",
-          "durchsetzt",
-          "Pflicht"
         ]
       ]
     }
@@ -1302,16 +1253,16 @@
       "classes": [
         "Mieter",
         "Vermieter",
+        "Mietvertrag",
         "Mietzahlung",
-        "Kündigung",
-        "Grund"
+        "Kündigung"
       ],
       "properties": [
         "kannEinstellen",
         "hatRechtAuf",
-        "verletzt",
-        "hatPflicht",
-        "istAusreichend"
+        "verletztPflicht",
+        "hatGrundFuer",
+        "hatPflichtInBezugAuf"
       ],
       "relationships": [
         [
@@ -1322,22 +1273,22 @@
         [
           "Mieter",
           "hatRechtAuf",
-          "Entschädigung"
-        ],
-        [
-          "Vermieter",
-          "verletzt",
-          "Pflichten"
-        ],
-        [
-          "Vermieter",
-          "hatPflicht",
           "Kündigung"
         ],
         [
-          "Kündigung",
-          "istAusreichend",
-          "Grund"
+          "Vermieter",
+          "verletztPflicht",
+          "Mietvertrag"
+        ],
+        [
+          "Vermieter",
+          "hatGrundFuer",
+          "Kündigung"
+        ],
+        [
+          "Vermieter",
+          "hatPflichtInBezugAuf",
+          "Kündigung"
         ]
       ]
     }
@@ -1349,45 +1300,56 @@
         "Mieter",
         "Vermieter",
         "Miete",
-        "Instandhaltung"
+        "Instandhaltung",
+        "Recht",
+        "Pflicht"
       ],
       "properties": [
-        "hatPflicht",
-        "hatRecht",
-        "betrifft",
+        "hatAnspruchAuf",
         "istVerpflichtetZu",
-        "istBerechtigtAuf"
+        "betrifft",
+        "betrifft"
       ],
       "relationships": [
         [
           "Mieter",
-          "hatPflicht",
-          "Zahlung der Miete"
-        ],
-        [
-          "Vermieter",
-          "hatPflicht",
-          "Instandhaltung der Mietwohnung"
-        ],
-        [
-          "Miete",
-          "betrifft",
-          "Mieter"
-        ],
-        [
-          "Instandhaltung",
-          "betrifft",
-          "Vermieter"
-        ],
-        [
-          "Mieter",
-          "istBerechtigtAuf",
-          "Instandhaltung der Mietwohnung"
+          "hatAnspruchAuf",
+          "Miete"
         ],
         [
           "Vermieter",
           "istVerpflichtetZu",
-          "Zahlung der Miete"
+          "Miete"
+        ],
+        [
+          "Mieter",
+          "istVerpflichtetZu",
+          "Instandhaltung"
+        ],
+        [
+          "Vermieter",
+          "istVerpflichtetZu",
+          "Instandhaltung"
+        ],
+        [
+          "Recht",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Recht",
+          "betrifft",
+          "Vermieter"
+        ],
+        [
+          "Pflicht",
+          "betrifft",
+          "Mieter"
+        ],
+        [
+          "Pflicht",
+          "betrifft",
+          "Vermieter"
         ]
       ]
     }
@@ -1397,12 +1359,15 @@
     "ontology": {
       "classes": [
         "Genossenschaftsmitglied",
+        "Genossenschaft",
         "Verbandsstrafe",
-        "Verbandsstrafrecht"
+        "Verbandsstrafvorschrift"
       ],
       "properties": [
         "kannBelegtWerdenMit",
-        "erfülltVoraussetzungen"
+        "hatVoraussetzungen",
+        "verstoßtGegen",
+        "istGültig"
       ],
       "relationships": [
         [
@@ -1412,8 +1377,18 @@
         ],
         [
           "Verbandsstrafe",
-          "erfülltVoraussetzungen",
-          "Verbandsstrafrecht"
+          "hatVoraussetzungen",
+          "Verbandsstrafvorschrift"
+        ],
+        [
+          "Genossenschaftsmitglied",
+          "verstoßtGegen",
+          "Verbandsstrafvorschrift"
+        ],
+        [
+          "Verbandsstrafvorschrift",
+          "istGültig",
+          "Genossenschaft"
         ]
       ]
     }
@@ -1436,9 +1411,9 @@
       ],
       "properties": [
         "kannGeltendMachen",
-        "beinhaltet",
+        "betrifft",
         "basiertAuf",
-        "betrifft"
+        "führtZu"
       ],
       "relationships": [
         [
@@ -1452,23 +1427,23 @@
           "Anspruch"
         ],
         [
-          "Vertrag",
-          "beinhaltet",
-          "Rücktritt"
+          "Rücktritt",
+          "betrifft",
+          "Vertrag"
         ],
         [
-          "Vertrag",
-          "beinhaltet",
-          "Anfechtung"
+          "Anfechtung",
+          "betrifft",
+          "Vertrag"
         ],
         [
           "Anspruch",
-          "beinhaltet",
+          "betrifft",
           "Ausgleich"
         ],
         [
           "Anspruch",
-          "beinhaltet",
+          "betrifft",
           "Schadensersatz"
         ],
         [
@@ -1485,6 +1460,16 @@
           "Anspruch",
           "basiertAuf",
           "§123 Abs. 1 BGB"
+        ],
+        [
+          "Rücktritt",
+          "führtZu",
+          "Anspruch"
+        ],
+        [
+          "Anfechtung",
+          "führtZu",
+          "Anspruch"
         ]
       ]
     }
@@ -1497,15 +1482,13 @@
         "Entscheidungsfindung",
         "Rückstellung",
         "Überschussverteilung",
-        "Bonuspunkt",
-        "Zuteilung"
+        "Bonuspunkte"
       ],
       "properties": [
         "spieltRolleIn",
         "betrifft",
-        "betrifft",
-        "betrifft",
-        "betrifft"
+        "betrifftDieVerwendungVon",
+        "betrifftDieZuteilungVon"
       ],
       "relationships": [
         [
@@ -1516,24 +1499,17 @@
         [
           "Entscheidungsfindung",
           "betrifft",
-          "Verwendung",
           "Rückstellung"
         ],
         [
           "Entscheidungsfindung",
-          "betrifft",
-          "Zuteilung",
-          "Bonuspunkt"
-        ],
-        [
-          "Rückstellung",
-          "betrifft",
+          "betrifftDieVerwendungVon",
           "Überschussverteilung"
         ],
         [
-          "Bonuspunkt",
-          "betrifft",
-          "Zuteilung"
+          "Entscheidungsfindung",
+          "betrifftDieZuteilungVon",
+          "Bonuspunkte"
         ]
       ]
     }
@@ -1543,27 +1519,35 @@
     "ontology": {
       "classes": [
         "Versicherungsvertrag",
-        "Versicherungsnehmer",
-        "Versicherungsgesellschaft",
+        "Versicherter",
         "Bonuspunkte",
         "Überschüsse"
       ],
       "properties": [
         "hatAnspruchAuf",
         "basiertAuf",
-        "enthält",
-        "erwirbt"
+        "enthält"
       ],
       "relationships": [
         [
-          "Versicherungsnehmer",
+          "Versicherter",
           "hatAnspruchAuf",
           "Bonuspunkte"
         ],
         [
-          "Versicherungsnehmer",
+          "Versicherter",
           "hatAnspruchAuf",
           "Überschüsse"
+        ],
+        [
+          "Bonuspunkte",
+          "basiertAuf",
+          "Versicherungsvertrag"
+        ],
+        [
+          "Überschüsse",
+          "basiertAuf",
+          "Versicherungsvertrag"
         ],
         [
           "Versicherungsvertrag",
@@ -1574,21 +1558,6 @@
           "Versicherungsvertrag",
           "enthält",
           "Überschüsse"
-        ],
-        [
-          "Versicherungsgesellschaft",
-          "erwirbt",
-          "Überschüsse"
-        ],
-        [
-          "Versicherungsvertrag",
-          "basiertAuf",
-          "Versicherungsnehmer"
-        ],
-        [
-          "Versicherungsvertrag",
-          "basiertAuf",
-          "Versicherungsgesellschaft"
         ]
       ]
     }
@@ -1600,63 +1569,65 @@
         "Architekt",
         "Bauarbeiten",
         "Mangel",
+        "Pflicht",
         "Vergleich",
         "Kündigung",
-        "Architektenvertrag"
+        "Architektenvertrag",
+        "Recht"
       ],
       "properties": [
-        "führtAus",
-        "hatVerantwortungFür",
-        "hatRechtAuf",
+        "verursacht",
         "hatPflicht",
+        "hatRecht",
+        "betrifft",
         "führtZu",
-        "betrifft"
+        "beinhaltet"
       ],
       "relationships": [
         [
           "Architekt",
-          "führtAus",
-          "Bauarbeiten"
-        ],
-        [
-          "Bauarbeiten",
-          "kannHaben",
+          "verursacht",
           "Mangel"
         ],
         [
-          "Mangel",
+          "Bauarbeiten",
+          "betrifft",
+          "Mangel"
+        ],
+        [
+          "Architekt",
+          "hatPflicht",
+          "Pflicht"
+        ],
+        [
+          "Pflicht",
           "betrifft",
           "Bauarbeiten"
         ],
         [
           "Architekt",
-          "hatVerantwortungFür",
-          "Mangel"
+          "hatRecht",
+          "Recht"
         ],
         [
-          "Architekt",
-          "hatPflicht",
-          "Mangel"
+          "Vergleich",
+          "beinhaltet",
+          "Recht"
         ],
         [
-          "Architekt",
-          "hatRechtAuf",
+          "Kündigung",
+          "beinhaltet",
+          "Recht"
+        ],
+        [
+          "Architektenvertrag",
+          "führtZu",
           "Vergleich"
         ],
         [
-          "Architekt",
-          "hatRechtAuf",
+          "Architektenvertrag",
+          "führtZu",
           "Kündigung"
-        ],
-        [
-          "Architekt",
-          "hatPflicht",
-          "Kündigung"
-        ],
-        [
-          "Architekt",
-          "hatPflicht",
-          "Architektenvertrag"
         ]
       ]
     }
@@ -1665,21 +1636,15 @@
     "gcq": "Welche rechtlichen Konsequenzen hat die Verletzung von Obliegenheiten durch den Versicherungsnehmer im Versicherungsvertragsrecht?",
     "ontology": {
       "classes": [
-        "Versicherungsvertrag",
         "Versicherungsnehmer",
         "Obliegenheit",
-        "Rechtsfolge"
+        "RechtlicheKonsequenz"
       ],
       "properties": [
         "verletzt",
-        "hatRechtsfolge"
+        "hatRechtlicheKonsequenz"
       ],
       "relationships": [
-        [
-          "Versicherungsvertrag",
-          "beinhaltet",
-          "Obliegenheit"
-        ],
         [
           "Versicherungsnehmer",
           "verletzt",
@@ -1687,8 +1652,8 @@
         ],
         [
           "Obliegenheit",
-          "hatRechtsfolge",
-          "Rechtsfolge"
+          "hatRechtlicheKonsequenz",
+          "RechtlicheKonsequenz"
         ]
       ]
     }
@@ -1704,37 +1669,42 @@
         "Kenntnis"
       ],
       "properties": [
-        "verursacht",
-        "hatObliegenheit",
-        "hatKenntnis",
+        "verlangt",
         "kannVerlangen",
-        "leistet"
+        "hat",
+        "betrifft",
+        "wirdBetrieben"
       ],
       "relationships": [
         [
-          "Schaden",
-          "verursacht",
-          "Versicherungsnehmer"
-        ],
-        [
           "Versicherungsnehmer",
-          "hatObliegenheit",
-          "Obliegenheit"
-        ],
-        [
-          "Versicherungsnehmer",
-          "hatKenntnis",
-          "Kenntnis"
+          "verlangt",
+          "Schaden"
         ],
         [
           "Versicherungsnehmer",
           "kannVerlangen",
-          "Schadensersatz"
+          "Schaden"
+        ],
+        [
+          "Schaden",
+          "betrifft",
+          "Versicherungsnehmer"
+        ],
+        [
+          "Versicherungsnehmer",
+          "hat",
+          "Obliegenheit"
+        ],
+        [
+          "Versicherungsnehmer",
+          "hat",
+          "Kenntnis"
         ],
         [
           "Versicherer",
-          "leistet",
-          "Schadensersatz"
+          "wirdBetrieben",
+          "Versicherungsnehmer"
         ]
       ]
     }
@@ -1744,43 +1714,47 @@
     "ontology": {
       "classes": [
         "Versicherung",
-        "Einstandspflicht",
+        "Versicherungsvertrag",
         "Wahlleistungsvereinbarung",
         "Verjährung",
         "Anspruch",
         "Rechtsgrundlage"
       ],
       "properties": [
-        "kannPrüfen",
+        "kannEinstandspflichtPruefen",
         "betrifft",
-        "basiertAuf",
-        "relevantFür"
+        "regelt"
       ],
       "relationships": [
         [
           "Versicherung",
-          "kannPrüfen",
-          "Einstandspflicht"
+          "kannEinstandspflichtPruefen",
+          "Versicherungsvertrag"
         ],
         [
-          "Einstandspflicht",
+          "Versicherungsvertrag",
           "betrifft",
           "Wahlleistungsvereinbarung"
         ],
         [
-          "Einstandspflicht",
+          "Versicherungsvertrag",
           "betrifft",
           "Verjährung"
         ],
         [
-          "Einstandspflicht",
-          "basiertAuf",
+          "Verjährung",
+          "betrifft",
           "Anspruch"
         ],
         [
-          "Rechtsgrundlage",
-          "relevantFür",
-          "Einstandspflicht"
+          "Wahlleistungsvereinbarung",
+          "regelt",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Verjährung",
+          "regelt",
+          "Rechtsgrundlage"
         ]
       ]
     }
@@ -1794,8 +1768,7 @@
         "Recht",
         "Pflicht",
         "Versicherungsfall",
-        "Versicherungsnehmer",
-        "Versicherer"
+        "Vertragspartei"
       ],
       "properties": [
         "beinhaltet",
@@ -1803,7 +1776,6 @@
         "entsteht",
         "besteht",
         "entfällt",
-        "betrifft",
         "betrifft"
       ],
       "relationships": [
@@ -1823,19 +1795,14 @@
           "Versicherungsvertrag"
         ],
         [
-          "Versicherungsfall",
+          "Recht",
           "entsteht",
-          "Versicherungsvertrag"
+          "Versicherungsfall"
         ],
         [
-          "Versicherungsfall",
-          "betrifft",
-          "Versicherungsnehmer"
-        ],
-        [
-          "Versicherungsfall",
-          "betrifft",
-          "Versicherer"
+          "Pflicht",
+          "entsteht",
+          "Versicherungsfall"
         ],
         [
           "Recht",
@@ -1846,6 +1813,16 @@
           "Pflicht",
           "entfällt",
           "Versicherungsfall"
+        ],
+        [
+          "Versicherungsvertrag",
+          "betrifft",
+          "Vertragspartei"
+        ],
+        [
+          "Versicherungsbedingungen",
+          "betrifft",
+          "Vertragspartei"
         ]
       ]
     }
@@ -1854,49 +1831,37 @@
     "gcq": "Unter welchen Voraussetzungen und Rechtsfolgen kann eine Kündigung im Rahmen eines Vertragsverhältnisses wirksam oder unwirksam sein?",
     "ontology": {
       "classes": [
+        "Vertrag",
         "Kündigung",
-        "Vertragsverhältnis",
         "Rechtsfolge",
-        "Voraussetzung",
-        "Wirksamkeit",
-        "Unwirksamkeit"
+        "Voraussetzung"
       ],
       "properties": [
         "kannWirksamSein",
         "kannUnwirksamSein",
-        "führtZu",
-        "erfordert"
+        "hatRechtsfolge",
+        "erfülltVoraussetzung"
       ],
       "relationships": [
         [
           "Kündigung",
           "kannWirksamSein",
-          "Vertragsverhältnis"
+          "Vertrag"
         ],
         [
           "Kündigung",
           "kannUnwirksamSein",
-          "Vertragsverhältnis"
+          "Vertrag"
         ],
         [
           "Kündigung",
-          "führtZu",
+          "hatRechtsfolge",
           "Rechtsfolge"
         ],
         [
-          "Rechtsfolge",
-          "erfordert",
+          "Vertrag",
+          "erfülltVoraussetzung",
           "Voraussetzung"
-        ],
-        [
-          "Kündigung",
-          "kannWirksamSein",
-          "Wirksamkeit"
-        ],
-        [
-          "Kündigung",
-          "kannUnwirksamSein",
-          "Unwirksamkeit"
         ]
       ]
     }
@@ -1907,36 +1872,41 @@
       "classes": [
         "Vertrag",
         "Vertragspartei",
-        "Kostenregelung",
-        "Kostenweitergabe"
+        "Kosten",
+        "Recht",
+        "Pflicht"
       ],
       "properties": [
         "regelt",
         "weitergibt",
-        "betrifft",
-        "hatVerpflichtung",
-        "hatRecht"
+        "hat",
+        "kannInAnspruchNehmen"
       ],
       "relationships": [
         [
           "Vertrag",
           "regelt",
-          "Kostenregelung"
-        ],
-        [
-          "Kostenregelung",
-          "betrifft",
-          "Vertragspartei"
+          "Kosten"
         ],
         [
           "Vertragspartei",
-          "hatVerpflichtung",
-          "Kostenweitergabe"
+          "hat",
+          "Recht"
         ],
         [
           "Vertragspartei",
-          "hatRecht",
-          "Kostenweitergabe"
+          "kannInAnspruchNehmen",
+          "Recht"
+        ],
+        [
+          "Vertragspartei",
+          "hat",
+          "Pflicht"
+        ],
+        [
+          "Pflicht",
+          "regelt",
+          "Kosten"
         ]
       ]
     }
@@ -1974,17 +1944,13 @@
       "classes": [
         "GesellschaftBürgerlichenRechts",
         "Vertreter",
-        "Gesellschafter",
-        "Vertretungsbefugnis",
-        "Rechtsgeschäft",
+        "Gericht",
         "Rechtsfolge"
       ],
       "properties": [
         "kannRepräsentieren",
-        "istBefugtFuer",
-        "führtZu",
-        "istGesetzlichVorgesehenFuer",
-        "istNichtig"
+        "istOrdnungsgemäß",
+        "hatRechtsfolge"
       ],
       "relationships": [
         [
@@ -1994,23 +1960,13 @@
         ],
         [
           "Vertreter",
-          "istBefugtFuer",
-          "Gesellschafter"
+          "istOrdnungsgemäß",
+          "Gericht"
         ],
         [
-          "Vertretungsbefugnis",
-          "istGesetzlichVorgesehenFuer",
-          "GesellschaftBürgerlichenRechts"
-        ],
-        [
-          "Rechtsgeschäft",
-          "führtZu",
+          "GesellschaftBürgerlichenRechts",
+          "hatRechtsfolge",
           "Rechtsfolge"
-        ],
-        [
-          "Rechtsfolge",
-          "istNichtig",
-          "GesellschaftBürgerlichenRechts"
         ]
       ]
     }
@@ -2019,37 +1975,31 @@
     "gcq": "Unter welchen Voraussetzungen und in welchen Zusammenhängen ist eine Herausgabe von erlangter Bereicherung aufgrund einer ungerechtfertigten Bereicherung nach § 104 VglO möglich?",
     "ontology": {
       "classes": [
+        "Bereicherung",
         "UngerechtfertigteBereicherung",
         "Herausgabe",
-        "§104VglO",
-        "Voraussetzungen",
-        "Zusammenhänge"
+        "VglO"
       ],
       "properties": [
-        "istMöglichAufGrundVon",
-        "erfordert",
-        "betrifft"
+        "erlangt",
+        "istGrundlageFür",
+        "istMöglich"
       ],
       "relationships": [
         [
-          "Herausgabe",
-          "istMöglichAufGrundVon",
+          "Bereicherung",
+          "erlangt",
           "UngerechtfertigteBereicherung"
         ],
         [
-          "UngerechtfertigteBereicherung",
-          "erfordert",
-          "Voraussetzungen"
+          "Herausgabe",
+          "istGrundlageFür",
+          "VglO"
         ],
         [
           "Herausgabe",
-          "betrifft",
-          "Zusammenhänge"
-        ],
-        [
-          "§104VglO",
-          "betrifft",
-          "Herausgabe"
+          "istMöglich",
+          "Bereicherung"
         ]
       ]
     }
@@ -2060,46 +2010,35 @@
       "classes": [
         "Honorar",
         "Mindestsatz",
-        "HOAI",
         "Architekt",
         "Ingenieur",
-        "Auftraggeber"
+        "HOAI"
       ],
       "properties": [
-        "berechnetAufGrundlage",
-        "beanspruchtVon",
-        "hatMindestsatz"
+        "basiert auf",
+        "kann beansprucht werden durch",
+        "berechnet nach"
       ],
       "relationships": [
         [
           "Honorar",
-          "berechnetAufGrundlage",
+          "basiert auf",
           "Mindestsatz"
         ],
         [
           "Mindestsatz",
-          "hatMindestsatz",
+          "berechnet nach",
           "HOAI"
         ],
         [
           "Honorar",
-          "beanspruchtVon",
+          "kann beansprucht werden durch",
           "Architekt"
         ],
         [
           "Honorar",
-          "beanspruchtVon",
+          "kann beansprucht werden durch",
           "Ingenieur"
-        ],
-        [
-          "Architekt",
-          "beanspruchtVon",
-          "Auftraggeber"
-        ],
-        [
-          "Ingenieur",
-          "beanspruchtVon",
-          "Auftraggeber"
         ]
       ]
     }
@@ -2108,39 +2047,39 @@
     "gcq": "Unter welchen Voraussetzungen und wer ist verpflichtet, Kosten oder Entschädigungen im Zusammenhang mit der Beförderung von Gütern zu tragen oder zu leisten?",
     "ontology": {
       "classes": [
-        "Beförderer",
-        "Gut",
-        "Entschädigung",
+        "Beförderungsvertrag",
+        "Verpflichteter",
         "Kosten",
-        "Verpflichtung"
+        "Entschädigung",
+        "Gut"
       ],
       "properties": [
-        "befördert",
-        "trägt",
-        "leistet",
+        "beinhaltet",
+        "verpflichtet",
         "betrifft",
-        "basiert auf"
+        "zuTragen",
+        "zuLeisten"
       ],
       "relationships": [
         [
-          "Beförderer",
-          "befördert",
-          "Gut"
-        ],
-        [
-          "Beförderer",
-          "trägt",
+          "Beförderungsvertrag",
+          "beinhaltet",
           "Kosten"
         ],
         [
-          "Beförderer",
-          "leistet",
+          "Beförderungsvertrag",
+          "beinhaltet",
           "Entschädigung"
         ],
         [
-          "Entschädigung",
-          "betrifft",
-          "Gut"
+          "Verpflichteter",
+          "verpflichtet",
+          "Kosten"
+        ],
+        [
+          "Verpflichteter",
+          "verpflichtet",
+          "Entschädigung"
         ],
         [
           "Kosten",
@@ -2148,9 +2087,19 @@
           "Gut"
         ],
         [
-          "Verpflichtung",
-          "basiert auf",
-          "Beförderer"
+          "Entschädigung",
+          "betrifft",
+          "Gut"
+        ],
+        [
+          "Verpflichteter",
+          "zuTragen",
+          "Kosten"
+        ],
+        [
+          "Verpflichteter",
+          "zuLeisten",
+          "Entschädigung"
         ]
       ]
     }
@@ -2164,7 +2113,6 @@
         "ZVG",
         "ZVK-L",
         "BetrAVG",
-        "Befugnis",
         "Person"
       ],
       "properties": [
@@ -2172,7 +2120,7 @@
         "ändern",
         "beinhaltet",
         "basiert auf",
-        "betrifft"
+        "hatBefugnis"
       ],
       "relationships": [
         [
@@ -2201,19 +2149,14 @@
           "Pensionsanspruch"
         ],
         [
-          "Sonderkündigungsrecht",
-          "basiert auf",
-          "Befugnis"
+          "Person",
+          "hatBefugnis",
+          "Sonderkündigungsrecht"
         ],
         [
-          "Pensionsanspruch",
-          "basiert auf",
-          "Befugnis"
-        ],
-        [
-          "Befugnis",
-          "betrifft",
-          "Person"
+          "Person",
+          "hatBefugnis",
+          "Pensionsanspruch"
         ]
       ]
     }
@@ -2223,8 +2166,6 @@
     "ontology": {
       "classes": [
         "Rechtsträger",
-        "Person",
-        "Stelle",
         "Schaden",
         "Nachteil",
         "Verhalten"
@@ -2235,29 +2176,19 @@
       ],
       "relationships": [
         [
-          "Person",
-          "verursacht",
-          "Schaden"
-        ],
-        [
-          "Stelle",
-          "verursacht",
-          "Nachteil"
-        ],
-        [
           "Schaden",
-          "kannInAnspruchGenommenWerden",
-          "Rechtsträger"
+          "verursacht",
+          "Verhalten"
         ],
         [
           "Nachteil",
-          "kannInAnspruchGenommenWerden",
-          "Rechtsträger"
+          "verursacht",
+          "Verhalten"
         ],
         [
           "Verhalten",
-          "verursacht",
-          "Schaden"
+          "kannInAnspruchGenommenWerden",
+          "Rechtsträger"
         ]
       ]
     }
@@ -2267,31 +2198,30 @@
     "ontology": {
       "classes": [
         "Schadensersatzanspruch",
-        "Verschulden"
+        "Handlung",
+        "Vertrag",
+        "Verstoß"
       ],
       "properties": [
-        "kannGeltendGemachtWerden",
         "istWiderrechtlich",
-        "istVertragsverstoß",
-        "führtZu"
+        "basiertAuf",
+        "kannGeltendGemachtWerden"
       ],
       "relationships": [
         [
           "Schadensersatzanspruch",
-          "kannGeltendGemachtWerden",
-          "Verschulden"
+          "basiertAuf",
+          "Handlung"
         ],
         [
           "Handlung",
           "istWiderrechtlich",
-          "führtZu",
-          "Verschulden"
+          "Vertrag"
         ],
         [
-          "Vertrag",
-          "istVertragsverstoß",
-          "führtZu",
-          "Verschulden"
+          "Schadensersatzanspruch",
+          "kannGeltendGemachtWerden",
+          "Verstoß"
         ]
       ]
     }
@@ -2302,15 +2232,15 @@
       "classes": [
         "Haftung",
         "Handlung",
-        "Vorsatz",
-        "Schadenszufügung",
-        "Rechtswidrigkeit"
+        "Schaden",
+        "Rechtswidrigkeit",
+        "Sittenwidrigkeit"
       ],
       "properties": [
         "kannInBetrachtKommen",
-        "beinhaltet",
-        "führtZu",
-        "ist"
+        "istRechtswidrig",
+        "istSittenwidrig",
+        "verursacht"
       ],
       "relationships": [
         [
@@ -2320,18 +2250,18 @@
         ],
         [
           "Handlung",
-          "beinhaltet",
-          "Vorsatz"
-        ],
-        [
-          "Handlung",
-          "beinhaltet",
-          "Schadenszufügung"
-        ],
-        [
-          "Handlung",
-          "ist",
+          "istRechtswidrig",
           "Rechtswidrigkeit"
+        ],
+        [
+          "Handlung",
+          "istSittenwidrig",
+          "Sittenwidrigkeit"
+        ],
+        [
+          "Handlung",
+          "verursacht",
+          "Schaden"
         ]
       ]
     }
@@ -2349,42 +2279,42 @@
       "properties": [
         "kannGeltendGemachtWerden",
         "basiertAuf",
-        "erfordert"
+        "betrifft"
       ],
       "relationships": [
         [
           "Anspruch",
           "kannGeltendGemachtWerden",
+          "Rechtsvoraussetzung"
+        ],
+        [
+          "Rechtsvoraussetzung",
+          "betrifft",
           "Herausgabe"
         ],
         [
-          "Anspruch",
-          "kannGeltendGemachtWerden",
+          "Rechtsvoraussetzung",
+          "betrifft",
           "Schadensersatz"
         ],
         [
-          "Anspruch",
-          "kannGeltendGemachtWerden",
+          "Rechtsvoraussetzung",
+          "betrifft",
           "Haftung"
         ],
         [
           "Herausgabe",
           "basiertAuf",
-          "Rechtsvoraussetzung"
+          "Anspruch"
         ],
         [
           "Schadensersatz",
           "basiertAuf",
-          "Rechtsvoraussetzung"
+          "Anspruch"
         ],
         [
           "Haftung",
           "basiertAuf",
-          "Rechtsvoraussetzung"
-        ],
-        [
-          "Rechtsvoraussetzung",
-          "erfordert",
           "Anspruch"
         ]
       ]
@@ -2397,15 +2327,19 @@
         "Person",
         "Kündigung",
         "Widerruf",
-        "Bedingung",
+        "Rechtsbeziehung",
         "GeschäftsführungOhneAuftrag",
         "Werkvertrag",
-        "Grundabtretung"
+        "Grundabtretung",
+        "Voraussetzung",
+        "Bedingung"
       ],
       "properties": [
         "kannGebrauchMachenVon",
         "mussErfülltSein",
-        "liegtVor"
+        "liegtVor",
+        "beinhaltet",
+        "basiertAuf"
       ],
       "relationships": [
         [
@@ -2420,28 +2354,43 @@
         ],
         [
           "Kündigung",
-          "mussErfülltSein",
-          "Bedingung"
+          "beinhaltet",
+          "Voraussetzung"
         ],
         [
           "Widerruf",
-          "mussErfülltSein",
-          "Bedingung"
+          "beinhaltet",
+          "Voraussetzung"
         ],
         [
-          "Person",
+          "Rechtsbeziehung",
           "liegtVor",
           "GeschäftsführungOhneAuftrag"
         ],
         [
-          "Person",
+          "Rechtsbeziehung",
           "liegtVor",
           "Werkvertrag"
         ],
         [
-          "Person",
+          "Rechtsbeziehung",
           "liegtVor",
           "Grundabtretung"
+        ],
+        [
+          "GeschäftsführungOhneAuftrag",
+          "beinhaltet",
+          "Bedingung"
+        ],
+        [
+          "Werkvertrag",
+          "beinhaltet",
+          "Bedingung"
+        ],
+        [
+          "Grundabtretung",
+          "beinhaltet",
+          "Bedingung"
         ]
       ]
     }
@@ -2452,22 +2401,28 @@
       "classes": [
         "Fristsetzung",
         "Wirksamkeit",
-        "§281Abs1BGB"
+        "Anforderung"
       ],
       "properties": [
         "erfüllt",
-        "istWirksam"
+        "imSinneVon",
+        "regelt"
       ],
       "relationships": [
         [
           "Fristsetzung",
-          "erfüllt",
+          "imSinneVon",
+          "§ 281 Abs. 1 BGB"
+        ],
+        [
+          "§ 281 Abs. 1 BGB",
+          "regelt",
           "Wirksamkeit"
         ],
         [
           "Wirksamkeit",
-          "istWirksam",
-          "§281Abs1BGB"
+          "erfüllt",
+          "Anforderung"
         ]
       ]
     }
@@ -2476,25 +2431,30 @@
     "gcq": "Welche Fristen gelten für die Geltendmachung von Ansprüchen und welche Rechtsfolgen treten ein, wenn diese Fristen nicht eingehalten werden?",
     "ontology": {
       "classes": [
-        "Anspruch",
         "Frist",
+        "Anspruch",
         "Rechtsfolge"
       ],
       "properties": [
-        "giltFuer",
-        "kannGeltendGemachtWerden",
+        "giltFür",
+        "wirdGeltendGemacht",
         "trittEin"
       ],
       "relationships": [
         [
+          "Frist",
+          "giltFür",
+          "Anspruch"
+        ],
+        [
           "Anspruch",
-          "kannGeltendGemachtWerden",
+          "wirdGeltendGemacht",
           "Frist"
         ],
         [
-          "Frist",
+          "Rechtsfolge",
           "trittEin",
-          "Rechtsfolge"
+          "Frist"
         ]
       ]
     }
@@ -2505,7 +2465,6 @@
       "classes": [
         "Betriebskostenabrechnung",
         "RechtlicheVoraussetzungen",
-        "Wirkung",
         "Nachforderung"
       ],
       "properties": [
@@ -2519,12 +2478,7 @@
           "RechtlicheVoraussetzungen"
         ],
         [
-          "Betriebskostenabrechnung",
-          "hatKonsequenz",
-          "Wirkung"
-        ],
-        [
-          "Wirkung",
+          "Unwirksamkeit",
           "hatKonsequenz",
           "Nachforderung"
         ]
@@ -2542,37 +2496,37 @@
         "Treu und Glauben"
       ],
       "properties": [
-        "kannGeltendMachen",
-        "hatVerpflichtungZu",
-        "istVerpflichtetZu",
-        "istRechtAuf",
-        "istInBezugAuf"
+        "hatAnspruchAuf",
+        "hatPflicht",
+        "hatRechtAuf",
+        "beinhaltet",
+        "wirdEinghalten"
       ],
       "relationships": [
         [
           "Person",
-          "kannGeltendMachen",
+          "hatAnspruchAuf",
           "Anspruch"
         ],
         [
           "Person",
-          "istVerpflichtetZu",
-          "Treu und Glauben"
-        ],
-        [
-          "Person",
-          "hatVerpflichtungZu",
+          "hatPflicht",
           "Pflicht"
         ],
         [
+          "Person",
+          "hatRechtAuf",
+          "Recht"
+        ],
+        [
           "Recht",
-          "istInBezugAuf",
+          "beinhaltet",
           "Treu und Glauben"
         ],
         [
-          "Pflicht",
-          "istInBezugAuf",
-          "Treu und Glauben"
+          "Treu und Glauben",
+          "wirdEinghalten",
+          "Recht"
         ]
       ]
     }
@@ -2583,7 +2537,9 @@
       "classes": [
         "Person",
         "Schaden",
-        "Dritter"
+        "Verhalten",
+        "Dritter",
+        "Haftung"
       ],
       "properties": [
         "verursacht",
@@ -2593,23 +2549,23 @@
       "relationships": [
         [
           "Person",
-          "verursacht",
+          "kannHaftbarGemachtWerden",
           "Schaden"
         ],
         [
-          "Dritter",
+          "Schaden",
           "verursacht",
-          "Schaden"
+          "Verhalten"
         ],
         [
-          "Person",
+          "Verhalten",
           "stehtInZusammenhangMit",
           "Dritter"
         ],
         [
-          "Schaden",
+          "Person",
           "kannHaftbarGemachtWerden",
-          "Person"
+          "Haftung"
         ]
       ]
     }
@@ -2660,12 +2616,11 @@
         "Darlehensnehmer",
         "Risiko",
         "Aufklärungspflicht",
-        "Rechtsverletzung",
-        "rechtliche Konsequenz"
+        "Rechtsfolge"
       ],
       "properties": [
+        "betrifft",
         "hatPflicht",
-        "beinhaltet",
         "verletzt",
         "führtZu"
       ],
@@ -2677,18 +2632,23 @@
         ],
         [
           "Aufklärungspflicht",
-          "beinhaltet",
+          "betrifft",
           "Risiko"
         ],
         [
           "Darlehensnehmer",
-          "hatAnspruchAuf",
-          "Aufklärungspflicht"
+          "betrifft",
+          "Risiko"
         ],
         [
-          "Rechtsverletzung",
+          "Aufklärungspflicht",
           "führtZu",
-          "rechtliche Konsequenz"
+          "Rechtsfolge"
+        ],
+        [
+          "Bank",
+          "verletzt",
+          "Aufklärungspflicht"
         ]
       ]
     }
@@ -2697,8 +2657,8 @@
     "gcq": "Wer ist verpflichtet, den Schaden zu ersetzen, wenn dieser durch das Vorhandensein oder die Wirkungen einer Anlage verursacht wurde?",
     "ontology": {
       "classes": [
-        "Schaden",
         "Anlage",
+        "Schaden",
         "Verpflichteter"
       ],
       "properties": [
@@ -2726,16 +2686,16 @@
         "Bauvorhaben",
         "Partei",
         "Schadensersatzanspruch",
-        "Mangel"
+        "Mangel",
+        "Absturzsicherung",
+        "Verantwortlichkeit"
       ],
       "properties": [
         "kannGeltendMachen",
-        "kannInAnspruchGenommenWerden",
-        "istVerantwortlichFür",
-        "hatMängel",
-        "hatUnkenntnis",
-        "machtAufrechnung",
-        "hatAbsturzsicherungen"
+        "kannInAnspruchgenommenWerden",
+        "istVerantwortlichFuer",
+        "beinhaltet",
+        "führtZu"
       ],
       "relationships": [
         [
@@ -2745,32 +2705,43 @@
         ],
         [
           "Partei",
-          "kannInAnspruchGenommenWerden",
+          "kannInAnspruchgenommenWerden",
           "Schadensersatzanspruch"
         ],
         [
           "Bauvorhaben",
-          "istVerantwortlichFür",
+          "beinhaltet",
+          "Mangel"
+        ],
+        [
+          "Mangel",
+          "führtZu",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Partei",
+          "istVerantwortlichFuer",
           "Mangel"
         ],
         [
           "Partei",
-          "istVerantwortlichFür",
+          "hatUnkenntnisVon",
           "Mangel"
         ],
         [
           "Partei",
-          "hatUnkenntnis",
-          "Mangel"
-        ],
-        [
-          "Partei",
-          "machtAufrechnung",
+          "kannAufrechnungMachenGegen",
           "Schadensersatzanspruch"
         ],
         [
           "Bauvorhaben",
-          "hatAbsturzsicherungen"
+          "beinhaltet",
+          "Absturzsicherung"
+        ],
+        [
+          "Absturzsicherung",
+          "führtZu",
+          "Verantwortlichkeit"
         ]
       ]
     }
@@ -2781,15 +2752,17 @@
       "classes": [
         "Bank",
         "Unternehmen",
-        "Dritter",
+        "Berater",
         "Beratungsfehler",
-        "Rechtsgrundlage",
-        "Haftung"
+        "Pflichtverletzung",
+        "Haftung",
+        "Rechtsgrundlage"
       ],
       "properties": [
         "kannHaftenFür",
-        "hatEigenePflichten",
-        "istImPflichtenkreisVon"
+        "hatPflichten",
+        "istTätigImPflichtenkreis",
+        "basiertAuf"
       ],
       "relationships": [
         [
@@ -2804,18 +2777,28 @@
         ],
         [
           "Beratungsfehler",
-          "wirdVerursachtVon",
-          "Dritter"
+          "basiertAuf",
+          "Pflichtverletzung"
         ],
         [
           "Bank",
-          "hatEigenePflichten",
-          "False"
+          "hatPflichten",
+          "Beratung"
         ],
         [
           "Unternehmen",
-          "hatEigenePflichten",
-          "False"
+          "hatPflichten",
+          "Beratung"
+        ],
+        [
+          "Bank",
+          "istTätigImPflichtenkreis",
+          "Berater"
+        ],
+        [
+          "Unternehmen",
+          "istTätigImPflichtenkreis",
+          "Berater"
         ],
         [
           "Haftung",
@@ -2833,54 +2816,38 @@
         "Schaden",
         "Aufklärung",
         "Beratung",
-        "Haftung"
+        "Verpflichtung"
       ],
       "properties": [
         "verursacht",
-        "basiert auf",
-        "hatVoraussetzungen",
-        "hatPflicht"
+        "hatVerpflichtungZu",
+        "erfülltVoraussetzung"
       ],
       "relationships": [
         [
-          "Schaden",
+          "Bank",
           "verursacht",
-          "Bank"
-        ],
-        [
-          "Schaden",
-          "basiert auf",
-          "mangelhafte Aufklärung"
-        ],
-        [
-          "Schaden",
-          "basiert auf",
-          "mangelhafte Beratung"
+          "Schaden"
         ],
         [
           "Bank",
-          "hatPflicht",
+          "hatVerpflichtungZu",
           "Aufklärung"
         ],
         [
           "Bank",
-          "hatPflicht",
+          "hatVerpflichtungZu",
           "Beratung"
         ],
         [
-          "Haftung",
-          "hatVoraussetzungen",
-          "Schaden"
+          "Aufklärung",
+          "erfülltVoraussetzung",
+          "Verpflichtung"
         ],
         [
-          "Haftung",
-          "hatVoraussetzungen",
-          "mangelhafte Aufklärung"
-        ],
-        [
-          "Haftung",
-          "hatVoraussetzungen",
-          "mangelhafte Beratung"
+          "Beratung",
+          "erfülltVoraussetzung",
+          "Verpflichtung"
         ]
       ]
     }
@@ -2890,14 +2857,18 @@
     "ontology": {
       "classes": [
         "Vertrag",
-        "besondererUmstand",
-        "Unklarheit"
+        "Vertragspartei",
+        "Vertragsinhalt",
+        "BesondererUmstand",
+        "Unklarheit",
+        "Gültigkeit"
       ],
       "properties": [
         "kannZustandeKommen",
-        "behältGültigkeit",
+        "beinhaltet",
         "betrifft",
-        "führtZu"
+        "beeinträchtigt",
+        "behältAufrecht"
       ],
       "relationships": [
         [
@@ -2905,33 +2876,34 @@
           "kannZustandeKommen",
           "trotz",
           [
-            "besondererUmstand",
+            "BesondererUmstand",
             "Unklarheit"
           ]
         ],
         [
           "Vertrag",
-          "behältGültigkeit",
-          "trotz",
-          [
-            "besondererUmstand",
-            "Unklarheit"
-          ]
+          "beinhaltet",
+          "Vertragsinhalt"
         ],
         [
-          "besondererUmstand",
+          "Vertragsinhalt",
           "betrifft",
-          "Vertrag"
+          "Vertragspartei"
+        ],
+        [
+          "BesondererUmstand",
+          "beeinträchtigt",
+          "Gültigkeit"
         ],
         [
           "Unklarheit",
-          "betrifft",
-          "Vertrag"
+          "beeinträchtigt",
+          "Gültigkeit"
         ],
         [
-          "besondererUmstand",
-          "führtZu",
-          "Unklarheit"
+          "Vertrag",
+          "behältAufrecht",
+          "Gültigkeit"
         ]
       ]
     }
@@ -2941,35 +2913,23 @@
     "ontology": {
       "classes": [
         "Recht",
-        "Rechtsinhaber",
-        "Voraussetzung"
+        "Tatbestand",
+        "Rechtsgrund"
       ],
       "properties": [
-        "kannGeltendMachen",
-        "kannAusuben",
-        "erfordert",
-        "istVoraussetzungFur"
+        "kannGeltendGemachtWerden",
+        "basiertAuf"
       ],
       "relationships": [
         [
-          "Rechtsinhaber",
-          "kannGeltendMachen",
-          "Recht"
+          "Recht",
+          "kannGeltendGemachtWerden",
+          "Tatbestand"
         ],
         [
           "Recht",
-          "kannAusuben",
-          "Rechtsinhaber"
-        ],
-        [
-          "Recht",
-          "erfordert",
-          "Voraussetzung"
-        ],
-        [
-          "Voraussetzung",
-          "istVoraussetzungFur",
-          "Recht"
+          "basiertAuf",
+          "Rechtsgrund"
         ]
       ]
     }
@@ -2980,34 +2940,41 @@
       "classes": [
         "Vertrag",
         "Widerrufsrecht",
-        "Gesetzliche Bestimmung",
-        "Vertragliche Vereinbarung"
+        "Vertragspartei",
+        "Gesetz",
+        "Vertragsbestimmung"
       ],
       "properties": [
         "regelt",
-        "betrifft",
-        "berücksichtigt"
+        "hatAnspruchAuf",
+        "beinhaltet",
+        "istGültig"
       ],
       "relationships": [
         [
           "Vertrag",
-          "betrifft",
+          "regelt",
+          "Widerrufsrecht"
+        ],
+        [
+          "Vertragspartei",
+          "hatAnspruchAuf",
+          "Widerrufsrecht"
+        ],
+        [
+          "Gesetz",
+          "regelt",
+          "Widerrufsrecht"
+        ],
+        [
+          "Vertragsbestimmung",
+          "beinhaltet",
           "Widerrufsrecht"
         ],
         [
           "Widerrufsrecht",
-          "regelt",
-          "Vertrag"
-        ],
-        [
-          "Widerrufsrecht",
-          "berücksichtigt",
-          "Gesetzliche Bestimmung"
-        ],
-        [
-          "Widerrufsrecht",
-          "berücksichtigt",
-          "Vertragliche Vereinbarung"
+          "istGültig",
+          "unterBerücksichtigung"
         ]
       ]
     }
@@ -3024,7 +2991,7 @@
       ],
       "properties": [
         "erzeugt",
-        "beinhaltet",
+        "bezieht sich auf",
         "betrifft"
       ],
       "relationships": [
@@ -3040,13 +3007,18 @@
         ],
         [
           "Recht",
-          "beinhaltet",
-          "Pflicht"
+          "bezieht sich auf",
+          "Geschäftsbesorgung"
         ],
         [
-          "Anspruch",
+          "Pflicht",
+          "bezieht sich auf",
+          "Geschäftsbesorgung"
+        ],
+        [
+          "Verjährung",
           "betrifft",
-          "Verjährung"
+          "Anspruch"
         ]
       ]
     }
@@ -3064,8 +3036,8 @@
       ],
       "properties": [
         "kannUnwirksamSeinDue",
-        "betrifft",
-        "führtZu"
+        "basiertAuf",
+        "beinhaltet"
       ],
       "relationships": [
         [
@@ -3099,34 +3071,9 @@
           "Anfechtung"
         ],
         [
-          "Rechtshandlung",
-          "betrifft",
-          "surprise Klauseln"
-        ],
-        [
           "Vertrag",
-          "betrifft",
+          "beinhaltet",
           "surprise Klauseln"
-        ],
-        [
-          "Formwirksamkeit",
-          "führtZu",
-          "Unwirksamkeit"
-        ],
-        [
-          "Verjährung",
-          "führtZu",
-          "Unwirksamkeit"
-        ],
-        [
-          "Anfechtung",
-          "führtZu",
-          "Unwirksamkeit"
-        ],
-        [
-          "surprise Klauseln",
-          "führtZu",
-          "Unwirksamkeit"
         ]
       ]
     }
@@ -3137,11 +3084,13 @@
       "classes": [
         "Berichterstattung",
         "Person",
-        "Persönlichkeitsschutzrecht"
+        "Persönlichkeit",
+        "Recht"
       ],
       "properties": [
         "betrifft",
-        "schützt"
+        "schützt",
+        "beeinträchtigt"
       ],
       "relationships": [
         [
@@ -3150,9 +3099,14 @@
           "Person"
         ],
         [
-          "Persönlichkeitsschutzrecht",
+          "Persönlichkeit",
           "schützt",
-          "Person"
+          "Recht"
+        ],
+        [
+          "Berichterstattung",
+          "beeinträchtigt",
+          "Persönlichkeit"
         ]
       ]
     }
@@ -3164,13 +3118,17 @@
         "Vertrag",
         "Partei",
         "Verpflichtung",
+        "Rücktritt",
         "Geschäftsunfähigkeit",
-        "Rechtsfolge"
+        "Rechtsfolge",
+        "Notigung"
       ],
       "properties": [
         "kannNichigSein",
-        "erfülltNicht",
-        "trittRücktrittOhneGrundAn"
+        "erfüllt",
+        "trittRück",
+        "führtZu",
+        "istRechtfertigend"
       ],
       "relationships": [
         [
@@ -3180,18 +3138,28 @@
         ],
         [
           "Partei",
-          "erfülltNicht",
+          "erfüllt",
           "Verpflichtung"
         ],
         [
           "Partei",
-          "trittRücktrittOhneGrundAn",
+          "trittRück",
           "Vertrag"
         ],
         [
-          "Vertrag",
-          "hatRechtsfolge",
+          "Rücktritt",
+          "ohne",
+          "Rechtfertigung"
+        ],
+        [
+          "Rücktritt",
+          "führtZu",
           "Rechtsfolge"
+        ],
+        [
+          "Rücktritt",
+          "istRechtfertigend",
+          "Notigung"
         ]
       ]
     }
@@ -3235,8 +3203,9 @@
       "properties": [
         "regelt",
         "erfüllt",
-        "bedingt",
-        "betrifft"
+        "betrifft",
+        "hatBedeutungFür",
+        "führtZu"
       ],
       "relationships": [
         [
@@ -3251,12 +3220,22 @@
         ],
         [
           "RechtlicheAnforderung",
-          "bedingt",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Vertrag",
+          "hatBedeutungFür",
           "Wirksamkeit"
         ],
         [
           "Vertrag",
-          "betrifft",
+          "hatBedeutungFür",
+          "Durchsetzung"
+        ],
+        [
+          "Wirksamkeit",
+          "führtZu",
           "Durchsetzung"
         ]
       ]
@@ -3283,14 +3262,14 @@
           "Kosten"
         ],
         [
-          "Mangel",
+          "Kosten",
           "beheben",
-          "Kosten"
+          "Mangel"
         ],
         [
-          "Schaden",
+          "Kosten",
           "ersetzen",
-          "Kosten"
+          "Schaden"
         ]
       ]
     }
@@ -3301,17 +3280,17 @@
       "classes": [
         "Vertrag",
         "Partei",
-        "Pflichtverletzung",
-        "Rücktritt",
-        "Anfechtung",
-        "Rechtsfolge"
+        "Rechtsfolge",
+        "Vertragsverletzung",
+        "Vertragsrücktritt",
+        "Vertragsanfechtung"
       ],
       "properties": [
         "einhalten",
-        "rücktreten",
-        "anfechten",
-        "voraussetzen",
-        "tretenEin"
+        "rückgängigMachen",
+        "vorausgesetztFür",
+        "eintreten",
+        "begründen"
       ],
       "relationships": [
         [
@@ -3321,33 +3300,23 @@
         ],
         [
           "Partei",
-          "rücktreten",
-          "Vertrag"
+          "rückgängigMachen",
+          "Vertragsrücktritt"
         ],
         [
-          "Partei",
-          "anfechten",
-          "Vertrag"
+          "Vertragsverletzung",
+          "begründen",
+          "Vertragsanfechtung"
         ],
         [
-          "Pflichtverletzung",
-          "voraussetzen",
-          "Rücktritt"
+          "Vertragsanfechtung",
+          "vorausgesetztFür",
+          "Vertragsrücktritt"
         ],
         [
-          "Pflichtverletzung",
-          "voraussetzen",
-          "Anfechtung"
-        ],
-        [
-          "Rücktritt",
-          "tretenEin",
-          "Rechtsfolge"
-        ],
-        [
-          "Anfechtung",
-          "tretenEin",
-          "Rechtsfolge"
+          "Rechtsfolge",
+          "eintreten",
+          "Vertragsrücktritt"
         ]
       ]
     }
@@ -3356,23 +3325,23 @@
     "gcq": "Welche Rechtsfolgen hat die Revision in einem gerichtlichen Verfahren?",
     "ontology": {
       "classes": [
-        "Gerichtliches Verfahren",
+        "Gerichtlichesverfahren",
         "Revision",
         "Rechtsfolge"
       ],
       "properties": [
         "hat",
-        "führt zu"
+        "führtzu"
       ],
       "relationships": [
         [
-          "Gerichtliches Verfahren",
+          "Gerichtlichesverfahren",
           "hat",
           "Revision"
         ],
         [
           "Revision",
-          "führt zu",
+          "führtzu",
           "Rechtsfolge"
         ]
       ]
@@ -3390,14 +3359,9 @@
       "properties": [
         "istEingetragenIn",
         "verlangt",
-        "kannDurchsetzen"
+        "setztDurch"
       ],
       "relationships": [
-        [
-          "Eigentümer",
-          "istEingetragenIn",
-          "Grundbuch"
-        ],
         [
           "Eigentümer",
           "verlangt",
@@ -3405,8 +3369,13 @@
         ],
         [
           "Eigentümer",
-          "kannDurchsetzen",
+          "setztDurch",
           "Eigentumsrecht"
+        ],
+        [
+          "Eigentümer",
+          "istEingetragenIn",
+          "Grundbuch"
         ]
       ]
     }
@@ -3415,30 +3384,31 @@
     "gcq": "Unter welchen Voraussetzungen kann ein Leasingnehmer seine Kaution zurückverlangen, wenn er von einem Leasingvertrag zurücktritt?",
     "ontology": {
       "classes": [
-        "Leasingnehmer",
         "Leasingvertrag",
+        "Leasingnehmer",
+        "Kaution",
         "Rücktritt"
       ],
       "properties": [
-        "hatAnspruchAuf",
         "beinhaltet",
+        "hatAnspruchAuf",
         "führtZu"
       ],
       "relationships": [
         [
+          "Leasingvertrag",
+          "beinhaltet",
+          "Kaution"
+        ],
+        [
           "Leasingnehmer",
           "hatAnspruchAuf",
-          "Rückgabe der Kaution"
+          "Kaution"
         ],
         [
           "Rücktritt",
           "führtZu",
-          "Rückgabe der Kaution"
-        ],
-        [
-          "Leasingvertrag",
-          "beinhaltet",
-          "Rücktritt"
+          "Kaution"
         ]
       ]
     }
@@ -3449,79 +3419,63 @@
       "classes": [
         "RechtlicheHandlung",
         "Vereinbarung",
-        "RechtlicheVorschrift",
-        "Parteien",
-        "Willensbekundung"
+        "Gesetz",
+        "Vertragspartei",
+        "Rechtswirksamkeit",
+        "Voraussetzung"
       ],
       "properties": [
-        "entspricht",
-        "erfüllt",
-        "istGültigUndWirksam",
         "istGültig",
         "istWirksam",
         "basiertAuf",
-        "hatTeilnehmer"
+        "erfüllt",
+        "hatVoraussetzung"
       ],
       "relationships": [
         [
           "RechtlicheHandlung",
-          "entspricht",
-          "RechtlicheVorschrift"
-        ],
-        [
-          "Vereinbarung",
-          "entspricht",
-          "RechtlicheVorschrift"
-        ],
-        [
-          "RechtlicheHandlung",
-          "istGültigUndWirksam",
-          "True"
-        ],
-        [
-          "Vereinbarung",
-          "istGültigUndWirksam",
-          "True"
-        ],
-        [
-          "RechtlicheHandlung",
           "istGültig",
-          "True"
-        ],
-        [
-          "Vereinbarung",
-          "istGültig",
-          "True"
+          "Rechtswirksamkeit"
         ],
         [
           "RechtlicheHandlung",
           "istWirksam",
-          "True"
+          "Rechtswirksamkeit"
+        ],
+        [
+          "Vereinbarung",
+          "istGültig",
+          "Rechtswirksamkeit"
         ],
         [
           "Vereinbarung",
           "istWirksam",
-          "True"
+          "Rechtswirksamkeit"
         ],
         [
           "RechtlicheHandlung",
           "basiertAuf",
-          "Willensbekundung"
+          "Gesetz"
         ],
         [
           "Vereinbarung",
           "basiertAuf",
-          "Willensbekundung"
+          "Gesetz"
         ],
         [
-          "RechtlicheHandlung",
-          "hatTeilnehmer",
-          "Parteien"
+          "Rechtswirksamkeit",
+          "erfüllt",
+          "Gesetz"
         ],
         [
-          "Vereinbarung",
-          "hatTeilnehmer",
-          "Parteien"
+          "Rechtswirksamkeit",
+          "erfüllt",
+          "Vertragspartei"
+        ],
+        [
+          "Rechtswirksamkeit",
+          "hatVoraussetzung",
+          "Voraussetzung"
         ]
       ]
     }
@@ -3533,52 +3487,34 @@
         "Verpflichtung",
         "Kosten",
         "Haftung",
-        "Rolle",
         "RechtlicherKontext"
       ],
       "properties": [
-        "tragen",
-        "spielt",
-        "betrifft",
-        "istVerpflichtet",
-        "istHaftbar",
-        "istQuotaleHaftung"
+        "verpflichtet",
+        "trägt",
+        "spieltRolle",
+        "istQuotale"
       ],
       "relationships": [
         [
           "Verpflichtung",
-          "tragen",
+          "verpflichtet",
           "Kosten"
         ],
         [
-          "Kosten",
-          "betrifft",
-          "Verpflichtung"
-        ],
-        [
           "Haftung",
-          "istVerpflichtet",
-          "Verpflichtung"
-        ],
-        [
-          "Rolle",
-          "spielt",
-          "Haftung"
+          "trägt",
+          "Kosten"
         ],
         [
           "RechtlicherKontext",
-          "betrifft",
+          "spieltRolle",
           "Haftung"
         ],
         [
           "Haftung",
-          "istHaftbar",
-          "Verpflichtung"
-        ],
-        [
-          "Haftung",
-          "istQuotaleHaftung",
-          "Verpflichtung"
+          "istQuotale",
+          "Kosten"
         ]
       ]
     }
@@ -3590,11 +3526,13 @@
         "Haftpflichtprozess",
         "Heimaufenthalt",
         "Kosten",
-        "Person"
+        "Person",
+        "Verpflichtung"
       ],
       "properties": [
         "betrifft",
-        "tragen"
+        "tragen",
+        "umfasst"
       ],
       "relationships": [
         [
@@ -3611,6 +3549,11 @@
           "Kosten",
           "tragen",
           "Person"
+        ],
+        [
+          "Kosten",
+          "umfasst",
+          "Verpflichtung"
         ]
       ]
     }
@@ -3625,25 +3568,25 @@
         "Privatunfallversicherung"
       ],
       "properties": [
-        "führtzu",
-        "wirdbeurteiltnach",
-        "basiertauf"
+        "führtZu",
+        "wirdBeurteiltNach",
+        "basiertAuf"
       ],
       "relationships": [
         [
           "Unfallereignis",
-          "führtzu",
+          "führtZu",
           "Gesundheitsbeeinträchtigung"
         ],
         [
           "Kausalität",
-          "wirdbeurteiltnach",
-          "Kriterien"
+          "wirdBeurteiltNach",
+          "Privatunfallversicherung"
         ],
         [
           "Kausalität",
-          "basiertauf",
-          "Privatunfallversicherung"
+          "basiertAuf",
+          "Unfallereignis"
         ]
       ]
     }
@@ -3652,42 +3595,29 @@
     "gcq": "Unter welchen Umständen und mit welchen Konsequenzen kann eine Person für einen Arbeitsunfall haftbar gemacht werden, wenn sie ihre Pflichten verletzt hat?",
     "ontology": {
       "classes": [
-        "Arbeitnehmer",
+        "Person",
         "Arbeitsunfall",
-        "Pflichtverletzung",
         "Haftung"
       ],
       "properties": [
         "verursacht",
-        "hatPflicht",
-        "verletzt",
-        "führtZu",
-        "kannHaftbarGemachtWerden"
+        "hatPflichtenverletzung",
+        "führtZu"
       ],
       "relationships": [
         [
-          "Arbeitnehmer",
+          "Person",
           "verursacht",
           "Arbeitsunfall"
         ],
         [
-          "Arbeitnehmer",
-          "hatPflicht",
-          "Arbeitsvertrag"
-        ],
-        [
-          "Arbeitnehmer",
-          "verletzt",
-          "Pflichtverletzung"
-        ],
-        [
-          "Pflichtverletzung",
+          "Arbeitsunfall",
           "führtZu",
           "Haftung"
         ],
         [
-          "Arbeitnehmer",
-          "kannHaftbarGemachtWerden",
+          "Person",
+          "hatPflichtenverletzung",
           "Arbeitsunfall"
         ]
       ]
@@ -3697,31 +3627,39 @@
     "gcq": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Anspruch auf Schadensersatz aufgrund einer unerlaubten Handlung geltend gemacht werden kann?",
     "ontology": {
       "classes": [
-        "Anspruch",
-        "Schadensersatz",
-        "Handlung",
-        "Rechtsvoraussetzung"
+        "Schadensersatzanspruch",
+        "UnerlaubteHandlung",
+        "Rechtswidrigkeit",
+        "Schuld",
+        "Schaden"
       ],
       "properties": [
         "kannGeltendGemachtWerden",
-        "istUnerlaubt",
-        "mussErfülltSein"
+        "basiertAuf",
+        "istVerursachtDurch",
+        "istVerursachtDurch",
+        "istEntstanden"
       ],
       "relationships": [
         [
-          "Anspruch",
+          "Schadensersatzanspruch",
           "kannGeltendGemachtWerden",
-          "Schadensersatz"
+          "UnerlaubteHandlung"
         ],
         [
-          "Handlung",
-          "istUnerlaubt",
-          "Schadensersatz"
+          "Schadensersatzanspruch",
+          "basiertAuf",
+          "Rechtswidrigkeit"
         ],
         [
-          "Rechtsvoraussetzung",
-          "mussErfülltSein",
-          "Anspruch"
+          "Rechtswidrigkeit",
+          "istVerursachtDurch",
+          "Schuld"
+        ],
+        [
+          "Schaden",
+          "istEntstanden",
+          "UnerlaubteHandlung"
         ]
       ]
     }
@@ -3730,20 +3668,27 @@
     "gcq": "Unter welchen Voraussetzungen und Umständen kann eine Vertragsklausel wirksam oder unwirksam sein und welche Rolle spielt dabei die Eigenhaftung des Vertreters, die Geltendmachung von Ansprüchen und die Einordnung von Verträgen?",
     "ontology": {
       "classes": [
-        "Vertragsklausel",
         "Vertrag",
+        "Vertragsklausel",
         "Vertreter",
-        "Eigenhaftung"
+        "Anspruch",
+        "Vertragseinordnung"
       ],
       "properties": [
+        "beinhaltet",
         "istWirksam",
         "istUnwirksam",
+        "hatEigenhaftung",
+        "kannGeltendGemachtWerden",
         "basiertAuf",
-        "hatAnspruchAuf",
-        "betrifft",
-        "istVerantwortlichFuer"
+        "führtZu"
       ],
       "relationships": [
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsklausel"
+        ],
         [
           "Vertragsklausel",
           "istWirksam",
@@ -3755,23 +3700,23 @@
           "Vertrag"
         ],
         [
-          "Vertragsklausel",
-          "basiertAuf",
-          "Eigenhaftung"
-        ],
-        [
           "Vertreter",
-          "istVerantwortlichFuer",
-          "Eigenhaftung"
-        ],
-        [
-          "Vertreter",
-          "hatAnspruchAuf",
+          "hatEigenhaftung",
           "Vertrag"
         ],
         [
-          "Vertrag",
-          "betrifft",
+          "Anspruch",
+          "kannGeltendGemachtWerden",
+          "Vertragsklausel"
+        ],
+        [
+          "Vertragseinordnung",
+          "basiertAuf",
+          "Vertrag"
+        ],
+        [
+          "Vertragseinordnung",
+          "führtZu",
           "Vertragsklausel"
         ]
       ]
@@ -3782,36 +3727,30 @@
     "ontology": {
       "classes": [
         "Vertrag",
-        "Umstände",
         "Einzelfall",
-        "Auslegung",
-        "Anwendung"
+        "Vertragsauslegung",
+        "Vertragsanwendung"
       ],
       "properties": [
-        "berücksichtigen",
-        "bestimmen",
-        "beeinflussen"
+        "betrifft",
+        "berücksichtigt",
+        "istRelevantFür"
       ],
       "relationships": [
         [
           "Vertrag",
-          "berücksichtigen",
-          "Umstände"
-        ],
-        [
-          "Umstände",
-          "bestimmen",
+          "betrifft",
           "Einzelfall"
         ],
         [
-          "Einzelfall",
-          "beeinflussen",
-          "Auslegung"
+          "Vertragsauslegung",
+          "berücksichtigt",
+          "Einzelfall"
         ],
         [
-          "Einzelfall",
-          "beeinflussen",
-          "Anwendung"
+          "Vertragsanwendung",
+          "istRelevantFür",
+          "Einzelfall"
         ]
       ]
     }
@@ -3820,43 +3759,38 @@
     "gcq": "Unter welchen Voraussetzungen und durch wen kann eine ordentliche Kündigung des Anstellungsvertrags eines Geschäftsführers einer GmbH wirksam sein, und welche Rechtsfolgen treten in diesem Zusammenhang ein?",
     "ontology": {
       "classes": [
-        "Geschäftsführer",
         "Anstellungsvertrag",
+        "Geschäftsführer",
+        "GmbH",
         "Kündigung",
-        "Arbeitgeber",
         "Arbeitsgericht"
       ],
       "properties": [
-        "kannWirksamKündigen",
-        "hatRechtsfolge",
+        "kannWirksamSein",
+        "istArbeitgeber",
         "betrifft",
-        "entscheidet"
+        "kannEntscheiden"
       ],
       "relationships": [
         [
-          "Arbeitgeber",
-          "kannWirksamKündigen",
-          "Geschäftsführer"
-        ],
-        [
-          "Geschäftsführer",
-          "betrifft",
-          "Kündigung"
-        ],
-        [
           "Kündigung",
-          "betrifft",
+          "kannWirksamSein",
           "Anstellungsvertrag"
         ],
         [
+          "Geschäftsführer",
+          "istArbeitgeber",
+          "GmbH"
+        ],
+        [
           "Arbeitsgericht",
-          "entscheidet",
+          "kannEntscheiden",
           "Kündigung"
         ],
         [
-          "Kündigung",
-          "hatRechtsfolge",
-          "Arbeitsgericht"
+          "Anstellungsvertrag",
+          "betrifft",
+          "Geschäftsführer"
         ]
       ]
     }
@@ -3867,29 +3801,41 @@
       "classes": [
         "AllgemeineGeschäftsbedingungen",
         "Klausel",
+        "Rechtsfolge",
         "Wirksamkeit",
-        "Rechtsfolge"
+        "Voraussetzung"
       ],
       "properties": [
+        "beinhaltet",
+        "führtZu",
         "kannÜberprüftWerden",
-        "kannFestgestelltWerden",
-        "führtZu"
+        "kannFestgestelltWerden"
       ],
       "relationships": [
         [
-          "Klausel",
-          "kannÜberprüftWerden",
-          "AllgemeineGeschäftsbedingungen"
-        ],
-        [
-          "Wirksamkeit",
-          "kannFestgestelltWerden",
+          "AllgemeineGeschäftsbedingungen",
+          "beinhaltet",
           "Klausel"
         ],
         [
-          "Rechtsfolge",
+          "Klausel",
           "führtZu",
+          "Rechtsfolge"
+        ],
+        [
+          "Klausel",
+          "kannÜberprüftWerden",
           "Wirksamkeit"
+        ],
+        [
+          "Klausel",
+          "kannFestgestelltWerden",
+          "Wirksamkeit"
+        ],
+        [
+          "Wirksamkeit",
+          "basiertAuf",
+          "Voraussetzung"
         ]
       ]
     }
@@ -3903,26 +3849,25 @@
         "Schaden",
         "Handlung",
         "Unterlassung",
-        "Pflicht",
         "Geschäftsführungsverpflichtung",
-        "Aufklärungspflicht"
+        "Aufklärungspflicht",
+        "Haftung"
       ],
       "properties": [
         "verursacht",
         "hatPflicht",
-        "verletztPflicht",
-        "führtZu",
-        "kannHaftenFür"
+        "basiertAuf",
+        "führtZu"
       ],
       "relationships": [
         [
           "Person",
-          "kannHaftenFür",
+          "verursacht",
           "Schaden"
         ],
         [
           "Unternehmen",
-          "kannHaftenFür",
+          "verursacht",
           "Schaden"
         ],
         [
@@ -3936,38 +3881,28 @@
           "Schaden"
         ],
         [
-          "Pflicht",
+          "Geschäftsführungsverpflichtung",
           "hatPflicht",
           "Person"
         ],
         [
-          "Pflicht",
-          "hatPflicht",
-          "Unternehmen"
-        ],
-        [
-          "Geschäftsführungsverpflichtung",
-          "istArtVon",
-          "Pflicht"
-        ],
-        [
           "Aufklärungspflicht",
-          "istArtVon",
-          "Pflicht"
+          "hatPflicht",
+          "Person"
         ],
         [
-          "Handlung",
-          "verletztPflicht",
-          "Pflicht"
+          "Schaden",
+          "basiertAuf",
+          "Handlung"
         ],
         [
-          "Unterlassung",
-          "verletztPflicht",
-          "Pflicht"
+          "Schaden",
+          "basiertAuf",
+          "Unterlassung"
         ],
         [
-          "Pflichtverletzung",
-          "führtZu",
+          "Haftung",
+          "basiertAuf",
           "Schaden"
         ]
       ]
@@ -3979,30 +3914,44 @@
       "classes": [
         "GmbH",
         "Hinauskündigungsklausel",
+        "Gesellschaftsvertrag",
         "Gleichbehandlungsgrundsatz",
-        "Kündigungslage",
+        "Kündigungsgrund",
         "GuteSitten"
       ],
       "properties": [
-        "kannVereinbartWerden",
+        "vereinbaren",
+        "gestalten",
         "einhalten",
-        "verstoßenGegen"
+        "verstoßenGegen",
+        "beinhaltet",
+        "berücksichtigen"
       ],
       "relationships": [
         [
           "GmbH",
-          "kannVereinbartWerden",
+          "vereinbaren",
           "Hinauskündigungsklausel"
         ],
         [
           "Hinauskündigungsklausel",
+          "gestalten",
+          "Gesellschaftsvertrag"
+        ],
+        [
+          "Gesellschaftsvertrag",
+          "beinhaltet",
+          "Hinauskündigungsklausel"
+        ],
+        [
+          "Gesellschaftsvertrag",
           "einhalten",
           "Gleichbehandlungsgrundsatz"
         ],
         [
           "Hinauskündigungsklausel",
-          "einhalten",
-          "Kündigungslage"
+          "berücksichtigen",
+          "Kündigungsgrund"
         ],
         [
           "Hinauskündigungsklausel",
@@ -4020,21 +3969,29 @@
         "GmbH",
         "Geschäftsführer",
         "Partei",
-        "Pflicht",
         "Unwirksamkeit"
       ],
       "properties": [
-        "kannWirksamGewährleistetSein",
+        "kannWirksamSein",
         "hatRechte",
         "hatPflichten",
-        "imFalleVon",
-        "verletzt"
+        "imFalleVon"
       ],
       "relationships": [
         [
           "Geschäftsführervertrag",
-          "kannWirksamGewährleistetSein",
+          "kannWirksamSein",
           "GmbH"
+        ],
+        [
+          "Geschäftsführer",
+          "hatRechte",
+          "Geschäftsführervertrag"
+        ],
+        [
+          "Geschäftsführer",
+          "hatPflichten",
+          "Geschäftsführervertrag"
         ],
         [
           "Partei",
@@ -4050,11 +4007,6 @@
           "Geschäftsführervertrag",
           "imFalleVon",
           "Unwirksamkeit"
-        ],
-        [
-          "Geschäftsführer",
-          "verletzt",
-          "Pflicht"
         ]
       ]
     }
@@ -4111,7 +4063,8 @@
       "properties": [
         "betrachtet",
         "beeinflusst",
-        "bezieht sich auf"
+        "bezieht sich auf",
+        "führt zu"
       ],
       "relationships": [
         [
@@ -4125,19 +4078,19 @@
           "Interpretation"
         ],
         [
-          "Dritter",
-          "beeinflusst",
-          "Beurteilung"
-        ],
-        [
           "Interpretation",
           "bezieht sich auf",
           "Äußerung"
         ],
         [
-          "Beurteilung",
+          "Interpretation",
           "bezieht sich auf",
           "Verhalten"
+        ],
+        [
+          "Interpretation",
+          "führt zu",
+          "Beurteilung"
         ]
       ]
     }
@@ -4148,11 +4101,13 @@
       "classes": [
         "Sachverständigenkosten",
         "Schadensersatzrecht",
-        "Haftung"
+        "Haftung",
+        "Schaden"
       ],
       "properties": [
         "beeinflusst",
-        "spieltRolleIn"
+        "spieltRolleIn",
+        "betrifft"
       ],
       "relationships": [
         [
@@ -4161,9 +4116,19 @@
           "Quotierung"
         ],
         [
+          "Quotierung",
+          "betrifft",
+          "Schadensersatzrecht"
+        ],
+        [
           "Haftung",
           "spieltRolleIn",
           "Schadensersatzrecht"
+        ],
+        [
+          "Schaden",
+          "betrifft",
+          "Haftung"
         ]
       ]
     }
@@ -4174,12 +4139,14 @@
       "classes": [
         "Schadensersatzanspruch",
         "Schaden",
+        "Verursacher",
         "HöheDesSchadens"
       ],
       "properties": [
         "kannGeltendGemachtWerden",
         "beeinflusst",
-        "beträgt"
+        "betrifft",
+        "verursacht"
       ],
       "relationships": [
         [
@@ -4189,13 +4156,13 @@
         ],
         [
           "Schaden",
-          "beeinflusst",
-          "HöheDesSchadens"
+          "betrifft",
+          "Verursacher"
         ],
         [
           "HöheDesSchadens",
-          "beträgt",
-          "Schadensersatzanspruch"
+          "beeinflusst",
+          "Schaden"
         ]
       ]
     }
@@ -4205,9 +4172,10 @@
     "ontology": {
       "classes": [
         "Vertragspflicht",
+        "Vertragsverletzung",
         "Partei",
         "Erfüllungsgehilfe",
-        "Verletzung",
+        "Beweislast",
         "Anspruch",
         "Verjährung"
       ],
@@ -4224,14 +4192,19 @@
           "Vertragspflicht"
         ],
         [
-          "Erfüllungsgehilfe",
-          "verletzt",
-          "Vertragspflicht"
+          "Vertragspflicht",
+          "wirdVerletztVon",
+          "Partei"
         ],
         [
-          "Verletzung",
+          "Vertragspflicht",
+          "wirdVerletztVon",
+          "Erfüllungsgehilfe"
+        ],
+        [
+          "Vertragsverletzung",
           "hatBeweislast",
-          "Partei"
+          "Beweislast"
         ],
         [
           "Partei",
@@ -4239,8 +4212,8 @@
           "Anspruch"
         ],
         [
-          "Anspruch",
-          "istVerjährt",
+          "Vertragsverletzung",
+          "istVerjährtNach",
           "Verjährung"
         ]
       ]
@@ -4255,33 +4228,18 @@
         "Durchführung",
         "Vorschrift",
         "Bedeutung",
-        "Verfahrensart"
+        "Voraussetzung"
       ],
       "properties": [
-        "istVorschrieben",
+        "istVorgeschrieben",
         "istVonBedeutung",
-        "beinhaltet",
-        "betrifft"
+        "erfordert",
+        "basiertAuf"
       ],
       "relationships": [
         [
           "Schlichtungsverfahren",
-          "beinhaltet",
-          "Einleitung"
-        ],
-        [
-          "Schlichtungsverfahren",
-          "beinhaltet",
-          "Durchführung"
-        ],
-        [
-          "Einleitung",
-          "istVorschrieben",
-          "Vorschrift"
-        ],
-        [
-          "Durchführung",
-          "istVorschrieben",
+          "istVorgeschrieben",
           "Vorschrift"
         ],
         [
@@ -4290,8 +4248,13 @@
           "Bedeutung"
         ],
         [
-          "Verfahrensart",
-          "betrifft",
+          "Einleitung",
+          "erfordert",
+          "Voraussetzung"
+        ],
+        [
+          "Durchführung",
+          "basiertAuf",
           "Schlichtungsverfahren"
         ]
       ]
@@ -4329,8 +4292,7 @@
       "classes": [
         "Handelsgeschäft",
         "Verbindlichkeit",
-        "Inhaber",
-        "Firma"
+        "Inhaber"
       ],
       "properties": [
         "fortführt",
@@ -4339,18 +4301,13 @@
       "relationships": [
         [
           "Handelsgeschäft",
-          "fortgeführt durch",
+          "fortführt",
           "Inhaber"
         ],
         [
           "Inhaber",
           "haftet für",
           "Verbindlichkeit"
-        ],
-        [
-          "Handelsgeschäft",
-          "hat",
-          "Firma"
         ]
       ]
     }
@@ -4360,31 +4317,37 @@
     "ontology": {
       "classes": [
         "Prozessvergleich",
-        "Prozesspartei",
-        "Gericht",
-        "Widerrufsgrund"
+        "Widerruf",
+        "Vereinbarung",
+        "Rechtsgrund",
+        "Gericht"
       ],
       "properties": [
+        "betrifft",
         "kannWiderrufenWerden",
-        "wirdDurchgeführtVon",
-        "wirdBegründetDurch",
-        "hatRechtsgrundlage"
+        "basiertAuf",
+        "entscheidet"
       ],
       "relationships": [
         [
           "Prozessvergleich",
+          "betrifft",
+          "Vereinbarung"
+        ],
+        [
+          "Vereinbarung",
           "kannWiderrufenWerden",
-          "Widerrufsgrund"
+          "Widerruf"
         ],
         [
-          "Prozessvergleich",
-          "wirdDurchgeführtVon",
-          "Prozesspartei"
+          "Widerruf",
+          "basiertAuf",
+          "Rechtsgrund"
         ],
         [
-          "Prozessvergleich",
-          "hatRechtsgrundlage",
-          "Gericht"
+          "Gericht",
+          "entscheidet",
+          "Widerruf"
         ]
       ]
     }
@@ -4393,47 +4356,46 @@
     "gcq": "Welche Auswirkungen hat die Art und Weise der Zustellung von Urteilen oder Gutachten auf den Lauf von Fristen und die Wirksamkeit von Entscheidungen?",
     "ontology": {
       "classes": [
+        "Zustellung",
         "Urteil",
         "Gutachten",
-        "Zustellung",
         "Frist",
         "Entscheidung"
       ],
       "properties": [
         "betrifft",
         "wirktAuf",
-        "beginntMit",
-        "endetMit"
+        "läuftAb"
       ],
       "relationships": [
         [
-          "Urteil",
+          "Zustellung",
           "betrifft",
-          "Entscheidung"
-        ],
-        [
-          "Gutachten",
-          "betrifft",
-          "Entscheidung"
+          "Urteil"
         ],
         [
           "Zustellung",
+          "betrifft",
+          "Gutachten"
+        ],
+        [
+          "Urteil",
           "wirktAuf",
           "Frist"
         ],
         [
-          "Zustellung",
+          "Urteil",
+          "wirktAuf",
+          "Entscheidung"
+        ],
+        [
+          "Gutachten",
           "wirktAuf",
           "Entscheidung"
         ],
         [
           "Frist",
-          "beginntMit",
-          "Zustellung"
-        ],
-        [
-          "Frist",
-          "endetMit",
+          "läuftAb",
           "Zustellung"
         ]
       ]
@@ -4446,10 +4408,10 @@
         "Beweisverfahren",
         "RechtlicheVoraussetzung",
         "Beweis",
-        "Erfüllung"
+        "Erfolg"
       ],
       "properties": [
-        "erfordert",
+        "erfüllt",
         "erbracht"
       ],
       "relationships": [
@@ -4460,8 +4422,8 @@
         ],
         [
           "RechtlicheVoraussetzung",
-          "erfordert",
-          "Erfüllung"
+          "erfüllt",
+          "Beweisverfahren"
         ],
         [
           "Beweisverfahren",
@@ -4471,7 +4433,12 @@
         [
           "Beweis",
           "erbracht",
-          "Erfüllung"
+          "Beweisverfahren"
+        ],
+        [
+          "Beweisverfahren",
+          "führtZu",
+          "Erfolg"
         ]
       ]
     }
@@ -4483,16 +4450,24 @@
         "Geldmittel",
         "Verpflichtung",
         "Recht",
+        "Überwachung",
+        "Verwendung",
+        "Herausgabe",
+        "Überprüfung",
         "Satzung",
+        "Vorgabe",
+        "Mindestangabe",
         "Rechnung"
       ],
       "properties": [
         "betrifft",
         "regelt",
+        "beinhaltet",
+        "erfordert",
         "einhält",
-        "enthält",
-        "mindestsatzungsgemäß",
-        "mindestangabe"
+        "entspricht",
+        "legtFest",
+        "beträgtMindestens"
       ],
       "relationships": [
         [
@@ -4508,31 +4483,36 @@
         [
           "Verpflichtung",
           "regelt",
-          "Geldmittel"
+          "Überwachung"
         ],
         [
-          "Recht",
+          "Verpflichtung",
           "regelt",
-          "Geldmittel"
+          "Verwendung"
+        ],
+        [
+          "Verpflichtung",
+          "regelt",
+          "Herausgabe"
+        ],
+        [
+          "Verpflichtung",
+          "regelt",
+          "Überprüfung"
         ],
         [
           "Satzung",
-          "einhält",
-          "Verpflichtung"
+          "legtFest",
+          "Vorgabe"
         ],
         [
-          "Satzung",
-          "einhält",
-          "Recht"
-        ],
-        [
-          "Rechnung",
-          "enthält",
+          "Vorgabe",
+          "beinhaltet",
           "Mindestangabe"
         ],
         [
           "Mindestangabe",
-          "mindestsatzungsgemäß",
+          "beträgtMindestens",
           "Rechnung"
         ]
       ]
@@ -4544,7 +4524,8 @@
       "classes": [
         "Richter",
         "Oberlandesgericht",
-        "Erprobung"
+        "Erprobungsabordnung",
+        "Recht"
       ],
       "properties": [
         "kannAbgeordnetWerden",
@@ -4554,12 +4535,17 @@
         [
           "Richter",
           "kannAbgeordnetWerden",
+          "Erprobungsabordnung"
+        ],
+        [
+          "Erprobungsabordnung",
+          "findet Statt",
           "Oberlandesgericht"
         ],
         [
           "Richter",
           "hatRechte",
-          "Erprobung"
+          "Recht"
         ]
       ]
     }
@@ -4569,37 +4555,32 @@
     "ontology": {
       "classes": [
         "Aufrechnung",
-        "Werklohnforderung",
-        "Vertrag",
-        "Leistung",
-        "Pflicht",
+        "Voraussetzung",
+        "Bedingung",
         "Rechtsfolge"
       ],
       "properties": [
-        "kannStattfindenUnter",
+        "kannStattfinden",
         "istVerbundenMit",
+        "erfordert",
         "führtZu"
       ],
       "relationships": [
         [
           "Aufrechnung",
-          "kannStattfindenUnter",
-          "Vertrag"
+          "kannStattfinden",
+          "mit",
+          "Werklohnforderung"
         ],
         [
           "Aufrechnung",
           "istVerbundenMit",
-          "Werklohnforderung"
+          "Voraussetzung"
         ],
         [
-          "Werklohnforderung",
+          "Aufrechnung",
           "istVerbundenMit",
-          "Leistung"
-        ],
-        [
-          "Vertrag",
-          "beinhaltet",
-          "Pflicht"
+          "Bedingung"
         ],
         [
           "Aufrechnung",
@@ -4620,7 +4601,8 @@
       ],
       "properties": [
         "betrifft",
-        "hatAuswirkungenAuf"
+        "hatAuswirkungen",
+        "istTeilVon"
       ],
       "relationships": [
         [
@@ -4635,12 +4617,22 @@
         ],
         [
           "Zustellung",
-          "hatAuswirkungenAuf",
+          "istTeilVon",
           "Rechtsstreit"
         ],
         [
           "Zustellung",
-          "hatAuswirkungenAuf",
+          "istTeilVon",
+          "Vertragsverhältnis"
+        ],
+        [
+          "Zustellung",
+          "hatAuswirkungen",
+          "Rechtsstreit"
+        ],
+        [
+          "Zustellung",
+          "hatAuswirkungen",
           "Vertragsverhältnis"
         ]
       ]
@@ -4652,36 +4644,29 @@
       "classes": [
         "Partei",
         "Rechtsstreit",
-        "Prozessfähigkeit",
         "Vertreter",
-        "Verantwortung"
+        "Partei"
       ],
       "properties": [
-        "besitzt",
-        "trägt",
-        "istVerantwortlichFür",
-        "istRechtsstreit"
+        "istProzessfähig",
+        "trägtVerantwortungFür",
+        "vertreten"
       ],
       "relationships": [
         [
           "Partei",
-          "besitzt",
-          "Prozessfähigkeit"
-        ],
-        [
-          "Partei",
-          "istRechtsstreit",
+          "istProzessfähig",
           "Rechtsstreit"
         ],
         [
           "Vertreter",
-          "istVerantwortlichFür",
+          "vertreten",
           "Partei"
         ],
         [
           "Partei",
-          "trägt",
-          "Verantwortung"
+          "trägtVerantwortungFür",
+          "Vertreter"
         ]
       ]
     }
@@ -4690,22 +4675,34 @@
     "gcq": "Welche Haftungsverpflichtungen hat ein Unternehmer oder Lieferant gegenüber einem Kunden oder Verbraucher bei Mängeln oder Schäden, die durch ein von ihm hergestelltes, geliefertes oder in Verkehr gebrachtes Produkt verursacht werden, und wie kann der Geschädigte seine Rechte durchsetzen?",
     "ontology": {
       "classes": [
-        "Produkt",
-        "Mangel",
-        "Schaden",
-        "Hersteller",
+        "Unternehmer",
         "Lieferant",
         "Kunde",
         "Verbraucher",
-        "Haftungsverpflichtung"
+        "Produkt",
+        "Mangel",
+        "Schaden"
       ],
       "properties": [
+        "herstellt",
+        "liefert",
+        "inVerkehrBrings",
         "verursacht",
         "hatHaftungsverpflichtung",
-        "kannDurchsetzen"
+        "kannRechteDurchsetzen"
       ],
       "relationships": [
         [
+          "Unternehmer",
+          "herstellt",
+          "Produkt"
+        ],
+        [
+          "Lieferant",
+          "liefert",
+          "Produkt"
+        ],
+        [
           "Produkt",
           "verursacht",
           "Mangel"
@@ -4716,34 +4713,44 @@
           "Schaden"
         ],
         [
-          "Hersteller",
+          "Mangel",
           "hatHaftungsverpflichtung",
-          "Mangel"
+          "Unternehmer"
         ],
         [
-          "Hersteller",
+          "Mangel",
           "hatHaftungsverpflichtung",
-          "Schaden"
+          "Lieferant"
         ],
         [
-          "Lieferant",
+          "Schaden",
           "hatHaftungsverpflichtung",
-          "Mangel"
+          "Unternehmer"
         ],
         [
-          "Lieferant",
+          "Schaden",
           "hatHaftungsverpflichtung",
-          "Schaden"
+          "Lieferant"
         ],
         [
           "Kunde",
-          "kannDurchsetzen",
-          "Haftungsverpflichtung"
+          "kannRechteDurchsetzen",
+          "Mangel"
+        ],
+        [
+          "Kunde",
+          "kannRechteDurchsetzen",
+          "Schaden"
         ],
         [
           "Verbraucher",
-          "kannDurchsetzen",
-          "Haftungsverpflichtung"
+          "kannRechteDurchsetzen",
+          "Mangel"
+        ],
+        [
+          "Verbraucher",
+          "kannRechteDurchsetzen",
+          "Schaden"
         ]
       ]
     }
@@ -4755,12 +4762,14 @@
         "Gericht",
         "Fall",
         "Recht",
-        "Staat"
+        "Staat",
+        "Zuständigkeit"
       ],
       "properties": [
         "istZuständigFür",
-        "wendetAn",
-        "betrifft",
+        "mussAnwenden",
+        "befasstSichMit",
+        "istInternational",
         "istAusländisch"
       ],
       "relationships": [
@@ -4771,7 +4780,12 @@
         ],
         [
           "Fall",
-          "betrifft",
+          "befasstSichMit",
+          "Recht"
+        ],
+        [
+          "Gericht",
+          "mussAnwenden",
           "Recht"
         ],
         [
@@ -4781,8 +4795,8 @@
         ],
         [
           "Gericht",
-          "wendetAn",
-          "Recht"
+          "istInternational",
+          "Zuständigkeit"
         ]
       ]
     }
@@ -4791,6 +4805,7 @@
     "gcq": "Unter welchen Voraussetzungen und welche Rechtsfolgen hat die Nichtbeachtung von Verfahrensvorschriften durch eine Partei in einem Zivilprozess?",
     "ontology": {
       "classes": [
+        "Prozess",
         "Partei",
         "Verfahrensvorschrift",
         "Rechtsfolge"
@@ -4800,6 +4815,11 @@
         "hatRechtsfolge"
       ],
       "relationships": [
+        [
+          "Prozess",
+          "beinhaltet",
+          "Partei"
+        ],
         [
           "Partei",
           "beachtet",
@@ -4817,31 +4837,38 @@
     "gcq": "Unter welchen Umständen ist eine Person verpflichtet, eine bestimmte Zahlung zu leisten, wenn ein Vertrag nicht ordnungsgemäß erfüllt wird oder vorzeitig endet?",
     "ontology": {
       "classes": [
-        "Vertrag",
-        "Pflicht",
         "Person",
-        "Zahlung"
+        "Vertrag",
+        "Zahlung",
+        "Vertragserfüllung",
+        "Vertragsende"
       ],
       "properties": [
-        "verpflichtet",
-        "beinhaltet",
-        "endet"
+        "verletzt",
+        "istVerpflichtet",
+        "zuLeisten",
+        "endetVorzeitig"
       ],
       "relationships": [
         [
           "Vertrag",
-          "beinhaltet",
-          "Pflicht"
-        ],
-        [
-          "Pflicht",
-          "verpflichtet",
+          "verletzt",
           "Person"
         ],
         [
-          "Vertrag",
-          "endet",
+          "Person",
+          "istVerpflichtet",
           "Zahlung"
+        ],
+        [
+          "Zahlung",
+          "zuLeisten",
+          "Vertragserfüllung"
+        ],
+        [
+          "Vertrag",
+          "endetVorzeitig",
+          "Vertragsende"
         ]
       ]
     }
@@ -4854,16 +4881,15 @@
         "Vergütung",
         "Mangel",
         "Kündigung",
-        "Vertragspartei",
-        "Vertragsbeendigung"
+        "Beendigung",
+        "Kriterium"
       ],
       "properties": [
         "regelt",
         "betrifft",
-        "führtZu",
-        "istGrundFür",
-        "istMangelhaft",
-        "istGültigBis"
+        "basiert auf",
+        "führt zu",
+        "ist relevant für"
       ],
       "relationships": [
         [
@@ -4874,22 +4900,27 @@
         [
           "Vergütung",
           "betrifft",
-          "Vertragspartei"
+          "Vertrag"
         ],
         [
           "Mangel",
-          "istGrundFür",
-          "Vergütungsanpassung"
+          "führt zu",
+          "Anpassung der Vergütung"
         ],
         [
           "Kündigung",
-          "führtZu",
-          "Vertragsbeendigung"
+          "führt zu",
+          "Anpassung der Vergütung"
         ],
         [
-          "Vertragsbeendigung",
-          "istGültigBis",
-          "Vertrag"
+          "Beendigung",
+          "führt zu",
+          "Anpassung der Vergütung"
+        ],
+        [
+          "Kriterium",
+          "ist relevant für",
+          "Anpassung der Vergütung"
         ]
       ]
     }
@@ -4907,9 +4938,9 @@
       ],
       "properties": [
         "hatRechtAuf",
-        "hatVoraussetzung",
+        "kann",
         "betrifft",
-        "führtZu"
+        "beinhaltet"
       ],
       "relationships": [
         [
@@ -4919,58 +4950,43 @@
         ],
         [
           "Vertragspartei",
-          "hatRechtAuf",
-          "Vertragsanpassung"
-        ],
-        [
-          "Vertragspartei",
-          "hatRechtAuf",
+          "kann",
           "Vertragsrücktritt"
         ],
         [
-          "Vertragsabschluss",
-          "betrifft",
-          "Vertrag"
+          "Vertragspartei",
+          "kann",
+          "Vertragsanpassung"
         ],
         [
-          "Vertragsanpassung",
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsabschluss"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsrücktritt"
+        ],
+        [
+          "Vertrag",
+          "beinhaltet",
+          "Vertragsanpassung"
+        ],
+        [
+          "Vertragsabschluss",
           "betrifft",
-          "Vertrag"
+          "Recht"
         ],
         [
           "Vertragsrücktritt",
           "betrifft",
-          "Vertrag"
-        ],
-        [
-          "Vertragsabschluss",
-          "hatVoraussetzung",
           "Recht"
         ],
         [
           "Vertragsanpassung",
-          "hatVoraussetzung",
+          "betrifft",
           "Recht"
-        ],
-        [
-          "Vertragsrücktritt",
-          "hatVoraussetzung",
-          "Recht"
-        ],
-        [
-          "Vertragsabschluss",
-          "führtZu",
-          "Vertrag"
-        ],
-        [
-          "Vertragsanpassung",
-          "führtZu",
-          "Vertrag"
-        ],
-        [
-          "Vertragsrücktritt",
-          "führtZu",
-          "Vertrag"
         ]
       ]
     }
@@ -4981,14 +4997,13 @@
       "classes": [
         "Vergütung",
         "Werkvertrag",
-        "Arbeitsvertrag",
-        "Vereinbarung"
+        "Arbeitsentgelt",
+        "Arbeitsvertrag"
       ],
       "properties": [
         "regelt",
-        "betrifft",
-        "istExplizit",
-        "istImplicite"
+        "istVereinbart",
+        "istGleich"
       ],
       "relationships": [
         [
@@ -4997,19 +5012,14 @@
           "Werkvertrag"
         ],
         [
-          "Werkvertrag",
-          "betrifft",
+          "Arbeitsentgelt",
+          "istVereinbart",
           "Arbeitsvertrag"
-        ],
-        [
-          "Vereinbarung",
-          "istExplizit",
-          "Vergütung"
         ],
         [
           "Vergütung",
-          "istImplicite",
-          "Arbeitsvertrag"
+          "istGleich",
+          "Arbeitsentgelt"
         ]
       ]
     }
@@ -5020,21 +5030,28 @@
       "classes": [
         "Vergütung",
         "Werkvertrag",
+        "§631BGB",
         "Faktor"
       ],
       "properties": [
-        "hatBedeutungImRahmenVon",
-        "beeinflusstBestimmungVon"
+        "hatBedeutungIn",
+        "beeinflusst",
+        "bestimmt"
       ],
       "relationships": [
         [
           "Vergütung",
-          "hatBedeutungImRahmenVon",
+          "hatBedeutungIn",
           "Werkvertrag"
         ],
         [
+          "Werkvertrag",
+          "basiertAuf",
+          "§631BGB"
+        ],
+        [
           "Faktor",
-          "beeinflusstBestimmungVon",
+          "beeinflusst",
           "Vergütung"
         ]
       ]
@@ -5044,32 +5061,38 @@
     "gcq": "Welche rechtlichen Konsequenzen hat es, wenn eine Partei ohne die erforderliche Berechtigung handelt oder wenn eine Klage auf denselben Lebenssachverhalt gestützt ist wie eine vorher abgewiesene Klage?",
     "ontology": {
       "classes": [
+        "Handlung",
         "Partei",
-        "Berechtigung",
+        "RechtlicheKonsequenz",
         "Klage",
         "Lebenssachverhalt"
       ],
       "properties": [
-        "ohne",
-        "erfordert",
-        "gestützt auf",
-        "abgewiesen"
+        "hatErforderlicheBerechtigung",
+        "basiertAuf",
+        "istGleich",
+        "wirdAbgewiesen"
       ],
       "relationships": [
         [
-          "Partei",
-          "ohne",
-          "Berechtigung"
+          "Handlung",
+          "hatErforderlicheBerechtigung",
+          "Partei"
         ],
         [
           "Klage",
-          "gestützt auf",
+          "basiertAuf",
           "Lebenssachverhalt"
         ],
         [
           "Klage",
-          "abgewiesen",
-          "Lebenssachverhalt"
+          "istGleich",
+          "Klage"
+        ],
+        [
+          "Klage",
+          "wirdAbgewiesen",
+          "RechtlicheKonsequenz"
         ]
       ]
     }
@@ -5078,58 +5101,36 @@
     "gcq": "Welche Pflichten und Verpflichtungen treffen Vertragspartner im Rahmen von Vertriebs- und Kaufverträgen, und welche Konsequenzen können sich daraus ergeben?",
     "ontology": {
       "classes": [
-        "Vertrag",
         "Vertragspartner",
+        "Vertrag",
         "Pflicht",
         "Verpflichtung",
-        "Vertriebsvertrag",
-        "Kaufvertrag",
         "Konsequenz"
       ],
       "properties": [
+        "trifft",
         "beinhaltet",
-        "hat",
-        "führtZu"
+        "kannSichErgeben"
       ],
       "relationships": [
         [
-          "Vertrag",
-          "beinhaltet",
+          "Vertragspartner",
+          "trifft",
           "Pflicht"
         ],
         [
           "Vertrag",
           "beinhaltet",
-          "Verpflichtung"
-        ],
-        [
-          "Vertragspartner",
-          "hat",
           "Pflicht"
-        ],
-        [
-          "Vertragspartner",
-          "hat",
-          "Verpflichtung"
-        ],
-        [
-          "Vertriebsvertrag",
-          "istEin",
-          "Vertrag"
-        ],
-        [
-          "Kaufvertrag",
-          "istEin",
-          "Vertrag"
         ],
         [
           "Pflicht",
-          "führtZu",
-          "Konsequenz"
+          "beinhaltet",
+          "Verpflichtung"
         ],
         [
           "Verpflichtung",
-          "führtZu",
+          "kannSichErgeben",
           "Konsequenz"
         ]
       ]
@@ -5141,8 +5142,8 @@
       "classes": [
         "Vertrag",
         "Vertragspartei",
-        "Pflicht",
         "Recht",
+        "Pflicht",
         "Vertragsbeendigung",
         "Vertragsabwicklung",
         "Abrechnung",
@@ -5153,11 +5154,10 @@
       "properties": [
         "beinhaltet",
         "hat",
-        "führtZu",
         "betrifft",
-        "betrifftEntgangenenGewinn",
-        "betrifftForderung",
-        "betrifftVerteidigung"
+        "führtZu",
+        "kannGeltendMachenGegen",
+        "kannInAnspruchNehmen"
       ],
       "relationships": [
         [
@@ -5168,47 +5168,47 @@
         [
           "Vertragspartei",
           "hat",
-          "Pflicht"
+          "Recht"
         ],
         [
           "Vertragspartei",
           "hat",
-          "Recht"
-        ],
-        [
-          "Vertrag",
-          "beinhaltet",
-          "Vertragsbeendigung"
-        ],
-        [
-          "Vertrag",
-          "beinhaltet",
-          "Vertragsabwicklung"
-        ],
-        [
-          "Vertragsabwicklung",
-          "beinhaltet",
-          "Abrechnung"
+          "Pflicht"
         ],
         [
           "Vertragsbeendigung",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Vertragsabwicklung",
+          "betrifft",
+          "Vertrag"
+        ],
+        [
+          "Abrechnung",
+          "betrifft",
+          "Vertragsabwicklung"
+        ],
+        [
+          "EntgangenerGewinn",
           "führtZu",
-          "EntgangenerGewinn"
+          "Vertragsabwicklung"
         ],
         [
-          "Vertragspartei",
+          "Forderung",
           "betrifft",
-          "EntgangenerGewinn"
+          "Vertragspartei"
         ],
         [
-          "Vertragspartei",
-          "betrifft",
+          "Verteidigung",
+          "kannGeltendMachenGegen",
           "Forderung"
         ],
         [
           "Vertragspartei",
-          "betrifft",
-          "Verteidigung"
+          "kannInAnspruchNehmen",
+          "EntgangenerGewinn"
         ]
       ]
     }
@@ -5219,17 +5219,15 @@
       "classes": [
         "Pauschalpreisvertrag",
         "Vertragspartei",
-        "Kündigung",
         "Rechtsgrundlage",
+        "Kündigung",
         "Abrechnung"
       ],
       "properties": [
         "kannBeendetWerden",
-        "kannGekündigtWerden",
-        "hatRechtAuf",
-        "hatPflicht",
-        "betrifft",
-        "führtZu"
+        "hatRechtsgrundlage",
+        "entstehtRecht",
+        "hatPflicht"
       ],
       "relationships": [
         [
@@ -5238,29 +5236,24 @@
           "Kündigung"
         ],
         [
-          "Pauschalpreisvertrag",
-          "kannGekündigtWerden",
+          "Kündigung",
+          "hatRechtsgrundlage",
           "Rechtsgrundlage"
         ],
         [
-          "Vertragspartei",
-          "hatRechtAuf",
-          "Abrechnung"
-        ],
-        [
-          "Vertragspartei",
-          "hatPflicht",
-          "Abrechnung"
+          "Kündigung",
+          "entstehtRecht",
+          "Vertragspartei"
         ],
         [
           "Kündigung",
-          "führtZu",
-          "Abrechnung"
+          "hatPflicht",
+          "Vertragspartei"
         ],
         [
-          "Rechtsgrundlage",
-          "betrifft",
-          "Kündigung"
+          "Kündigung",
+          "kannBeendetWerden",
+          "Abrechnung"
         ]
       ]
     }
@@ -5270,14 +5263,15 @@
     "ontology": {
       "classes": [
         "Käufer",
+        "Verkäufer",
         "Mangel",
         "Täuschung",
         "Schadensersatzanspruch"
       ],
       "properties": [
         "kannGeltendMachen",
-        "kennt",
-        "hat"
+        "hatKenntnisVon",
+        "führtZu"
       ],
       "relationships": [
         [
@@ -5287,22 +5281,27 @@
         ],
         [
           "Schadensersatzanspruch",
-          "basiertAuf",
-          "Mangel"
+          "führtZu",
+          "Verkäufer"
         ],
         [
-          "Schadensersatzanspruch",
-          "basiertAuf",
-          "Täuschung"
+          "Mangel",
+          "führtZu",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Täuschung",
+          "führtZu",
+          "Schadensersatzanspruch"
         ],
         [
           "Käufer",
-          "kennt",
+          "hatKenntnisVon",
           "Mangel"
         ],
         [
           "Käufer",
-          "kennt",
+          "hatKenntnisVon",
           "Täuschung"
         ]
       ]
@@ -5345,16 +5344,12 @@
     "ontology": {
       "classes": [
         "Gläubiger",
-        "Schuldner",
         "Anspruch",
-        "Recht",
-        "Voraussetzung"
+        "Recht"
       ],
       "properties": [
         "kannGeltendMachen",
-        "hatRechtAuf",
-        "erfüllt",
-        "istNotwendigFür"
+        "hatRechtAuf"
       ],
       "relationships": [
         [
@@ -5363,19 +5358,9 @@
           "Anspruch"
         ],
         [
-          "Anspruch",
+          "Gläubiger",
           "hatRechtAuf",
           "Recht"
-        ],
-        [
-          "Recht",
-          "istNotwendigFür",
-          "Voraussetzung"
-        ],
-        [
-          "Voraussetzung",
-          "erfüllt",
-          "Schuldner"
         ]
       ]
     }
@@ -5385,14 +5370,12 @@
     "ontology": {
       "classes": [
         "Käufer",
-        "Verkäufer",
         "Schadensersatz",
         "arglistige Täuschung"
       ],
       "properties": [
         "kannGeltendMachen",
-        "betrifft",
-        "istGrundFür"
+        "betrifft"
       ],
       "relationships": [
         [
@@ -5402,13 +5385,8 @@
         ],
         [
           "arglistige Täuschung",
-          "istGrundFür",
-          "Schadensersatz"
-        ],
-        [
-          "arglistige Täuschung",
           "betrifft",
-          "Verkäufer"
+          "Schadensersatz"
         ]
       ]
     }
@@ -5425,29 +5403,34 @@
         "betrifft",
         "beeinflusst",
         "istZulässig",
-        "wirdBeurteilt"
+        "istBeurteilt"
       ],
       "relationships": [
         [
           "Entscheidung",
           "betrifft",
-          "Rechtskraft"
+          "Rechtsbehelf"
         ],
         [
           "Rechtskraft",
           "beeinflusst",
-          "Rechtsbehelf"
+          "Zulässigkeit"
+        ],
+        [
+          "Rechtskraft",
+          "beeinflusst",
+          "Beurteilung"
         ],
         [
           "Rechtsbehelf",
           "istZulässig",
-          "in",
+          "im",
           "Verfahren"
         ],
         [
           "Rechtsbehelf",
-          "wirdBeurteilt",
-          "in",
+          "istBeurteilt",
+          "im",
           "Verfahren"
         ]
       ]
@@ -5459,13 +5442,15 @@
       "classes": [
         "GerichtlicheEntscheidung",
         "Rechtsfolge",
-        "Gerichtsbarkeit",
-        "Gerichtsbarkeitskonflikt"
+        "Gericht",
+        "Anspruch",
+        "Zuständigkeit"
       ],
       "properties": [
         "wirdIgnoriert",
         "führtZu",
-        "bestimmtDieZuständigkeit"
+        "bestimmt",
+        "konkurriertMit"
       ],
       "relationships": [
         [
@@ -5474,9 +5459,19 @@
           "Rechtsfolge"
         ],
         [
-          "Gerichtsbarkeitskonflikt",
+          "Rechtsfolge",
           "führtZu",
-          "Gerichtsbarkeit"
+          "Gericht"
+        ],
+        [
+          "Gericht",
+          "bestimmt",
+          "Zuständigkeit"
+        ],
+        [
+          "Anspruch",
+          "konkurriertMit",
+          "Anspruch"
         ]
       ]
     }
@@ -5493,9 +5488,9 @@
         "Pflicht"
       ],
       "properties": [
+        "betrifft",
         "kann",
         "hat",
-        "betrifft",
         "beinhaltet"
       ],
       "relationships": [
@@ -5507,12 +5502,12 @@
         [
           "Rückweisung",
           "betrifft",
-          "Mangel"
+          "Kaufsache"
         ],
         [
-          "Mangel",
+          "Kaufsache",
           "beinhaltet",
-          "Kaufsache"
+          "Mangel"
         ],
         [
           "Käufer",
@@ -5542,25 +5537,25 @@
         "Recht"
       ],
       "properties": [
-        "kannGeltendMachen",
-        "betrifft",
-        "hat"
+        "besitzt",
+        "hatMangel",
+        "kannGeltendMachen"
       ],
       "relationships": [
         [
           "Käufer",
-          "kannGeltendMachen",
-          "Recht"
+          "besitzt",
+          "Kaufsache"
         ],
         [
-          "Recht",
-          "betrifft",
+          "Kaufsache",
+          "hatMangel",
           "Mangel"
         ],
         [
-          "Mangel",
-          "hat",
-          "Kaufsache"
+          "Käufer",
+          "kannGeltendMachen",
+          "Recht"
         ]
       ]
     }
