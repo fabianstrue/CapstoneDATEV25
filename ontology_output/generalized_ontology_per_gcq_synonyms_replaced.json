@@ -1,0 +1,440 @@
+[
+  {
+    "cluster": "Cluster 0",
+    "ontology": {
+      "Klassen": [
+        "Netzbetreiber",
+        "Signale",
+        "Netz",
+        "Eigentum",
+        "Entschädigung",
+        "Regelungsmittel",
+        "Rechtsgrundlage",
+        "Bandbreite",
+        "Autorisierung",
+        "Rechtsfolge"
+      ],
+      "Eigenschaften": [
+        "erfülltVoraussetzungen",
+        "greiftEin",
+        "gewährtDuldung",
+        "beeinträchtigtDurchleitung",
+        "nutztNetz",
+        "verbietetNutzung",
+        "entsprichtBandbreite",
+        "erfordertNutzung",
+        "autorisiertNutzung",
+        "hatRechtsfolgen"
+      ],
+      "Beziehungen": [
+        [
+          "Netzbetreiber",
+          "erfülltVoraussetzungen",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Signale",
+          "greifenEin",
+          "Eigentum"
+        ],
+        [
+          "Netzbetreiber",
+          "gewährtDuldung",
+          "Entschädigung"
+        ],
+        [
+          "Netzbetreiber",
+          "beeinträchtigtDurchleitung",
+          "UnerwünschteSignale"
+        ],
+        [
+          "Netzbetreiber",
+          "nutztNetz",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Eigentümer",
+          "verbietetNutzung",
+          "Netz"
+        ],
+        [
+          "Netz",
+          "entsprichtBandbreite",
+          "VorgelagertesNetz"
+        ],
+        [
+          "Signale",
+          "erfordernNutzung",
+          "Netz"
+        ],
+        [
+          "Netzbetreiber",
+          "autorisiertNutzung",
+          "Empfänger"
+        ],
+        [
+          "UnerlaubteSignaldurchleitung",
+          "hatRechtsfolgen",
+          "Rechtsfolgen"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 1",
+    "ontology": {
+      "Klassen": [
+        "Kläger",
+        "Patent",
+        "Urheberrechtsverletzung",
+        "Rechtsnorm"
+      ],
+      "Eigenschaften": [
+        "erheben",
+        "angegriffen",
+        "verletzen",
+        "regelt"
+      ],
+      "Beziehungen": [
+        [
+          "Kläger",
+          "erheben",
+          "Patentnichtigkeitsklage"
+        ],
+        [
+          "Patentnichtigkeitsklage",
+          "angegriffen",
+          "Patent"
+        ],
+        [
+          "Kläger",
+          "erheben",
+          "KlageAufUrheberrechtsverletzung"
+        ],
+        [
+          "KlageAufUrheberrechtsverletzung",
+          "angegriffen",
+          "Urheberrechtsverletzung"
+        ],
+        [
+          "Urheberrechtsverletzung",
+          "verletzt",
+          "Recht"
+        ],
+        [
+          "Recht",
+          "regelt",
+          "Rechtsnorm"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 100",
+    "ontology": {
+      "Klassen": [
+        "Anspruchsberechtigter",
+        "Anspruchsgegner",
+        "Verjährungsfrist",
+        "Schadensanspruch",
+        "Aufwendungsersatzanspruch",
+        "Ausgleichsanspruch",
+        "Verjährung",
+        "Frist"
+      ],
+      "Eigenschaften": [
+        "begehrt",
+        "verjährungsfrei",
+        "geltendmacht",
+        "beginnt",
+        "hinschieben",
+        "einhalten",
+        "verzögern",
+        "ablaufen",
+        "verzichten"
+      ],
+      "Beziehungen": [
+        [
+          "Anspruchsberechtigter",
+          "begehrt",
+          "Anspruchsgegner"
+        ],
+        [
+          "Anspruchsberechtigter",
+          "geltendmacht",
+          "Schadensersatzanspruch",
+          "Aufwendungsersatzanspruch",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Anspruchsberechtigter",
+          "verjährungsfrei",
+          "Verjährungsfrist"
+        ],
+        [
+          "Verjährungsfrist",
+          "beginnt",
+          "Anspruch"
+        ],
+        [
+          "Verjährungsfrist",
+          "hinschieben",
+          "Anspruch"
+        ],
+        [
+          "Anspruch",
+          "einhalten",
+          "Frist"
+        ],
+        [
+          "Frist",
+          "verzögern",
+          "Anspruch"
+        ],
+        [
+          "Frist",
+          "ablaufen",
+          "Anspruch"
+        ],
+        [
+          "Anspruchsberechtigter",
+          "verzichten",
+          "Anspruch"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 102",
+    "ontology": {
+      "Klassen": [
+        "Vergleich",
+        "Prozessvergleich",
+        "Widerruf",
+        "Partei",
+        "Gericht"
+      ],
+      "Eigenschaften": [
+        "kannWiderrufenWerden",
+        "istWirksam",
+        "erfülltVoraussetzungen"
+      ],
+      "Beziehungen": [
+        [
+          "Prozessvergleich",
+          "kannWiderrufenWerden",
+          "Partei"
+        ],
+        [
+          "Prozessvergleich",
+          "kannWiderrufenWerden",
+          "Gericht"
+        ],
+        [
+          "Prozessvergleich",
+          "istWirksam",
+          "Vergleich"
+        ],
+        [
+          "Widerruf",
+          "erfülltVoraussetzungen",
+          "Prozessvergleich"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 103",
+    "ontology": {
+      "Klassen": [
+        "Zustellungsart",
+        "Frist",
+        "Entscheidung",
+        "Urteil",
+        "Gutachten"
+      ],
+      "Eigenschaften": [
+        "beeinflusst",
+        "wirksam",
+        "läuft"
+      ],
+      "Beziehungen": [
+        [
+          "Zustellungsart",
+          "beeinflusst",
+          "Frist"
+        ],
+        [
+          "Frist",
+          "läuft",
+          "Entscheidung"
+        ],
+        [
+          "Entscheidung",
+          "wirksam",
+          "Urteil"
+        ],
+        [
+          "Entscheidung",
+          "wirksam",
+          "Gutachten"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 104",
+    "ontology": {
+      "Klassen": [
+        "RechtlicheVoraussetzung",
+        "Beweis",
+        "Beweislast",
+        "Beweismittel",
+        "Gericht",
+        "Parteien",
+        "Beweisverfahren"
+      ],
+      "Eigenschaften": [
+        "mussErfülltSein",
+        "mussErbrachtWerden",
+        "führtZu",
+        "hat Bedeutung",
+        "istVerantwortlich",
+        "istGegenstandVon"
+      ],
+      "Beziehungen": [
+        [
+          "RechtlicheVoraussetzung",
+          "mussErfülltSein",
+          "Beweisverfahren"
+        ],
+        [
+          "Beweis",
+          "mussErbrachtWerden",
+          "Beweisverfahren"
+        ],
+        [
+          "Beweislast",
+          "istVerantwortlich",
+          "Parteien"
+        ],
+        [
+          "Beweismittel",
+          "führtZu",
+          "Beweis"
+        ],
+        [
+          "Gericht",
+          "istGegenstandVon",
+          "Beweisverfahren"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 105",
+    "ontology": {
+      "Klassen": [
+        "Zahlungsempfänger",
+        "Geldmittel",
+        "Rechtsvorschrift",
+        "Verbindlichkeit",
+        "Dritter"
+      ],
+      "Eigenschaften": [
+        "überwacht",
+        "verwendet",
+        "herausgibt",
+        "überprüft",
+        "einhalten",
+        "erfüllen",
+        "verlangt"
+      ],
+      "Beziehungen": [
+        [
+          "Zahlungsempfänger",
+          "überwacht",
+          "Geldmittel"
+        ],
+        [
+          "Zahlungsempfänger",
+          "verwendet",
+          "Geldmittel"
+        ],
+        [
+          "Zahlungsempfänger",
+          "herausgibt",
+          "Geldmittel"
+        ],
+        [
+          "Zahlungsempfänger",
+          "überprüft",
+          "Rechnungsangaben"
+        ],
+        [
+          "Zahlungsempfänger",
+          "einhält",
+          "Rechtsvorschrift"
+        ],
+        [
+          "Verbindlichkeit",
+          "erfüllt",
+          "Pflichten"
+        ],
+        [
+          "Dritter",
+          "verlangt",
+          "Zahlung"
+        ]
+      ]
+    }
+  },
+  {
+    "cluster": "Cluster 106",
+    "ontology": {
+      "Klassen": [
+        "Richter",
+        "Gericht",
+        "Richter",
+        "Erprobungsphase",
+        "Dienstaufsichtsbehörde",
+        "Zustimmung"
+      ],
+      "Eigenschaften": [
+        "wirdAbgeordnet",
+        "wirdGewährleistet",
+        "wirdBerücksichtigt",
+        "nimmtAufgabenWahr",
+        "unterliegtWeisungen",
+        "kannVerweigern"
+      ],
+      "Beziehungen": [
+        [
+          "Richter",
+          "wirdAbgeordnet",
+          "Gericht"
+        ],
+        [
+          "Richter",
+          "wirdGewährleistet",
+          "Erprobungsphase"
+        ],
+        [
+          "Erprobungsphase",
+          "wirdBerücksichtigt",
+          "Richteramt"
+        ],
+        [
+          "Richter",
+          "unterliegtWeisungen",
+          "Dienstaufsichtsbehörde"
+        ],
+        [
+          "Richter",
+          "kannVerweigern",
+          "Zustimmung"
+        ]
+      ]
+    }
+  }
+]

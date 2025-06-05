@@ -81,7 +81,7 @@
         "argumentieren",
         "auftreten",
         "ausschließen",
-        "betrachtet",
+        "betrachten",
         "erheben",
         "inanspruchnehmen",
         "verletzen",
@@ -198,7 +198,7 @@
         "hat Bedeutung",
         "kann die Verjährung unterbrechen",
         "kann unterbrochen werden",
-        "spielt eine Rolle",
+        "spielt Rolle",
         "verpflichtet"
       ],
       "Beziehungen": [
@@ -257,7 +257,7 @@
         "haftet",
         "regeln",
         "verletzen",
-        "verursachen"
+        "verursacht"
       ],
       "Beziehungen": [
         [
@@ -407,7 +407,7 @@
         "enthält",
         "entspricht",
         "erfüllen",
-        "geltend",
+        "gelten",
         "prüfen",
         "schützt",
         "verlangt",
@@ -552,7 +552,7 @@
         "hat Rechtsfolgen",
         "liegt im Interesse",
         "rechtfertigt",
-        "spielt eine Rolle"
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -676,7 +676,7 @@
         "hat_Anpruch_auf",
         "lastet",
         "schützt",
-        "spielt_Rolle_in",
+        "spielt Rolle",
         "verliert"
       ],
       "Beziehungen": [
@@ -890,7 +890,7 @@
         "fassen",
         "haben",
         "müssen",
-        "sicherzustellen",
+        "sicherstellen",
         "wichtig",
         "ziehen"
       ],
@@ -1064,7 +1064,7 @@
       ],
       "Eigenschaften": [
         "beanspruchen",
-        "beanspruchen können",
+        "beanspruchen kann",
         "beinhaltet",
         "verlangt"
       ],
@@ -1655,7 +1655,7 @@
         "ist_zu_beziffern",
         "kann_verpflichten",
         "muss_haften_für",
-        "spielt_Rolle_bei"
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -1815,13 +1815,13 @@
         "Mietwohnung"
       ],
       "Eigenschaften": [
-        "berücksichtigt",
+        "berücksichtigen",
         "bestimmt",
         "betrifft",
         "erfordert",
         "errichtet",
         "festsetzt",
-        "führtzu",
+        "führt zu",
         "rechtfertigt",
         "verpflichtet"
       ],
@@ -2213,7 +2213,7 @@
         "basiert",
         "bemessen",
         "bestimmen",
-        "entscheidet",
+        "entscheiden",
         "erfüllen",
         "regeln",
         "spielt",
@@ -2257,9 +2257,9 @@
         "beeinflusst",
         "befugt",
         "beurteilen",
-        "entscheidet",
+        "entscheiden",
         "erfüllen",
-        "ermittelt",
+        "ermitteln",
         "regelt"
       ],
       "Beziehungen": [
@@ -2547,7 +2547,7 @@
         "hat_obligenheit",
         "ist_verantwortlich_für",
         "ist_wirksam",
-        "spielt_rolle_in"
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -2679,7 +2679,7 @@
         "hat eine Bedeutung",
         "ist ein Eingriff in",
         "ist rechtsmissbräuchlich",
-        "spielt eine Rolle bei",
+        "spielt Rolle",
         "tritt ein",
         "verpflichtet",
         "wird als"
@@ -2891,7 +2891,7 @@
       "Eigenschaften": [
         "erscheint als",
         "führt zu",
-        "hat Auswirkungen auf",
+        "hat Auswirkungen",
         "ist unwirksam",
         "muss erfüllt sein",
         "tritt ein"
@@ -3323,13 +3323,13 @@
       "Eigenschaften": [
         "bestimmtUmfang",
         "betrifft",
-        "hatRechtsfolge",
+        "hat Rechtsfolgen",
         "istErsatzfaehig",
-        "istUnzulässig",
+        "ist unzulässig",
         "kannBeurteiltWerden",
         "kannGeltendGemachtWerden",
         "kannGewaehltWerden",
-        "spieltRolle"
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -3630,8 +3630,8 @@
         "hat eine Bedeutung für",
         "ist auszulegen als",
         "ist zu verstehen als",
-        "müssen erfüllt sein",
-        "spielt eine Rolle"
+        "muss erfüllt sein",
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -4106,7 +4106,7 @@
         "betrifft",
         "dulden",
         "verpflichtet",
-        "verursachen"
+        "verursacht"
       ],
       "Beziehungen": [
         [
@@ -4214,9 +4214,9 @@
         "Täuschung"
       ],
       "Eigenschaften": [
-        "hatKenntnis",
+        "hat Kenntnis",
         "hatVerletzung",
-        "istVerpflichtet",
+        "ist verpflichtet",
         "kannHaften"
       ],
       "Beziehungen": [
@@ -4738,10 +4738,10 @@
         "beinhaltet",
         "betrifft",
         "erfüllen",
-        "interpretiert",
+        "interpretieren",
         "rücktritt",
         "rügen",
-        "verhindert",
+        "verhindern",
         "voraussetzungen",
         "ändern"
       ],
@@ -5116,7 +5116,7 @@
         "auszulegen",
         "hat",
         "ist relevant für",
-        "spielt eine Rolle",
+        "spielt Rolle",
         "stellt Anforderungen",
         "tritt ein"
       ],
@@ -5590,7 +5590,7 @@
         "ignoriert",
         "kennt",
         "verletzen",
-        "verursachen"
+        "verursacht"
       ],
       "Beziehungen": [
         [
@@ -5683,12 +5683,12 @@
       "Eigenschaften": [
         "eingeordnet",
         "erfüllen",
-        "geltendMachen",
+        "geltend machen",
         "hatEigenhaftung",
         "repräsentiert",
         "schließt",
-        "spieltRolle",
-        "verstößtGegen"
+        "spielt Rolle",
+        "verstößt gegen"
       ],
       "Beziehungen": [
         [
@@ -5748,7 +5748,7 @@
         "bestimmt",
         "erfüllen",
         "nachweist",
-        "spielt eine Rolle"
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -6555,8 +6555,8 @@
         "ist vorgeschrieben",
         "ist wichtig",
         "kann entstehen",
-        "müssen erfüllt sein",
-        "spielt eine Rolle",
+        "muss erfüllt sein",
+        "spielt Rolle",
         "tritt ein"
       ],
       "Beziehungen": [
@@ -6630,7 +6630,7 @@
         "beginnt mit",
         "beinhaltet",
         "gilt für",
-        "hat Auswirkungen auf",
+        "hat Auswirkungen",
         "ist erforderlich",
         "ist relevant für",
         "ist verpflichtet",
@@ -6712,7 +6712,7 @@
       "Eigenschaften": [
         "auslöstHaftung",
         "beeinflusst",
-        "begründet",
+        "begründen",
         "erfülltPflichten",
         "fortführt",
         "gilt Fuer",
@@ -6828,7 +6828,7 @@
       ],
       "Eigenschaften": [
         "beendet",
-        "berücksichtigt",
+        "berücksichtigen",
         "betrifft",
         "erfüllen",
         "gilt",
@@ -6914,7 +6914,7 @@
       "Eigenschaften": [
         "giltFür",
         "giltFürDieBeendigungVon",
-        "hatBedeutung",
+        "hat Bedeutung",
         "hatRechtsgrundlage",
         "mussErbrachtWerden",
         "mussNachgewiesenWerden",
@@ -6972,7 +6972,7 @@
         "Verpflichteter"
       ],
       "Eigenschaften": [
-        "berücksichtigt",
+        "berücksichtigen",
         "enthält",
         "erfüllen",
         "erlangt",
@@ -7190,7 +7190,7 @@
         "basiert auf",
         "beinhaltet",
         "erörtern",
-        "verhindert"
+        "verhindern"
       ],
       "Beziehungen": [
         [
@@ -7317,8 +7317,8 @@
         "haftet für",
         "hat",
         "verletzen",
-        "verursachen",
-        "verweigert"
+        "verursacht",
+        "verweigern"
       ],
       "Beziehungen": [
         [
@@ -7522,12 +7522,12 @@
         "gilt für",
         "ist Grundlage für",
         "ist auszulegen als",
-        "ist erforderlich für",
+        "ist erforderlich",
         "ist zu berechnen als",
         "ist zu berechnen bei",
         "ist zu gestalten als",
         "kann geltend gemacht werden wenn",
-        "spielt eine Rolle"
+        "spielt Rolle"
       ],
       "Beziehungen": [
         [
@@ -7798,7 +7798,7 @@
         "hindert nicht",
         "ist unzulässig",
         "kann unbegründet sein",
-        "spielt eine Rolle bei",
+        "spielt Rolle",
         "tritt ein",
         "wird zurückgewiesen"
       ],
@@ -8177,7 +8177,7 @@
         "Veränderung"
       ],
       "Eigenschaften": [
-        "betrachtet",
+        "betrachten",
         "gilt",
         "hat",
         "hat Auswirkungen",
@@ -8309,7 +8309,7 @@
         "informieren",
         "kennen",
         "schädigen",
-        "spielt eine Rolle",
+        "spielt Rolle",
         "verantwortlich",
         "verknüpfen",
         "verpflichtet"
@@ -8608,7 +8608,7 @@
         "definieren",
         "gilt für",
         "hat Auswirkungen",
-        "hat Auswirkungen auf",
+        "hat Auswirkungen",
         "hat eine Bedeutung",
         "hat eine Funktion",
         "ist nicht vorkaufsberechtigt",
@@ -8617,7 +8617,7 @@
         "kann mindern",
         "kann verhindern",
         "schützt",
-        "spielt eine Rolle",
+        "spielt Rolle",
         "tritt ein",
         "verliert",
         "verpflichtet",
