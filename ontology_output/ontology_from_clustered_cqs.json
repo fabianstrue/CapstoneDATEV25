@@ -18,27 +18,25 @@
         "Verbot",
         "Entschädigung",
         "Rechtsgrundlage",
-        "Nutzung",
-        "Signale",
-        "Autorisierung",
+        "Bandbreite",
+        "autorisierteSignale",
         "Rechtsfolge"
       ],
       "properties": [
-        "erfüllenVoraussetzungen",
+        "erfülltVoraussetzungen",
         "verpflichtet",
-        "verhindern",
-        "gilt",
-        "verbieten",
-        "nutzen",
-        "leiten",
-        "sicherstellen",
+        "verhindert",
+        "giltFuer",
         "hatRecht",
-        "hatRechtsfolge"
+        "spieltRolle",
+        "sichert",
+        "leitetSignale",
+        "hatRechtsfolgen"
       ],
       "relationships": [
         [
           "Kabelnetzbetreiber",
-          "erfüllenVoraussetzungen",
+          "erfülltVoraussetzungen",
           "Verbot"
         ],
         [
@@ -48,32 +46,32 @@
         ],
         [
           "Kabelnetzbetreiber",
-          "verhindern",
+          "verhindert",
           "Signaldurchleitung"
         ],
         [
           "Kabelnetzbetreiber",
-          "nutzen",
-          "Nutzung"
+          "giltFuer",
+          "Rechtsgrundlage"
         ],
         [
           "Kabelnetzbetreiber",
-          "verbieten",
-          "Nutzung"
+          "hatRecht",
+          "Verbot"
+        ],
+        [
+          "Signaldurchleitung",
+          "spieltRolle",
+          "Bandbreite"
         ],
         [
           "Kabelnetzbetreiber",
-          "leiten",
-          "Signale"
+          "sichert",
+          "autorisierteSignale"
         ],
         [
           "Kabelnetzbetreiber",
-          "sicherstellen",
-          "Autorisierung"
-        ],
-        [
-          "Kabelnetzbetreiber",
-          "hatRechtsfolge",
+          "leitetSignale",
           "Rechtsfolge"
         ]
       ]
@@ -98,17 +96,19 @@
         "Vermieter",
         "Frist",
         "Abnutzungsgrad",
-        "Recht"
+        "Rechtsgrundlage",
+        "Bedingung"
       ],
       "properties": [
         "giltAlsAngemessen",
-        "istBerechtigt",
-        "kannSicherstellen",
-        "spieltRolle",
+        "verlängernOderVerkürzen",
+        "sicherstellen",
+        "spieltEineRolle",
         "kannAbweichen",
         "hatRechte",
-        "giltAlsRechtsgrundlage",
-        "kannAbweichenVon"
+        "giltFür",
+        "mussErfülltSein",
+        "führtZu"
       ],
       "relationships": [
         [
@@ -117,18 +117,23 @@
           "Mietvertrag"
         ],
         [
-          "Mieter",
-          "kannSicherstellen",
-          "nichtVerpflichtet"
-        ],
-        [
-          "Abnutzungsgrad",
-          "spieltRolle",
+          "Vermieter",
+          "verlängernOderVerkürzen",
           "Frist"
         ],
         [
           "Mieter",
-          "kannAbweichenVon",
+          "sicherstellen",
+          "keineVerpflichtung"
+        ],
+        [
+          "Abnutzungsgrad",
+          "spieltEineRolle",
+          "Frist"
+        ],
+        [
+          "Mieter",
+          "kannAbweichen",
           "Frist"
         ],
         [
@@ -137,9 +142,14 @@
           "unangemesseneFristen"
         ],
         [
-          "Schönheitsreparaturklausel",
-          "giltAlsRechtsgrundlage",
+          "Schönheitsreparatur",
+          "giltFür",
           "Mieter"
+        ],
+        [
+          "Bedingung",
+          "führtZu",
+          "AbweichenKönnen"
         ]
       ]
     }
@@ -168,108 +178,54 @@
     ],
     "ontology": {
       "classes": [
-        "Arbeitnehmer",
-        "Arbeitgeber",
-        "Arbeitsvertrag",
-        "Vergütungsregelung",
-        "Vergütungsvereinbarung",
         "Werkvertrag",
-        "Vergütungsanspruch",
-        "Bauzeit",
-        "Vertragsschluss",
-        "Gegenleistung",
+        "Vergütungsregelung",
+        "Gericht",
+        "Vergütung",
+        "Arbeitsleistung",
+        "Arbeitnehmer",
+        "Arbeitsvertrag",
         "Altersversorgung",
-        "Tarifvertrag"
+        "Tarifvertrag",
+        "Vertragspartner"
       ],
       "properties": [
         "gilt",
         "feststellen",
-        "betrifft",
-        "hatAuswirkungen",
-        "spieltRolle",
-        "trittEin",
+        "beeinflusst",
+        "spielt",
         "bestimmen",
-        "berechnen",
-        "ermitteln",
-        "feststellen",
-        "verantwortlich",
-        "bestimmt",
-        "betrifft",
+        "ermöglichen",
         "gewähren"
       ],
       "relationships": [
         [
-          "Vergütungsregelung",
+          "Werkvertrag",
           "gilt",
-          "Werkvertrag"
+          "Vergütungsregelung"
         ],
         [
           "Gericht",
           "feststellen",
-          "übliche Vergütung"
+          "Vergütung"
         ],
         [
           "Vergütungsvereinbarung",
-          "betrifft",
-          "Werkvertrag"
-        ],
-        [
-          "Vergütungsvereinbarung",
-          "hatAuswirkungen",
-          "Vergütungsanspruch"
-        ],
-        [
-          "Nachfristsetzung",
-          "betrifft",
+          "beeinflusst",
           "Vergütungsanspruch"
         ],
         [
           "Arbeitsleistung",
-          "trittEin",
+          "ermöglichen",
           "Arbeitsvertrag"
         ],
         [
-          "Arbeitsvertrag",
-          "bestimmen",
-          "Altersversorgung"
-        ],
-        [
-          "Arbeitsvertrag",
-          "betrifft",
-          "Altersversorgung"
-        ],
-        [
-          "Vertrag",
-          "vornehmen",
-          "Vergütungsanspruch"
-        ],
-        [
-          "Bauzeit",
-          "berechnen",
-          "Vergütung"
-        ],
-        [
-          "Arbeitsvertrag",
-          "bestimmen",
-          "Gegenleistung"
-        ],
-        [
-          "Vertragsschluss",
-          "betrifft",
-          "übliche Vergütung"
-        ],
-        [
-          "billigesErmessen",
-          "bestimmen",
-          "Gegenleistung"
-        ],
-        [
           "Arbeitnehmer",
-          "geltendMachen",
+          "geltend machen",
           "Vergütungsanspruch"
         ],
         [
-          "Arbeitgeber",
+          "Vertragspartner",
           "gewähren",
           "Altersversorgung"
         ]
@@ -288,48 +244,57 @@
       "classes": [
         "Schenkung",
         "Formmangel",
-        "Willen",
-        "Heilung",
+        "Wille",
+        "Schenker",
+        "Rechtsgrundlage",
+        "Hemmung",
         "Verjährung",
         "Mangel",
         "Beschlussfassung",
         "Sonderumlage",
         "Einspruch",
         "Versäumnisurteil",
-        "Pfändung"
+        "Pfändung",
+        "Beteiligte"
       ],
       "properties": [
-        "spielt",
-        "gilt",
-        "können",
-        "müssen",
-        "treten ein"
+        "spieltRolle",
+        "giltFür",
+        "könnenMachen",
+        "müssenErfülltSein",
+        "tretenEin",
+        "gehtVomGegenteilAus"
       ],
       "relationships": [
         [
-          "Schenkung",
-          "spielt",
-          "Willen"
-        ],
-        [
-          "Verjährung",
-          "gilt",
+          "Wille",
+          "spieltRolle",
           "Heilung"
         ],
         [
-          "Beschlussfassung",
-          "können",
-          "Sonderumlage"
+          "Rechtsgrundlage",
+          "giltFür",
+          "Hemmung"
         ],
         [
-          "Einspruch",
-          "müssen",
-          "Versäumnisurteil"
+          "Gründe",
+          "könnenMachen",
+          "Beschlussfassung"
+        ],
+        [
+          "Bedingungen",
+          "müssenErfülltSein",
+          "Einspruch"
         ],
         [
           "Pfändung",
-          "treten ein",
-          "Beteiligte"
+          "tretenEin",
+          "Rechtsfolgen"
+        ],
+        [
+          "Beteiligte",
+          "gehtVomGegenteilAus",
+          "Pfändung"
         ]
       ]
     }
@@ -363,110 +328,160 @@
       "classes": [
         "Verpflichteter",
         "Sachverständigenkosten",
+        "Geschädigter",
         "Haftung",
         "Steuervorteile",
         "Rechtsberatung",
+        "Mandant",
+        "Vorteilsausgleich",
         "Prospektfehler",
+        "Haftpflichtprozess",
+        "Haftpflichtversicherer",
+        "Deckungszusage",
         "Fondsanteile",
         "Schadensersatzanspruch",
+        "Dritter",
         "Rechtsverfolgungskosten",
+        "Verzug",
+        "Kostenbeteiligung",
         "Heimaufenthalt",
         "Kläger",
-        "Beklagte",
+        "Beklagter",
         "Gründungsgesellschafter",
-        "Haftpflichtversicherer",
+        "Ware",
+        "Kostendeckungsschutz-Zusage",
         "Ausschlussgrund",
+        "Annahmeverzug",
         "Gerichtskostenvorschuss"
       ],
       "properties": [
-        "istVerpflichtet",
+        "verpflichtet",
+        "erstattet",
+        "beeinflusst",
         "hatBedeutung",
         "ergibtSich",
-        "hatVerpflichtungen",
+        "erlangt",
+        "tragen",
         "spieltRolle",
-        "kannSchaffen",
+        "schaffen",
         "giltFür",
-        "istZuBestimmen",
-        "hatRechte",
-        "trittEin",
-        "giltFürFeststellung",
-        "beeinflusst"
+        "bestimmen",
+        "tragenWeigern",
+        "haben",
+        "führt",
+        "festgestellt",
+        "beeinflusstVerjährung"
       ],
       "relationships": [
         [
           "Verpflichteter",
-          "istVerpflichtet",
+          "verpflichtet",
           "Sachverständigenkosten"
         ],
         [
-          "Haftung",
-          "hatBedeutung",
-          "Sachverständigenkosten"
+          "Sachverständigenkosten",
+          "erstattet",
+          "Geschädigter"
         ],
         [
-          "Haftung",
-          "ergibtSich",
-          "Sachverständigenkosten"
-        ],
-        [
-          "Beklagte",
-          "hatVerpflichtungen",
-          "Steuervorteile"
-        ],
-        [
-          "Rechtsberatung",
-          "istVerpflichtet",
-          "Verpflichteter"
-        ],
-        [
-          "Prospektfehler",
-          "spieltRolle",
+          "Geschädigter",
+          "beeinflusst",
           "Haftung"
         ],
         [
-          "Schadensersatzanspruch",
-          "kannSchaffen",
-          "Fondsanteile"
+          "Beklagter",
+          "erlangt",
+          "Steuervorteile"
         ],
         [
-          "Verzug",
-          "giltFür",
-          "Rechtsverfolgungskosten"
+          "Steuervorteile",
+          "tragen",
+          "Vorteilsausgleich"
         ],
         [
-          "Heimaufenthalt",
-          "istZuBestimmen",
-          "Kostenbeteiligung"
+          "Mandant",
+          "tragen",
+          "Rechtsberatung"
         ],
         [
-          "Kläger",
-          "hatRechte",
-          "Kostenbeteiligung"
+          "Prospektfehler",
+          "beeinflusst",
+          "quotaleHaftung"
         ],
         [
-          "Beklagte",
-          "hatRechte",
-          "Gründungsgesellschafter"
-        ],
-        [
-          "Verpflichteter",
-          "istVerpflichtet",
-          "Entlastungsbeweis"
-        ],
-        [
-          "Pflichtverletzung",
-          "hatBedeutung",
-          "Kostendeckungsschutz-Zusage"
-        ],
-        [
-          "Ausschlussgrund",
-          "trittEin",
+          "Haftpflichtversicherer",
+          "erteilt",
           "Deckungszusage"
         ],
         [
-          "Übertragung",
-          "giltFürFeststellung",
-          "Annahmeverzug"
+          "Deckungszusage",
+          "beeinflusst",
+          "Haftpflichtprozess"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "schaffen",
+          "Übertragung von Fondsanteilen"
+        ],
+        [
+          "Dritter",
+          "spieltRolle",
+          "Übertragung von Fondsanteilen"
+        ],
+        [
+          "Geschädigter",
+          "schaffen",
+          "Übertragung von Fondsanteilen"
+        ],
+        [
+          "Rechtsverfolgungskosten",
+          "giltFür",
+          "Verzug"
+        ],
+        [
+          "Beklagter",
+          "tragen",
+          "Kostenbeteiligung"
+        ],
+        [
+          "Kostenbeteiligung",
+          "bestimmen",
+          "Heimaufenthalt"
+        ],
+        [
+          "Kläger",
+          "tragenWeigern",
+          "Kosten des Heimaufenthalts"
+        ],
+        [
+          "Beklagter",
+          "haben",
+          "Rechte gegenüber Gründungsgesellschafter"
+        ],
+        [
+          "Verpflichteter",
+          "führt",
+          "Entlastungsbeweis"
+        ],
+        [
+          "Kostendeckungsschutz-Zusage",
+          "beeinflusst",
+          "Haftpflichtversicherer"
+        ],
+        [
+          "Ausschlussgrund",
+          "festgestellt",
+          "Deckungszusage"
+        ],
+        [
+          "Annahmeverzug",
+          "giltFür",
+          "Übertragung von Fondsanteilen"
+        ],
+        [
+          "Verpflichteter",
+          "zahlen",
+          "Gerichtskostenvorschuss"
         ],
         [
           "Gerichtskostenvorschuss",
@@ -492,47 +507,65 @@
     ],
     "ontology": {
       "classes": [
+        "Notar",
+        "Auflassung",
+        "Vollmacht",
         "Rechtsgrundlage",
         "Rechtsfolge",
-        "Rechtslage",
-        "Voraussetzung",
+        "Feststellungswiderklage",
+        "Rechtsverhältnis",
+        "Widerwiderklage",
         "Streitgegenstand",
         "Antrag",
         "Klage",
-        "Lebenssachverhalt",
-        "Einwand"
+        "Satzungsbestimmungen",
+        "Beklagte",
+        "Rechtsschutz",
+        "Verjährung"
       ],
       "properties": [
-        "giltFuer",
+        "erklärt",
+        "giltFür",
         "trittEin",
         "beziehtSichAuf",
         "istUnzulässig",
         "beziehtSichAuf",
+        "spieltRolle",
         "istBegründet",
-        "bewilligen",
-        "hindern",
+        "bewilligt",
+        "hindert",
         "verweigert"
       ],
       "relationships": [
         [
+          "Notar",
+          "erklärt",
+          "Auflassung"
+        ],
+        [
+          "Auflassung",
+          "erklärtOhne",
+          "Vollmacht"
+        ],
+        [
           "Rechtsgrundlage",
-          "giltFuer",
-          "Fall"
+          "giltFür",
+          "AuflassungOhneVollmacht"
         ],
         [
           "Rechtsfolge",
           "trittEin",
-          "Fall"
+          "AuflassungOhneVollmacht"
         ],
         [
-          "Rechtslage",
+          "Feststellungswiderklage",
           "beziehtSichAuf",
-          "Feststellungswiderklage"
+          "Rechtsverhältnis"
         ],
         [
-          "Voraussetzung",
+          "Widerwiderklage",
           "istUnzulässig",
-          "Widerwiderklage"
+          "unterBestimmtenVoraussetzungen"
         ],
         [
           "Streitgegenstand",
@@ -541,23 +574,33 @@
         ],
         [
           "Antrag",
-          "istUnzulässig",
-          "Rechtsgrundlage"
+          "wirdZurückgewiesenAls",
+          "unzulässig"
         ],
         [
           "Klage",
           "istBegründet",
-          "Lebenssachverhalt"
+          "unterBestimmtenUmständen"
+        ],
+        [
+          "Beklagte",
+          "spieltRolle",
+          "richterlicheInhaltskontrolle"
+        ],
+        [
+          "Klage",
+          "bewilligt",
+          "Rechtsschutz"
         ],
         [
           "Feststellungsausspruch",
-          "hindern",
-          "Einwand"
+          "hindert",
+          "EinwandNachRechtskraft"
         ],
         [
-          "Beklagter",
-          "verweigert",
-          "Leistung"
+          "Verjährung",
+          "führtZu",
+          "VerweigerungDerLeistung"
         ]
       ]
     }
@@ -606,163 +649,143 @@
     "ontology": {
       "classes": [
         "Gericht",
+        "Pflicht",
         "Prozeßförderung",
-        "Beweisantrag",
-        "Umstände",
-        "Fall",
-        "Präklusionsvorschrift",
-        "Rechtskraft",
+        "Beweisanträge",
         "Entscheidung",
+        "Rechtskraft",
+        "Urteil",
         "Richter",
         "Gerichtshandlung",
-        "Proberichter",
-        "Oberlandesgericht",
-        "Landgericht",
-        "Anspruch",
         "Klage",
-        "Urteil",
-        "Gutachter",
-        "Prozesspfleger",
-        "Vorbehaltsurteil",
-        "Mehrerlös",
-        "Feststellungsantrag",
-        "Tatbestand",
-        "Stufenklage",
-        "Auskunftsanspruch",
+        "Anwendbarkeit",
+        "Rechtsfolge",
+        "Anlageentscheidung",
         "Prospektmangel",
-        "Forderung",
         "Verjährung",
-        "Schuldverhältnis"
+        "Schuldverhältnis",
+        "Anspruch",
+        "Beweisaufnahme"
       ],
       "properties": [
-        "hatPflicht",
-        "betrifft",
-        "hatBedeutung",
+        "hatHinsichtAuf",
+        "beeinflusst",
         "istVerpflichtet",
         "hatKonsequenzen",
         "trittEin",
         "istBefugt",
-        "kannBeeinflussen",
-        "hatRecht",
-        "betrifftAnspruchskonkurrenz",
+        "kannAuswirken",
+        "darstellt",
+        "spieltRolle",
         "istZuständig",
         "kannFeststellen",
-        "entgegennimmt",
-        "kannBeschließen",
-        "betrifftEntscheidung",
-        "giltRechtsgrundlage",
-        "erwächst",
-        "betrifftBegründetheit",
-        "hatAuswirkung",
+        "entscheidetÜber",
+        "betrifft",
+        "istRechtsgrundlage",
+        "erwächstIn",
+        "hatBedeutung",
+        "hatAuswirkungen",
         "kannÜberprüfen",
         "ergreiftMaßnahmen",
-        "kannBerücksichtigen",
-        "istAbzulehnen",
-        "kannNichtErfolgen",
-        "hatBedeutung",
-        "mussErfülltSein",
-        "betrifftGültigkeit",
-        "trittEin",
-        "trägtVerantwortung",
+        "kannAbweisen",
+        "istRechtsfolge",
+        "betrifft",
+        "istVerantwortung",
         "kannUnzulässigSein",
-        "istAusgangspunkt",
+        "istRechtsfolge",
+        "istVerantwortung",
         "istWichtig"
       ],
       "relationships": [
         [
           "Gericht",
-          "hatPflicht",
+          "hatHinsichtAuf",
           "Prozeßförderung"
         ],
         [
-          "Prozeßförderung",
-          "betrifft",
-          "Beweisantrag"
+          "Gericht",
+          "beeinflusst",
+          "Beweisanträge"
+        ],
+        [
+          "Entscheidung",
+          "hatRechtskraft",
+          "Feststellungswiderklage"
         ],
         [
           "Gericht",
-          "hatBedeutung",
-          "Umstände"
-        ],
-        [
-          "Umstände",
-          "betrifft",
-          "Fall"
-        ],
-        [
-          "Fall",
-          "betrifft",
-          "Präklusionsvorschrift"
-        ],
-        [
-          "Rechtskraft",
-          "hatBedeutung",
+          "istVerpflichtet",
           "Entscheidung"
         ],
         [
           "Entscheidung",
-          "istVerpflichtet",
+          "hatKonsequenzen",
+          "Gericht"
+        ],
+        [
+          "Richter",
+          "istBefugt",
+          "dienstlicheErklärungen"
+        ],
+        [
+          "dienstlicheErklärungen",
+          "kannAuswirken",
           "Richter"
         ],
         [
           "Richter",
-          "hatKonsequenzen",
-          "Nichtbeachten"
+          "darstellt",
+          "dienstlicheErklärungen"
         ],
         [
           "Gericht",
-          "trittEin",
+          "spieltRolle",
+          "Anwendbarkeit"
+        ],
+        [
+          "Gericht",
+          "istZuständig",
+          "Klage"
+        ],
+        [
+          "Gericht",
+          "kannFeststellen",
+          "Ursächlichkeit"
+        ],
+        [
+          "Gericht",
+          "entscheidetÜber",
           "Gerichtshandlung"
         ],
         [
-          "Proberichter",
-          "kannBeschließen",
-          "Einsatz"
-        ],
-        [
-          "Oberlandesgericht",
+          "Gerichtshandlung",
           "betrifft",
-          "Proberichter"
+          "Klage"
         ],
         [
-          "Landgericht",
-          "betrifftEntscheidung",
-          "Anspruch"
-        ],
-        [
-          "Klage",
-          "giltRechtsgrundlage",
-          "Rechtskraft"
+          "Gericht",
+          "istRechtsgrundlage",
+          "Abweisung"
         ],
         [
           "Urteil",
-          "erwächst",
+          "erwächstIn",
           "Rechtskraft"
         ],
         [
           "Klage",
-          "betrifftBegründetheit",
-          "Entscheidung"
+          "hatBedeutung",
+          "Rechtskraft"
         ],
         [
-          "Entscheidung",
-          "trittEin",
-          "Klage"
-        ],
-        [
-          "Urteil",
-          "hatAuswirkung",
-          "Klage"
+          "Klage",
+          "hatAuswirkungen",
+          "Rechtskraft"
         ],
         [
           "Gericht",
           "kannÜberprüfen",
-          "Gutachter"
-        ],
-        [
-          "Gutachter",
-          "betrifft",
-          "Feststellung"
+          "Feststellungen"
         ],
         [
           "Gericht",
@@ -770,151 +793,1032 @@
           "Prozesspfleger"
         ],
         [
-          "Vorbehaltsurteil",
-          "kannBerücksichtigen",
-          "Interessen"
+          "Gericht",
+          "kannAbweisen",
+          "Klage"
         ],
         [
           "Klage",
-          "istAbzulehnen",
-          "Aktivlegitimation"
-        ],
-        [
-          "Feststellungsantrag",
-          "mussErfülltSein",
-          "Bedingungen"
-        ],
-        [
-          "Tatbestand",
-          "betrifftGültigkeit",
-          "Urteil"
-        ],
-        [
-          "Urteil",
-          "trittEin",
-          "Feststellungsantrag"
+          "istRechtsfolge",
+          "Rechtskraft"
         ],
         [
           "Gericht",
-          "trägtVerantwortung",
-          "Feststellungsantrag"
+          "istVerantwortung",
+          "Antrag"
         ],
         [
-          "Stufenklage",
-          "kannUnzulässigSein",
-          "Rechtsverfolgung"
-        ],
-        [
-          "Auskunftsanspruch",
-          "istAusgangspunkt",
-          "Klägerin"
-        ],
-        [
-          "Prospektmangel",
-          "trittEin",
-          "Anlageentscheidung"
-        ],
-        [
-          "Forderung",
-          "kannHemmen",
-          "Verjährung"
-        ],
-        [
-          "Verjährung",
-          "hatBedeutung",
-          "Verwirkung"
-        ],
-        [
-          "Zivilverfahren",
+          "Gericht",
           "istWichtig",
           "Beweisaufnahme"
         ]
       ]
     }
   },
-  "Cluster 105": {
+  "Cluster 106": {
     "competency_questions": [
-      "Welche Verantwortlichkeit hat ein Unternehmer für Mängel eines von ihm erstellten Werkes, wenn er nicht alleine für dessen Errichtung verantwortlich ist? (Berücksichtigen Sie das Beispiel der Klägerin und der G. GmbH)",
-      "Welche Hinweispflichten hat ein Unternehmer gegenüber seinem Kunden bezüglich der Tauglichkeit eines Werkes? (Berücksichtigen Sie § 241 Abs. 2 BGB)",
-      "Wie kann ein Besteller seine Rechte geltend machen, wenn der Unternehmer die Mängelbeseitigung verweigert?",
-      "Unter welchen Bedingungen ist der Unternehmer von seiner Pflicht zur Vertragserfüllung frei?",
-      "Welche Rechtsfolge tritt ein, wenn der Unternehmer seine Pflichten nicht erfüllt und der Besteller keine Einreden geltend macht?",
-      "Welche Rechte hat ein Anleger, wenn ein Unternehmer ihm ein Widerrufsrecht einräumt, ohne dazu gesetzlich verpflichtet zu sein?",
-      "Wie ist zu entscheiden, ob ein Unternehmer einem Verbraucher ein Widerrufsrecht eingeräumt hat, ohne dazu gesetzlich verpflichtet zu sein?",
-      "Welche Rechtsgrundlage gilt für den Schadensersatzanspruch des Bestellers, wenn der Unternehmer die Mängelbeseitigung verweigert?",
-      "Welche Beweislast trägt ein Kunde, wenn er geltend macht, dass der Unternehmer seine Hinweispflichten verletzt hat? (Berücksichtigen Sie das Beispiel des Beklagten)"
+      "Was geschieht mit der abgetretenen Schadensersatzforderung, wenn der Sachverständige seinen vertraglichen Honoraranspruch gegen die Geschädigte geltend macht?",
+      "Wer ist aktivlegitimiert, einen Rückforderungsanspruch geltend zu machen, wenn der Patient verstorben ist?",
+      "Wie kann eine Klage unbegründet sein, wenn sie auf einen Kündigungsfolgeschaden gerichtet ist, der in gleicher Weise wie der streitgegenständliche Schaden von der Rechtskraft betroffen ist?",
+      "Welche Rechtsfolge tritt ein, wenn eine Klage auf Ersatz eines Kündigungsfolgeschadens unbegründet ist?",
+      "Wer ist verpflichtet, eine Stellungnahme einer beteiligten Person im Schadenfall einzuholen?",
+      "Welche Rechtsfolge tritt ein, wenn ein Auskunftsanspruch verneint wird und damit der Schadensersatzanspruch die Grundlage entzogen wird?",
+      "Wie kann der Auskunftsanspruch geltend gemacht werden, wenn der Schadensersatzanspruch noch nicht feststeht?",
+      "Welche Rolle spielt der Verdacht einer Vertragspflichtverletzung bei der Geltendmachung eines Auskunftsanspruchs?",
+      "Wie kann die Rechtshängigkeit einer Klage geheilt werden, wenn die Klageschrift nicht ordnungsgemäß zugestellt wurde?",
+      "Welche Rechtsfolge tritt ein, wenn die Klageschrift nicht in beglaubigter Abschrift zugestellt wird?"
     ],
     "ontology": {
       "classes": [
-        "Verantwortlichkeit",
-        "Mangel",
-        "Arbeit",
-        "Kunde",
-        "Unternehmer",
-        "Recht",
-        "Pflicht",
-        "Rechtsfolge",
-        "Anleger",
-        "Verbraucher",
+        "Schadensersatzforderung",
+        "Sachverständiger",
+        "Geschädigte",
+        "Rückforderungsanspruch",
+        "Patient",
+        "Klage",
+        "Kündigungsfolgeschaden",
+        "Rechtskraft",
+        "Auskunftsanspruch",
         "Schadensersatzanspruch",
-        "Beweislast"
+        "Vertragspflichtverletzung",
+        "Rechtshängigkeit",
+        "Klageschrift"
       ],
       "properties": [
-        "hatVerantwortungFuer",
-        "hatHinweispflicht",
-        "kannRechteGeltendMachen",
-        "istVonPflichtFreigestellt",
+        "geschiehtMit",
+        "istAktivlegitimiert",
+        "kannSein",
         "trittEin",
-        "hatRecht",
-        "wirdEingeraumt",
-        "giltFuer",
-        "tragtBeweislast"
+        "istVerpflichtet",
+        "wirdEntzogen",
+        "kannGeltendGemachtWerden",
+        "spieltEineRolle",
+        "kannGeheiltWerden",
+        "trittEin"
       ],
       "relationships": [
         [
-          "Verantwortlichkeit",
-          "hatVerantwortungFuer",
-          "Mangel"
+          "Schadensersatzforderung",
+          "geschiehtMit",
+          "Sachverständiger"
         ],
         [
-          "Unternehmer",
-          "hatHinweispflicht",
-          "Kunde"
+          "Sachverständiger",
+          "machtGeltend",
+          "Honoraranspruch"
         ],
         [
-          "Besteller",
-          "kannRechteGeltendMachen",
-          "Mängelbeseitigung"
+          "Honoraranspruch",
+          "gegen",
+          "Geschädigte"
         ],
         [
-          "Unternehmer",
-          "istVonPflichtFreigestellt",
-          "Vertragserfüllung"
+          "Rückforderungsanspruch",
+          "istAktivlegitimiert",
+          "Patient"
+        ],
+        [
+          "Klage",
+          "kannSein",
+          "unbegründet"
+        ],
+        [
+          "Klage",
+          "istGerichtetAuf",
+          "Kündigungsfolgeschaden"
+        ],
+        [
+          "Kündigungsfolgeschaden",
+          "istBetroffenVon",
+          "Rechtskraft"
         ],
         [
           "Rechtsfolge",
           "trittEin",
-          "Pflichtverletzung"
+          "unbegründeteKlage"
         ],
         [
-          "Anleger",
-          "hatRecht",
-          "Widerrufsrecht"
+          "Auskunftsanspruch",
+          "wirdEntzogen",
+          "Schadensersatzanspruch"
         ],
         [
-          "Verbraucher",
-          "wirdEingeraumt",
-          "Widerrufsrecht"
+          "Vertragspflichtverletzung",
+          "spieltEineRolle",
+          "Auskunftsanspruch"
         ],
         [
-          "Schadensersatzanspruch",
-          "giltFuer",
-          "Mängelbeseitigung"
+          "Rechtshängigkeit",
+          "kannGeheiltWerden",
+          "Klageschrift"
+        ],
+        [
+          "Klageschrift",
+          "wirdZustellung",
+          "Rechtsfolge"
+        ]
+      ]
+    }
+  },
+  "Cluster 107": {
+    "competency_questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit Genussscheininhaber im Falle eines Beherrschungs- und Gewinnabführungsvertrages einen Ausgleichsanspruch geltend machen können?",
+      "Welche Rolle spielt die Prognose hinsichtlich der wirtschaftlichen Entwicklung der Beklagten bei der Bedienung der Genussscheine bis zum Ende des Beherrschungs- und Gewinnabführungsvertrages?",
+      "Unter welchen Bedingungen kann ein Maklerprovisionsanspruch entfallen, wenn der Kunde den Hauptvertrag später \"am Makler vorbei\" abschließt?",
+      "Welche Rechte hat ein Makler, wenn der Kunde den Hauptvertrag später ohne seine Mitwirkung abschließt, aber sein Erstnachweis ursächlich für den Vertragsschluss war?",
+      "Welche Rechte hat der Auftragnehmer bei der Abrechnung eines vorzeitig beendeten Pauschalpreisvertrages?",
+      "Welche Pflichten hat der Besteller bei der Verteidigung gegen eine Forderung im Zusammenhang mit einem vorzeitig beendeten Pauschalpreisvertrag?",
+      "Wie kann der Umfang des entgangenen Gewinns bei Verletzung eines vertraglich eingeräumten Vertriebsrechts geschätzt werden?",
+      "Welche Voraussetzungen müssen erfüllt sein, damit ein Kunde eine Anzahlung zurückverlangen kann, die er für einen Partnerschaftsvermittlungsvertrag geleistet hat?",
+      "Welche Rechte hat ein Kunde, wenn er eine Anzahlung geleistet hat, aber der Vertrag nicht erfüllt wurde?",
+      "Wer ist verpflichtet, den Anleger über die Widerrufsfrist und -bedingungen zu informieren, wenn ein vertragliches Widerrufsrecht eingeräumt wird?",
+      "Welche Rolle spielt der Zeitpunkt des Abschlusses des Weiterverkaufsvertrags für die Bestimmung des erzielten Mehrerlöses?",
+      "Wie beeinflusst das Vorhandensein eines zeitlich befristeten Rücktrittsrechts im Kaufvertrag die Provisionspflicht des Verkäufers gegenüber dem Makler?",
+      "Welche Rechtsfolgen treten ein, wenn der Käufer sein Widerrufsrecht nicht fristgerecht ausübt?",
+      "Welche Rechte hat der Gemeinschuldner, wenn die Verjährungsfrist für seine kaufrechtlichen Gewährleistungsansprüche abgelaufen ist?",
+      "Wie ist im Falle eines Beherrschungs- und Gewinnabführungsvertrages zwischen der I. und der Beklagten die Anpassung der Genussscheinbedingungen an die veränderte Rechtslage vorzunehmen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Voraussetzung",
+        "Genussscheininhaber",
+        "Beherrschungs- und Gewinnabführungsvertrag",
+        "Ausgleichsanspruch",
+        "Prognose",
+        "Beklagte",
+        "Maklerprovisionsanspruch",
+        "Kunde",
+        "Hauptvertrag",
+        "Makler",
+        "Pauschalpreisvertrag",
+        "Abrechnung",
+        "Pflicht",
+        "Verletzung",
+        "VertraglichEingeraeumtesVertriebtrecht",
+        "EntgangenerGewinn",
+        "Anzahlung",
+        "Partnerschaftsvermittlungsvertrag",
+        "Vertrag",
+        "Widerrufsrecht",
+        "Widerrufsfrist",
+        "Weiterverkaufsvertrag",
+        "Mehrerlös",
+        "Rücktrittsrecht",
+        "Käufer",
+        "Widerrufsrecht",
+        "Gemeinschuldner",
+        "KaufrechtlicheGewährleistungsansprüche",
+        "Anpassung",
+        "Genussscheinbedingungen"
+      ],
+      "properties": [
+        "mussErfuelltSein",
+        "spieltRolle",
+        "kannEntfallen",
+        "hatRecht",
+        "hatPflicht",
+        "kannGeschätztWerden",
+        "kannZurueckverlangtWerden",
+        "istVerpflichtet",
+        "beeinflusst",
+        "trittEin",
+        "istVerjährt",
+        "istVorzunehmen"
+      ],
+      "relationships": [
+        [
+          "Voraussetzung",
+          "mussErfuelltSein",
+          "Ausgleichsanspruch"
+        ],
+        [
+          "Prognose",
+          "spieltRolle",
+          "Bedienung"
+        ],
+        [
+          "Maklerprovisionsanspruch",
+          "kannEntfallen",
+          "Hauptvertrag"
         ],
         [
           "Kunde",
-          "tragtBeweislast",
-          "Hinweispflichtverletzung"
+          "hatRecht",
+          "Makler"
+        ],
+        [
+          "Auftragnehmer",
+          "hatRecht",
+          "Abrechnung"
+        ],
+        [
+          "Besteller",
+          "hatPflicht",
+          "Verteidigung"
+        ],
+        [
+          "Verletzung",
+          "kannGeschätztWerden",
+          "EntgangenerGewinn"
+        ],
+        [
+          "Anzahlung",
+          "kannZurueckverlangtWerden",
+          "Vertrag"
+        ],
+        [
+          "Kunde",
+          "istVerpflichtet",
+          "Widerrufsfrist"
+        ],
+        [
+          "Weiterverkaufsvertrag",
+          "beeinflusst",
+          "Mehrerlös"
+        ],
+        [
+          "Rücktrittsrecht",
+          "beeinflusst",
+          "Provisionspflicht"
+        ],
+        [
+          "Widerrufsrecht",
+          "trittEin",
+          "Rechtsfolge"
+        ],
+        [
+          "KaufrechtlicheGewährleistungsansprüche",
+          "istVerjährt",
+          "Recht"
+        ],
+        [
+          "Anpassung",
+          "istVorzunehmen",
+          "Genussscheinbedingungen"
+        ]
+      ]
+    }
+  },
+  "Cluster 108": {
+    "competency_questions": [
+      "Unter welchen Bedingungen kann ein Unternehmen als Lieferant im Sinne des § 4 Abs. 3 ProdHaftG haften?",
+      "Wer ist verpflichtet, den tatsächlichen Hersteller eines Produkts zu ermitteln, wenn dieser nicht auf dem Produkt angegeben ist?",
+      "Welche Rolle spielt der Zeitpunkt des Inverkehrbringens eines Produkts bei der Haftung des Herstellers oder Lieferanten nach dem ProdHaftG?",
+      "Welche Rechtsgrundlage gilt für die Haftung eines Quasi-Herstellers, der sich durch das Anbringen seines Namens oder Kennzeichens als Hersteller ausgibt?",
+      "Wie kann ein Unternehmen seine Haftung als Quasi-Hersteller vermeiden, wenn es den Namen oder das Kennzeichen eines anderen Unternehmens verwendet?",
+      "Welche Rechte hat ein Kunde, wenn er in Kenntnis der vertraglichen Aufgabenverteilung zwischen Unternehmen seine Anlagestrategie nur einem dieser Unternehmen mitteilt?",
+      "Welche Rechte hat ein Geschädigter, der durch ein fehlerhaftes Produkt geschädigt wurde, bezüglich der Ermittlung des Herstellers oder Quasi-Herstellers?"
+    ],
+    "ontology": {
+      "classes": [
+        "Unternehmen",
+        "Produkt",
+        "Hersteller",
+        "Lieferant",
+        "Kunde",
+        "Geschädigter",
+        "Quasi-Hersteller"
+      ],
+      "properties": [
+        "kannHaften",
+        "istVerpflichtet",
+        "spieltRolle",
+        "giltFür",
+        "kannVermeiden",
+        "hatRechtAuf",
+        "hatRechtBezüglich"
+      ],
+      "relationships": [
+        [
+          "Unternehmen",
+          "kannHaften",
+          "Produkt"
+        ],
+        [
+          "Hersteller",
+          "istVerpflichtet",
+          "Ermittlung"
+        ],
+        [
+          "Zeitpunkt",
+          "spieltRolle",
+          "Haftung"
+        ],
+        [
+          "Quasi-Hersteller",
+          "giltFür",
+          "Haftung"
+        ],
+        [
+          "Quasi-Hersteller",
+          "kannVermeiden",
+          "Haftung"
+        ],
+        [
+          "Kunde",
+          "hatRechtAuf",
+          "Information"
+        ],
+        [
+          "Geschädigter",
+          "hatRechtBezüglich",
+          "Ermittlung"
+        ]
+      ]
+    }
+  },
+  "Cluster 109": {
+    "competency_questions": [
+      "Wer ist verpflichtet, die zweckentsprechende Verwendung von Geld zu überwachen, wenn er eine Rechnung stellt?",
+      "Wer ist verpflichtet, die Liquidität der Gesellschaft zu berücksichtigen, wenn eine Vergütung entnommen wird?",
+      "Welche Mindestangaben müssen in einer Rechnung enthalten sein, um dem Zahlungspflichtigen eine Nachprüfung zu ermöglichen?",
+      "Wer ist verpflichtet, erlangte Geldmittel herauszugeben, wenn sie nicht mehr vorhanden sind, aber nicht zu dem vorgesehenen Zweck verwendet wurden?",
+      "Welche Bedeutung hat die Zahlungsklage im Zusammenhang mit der Feststellung einer Forderung in die Schlußrechnung?",
+      "Welche Bedeutung hat das Schreiben der Bank vom 19. Juni 1991 für die Finanzierungszusage und die Aufklärungspflicht?",
+      "Wer ist verpflichtet, die Einlageverbindlichkeit zu erfüllen, wenn die ursprüngliche Einzahlung als verdeckte Finanzierung gilt?",
+      "Wie kann eine Einlageverbindlichkeit trotz verdeckter Finanzierung erfüllt werden?",
+      "Wer kann von einer Drittschuldnerin Zahlungen zurückverlangen, wenn diese auf eine unwirksame Pfändung gezahlt hat?",
+      "Welche Rechtsfolge tritt ein, wenn der Zahlungsantrag des Klägers erfolgreich ist?",
+      "Wer ist berechtigt, Netznutzungsentgelte auf ihre Billigkeit hin zu überprüfen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Rechnungssteller",
+        "Gesellschaft",
+        "Vergütung",
+        "Geldmittel",
+        "Forderung",
+        "Einlageverbindlichkeit",
+        "Drittschuldnerin",
+        "Kläger",
+        "Netznutzer"
+      ],
+      "properties": [
+        "verpflichtet",
+        "überwachen",
+        "berücksichtigen",
+        "enthalten",
+        "ermöglichen",
+        "feststellen",
+        "gilt",
+        "erfüllen",
+        "zurückverlangen",
+        "tretenEin",
+        "überprüfen"
+      ],
+      "relationships": [
+        [
+          "Rechnungssteller",
+          "verpflichtet",
+          "überwachen"
+        ],
+        [
+          "Gesellschaft",
+          "verpflichtet",
+          "berücksichtigen"
+        ],
+        [
+          "Rechnung",
+          "enthalten",
+          "Nachprüfung"
+        ],
+        [
+          "Geldmittel",
+          "verpflichtet",
+          "herausgeben"
+        ],
+        [
+          "Zahlungsklage",
+          "feststellen",
+          "Forderung"
+        ],
+        [
+          "Schreiben",
+          "beeinflussen",
+          "Finanzierungszusage"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "verpflichtet",
+          "erfüllen"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "erfüllt",
+          "trotz"
+        ],
+        [
+          "Drittschuldnerin",
+          "verpflichtet",
+          "zurückverlangen"
+        ],
+        [
+          "Zahlungsantrag",
+          "tretenEin",
+          "Rechtsfolge"
+        ],
+        [
+          "Netznutzer",
+          "berechtigt",
+          "überprüfen"
+        ]
+      ]
+    }
+  },
+  "Cluster 11": {
+    "competency_questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Äußerung in einem satirischen Kontext nicht unter den Schutz der Satirefreiheit fällt?",
+      "Wie kann eine Äußerung in einem satirischen Beitrag richtig gedeutet werden, um ihren eigentlichen Aussagegehalt zu verstehen?",
+      "Welche Rechtsgrundlage gilt für die Zurechnung von Äußerungen in einem Dialog, wenn der Kontext und die satirische Einkleidung nicht hinreichend berücksichtigt werden?",
+      "Wer ist verpflichtet, eine unrichtige Information zu korrigieren, die in einem satirischen Kontext erfolgt ist?",
+      "Wie kann eine unrichtige Information, die der verfassungsrechtlich vorausgesetzten Möglichkeit zutreffender Meinungsbildung nicht dient, unter dem Gesichtspunkt der Satirefreiheit geschützt werden?",
+      "Welche Bedingungen müssen erfüllt sein, damit eine Äußerung unter dem Gesichtspunkt der Satirefreiheit besonderen Schutz genießt?",
+      "Welche Rechtsfolgen treten ein, wenn eine Äußerung in einem satirischen Kontext erfolgt, aber der Rezipient die satirische Überzeichnung nicht erkennt?"
+    ],
+    "ontology": {
+      "classes": [
+        "Äußerung",
+        "Satirefreiheit",
+        "Rechtsgrundlage",
+        "Verpflichtung",
+        "Information",
+        "Bedingung",
+        "Rechtsfolge"
+      ],
+      "properties": [
+        "fälltUnter",
+        "richtigGedeutet",
+        "giltFür",
+        "istVerpflichtet",
+        "dient",
+        "genießtSchutz",
+        "trittEin"
+      ],
+      "relationships": [
+        [
+          "Äußerung",
+          "fälltUnter",
+          "Satirefreiheit"
+        ],
+        [
+          "Äußerung",
+          "richtigGedeutet",
+          "Aussagegehalt"
+        ],
+        [
+          "Rechtsgrundlage",
+          "giltFür",
+          "Zurechnung"
+        ],
+        [
+          "Verpflichtung",
+          "istVerpflichtet",
+          "Korrektur"
+        ],
+        [
+          "Information",
+          "dient",
+          "Meinungsbildung"
+        ],
+        [
+          "Äußerung",
+          "genießtSchutz",
+          "Satirefreiheit"
+        ],
+        [
+          "Bedingung",
+          "genießtSchutz",
+          "Satirefreiheit"
+        ],
+        [
+          "Rechtsfolge",
+          "trittEin",
+          "FehlendeErkennung"
+        ]
+      ]
+    }
+  },
+  "Cluster 110": {
+    "competency_questions": [
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine ordentliche Kündigung eines Geschäftsführers einer GmbH wirksam ist?",
+      "Wer ist berechtigt, eine ordentliche Kündigung eines Geschäftsführers einer GmbH zu erklären?",
+      "Wie kann eine ordentliche Kündigung eines Geschäftsführers einer GmbH wirksam sein, ohne dass sie auf einem bestimmten Grund basiert?",
+      "Welche Rolle spielen die Motive der Gesellschafter bei der Wirksamkeit einer ordentlichen Kündigung eines Geschäftsführers einer GmbH?",
+      "Welche Rechtsgrundlage gilt für die Abberufung eines Geschäftsführers einer GmbH und die Kündigung seines Anstellungsvertrages?",
+      "Welche Rechte hat ein Geschäftsführer einer GmbH, wenn er ordentlich gekündigt wird?",
+      "Welche Rechtsgrundlage gilt für die Kündigung eines GmbH-Geschäftsführers und die damit verbundene Rückübertragung seines Geschäftsanteils?",
+      "Welche Auswirkungen hat die Kündigung des Anstellungsvertrags eines GmbH-Geschäftsführers auf dessen Gesellschafterstellung?",
+      "Welche Rechte hat ein Geschäftsführer, wenn der Vertrag unwirksam ist, aber er bereits als Geschäftsführer tätig war?",
+      "Welche Rechte hat ein berechtigter Geschäftsführer im Falle von Schäden, die er bei der Ausführung des Auftrags erleidet?"
+    ],
+    "ontology": {
+      "classes": [
+        "Geschäftsführer",
+        "GmbH",
+        "Kündigung",
+        "Voraussetzung",
+        "Grund",
+        "Recht",
+        "Gesellschafter",
+        "Anstellungsvertrag",
+        "Schaden"
+      ],
+      "properties": [
+        "erfüllt",
+        "berechtigt",
+        "basiertAuf",
+        "spieltRolle",
+        "giltFür",
+        "hatRecht",
+        "betrifft",
+        "erleidet"
+      ],
+      "relationships": [
+        [
+          "Kündigung",
+          "erfüllt",
+          "Voraussetzung"
+        ],
+        [
+          "Gesellschafter",
+          "berechtigt",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "basiertAuf",
+          "Grund"
+        ],
+        [
+          "Gesellschafter",
+          "spieltRolle",
+          "Kündigung"
+        ],
+        [
+          "Recht",
+          "giltFür",
+          "Abberufung"
+        ],
+        [
+          "Geschäftsführer",
+          "hatRecht",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "betrifft",
+          "Anstellungsvertrag"
+        ],
+        [
+          "Anstellungsvertrag",
+          "betrifft",
+          "Gesellschafterstellung"
+        ],
+        [
+          "Geschäftsführer",
+          "hatRecht",
+          "Unwirksamkeit"
+        ],
+        [
+          "Geschäftsführer",
+          "erleidet",
+          "Schaden"
+        ]
+      ]
+    }
+  },
+  "Cluster 111": {
+    "competency_questions": [
+      "Welche Rolle spielt die gemeinsame Prüfung des Vorhandenseins eines Mangels für die Hemmung der Verjährung?",
+      "Wie ist das Verhältnis zwischen dem Hauptmieter und den Endmietern bei einer Beendigung des Hauptmietverhältnisses zu betrachten?",
+      "Welche Rolle spielt die Berücksichtigung von Neu- und Bestandsmieten bei der Ermittlung der ortsüblichen Vergleichsmiete?",
+      "Welche Rolle spielt ein Räumungsvergleich in Bezug auf die Beendigung eines Untermietverhältnisses?",
+      "Welche Bedeutung hat die Vergleichsgrundlage für die Wirksamkeit eines Vergleichs?"
+    ],
+    "ontology": {
+      "classes": [
+        "Prüfung",
+        "Mangel",
+        "Verjährung",
+        "Hauptmieter",
+        "Endmieter",
+        "Miete",
+        "Vergleichsgrundlage",
+        "Räumungsvergleich",
+        "Untermietverhältnis"
+      ],
+      "properties": [
+        "spieltRolle",
+        "betrachtetAls",
+        "berücksichtigt",
+        "ermittelt",
+        "beziehtSichAuf",
+        "hatBedeutungFür",
+        "beendet"
+      ],
+      "relationships": [
+        [
+          "Prüfung",
+          "spieltRolle",
+          "Hemmung der Verjährung"
+        ],
+        [
+          "Mangel",
+          "spieltRolle",
+          "Hemmung der Verjährung"
+        ],
+        [
+          "Hauptmieter",
+          "betrachtetAls",
+          "Endmieter"
+        ],
+        [
+          "Beendigung des Hauptmietverhältnisses",
+          "beendet",
+          "Untermietverhältnis"
+        ],
+        [
+          "Räumungsvergleich",
+          "beendet",
+          "Untermietverhältnis"
+        ],
+        [
+          "Vergleichsgrundlage",
+          "hatBedeutungFür",
+          "Wirksamkeit eines Vergleichs"
+        ]
+      ]
+    }
+  },
+  "Cluster 113": {
+    "competency_questions": [
+      "Welche Rolle spielt die Beklagte im vorliegenden Vertragsverhältnis zwischen der Klägerin und der S.?",
+      "Unter welchen Bedingungen kann die Beklagte als Vertragspartner der Klägerin gelten?",
+      "Welche Rechtsgrundlage gilt für die Haftung der Beklagten im Falle von Aufklärungsversäumnissen?",
+      "Welche Auswirkungen hat es, wenn der Kläger als Strohmann des Unternehmens betrachtet wird, aus dem er stammt?",
+      "Welche Auswirkungen hat es für den Kläger, wenn er als Strohmann des Unternehmens angesehen wird, aus dem er stammt?",
+      "Welche Rolle spielt die Kenntnis der Änderungen der rechtlichen und tatsächlichen Verhältnisse der Vertragspartnerin für den Kläger bei der Durchsetzung seiner Ansprüche?",
+      "Welche Rolle spielt die Kenntnis über die Geschäfte der Beklagten mit weiteren Vertragshändlern für die Verfolgung von Schadensersatzansprüchen?",
+      "Welche Rechtsgrundlage gilt für die Haftung des Beklagten zu 2 im Zusammenhang mit der Oberaufsicht über die mit der Geschäftsführung betrauten Personen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Beklagte",
+        "Klägerin",
+        "Vertragspartner",
+        "S",
+        "Kläger",
+        "Unternehmen",
+        "Vertriebsgesellschaft",
+        "Vertragshändler",
+        "Beklagter zu 2"
+      ],
+      "properties": [
+        "spieltRolle",
+        "giltAls",
+        "giltFür",
+        "hatAuswirkungen",
+        "betrachtetAls",
+        "angesehenAls",
+        "hatKenntnis",
+        "betrifft",
+        "unterliegt",
+        "hatRechtsgrundlage",
+        "betrifft"
+      ],
+      "relationships": [
+        [
+          "Beklagte",
+          "spieltRolle",
+          "Vertragsverhältnis"
+        ],
+        [
+          "Beklagte",
+          "giltAls",
+          "Vertragspartner"
+        ],
+        [
+          "Beklagte",
+          "hatRechtsgrundlage",
+          "Haftung"
+        ],
+        [
+          "Kläger",
+          "betrachtetAls",
+          "Strohmann"
+        ],
+        [
+          "Kläger",
+          "angesehenAls",
+          "Strohmann"
+        ],
+        [
+          "Kläger",
+          "hatKenntnis",
+          "Änderungen"
+        ],
+        [
+          "Beklagte",
+          "hatKenntnis",
+          "Geschäfte"
+        ],
+        [
+          "Beklagter zu 2",
+          "unterliegt",
+          "Oberaufsicht"
+        ],
+        [
+          "Kläger",
+          "betrifft",
+          "Schadensersatzansprüche"
+        ],
+        [
+          "Beklagter zu 2",
+          "hatRechtsgrundlage",
+          "Haftung"
+        ]
+      ]
+    }
+  },
+  "Cluster 115": {
+    "competency_questions": [
+      "Wie ist die Rechtslage, wenn die Feststellungswiderklage sich auf bestimmte Verpflichtungen bezieht?",
+      "Welche Rechtsfolgen hat die Verwendung einer vergaberechtswidrigen Klausel durch einen öffentlichen Auftraggeber?",
+      "Welche Rechtsgrundlage gilt für die Courtagepflicht des Auftraggebers im Rahmen eines Maklervertrages?",
+      "Wie kann ein Makler seine Courtagepflicht geltend machen, wenn er nicht beim Vertragsabschluss anwesend ist?",
+      "Welche Rechtsgrundlage gilt für die Beweislast bei der Geltendmachung von Ansprüchen aus einem Werkvertrag?",
+      "Welche Rechtsfolge tritt ein, wenn eine vertragswesentliche Pflicht von einem Erfüllungsgehilfen vorsätzlich oder grob fahrlässig verletzt wird?",
+      "Welche Rechtsgrundlage gilt für die Annahme, dass der Greek Bondholder Act wegen Verstoßes gegen den ordre public nicht angewendet werden dürfe?",
+      "Unter welchen Bedingungen kann ein Bürge die Einsicht in Urkunden verlangen, die ein zwischen ihm und einem anderen bestehenden Rechtsverhältnis beurkundet ist?",
+      "Welche Rechtsgrundlage gilt für den Regress des Frachtführers gegen den Auftraggeber im Falle von Zollgebühren?",
+      "Wie ist die Rechtslage, wenn die Feststellungswiderklage sich auf den Umfang einer Leistungspflicht bezieht?",
+      "Welche Rechtsfolge tritt ein, wenn Gesellschafter einer GmbH gegen die gesellschaftliche Treuepflicht verstoßen?",
+      "Welche Rolle spielt der Rechtsbindungswille bei der Abgrenzung zwischen einem Auftrags- und einem Gefälligkeitsverhältnis?",
+      "Welche Rechtsgrundlage gilt für die Verpflichtung eines Gesellschafters, das Erlangte herauszugeben?",
+      "Welche Rolle spielt die öffentliche Zustellung einer Klage, wenn die beglaubigte Abschrift nicht auf der Geschäftsstelle vorhanden ist?",
+      "Welche Rechtsfolge tritt ein, wenn der Vertragshändler seine Informationspflichten nicht erfüllt?",
+      "Wie ist der Satzungsrecht der Beklagten im Hinblick auf die Änderung der ZVK-L und die damit verbundene Systemumstellung in der Zusatzversorgung des öffentlichen Dienstes auszulegen?"
+    ],
+    "ontology": {
+      "classes": [
+        "Rechtslage",
+        "Klausel",
+        "Pflicht",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Vertrag",
+        "Gesellschaftsverhältnis",
+        "Zustellung",
+        "Verpflichtung",
+        "Rechtsbindungswille",
+        "Gesetz",
+        "Verstoß",
+        "ordre public",
+        "Bürge",
+        "Urkunde",
+        "Regress",
+        "Frachtführer",
+        "Auftraggeber",
+        "Leistungspflicht",
+        "Gesellschafter",
+        "Treuepflicht",
+        "ZVK-L",
+        "Systemumstellung",
+        "Zusatzversorgung"
+      ],
+      "properties": [
+        "beziehtSichAuf",
+        "hatRechtsfolge",
+        "giltFür",
+        "kannVerlangen",
+        "trittEin",
+        "spieltRolle",
+        "istRechtsgrundlage",
+        "istAuslegungsgegenstand",
+        "istVerpflichtung",
+        "führtZu",
+        "verstoßenGegen",
+        "istVerbindungMit",
+        "istBedingungFür",
+        "istVerpflichtungImRahmenVon",
+        "istRechtsfolgeImFalleVon",
+        "istRechtsgrundlageFür",
+        "istRechtsfolgeBei",
+        "istVerpflichtungDes",
+        "istRechtsfolgeImFallVon",
+        "istRechtsgrundlageFür",
+        "istRechtsfolgeImFallVon",
+        "istRechtsgrundlageFür",
+        "istAuslegungsgegenstandImHinblickAuf"
+      ],
+      "relationships": [
+        [
+          "Rechtslage",
+          "beziehtSichAuf",
+          "Feststellungswiderklage"
+        ],
+        [
+          "Klausel",
+          "hatRechtsfolge",
+          "Verwendung"
+        ],
+        [
+          "Rechtsfolge",
+          "trittEin",
+          "Verstoß"
+        ],
+        [
+          "Rechtsfolge",
+          "trittEin",
+          "Verletzung"
+        ],
+        [
+          "Bürge",
+          "kannVerlangen",
+          "Einsicht"
+        ],
+        [
+          "Regress",
+          "istRechtsfolgeImFallVon",
+          "Zollgebühren"
+        ],
+        [
+          "Rechtslage",
+          "beziehtSichAuf",
+          "Leistungspflicht"
+        ],
+        [
+          "Rechtsbindungswille",
+          "spieltRolle",
+          "Abgrenzung"
+        ],
+        [
+          "Zustellung",
+          "istVerbindungMit",
+          "Klage"
+        ],
+        [
+          "ZVK-L",
+          "istAuslegungsgegenstandImHinblickAuf",
+          "Satzungsrecht"
+        ]
+      ]
+    }
+  },
+  "Cluster 116": {
+    "competency_questions": [
+      "Welche Rolle spielt das niederländische Recht bei der Beurteilung eines Aufwendungsersatzanspruchs des Frachtführers gegen den Auftraggeber?",
+      "Welche Rolle spielt die Unterschrift des Empfängers bei der Haftung des Frachtführers?",
+      "Welche Rechte hat der Geschädigte gegenüber dem Sachverständigen, wenn dieser seinen vertraglichen Honoraranspruch geltend macht?",
+      "Welche Rolle spielt die unmittelbare Anwesenheit des Maklers beim Vertragsabschluss für den Courtageanspruch?",
+      "Welche Bedeutung hat die Unterzeichnung des Bauantrags durch den Geschäftsführer der Beklagten?",
+      "Welche Rechtsfolgen hat die Verjährung von Ansprüchen im italienischen Recht, wenn der Beklagte eine Firmenfortführung durchführt?",
+      "Wer ist verpflichtet, eine beglaubigte Abschrift der Klageschrift zuzustellen?",
+      "Wie kann die Beglaubigung einer Abschrift der Klageschrift vorgenommen werden?"
+    ],
+    "ontology": {
+      "classes": [
+        "Recht",
+        "Anspruch",
+        "Haftung",
+        "Vertrag",
+        "Beglaubigung",
+        "Rechtsfolge",
+        "Verjährung",
+        "Verpflichtung",
+        "Abschrift"
+      ],
+      "properties": [
+        "spieltRolle",
+        "beeinflusst",
+        "hatRechte",
+        "hatBedeutung",
+        "hatRechtsfolgen",
+        "istVerpflichtet",
+        "kannVorgenommenWerden"
+      ],
+      "relationships": [
+        [
+          "niederländischesRecht",
+          "spieltRolle",
+          "Aufwendungsersatzanspruch"
+        ],
+        [
+          "Unterschrift",
+          "beeinflusst",
+          "Haftung"
+        ],
+        [
+          "Geschädigter",
+          "hatRechte",
+          "Sachverständiger"
+        ],
+        [
+          "unmittelbareAnwesenheit",
+          "beeinflusst",
+          "Courtageanspruch"
+        ],
+        [
+          "Unterzeichnung",
+          "hatBedeutung",
+          "Bauantrag"
+        ],
+        [
+          "Verjährung",
+          "hatRechtsfolgen",
+          "italienischesRecht"
+        ],
+        [
+          "Verpflichtung",
+          "istVerpflichtet",
+          "Tustand"
+        ],
+        [
+          "Beglaubigung",
+          "kannVorgenommenWerden",
+          "Abschrift"
+        ]
+      ]
+    }
+  },
+  "Cluster 117": {
+    "competency_questions": [
+      "Wer ist verpflichtet, die vereinbarte Vergütung zu zahlen, wenn ein Vertrag nicht ordnungsgemäß gekündigt wurde?",
+      "Wer ist verpflichtet, den Ausgleichsanspruch nach § 304 AktG zu zahlen, wenn ein Beherrschungs- und Gewinnabführungsvertrag besteht?",
+      "Welche Rolle spielt die Einigkeit der Parteien bei der Änderung des Leistungsumfangs in einem Pauschalpreisvertrag?",
+      "Wer ist verpflichtet, den Pachtzins zu zahlen, wenn der Verpächter den nach dem Vertrag geschuldeten Gebrauch ganz oder teilweise nicht mehr gewährt?",
+      "Welche Bedeutung hat die ungekürzte Weiterzahlung des Pachtzinses für das Vertrauen der Vertragsparteien?",
+      "Wie ist das Äquivalenzprinzip im Zusammenhang mit der Zahlung einer Einmalprämie bei Vertragsschluss zu bewerten?",
+      "Welche Rechtsgrundlage gilt für die Verpflichtung zur Zahlung einer Einmalprämie bei Vertragsschluss?",
+      "Wer ist verpflichtet, den nicht ersparten Vergütungsanspruch nach einer teilweisen Vertragsaufhebung zu bezahlen?",
+      "Wer ist verpflichtet, eine Entschädigung zu zahlen, wenn der Anstellungsvertrag vor dem 2. Juni 1991 endet?",
+      "Wie ist der Pachtzins zu berechnen, wenn sich der Zwangsverwalter und die Vollstreckungsschuldnerin nicht auf eine quotenmäßige Verteilung einigen können?"
+    ],
+    "ontology": {
+      "classes": [
+        "Vertrag",
+        "Partei",
+        "Vergütung",
+        "Pachtzins",
+        "Anspruch",
+        "Pflicht",
+        "Vertragsschluss",
+        "Entschädigung"
+      ],
+      "properties": [
+        "verpflichtet",
+        "zahlt",
+        "schuldet",
+        "betrifft",
+        "giltFür",
+        "berechnetSichNach",
+        "endet"
+      ],
+      "relationships": [
+        [
+          "Vertrag",
+          "verpflichtet",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "zahlt",
+          "Vergütung"
+        ],
+        [
+          "Vertrag",
+          "betrifft",
+          "Vergütung"
+        ],
+        [
+          "Vertrag",
+          "giltFür",
+          "Pflicht"
+        ],
+        [
+          "Pflicht",
+          "schuldet",
+          "Vergütung"
+        ],
+        [
+          "Vertragsschluss",
+          "betrifft",
+          "Einmalprämie"
+        ],
+        [
+          "Einmalprämie",
+          "giltFür",
+          "Anspruch"
+        ],
+        [
+          "Vertrag",
+          "endet",
+          "Entschädigung"
+        ],
+        [
+          "Entschädigung",
+          "schuldet",
+          "Partei"
         ]
       ]
     }
