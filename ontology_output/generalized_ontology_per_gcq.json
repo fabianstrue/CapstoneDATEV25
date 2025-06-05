@@ -4,52 +4,58 @@
     "generalized_ontology": {
       "classes": [
         "Netzbetreiber",
-        "Signale",
         "Netz",
-        "Regelung",
-        "Recht",
-        "Bandbreite",
-        "Autorisierung"
+        "Verbot",
+        "Entschädigung",
+        "Rechtsgrundlage",
+        "Dienstleistung",
+        "Autorisierung",
+        "Rechtsfolge"
       ],
       "properties": [
-        "erfüllt",
+        "erfüllen",
         "verpflichtet",
-        "verbietet",
+        "verhindern",
         "gilt",
-        "spielt",
-        "sicherstellt",
-        "hat"
+        "verbieten",
+        "erlaubt",
+        "sicherstellen"
       ],
       "relationships": [
         [
           "Netzbetreiber",
-          "erfüllt",
-          "Recht"
+          "erfüllen",
+          "Verbot"
         ],
         [
           "Netzbetreiber",
           "verpflichtet",
-          "Regelung"
+          "Entschädigung"
         ],
         [
           "Netzbetreiber",
-          "verbietet",
-          "Nutzung"
+          "verhindern",
+          "Dienstleistung"
         ],
         [
-          "Recht",
+          "Netzbetreiber",
           "gilt",
-          "Netzbetreiber"
-        ],
-        [
-          "Bandbreite",
-          "spielt",
-          "Signaldurchleitung"
+          "Rechtsgrundlage"
         ],
         [
           "Netzbetreiber",
-          "sicherstellt",
+          "verbieten",
+          "ungeautorisierte Nutzung"
+        ],
+        [
+          "Netzbetreiber",
+          "erlaubt",
           "Autorisierung"
+        ],
+        [
+          "Netzbetreiber",
+          "sicherstellen",
+          "Rechtsfolge"
         ]
       ]
     }
@@ -61,78 +67,61 @@
       "ontology": {
         "classes": [
           "Kläger",
-          "Rechtsnorm",
+          "Rechtsstreit",
           "Rechtsschutzmöglichkeit",
           "Beklagter",
-          "Gericht"
+          "Recht"
         ],
         "properties": [
-          "erheben",
-          "erfüllt",
-          "ausgeschlossen",
-          "betrachtet",
-          "verneint",
-          "inanspruchnehmen",
-          "anwenden",
-          "nutzen",
-          "gilt",
-          "entscheiden"
+          "erhebenDarf",
+          "kannAlsKlägerAuffreten",
+          "kannAusgeschlossenWerden",
+          "betrachtetAlsStrohmann",
+          "verneintWird",
+          "inAnschlagNommen",
+          "argumentierenDass",
+          "giltFürDieDurchsetzung"
         ],
         "relationships": [
           [
             "Kläger",
-            "erheben",
-            "Rechtsklage"
-          ],
-          [
-            "Rechtsklage",
-            "erfüllt",
-            "Voraussetzungen"
+            "erhebenDarf",
+            "Rechtsstreit"
           ],
           [
             "Kläger",
-            "erfüllt",
-            "Voraussetzungen"
+            "kannAlsKlägerAuffreten",
+            "Rechtsverfahren"
           ],
           [
             "Kläger",
-            "ausgeschlossen",
+            "kannAusgeschlossenWerden",
             "Rechtsschutzmöglichkeit"
           ],
           [
             "Kläger",
-            "betrachtet",
-            "Rechtsgrundlagen"
+            "betrachtetAlsStrohmann",
+            "Rechtsschutzmöglichkeit"
           ],
           [
-            "Rechtsklage",
-            "verneint",
-            "Zulässigkeit"
+            "Rechtsstreit",
+            "verneintWird",
+            "Gründe"
           ],
           [
-            "Rechtsklage",
-            "inanspruchnehmen",
+            "Recht",
+            "inAnschlagNommen",
             "Kläger"
           ],
           [
             "Beklagter",
-            "argumentieren",
-            "Anwendung der Rechtsnorm"
+            "argumentierenDass",
+            "Kläger"
           ],
           [
-            "Beklagter",
-            "argumentieren",
-            "Nutzung der Rechtsnorm"
-          ],
-          [
-            "Rechtsnorm",
-            "gilt",
-            "Durchsetzung von Ansprüchen"
-          ],
-          [
-            "Gericht",
-            "entscheidet",
-            "Rechtsklage"
+            "Recht",
+            "giltFürDieDurchsetzung",
+            "Ansprüche"
           ]
         ]
       }
@@ -141,54 +130,54 @@
   "Cluster 10": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist ein Mieter zur Durchführung von Schönheitsreparaturen in einer Mietwohnung verpflichtet?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind die Vertragsparteien zu bestimmten Handlungen verpflichtet?",
+      "generalized_question": "Wann und in welchem Umfang ist eine Partei verpflichtet, bestimmte Handlungen im Rahmen eines Vertrages durchzuführen?",
       "ontology": {
         "classes": [
           "Vertragsklausel",
           "Vertrag",
-          "Vertragspartner",
+          "Partei",
           "Pflicht",
-          "Recht",
-          "Bedingung"
+          "Handlung",
+          "Recht"
         ],
         "properties": [
           "regelt",
-          "istVerpflichtetZu",
+          "verpflichtet",
           "betrifft",
-          "kannAbweichen",
-          "hatRecht",
-          "müssenErfülltSein"
+          "beeinflusst",
+          "bestimmt",
+          "erfüllt"
         ],
         "relationships": [
           [
             "Vertragsklausel",
             "regelt",
-            "Vertrag"
+            "Pflicht"
           ],
           [
-            "Vertragspartner",
-            "istVerpflichtetZu",
-            "Pflicht"
+            "Partei",
+            "verpflichtet",
+            "Handlung"
           ],
           [
             "Pflicht",
             "betrifft",
-            "Vertragspartner"
+            "Vertrag"
+          ],
+          [
+            "Handlung",
+            "beeinflusst",
+            "Vertrag"
           ],
           [
             "Vertragsklausel",
-            "kannAbweichen",
-            "Bedingung"
+            "bestimmt",
+            "Handlung"
           ],
           [
-            "Vertragspartner",
-            "hatRecht",
-            "Recht"
-          ],
-          [
-            "Bedingung",
-            "müssenErfülltSein",
-            "Vertrag"
+            "Partei",
+            "erfüllt",
+            "Pflicht"
           ]
         ]
       }
@@ -198,57 +187,161 @@
     "generalized_question": "Unter welchen Voraussetzungen und anhand welcher Kriterien ist die Vergütung im Rahmen eines Werkvertrags nach § 631 BGB zu bestimmen, wenn keine bestimmte Vergütung vereinbart wurde?",
     "generalized_ontology": {
       "classes": [
-        "Vertrag",
+        "Vergütungsregelung",
+        "Werkvertrag",
+        "Gericht",
         "Vergütung",
-        "Leistung",
-        "Vertragspartner",
-        "Rechtsnorm",
-        "Vergütungsregelung"
+        "Arbeitsleistung",
+        "Arbeitsvertrag",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Vertragserfüllung",
+        "Gegenleistung"
       ],
       "properties": [
-        "regelt",
-        "festlegen",
-        "betreffen",
+        "gilt",
+        "feststellen",
+        "auswirken",
         "bestimmen",
+        "berechnen",
         "ermitteln",
         "verpflichten",
-        "ermessen"
+        "gewähren"
       ],
       "relationships": [
         [
-          "Vertrag",
-          "regelt",
+          "Vergütungsregelung",
+          "gilt",
+          "Werkvertrag"
+        ],
+        [
+          "Gericht",
+          "feststellen",
           "Vergütung"
-        ],
-        [
-          "Vertragspartner",
-          "verpflichten",
-          "Leistung"
-        ],
-        [
-          "Vertrag",
-          "betreffen",
-          "Rechtsnorm"
         ],
         [
           "Vergütungsregelung",
-          "festlegen",
-          "Vergütung"
+          "auswirken",
+          "Arbeitsvertrag"
         ],
         [
-          "Vergütung",
+          "Arbeitsleistung",
           "bestimmen",
-          "Leistung"
-        ],
-        [
-          "Vergütung",
-          "ermitteln",
-          "Vergütungsregelung"
-        ],
-        [
-          "Vertrag",
-          "ermessen",
           "Vergütung"
+        ],
+        [
+          "Rechtsfolge",
+          "treten ein",
+          "Arbeitsvertrag"
+        ],
+        [
+          "Rechtsgrundlage",
+          "gilt",
+          "Bestimmung der Vergütung"
+        ],
+        [
+          "Vertragserfüllung",
+          "verpflichten",
+          "Gegenleistung"
+        ],
+        [
+          "Werkvertrag",
+          "ermitteln",
+          "übliche Vergütung"
+        ],
+        [
+          "Werkvertrag",
+          "bestimmen",
+          "Vergütung"
+        ],
+        [
+          "Rechtsgrundlage",
+          "verpflichten",
+          "Gewährung der Vergütung"
+        ]
+      ]
+    }
+  },
+  "Cluster 102": {
+    "generalized_question": "Unter welchen Voraussetzungen und wer ist verpflichtet, Kosten im Zusammenhang mit Rechtsstreitigkeiten oder Schadensersatzansprüchen zu tragen?",
+    "generalized_ontology": {
+      "classes": [
+        "Verpflichteter",
+        "Kosten",
+        "Haftung",
+        "Rechtsstreitigkeit",
+        "Schadensersatzanspruch",
+        "Rechtsverfolgung",
+        "Verpflichteter",
+        "Rechte",
+        "Verpflichtungsgrund",
+        "Kostenträger",
+        "Gerichtskosten",
+        "Steuervorteile",
+        "Ausschlussgrund"
+      ],
+      "properties": [
+        "verpflichtet",
+        "tragen",
+        "beeinflusst",
+        "erlangt",
+        "feststellen",
+        "beeinflusst",
+        "hat",
+        "bestimmen",
+        "gilt",
+        "beeinflusst"
+      ],
+      "relationships": [
+        [
+          "Verpflichteter",
+          "verpflichtet",
+          "Kosten"
+        ],
+        [
+          "Haftung",
+          "beeinflusst",
+          "Kosten"
+        ],
+        [
+          "Kostenträger",
+          "tragen",
+          "Kosten"
+        ],
+        [
+          "Rechtsverfolgung",
+          "beeinflusst",
+          "Kosten"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "beeinflusst",
+          "Kosten"
+        ],
+        [
+          "Verpflichteter",
+          "hat",
+          "Rechte"
+        ],
+        [
+          "Verpflichtungsgrund",
+          "bestimmen",
+          "Kosten"
+        ],
+        [
+          "Gerichtskosten",
+          "gilt",
+          "Verpflichteter"
+        ],
+        [
+          "Steuervorteile",
+          "beeinflusst",
+          "Kosten"
+        ],
+        [
+          "Ausschlussgrund",
+          "feststellen",
+          "Kosten"
         ]
       ]
     }
@@ -256,64 +349,73 @@
   "Cluster 103": {
     "generalized_question": "Unter welchen Voraussetzungen kann eine gerichtliche Entscheidung aufgrund mangelnder rechtlicher Voraussetzungen unwirksam sein oder welche Rechtsfolgen treten ein, wenn eine Partei ihre Rechte oder Pflichten nicht ordnungsgemäß ausführt?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen kann eine gerichtliche Entscheidung aufgrund mangelnder rechtlicher Voraussetzungen unwirksam sein oder welche Rechtsfolgen treten ein, wenn eine Partei ihre Rechte oder Pflichten nicht ordnungsgemäß ausführt?",
-      "ontology": {
-        "classes": [
+      "classes": [
+        "Rechtsnorm",
+        "Rechtsfolge",
+        "Rechtslage",
+        "Voraussetzung",
+        "Streitgegenstand",
+        "Prozesshandlung",
+        "Gerichtsentscheidung",
+        "Rechtskraft",
+        "Verjährung"
+      ],
+      "properties": [
+        "regelt",
+        "trittEin",
+        "beziehtSichAuf",
+        "istUnwirksam",
+        "beeinflusst",
+        "hindert",
+        "trittEin"
+      ],
+      "relationships": [
+        [
           "Rechtsnorm",
+          "regelt",
+          "Rechtsgebiet"
+        ],
+        [
           "Rechtsfolge",
-          "Rechtslage",
-          "Voraussetzung",
-          "Streitgegenstand",
-          "Klage",
-          "Gerichtsentscheidung",
-          "Verjährung"
-        ],
-        "properties": [
-          "giltFuer",
           "trittEin",
-          "beziehtSichAuf",
-          "istUnwirksam",
-          "istVerjährt",
-          "istNichterfüllt"
+          "RechtsfolgeFall"
         ],
-        "relationships": [
-          [
-            "Rechtsnorm",
-            "giltFuer",
-            "Fall"
-          ],
-          [
-            "Rechtsfolge",
-            "trittEin",
-            "Fall"
-          ],
-          [
-            "Streitgegenstand",
-            "beziehtSichAuf",
-            "Rechtsverhältnis"
-          ],
-          [
-            "Klage",
-            "istUnwirksam",
-            "MangelndeVoraussetzungen"
-          ],
-          [
-            "Gerichtsentscheidung",
-            "istUnwirksam",
-            "MangelndeVoraussetzungen"
-          ],
-          [
-            "Verjährung",
-            "istVerjährt",
-            "Recht"
-          ],
-          [
-            "Recht",
-            "istNichterfüllt",
-            "Pflicht"
-          ]
+        [
+          "Rechtslage",
+          "beziehtSichAuf",
+          "Streitfall"
+        ],
+        [
+          "Voraussetzung",
+          "istUnwirksam",
+          "Gerichtsentscheidung"
+        ],
+        [
+          "Streitgegenstand",
+          "beziehtSichAuf",
+          "Rechtsstreit"
+        ],
+        [
+          "Prozesshandlung",
+          "beeinflusst",
+          "Gerichtsentscheidung"
+        ],
+        [
+          "Gerichtsentscheidung",
+          "trittEin",
+          "Rechtskraft"
+        ],
+        [
+          "Rechtskraft",
+          "hindert",
+          "Wiederaufnahme"
+        ],
+        [
+          "Verjährung",
+          "trittEin",
+          "Verjährungsfall"
         ]
-      }
+      ]
     }
   },
   "Cluster 104": {
@@ -325,130 +427,87 @@
           "Gericht",
           "Entscheidung",
           "Rechtskraft",
-          "Klage",
-          "Zulässigkeit",
-          "Begründetheit"
+          "Klage"
         ],
         "properties": [
           "betrifft",
-          "hatRechtskraft",
-          "betrifftZulässigkeit",
-          "betrifftBegründetheit"
+          "hatBedeutung",
+          "istZulässig",
+          "hatAuswirkungen"
         ],
         "relationships": [
           [
-            "Entscheidung",
-            "hatRechtskraft",
-            "Rechtskraft"
+            "Gericht",
+            "betrifft",
+            "Entscheidung"
           ],
           [
             "Rechtskraft",
-            "betrifft",
+            "hatBedeutung",
+            "Entscheidung"
+          ],
+          [
+            "Rechtskraft",
+            "hatAuswirkungen",
             "Klage"
           ],
           [
-            "Klage",
-            "betrifftZulässigkeit",
-            "Zulässigkeit"
-          ],
-          [
-            "Klage",
-            "betrifftBegründetheit",
-            "Begründetheit"
+            "Gericht",
+            "istZulässig",
+            "Klage"
           ]
         ]
       }
     }
   },
-  "Cluster 105": {
-    "generalized_question": "Unter welchen Voraussetzungen und Pflichten haftet ein Unternehmer für Mängel eines von ihm erstellten Werkes, und welche Rechte hat der Besteller oder Kunde im Falle von Mängeln oder Verletzung von Hinweispflichten?",
+  "Cluster 106": {
+    "generalized_question": "Welche Rechtsfolgen hat die Unwirksamkeit oder Unbegründetheit einer Klage auf Schadensersatz oder Kündigungsfolgeschaden?",
     "generalized_ontology": {
-      "classes": [
-        "Verantwortlichkeit",
-        "Mangel",
-        "Werk",
-        "Vertragspartner",
-        "Recht",
-        "Pflicht",
-        "Vertragserfüllung",
-        "Rechtsfolge",
-        "Hinweispflicht",
-        "Beweislast"
-      ],
-      "properties": [
-        "hatVerantwortlichkeit",
-        "betrifft",
-        "hatPflicht",
-        "erfüllt",
-        "verweigert",
-        "hatRecht",
-        "eingeräumt",
-        "giltFür",
-        "trägt",
-        "verletzt"
-      ],
-      "relationships": [
-        [
-          "Verantwortlichkeit",
-          "hatVerantwortlichkeit",
-          "Mangel"
-        ],
-        [
-          "Mangel",
-          "betrifft",
-          "Werk"
-        ],
-        [
-          "Vertragspartner",
-          "hatPflicht",
-          "Verantwortlichkeit"
-        ],
-        [
-          "Vertragspartner",
-          "hatRecht",
-          "Hinweispflicht"
-        ],
-        [
-          "Hinweispflicht",
-          "betrifft",
-          "Werk"
-        ],
-        [
-          "Vertragspartner",
-          "erfüllt",
-          "Pflicht"
-        ],
-        [
-          "Pflicht",
-          "betrifft",
-          "Vertragserfüllung"
-        ],
-        [
-          "Verweigerung",
-          "betrifft",
-          "Mängelbeseitigung"
-        ],
-        [
-          "Mängelbeseitigung",
-          "betrifft",
-          "Werk"
-        ],
-        [
+      "generalized_question": "Welche Rechtsfolgen hat die Unwirksamkeit oder Unbegründetheit einer Klage auf Schadensersatz oder Kündigungsfolgeschaden?",
+      "ontology": {
+        "classes": [
+          "Schadensersatzanspruch",
+          "Klage",
+          "Kündigungsfolgeschaden",
           "Rechtsfolge",
-          "trittEin",
-          "Verweigerung"
+          "Rechtshängigkeit",
+          "Rechtskraft",
+          "Vertragspflichtverletzung"
         ],
-        [
-          "Vertragspartner",
-          "trägt",
-          "Beweislast"
+        "properties": [
+          "kann unbegründet sein",
+          "tritt ein",
+          "wird entzogen",
+          "kann geheilt werden"
         ],
-        [
-          "Beweislast",
-          "betrifft",
-          "Hinweispflicht"
+        "relationships": [
+          [
+            "Klage",
+            "kann unbegründet sein",
+            "Kündigungsfolgeschaden"
+          ],
+          [
+            "Klage",
+            "tritt ein",
+            "Rechtsfolge"
+          ],
+          [
+            "Schadensersatzanspruch",
+            "wird entzogen",
+            "Rechtshängigkeit"
+          ],
+          [
+            "Klage",
+            "kann geheilt werden",
+            "Rechtshängigkeit"
+          ],
+          [
+            "Vertragspflichtverletzung",
+            "führt zu",
+            "Rechtsfolge"
+          ]
         ]
-      ]
+      }
     }
   }
 }
