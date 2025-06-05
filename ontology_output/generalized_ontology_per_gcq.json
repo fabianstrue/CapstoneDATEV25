@@ -1,461 +1,449 @@
 {
   "Cluster 0": {
-    "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Signaldurchleitung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+    "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Nutzung seines Netzes durch andere Betreiber zu kontrollieren und zu regulieren?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Signaldurchleitung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+      "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Netzbetreiber, um die Nutzung seines Netzes durch andere Betreiber zu kontrollieren und zu regulieren?",
       "ontology": {
         "classes": [
           "Netzbetreiber",
-          "Signale",
           "Netz",
-          "Eigentum",
-          "Entschädigung",
-          "Regelungsmittel",
-          "Rechtsgrundlage",
-          "Bandbreite",
+          "Regelung",
+          "Nutzung",
           "Autorisierung",
-          "Rechtsfolgen"
+          "Rechtsfolge"
         ],
         "properties": [
-          "erfülltVoraussetzungen",
-          "greiftEin",
-          "gewährtDuldung",
-          "beeinträchtigtDurchleitung",
-          "nutztNetz",
-          "verbietetNutzung",
-          "entsprichtBandbreite",
-          "erfordertNutzung",
-          "autorisiertNutzung",
-          "hatRechtsfolgen"
+          "erfüllenVoraussetzungen",
+          "kontrollieren",
+          "regulieren",
+          "nutzen",
+          "hatRecht",
+          "hatRechtsfolge"
         ],
         "relationships": [
           [
             "Netzbetreiber",
-            "erfülltVoraussetzungen",
-            "Rechtsgrundlage"
-          ],
-          [
-            "Signale",
-            "greifenEin",
-            "Eigentum"
+            "erfüllenVoraussetzungen",
+            "Regelung"
           ],
           [
             "Netzbetreiber",
-            "gewährtDuldung",
-            "Entschädigung"
+            "kontrollieren",
+            "Nutzung"
           ],
           [
             "Netzbetreiber",
-            "beeinträchtigtDurchleitung",
-            "UnerwünschteSignale"
+            "regulieren",
+            "Nutzung"
           ],
           [
             "Netzbetreiber",
-            "nutztNetz",
-            "Rechtsgrundlage"
-          ],
-          [
-            "Eigentümer",
-            "verbietetNutzung",
-            "Netz"
-          ],
-          [
-            "Netz",
-            "entsprichtBandbreite",
-            "VorgelagertesNetz"
-          ],
-          [
-            "Signale",
-            "erfordernNutzung",
-            "Netz"
+            "nutzen",
+            "Autorisierung"
           ],
           [
             "Netzbetreiber",
-            "autorisiertNutzung",
-            "Empfänger"
-          ],
-          [
-            "UnerlaubteSignaldurchleitung",
-            "hatRechtsfolgen",
-            "Rechtsfolgen"
+            "hatRechtsfolge",
+            "Rechtsfolge"
           ]
         ]
       }
     }
   },
-  "Cluster 1": {
-    "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
+  "Cluster 10": {
+    "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist ein Mieter zur Durchführung von Schönheitsreparaturen in einer Mietwohnung verpflichtet?",
     "generalized_ontology": {
-      "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
+      "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist ein Mieter zur Durchführung von Schönheitsreparaturen in einer Mietwohnung verpflichtet?",
       "ontology": {
         "classes": [
-          "Kläger",
-          "Patent",
-          "Urheberrechtsverletzung",
-          "Rechtsnorm"
+          "Mietvertrag",
+          "Mieter",
+          "Vermieter",
+          "Schönheitsreparaturpflicht",
+          "Frist",
+          "Abnutzungsgrad",
+          "Recht"
         ],
         "properties": [
-          "erheben",
-          "angegriffen",
-          "verletzt",
-          "regelt"
+          "regelt",
+          "istVerpflichtet",
+          "kannSicherstellen",
+          "spieltRolle",
+          "kannAbweichen",
+          "hatRechte",
+          "giltAlsRechtsgrundlage"
         ],
         "relationships": [
           [
-            "Kläger",
-            "erheben",
-            "Patentnichtigkeitsklage"
-          ],
-          [
-            "Patentnichtigkeitsklage",
-            "angegriffen",
-            "Patent"
-          ],
-          [
-            "Kläger",
-            "erheben",
-            "KlageAufUrheberrechtsverletzung"
-          ],
-          [
-            "KlageAufUrheberrechtsverletzung",
-            "angegriffen",
-            "Urheberrechtsverletzung"
-          ],
-          [
-            "Urheberrechtsverletzung",
-            "verletzt",
-            "Recht"
-          ],
-          [
-            "Recht",
+            "Mietvertrag",
             "regelt",
-            "Rechtsnorm"
+            "Schönheitsreparaturpflicht"
+          ],
+          [
+            "Mieter",
+            "istVerpflichtet",
+            "Schönheitsreparaturpflicht"
+          ],
+          [
+            "Abnutzungsgrad",
+            "spieltRolle",
+            "Frist"
+          ],
+          [
+            "Mieter",
+            "kannAbweichen",
+            "Frist"
+          ],
+          [
+            "Mieter",
+            "hatRechte",
+            "angemesseneFristen"
+          ],
+          [
+            "Schönheitsreparaturpflicht",
+            "giltAlsRechtsgrundlage",
+            "Mieter"
           ]
         ]
       }
     }
   },
   "Cluster 100": {
-    "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+    "generalized_question": "Unter welchen Voraussetzungen und anhand welcher Kriterien ist die Vergütung im Rahmen eines Werkvertrags nach § 631 BGB zu bestimmen, wenn keine bestimmte Vergütung vereinbart wurde?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+      "generalized_question": "Unter welchen Voraussetzungen und anhand welcher Kriterien ist die Vergütung im Rahmen eines Werkvertrags nach § 631 BGB zu bestimmen, wenn keine bestimmte Vergütung vereinbart wurde?",
       "ontology": {
         "classes": [
-          "Anspruchsberechtigter",
-          "Anspruchsgegner",
-          "Verjährungsfrist",
-          "Schadensersatzanspruch",
-          "Aufwendungsersatzanspruch",
-          "Ausgleichsanspruch",
-          "Verjährung",
-          "Frist"
+          "Vertragspartei",
+          "Vergütungsregelung",
+          "Werkvertrag",
+          "Vergütungsanspruch",
+          "Bauzeit",
+          "Gegenleistung"
         ],
         "properties": [
-          "begehrt",
-          "verjährungsfrei",
-          "geltendmacht",
-          "beginnt",
-          "hinschieben",
-          "einhalten",
-          "verzögern",
-          "ablaufen",
-          "verzichten"
+          "vereinbaren",
+          "bestimmen",
+          "festlegen",
+          "ermitteln",
+          "betrifft",
+          "gilt",
+          "erfüllen",
+          "erbringen"
         ],
         "relationships": [
           [
-            "Anspruchsberechtigter",
-            "begehrt",
-            "Anspruchsgegner"
+            "Vertragspartei",
+            "vereinbaren",
+            "Vergütungsregelung"
           ],
           [
-            "Anspruchsberechtigter",
-            "geltendmacht",
-            "Schadensersatzanspruch",
-            "Aufwendungsersatzanspruch",
-            "Ausgleichsanspruch"
+            "Vergütungsregelung",
+            "bestimmen",
+            "Vergütungsanspruch"
           ],
           [
-            "Anspruchsberechtigter",
-            "verjährungsfrei",
-            "Verjährungsfrist"
+            "Vergütungsanspruch",
+            "betrifft",
+            "Werkvertrag"
           ],
           [
-            "Verjährungsfrist",
-            "beginnt",
-            "Anspruch"
+            "Werkvertrag",
+            "gilt",
+            "Bauzeit"
           ],
           [
-            "Verjährungsfrist",
-            "hinschieben",
-            "Anspruch"
+            "Bauzeit",
+            "bestimmen",
+            "Vergütungsanspruch"
           ],
           [
-            "Anspruch",
-            "einhalten",
-            "Frist"
+            "Vertragspartei",
+            "erfüllen",
+            "Gegenleistung"
           ],
           [
-            "Frist",
-            "verzögern",
-            "Anspruch"
+            "Gegenleistung",
+            "betrifft",
+            "Vergütungsanspruch"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 101": {
+    "generalized_question": "Unter welchen Voraussetzungen kann eine Rechtsfolge trotz eines Formmangels oder einer Unwirksamkeit eintreten oder geheilt werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen kann eine Rechtsfolge trotz eines Formmangels oder einer Unwirksamkeit eintreten oder geheilt werden?",
+      "ontology": {
+        "classes": [
+          "Rechtsgeschäft",
+          "Formmangel",
+          "Willensmangel",
+          "Heilung",
+          "Rechtsfolge"
+        ],
+        "properties": [
+          "betrifft",
+          "kann",
+          "eintreten",
+          "geheilt",
+          "werden"
+        ],
+        "relationships": [
+          [
+            "Rechtsgeschäft",
+            "betrifft",
+            "Formmangel"
           ],
           [
-            "Frist",
-            "ablaufen",
-            "Anspruch"
+            "Rechtsgeschäft",
+            "betrifft",
+            "Willensmangel"
           ],
           [
-            "Anspruchsberechtigter",
-            "verzichten",
-            "Anspruch"
+            "Rechtsgeschäft",
+            "kann",
+            "Rechtsfolge"
+          ],
+          [
+            "Rechtsfolge",
+            "eintreten",
+            "trotz"
+          ],
+          [
+            "Rechtsfolge",
+            "geheilt",
+            "werden"
           ]
         ]
       }
     }
   },
   "Cluster 102": {
-    "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
+    "generalized_question": "Unter welchen Voraussetzungen und wer ist verpflichtet, Kosten im Zusammenhang mit Rechtsstreitigkeiten oder Schadensersatzansprüchen zu tragen?",
     "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
+      "generalized_question": "Unter welchen Voraussetzungen und wer ist verpflichtet, Kosten im Zusammenhang mit Rechtsstreitigkeiten oder Schadensersatzansprüchen zu tragen?",
       "ontology": {
         "classes": [
-          "Vergleich",
-          "Prozessvergleich",
-          "Widerruf",
-          "Partei",
-          "Gericht"
+          "Verpflichteter",
+          "Kosten",
+          "Haftung",
+          "Schadensersatzanspruch",
+          "Rechtsstreitigkeit",
+          "Kläger",
+          "Beklagter"
         ],
         "properties": [
-          "kannWiderrufenWerden",
-          "istWirksam",
-          "erfülltVoraussetzungen"
+          "istVerpflichtet",
+          "beinhaltet",
+          "führtZu",
+          "hatRechte",
+          "hatVerpflichtungen"
         ],
         "relationships": [
           [
-            "Prozessvergleich",
-            "kannWiderrufenWerden",
-            "Partei"
+            "Verpflichteter",
+            "istVerpflichtet",
+            "Kosten"
           ],
           [
-            "Prozessvergleich",
-            "kannWiderrufenWerden",
-            "Gericht"
+            "Kosten",
+            "beinhaltet",
+            "Rechtsstreitigkeit"
           ],
           [
-            "Prozessvergleich",
-            "istWirksam",
-            "Vergleich"
+            "Haftung",
+            "führtZu",
+            "Schadensersatzanspruch"
           ],
           [
-            "Widerruf",
-            "erfülltVoraussetzungen",
-            "Prozessvergleich"
+            "Schadensersatzanspruch",
+            "hatRechte",
+            "Kläger"
+          ],
+          [
+            "Kläger",
+            "hatVerpflichtungen",
+            "Beklagter"
           ]
         ]
       }
     }
   },
   "Cluster 103": {
-    "generalized_question": "Welche Auswirkungen hat die Art und Weise der Zustellung von Urteilen oder Gutachten auf den Lauf von Fristen und die Wirksamkeit von Entscheidungen?",
+    "generalized_question": "Unter welchen Voraussetzungen kann eine gerichtliche Entscheidung aufgrund mangelnder rechtlicher Voraussetzungen unwirksam sein oder welche Rechtsfolgen treten ein, wenn eine Partei ihre Rechte oder Pflichten nicht ordnungsgemäß ausführt?",
     "generalized_ontology": {
-      "generalized_question": "Welche Auswirkungen hat die Art und Weise der Zustellung von Urteilen oder Gutachten auf den Lauf von Fristen und die Wirksamkeit von Entscheidungen?",
+      "generalized_question": "Unter welchen Voraussetzungen kann eine gerichtliche Entscheidung aufgrund mangelnder rechtlicher Voraussetzungen unwirksam sein oder welche Rechtsfolgen treten ein, wenn eine Partei ihre Rechte oder Pflichten nicht ordnungsgemäß ausführt?",
       "ontology": {
         "classes": [
-          "Zustellungsart",
-          "Frist",
-          "Entscheidung",
-          "Urteil",
-          "Gutachten"
+          "Rechtsgrundlage",
+          "Rechtsfolge",
+          "Rechtslage",
+          "Voraussetzung",
+          "Streitgegenstand",
+          "Partei",
+          "Rechtsakt"
         ],
         "properties": [
-          "beeinflusst",
-          "wirksam",
-          "läuft"
+          "giltFuer",
+          "trittEin",
+          "beziehtSichAuf",
+          "istUnwirksam",
+          "istVerletzlich"
         ],
         "relationships": [
           [
-            "Zustellungsart",
-            "beeinflusst",
-            "Frist"
+            "Rechtsgrundlage",
+            "giltFuer",
+            "Rechtsakt"
           ],
           [
-            "Frist",
-            "läuft",
-            "Entscheidung"
+            "Rechtsfolge",
+            "trittEin",
+            "Rechtsakt"
           ],
           [
-            "Entscheidung",
-            "wirksam",
-            "Urteil"
+            "Rechtslage",
+            "beziehtSichAuf",
+            "Streitgegenstand"
           ],
           [
-            "Entscheidung",
-            "wirksam",
-            "Gutachten"
+            "Voraussetzung",
+            "istUnwirksam",
+            "Rechtsakt"
+          ],
+          [
+            "Streitgegenstand",
+            "istVerletzlich",
+            "Partei"
+          ],
+          [
+            "Partei",
+            "beziehtSichAuf",
+            "Rechtsakt"
           ]
         ]
       }
     }
   },
   "Cluster 104": {
-    "generalized_question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+    "generalized_question": "Welche Bedeutung hat die Rechtskraft einer Entscheidung für die Zulässigkeit und Begründetheit einer neuen Klage?",
     "generalized_ontology": {
-      "generalized_question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+      "generalized_question": "Welche Bedeutung hat die Rechtskraft einer Entscheidung für die Zulässigkeit und Begründetheit einer neuen Klage?",
       "ontology": {
         "classes": [
-          "RechtlicheVoraussetzung",
-          "Beweis",
-          "Beweislast",
-          "Beweismittel",
           "Gericht",
-          "Parteien",
-          "Beweisverfahren"
+          "Entscheidung",
+          "Klage",
+          "Rechtskraft"
         ],
         "properties": [
-          "mussErfülltSein",
-          "mussErbrachtWerden",
-          "führtZu",
+          "betrifft",
           "hatBedeutung",
-          "istVerantwortlich",
-          "istGegenstandVon"
+          "istZulässig",
+          "istBegründet"
         ],
         "relationships": [
           [
-            "RechtlicheVoraussetzung",
-            "mussErfülltSein",
-            "Beweisverfahren"
-          ],
-          [
-            "Beweis",
-            "mussErbrachtWerden",
-            "Beweisverfahren"
-          ],
-          [
-            "Beweislast",
-            "istVerantwortlich",
-            "Parteien"
-          ],
-          [
-            "Beweismittel",
-            "führtZu",
-            "Beweis"
-          ],
-          [
             "Gericht",
-            "istGegenstandVon",
-            "Beweisverfahren"
+            "betrifft",
+            "Entscheidung"
+          ],
+          [
+            "Entscheidung",
+            "hatBedeutung",
+            "Rechtskraft"
+          ],
+          [
+            "Klage",
+            "betrifft",
+            "Entscheidung"
+          ],
+          [
+            "Rechtskraft",
+            "hatBedeutung",
+            "Klage"
+          ],
+          [
+            "Klage",
+            "istZulässig",
+            "Entscheidung"
+          ],
+          [
+            "Klage",
+            "istBegründet",
+            "Entscheidung"
           ]
         ]
       }
     }
   },
   "Cluster 105": {
-    "generalized_question": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
+    "generalized_question": "Unter welchen Voraussetzungen und Pflichten haftet ein Unternehmer für Mängel eines von ihm erstellten Werkes, und welche Rechte hat der Besteller oder Kunde im Falle von Mängeln oder Verletzung von Hinweispflichten?",
     "generalized_ontology": {
-      "generalized_question": "Welche Verpflichtungen und Rechte bestehen im Zusammenhang mit der Überwachung, Verwendung, Herausgabe und Überprüfung von Geldmitteln sowie der Einhaltung von satzungsgemäßen Vorgaben und Mindestangaben in Rechnungen?",
+      "generalized_question": "Unter welchen Voraussetzungen und Pflichten haftet ein Unternehmer für Mängel eines von ihm erstellten Werkes, und welche Rechte hat der Besteller oder Kunde im Falle von Mängeln oder Verletzung von Hinweispflichten?",
       "ontology": {
         "classes": [
-          "Zahlungsempfänger",
-          "Geldmittel",
-          "Rechtsvorschrift",
-          "Verbindlichkeit",
-          "Dritter"
+          "Haftung",
+          "Mangel",
+          "Arbeit",
+          "Kunde",
+          "Unternehmer",
+          "Recht",
+          "Pflicht",
+          "Rechtsfolge"
         ],
         "properties": [
-          "überwacht",
-          "verwendet",
-          "herausgibt",
-          "überprüft",
-          "einhält",
-          "erfüllt",
-          "verlangt"
+          "istVerantwortlichFuer",
+          "hatHinweispflicht",
+          "kannRechteGeltendMachen",
+          "istVonPflichtFreigestellt",
+          "trittEin",
+          "hatRecht",
+          "wirdEingeraumt",
+          "giltFuer"
         ],
         "relationships": [
           [
-            "Zahlungsempfänger",
-            "überwacht",
-            "Geldmittel"
+            "Haftung",
+            "istVerantwortlichFuer",
+            "Mangel"
           ],
           [
-            "Zahlungsempfänger",
-            "verwendet",
-            "Geldmittel"
+            "Unternehmer",
+            "hatHinweispflicht",
+            "Kunde"
           ],
           [
-            "Zahlungsempfänger",
-            "herausgibt",
-            "Geldmittel"
+            "Kunde",
+            "kannRechteGeltendMachen",
+            "Mängelbeseitigung"
           ],
           [
-            "Zahlungsempfänger",
-            "überprüft",
-            "Rechnungsangaben"
+            "Unternehmer",
+            "istVonPflichtFreigestellt",
+            "Vertragserfüllung"
           ],
           [
-            "Zahlungsempfänger",
-            "einhält",
-            "Rechtsvorschrift"
+            "Rechtsfolge",
+            "trittEin",
+            "Pflichtverletzung"
           ],
           [
-            "Verbindlichkeit",
-            "erfüllt",
-            "Pflichten"
+            "Kunde",
+            "hatRecht",
+            "Widerrufsrecht"
           ],
           [
-            "Dritter",
-            "verlangt",
-            "Zahlung"
-          ]
-        ]
-      }
-    }
-  },
-  "Cluster 106": {
-    "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit zur Erprobung an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
-    "generalized_ontology": {
-      "generalized_question": "Unter welchen Voraussetzungen und Bedingungen kann ein Richter auf Lebenszeit zur Erprobung an ein Oberlandesgericht abgeordnet werden, und welche Rechte hat er dabei?",
-      "ontology": {
-        "classes": [
-          "Richter",
-          "Gericht",
-          "Richteramt",
-          "Erprobungsphase",
-          "Dienstaufsichtsbehörde",
-          "Zustimmung"
-        ],
-        "properties": [
-          "wirdAbgeordnet",
-          "wirdGewährleistet",
-          "wirdBerücksichtigt",
-          "nimmtAufgabenWahr",
-          "unterliegtWeisungen",
-          "kannVerweigern"
-        ],
-        "relationships": [
-          [
-            "Richter",
-            "wirdAbgeordnet",
-            "Gericht"
+            "Rechtsfolge",
+            "wirdEingeraumt",
+            "Widerrufsrecht"
           ],
           [
-            "Richter",
-            "wirdGewährleistet",
-            "Erprobungsphase"
-          ],
-          [
-            "Erprobungsphase",
-            "wirdBerücksichtigt",
-            "Richteramt"
-          ],
-          [
-            "Richter",
-            "unterliegtWeisungen",
-            "Dienstaufsichtsbehörde"
-          ],
-          [
-            "Richter",
-            "kannVerweigern",
-            "Zustimmung"
+            "Haftung",
+            "giltFuer",
+            "Mängelbeseitigung"
           ]
         ]
       }
