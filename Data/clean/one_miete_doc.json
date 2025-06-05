@@ -1,0 +1,103 @@
+{
+    "schema": "rspvwa",
+    "dokument_art": [
+        "Urteil"
+    ],
+    "dokument_typ": [
+        "Obere Rechtsprechung"
+    ],
+    "dokument_nummer": [
+        "1590043"
+    ],
+    "bibliographische-angaben": {
+        "institution": [
+            "Bundesgerichtshof"
+        ],
+        "aktenzeichen": [
+            "VIII-ZR-234/13"
+        ],
+        "datum": [
+            "2014-05-07"
+        ],
+        "fundstelle_kuerzel": [
+            "MDR-2014-0704",
+            "ZIP-2014-0049",
+            "NJW-2014-2496",
+            "NZM-2014-0551"
+        ],
+        "vorinstanz": [
+            "AG",
+            "LG"
+        ],
+        "norm_vorinstanz_aktenzeichen": [
+            "Bonn-vom-21/11",
+            "201-C-361/12",
+            "Bonn-vom-25/07"
+        ],
+        "norm_kuerzel": [
+            "BGB:280/1",
+            "BGB:307",
+            "BGB:551/1",
+            "BGB:551/3/3",
+            "BGB:551/4"
+        ]
+    },
+    "text": {
+        "titel": [
+            "Unzulässigkeit der Verwertung einer Mietkaution\nwährend des laufenden Mietverhältnisses bei streitigen Forderungen des Vermieters"
+        ],
+        "entscheidungsinhalt": {
+            "leitsatz": [
+                "Während des laufenden Mietverhältnisses darf der Vermieter eine Mietsicherheit wegen streitiger Forderungen gegen den Mieter nicht verwerten."
+            ],
+            "gruende": {
+                "gruende": [
+                    "Die Revision hat keinen Erfolg.",
+                    "I.",
+                    "Das Berufungsgericht hat im Wesentlichen ausgeführt:",
+                    "Die Klägerin habe einen Anspruch auf Wiederauffüllung und insolvenzsichere Anlage der Mietkaution aus § 551 Abs. 3 BGB. Der Beklagte sei nicht berechtigt gewesen, während des Mietverhältnisses wegen der hier streitigen Mietforderungen auf die Kaution zuzugreifen. Nach überwiegender Auffassung, der sich die Kammer anschließe, dürfe der Vermieter Befriedigung aus der Kaution während des Mietverhältnisses grundsätzlich nur dann suchen, wenn seine Forderung unbestritten oder rechtskräftig festgestellt sei oder die Verrechnung im Interesse des Mieters liege.",
+                    "Der Vermieter verwalte während der Mietzeit aufgrund der Sicherungsabrede fremdes Vermögen. Mangels anderer Vereinbarungen der Parteien entspreche das eingeschränkte Befriedigungsrecht des Vermieters der wechselseitigen Interessenlage. Der Mieter werde regelmäßig keine Mietsicherheit hingeben wollen, an der sich der Vermieter während der Mietzeit ungehindert bedienen könne, obwohl der Mieter die vermeintlichen Gegenansprüche in Abrede stelle. Der Mieter müsste auf Wiederauffüllung des Kautionskontos klagen, wobei die Kaution selbst in der Insolvenz des Vermieters entgegen § 551 Abs. 3 BGB nicht mehr gesichert wäre. Eine solche Auslegung eines zur Verwertung der Kaution während der Mietzeit schweigenden Mietvertrages entspräche nicht den Grundsätzen des § 157 BGB und führte überdies dazu, dass zahlreiche Prozesse zu erwarten seien, in denen das Bestehen und die vermeintliche Fälligkeit der Forderung des Vermieters inzident geprüft werden müssten.",
+                    "Auf die Zusatzvereinbarung zu § 7 des Mietvertrages könne sich der Beklagte nicht mit Erfolg berufen. Es handele sich um eine vom Beklagten gestellte und für eine Vielzahl von Verträgen vorformulierte Vertragsbedingung. Die Klausel sei gemäß § 307 BGB unwirksam, soweit sie den Vermieter dazu ermächtige, sich auch wegen streitiger und nicht rechtskräftig festgestellter Ansprüche aus der Kaution zu befriedigen. Eine Auslegung der Formularklausel, die dem Vermieter dieses gestatte, verstoße gegen das in § 551 Abs. 3 BGB postulierte Leitbild der Insolvenzsicherheit der Mietkaution.",
+                    "II.",
+                    "Diese Beurteilung hält rechtlicher Nachprüfung stand, so dass die Revision zurückzuweisen ist.",
+                    "Die Klägerin hat gemäß § 280 Abs. 1, § 551 BGB Anspruch auf Wiedergutschrift der Kaution, weil der Beklagte entgegen § 551 Abs. 1, 3, 4 BGB und damit zu Unrecht auf die Mietsicherheit zugegriffen hat und deshalb verpflichtet ist, sie dem Kautionskonto wieder gutzuschreiben. Der Beklagte war nicht berechtigt, die Kautionssumme während des laufenden Mietverhältnisses wegen der von der Klägerin bestrittenen Mietforderungen in Anspruch zu nehmen, denn sein Vorgehen widerspricht, wie das Berufungsgericht zutreffend angenommen hat, dem in § 551 Abs. 3 BGB zum Ausdruck gekommenen Treuhandcharakter der Mietkaution. Auf die Zusatzvereinbarung zu § 7 des Mietvertrags kann der Beklagte sich daher nicht berufen (§ 551 Abs. 4 BGB).",
+                    "1. Anders als die Revision meint, dient die Mietkaution nicht dazu, dem Vermieter eine Verwertungsmöglichkeit zum Zwecke schneller Befriedigung behaupteter Ansprüche gegen den Mieter während des laufenden Mietverhältnisses zu eröffnen. Gemäß § 551 Abs. 3 Satz 3 BGB hat der Vermieter die ihm als Sicherheit überlassene Geldsumme getrennt von seinem Vermögen anzulegen. Mit der Pflicht zur treuhänderischen Sonderung der vom Mieter erbrachten Kaution wollte der Gesetzgeber sicherstellen, dass der Mieter nach Beendigung des Mietverhältnisses auch in der Insolvenz des Vermieters ungeschmälert auf die Sicherheitsleistung zurückgreifen kann, soweit dem Vermieter keine gesicherten Ansprüche zustehen (BGH, Urteil vom 20. Dezember 2007 -",
+                    "2. Das Sicherungsbedürfnis des Vermieters wird, anders als die Revision meint, dadurch nicht beeinträchtigt, denn die zu seinen Gunsten vereinbarte Sicherheit bleibt dem Vermieter erhalten. Entgegen der Ansicht der Revision spricht auch das Senatsurteil vom 12. Januar 1972 (",
+                    "Es bedarf schließlich keiner Entscheidung, ob -wie die Revision meint -der Vermieter berechtigt ist, die Kaution nach Vertragsende auch wegen einer streitigen Forderung zu verwerten (ablehnend Staudinger/Emmerich, aaO, § 551 Rn. 31; anders Palandt/Weidenkaff, aaO), denn eine solche Fallgestaltung ist hier nicht gegeben."
+                ]
+            },
+            "norm_literatur_fundstelle": [
+                "NJW-2010-0059",
+                "NZM-2004-0298",
+                "NZM-2008-0685",
+                "NZM-2001-0737",
+                "NZM-2006-0601",
+                "NZM-2002-1015",
+                "WM-1972-0335"
+            ]
+        },
+        "tatbestand": {
+            "tatbestand": [
+                "Die Klägerin ist Mieterin einer Wohnung des Beklagten. Entsprechend § 7 des am 3. Mai 2009 geschlossenen Mietvertrags entrichtete die Klägerin eine Kaution in Höhe von 1.400 €. Eine Zusatzvereinbarung der Parteien zu § 7 des Mietvertrags bestimmt:",
+                "\"Der Vermieter kann sich wegen seiner fälligen Ansprüche bereits während des Mietverhältnisses aus der Kaution befriedigen. Der Mieter ist in diesem Fall verpflichtet, die Kautionssumme wieder auf den ursprünglichen Betrag zu erhöhen. [...]\"",
+                "Später machte die Klägerin eine Mietminderung geltend. Wegen der streitigen Mietforderung ließ der Beklagte sich am 15. Juni 2012 - während des laufenden Mietverhältnisses - das Kautionsguthaben auszahlen.",
+                "Die Klägerin verlangt, den Betrag wieder dem Kautionskonto gutzuschreiben und insolvenzfest anzulegen. Das Amtsgericht hat der Klage stattgegeben. Das Berufungsgericht hat die Berufung des Beklagten zurückgewiesen. Mit der vom Berufungsgericht zugelassenen Revision verfolgt der Beklagte sein Klageabweisungsbegehren weiter."
+            ]
+        },
+        "norm_az": [
+            "VIII-ZR-26/71"
+        ]
+    },
+    "allgemeine-angaben": {
+        "rthema": [
+            "Schadensersatz",
+            "SchuldrechtAT",
+            "Miete Pacht"
+        ]
+    },
+    "interne-angaben": {
+        "quelle": [
+            "Deubner"
+        ]
+    }
+}

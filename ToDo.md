@@ -46,4 +46,12 @@ Legal Institution	Versicherung, Gericht
 Legal Object/Event	Mängelrüge, Vertragsleistung
 
 
+Website Fragen hochladen: 
+Feedback-Loop: Nutzer könnten bewerten, ob eine vorgeschlagene CQ gut gepasst hat → Verbesserung der Embedding-Suche durch feingetunte Modelle. Man könnte vielleicht auch die fragen der Nutzer benutzen, um in Zukunft die Ontologien zu erstellen.
+Visualisierung der Ontologie: Nutze z. B. WebVOWL oder Graph-basiertes UI zur ansprechenden Darstellung.
+Dokumentenverarbeitung: NLP-gestützte Informationsextraktion (z. B. mit spaCy oder langchain) zur automatischen Instanziierung von Klassen/Properties.
+Kontext-Persistenz: Falls der Nutzer öfter kommt, könnte das System seinen bisherigen „Fragefokus“ lernen und relevantere Vorschläge liefern.
+Automatische CQ-Generierung: Vielleicht lassen sich aus dem hochgeladenen Dokument sogar automatisch passende neue CQs generieren.
+
+
 
