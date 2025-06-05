@@ -1,0 +1,380 @@
+{
+  "Cluster 0": {
+    "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Kabelnetzbetreiber, um die Signaldurchleitung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Netzbetreiber, um die Signalübertragung durch das Netz eines anderen Betreibers zu kontrollieren und zu regulieren?",
+      "ontology": {
+        "classes": [
+          "Netzbetreiber",
+          "Signale",
+          "Netz",
+          "Eigentum",
+          "Duldung",
+          "Entschädigung",
+          "Rechtsgrundlage",
+          "Eigentumsbeeinträchtigung",
+          "Bandbreite",
+          "Autorisierung",
+          "Rechtsfolgen"
+        ],
+        "properties": [
+          "verbieten",
+          "erfüllen",
+          "gewähren",
+          "verhindern",
+          "nutzen",
+          "dulden",
+          "entsprechen",
+          "erfordern",
+          "leiten"
+        ],
+        "relationships": [
+          [
+            "Netzbetreiber",
+            "verbieten",
+            "Signalübertragung"
+          ],
+          [
+            "Signalübertragung",
+            "erfüllen",
+            "Voraussetzungen"
+          ],
+          [
+            "Netzbetreiber",
+            "gewähren",
+            "Duldung"
+          ],
+          [
+            "Duldung",
+            "erfordern",
+            "angemessene Entschädigung"
+          ],
+          [
+            "Netzbetreiber",
+            "verhindern",
+            "unerwünschte Signale"
+          ],
+          [
+            "Netzbetreiber",
+            "nutzen",
+            "Netz"
+          ],
+          [
+            "Netz",
+            "dulden",
+            "Eigentumsbeeinträchtigung"
+          ],
+          [
+            "Netzbetreiber",
+            "erfüllen",
+            "Rechtsgrundlage"
+          ],
+          [
+            "Signalübertragung",
+            "entsprechen",
+            "Bandbreite"
+          ],
+          [
+            "Signale",
+            "erfordern",
+            "Autorisierung"
+          ],
+          [
+            "Signalübertragung",
+            "haben",
+            "Rechtsfolgen"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 1": {
+    "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
+    "generalized_ontology": {
+      "generalized_question": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage oder eine Klage auf Urheberrechtsverletzung erheben darf?",
+      "ontology": {
+        "classes": [
+          "Kläger",
+          "Rechtsschutzobjekt",
+          "Rechtsschutzmöglichkeit",
+          "Strohmann",
+          "Rechtsverletzung",
+          "Rechtsgebiet"
+        ],
+        "properties": [
+          "erheben",
+          "erfüllen",
+          "ausschließen",
+          "betreffen",
+          "bestimmt",
+          "verletzen",
+          "richten",
+          "gilt"
+        ],
+        "relationships": [
+          [
+            "Kläger",
+            "erheben",
+            "Rechtsschutzmöglichkeit"
+          ],
+          [
+            "Rechtsschutzmöglichkeit",
+            "erfüllen",
+            "Voraussetzungen"
+          ],
+          [
+            "Voraussetzungen",
+            "bestimmt",
+            "Möglichkeit der Inanspruchnahme des Klägers aus einem angegriffenen Rechtsschutzobjekt"
+          ],
+          [
+            "Kläger",
+            "ausschließen",
+            "Rechtsschutzmöglichkeit"
+          ],
+          [
+            "Strohmann",
+            "betreffen",
+            "Kläger"
+          ],
+          [
+            "Rechtsverletzung",
+            "verletzen",
+            "Recht"
+          ],
+          [
+            "Rechtsgebiet",
+            "richten",
+            "Durchsetzung von Ansprüchen aus einer Verletzung von Rechten"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 10": {
+    "generalized_question": "Unter welchen Voraussetzungen kann ein Eigentümer seine Rechte an einem Grundstück durchsetzen, wenn diese durch Handlungen Dritter beeinträchtigt werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen kann ein Eigentümer seine Rechte an einem Grundstück durchsetzen, wenn diese durch Handlungen Dritter beeinträchtigt werden?",
+      "ontology": {
+        "classes": [
+          "Eigentümer",
+          "Dritter",
+          "Recht",
+          "Handlung",
+          "Beeinträchtigung"
+        ],
+        "properties": [
+          "beeinträchtigt",
+          "durchsetzt",
+          "wahrnimmt",
+          "erhöht",
+          "betrifft",
+          "istausgeschlossen"
+        ],
+        "relationships": [
+          [
+            "Eigentümer",
+            "beeinträchtigt",
+            "Dritter"
+          ],
+          [
+            "Eigentümer",
+            "durchsetzt",
+            "Recht"
+          ],
+          [
+            "Dritter",
+            "wahrnimmt",
+            "Handlung"
+          ],
+          [
+            "Handlung",
+            "erhöht",
+            "Beeinträchtigung"
+          ],
+          [
+            "Recht",
+            "betrifft",
+            "Beeinträchtigung"
+          ],
+          [
+            "Beeinträchtigung",
+            "istausgeschlossen",
+            "Recht"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 100": {
+    "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen und Fristen kann ein Anspruch auf Schadensersatz, Aufwendungsersatz oder Ausgleich geltend gemacht werden, und welche Rechtsfolgen treten ein, wenn die Fristen nicht eingehalten werden?",
+      "ontology": {
+        "classes": [
+          "Vertreter",
+          "Kunde",
+          "Hersteller",
+          "Lieferant",
+          "Vertragspartner",
+          "Verkäufer",
+          "Käufer"
+        ],
+        "properties": [
+          "einsetzen",
+          "verletzen",
+          "eingeräumtesRecht",
+          "übertragen",
+          "verpflichten",
+          "erfüllen",
+          "übernehmen",
+          "beeinflussen",
+          "informieren",
+          "geltendMachen",
+          "einhalten",
+          "verletzen"
+        ],
+        "relationships": [
+          [
+            "Vertreter",
+            "einsetzen",
+            "Kunde"
+          ],
+          [
+            "Hersteller",
+            "verletzen",
+            "eingeräumtesRecht"
+          ],
+          [
+            "Vertragspartner",
+            "übertragen",
+            "Kunde"
+          ],
+          [
+            "Verkäufer",
+            "übernehmen",
+            "Mehrerlös"
+          ],
+          [
+            "Verkäufer",
+            "informieren",
+            "Käufer"
+          ],
+          [
+            "Vertreter",
+            "geltendMachen",
+            "Anspruch"
+          ],
+          [
+            "Vertreter",
+            "einhalten",
+            "Frist"
+          ],
+          [
+            "Vertreter",
+            "verletzen",
+            "Frist"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 102": {
+    "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
+    "generalized_ontology": {
+      "generalized_question": "Unter welchen Voraussetzungen kann ein Prozessvergleich widerrufen werden?",
+      "ontology": {
+        "classes": [
+          "Prozesspartei",
+          "Gericht",
+          "Prozessvergleich",
+          "Prozess",
+          "Widerrufsgrund",
+          "Vertrag"
+        ],
+        "properties": [
+          "schließt",
+          "widerruft",
+          "betrifft",
+          "hatGrund"
+        ],
+        "relationships": [
+          [
+            "Prozesspartei",
+            "schließt",
+            "Prozessvergleich"
+          ],
+          [
+            "Prozesspartei",
+            "widerruft",
+            "Prozessvergleich"
+          ],
+          [
+            "Prozessvergleich",
+            "betrifft",
+            "Prozess"
+          ],
+          [
+            "Prozessvergleich",
+            "hatGrund",
+            "Widerrufsgrund"
+          ],
+          [
+            "Vertrag",
+            "betrifft",
+            "Prozess"
+          ]
+        ]
+      }
+    }
+  },
+  "Cluster 104": {
+    "generalized_question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+    "generalized_ontology": {
+      "generalized_question": "Welche rechtlichen Voraussetzungen müssen erfüllt sein, damit ein Beweisverfahren erfolgreich ist und welche Beweise müssen erbracht werden?",
+      "ontology": {
+        "classes": [
+          "Rechtsvorschrift",
+          "Vertrag",
+          "Schuldverhältnis",
+          "Beweis",
+          "Beweismittel"
+        ],
+        "properties": [
+          "erfüllt",
+          "erfordert",
+          "begründet",
+          "bezeichnet",
+          "fehlt"
+        ],
+        "relationships": [
+          [
+            "Rechtsvorschrift",
+            "erfüllt",
+            "Beweisverfahren"
+          ],
+          [
+            "Vertrag",
+            "begründet",
+            "Schuldverhältnis"
+          ],
+          [
+            "Schuldverhältnis",
+            "erfordert",
+            "Beweis"
+          ],
+          [
+            "Beweis",
+            "bezeichnet",
+            "Beweismittel"
+          ],
+          [
+            "Beweismittel",
+            "fehlt",
+            "erfolgreiches Beweisverfahren"
+          ]
+        ]
+      }
+    }
+  }
+}

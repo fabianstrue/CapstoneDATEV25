@@ -1,0 +1,1095 @@
+{
+  "Cluster 0": {
+    "competency_questions": [
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kabelnetzbetreiber die Signaldurchleitung durch das Netz eines anderen Betreibers verbieten kann?",
+        "quelle": "\"Indem die Beklagte in die Netzebene 3 Signale einspeise, die durch den Übergabepunkt auch in die Netzebene 4 gelangten, greife sie in das Eigentum der Klägerin an dem von ihr errichteten und betriebenen Kabelnetz ein.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, eine angemessene Entschädigung zu zahlen, wenn ein Kabelnetzbetreiber die Duldung der Signaldurchleitung durch sein Netz gewährt?",
+        "quelle": "\"Die Klägerin sei jedenfalls solange bereit, gegen Zahlung eines angemessenen Entgelts zur Duldung der Durchleitung.\""
+      },
+      {
+        "cq": "Wie kann ein Kabelnetzbetreiber die Durchleitung unerwünschter Signale durch sein Netz verhindern?",
+        "quelle": "\"Die Klägerin hätte die Möglichkeit, die Einleitung bestimmter, ihr unerwünschter Signale durch das Anbringen geeigneter Sperrvorrichtungen am Übergabepunkt zu unterbinden.\""
+      },
+      {
+        "cq": "Welche Rechtsgrundlage gilt für den Fall, dass ein Kabelnetzbetreiber das Netz eines anderen Betreibers gewerblich nutzt, ohne dessen Einverständnis?",
+        "quelle": "\"Die Beklagte nutzt das Kabelnetz der Klägerin ohne deren Einverständnis zu dem Zweck gewerblich, ihren Kunden den Zugang zum Internet und zu einem Stadtinformationsdienst zu ermöglichen.\""
+      },
+      {
+        "cq": "Wer hat das Recht, die gewerbliche Nutzung seines Kabelnetzes durch einen Dritten zu verbieten?",
+        "quelle": "\"Die Klägerin ist nicht verpflichtet, diese Beeinträchtigung ihres Eigentums zu dulden.\""
+      },
+      {
+        "cq": "Welche Rolle spielt die Bandbreite des Kabelnetzes bei der Signaldurchleitung durch das Netz eines anderen Betreibers?",
+        "quelle": "\"Die Klägerin hat ein Kabelnetz der Ebene 4 mit einer dem vorgelagerten Kabelnetz der Ebene 3 entsprechenden Bandbreite errichtet.\""
+      },
+      {
+        "cq": "Wie kann ein Kabelnetzbetreiber sicherstellen, dass nur autorisierte Signale durch sein Netz geleitet werden?",
+        "quelle": "\"Erst die Nutzung der von der Beklagten produzierten Signale erfordert die Verwendung eines von ihr zur Verfügung gestellten Kabelmodems, das die empfangenen Signale decodiert und den jeweiligen Empfänger mittels einer individuellen Kennung zur Nutzung autorisiert.\""
+      },
+      {
+        "cq": "Welche Rechtsfolgen hat es, wenn ein Kabelnetzbetreiber unerlaubt Signale durch das Netz eines anderen Betreibers leitet?",
+        "quelle": "\"Die Klage ist mit dem auf Unterlassung der Signaldurchleitung gerichteten Hauptantrag unbegründet.\"\n\nDokument: 0901413.xml\nRechtsthema: SchuldrechtAT, Schadensersatz"
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Kabelnetzbetreiber",
+        "Signale",
+        "Netz",
+        "Eigentum",
+        "Duldung",
+        "Entschädigung",
+        "Rechtsgrundlage",
+        "Eigentumsbeeinträchtigung",
+        "Bandbreite",
+        "Autorisierung",
+        "Rechtsfolgen"
+      ],
+      "properties": [
+        "verbieten",
+        "erfüllt",
+        "gewährt",
+        "verhindern",
+        "nutzen",
+        "dulden",
+        "entspricht",
+        "erfordert",
+        "leitet"
+      ],
+      "relationships": [
+        [
+          "Kabelnetzbetreiber",
+          "verbieten",
+          "Signaldurchleitung"
+        ],
+        [
+          "Signaldurchleitung",
+          "erfüllt",
+          "Voraussetzungen"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "gewährt",
+          "Duldung"
+        ],
+        [
+          "Duldung",
+          "erfordert",
+          "angemessene Entschädigung"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "verhindern",
+          "unerwünschte Signale"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "nutzen",
+          "Netz"
+        ],
+        [
+          "Netz",
+          "dulden",
+          "Eigentumsbeeinträchtigung"
+        ],
+        [
+          "Kabelnetzbetreiber",
+          "erfüllt",
+          "Rechtsgrundlage"
+        ],
+        [
+          "Signaldurchleitung",
+          "entspricht",
+          "Bandbreite"
+        ],
+        [
+          "Signale",
+          "erforderlich",
+          "Autorisierung"
+        ],
+        [
+          "Signaldurchleitung",
+          "hat",
+          "Rechtsfolgen"
+        ]
+      ]
+    }
+  },
+  "Cluster 1": {
+    "competency_questions": [
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit ein Kläger eine Patentnichtigkeitsklage erheben darf?",
+        "quelle": "\"Zulässig ist eine solche Klage jedenfalls dann, wenn die Möglichkeit der Inanspruchnahme des Klägers aus einem von ihm mit der Nichtigkeitsklage angegriffenen Patent besteht.\""
+      },
+      {
+        "cq": "Wer kann als Kläger in einem Patentnichtigkeitsverfahren auftreten?",
+        "quelle": "\"Die Ausgestaltung der Patentnichtigkeitsklage als Popularklage setzt der Möglichkeit, einem Kläger den Zutritt zum Nichtigkeitsverfahren aus in seiner Person liegenden Gründen zu versagen, von vornherein enge Grenzen.\""
+      },
+      {
+        "cq": "Wie kann ein Kläger von seiner Rechtsschutzmöglichkeit im Patentnichtigkeitsverfahren ausgeschlossen werden?",
+        "quelle": "\"Wäre der Kläger als Strohmann von S. anzusehen, bliebe ihm eine Klageerhebung als solche zwar unbenommen, jedoch wäre er mit dem dem Streitpatent im Vorprozess entgegengehaltenen Stand der Technik genauso ausgeschlossen, wie diese selbst.\""
+      },
+      {
+        "cq": "Welche Rolle spielt die Rechtsschutzmöglichkeit des Klägers im Patentnichtigkeitsverfahren, wenn er als Strohmann betrachtet wird?",
+        "quelle": "\"Wäre der Kläger als Strohmann von S. anzusehen, bliebe ihm eine Klageerhebung als solche zwar unbenommen, jedoch wäre er mit dem dem Streitpatent im Vorprozess entgegengehaltenen Stand der Technik genauso ausgeschlossen, wie diese selbst.\""
+      },
+      {
+        "cq": "Welche Gründe können dazu führen, dass die Zulässigkeit einer Patentnichtigkeitsklage verneint wird?",
+        "quelle": "\"Die Zulässigkeit der Nichtigkeitsklage kann nur dann verneint werden, wenn lediglich ein theoretisches Risiko für eine Inanspruchnahme besteht.\""
+      },
+      {
+        "cq": "Welche Bedeutung hat die Möglichkeit der Inanspruchnahme des Klägers aus einem angegriffenen Patent für die Zulässigkeit einer Patentnichtigkeitsklage?",
+        "quelle": "\"Zulässig ist eine solche Klage jedenfalls dann, wenn die Möglichkeit der Inanspruchnahme des Klägers aus einem von ihm mit der Nichtigkeitsklage angegriffenen Patent besteht.\""
+      },
+      {
+        "cq": "Wie kann die Beklagte in einem Patentnichtigkeitsverfahren argumentieren, dass der Kläger nicht in der Lage ist, das angegriffene Patent anzuwenden?",
+        "quelle": "\"Wäre der Kläger als Strohmann von S. anzusehen, bliebe ihm eine Klageerhebung als solche zwar unbenommen, jedoch wäre er mit dem dem Streitpatent im Vorprozess entgegengehaltenen Stand der Technik genauso ausgeschlossen, wie diese selbst.\""
+      },
+      {
+        "cq": "Wie kann die Beklagte in einem Patentnichtigkeitsverfahren argumentieren, dass der Kläger nicht in der Lage ist, das angegriffene Patent zu nutzen?",
+        "quelle": "\"Wäre der Kläger als Strohmann von S. anzusehen, bliebe ihm eine Klageerhebung als solche zwar unbenommen, jedoch wäre er mit dem dem Streitpatent im Vorprozess entgegengehaltenen Stand der Technik genauso ausgeschlossen, wie diese selbst.\""
+      },
+      {
+        "cq": "Welche Rechtsgrundlage gilt für die Durchsetzung von Ansprüchen aus einer Verletzung von Urheberrechten?",
+        "quelle": "[\"Die Durchsetzung von Ansprüchen aus einer Verletzung von Urheberrechten richtet sich nach den Vorschriften des Urheberrechtsgesetzes (UrhG).\"]\n\nDokument: 0960963.xml\nRechtsthema: Sachenrecht"
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Kläger",
+        "Patent",
+        "Rechtsschutzmöglichkeit",
+        "Strohmann",
+        "Urheberrechtsverletzung",
+        "Urheberrechtsgesetz"
+      ],
+      "properties": [
+        "erheben",
+        "erfüllen",
+        "ausschließen",
+        "betreffen",
+        "bestimmt",
+        "verletzen",
+        "richten",
+        "gilt"
+      ],
+      "relationships": [
+        [
+          "Kläger",
+          "erheben",
+          "Patentnichtigkeitsklage"
+        ],
+        [
+          "Patentnichtigkeitsklage",
+          "erfüllen",
+          "Voraussetzungen"
+        ],
+        [
+          "Voraussetzungen",
+          "bestimmt",
+          "Möglichkeit der Inanspruchnahme des Klägers aus einem angegriffenen Patent"
+        ],
+        [
+          "Kläger",
+          "ausschließen",
+          "Rechtsschutzmöglichkeit"
+        ],
+        [
+          "Strohmann",
+          "betreffen",
+          "Kläger"
+        ],
+        [
+          "Urheberrechtsverletzung",
+          "verletzen",
+          "Urheberrecht"
+        ],
+        [
+          "Urheberrechtsgesetz",
+          "richten",
+          "Durchsetzung von Ansprüchen aus einer Verletzung von Urheberrechten"
+        ]
+      ]
+    }
+  },
+  "Cluster 10": {
+    "competency_questions": [
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit ein Eisenbahninfrastrukturunternehmen nach § 1 Abs. 1 HaftpflG haftet?",
+        "quelle": "\"Nach Auffassung des Berufungsgerichts haftet die Beklagte als Eisenbahninfrastrukturunternehmerin der Klägerin aus § 1 Abs. 1 HaftpflG.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, die Sicherheit der Schienentrasse zu gewährleisten und die Eisenbahninfrastruktur in betriebssicherem Zustand zu halten?",
+        "quelle": "\"Im Rahmen der von ihr wahrgenommenen Teilaufgabe des Bahnbetriebs hat die Beklagte gemäß §§ 2 Abs. 3, 4 Abs. 1 AEG insbesondere die Sicherheit der Schienentrasse zu gewährleisten und die Eisenbahninfrastruktur in betriebssicherem Zustand zu halten.\""
+      },
+      {
+        "cq": "Welche Rolle spielt eine Kuh auf der Trasse bei der Abwägung der Haftungsverantwortung zwischen Eisenbahninfrastrukturunternehmen und Eisenbahnverkehrsunternehmen?",
+        "quelle": "\"Eine Kuh auf der Trasse sei zwar ein die Betriebsgefahr erhöhender Umstand zu Lasten der Beklagten.\""
+      },
+      {
+        "cq": "Wie ist die Haftungsverteilung zwischen Eisenbahninfrastrukturunternehmen und Eisenbahnverkehrsunternehmen zu regeln, wenn die Verursachung des Schadens nicht allein einem der Beteiligten angelastet werden kann?",
+        "quelle": "\"Eine Kuh auf den Gleisen sei zwar ein die Betriebsgefahr erhöhender Umstand zu Lasten der Beklagten. Zu Lasten der Klägerin sei aber gefahrerhöhend zu berücksichtigen, dass sich ihr Zug in Reisegeschwindigkeit bewegt und dies ein rechtzeitiges Abbremsen unmöglich gemacht habe.\""
+      },
+      {
+        "cq": "Welche Rechtsfolge tritt ein, wenn ein Eisenbahninfrastrukturunternehmen seine Verkehrssicherungspflicht verletzt und dadurch einen Schaden verursacht?",
+        "quelle": "\"Eine Verkehrssicherungspflicht des Inhalts, sämtliche von ihr betriebenen Trassen auf freier Strecke einzuzäunen, um weidendes Vieh am Betreten des Bahnkörpers zu hindern, besteht für die Beklagte nicht.\""
+      },
+      {
+        "cq": "Unter welchen Voraussetzungen kann ein Eisenbahnverkehrsunternehmen von seiner Haftung nach § 1 Abs. 1 HaftpflG befreit werden?",
+        "quelle": "\"Ein Haftungsausschluss wegen höherer Gewalt nach § 1 Abs. 2 HaftpflG greife nicht ein.\"\n\nDokument: 1576513.xml\nRechtsthema: Zivilverfahrensrecht"
+      },
+      {
+        "cq": "Welche Rolle spielt der Bestandsschutz für Bahnstrecken bei Ansprüchen auf Entschädigung aufgrund von Geräuschemissionen?",
+        "quelle": "\"Der Anspruch [auf Entschädigung] ist - entgegen der Auffassung der Revision - nicht deshalb ausgeschlossen, weil für die Bahnstrecken der Beklagten Bestandsschutz besteht.\""
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Eisenbahninfrastrukturunternehmen",
+        "Haftpflichtgesetz",
+        "Verkehrssicherungspflicht",
+        "Eisenbahnverkehrsunternehmen",
+        "Betriebssicherheit",
+        "Schaden",
+        "Haftungsverteilung",
+        "Haftungsausschluss",
+        "Geräuschemissionen",
+        "Bestandsschutz"
+      ],
+      "properties": [
+        "haftet",
+        "verletzt",
+        "verursacht",
+        "wahrnimmt",
+        "gewährleistet",
+        "erhöht",
+        "betrifft",
+        "greift",
+        "istausgeschlossen"
+      ],
+      "relationships": [
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "haftet",
+          "Haftpflichtgesetz"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "verletzt",
+          "Verkehrssicherungspflicht"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "wahrnimmt",
+          "Betriebssicherheit"
+        ],
+        [
+          "Eisenbahnverkehrsunternehmen",
+          "erhöht",
+          "Betriebssicherheit"
+        ],
+        [
+          "Eisenbahninfrastrukturunternehmen",
+          "betrifft",
+          "Haftungsverteilung"
+        ],
+        [
+          "Haftungsausschluss",
+          "greift",
+          "Haftpflichtgesetz"
+        ],
+        [
+          "Geräuschemissionen",
+          "istausgeschlossen",
+          "Bestandsschutz"
+        ]
+      ]
+    }
+  },
+  "Cluster 100": {
+    "competency_questions": [
+      {
+        "cq": "Wie kann die sachliche Berechtigung der Einsetzung weiterer Vertriebshändler geprüft werden?",
+        "quelle": "\"Das Berufungsgericht wird nunmehr insbesondere Feststellungen über die sachliche Berechtigung der Einsetzung weiterer Vertriebshändler treffen haben.\""
+      },
+      {
+        "cq": "Welche Auswirkungen hat die Einsetzung weiterer Vertriebshändler auf das vertraglich eingeräumte Alleinvertriebsrecht?",
+        "quelle": "\"Wenn die Beklagte durch den Einsatz weiterer Vertragshändler das der Klägerin vertraglich eingeräumte Alleinvertriebsrecht verletzt hat.\""
+      },
+      {
+        "cq": "Welche Rechtsgrundlage gilt für die Verpflichtung des Vertragshändlers, den Kundenstamm zu übertragen?",
+        "quelle": "\"Die Regelung über den Ausgleichsanspruch des Handelsvertreters in § 89b HGB kann auf das hier vorliegende Vertragshändlerverhältnis der Kläger zu der Beklagten zu 2 grundsätzlich analoge Anwendung finden.\""
+      },
+      {
+        "cq": "Welche Pflichten hat der Vertragshändler im Rahmen einer exklusiven Lieferbeziehung gegenüber dem Hersteller oder Lieferanten?",
+        "quelle": "\"Sie unterlagen auch - wie ein Handelsvertreter (BGH, Urteil vom 12. März 2003 - die Pflicht, geeignete Anstrengungen zu unternehmen, um Aufträge für die Beklagte zu 2 hereinzuholen.\""
+      },
+      {
+        "cq": "Welche Informationspflichten hat der Vertragshändler im Rahmen einer bloßen Verkäufer-Käufer-Beziehung gegenüber dem Hersteller oder Lieferanten?",
+        "quelle": "\"Die Informationspflichten der Kläger seien lediglich im Zusammenhang damit anzusehen, dass die Beklagte zu 2 ihre Produktion hinsichtlich Lieferzeit und Liefermenge den Geschäftsabschlüssen der Kläger mit der Firma G. anpassen musste. Dadurch begründete Mitteilungspflichten der Kläger hat es zu Recht als Ausfluss des vereinbarten Exklusiv-Vertriebs- und Verkaufsrechts angesehen; sie überschreiten das im Rahmen einer bloßen Verkäufer-Käufer-Beziehung Übliche nicht.\""
+      },
+      {
+        "cq": "Wie kann der Vertragshändler seine Verpflichtungen im Rahmen eines Vertragshändlerverhältnisses erfüllen, ohne dass ihm handelsvertreterähnliche Aufgaben auferlegt werden?",
+        "quelle": "\"Insofern regeln die genannten Vereinbarungen eher eine Gegenleistung der Kläger für die Gewährung des Alleinvertriebsrechts durch die Beklagte zu 2, als dass sie ihnen Handelsvertreteraufgaben als vertragscharakteristische Primärleistungspflichten im Sinne von § 86 Abs. 1 HGB auferlegen.\"\n\nDokument: 1535929.xml\nRechtsthema: SchuldrechtAT"
+      },
+      {
+        "cq": "Welche Verpflichtungen kann der Verkäufer im Rahmen eines Weiterverkaufsvertrags übernehmen, die den erzielten Mehrerlös beeinflussen?",
+        "quelle": "\"Die Übernahme von Verpflichtungen, die über die Pflichten aus dem Kaufvertrag vom 1. März 1991 hinausgingen.\" (Begründung, I)"
+      },
+      {
+        "cq": "Welche Informationspflichten hat der Verkäufer bei einem Fernabsatzvertrag?",
+        "quelle": "\"Den Informationspflichten gemäß der Verordnung über Informations- und Nachweispflichten nach bürgerlichem Recht (BGB-InfoV) sei die Klägerin nachgekommen.\""
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Vertriebshändler",
+        "Kunde",
+        "Hersteller",
+        "Lieferant",
+        "Vertragshändler",
+        "Verkäufer",
+        "Käufer",
+        "Kunde"
+      ],
+      "properties": [
+        "einsetzen",
+        "verletzen",
+        "eingeräumtesRecht",
+        "übertragen",
+        "verpflichten",
+        "erfüllen",
+        "übernehmen",
+        "beeinflussen",
+        "informieren"
+      ],
+      "relationships": [
+        [
+          "Vertriebshändler",
+          "einsetzen",
+          "Kunde"
+        ],
+        [
+          "Hersteller",
+          "verletzen",
+          "eingeräumtesRecht"
+        ],
+        [
+          "Vertragshändler",
+          "übertragen",
+          "Kunde"
+        ],
+        [
+          "Verkäufer",
+          "übernehmen",
+          "Mehrerlös"
+        ],
+        [
+          "Verkäufer",
+          "informieren",
+          "Käufer"
+        ]
+      ]
+    }
+  },
+  "Cluster 101": {
+    "competency_questions": [
+      {
+        "cq": "Welche Rechtsfolge tritt ein, wenn die Voraussetzungen für ein verbundenes Geschäft i.S.v. § 9 Abs. 1, Abs. 3 VerbrKrG erfüllt sind?",
+        "quelle": "\"Das Berufungsgericht geht mit Recht davon aus, daß der Beitritt zu einem Immobilienfonds und dessen Finanzierung durch ein Kreditgeschäft grundsätzlich ein verbundenes Geschäft i.S. von § 9 Abs. 1, Abs. 3 VerbrKrG sein können.\"\n\nDokument: 1530922.xml\nRechtsthema: Schuldverhältnisse"
+      },
+      {
+        "cq": "Welche Rechtsfolge tritt ein, wenn eine Klausel in Allgemeinen Geschäftsbedingungen unwirksam ist?",
+        "quelle": "\"Die unter § 4 Buchst. a der Garantiebedingungen geregelte Anspruchsvoraussetzung, nach der Voraussetzung für jegliche Garantieansprüche ist, dass der Käufer/Garantienehmer an dem Kraftfahrzeug die vom Hersteller vorgeschriebenen oder empfohlenen Wartungs-, Inspektions- und Pflegearbeiten beim Verkäufer/Garantiegeber oder in einer vom Hersteller anerkannten Vertragswerkstatt durchführen lässt, ist nicht gemäß § 307 Abs. 3 Satz 1 BGB einer AGB-rechtlichen Inhaltskontrolle entzogen.\""
+      },
+      {
+        "cq": "Welche Rolle spielt der Rechtsbindungswille bei der Abgrenzung zwischen einem Auftrags- und einem Gefälligkeitsverhältnis?",
+        "quelle": "\"Im Bereich der rechtsgeschäftlichen Schuldverhältnisse wird zwischen einem Auftrags- und einem Gefälligkeitsverhältnis unterschieden. Ob jemand für einen anderen ein Geschäft im Sinne des § 662 BGB besorgt oder jemandem nur eine (außerrechtliche) Gefälligkeit erweist, hängt vom Rechtsbindungswillen ab.\""
+      },
+      {
+        "cq": "Welche Folgen hat es, wenn eine Klausel in Allgemeinen Geschäftsbedingungen gegen das Klauselverbot verstößt?",
+        "quelle": "\"Verstößt eine Formularbestimmung gegen ein Klauselverbot, so kann sie nur unter der Voraussetzung teilweise aufrechterhalten bleiben, dass sie sich nach ihrem Wortlaut aus sich heraus verständlich und sinnvoll in einen inhaltlich zulässigen und einen unzulässigen Regelungsteil trennen lässt.\""
+      },
+      {
+        "cq": "Welche Bedingungen müssen erfüllt sein, damit eine Klausel in Allgemeinen Geschäftsbedingungen unwirksam ist?",
+        "quelle": "\"Die angegriffenen Klauseln unterliegen nach § 307 Abs. 3 Satz 1 BGB der Inhaltskontrolle.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, eine Inhaltskontrolle von Allgemeinen Geschäftsbedingungen durchzuführen?",
+        "quelle": "\"Bestimmungen in Allgemeinen Geschäftsbedingungen sind nach § 307 Abs. 3 Satz 1 BGB der Inhaltskontrolle unterworfen.\""
+      },
+      {
+        "cq": "Welche Rechtsgrundlage gilt für die Überprüfung von Klauseln in Allgemeinen Geschäftsbedingungen?",
+        "quelle": "\"Die beanstandeten Klauseln sind unwirksam, da sie den Reisenden entgegen den Geboten von Treu und Glauben unangemessene Benachteiligen (§ 307 Abs. 1 Satz 1 BGB).\""
+      },
+      {
+        "cq": "Wie wird die Unwirksamkeit von Klauseln in Allgemeinen Geschäftsbedingungen geprüft?",
+        "quelle": "\"Ob eine Klausel danach kontrollfähig ist, ist durch Auslegung zu ermitteln.\""
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit eine Klausel in Allgemeinen Geschäftsbedingungen wirksam ist?",
+        "quelle": "\"Eine Vorleistungspflicht in Allgemeinen Geschäftsbedingungen kann nach der Rechtsprechung des Bundesgerichtshofs wirksam vereinbart werden, wenn sie durch einen sachlichen Grund gerechtfertigt ist.\""
+      },
+      {
+        "cq": "Wie wird die Wirksamkeit von Klauseln in Allgemeinen Geschäftsbedingungen geprüft?",
+        "quelle": "\"Eine Vorleistungspflicht in Allgemeinen Geschäftsbedingungen kann nach der Rechtsprechung des Bundesgerichtshofs wirksam vereinbart werden, wenn sie durch einen sachlichen Grund gerechtfertigt ist.\""
+      },
+      {
+        "cq": "Welche Rolle spielt die vertragliche Aufgabenverteilung zwischen Unternehmen bei der Zurechnung von Beratungsfehlern?",
+        "quelle": "\"Da der Kläger zu 1) zudem in Kenntnis der vertraglichen Aufgabenverteilung im Analysebogen vom 20. November 2007 allein gegenüber der A. AG Angaben zu seiner Anlagestrategie bzw. zu Kenntnissen von und Erfahrungen mit Wertpapiergeschäften gemacht hat, konnte er nicht erwarten, dass (auch) die Beklagte seine Zielvorstellungen im Rahmen der Auftragsdurchführung berücksichtigte.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, den Kunden über die Bedeutung und den Sinn von Allgemeinen Geschäftsbedingungen zu belehren?",
+        "quelle": "\"Es ist ... selbstverständliche (zusätzliche) Voraussetzung für die Qualifizierung als 'ausgehandelt', daß der Verwender die andere Vertragspartei über den Inhalt und die Tragweite der Klausel(n) im einzelnen belehrt hat.\""
+      },
+      {
+        "cq": "Wie kann ein Verwender sicherstellen, dass seine Allgemeinen Geschäftsbedingungen als \"ausgehandelt\" gelten?",
+        "quelle": "\"Aushandeln\" setzt nach der Rechtsprechung des Bundesgerichtshofs mehr als \"Verhandeln\" voraus.\""
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "VerbindenesGeschäft",
+        "Rechtsfolge",
+        "UnwirksameKlausel",
+        "AllgemeineGeschäftsbedingungen",
+        "Rechtsbindungswille",
+        "Auftragsverhältnis",
+        "Gefälligkeitsverhältnis",
+        "Klauselverbot",
+        "Inhaltskontrolle",
+        "Vorleistungspflicht",
+        "Beratungsfehler",
+        "VertraglicheAufgabenverteilung",
+        "Kunde",
+        "Verwender"
+      ],
+      "properties": [
+        "erfülltVoraussetzungen",
+        "trittEin",
+        "verstößtGegen",
+        "hängtVomAb",
+        "hatFolgen",
+        "unterliegtInhaltskontrolle",
+        "istVerpflichtet",
+        "giltFürDieÜberprüfung",
+        "wirdGeprüft",
+        "erfülltVoraussetzungen",
+        "istRechtfertigterSachlicherGrund",
+        "spieltRolle",
+        "kannSicherstellen",
+        "setztVoraussetzung",
+        "istZurechenbarAuf",
+        "istVerpflichtet",
+        "belehrtÜber"
+      ],
+      "relationships": [
+        [
+          "VerbindenesGeschäft",
+          "erfülltVoraussetzungen",
+          "Rechtsfolge"
+        ],
+        [
+          "UnwirksameKlausel",
+          "verstößtGegen",
+          "Klauselverbot"
+        ],
+        [
+          "Rechtsbindungswille",
+          "hängtVomAb",
+          "Auftragsverhältnis"
+        ],
+        [
+          "Rechtsbindungswille",
+          "hängtVomAb",
+          "Gefälligkeitsverhältnis"
+        ],
+        [
+          "UnwirksameKlausel",
+          "hatFolgen",
+          "Inhaltskontrolle"
+        ],
+        [
+          "AllgemeineGeschäftsbedingungen",
+          "unterliegtInhaltskontrolle",
+          "Inhaltskontrolle"
+        ],
+        [
+          "Verwender",
+          "istVerpflichtet",
+          "Kunde"
+        ],
+        [
+          "Klauselverbot",
+          "giltFürDieÜberprüfung",
+          "Inhaltskontrolle"
+        ],
+        [
+          "Inhaltskontrolle",
+          "wirdGeprüft",
+          "UnwirksameKlausel"
+        ],
+        [
+          "Vorleistungspflicht",
+          "erfülltVoraussetzungen",
+          "Rechtsfolge"
+        ],
+        [
+          "VertraglicheAufgabenverteilung",
+          "istZurechenbarAuf",
+          "Beratungsfehler"
+        ],
+        [
+          "Verwender",
+          "kannSicherstellen",
+          "AllgemeineGeschäftsbedingungen"
+        ],
+        [
+          "AllgemeineGeschäftsbedingungen",
+          "setztVoraussetzung",
+          "ausgehandelt"
+        ],
+        [
+          "Verwender",
+          "belehrtÜber",
+          "AllgemeineGeschäftsbedingungen"
+        ]
+      ]
+    }
+  },
+  "Cluster 102": {
+    "competency_questions": [
+      {
+        "cq": "Wie kann ein Geschäftsmodell als \"Schwindelunternehmen\" eingestuft werden, das auf Täuschung und Schädigung der Kunden angelegt ist?",
+        "quelle": "\"Nach der Rechtsprechung des Bundesgerichtshofs haften Geschäftsführer, (faktische) Geschäftsleiter oder Vorstandsmitglieder einer Gesellschaft nach § 826 BGB auf Schadensersatz, wenn das von ihnen ins Werk gesetzte Geschäftsmodell der Gesellschaft von vornherein auf Täuschung und Schädigung der Kunden angelegt ist, es sich mithin um ein 'Schwindelunternehmen' handelt.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, Kunden über die Aufteilung von Provisionen zwischen Unternehmen zu informieren?",
+        "quelle": "\"Ausweislich der Transaktionsvollmacht intern eine Provisionsteilung stattgefunden habe.\""
+      },
+      {
+        "cq": "Wie kann ein Unternehmen seine Geschäftstätigkeit erweitern, ohne sich selbst in den Pflichtenkreis der ordnungsgemäßen Aufklärung und Beratung zu stellen?",
+        "quelle": "\"Die Beklagte habe sich selbst in den Pflichtenkreis der ordnungsgemäßen Aufklärung und Beratung gestellt, indem sie ihre Geschäftstätigkeit durch die Gewährung von Zinssonderkonditionen auf einen aufklärungs- und beratungsbedürftigen Kommittentenkreis ausgeweitet habe.\""
+      },
+      {
+        "cq": "Wie kann ein Unternehmen seine Geschäftstätigkeit auf das Geschäftsfeld der beratungsabhängigen Wertpapiertätigkeit ausdehnen?",
+        "quelle": "\"Der Annahme steht schon die ausdrückliche und von den Klägern akzeptierte vertragliche Aufgabenverteilung zwischen der A. AG und der Beklagten entgegen. Daran vermag die dieser vereinbarten Aufgabenverteilung gerade Rechnung tragende Verwendung der Logos beider Unternehmen auf Kontoeröffnungsantrag und Transaktionsvollmacht nichts zu ändern.\""
+      },
+      {
+        "cq": "Wie kann ein Unternehmen seine Geschäftstätigkeit durch die Gewährung von über dem Marktzins liegenden Sonderkonditionen erweitern, ohne sich in den Pflichtenkreis der ordnungsgemäßen Aufklärung und Beratung zu stellen?",
+        "quelle": "\"Indes führen weder die vom Berufungsgericht in den Vordergrund gerückte planmäßige Zufuhr von Kunden über die A. AG gerade zur Beklagten noch der Umstand, dass diese Kunden sodann wiederum planmäßig Beratungsleistungen der A. AG in Anspruch nehmen sollten, um letztlich provisionsauslösende Wertpapiergeschäfte zu tätigen, dazu, dass die Beklagte das 'Geschäftsmodell der Discount-Broker' verlassen und sich 'auf das Geschäftsfeld der beratungsabhängigen Wertpapiertätigkeit begeben hat'.\"\n\nDokument: 1657421.xml\nRechtsthema: Versicherungsrecht"
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Geschäftsmodell",
+        "Gesellschaft",
+        "Kunde",
+        "Geschäftsführer",
+        "Bundesgerichtshof",
+        "Schadensersatz",
+        "Transaktionsvollmacht",
+        "Provisionsteilung",
+        "Pflichtenkreis",
+        "Aufklärung",
+        "Beratung",
+        "Geschäftstätigkeit",
+        "Geschäftsfeld",
+        "Wertpapiertätigkeit",
+        "Sonderkonditionen"
+      ],
+      "properties": [
+        "istAngelegt",
+        "haftet",
+        "stelltSichSelbstInDenPflichtenkreis",
+        "erweitert",
+        "führt",
+        "verlässt",
+        "begehtSichAuf"
+      ],
+      "relationships": [
+        [
+          "Geschäftsmodell",
+          "istAngelegt",
+          "Täuschung"
+        ],
+        [
+          "Geschäftsführer",
+          "haftet",
+          "Schadensersatz"
+        ],
+        [
+          "Gesellschaft",
+          "hatGeschäftsmodell",
+          "Geschäftsmodell"
+        ],
+        [
+          "Kunde",
+          "wirdGetäuschtUndGeschädigt",
+          "Geschäftsmodell"
+        ],
+        [
+          "Geschäftstätigkeit",
+          "stelltSichSelbstInDenPflichtenkreis",
+          "Pflichtenkreis"
+        ],
+        [
+          "Geschäftstätigkeit",
+          "erweitert",
+          "Geschäftsfeld"
+        ],
+        [
+          "Geschäftsfeld",
+          "begehtSichAuf",
+          "Wertpapiertätigkeit"
+        ],
+        [
+          "Geschäftsfeld",
+          "führt",
+          "Beratungsleistungen"
+        ],
+        [
+          "Geschäftsfeld",
+          "verlässt",
+          "Geschäftsmodell"
+        ],
+        [
+          "Sonderkonditionen",
+          "liegenÜberDemMarktzins",
+          "Geschäftstätigkeit"
+        ]
+      ]
+    }
+  },
+  "Cluster 103": {
+    "competency_questions": [
+      {
+        "cq": "Welche Bedeutung hat die Geschäftsbesorgung im Sinne von § 675 BGB für die Anwendung der §§ 407 ff. HGB?",
+        "quelle": "\"Die Verzollung des Frachtgutes gehört jedoch wie sich aus § 408 Abs. 1 Satz 1 Nr. 11, § 413 Abs. 1 HGB ergibt zu den typischen gesetzlichen Pflichten des Frachtführers. Daher sind vorrangig die §§ 407 ff. HGB anzuwenden.\""
+      },
+      {
+        "cq": "Wie lange dauert die Verjährungsfrist für Schadensersatzansprüche nach § 638 Abs. 1 BGB?",
+        "quelle": "\"Die danach maßgebliche Verjährungsfrist von fünf Jahren (§ 638 Abs. 1 BGB) war bei Klageerhebung nicht abgelaufen.\""
+      },
+      {
+        "cq": "Wie lange dauert die Verjährungsfrist für kaufrechtliche Gewährleistungsansprüche nach § 477 BGB, wenn sie durch ein selbständiges Beweisverfahren unterbrochen wird?",
+        "quelle": "\"Die sechsmonatige Frist begann nach § 187 Abs. 1 BGB am 30. Juni 1998 und endete daher gemäß § 188 Abs. 1, Abs. 2 Halbs. 1 BGB mit Ablauf des 29. Dezember 1998.\""
+      },
+      {
+        "cq": "Wie ist der Beginn der Verjährungsfrist nach § 477 Abs. 2 Satz 2 BGB zu bestimmen, wenn das selbständige Beweisverfahren beendet ist?",
+        "quelle": "\"War somit die Unterbrechung der Verjährung möglicher kaufrechtlicher Gewährleistungsansprüche des Gemeinschuldners mit der Zusendung des Gutachtens an die Parteien am 29. Juni 1998...\""
+      },
+      {
+        "cq": "Welche Rechtsfolge tritt ein, wenn die Verjährungsfrist für kaufrechtliche Gewährleistungsansprüche nach § 477 BGB abgelaufen ist?",
+        "quelle": "\"Verjährung sei danach am 29. Dezember 1998 eingetreten. Die Verjährung erfasse auch etwaige Ansprüche aus positiver Vertragsverletzung.\""
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit ein Auskunftsanspruch nach § 666 BGB verjährt?",
+        "quelle": "\"Der Auskunftsanspruch gemäß § 666 Variante 2 BGB verjährt nach der neuen Regelverjährung des § 195 BGB innerhalb von drei Jahren beginnend mit dem Schluss des Jahres, in dem die Forderung entstanden sei.\""
+      },
+      {
+        "cq": "Wer ist berechtigt, einen Auskunftsanspruch nach § 666 BGB geltend zu machen?",
+        "quelle": "\"Der Auskunftsanspruch gemäß § 666 Variante 2 BGB setzt ein Verlangen des Geschäftsherrn voraus.\""
+      },
+      {
+        "cq": "Wie beginnt die Verjährungsfrist für einen verhaltenden Anspruch nach § 666 BGB?",
+        "quelle": "\"Die Verjährung verhaltener Ansprüche beginnt erst, wenn der Gläubiger die Leistung geltend macht.\""
+      },
+      {
+        "cq": "Wie ist der Auskunftsanspruch nach § 666 BGB einzustufen?",
+        "quelle": "\"Der Anspruch gemäß § 666 Variante 2 BGB begründet eine aus dem Auftragsverhältnis folgende unselbständige Nebenpflicht.\""
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Geschäftsbesorgung",
+        "Frachtführer",
+        "Frachtgut",
+        "Verzollung",
+        "Schadensersatzanspruch",
+        "Verjährungsfrist",
+        "KaufrechtlicherGewährleistungsanspruch",
+        "Beweisverfahren",
+        "Auskunftsanspruch",
+        "VerhaltenderAnspruch",
+        "Auftragsverhältnis"
+      ],
+      "properties": [
+        "gehörtZu",
+        "betrifft",
+        "dauert",
+        "wirdAngewandt",
+        "istMäßig",
+        "wirdBeendet",
+        "wirdGeltendGemacht",
+        "begründet",
+        "setztVoraus"
+      ],
+      "relationships": [
+        [
+          "Verzollung",
+          "gehörtZu",
+          "Frachtführer"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "betrifft",
+          "Verjährungsfrist"
+        ],
+        [
+          "KaufrechtlicherGewährleistungsanspruch",
+          "betrifft",
+          "Verjährungsfrist"
+        ],
+        [
+          "Beweisverfahren",
+          "wirdBeendet",
+          "Verjährungsfrist"
+        ],
+        [
+          "Auskunftsanspruch",
+          "dauert",
+          "Verjährungsfrist"
+        ],
+        [
+          "VerhaltenderAnspruch",
+          "betrifft",
+          "Verjährungsfrist"
+        ],
+        [
+          "Auskunftsanspruch",
+          "begründet",
+          "Auftragsverhältnis"
+        ],
+        [
+          "Auskunftsanspruch",
+          "setztVoraus",
+          "Auftragsverhältnis"
+        ]
+      ]
+    }
+  },
+  "Cluster 104": {
+    "competency_questions": [
+      {
+        "cq": "Wie ist der Anwendungsbereich der Verjährungsvorschrift des § 439 HGB zu bestimmen?",
+        "quelle": "\"Erfasst sind somit alle vertraglichen Ansprüche, auch solche aus vertraglichen Nebenpflichten, soweit sie unmittelbar zu der 'Beförderung' gehören und sich nicht aus einer selbständigen vertraglichen Abrede ergeben.\""
+      },
+      {
+        "cq": "Unter welchen Voraussetzungen ist eine Schenkung unwirksam, wenn sie nicht der Form nach § 518 Abs. 1 BGB entspricht?",
+        "quelle": "\"Das in der behaupteten Äußerung des früheren Beklagten liegende formlose Schenkungsversprechen sei wegen Verletzung von § 518 Abs. 1 BGB unwirksam.\""
+      },
+      {
+        "cq": "Wann ist eine teleologische Reduktion des § 2350 BGB geboten?",
+        "quelle": "\"Erst wenn auch insoweit keine Überzeugungsbildung möglich sein sollte, kann die Rechtsfrage nach einer teleologischen Reduktion des § 2350 BGB, die das Berufungsgericht zur Revisionszulassung veranlasst hat, entscheidungserheblich werden.\""
+      },
+      {
+        "cq": "Welche Bedeutung hat die Vermutung des § 2350 BGB für die Wirksamkeit eines Erbverzichts?",
+        "quelle": "\"Die Unwirksamkeit des Erbverzichts hat das Berufungsgericht allerdings vorschnell mit § 2350 BGB begründet. Dieser enthält zwei Auslegungsregeln.\""
+      },
+      {
+        "cq": "Wie rechtfertigt sich der Schutzzweck des § 2034 BGB bei der Veräußerung eines Erbanteils durch einen Miterben?",
+        "quelle": "\"Der Schutzzweck des § 2034 BGB rechtfertigt eine andere Folge gerade nicht.\""
+      },
+      {
+        "cq": "Welche Rechtsgrundlage gilt für die Anwendung von § 1004 BGB auf das Recht aus einer bergrechtlichen Bewilligung?",
+        "quelle": "\"§ 8 Abs. 2 BBergG i.V.m. § 1004 BGB\""
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen für die Anwendung des Widerrufsrechts nach § 495 Abs. 1 BGB n.F. oder §§ 312, 355 BGB n.F. erfüllt sein?",
+        "quelle": "\"Ein Widerruf des Vertrages gemäß § 495 Abs. 1 BGB n.F. oder gemäß §§ 312, 355 BGB n.F. sei nicht möglich, da diese Widerrufsrechte auf einen Vertrag aus dem Jahr 1996 nicht anwendbar seien.\""
+      },
+      {
+        "cq": "Wie ist Art. 229 § 9 EGBGB im Verhältnis zu Art. 229 § 5 Satz 2 EGBGB einzuordnen?",
+        "quelle": "\"Art. 229 § 9 EGBGB, die Überleitungsvorschrift zum OLG-Vertretungsänderungsgesetz vom 23. Juli 2002 (BGBl. I S. 2850), ist eine Spezialregelung im Verhältnis zu Art. 229 § 5 Satz 2 EGBGB, einer Überleitungsvorschrift zum Gesetz zur Modernisierung des Schuldrechts vom 26. November 2001 (BGBl. I S. 3138).\""
+      },
+      {
+        "cq": "Wie ist der Vorrang von Art. 229 § 9 EGBGB gegenüber Art. 229 § 5 Satz 2 EGBGB zu begründen?",
+        "quelle": "\"Entgegen der Ansicht der Revision findet sich in Art. 229 § 9 Abs. 1 Satz 1 EGBGB kein Hinweis, dass früher erlassene Übergangsvorschriften vorgehen sollen. Insbesondere lässt sich ein Vorrang des Art. 229 § 5 Satz 2 EGBGB nicht einer anderweitigen Bestimmung im Sinne des Art. 229 § 9 Abs. 1 Satz 1 EGBGB entnehmen.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, die Kosten für eine notwendige Aufklärung nach § 129 BGB zu tragen?",
+        "quelle": "[\"Die Kosten für die notwendige Aufklärung hat derjenige zu tragen, der die Aufklärung begehrt hat.\"]"
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen für eine Anfechtung nach § 142 BGB erfüllt sein?",
+        "quelle": "[\"Die Anfechtung nach § 142 BGB setzt voraus, dass der Anfechtende ohne seine Einwilligung getäuscht oder genötigt wurde.\"]"
+      },
+      {
+        "cq": "Wie ist die Beweislast bei einem Anspruch nach § 812 BGB geregelt?",
+        "quelle": "[\"Der Kläger trägt die Beweislast für den Anspruch nach § 812 BGB, da er die tatsächlichen Voraussetzungen seines Anspruchs darlegen und beweisen muss.\"]"
+      },
+      {
+        "cq": "Wer ist verpflichtet, die Kosten für die Beseitigung einer Mangelbeseitigung nach § 439 BGB zu tragen?",
+        "quelle": "[\"Die Klägerin hat geltend gemacht, dass die Beklagte die Kosten für die Beseitigung des Mangels nach § 439 BGB zu tragen habe.\"]"
+      },
+      {
+        "cq": "Welche Rolle spielt die Verjährung nach § 195 BGB bei der Geltendmachung von Ansprüchen?",
+        "quelle": "[\"Die Beklagte hat sich auf Verjährung nach § 195 BGB berufen.\"]"
+      },
+      {
+        "cq": "Welche Rechtsfolgen hat eine Verletzung von Vertragspflichten nach § 280 BGB?",
+        "quelle": "[\"Die Klägerin hat geltend gemacht, dass die Beklagte durch die Verletzung von Vertragspflichten nach § 280 BGB in Verzug geraten sei.\"]"
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen für eine Anfechtung nach § 123 BGB erfüllt sein?",
+        "quelle": "[\"Die Beklagte hat die Anfechtung des Vertrages nach § 123 BGB geltend gemacht.\"]"
+      },
+      {
+        "cq": "Welche Rechtsgrundlage gilt für den Schenkungswiderruf wegen groben Undanks nach § 530 BGB?",
+        "quelle": "\"Sollte sich das Berufungsgericht erneut mit der Frage des Schenkungswiderrufs wegen groben Undanks der Beklagten (§ 530 BGB) zu befassen haben, wird es beachten müssen,...\""
+      },
+      {
+        "cq": "Warum ist die Klausel in § 5 Nr. 4 Satz 1c AVB nicht überraschend i.S. von § 305c BGB?",
+        "quelle": "\"Die Regelung in § 5 Nr. 4 AVB ist indessen wirksam. Sie ist nicht überraschend i.S. von § 305c BGB.\""
+      },
+      {
+        "cq": "Unter welchen Voraussetzungen kann eine Aufrechnung nach § 393 BGB nicht vorgenommen werden?",
+        "quelle": "\"Gegen die Klageforderung aus unerlaubter Handlung könne er gemäß § 393 BGB auch nicht mit seinem Darlehensrückzahlungsanspruch aufrechnen.\"\n\nDokument: 1554152.xml\nRechtsthema: Schuldverhältnisse"
+      },
+      {
+        "cq": "Warum ist der Anspruch aus § 988 BGB nicht verjährt?",
+        "quelle": "\"Der Anspruch ist auch nicht verjährt.\""
+      },
+      {
+        "cq": "Welche Rechtsfolgen hat eine unberechtigte Hinterlegung nach § 372 BGB?",
+        "quelle": "\"Da die Beklagte nicht berechtigt war, den Mietzins zu hinterlegen und damit dem Kläger/Vermieter für einen längeren Zeitraum vorzuenthalten, hatte die Hinterlegung keine schuldbefreiende Wirkung.\""
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit Baulichkeiten als Verwendungen im Sinne des § 994 Abs. 1 BGB gelten?",
+        "quelle": "\"Die errichteten Baulichkeiten und die ergriffenen landschaftsgärtnerischen Maßnahmen stellen keine Verwendungen im Sinne des § 994 Abs. 1 BGB dar.\""
+      },
+      {
+        "cq": "Wie muss eine vorzulegende Urkunde genau bezeichnet werden, um den Anforderungen von § 810 BGB zu genügen?",
+        "quelle": "\"Außerdem muss eine vorzulegende Urkunde stets genau bezeichnet werden, insbesondere wenn sie sich in Akten befindet.\""
+      },
+      {
+        "cq": "Welche Bedeutung hat die genaue Bezeichnung konkreter Urkunden für die Geltendmachung eines Einsichtsrechts nach § 810 BGB i.V.m. § 422 ZPO?",
+        "quelle": "\"Da es an einer genauen Bezeichnung konkreter Urkunden fehlt, besteht auf der Grundlage ihres bisherigen Sachvortrages kein materiell-rechtlicher Anspruch der Beklagten auf die Einsicht in die Korrespondenz der Klägerin mit den o.g. Verwaltern aus § 810 BGB i.V.m. § 422 ZPO.\""
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Verjährungsvorschrift",
+        "Schenkung",
+        "Schenkungsversprechen",
+        "Erbverzicht",
+        "Erbanteil",
+        "Bergrechtliche Bewilligung",
+        "Vertrag",
+        "Widerrufsrecht",
+        "Überleitungsvorschrift",
+        "Schuldverhältnis",
+        "Hinterlegung",
+        "Verwendung",
+        "Urkunde",
+        "Einsichtsrecht"
+      ],
+      "properties": [
+        "erfasst",
+        "unwirksam",
+        "geboten",
+        "bedeutet",
+        "gilt",
+        "genau bezeichnet",
+        "fehlt"
+      ],
+      "relationships": [
+        [
+          "Verjährungsvorschrift",
+          "erfasst",
+          "vertragliche Ansprüche"
+        ],
+        [
+          "Schenkung",
+          "unwirksam",
+          "formloses Schenkungsversprechen"
+        ],
+        [
+          "Erbverzicht",
+          "unwirksam",
+          "Vermutung des § 2350 BGB"
+        ],
+        [
+          "Erbanteil",
+          "veräußert",
+          "Schutzzweck des § 2034 BGB"
+        ],
+        [
+          "Bergrechtliche Bewilligung",
+          "angewendet",
+          "§ 1004 BGB"
+        ],
+        [
+          "Vertrag",
+          "widerrufen",
+          "Widerrufsrecht"
+        ],
+        [
+          "Überleitungsvorschrift",
+          "Spezialregelung",
+          "Überleitungsvorschrift"
+        ],
+        [
+          "Schuldverhältnis",
+          "verjährt",
+          "Verjährung"
+        ],
+        [
+          "Hinterlegung",
+          "schuldbefreiende Wirkung",
+          "berechtigt"
+        ],
+        [
+          "Verwendung",
+          "gilt",
+          "Baulichkeiten"
+        ],
+        [
+          "Urkunde",
+          "genau bezeichnet",
+          "Einsichtsrecht"
+        ],
+        [
+          "Einsichtsrecht",
+          "fehlt",
+          "genaue Bezeichnung konkreter Urkunden"
+        ]
+      ]
+    }
+  },
+  "Cluster 105": {
+    "competency_questions": [
+      {
+        "cq": "Welche Partei ist in diesem Fall als Beklagte behandelt worden, obwohl sie nicht passiv legitimiert war?",
+        "quelle": "\"Das Berufungsgericht geht davon aus, dass die Anfechtungsklage gegen die nicht passiv legitimierte Wohnungseigentümergemeinschaft erhoben worden ist.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, den Nachweis zu erbringen, dass eine bestimmte Verlademethode zwischen den Parteien vereinbart wurde?",
+        "quelle": "\"Die Revision rügt mit Erfolg, dass die Beurteilung des Berufungsgerichts gegen § 286 ZPO verstößt. [...] Die Klägerin hat in der Klageschrift vorgetragen, ihre Versicherungsnehmerin habe die Beklagte regelmäßig mit der Beförderung von hochempfindlicher Computerware beauftragt.\""
+      },
+      {
+        "cq": "Wer ist verpflichtet, für einen Schaden einzustehen, wenn mehrere Parteien beteiligt sind?",
+        "quelle": "\"Die Beklagten dem Kläger nach §§ 823 Abs. 1, 831, 840 , 847Abs. 1 und § 3 Nr. 1, 2  PflVG für den vom Beklagten zu 1) verursachten Schaden einzustehen haben.\""
+      },
+      {
+        "cq": "Wie ist die Wirksamkeit einer Klausel zu beurteilen, die den Kündigungsausschluss nur für eine Partei enthält?",
+        "quelle": "\"Ein formularvertraglicher Kündigungsausschluss, der - wie auch hier - der gesetzlichen Regelung des § 557a Abs. 3 BGB nachgebildet ist, beinhaltet deshalb im Regelfall keine unangemessene Benachteiligung des Mieters im Sinne von § 307 Abs. 1 BGB.\""
+      },
+      {
+        "cq": "Welche Beweise kann eine Partei vorlegen, um die fristgerechte Geltendmachung eines Ausgleichsanspruchs nachzuweisen?",
+        "quelle": "\"Mit ihrer Einspruchsbegründung habe sie dann zwar vorgetragen, Ausgleichsansprüche mit Schreiben vom 31. August 1998 geltend gemacht und dieses Schreiben der Beklagten übersandt zu haben. Das Anspruchsschreiben nebst Sendebericht und Zugangsnachweis seien jedoch nicht beigefügt gewesen.\""
+      },
+      {
+        "cq": "Unter welchen Bedingungen kann eine Partei trotz Verspätung Beweismittel vorlegen, um die fristgerechte Geltendmachung eines Ausgleichsanspruchs nachzuweisen?",
+        "quelle": "\"Erst zwei Tage vor dem Verhandlungstermin vom 14. Februar 2003 habe die Klägerin mit Schriftsatz vom 11. Februar 2003 Ablichtungen des Schreibens vom 31. August 1998, eines Fax-Sendeberichts vom selben Tag, eines Posteinlieferungsbeleges für ein Übergabeeinschreiben vom 1. September 1998 sowie eines Rückscheines vom 5. Mai 1999 vorgelegt und ihr Vorbringen erstmals unter Zeugenbeweis gestellt.\""
+      },
+      {
+        "cq": "Welche Rolle spielt das Schweigen einer Partei bei der fristgerechten Geltendmachung eines Ausgleichsanspruchs?",
+        "quelle": "\"Die Beklagte die Behauptung der Klägerin in der Einspruchsschrift vom 4. November 2002, den Ausgleichsanspruch am 31. August 1998 und damit fristgerecht geltend gemacht zu haben, nicht bestritten hat.\""
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit eine Klage gegen eine nicht mehr existierende Partei unwirksam ist?",
+        "quelle": "\"Die Klage gegen eine nicht (mehr) existierende Partei ist aber unwirksam und vermag daher verjährungsunterbrechende Wirkung gegen den wahren Rechtsträger nicht zu entfalten; dies steht dann auch einer Rückwirkung nach § 270 Abs. 3 ZPO auf den Zeitpunkt der Einreichung dieser Klage entgegen.\""
+      },
+      {
+        "cq": "Welche Voraussetzungen müssen erfüllt sein, damit eine prozessunfähige Partei eine Entscheidung anfechten kann?",
+        "quelle": "\"Die Erblasserin war während des zu diesem Vollstreckungstitel führenden Verfahrens prozessunfähig.\""
+      },
+      {
+        "cq": "Wer kann eine prozessunfähige Partei im Verfahren vertreten?",
+        "quelle": "\"Die geschäfts- und prozessunfähige Erblasserin in dem zum Erlass des Vollstreckungsbescheids führenden Verfahren nicht durch ihren Betreuer als gesetzlichen Vertreter vertreten worden sei.\""
+      },
+      {
+        "cq": "Welche Konsequenzen hat es, wenn eine prozessunfähige Partei nicht ordnungsgemäß vertreten wird?",
+        "quelle": "\"Die nicht ordnungsgemäße Vertretung (§ 579 Abs. 1 Nr. 4 ZPO) führe zur Nichtigkeit des angefochtenen Vollstreckungsbescheids.\""
+      },
+      {
+        "cq": "Wie kann eine prozessunfähige Partei ihre Rechte geltend machen, wenn sie nicht ordnungsgemäß vertreten wurde?",
+        "quelle": "\"Die Partei habe ... die Wahl, ob sie den Nichtigkeitstatbestand der nicht ordnungsgemäßen Vertretung (§ 579 Abs. 1 Nr. 4 ZPO) durch ein Rechtsmittel im Ausgangsverfahren geltend mache oder ob sie - wie hier - die ergangene Entscheidung in Rechtskraft erwachsen lasse und anschließend Nichtigkeitsklage erhebe.\""
+      },
+      {
+        "cq": "Wie kann eine prozessunfähige Partei sicherstellen, dass ihre Einspruchsfrist nicht durch eine unwirksame Zustellung beeinflusst wird?",
+        "quelle": "\"Die zweiwöchige Einspruchsfrist hat mit der am 5. März 2009 bewirkten Zustellung des Vollstreckungsbescheids an die zu diesem Zeitpunkt geschäfts- und prozessunfähige Erblasserin zu laufen begonnen.\""
+      },
+      {
+        "cq": "Wie kann eine prozessunfähige Partei sicherstellen, dass ihre Entscheidung in Rechtskraft erwächst, wenn sie nicht ordnungsgemäß vertreten wurde?",
+        "quelle": "\"Die Erblasserin ... habe die Wahl, ob sie den Nichtigkeitstatbestand der nicht ordnungsgemäßen Vertretung (§ 579 Abs. 1 Nr. 4 ZPO) durch ein Rechtsmittel im Ausgangsverfahren geltend mache oder ob sie - wie hier - die ergangene Entscheidung in Rechtskraft erwachsen lasse und anschließend Nichtigkeitsklage erhebe.\""
+      }
+    ],
+    "ontology": {
+      "classes": [
+        "Partei",
+        "Beklagte",
+        "Anspruch",
+        "Verpflichtung",
+        "Schaden",
+        "Klausel",
+        "Beweis",
+        "Vertreter",
+        "Einspruchsfrist",
+        "Rechtskraft"
+      ],
+      "properties": [
+        "behandelt",
+        "verpflichtet",
+        "einsteht",
+        "beurteilen",
+        "geltendmachen",
+        "repräsentieren",
+        "beeinflussen",
+        "erwachsen"
+      ],
+      "relationships": [
+        [
+          "Partei",
+          "behandelt",
+          "Beklagte"
+        ],
+        [
+          "Partei",
+          "verpflichtet",
+          "Anspruch"
+        ],
+        [
+          "Partei",
+          "einsteht",
+          "Schaden"
+        ],
+        [
+          "Klausel",
+          "beurteilen",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "geltendmachen",
+          "Anspruch"
+        ],
+        [
+          "Partei",
+          "repräsentieren",
+          "Vertreter"
+        ],
+        [
+          "Einspruchsfrist",
+          "beeinflussen",
+          "Partei"
+        ],
+        [
+          "Entscheidung",
+          "erwachsen",
+          "Rechtskraft"
+        ]
+      ]
+    }
+  }
+}
