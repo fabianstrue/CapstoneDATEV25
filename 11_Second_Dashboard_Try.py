@@ -3,14 +3,14 @@ import json
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
 
-# Load Clustered CQs & Labels
+#Load Clustered CQs & Respectve Labels
 with open("dashboard_data/clustered_CQs_hdbscan.json", "r", encoding="utf-8") as f:
     clustered_cqs = json.load(f)
 
 with open("dashboard_data/cluster_keywords.json", "r", encoding="utf-8") as f:
     cluster_labels = json.load(f)
 
-# Create list of all CQs with cluster info
+#Create List of all CQs with Cluster Info
 cq_data = []
 for cluster_id, cqs in clustered_cqs.items():
     label = ", ".join(cluster_labels.get(cluster_id, []))
@@ -21,15 +21,15 @@ for cluster_id, cqs in clustered_cqs.items():
             "label": label
         })
 
-# Load embedding model
+#Load Embedding Model for Question Matching 
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 cq_embeddings = model.encode([item["cq"] for item in cq_data], convert_to_tensor=True)
 
-# Dashboard UI
+#Dashboard UI Setup
 st.title("📘 DATEV Legal Assistant Dashboard")
 query = st.text_input("🔍 Gib eine juristische Frage ein:")
 
-# Initialisierung, damit kein Fehler entsteht, wenn query leer ist
+#Initiliasing Indoces to avoid typical error if empty query
 top_indices = []
 
 if query:
