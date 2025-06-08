@@ -1,3 +1,5 @@
+# Zur Info: Für Streamlit muss es ein reiner Pythion file (.py) sein, daher kein Notebook (.ipynb)
+
 import streamlit as st
 import numpy as np
 import json
@@ -6,7 +8,7 @@ from pyvis.network import Network
 import streamlit.components.v1 as components
 import tempfile
 
-# === Beispiel-Daten (angepasst an Cluster 0 und Cluster 10) ===
+#Example Questions (fixed with Cluster 0 and Cluster 10 for testing)
 cq_data = [
     {
         "cq": "Welche Rechte hat ein Kabelnetzbetreiber zur Kontrolle der Signaldurchleitung?",
@@ -18,28 +20,28 @@ cq_data = [
     },
 ]
 
-# === Lade Ontologie-Daten ===
+#Load Ontology Data
 with open("ontology_output/gcq_ontology_topdown_refined_small.json") as f:
     ontology_data = json.load(f)
 
-# === Embedding vorbereiten ===
+#Once Again Embeddings for Competency Questions
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 cq_embeddings = model.encode([item["cq"] for item in cq_data], convert_to_tensor=True)
 
-# === Dashboard UI ===
+#Dashboard UI Setup
 st.title("📚 DATEV Legal Assistant Dashboard")
-query = st.text_input("🔍 Gib eine juristische Frage ein:")
+query = st.text_input("🔍 Type in your legal question:")
 
-# === Interaktive Ontologie-Visualisierung ===
+#Interactive Ontology-Visualisation Attempt
 def show_ontology_graph(ontology):
     net = Network(height="500px", width="100%", bgcolor="#222222", font_color="white")
 
-    # Knoten (Klassen)
+    #Knods (Klassen)
     classes = ontology.get("refined_ontology", {}).get("classes", [])
     for node in classes:
         net.add_node(node, label=node, color="#1f78b4")
 
-    # Kanten (Relationen)
+    #Edges (Relationen)
     relations = ontology.get("refined_ontology", {}).get("relationships", [])
     for subj, pred, obj in relations:
         net.add_edge(subj, obj, label=pred)
@@ -52,14 +54,14 @@ def show_ontology_graph(ontology):
         html_content = f.read()
     components.html(html_content, height=550, scrolling=True)
 
-# === Ähnliche Fragen finden ===
+#Find Similar Competency Questions
 if query:
     query_embedding = model.encode(query, convert_to_tensor=True)
     cosine_scores = util.pytorch_cos_sim(query_embedding, cq_embeddings)[0]
     top_k = min(5, len(cq_data))
     top_indices = np.argsort(-cosine_scores.cpu())[:top_k]
 
-    st.subheader("✨ Ähnliche Competency Questions:")
+    st.subheader("✨ Similar Competency Questions:")
     for idx in top_indices:
         result = cq_data[int(idx)]
         cq_text = result["cq"]
@@ -67,12 +69,12 @@ if query:
         label_key = f"Cluster {cluster}"
 
         if st.button(f"➞ {cq_text}", key=f"btn_{idx}"):
-            st.markdown(f"**Ausgewählte Frage:** {cq_text}")
+            st.markdown(f"**Selected Question:** {cq_text}")
             st.markdown(f"_Cluster: {label_key}_")
 
             if label_key in ontology_data:
-                st.subheader("📘 Zugehörige Sub-Ontologie:")
+                st.subheader("📘 Related Sub-Ontology:")
                 ontology = ontology_data[label_key]
                 show_ontology_graph(ontology)
             else:
-                st.warning("Keine Ontologie für dieses Label gefunden.")
+                st.warning("No Ontology Found For This Label.")

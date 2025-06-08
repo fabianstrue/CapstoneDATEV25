@@ -4,22 +4,22 @@ import numpy as np
 import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 
-# Load clustered CQs
+#Load our clustered CQs
 with open("competency_questions_output/clustered_CQs_hdbscan.json", "r", encoding="utf-8") as f:
     clustered_cqs = json.load(f)
 
-# Flatten CQ list with cluster info
+#Flatten CQ list with cluster info
 flat_cqs = []
 for cluster_id, questions in clustered_cqs.items():
     for q in questions:
         flat_cqs.append((q, cluster_id))
 
-# Sentence Embedding Model
+#Sentence Embedding Model for Finding Similar Questions 
 model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 corpus = [q for q, _ in flat_cqs]
 corpus_embeddings = model.encode(corpus, convert_to_tensor=True)
 
-# Streamlit UI
+#Streamlit Dashboard UI Setuo
 st.set_page_config(page_title="Legal CQ Finder", layout="wide")
 st.title("🔍 Juristische Frage & Ontologie-Cluster")
 
