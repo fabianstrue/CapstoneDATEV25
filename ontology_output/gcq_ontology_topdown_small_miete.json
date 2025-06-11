@@ -1,0 +1,52 @@
+{
+    "classes": [
+        "Vermieter",
+        "Mieter",
+        "Mieterhöhungsverlangen",
+        "Modernisierungsmaßnahme",
+        "ÖffentlicheFördermittel"
+    ],
+    "properties": [
+        "kannWirksamStellen",
+        "hatRechtAuf",
+        "betrifft",
+        "basiertAuf"
+    ],
+    "relationships": [
+        [
+            "Vermieter",
+            "kannWirksamStellen",
+            "Mieterhöhungsverlangen"
+        ],
+        [
+            "Mieterhöhungsverlangen",
+            "basiertAuf",
+            "Modernisierungsmaßnahme"
+        ],
+        [
+            "Mieterhöhungsverlangen",
+            "basiertAuf",
+            "ÖffentlicheFördermittel"
+        ],
+        [
+            "Mieter",
+            "hatRechtAuf",
+            "Information"
+        ],
+        [
+            "Mieter",
+            "hatRechtAuf",
+            "Widerspruch"
+        ],
+        [
+            "Modernisierungsmaßnahme",
+            "betrifft",
+            "Wohneigentum"
+        ],
+        [
+            "ÖffentlicheFördermittel",
+            "betrifft",
+            "Wohneigentum"
+        ]
+    ]
+}
