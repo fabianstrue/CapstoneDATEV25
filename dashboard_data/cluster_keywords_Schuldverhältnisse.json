@@ -1,0 +1,659 @@
+{
+  "Cluster 49": [
+    "kündigung",
+    "leihvertrags",
+    "beendigung",
+    "verwaltervertrags",
+    "maklers",
+    "fristlose",
+    "gründe"
+  ],
+  "Cluster 39": [
+    "geschäftsführer",
+    "funktion",
+    "auftrag",
+    "geschäftsführers",
+    "abberufenen",
+    "leitenden",
+    "weiterbeschäftigung"
+  ],
+  "Cluster 56": [
+    "internet",
+    "anzeige",
+    "netzbetreiber",
+    "zustande",
+    "gekommen",
+    "belastungsausgleich",
+    "maklervertrag"
+  ],
+  "Cluster 15": [
+    "strom",
+    "kwk",
+    "kwkg",
+    "energieversorgungsunternehmen",
+    "anlage",
+    "anlagen",
+    "vergütung"
+  ],
+  "Cluster 13": [
+    "kwkg",
+    "vergütung",
+    "mindestvergütung",
+    "kwk",
+    "belastungsausgleich",
+    "anspruchsberechtigt",
+    "vergütungsanspruch"
+  ],
+  "Cluster 19": [
+    "eigentümer",
+    "grundbuch",
+    "eingetragener",
+    "auflassung",
+    "rück",
+    "verlangen",
+    "eigentumsrechte"
+  ],
+  "Cluster 27": [
+    "mietvertrag",
+    "wirksamkeit",
+    "mietvertrags",
+    "beurteilung",
+    "nebenkosten",
+    "servicevertrages",
+    "mieter"
+  ],
+  "Cluster 54": [
+    "schuldner",
+    "lastschriftbuchung",
+    "schuldners",
+    "mitverschulden",
+    "kreditnehmer",
+    "gläubiger",
+    "gesamtschuldner"
+  ],
+  "Cluster 52": [
+    "zahlen",
+    "aufwendungen",
+    "ersparten",
+    "kosten",
+    "zahlung",
+    "leistung",
+    "tragen"
+  ],
+  "Cluster 69": [
+    "partnervermittlungsvertrag",
+    "nichtig",
+    "eugvü",
+    "vertragspartner",
+    "vermittlungsvertrag",
+    "schriftform",
+    "rechtsfolgen"
+  ],
+  "Cluster 4": [
+    "bank",
+    "zurechnung",
+    "beratungsfehlern",
+    "dritten",
+    "fehlern",
+    "konto",
+    "überweisungsempfänger"
+  ],
+  "Cluster 71": [
+    "partei",
+    "vertragspartei",
+    "treuhandvereinbarung",
+    "wirtschaftliche",
+    "bestreitet",
+    "persönliche",
+    "einhält"
+  ],
+  "Cluster 25": [
+    "sinne",
+    "haftung",
+    "gewinnzusage",
+    "begriff",
+    "tatbestandsmerkmale",
+    "wovermittg",
+    "verjährung"
+  ],
+  "Cluster 62": [
+    "schadensersatz",
+    "schadensersatzanspruch",
+    "verjährung",
+    "schaden",
+    "haftung",
+    "überlassenen",
+    "beschädigung"
+  ],
+  "Cluster 26": [
+    "mieter",
+    "vermieter",
+    "vermieters",
+    "mietminderung",
+    "mängeln",
+    "verjährung",
+    "mietwohnung"
+  ],
+  "Cluster 60": [
+    "käufer",
+    "makler",
+    "verkäufer",
+    "objekt",
+    "verbraucher",
+    "potenziellen",
+    "maklers"
+  ],
+  "Cluster 61": [
+    "haftung",
+    "unzulässig",
+    "fall",
+    "auftrag",
+    "beweislast",
+    "trägt",
+    "auswirkungen"
+  ],
+  "Cluster 64": [
+    "makler",
+    "provisionsanspruch",
+    "provision",
+    "gesellschafter",
+    "lastschriftbuchung",
+    "maklergesellschaft",
+    "gesellschaft"
+  ],
+  "Cluster 16": [
+    "liquidator",
+    "vergütungsansprüche",
+    "tätigkeit",
+    "liquidators",
+    "vergütung",
+    "festlegen",
+    "vergütungsregeln"
+  ],
+  "Cluster 30": [
+    "wohnungseigentümer",
+    "betriebskosten",
+    "bezüglich",
+    "wohnungsvermittlung",
+    "verwaltungsunterlagen",
+    "wohnungsberechtigten",
+    "nachweistätigkeit"
+  ],
+  "Cluster 45": [
+    "schiffsführer",
+    "hauptfrachtführer",
+    "gegenüber",
+    "ausführenden",
+    "hauptfrachtführers",
+    "schiffseigentümerin",
+    "haftet"
+  ],
+  "Cluster 47": [
+    "transportgutes",
+    "verfahrters",
+    "wechselseitigen",
+    "haftungsverzichts",
+    "beschädigung",
+    "gütern",
+    "annahme"
+  ],
+  "Cluster 65": [
+    "leistung",
+    "makler",
+    "abrechenbar",
+    "methodisch",
+    "notwendig",
+    "auskunftspflicht",
+    "entscheiden"
+  ],
+  "Cluster 59": [
+    "rechenschaftslegung",
+    "genussscheininhabers",
+    "auskunft",
+    "genussscheininhaber",
+    "bilanzpositionen",
+    "verlangen",
+    "jahresabschluss"
+  ],
+  "Cluster 5": [
+    "versicherungsmakler",
+    "versicherungsnehmer",
+    "lebensversicherung",
+    "provisionszahlung",
+    "versicherungsvertrags",
+    "kunden",
+    "kündigung"
+  ],
+  "Cluster 3": [
+    "bank",
+    "dritten",
+    "pflichtenkreis",
+    "geworden",
+    "beratungsfehler",
+    "beratungsfehlern",
+    "tätig"
+  ],
+  "Cluster 29": [
+    "mietvertrag",
+    "genehmigung",
+    "auftraggeber",
+    "behördlichen",
+    "mietverträge",
+    "erteilung",
+    "nutzungsentschädigung"
+  ],
+  "Cluster 28": [
+    "namen",
+    "vermieter",
+    "anschriften",
+    "mieter",
+    "vermittler",
+    "vermieters",
+    "herausgeben"
+  ],
+  "Cluster 42": [
+    "vereinsmitglieds",
+    "haftung",
+    "freistellung",
+    "vereins",
+    "mitglieder",
+    "geschäftsbesorgungsverhältnissen",
+    "verein"
+  ],
+  "Cluster 0": [
+    "zahnärzte",
+    "zahnarzt",
+    "gebührenordnung",
+    "honorarvereinbarung",
+    "zahnarztrechnungen",
+    "goz",
+    "dentin"
+  ],
+  "Cluster 1": [
+    "leistungen",
+    "patienten",
+    "arzt",
+    "ärzte",
+    "wahlleistungen",
+    "gebührenordnung",
+    "patient"
+  ],
+  "Cluster 40": [
+    "vergleichs",
+    "vergleich",
+    "täuschung",
+    "senats",
+    "anfechtung",
+    "arglistige",
+    "vergleichsprozess"
+  ],
+  "Cluster 43": [
+    "hausnotrufvertrags",
+    "notruf",
+    "hilfeleistung",
+    "miterbe",
+    "dienstleisters",
+    "angemessen",
+    "vorerkrankungen"
+  ],
+  "Cluster 36": [
+    "auftrag",
+    "geschäftsführung",
+    "gefälligkeit",
+    "aufwendungsersatzanspruch",
+    "öffentlich",
+    "entgeltfrage",
+    "aufwendungsersatzansprüche"
+  ],
+  "Cluster 6": [
+    "deutschen",
+    "zuständigkeit",
+    "gerichte",
+    "rechts",
+    "internationale",
+    "anwendbarkeit",
+    "deutscher"
+  ],
+  "Cluster 68": [
+    "gesetzen",
+    "analoge",
+    "vertragspartner",
+    "rahmenvertrag",
+    "schadensersatzanspruch",
+    "auftragsvertrags",
+    "geschäftsbesorgungsvertrag"
+  ],
+  "Cluster 21": [
+    "architekten",
+    "baugenehmigung",
+    "architekt",
+    "auflagen",
+    "bauordnungsrecht",
+    "sächsischen",
+    "eigentum"
+  ],
+  "Cluster 63": [
+    "rechtsfolgen",
+    "verstoßes",
+    "wegen",
+    "übertragung",
+    "verletzung",
+    "geregelt",
+    "nichtig"
+  ],
+  "Cluster 11": [
+    "marketplace",
+    "amazon",
+    "anbieter",
+    "produktbeschreibungen",
+    "prüfungs",
+    "überwachungspflicht",
+    "dritte"
+  ],
+  "Cluster 32": [
+    "vergütung",
+    "arbeitsvermittlers",
+    "geschäftsbedingungen",
+    "vergütungsregelung",
+    "nachtragspositionen",
+    "werkvertrag",
+    "äquivalenzprinzip"
+  ],
+  "Cluster 70": [
+    "partei",
+    "geschäftsbesorgungsvertrags",
+    "vergleich",
+    "informationspflicht",
+    "vergleichs",
+    "täuschung",
+    "arglistiger"
+  ],
+  "Cluster 14": [
+    "energieversorger",
+    "realofferte",
+    "energieversorgungsunternehmens",
+    "grundstücks",
+    "vertragsschluss",
+    "abnehmer",
+    "geschlossen"
+  ],
+  "Cluster 67": [
+    "geschäftsbesorgungsvertrags",
+    "gmbh",
+    "maklers",
+    "hauptvertrags",
+    "geschäftsanteilen",
+    "handelsregister",
+    "tatsachen"
+  ],
+  "Cluster 7": [
+    "haftung",
+    "jagdgenossenschaft",
+    "tierarzt",
+    "beweislastumkehr",
+    "behandlung",
+    "tierärztlichen",
+    "pferdeeigentümer"
+  ],
+  "Cluster 53": [
+    "mittelverwendungskontrolle",
+    "treuhandkommanditist",
+    "anleger",
+    "anlegern",
+    "zukünftigen",
+    "gegenüber",
+    "verpflichtungen"
+  ],
+  "Cluster 10": [
+    "fernwärme",
+    "wärmedämmung",
+    "fernwärmeversorgungsunternehmen",
+    "vertragspartner",
+    "betracht",
+    "kommen",
+    "giebelwand"
+  ],
+  "Cluster 23": [
+    "patentverletzung",
+    "falle",
+    "patentstreit",
+    "vergleich",
+    "patents",
+    "schaden",
+    "rechtswirksam"
+  ],
+  "Cluster 22": [
+    "rente",
+    "beg",
+    "altersversorgung",
+    "neu",
+    "neurechnung",
+    "klägers",
+    "auszulegen"
+  ],
+  "Cluster 66": [
+    "kunde",
+    "makler",
+    "abschließt",
+    "weise",
+    "nachweis",
+    "maklervertrag",
+    "erbracht"
+  ],
+  "Cluster 35": [
+    "berufungsgericht",
+    "berufungsverfahren",
+    "berufungsgerichts",
+    "oberlandesgericht",
+    "erfolgreich",
+    "bewerber",
+    "rechtszugs"
+  ],
+  "Cluster 55": [
+    "informationen",
+    "klausel",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "makler",
+    "auftraggeber",
+    "erhält"
+  ],
+  "Cluster 58": [
+    "verzögerung",
+    "verjährungsfrist",
+    "verzögerungsrüge",
+    "schadensersatzansprüche",
+    "zusätzliche",
+    "entschädigungsklage",
+    "risikobereich"
+  ],
+  "Cluster 50": [
+    "kaution",
+    "finanzierungsleasingvertrag",
+    "stipendiums",
+    "zahlung",
+    "verzinslichkeit",
+    "vergabe",
+    "stiftungssatzung"
+  ],
+  "Cluster 20": [
+    "zuständigkeit",
+    "internationale",
+    "land",
+    "anwendbar",
+    "eugvvo",
+    "gewinnzusage",
+    "materielle"
+  ],
+  "Cluster 41": [
+    "eigentumswohnung",
+    "verkäufer",
+    "immobilie",
+    "objekts",
+    "ausschreibung",
+    "käufer",
+    "grundstück"
+  ],
+  "Cluster 48": [
+    "baukostenzuschuss",
+    "baukostenzuschüssen",
+    "gewässern",
+    "nutzung",
+    "kosten",
+    "unbillig",
+    "tragen"
+  ],
+  "Cluster 33": [
+    "sanierungsgeld",
+    "arbeitgeber",
+    "unrechtmäßig",
+    "erhebt",
+    "erstatten",
+    "vergütung",
+    "erbenermittlers"
+  ],
+  "Cluster 31": [
+    "dienste",
+    "höherer",
+    "dienstvertrag",
+    "kündigung",
+    "dienstvertrages",
+    "gekündigt",
+    "vertragswidriges"
+  ],
+  "Cluster 17": [
+    "sozialversicherungsträger",
+    "systemänderung",
+    "schadensersatzansprüchen",
+    "übertragung",
+    "zuständigen",
+    "irrtümliche",
+    "anspruchsübergang"
+  ],
+  "Cluster 38": [
+    "geschäftsführers",
+    "kündigung",
+    "gmbh",
+    "ordentliche",
+    "geschäftsführer",
+    "anstellungsvertrages",
+    "klageerhebung"
+  ],
+  "Cluster 44": [
+    "entsorgung",
+    "industrieabfällen",
+    "entstehen",
+    "schäden",
+    "entsorgungsunternehmen",
+    "abfällen",
+    "beteiligt"
+  ],
+  "Cluster 46": [
+    "fluggastrechtevo",
+    "passerfordernis",
+    "fluggastrechteverordnung",
+    "luftbeförderung",
+    "kunden",
+    "reisebüro",
+    "reiseveranstalter"
+  ],
+  "Cluster 8": [
+    "ausschlussfrist",
+    "wa",
+    "verstrichen",
+    "unterbrochen",
+    "eingehalten",
+    "einzuhalten",
+    "auszuschließen"
+  ],
+  "Cluster 51": [
+    "warschauer",
+    "montrealer",
+    "abkommens",
+    "zusatzprotokolls",
+    "fassung",
+    "abkommen",
+    "schadensersatzanspruch"
+  ],
+  "Cluster 9": [
+    "fitness",
+    "studio",
+    "vertragsdauer",
+    "unangemessen",
+    "fitnessstudiovertrags",
+    "vertragslaufzeiten",
+    "verträgen"
+  ],
+  "Cluster 12": [
+    "schulvertrages",
+    "kündigung",
+    "schulträger",
+    "träger",
+    "schulvertrag",
+    "privatschulvertrages",
+    "aufgrund"
+  ],
+  "Cluster 34": [
+    "berater",
+    "betriebsrat",
+    "betriebsrats",
+    "externer",
+    "externen",
+    "hinzuziehung",
+    "beauftragen"
+  ],
+  "Cluster 18": [
+    "eigentumswohnung",
+    "schallschutz",
+    "käufer",
+    "verbessern",
+    "angebot",
+    "ablehnt",
+    "veräußerer"
+  ],
+  "Cluster 57": [
+    "übertragen",
+    "unternehmenskennzeichen",
+    "anpassung",
+    "geschäftsgrundlage",
+    "prinzipien",
+    "störung",
+    "änderungen"
+  ],
+  "Cluster 2": [
+    "parkgebühr",
+    "fahrzeug",
+    "parkplatzbetreiber",
+    "abgestellt",
+    "parkplatz",
+    "entrichtung",
+    "fahrzeuge"
+  ],
+  "Cluster 37": [
+    "erfindung",
+    "vergütung",
+    "geschäftsführer",
+    "erfinder",
+    "geschäftsführerstellung",
+    "taxe",
+    "bemessen"
+  ],
+  "Cluster 24": [
+    "giebelwand",
+    "nachbarn",
+    "ungeschützt",
+    "witterung",
+    "abbricht",
+    "eigentümer",
+    "stellplatzpflicht"
+  ],
+  "Cluster -1": [
+    "berechnen",
+    "geschäftsbedingungen",
+    "kosten",
+    "verpflichtung",
+    "gemeinde",
+    "treu",
+    "glauben"
+  ]
+}

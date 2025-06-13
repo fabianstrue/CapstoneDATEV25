@@ -1,0 +1,632 @@
+{
+  "Cluster 39": [
+    "wohnungseigentümergemeinschaft",
+    "gaslieferung",
+    "energieversorger",
+    "versorgungsvertrag",
+    "gaslieferungsvertrag",
+    "preisanpassungsklausel",
+    "zentralheizungsanlage"
+  ],
+  "Cluster 68": [
+    "wohnungseigentümergemeinschaft",
+    "wohnungseigentümer",
+    "gemeinschaftlichen",
+    "gemeinschaftseigentum",
+    "eigentums",
+    "gemeinschaftseigentums",
+    "gemeinschaft"
+  ],
+  "Cluster 14": [
+    "rück",
+    "auflassung",
+    "eingetragener",
+    "grundbuch",
+    "eigentümer",
+    "verlangen",
+    "heizkörpern"
+  ],
+  "Cluster 36": [
+    "kosten",
+    "tragen",
+    "betriebskostenabrechnung",
+    "kostenentscheidung",
+    "fall",
+    "zwangsverwaltung",
+    "verwaltung"
+  ],
+  "Cluster 35": [
+    "baukostenzuschüssen",
+    "baukostenzuschuss",
+    "berechnung",
+    "kostenverteilungsschlüssels",
+    "festlegung",
+    "eigentümerversammlung",
+    "änderung"
+  ],
+  "Cluster 30": [
+    "anfechtungsklage",
+    "beschluss",
+    "gericht",
+    "rechtskraft",
+    "notwendigen",
+    "revision",
+    "verwalter"
+  ],
+  "Cluster 23": [
+    "berufungsgericht",
+    "sache",
+    "zurückverweisen",
+    "zurückverweisung",
+    "berufungsverfahren",
+    "berufungsgerichts",
+    "berufung"
+  ],
+  "Cluster 66": [
+    "wohnungseigentümergemeinschaft",
+    "wohnungseigentümer",
+    "beschlüssen",
+    "gültigkeit",
+    "beschlusses",
+    "wohnungserbbaurechtsversammlungen",
+    "beschluss"
+  ],
+  "Cluster 61": [
+    "wohnungseigentümer",
+    "wohnungseigentümergemeinschaft",
+    "gemeinschaftlichen",
+    "änderung",
+    "beeinträchtigt",
+    "bezug",
+    "veränderung"
+  ],
+  "Cluster 65": [
+    "teilungserklärung",
+    "wohnungseigentümergemeinschaft",
+    "nutzung",
+    "sonderumlage",
+    "sondereigentumseinheiten",
+    "zweckbestimmung",
+    "sondereigentums"
+  ],
+  "Cluster 59": [
+    "wohnungseigentümer",
+    "versammlungen",
+    "ausschluss",
+    "wohnungseigentümers",
+    "eigentümerversammlung",
+    "teilnahme",
+    "eingeladen"
+  ],
+  "Cluster 10": [
+    "tatbestandsmerkmale",
+    "haftung",
+    "rechtsverteidigung",
+    "geht",
+    "tragen",
+    "kosten",
+    "persönlichkeitsrechts"
+  ],
+  "Cluster 2": [
+    "vertragsstrafe",
+    "übrigen",
+    "farbliche",
+    "fehlerhafte",
+    "fehlerhaft",
+    "fehler",
+    "fehlendes"
+  ],
+  "Cluster 5": [
+    "tragen",
+    "notwendige",
+    "aufklärung",
+    "kosten",
+    "mängeln",
+    "beseitigung",
+    "mängelbeseitigung"
+  ],
+  "Cluster 8": [
+    "schriftform",
+    "anfechtung",
+    "klausel",
+    "treu",
+    "glauben",
+    "verstößt",
+    "nichtig"
+  ],
+  "Cluster 7": [
+    "partei",
+    "zurücktreten",
+    "leistung",
+    "zurücktritt",
+    "wichtigen",
+    "verpflichtung",
+    "grund"
+  ],
+  "Cluster 29": [
+    "schadensersatz",
+    "verjährung",
+    "verletzung",
+    "handlung",
+    "haftung",
+    "dritten",
+    "schadensersatzanspruch"
+  ],
+  "Cluster 9": [
+    "vorkaufsrecht",
+    "käufer",
+    "besitzer",
+    "widerrufsrecht",
+    "vorkaufsrechts",
+    "verjährung",
+    "klausel"
+  ],
+  "Cluster 12": [
+    "schadensersatz",
+    "verjährung",
+    "verletzung",
+    "persönlichkeitsrechts",
+    "allgemeinen",
+    "rechtsfolgen",
+    "verjährungsfrist"
+  ],
+  "Cluster 40": [
+    "vermieter",
+    "mieter",
+    "miete",
+    "wohnung",
+    "mietwohnung",
+    "mietvertrag",
+    "vermieters"
+  ],
+  "Cluster 63": [
+    "mieters",
+    "wohnungseigentümer",
+    "veräußerung",
+    "vorkaufsrecht",
+    "wohnungseigentum",
+    "wohnung",
+    "bestellung"
+  ],
+  "Cluster 49": [
+    "wohnungseigentümer",
+    "haftung",
+    "wohnungseigentümergemeinschaft",
+    "schadensersatz",
+    "zwangsversteigerungsverfahren",
+    "hausgeldansprüchen",
+    "anmeldung"
+  ],
+  "Cluster 50": [
+    "wohnungseigentümergemeinschaft",
+    "anfechtungsklage",
+    "wohnungseigentümer",
+    "mitglieder",
+    "übrigen",
+    "beschluss",
+    "richten"
+  ],
+  "Cluster 18": [
+    "eigentümerversammlung",
+    "eigentümerliste",
+    "vorlage",
+    "verwaltung",
+    "anfechtung",
+    "beschlüssen",
+    "eigentümergemeinschaft"
+  ],
+  "Cluster 60": [
+    "wohnungseigentümergemeinschaft",
+    "wohnungseigentum",
+    "wohnungseigentümer",
+    "wohnungseigentümern",
+    "kaufvertrag",
+    "ladungsfähigen",
+    "prozessstandschaft"
+  ],
+  "Cluster 11": [
+    "willenserklärung",
+    "verjährungsfrist",
+    "kündigung",
+    "wiederkehrende",
+    "regelmäßig",
+    "leistungen",
+    "sinne"
+  ],
+  "Cluster 47": [
+    "wohnungseigentümer",
+    "wohnungseigentümergemeinschaft",
+    "entziehung",
+    "wohnungseigentums",
+    "klagefrist",
+    "gerichtet",
+    "innerhalb"
+  ],
+  "Cluster 6": [
+    "begründungsfrist",
+    "klagefrist",
+    "eingehalten",
+    "frist",
+    "sinne",
+    "zustellung",
+    "anfechtungsklage"
+  ],
+  "Cluster 20": [
+    "gkg",
+    "kostenvorschusses",
+    "partei",
+    "kostenvorschuss",
+    "gerichtskostenvorschuss",
+    "anforderung",
+    "prozesskostenhilfe"
+  ],
+  "Cluster 45": [
+    "mieter",
+    "vorkaufsrecht",
+    "vermieter",
+    "abrechnungsfrist",
+    "mietverhältnis",
+    "vermieters",
+    "mieterhöhung"
+  ],
+  "Cluster 25": [
+    "käufer",
+    "verkäufer",
+    "verkäufers",
+    "verbraucher",
+    "haftung",
+    "kaufvertrag",
+    "sache"
+  ],
+  "Cluster 26": [
+    "geschlossen",
+    "sondernachfolger",
+    "wirksame",
+    "formwirksam",
+    "rückgängigmachung",
+    "eintritt",
+    "verwalterin"
+  ],
+  "Cluster 0": [
+    "bank",
+    "beratungsfehlern",
+    "dritten",
+    "zurechnung",
+    "tätig",
+    "geworden",
+    "pflichtenkreis"
+  ],
+  "Cluster 38": [
+    "miteigentumsflächen",
+    "veräußerung",
+    "eigentumswohnung",
+    "eigentumsstörung",
+    "beschluss",
+    "grundstück",
+    "baugenehmigung"
+  ],
+  "Cluster 33": [
+    "gemeinschaftseigentums",
+    "gemeinschaftseigentum",
+    "abnahme",
+    "gemeinschaft",
+    "mängeln",
+    "wegen",
+    "mängel"
+  ],
+  "Cluster 67": [
+    "wohnungseigentümergemeinschaft",
+    "verwaltung",
+    "wohnungseigentümer",
+    "verwalter",
+    "sicherzustellen",
+    "verwaltungsbeirat",
+    "ordnungsmäßige"
+  ],
+  "Cluster 13": [
+    "verjährung",
+    "begriff",
+    "verstehen",
+    "anfechtung",
+    "unterlassungsanspruch",
+    "gemacht",
+    "herausgabeanspruch"
+  ],
+  "Cluster 1": [
+    "beratungsfehler",
+    "bank",
+    "dritten",
+    "verantwortlich",
+    "haften",
+    "rechtsstellung",
+    "gebrauch"
+  ],
+  "Cluster 56": [
+    "wohnungseigentümer",
+    "wohnungseigentümergemeinschaft",
+    "kostenverteilungsschlüssels",
+    "kostenverteilung",
+    "änderung",
+    "kosten",
+    "jahresabrechnung"
+  ],
+  "Cluster 27": [
+    "sondernutzungsrechten",
+    "sondernutzungsrecht",
+    "nutzungsbeschränkung",
+    "sondernutzungsrechte",
+    "zuweisung",
+    "ändern",
+    "veränderungen"
+  ],
+  "Cluster 28": [
+    "teilungserklärung",
+    "teileigentumseinheiten",
+    "aufteilungsplan",
+    "änderung",
+    "nutzung",
+    "auslegung",
+    "teilungsvertrages"
+  ],
+  "Cluster 21": [
+    "partei",
+    "geschäftsbesorgungsvertrags",
+    "befreit",
+    "zurücktreten",
+    "rechtsfolgen",
+    "treten",
+    "freigestellt"
+  ],
+  "Cluster 44": [
+    "kosten",
+    "tragen",
+    "gemeinschaftseigentum",
+    "gemeinschaftlichen",
+    "beseitigung",
+    "eigentums",
+    "mangelbeseitigung"
+  ],
+  "Cluster 15": [
+    "kündigung",
+    "arbeitnehmer",
+    "gekündigt",
+    "dienstvertrag",
+    "rechtsfolgen",
+    "wichtigen",
+    "grund"
+  ],
+  "Cluster 34": [
+    "gemeinschaftlichen",
+    "gemeinschaftsordnung",
+    "erbbauberechtigter",
+    "eigentums",
+    "berechtigt",
+    "qualifizierte",
+    "untergemeinschaften"
+  ],
+  "Cluster 57": [
+    "kreditaufnahme",
+    "wohngeldschulden",
+    "nachlassverbindlichkeiten",
+    "wohnungseigentümergemeinschaft",
+    "erben",
+    "angesehen",
+    "wohnungseigentümer"
+  ],
+  "Cluster 54": [
+    "wohnungseigentum",
+    "trittschallschutz",
+    "heim",
+    "wohnung",
+    "tagespflegestelle",
+    "wohnnutzung",
+    "betrieb"
+  ],
+  "Cluster 17": [
+    "sondereigentum",
+    "eigentümer",
+    "teilender",
+    "sondereigentums",
+    "teilungserklärung",
+    "ändern",
+    "sondereigentumseinheit"
+  ],
+  "Cluster 62": [
+    "verwalter",
+    "wohnungseigentümergemeinschaft",
+    "wohnungseigentümer",
+    "verwalters",
+    "prozessführungsbefugnis",
+    "beurteilungsspielraum",
+    "abberufung"
+  ],
+  "Cluster 43": [
+    "einbau",
+    "aufzugs",
+    "wohnungseigentümer",
+    "wohnungseigentümers",
+    "stört",
+    "gepflegten",
+    "eindruck"
+  ],
+  "Cluster 37": [
+    "stimmabgabe",
+    "wohnungseigentümerversammlung",
+    "stimmrecht",
+    "wohnungseigentümergemeinschaft",
+    "ausgeschlossen",
+    "abstimmung",
+    "widerrufen"
+  ],
+  "Cluster 55": [
+    "heiz",
+    "warmwasserkosten",
+    "abrechnung",
+    "verbrauchsabhängige",
+    "kosten",
+    "wohnungseigentümergemeinschaft",
+    "zentralen"
+  ],
+  "Cluster 48": [
+    "umlageschlüssels",
+    "änderung",
+    "wohnungseigentümergemeinschaft",
+    "rücklagen",
+    "bildung",
+    "wirtschaftsplan",
+    "mehrheit"
+  ],
+  "Cluster 51": [
+    "fenstern",
+    "wohnungseingangstüren",
+    "instandsetzung",
+    "laut",
+    "gemeinschaftseigentum",
+    "gestaltung",
+    "türen"
+  ],
+  "Cluster 53": [
+    "aufteilungsplan",
+    "sechsten",
+    "ebene",
+    "hauses",
+    "dachterrasse",
+    "sondereigentum",
+    "gebäude"
+  ],
+  "Cluster 31": [
+    "kündigung",
+    "genehmigung",
+    "wohnungseigentümer",
+    "haustürgeschäften",
+    "widerruf",
+    "durchsetzung",
+    "angefochten"
+  ],
+  "Cluster 58": [
+    "wohnungseigentümergemeinschaft",
+    "wohnungseigentümern",
+    "gesamtschuldnerisch",
+    "öffentlich",
+    "abgabenpflicht",
+    "tragende",
+    "zahlung"
+  ],
+  "Cluster 52": [
+    "abrechnungsergebnisse",
+    "ausweis",
+    "übersicht",
+    "rückstände",
+    "hausgeldvorschüsse",
+    "wohnungen",
+    "darzustellen"
+  ],
+  "Cluster 3": [
+    "videoüberwachung",
+    "videoüberwachungsanlage",
+    "videoüberwachungskameras",
+    "nachbarn",
+    "eigentümer",
+    "persönlichkeitsrecht",
+    "schützen"
+  ],
+  "Cluster 19": [
+    "parteibezeichnung",
+    "klageschrift",
+    "fehlerhafte",
+    "partei",
+    "falsche",
+    "korrigiert",
+    "auslegung"
+  ],
+  "Cluster 41": [
+    "kosten",
+    "instandsetzung",
+    "instandhaltung",
+    "trägt",
+    "balkons",
+    "dachs",
+    "ausschließlichen"
+  ],
+  "Cluster 42": [
+    "balkonbrüstungen",
+    "sanierung",
+    "optische",
+    "gebäudes",
+    "veränderung",
+    "beschlossen",
+    "wohnungseigentümer"
+  ],
+  "Cluster 16": [
+    "rauchwarnmeldern",
+    "installation",
+    "einbau",
+    "wohnungen",
+    "beschlusskompetenz",
+    "sicherstellen",
+    "brandschutzvorschriften"
+  ],
+  "Cluster 46": [
+    "wohnungseigentümer",
+    "zweck",
+    "nießbraucher",
+    "nutzung",
+    "gebäudeteils",
+    "beeinträchtigt",
+    "wohngeldzahlung"
+  ],
+  "Cluster 22": [
+    "pflanzen",
+    "miteigentümer",
+    "nutzung",
+    "bezug",
+    "gebrauchsregelung",
+    "gartens",
+    "gartenflächen"
+  ],
+  "Cluster 32": [
+    "feriengäste",
+    "vermietung",
+    "kurzfristige",
+    "wohnung",
+    "nutzung",
+    "eigentumswohnung",
+    "wohnnutzung"
+  ],
+  "Cluster 64": [
+    "bauliche",
+    "veränderung",
+    "wohnungseigentümer",
+    "baulichen",
+    "zustimmung",
+    "veränderungen",
+    "änderung"
+  ],
+  "Cluster 4": [
+    "schallschutzes",
+    "schallschutz",
+    "schallschutzniveaus",
+    "wohnanlage",
+    "din",
+    "einzuhaltende",
+    "schallschutzniveau"
+  ],
+  "Cluster 24": [
+    "verlusts",
+    "schlüssels",
+    "schlüssel",
+    "mieter",
+    "vermieter",
+    "schadensersatz",
+    "wegen"
+  ],
+  "Cluster -1": [
+    "wirtschaftsplan",
+    "wirtschaftsplans",
+    "doppelstockgarage",
+    "hebeanlage",
+    "geht",
+    "abrechnung",
+    "din"
+  ]
+}

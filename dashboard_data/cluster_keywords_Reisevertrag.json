@@ -1,0 +1,173 @@
+{
+  "Cluster 0": [
+    "flug",
+    "ausgleichszahlung",
+    "fluggast",
+    "fluggastrechteverordnung",
+    "luftfahrtunternehmen",
+    "verspätung",
+    "fluggäste"
+  ],
+  "Cluster 16": [
+    "verordnung",
+    "inhaltskontrolle",
+    "agbg",
+    "sinne",
+    "außergewöhnliche",
+    "eg",
+    "umstände"
+  ],
+  "Cluster 14": [
+    "widerruf",
+    "käufer",
+    "verbraucher",
+    "vertragserklärung",
+    "eigentümer",
+    "eingetragener",
+    "grundbuch"
+  ],
+  "Cluster 10": [
+    "vertragliche",
+    "vertragspartner",
+    "verstößt",
+    "verpflichtung",
+    "angefochten",
+    "irrtums",
+    "wegen"
+  ],
+  "Cluster 5": [
+    "tragen",
+    "kosten",
+    "rechtsstreits",
+    "verloren",
+    "geht",
+    "nachbesserung",
+    "vertragswidrig"
+  ],
+  "Cluster 7": [
+    "schadensersatz",
+    "verjährungsfrist",
+    "verjährung",
+    "schadensersatzansprüche",
+    "deliktische",
+    "schadensmeldung",
+    "beschwerdegegenstands"
+  ],
+  "Cluster 2": [
+    "mieter",
+    "vermieters",
+    "mietsache",
+    "mängeln",
+    "haftung",
+    "mietminderung",
+    "miete"
+  ],
+  "Cluster 9": [
+    "arbeitnehmer",
+    "verstößt",
+    "arbeitnehmerüberlassungsvertrag",
+    "arbeitsvertraglichen",
+    "vermittlungsprovision",
+    "kündigung",
+    "auftrag"
+  ],
+  "Cluster 12": [
+    "tatbestandsmerkmale",
+    "haftung",
+    "entschädigungsanspruch",
+    "schadensersatz",
+    "leisten",
+    "interpretieren",
+    "ort"
+  ],
+  "Cluster 8": [
+    "handlung",
+    "unerlaubten",
+    "schadensersatz",
+    "aufgrund",
+    "unerlaubter",
+    "beweislast",
+    "geregelt"
+  ],
+  "Cluster 11": [
+    "schriftform",
+    "rechtsschein",
+    "stellung",
+    "erfüllungsorts",
+    "geschlossen",
+    "vertragspartner",
+    "vertraglichen"
+  ],
+  "Cluster 6": [
+    "partei",
+    "nichtig",
+    "verpflichtungen",
+    "vertraglichen",
+    "abbricht",
+    "mündlichen",
+    "verhandlung"
+  ],
+  "Cluster 17": [
+    "verordnung",
+    "ausgleichszahlungen",
+    "verpflichtung",
+    "ausgeschlossen",
+    "ausgleichszahlung",
+    "ausgleichsleistungen",
+    "verspätung"
+  ],
+  "Cluster 15": [
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "klausel",
+    "agb",
+    "klauseln",
+    "verwendung",
+    "allgemeine"
+  ],
+  "Cluster 3": [
+    "reiseveranstalter",
+    "reisenden",
+    "reise",
+    "reisender",
+    "reiseveranstalters",
+    "reisevertrag",
+    "reisepreises"
+  ],
+  "Cluster 1": [
+    "bank",
+    "beratungsfehlern",
+    "zurechnung",
+    "dritten",
+    "pflichtenkreis",
+    "geworden",
+    "tätig"
+  ],
+  "Cluster 13": [
+    "frist",
+    "ausschlußfrist",
+    "innerhalb",
+    "ausschlussfrist",
+    "ersatzansprüchen",
+    "anmeldung",
+    "begriff"
+  ],
+  "Cluster 4": [
+    "revision",
+    "hauptsache",
+    "erfolglosigkeit",
+    "erfolgreich",
+    "beurteilung",
+    "zulässigkeit",
+    "einzulegen"
+  ],
+  "Cluster -1": [
+    "höhere",
+    "gewalt",
+    "begriff",
+    "brüssel",
+    "vo",
+    "union",
+    "europäischen"
+  ]
+}

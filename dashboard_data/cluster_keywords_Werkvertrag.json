@@ -1,0 +1,920 @@
+{
+  "Cluster 88": [
+    "verjährung",
+    "unterbrechen",
+    "berechtigt",
+    "teilabnahme",
+    "hemmen",
+    "hemmung",
+    "verknüpfung"
+  ],
+  "Cluster 80": [
+    "mängelbeseitigung",
+    "mängeln",
+    "mängelansprüchen",
+    "verjährung",
+    "gutachten",
+    "ersatzvornahme",
+    "nachweis"
+  ],
+  "Cluster 34": [
+    "sinne",
+    "verstehen",
+    "begriff",
+    "zurückbehaltungsrecht",
+    "sicherheit",
+    "werkes",
+    "aufwendungen"
+  ],
+  "Cluster 59": [
+    "kunde",
+    "mahnung",
+    "mangelhaften",
+    "verlangen",
+    "kaufgegenstand",
+    "erstattung",
+    "ware"
+  ],
+  "Cluster 30": [
+    "schadensersatzansprüche",
+    "verjährungsfrist",
+    "entstanden",
+    "abnahme",
+    "lange",
+    "beginnt",
+    "dauert"
+  ],
+  "Cluster 73": [
+    "gekündigten",
+    "pauschalpreisvertrag",
+    "erbrachten",
+    "vorzeitig",
+    "pauschalpreisvertrags",
+    "leistungen",
+    "pauschalvertrag"
+  ],
+  "Cluster 41": [
+    "schlußrechnung",
+    "prüfbar",
+    "anforderungen",
+    "gestellt",
+    "prüffähig",
+    "schlussrechnung",
+    "rechnung"
+  ],
+  "Cluster 8": [
+    "bank",
+    "dritten",
+    "beratungsfehlern",
+    "zurechnung",
+    "pflichtenkreis",
+    "tätig",
+    "geworden"
+  ],
+  "Cluster 56": [
+    "gebäude",
+    "bestimmten",
+    "planung",
+    "ordnungsgemäße",
+    "bausubstanz",
+    "bauwerk",
+    "fabrikats"
+  ],
+  "Cluster 6": [
+    "vorschuss",
+    "mängelbeseitigung",
+    "auftraggeber",
+    "vorschusses",
+    "vorschussurteil",
+    "kostenvorschussanspruch",
+    "vorschussanspruch"
+  ],
+  "Cluster 68": [
+    "tragen",
+    "mängelbeseitigungskosten",
+    "kosten",
+    "mängelbeseitigung",
+    "möglich",
+    "unverhältnismäßig",
+    "darzulegen"
+  ],
+  "Cluster 78": [
+    "kosten",
+    "sachverständigengutachtens",
+    "haftpflichtversicherung",
+    "erstattung",
+    "sachverständigenkosten",
+    "höhe",
+    "schädigers"
+  ],
+  "Cluster 5": [
+    "drückendes",
+    "wasser",
+    "planung",
+    "grundwasserverhältnisse",
+    "boden",
+    "grundwasser",
+    "abdichtung"
+  ],
+  "Cluster 21": [
+    "architekt",
+    "architekten",
+    "planung",
+    "architektenleistungen",
+    "bauherrn",
+    "haftung",
+    "auftraggeber"
+  ],
+  "Cluster 97": [
+    "verjährung",
+    "gegenüber",
+    "verjährt",
+    "rechtsstreit",
+    "mängelbeseitigung",
+    "verfolgen",
+    "werkmangels"
+  ],
+  "Cluster 22": [
+    "honorarvereinbarung",
+    "vereinbarte",
+    "mindestsätze",
+    "leistungen",
+    "anforderungen",
+    "vergütung",
+    "hinausgeht"
+  ],
+  "Cluster 77": [
+    "schlußrechnung",
+    "auftragnehmer",
+    "auftraggeber",
+    "prüfbare",
+    "rechnung",
+    "prüffähigkeit",
+    "abrechnung"
+  ],
+  "Cluster 48": [
+    "bauvertrag",
+    "bauvertrags",
+    "anrechnung",
+    "schriftliche",
+    "vorhandener",
+    "entwässerung",
+    "ausbauhauses"
+  ],
+  "Cluster 65": [
+    "partei",
+    "beweisen",
+    "befreit",
+    "mangelbeseitigung",
+    "erfüllen",
+    "leistungspflicht",
+    "mängelbeseitigung"
+  ],
+  "Cluster 66": [
+    "beschaffenheit",
+    "werks",
+    "werkes",
+    "werkvertrags",
+    "regeln",
+    "vorausgesetzte",
+    "technik"
+  ],
+  "Cluster 70": [
+    "partei",
+    "grund",
+    "wichtigen",
+    "zurücktritt",
+    "zurücktreten",
+    "befreit",
+    "auslegung"
+  ],
+  "Cluster 76": [
+    "berufungsgericht",
+    "berufungsurteil",
+    "berufungsinstanz",
+    "revision",
+    "sache",
+    "feststellungen",
+    "berufungsgerichts"
+  ],
+  "Cluster 96": [
+    "revision",
+    "gericht",
+    "bundesgerichtshofs",
+    "ermessen",
+    "beurteilung",
+    "vorbehaltsurteil",
+    "bundesgerichtshof"
+  ],
+  "Cluster 60": [
+    "unternehmer",
+    "besteller",
+    "unternehmers",
+    "mängelbeseitigung",
+    "bestellers",
+    "verweigert",
+    "sicherheit"
+  ],
+  "Cluster 50": [
+    "schadensersatzanspruch",
+    "wegen",
+    "gemacht",
+    "fehlerhafter",
+    "mangelhafter",
+    "bauherrn",
+    "bauaufsicht"
+  ],
+  "Cluster 54": [
+    "waschstraße",
+    "verkehrssicherungspflicht",
+    "straße",
+    "betreiber",
+    "schädigungen",
+    "fehlverhalten",
+    "beurteilung"
+  ],
+  "Cluster 81": [
+    "mängelbeseitigung",
+    "abnahme",
+    "mahnung",
+    "verjährung",
+    "unverhältnismäßig",
+    "durchzuführen",
+    "nachzügler"
+  ],
+  "Cluster 9": [
+    "agb",
+    "klausel",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "kunden",
+    "benachteiligt",
+    "unangemessen"
+  ],
+  "Cluster 94": [
+    "vertragserfüllungsbürgschaft",
+    "kündigung",
+    "wbg",
+    "klausel",
+    "gekommen",
+    "vertragsklausel",
+    "stellen"
+  ],
+  "Cluster 7": [
+    "beratungsfehlern",
+    "dritten",
+    "zurechnung",
+    "bank",
+    "unternehmen",
+    "begründung",
+    "partei"
+  ],
+  "Cluster 17": [
+    "schuldner",
+    "gläubiger",
+    "gesamtschuldner",
+    "verschulden",
+    "schuldübernahme",
+    "mitverschulden",
+    "verjährung"
+  ],
+  "Cluster 86": [
+    "auftragnehmer",
+    "auftraggeber",
+    "auftraggebers",
+    "leistung",
+    "auftragnehmers",
+    "verweigert",
+    "besteller"
+  ],
+  "Cluster 51": [
+    "tragen",
+    "kosten",
+    "mängelbeseitigung",
+    "mängel",
+    "auftragnehmer",
+    "wegen",
+    "mangel"
+  ],
+  "Cluster 47": [
+    "unternehmers",
+    "unternehmer",
+    "bauwerks",
+    "zustands",
+    "dokumentation",
+    "techniken",
+    "materialien"
+  ],
+  "Cluster 23": [
+    "architekten",
+    "ingenieure",
+    "honorarordnung",
+    "honorars",
+    "ingenieur",
+    "honorarberechnung",
+    "leistungsphasen"
+  ],
+  "Cluster 27": [
+    "immobilie",
+    "wohnflächen",
+    "beschaffenheitsvereinbarung",
+    "tatsächlichen",
+    "käufer",
+    "zustand",
+    "wohnungen"
+  ],
+  "Cluster 98": [
+    "mangelfolgeschaden",
+    "schaden",
+    "berechnen",
+    "wegen",
+    "schäden",
+    "schadensberechnung",
+    "schadensersatzanspruch"
+  ],
+  "Cluster 75": [
+    "handlung",
+    "verjährung",
+    "unerlaubter",
+    "abtretung",
+    "gewährleistungsansprüchen",
+    "gegenforderungen",
+    "unterliegen"
+  ],
+  "Cluster 35": [
+    "mieter",
+    "mietwohnung",
+    "vermieter",
+    "mieteinnahmen",
+    "vermieters",
+    "mängeln",
+    "mietvertrags"
+  ],
+  "Cluster 39": [
+    "honorarzone",
+    "honorarforderung",
+    "honorarvereinbarung",
+    "honorars",
+    "vereinbarte",
+    "berechnung",
+    "honorarberechnung"
+  ],
+  "Cluster 64": [
+    "kaufvertrag",
+    "werkvertrag",
+    "einordnung",
+    "sachen",
+    "werklieferungsvertrag",
+    "eingestuft",
+    "lieferung"
+  ],
+  "Cluster 63": [
+    "montageverpflichtung",
+    "kaufvertrag",
+    "montageleistung",
+    "unterschied",
+    "werkvertrag",
+    "kaufvertrags",
+    "kaufpreises"
+  ],
+  "Cluster 61": [
+    "verweigert",
+    "schadensersatz",
+    "unternehmer",
+    "nacherfüllung",
+    "käufer",
+    "besteller",
+    "haftung"
+  ],
+  "Cluster 28": [
+    "schadensersatzanspruch",
+    "schadensersatzanspruchs",
+    "gemacht",
+    "hemmung",
+    "verjährung",
+    "schadensersatzansprüchen",
+    "abtretung"
+  ],
+  "Cluster 52": [
+    "besteller",
+    "werk",
+    "wegen",
+    "bestellers",
+    "schadensersatzanspruch",
+    "schadensersatz",
+    "mängeln"
+  ],
+  "Cluster 19": [
+    "vob",
+    "preisanpassung",
+    "verlangen",
+    "vergütung",
+    "geänderte",
+    "auftragnehmer",
+    "verwirkt"
+  ],
+  "Cluster 16": [
+    "werkvertrag",
+    "kündigung",
+    "werkvertrages",
+    "werkverträge",
+    "vorliegt",
+    "nichtig",
+    "sinne"
+  ],
+  "Cluster 14": [
+    "vergütungsanspruch",
+    "vergütung",
+    "übliche",
+    "vergütungsanspruchs",
+    "abrechnung",
+    "erforderlich",
+    "erbrachten"
+  ],
+  "Cluster 92": [
+    "vergütung",
+    "werkvertrags",
+    "kündigung",
+    "berechnen",
+    "höhe",
+    "leistungen",
+    "werkleistung"
+  ],
+  "Cluster 36": [
+    "wohnungseigentümergemeinschaft",
+    "gemeinschaftseigentums",
+    "gemeinschaftseigentum",
+    "abnahme",
+    "wohnungseigentümer",
+    "erwerber",
+    "mängeln"
+  ],
+  "Cluster 55": [
+    "bauunternehmer",
+    "mängel",
+    "käufer",
+    "sanierten",
+    "bauherr",
+    "altbaus",
+    "haftung"
+  ],
+  "Cluster 62": [
+    "auftraggeber",
+    "überzahlten",
+    "abrechnung",
+    "auszahlung",
+    "überschusses",
+    "rückzahlungsanspruchs",
+    "rückzahlung"
+  ],
+  "Cluster 33": [
+    "besteller",
+    "leistungsverweigerungsrecht",
+    "verbraucher",
+    "zurückbehaltungsrecht",
+    "sicherheit",
+    "vermutung",
+    "mängelrüge"
+  ],
+  "Cluster 91": [
+    "gericht",
+    "aufrechnung",
+    "werklohn",
+    "vergütungsanspruch",
+    "werklohnforderung",
+    "vergütung",
+    "werklohnanspruch"
+  ],
+  "Cluster 82": [
+    "fällig",
+    "werklohnforderung",
+    "werklohnanspruch",
+    "werklohn",
+    "arbeitnehmer",
+    "gemacht",
+    "abnahme"
+  ],
+  "Cluster 84": [
+    "werkvertrag",
+    "werkvertragspartner",
+    "vorliegt",
+    "vertretergeschäft",
+    "verjährt",
+    "zustande",
+    "schlusszahlungseinrede"
+  ],
+  "Cluster 85": [
+    "werkvertrags",
+    "werkvertrag",
+    "werkvertrages",
+    "einhaltung",
+    "werklieferungsvertrags",
+    "auftragnehmers",
+    "erbrachten"
+  ],
+  "Cluster 1": [
+    "eingetragener",
+    "grundbuch",
+    "eigentümer",
+    "rück",
+    "auflassung",
+    "verlangen",
+    "eigentumsrechte"
+  ],
+  "Cluster 18": [
+    "vob",
+    "uklag",
+    "unterlassungsanspruch",
+    "kündigung",
+    "auftraggeber",
+    "sinne",
+    "kündigen"
+  ],
+  "Cluster 12": [
+    "insolvenz",
+    "insolvenzverwalter",
+    "rechtsstreit",
+    "gläubiger",
+    "aufzunehmen",
+    "insolvenztabelle",
+    "betreiben"
+  ],
+  "Cluster 13": [
+    "unternehmer",
+    "sicherheit",
+    "gekündigt",
+    "vergütungsanspruch",
+    "darlegen",
+    "leistungsverweigerungsrecht",
+    "unternehmers"
+  ],
+  "Cluster 95": [
+    "kosten",
+    "tragen",
+    "reparatur",
+    "mängelbeseitigungskosten",
+    "auftraggeber",
+    "schadensersatzanspruch",
+    "leisten"
+  ],
+  "Cluster 67": [
+    "revision",
+    "kosten",
+    "revisionsverfahrens",
+    "erfolgreich",
+    "tragen",
+    "erheblichen",
+    "erstattungsfähig"
+  ],
+  "Cluster 58": [
+    "widerrufsrecht",
+    "leistungsverweigerungsrecht",
+    "verbraucher",
+    "käufer",
+    "gebrauch",
+    "widerruf",
+    "ablauf"
+  ],
+  "Cluster 42": [
+    "lange",
+    "verjährungsfrist",
+    "werkleistungen",
+    "mangelschäden",
+    "januar",
+    "dauert",
+    "nichtrückgabe"
+  ],
+  "Cluster 90": [
+    "verjährungsfrist",
+    "schadensersatzansprüchen",
+    "schadensersatz",
+    "fristsetzung",
+    "ablehnungsandrohung",
+    "wegen",
+    "verjährung"
+  ],
+  "Cluster 10": [
+    "geschäftsführung",
+    "auftrag",
+    "aufwendungsersatzansprüche",
+    "entgeltfrage",
+    "statthaft",
+    "aufwendungsersatzanspruch",
+    "bürgerlichen"
+  ],
+  "Cluster 53": [
+    "abnahme",
+    "werks",
+    "werk",
+    "werkes",
+    "mangelhaft",
+    "mängeln",
+    "werkleistung"
+  ],
+  "Cluster 89": [
+    "verjährung",
+    "unterbrochen",
+    "selbsteintrittsklausel",
+    "gewährleistungsansprüchen",
+    "gehemmt",
+    "ersatzvorschrift",
+    "selbstbeteiligungsklausel"
+  ],
+  "Cluster 93": [
+    "vertragspartner",
+    "vertragliche",
+    "nachtragsvereinbarung",
+    "nebenpflicht",
+    "verjährung",
+    "verhandlungen",
+    "psychologischem"
+  ],
+  "Cluster 40": [
+    "fristsetzung",
+    "ablehnungsandrohung",
+    "entbehrlich",
+    "mangelhaftigkeit",
+    "verjährungsfrist",
+    "verlangen",
+    "frist"
+  ],
+  "Cluster 100": [
+    "schadensersatzanspruch",
+    "schadensersatzanspruchs",
+    "verjährt",
+    "verjährung",
+    "schadensersatzansprüchen",
+    "rechtsfolgen",
+    "wegen"
+  ],
+  "Cluster 71": [
+    "auftragnehmer",
+    "zusätzliche",
+    "leistung",
+    "vorgesehen",
+    "abschlagszahlungen",
+    "erbringt",
+    "auftraggeber"
+  ],
+  "Cluster 32": [
+    "überzahlung",
+    "werkunternehmer",
+    "zurückverlangen",
+    "vergütungsanspruchs",
+    "zusätzliche",
+    "ankündigung",
+    "konkursverwalter"
+  ],
+  "Cluster 31": [
+    "verjährungsfrist",
+    "fristsetzung",
+    "verjährung",
+    "hemmung",
+    "ablehnungsandrohung",
+    "rechtzeitige",
+    "lange"
+  ],
+  "Cluster 11": [
+    "dezember",
+    "schuldverhältnis",
+    "gesetze",
+    "geltenden",
+    "januar",
+    "auswirkungen",
+    "klägers"
+  ],
+  "Cluster 49": [
+    "verjährungsfrist",
+    "bauwerk",
+    "bauzeit",
+    "zuschlag",
+    "beachten",
+    "verzögerungen",
+    "angebotenen"
+  ],
+  "Cluster 15": [
+    "mabv",
+    "bürgschaft",
+    "halbsatz",
+    "pfandfreistellungsverpflichtungserklärung",
+    "auswirkungen",
+    "bauträgervertrages",
+    "ratenzahlungsvereinbarung"
+  ],
+  "Cluster 25": [
+    "tatbestandsmerkmale",
+    "haftung",
+    "unerlaubten",
+    "begrenzt",
+    "handlung",
+    "verkehrssicherungspflichten",
+    "mahnbescheid"
+  ],
+  "Cluster 99": [
+    "schadensersatzansprüchen",
+    "verjährung",
+    "schadensersatz",
+    "schadensersatzanspruch",
+    "gemacht",
+    "wegen",
+    "bauüberwachung"
+  ],
+  "Cluster 57": [
+    "kündigung",
+    "unternehmer",
+    "unternehmers",
+    "vergütung",
+    "vergütungsanspruch",
+    "werkvertrages",
+    "verlangen"
+  ],
+  "Cluster 29": [
+    "schadensersatzanspruch",
+    "schadensersatz",
+    "vob",
+    "großen",
+    "verjährungsfrist",
+    "schäden",
+    "kurzen"
+  ],
+  "Cluster 72": [
+    "ersetzen",
+    "werk",
+    "unmittelbar",
+    "mangelfolgeschäden",
+    "mangel",
+    "schadensersatzanspruchs",
+    "konstruktion"
+  ],
+  "Cluster 69": [
+    "deutschen",
+    "deutsche",
+    "deutschland",
+    "vertragsverhältnis",
+    "schuldvertragsrechts",
+    "formwirksam",
+    "vertragsstrafenvereinbarung"
+  ],
+  "Cluster 44": [
+    "werkvertrags",
+    "kündigung",
+    "vertragslaufzeit",
+    "laufzeit",
+    "beeinflusst",
+    "werkvertragsrecht",
+    "zwei"
+  ],
+  "Cluster 74": [
+    "beweissicherungsverfahren",
+    "beweisverfahren",
+    "verjährung",
+    "selbständiges",
+    "mündlichen",
+    "letzten",
+    "verhandlung"
+  ],
+  "Cluster 20": [
+    "versorgungsunternehmen",
+    "grundstücksnutzer",
+    "entsorgungsleistungen",
+    "ver",
+    "eigentümer",
+    "vertragsbeziehung",
+    "gegenüber"
+  ],
+  "Cluster 87": [
+    "auftragnehmer",
+    "werkunternehmer",
+    "werkleistung",
+    "mangelhaft",
+    "werk",
+    "auftraggeber",
+    "mängelbeseitigung"
+  ],
+  "Cluster 79": [
+    "vertragsstrafe",
+    "schriftform",
+    "partei",
+    "vertragsklauseln",
+    "kommt",
+    "aufgrund",
+    "agbg"
+  ],
+  "Cluster 46": [
+    "kündigung",
+    "auszusprechen",
+    "fristlose",
+    "wichtigem",
+    "abmahnung",
+    "grund",
+    "vertragsverletzung"
+  ],
+  "Cluster 2": [
+    "photovoltaikanlagen",
+    "photovoltaikanlage",
+    "solaranlage",
+    "mängelrechte",
+    "montiert",
+    "liefert",
+    "energieträger"
+  ],
+  "Cluster 43": [
+    "gekündigt",
+    "werkvertrag",
+    "wichtigem",
+    "grund",
+    "werkvertrags",
+    "kündigung",
+    "partei"
+  ],
+  "Cluster 24": [
+    "gsb",
+    "verbindung",
+    "baugeld",
+    "baugeldempfänger",
+    "haftung",
+    "baugeldempfängers",
+    "finanzierung"
+  ],
+  "Cluster 0": [
+    "tierarzt",
+    "tierarztes",
+    "ankaufsuntersuchung",
+    "haftung",
+    "pferdes",
+    "verkäufer",
+    "verkäufers"
+  ],
+  "Cluster 45": [
+    "kündigung",
+    "werkvertrags",
+    "werkvertrages",
+    "arbeitnehmer",
+    "rechtsfolgen",
+    "abrede",
+    "rücktritt"
+  ],
+  "Cluster 83": [
+    "vertragsstrafe",
+    "kündigungserklärung",
+    "vertragliche",
+    "auslegung",
+    "vertragsstrafenvereinbarung",
+    "auftragssumme",
+    "verwirkt"
+  ],
+  "Cluster 3": [
+    "schallschutz",
+    "eigentumswohnung",
+    "käufer",
+    "veräußerer",
+    "verbessern",
+    "ablehnt",
+    "angebot"
+  ],
+  "Cluster 26": [
+    "grundstücks",
+    "eigentumswohnung",
+    "veräußerung",
+    "schadensersatzanspruch",
+    "veräußerer",
+    "immobilie",
+    "mängeln"
+  ],
+  "Cluster 38": [
+    "fluggast",
+    "personenluftbeförderungsvertrag",
+    "buchungsklasse",
+    "abbedungen",
+    "individualvertraglich",
+    "ausüben",
+    "kündigungsrecht"
+  ],
+  "Cluster 4": [
+    "nichtig",
+    "schwarzarbeitsbekämpfungsgesetz",
+    "schwarzgeldabrede",
+    "werkvertrag",
+    "aufgrund",
+    "verstoßes",
+    "verwickelt"
+  ],
+  "Cluster 37": [
+    "winterdienstvertrag",
+    "winterdienstvertrages",
+    "winterdienstunternehmens",
+    "schlechtleistung",
+    "winterdienstunternehmen",
+    "mindern",
+    "vergütung"
+  ],
+  "Cluster -1": [
+    "begriff",
+    "abtretungsvereinbarung",
+    "partei",
+    "zusammenhang",
+    "vob",
+    "überwachungsanlage",
+    "schriftform"
+  ]
+}

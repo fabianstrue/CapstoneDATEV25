@@ -1,4 +1,4 @@
-# Zur Info: Für Streamlit muss es ein reiner Pythion file (.py) sein, daher kein Notebook (.ipynb)
+#Zur Info: Für Streamlit muss es ein reiner Pythion file (.py) sein, daher kein Notebook (.ipynb)
 
 import streamlit as st
 import numpy as np
