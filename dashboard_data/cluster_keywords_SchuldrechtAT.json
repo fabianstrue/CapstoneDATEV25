@@ -1,0 +1,2657 @@
+{
+  "Cluster 127": [
+    "mieter",
+    "vermieter",
+    "wohnung",
+    "mietminderung",
+    "mietwohnung",
+    "mietsache",
+    "vermieters"
+  ],
+  "Cluster 99": [
+    "mieter",
+    "vermieters",
+    "vermieter",
+    "mietvertrag",
+    "kündigung",
+    "mietsache",
+    "mieters"
+  ],
+  "Cluster 150": [
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "klausel",
+    "wirksamkeit",
+    "klauseln",
+    "allgemeine",
+    "verwendung"
+  ],
+  "Cluster 232": [
+    "kaufvertrag",
+    "kaufpreis",
+    "käufer",
+    "zurückzuzahlen",
+    "zurücktritt",
+    "kaufvertrages",
+    "aufgrund"
+  ],
+  "Cluster 254": [
+    "käufer",
+    "verkäufer",
+    "verkäufers",
+    "mangel",
+    "mangelbeseitigung",
+    "arglistig",
+    "nacherfüllung"
+  ],
+  "Cluster 255": [
+    "käufer",
+    "restkaufpreises",
+    "hersteller",
+    "kaufpreises",
+    "zahlung",
+    "kaufgegenstands",
+    "werkstatt"
+  ],
+  "Cluster 81": [
+    "partei",
+    "zurücktreten",
+    "zurücktritt",
+    "grund",
+    "verpflichtungen",
+    "rechtsfolgen",
+    "wichtigen"
+  ],
+  "Cluster 248": [
+    "vertragspartner",
+    "klausel",
+    "nichtig",
+    "geschäftsbedingungen",
+    "auslegung",
+    "vertragspartners",
+    "unangemessen"
+  ],
+  "Cluster 198": [
+    "sondervertragskundenverträgen",
+    "preisänderungen",
+    "preisberechnungsformeln",
+    "preisanpassungsklausel",
+    "auswirkungen",
+    "sonderkundenverträgen",
+    "preisanpassung"
+  ],
+  "Cluster 97": [
+    "adsp",
+    "aufrechnungsverbot",
+    "spediteur",
+    "abgaben",
+    "öffentlichen",
+    "haftungsbeschränkung",
+    "einbeziehen"
+  ],
+  "Cluster 190": [
+    "schadensersatzanspruch",
+    "schadensersatz",
+    "verjährung",
+    "gemacht",
+    "geschädigter",
+    "haftung",
+    "schadensersatzanspruchs"
+  ],
+  "Cluster 275": [
+    "geschädigten",
+    "geschädigter",
+    "schadensbehebung",
+    "schädiger",
+    "schadensabrechnung",
+    "schadensminderungspflicht",
+    "schadensgutachten"
+  ],
+  "Cluster 3": [
+    "bank",
+    "dritten",
+    "pflichtenkreis",
+    "tätig",
+    "geworden",
+    "beratungsfehlern",
+    "zurechnung"
+  ],
+  "Cluster 108": [
+    "mieter",
+    "vermieter",
+    "lange",
+    "vermieters",
+    "abwesenheit",
+    "renovierungsfristen",
+    "vorübergehenden"
+  ],
+  "Cluster 118": [
+    "vermieters",
+    "mieter",
+    "mietsache",
+    "mängeln",
+    "haftung",
+    "vermieter",
+    "mieters"
+  ],
+  "Cluster 293": [
+    "gegenüber",
+    "verjährung",
+    "macht",
+    "haftung",
+    "interesse",
+    "verletzt",
+    "falle"
+  ],
+  "Cluster 41": [
+    "patienten",
+    "arzt",
+    "krankenhaus",
+    "patient",
+    "arztes",
+    "behandlung",
+    "wahlleistungsvereinbarung"
+  ],
+  "Cluster 234": [
+    "verjährung",
+    "sinne",
+    "ausgleichsanspruch",
+    "analog",
+    "zurückbehaltungsrecht",
+    "vermutung",
+    "rechtsfolgen"
+  ],
+  "Cluster 4": [
+    "trinkwasserversorgung",
+    "trinkwasser",
+    "versorgungsunternehmen",
+    "verbrauchsunabhängigen",
+    "wasser",
+    "wasserversorgung",
+    "wohnungen"
+  ],
+  "Cluster 251": [
+    "gesellschaft",
+    "gemeinde",
+    "gesellschafter",
+    "planungsermessen",
+    "amtspflicht",
+    "komponenten",
+    "behandelt"
+  ],
+  "Cluster 93": [
+    "grundstücks",
+    "grundstück",
+    "eigentümer",
+    "grundstückskaufvertrag",
+    "nutzung",
+    "kaufvertrag",
+    "grundbuch"
+  ],
+  "Cluster 73": [
+    "partei",
+    "zurücktreten",
+    "wichtigen",
+    "zurücktritt",
+    "vob",
+    "grund",
+    "schiedsgutachter"
+  ],
+  "Cluster 289": [
+    "verjährung",
+    "fälligkeit",
+    "aufrechnung",
+    "verjähren",
+    "sinne",
+    "teilbar",
+    "unmöglich"
+  ],
+  "Cluster 170": [
+    "verschulden",
+    "verschuldens",
+    "vertragsverhandlungen",
+    "vertragsschluss",
+    "haftung",
+    "wegen",
+    "stiftung"
+  ],
+  "Cluster 222": [
+    "zahlung",
+    "kasse",
+    "aufrechnung",
+    "zahlen",
+    "berechtigt",
+    "leisten",
+    "zahlungen"
+  ],
+  "Cluster 212": [
+    "kunde",
+    "lange",
+    "zeit",
+    "kaufrecht",
+    "verjährungsfristen",
+    "käufer",
+    "schriftform"
+  ],
+  "Cluster 91": [
+    "grundstücks",
+    "grundstück",
+    "grundstückseigentümer",
+    "bäumen",
+    "eigentümer",
+    "bodenveränderungen",
+    "schädliche"
+  ],
+  "Cluster 143": [
+    "verkehrssicherungspflicht",
+    "eisenbahnverkehrsunternehmen",
+    "bahnanlagen",
+    "transportrechtsreformgesetz",
+    "haftung",
+    "verkehrssicherungspflichten",
+    "juni"
+  ],
+  "Cluster 67": [
+    "erhöhtem",
+    "sportlichen",
+    "aktivitäten",
+    "risiko",
+    "fahrlässigkeit",
+    "haftungsverzicht",
+    "fifa"
+  ],
+  "Cluster 158": [
+    "innenverhältnis",
+    "haftung",
+    "vereinsmitglieds",
+    "ehrenamtlich",
+    "zweckverbandsvorsitzenden",
+    "tätigen",
+    "gesellschaft"
+  ],
+  "Cluster 121": [
+    "betriebskosten",
+    "mieter",
+    "betriebskostenabrechnung",
+    "umlage",
+    "umgelegt",
+    "aufzugskosten",
+    "betriebskostenvorauszahlungen"
+  ],
+  "Cluster 120": [
+    "mieter",
+    "vermieter",
+    "nebenkostenabrechnung",
+    "mietvertrag",
+    "umlagefähig",
+    "kosten",
+    "erhöhen"
+  ],
+  "Cluster 29": [
+    "transparenzgebot",
+    "allgemeinen",
+    "geschäftsbedingungen",
+    "transparenz",
+    "wirksamkeit",
+    "verstößt",
+    "klausel"
+  ],
+  "Cluster 196": [
+    "kostenausgleichsvereinbarung",
+    "kündigen",
+    "gesonderte",
+    "übertragung",
+    "zahlungseingang",
+    "transparenz",
+    "übernächsten"
+  ],
+  "Cluster 221": [
+    "betriebskostenabrechnung",
+    "formell",
+    "betriebskosten",
+    "ordnungsgemäß",
+    "kosten",
+    "aufrechnung",
+    "abrechnung"
+  ],
+  "Cluster 111": [
+    "schriftformklausel",
+    "mietvertrages",
+    "mündliche",
+    "änderung",
+    "mietvertrag",
+    "schriftform",
+    "wirksamkeit"
+  ],
+  "Cluster 124": [
+    "vermieters",
+    "mieter",
+    "vermieter",
+    "mieters",
+    "mietsache",
+    "veränderungen",
+    "wohnung"
+  ],
+  "Cluster 270": [
+    "widerrufsbelehrung",
+    "buchauszug",
+    "berechtigt",
+    "freistellungsansprüche",
+    "nachlieferung",
+    "interpretiert",
+    "treuhänderin"
+  ],
+  "Cluster 39": [
+    "verjährungsfrist",
+    "schadensersatzansprüchen",
+    "schadensersatzansprüche",
+    "fall",
+    "wegen",
+    "schadensersatz",
+    "nacherfüllung"
+  ],
+  "Cluster 0": [
+    "beratungsfehlern",
+    "bank",
+    "zurechnung",
+    "dritten",
+    "planungsfehlern",
+    "rechtsfolgen",
+    "behandlungsfehlern"
+  ],
+  "Cluster 268": [
+    "schadensersatzanspruch",
+    "gemacht",
+    "schadensersatzansprüchen",
+    "wegen",
+    "schadensersatz",
+    "verjährung",
+    "aufgrund"
+  ],
+  "Cluster 273": [
+    "zurückbehaltungsrecht",
+    "strafbewehrte",
+    "unterlassungserklärung",
+    "annahmeerklärung",
+    "wiederholungsgefahr",
+    "vertraglicher",
+    "verjährter"
+  ],
+  "Cluster 203": [
+    "verbraucher",
+    "widerrufsrecht",
+    "widerruf",
+    "ausübt",
+    "widerrufsfrist",
+    "belehren",
+    "ordnungsgemäß"
+  ],
+  "Cluster 74": [
+    "mieterhöhung",
+    "mieter",
+    "vermieter",
+    "modernisierungsmaßnahmen",
+    "miete",
+    "unangemessenen",
+    "mieterhöhungserklärung"
+  ],
+  "Cluster 18": [
+    "versicherungsnehmer",
+    "versicherungsbedingungen",
+    "versicherer",
+    "versicherungsnehmers",
+    "lebensversicherung",
+    "vvg",
+    "versicherung"
+  ],
+  "Cluster 1": [
+    "rück",
+    "eingetragener",
+    "auflassung",
+    "grundbuch",
+    "eigentümer",
+    "verlangen",
+    "abnahme"
+  ],
+  "Cluster 112": [
+    "mietvertrag",
+    "klausel",
+    "mieter",
+    "mietvertrages",
+    "unangemessen",
+    "abgeltungsklausel",
+    "mietverträgen"
+  ],
+  "Cluster 87": [
+    "gv",
+    "gesamteinlage",
+    "herabsetzung",
+    "vbls",
+    "buchst",
+    "ausführungsbestimmungen",
+    "einzahlungsplan"
+  ],
+  "Cluster 132": [
+    "inhaltskontrolle",
+    "unterliegen",
+    "agbg",
+    "agb",
+    "klauseln",
+    "unterliegt",
+    "entzogen"
+  ],
+  "Cluster 96": [
+    "wohnungseigentümergemeinschaft",
+    "wohnungseigentümer",
+    "gemeinschaftseigentums",
+    "wohnungseigentümern",
+    "gemeinschaftseigentum",
+    "abnahme",
+    "zwangsversteigerungsverfahren"
+  ],
+  "Cluster 10": [
+    "tatbestandsmerkmale",
+    "haftung",
+    "handlung",
+    "dritten",
+    "schadensersatzanspruch",
+    "besitz",
+    "erschließungsplans"
+  ],
+  "Cluster 271": [
+    "verjährung",
+    "schadensersatz",
+    "schadensersatzansprüchen",
+    "schadensersatzforderungen",
+    "verzugsvoraussetzungen",
+    "schaden",
+    "interesse"
+  ],
+  "Cluster 8": [
+    "rechtsstreits",
+    "verloren",
+    "kosten",
+    "geht",
+    "tragen",
+    "rechtsverteidigung",
+    "notwendigen"
+  ],
+  "Cluster 285": [
+    "unerlaubter",
+    "handlung",
+    "verjährung",
+    "abgeltungsklausel",
+    "hemmung",
+    "punkts",
+    "wirksamkeit"
+  ],
+  "Cluster 286": [
+    "vollstreckungsgegenklage",
+    "klägers",
+    "zahlung",
+    "mangelnder",
+    "auszahlung",
+    "deliktische",
+    "unstreitig"
+  ],
+  "Cluster 207": [
+    "gebrauch",
+    "widerrufsrecht",
+    "käufer",
+    "ausüben",
+    "ablösen",
+    "rückgängig",
+    "gegeben"
+  ],
+  "Cluster 192": [
+    "gläubiger",
+    "schuldner",
+    "darlehensvaluta",
+    "schuldmitübernahme",
+    "garantiebank",
+    "verzugszinsen",
+    "hauptforderung"
+  ],
+  "Cluster 179": [
+    "gbr",
+    "persönliche",
+    "haftung",
+    "darlehens",
+    "verschulden",
+    "darlehensbetrag",
+    "garantiezusage"
+  ],
+  "Cluster 71": [
+    "rück",
+    "auflassung",
+    "grundbuch",
+    "eingetragener",
+    "eigentümer",
+    "verlangen",
+    "eigentumsübertragung"
+  ],
+  "Cluster 62": [
+    "architekt",
+    "architekten",
+    "bauherrn",
+    "planung",
+    "bauherr",
+    "beauftragten",
+    "auftraggeber"
+  ],
+  "Cluster 136": [
+    "versender",
+    "verlust",
+    "wertdeklaration",
+    "paketen",
+    "haftung",
+    "sendung",
+    "frachtführers"
+  ],
+  "Cluster 180": [
+    "kaufpreisforderung",
+    "kunde",
+    "gewinnabführungsvertrages",
+    "beherrschungs",
+    "beurkundungsbedürftig",
+    "vorauszahlung",
+    "aktionsbonus"
+  ],
+  "Cluster 265": [
+    "schadensersatzanspruchs",
+    "schaden",
+    "höhe",
+    "schadens",
+    "sachverständigen",
+    "schadensminderungspflicht",
+    "geschädigte"
+  ],
+  "Cluster 267": [
+    "tragen",
+    "schadensminderungspflicht",
+    "kosten",
+    "schaden",
+    "aktivlegitimiert",
+    "schadensersatz",
+    "leisten"
+  ],
+  "Cluster 25": [
+    "cmr",
+    "frachtführer",
+    "haftung",
+    "frachtführers",
+    "verlust",
+    "gutes",
+    "haftungsregimes"
+  ],
+  "Cluster 23": [
+    "berufungsgericht",
+    "berufungsgerichts",
+    "berufungsurteil",
+    "revision",
+    "zurückverweisung",
+    "berufung",
+    "sache"
+  ],
+  "Cluster 280": [
+    "rechtsstreit",
+    "rechtsfolgen",
+    "relevant",
+    "erledigt",
+    "rechtshandlung",
+    "einvernehmlichkeit",
+    "schiedsvereinbarung"
+  ],
+  "Cluster 214": [
+    "dienstleistungsgebühr",
+    "versorgungsunternehmen",
+    "daseinsvorsorge",
+    "leistungen",
+    "franchisegeber",
+    "billigem",
+    "tarifbestimmung"
+  ],
+  "Cluster 13": [
+    "gasversorgungsvertrag",
+    "preiserhöhung",
+    "gaslieferungsvertrag",
+    "kunde",
+    "preiserhöhungen",
+    "gasversorgungsunternehmen",
+    "gaspreiserhöhung"
+  ],
+  "Cluster 199": [
+    "preisänderungsklausel",
+    "preisanpassungsklausel",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "preisanpassungsklauseln",
+    "preisabrede",
+    "unwirksamen"
+  ],
+  "Cluster 287": [
+    "richtigkeit",
+    "trägt",
+    "bürge",
+    "auskunft",
+    "auskunftsanspruch",
+    "prospekt",
+    "programmen"
+  ],
+  "Cluster 92": [
+    "käufer",
+    "grundstücks",
+    "verkäufer",
+    "grundstück",
+    "nachzahlung",
+    "wartefrist",
+    "bezüglich"
+  ],
+  "Cluster 20": [
+    "preisanpassungsklausel",
+    "fernwärmeliefervertrag",
+    "heizungsanlage",
+    "avbfernwärmev",
+    "heizwärmeversorgung",
+    "fernwärme",
+    "zustande"
+  ],
+  "Cluster 227": [
+    "kunde",
+    "unternehmens",
+    "aufgrund",
+    "geschädigt",
+    "käufer",
+    "fehlbeträgen",
+    "prospektfehlern"
+  ],
+  "Cluster 216": [
+    "käufer",
+    "schadensersatzanspruch",
+    "berechnen",
+    "käufers",
+    "verlangen",
+    "schadensersatz",
+    "af"
+  ],
+  "Cluster 224": [
+    "kaufgegenstand",
+    "mangelhaften",
+    "verlangen",
+    "erstattung",
+    "kunde",
+    "verkäufer",
+    "käufer"
+  ],
+  "Cluster 253": [
+    "verkäufers",
+    "haftung",
+    "verkäufer",
+    "sachmängel",
+    "kenntnis",
+    "verletzt",
+    "aufklärungspflicht"
+  ],
+  "Cluster 225": [
+    "tragen",
+    "kosten",
+    "beseitigung",
+    "käufer",
+    "mängeln",
+    "durchzuführen",
+    "mangel"
+  ],
+  "Cluster 245": [
+    "käufer",
+    "verbraucher",
+    "verkäufer",
+    "gewährleistungsrechte",
+    "frist",
+    "verjährungsfrist",
+    "annahmefrist"
+  ],
+  "Cluster 130": [
+    "agb",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "klausel",
+    "unangemessen",
+    "allgemeine",
+    "agbg"
+  ],
+  "Cluster 171": [
+    "werkvertrag",
+    "arbeitnehmerüberlassung",
+    "werkvertragspartner",
+    "vermittlungsvergütung",
+    "nebenberuf",
+    "vermittlungsvergütungs",
+    "ausbildungsvertrag"
+  ],
+  "Cluster 219": [
+    "umsatzsteuer",
+    "mehrwertsteuer",
+    "zahlung",
+    "entfallende",
+    "bezahlt",
+    "mangelbeseitigungskosten",
+    "zurückgenommene"
+  ],
+  "Cluster 263": [
+    "geschädigter",
+    "schadensminderungspflicht",
+    "schädiger",
+    "geschädigten",
+    "verletzt",
+    "schadensersatzanspruch",
+    "schaden"
+  ],
+  "Cluster 277": [
+    "schadensberechnung",
+    "schadens",
+    "schätzung",
+    "berechnen",
+    "wirtschaftlichkeitsgebot",
+    "schadenshöhe",
+    "schadensersatz"
+  ],
+  "Cluster 185": [
+    "mitverschulden",
+    "verschulden",
+    "verschuldenshaftung",
+    "haftung",
+    "mitverschuldens",
+    "schuldners",
+    "schadensersatzrecht"
+  ],
+  "Cluster 103": [
+    "beratungsfehler",
+    "bank",
+    "dritten",
+    "haften",
+    "haftbar",
+    "gemacht",
+    "zurechnet"
+  ],
+  "Cluster 58": [
+    "tragen",
+    "kosten",
+    "beseitigung",
+    "mängeln",
+    "mieter",
+    "mangelbeseitigung",
+    "mängel"
+  ],
+  "Cluster 215": [
+    "verbraucher",
+    "widerrufsrecht",
+    "käufer",
+    "zurückbehaltungsrecht",
+    "gebrauch",
+    "nutzungen",
+    "kaufvertrag"
+  ],
+  "Cluster 262": [
+    "reparaturkosten",
+    "reparatur",
+    "geschädigter",
+    "fachwerkstatt",
+    "markengebundenen",
+    "wiederbeschaffungswert",
+    "geschädigten"
+  ],
+  "Cluster 147": [
+    "fahrzeugs",
+    "fahrzeug",
+    "käufer",
+    "geschädigter",
+    "geschädigte",
+    "reparatur",
+    "wiederbeschaffungswert"
+  ],
+  "Cluster 261": [
+    "begriff",
+    "verstehen",
+    "schadensersatzrecht",
+    "schadens",
+    "definiert",
+    "zusammenhang",
+    "schaden"
+  ],
+  "Cluster 123": [
+    "mietschuldenfreiheitsbescheinigung",
+    "auszustellen",
+    "vermieter",
+    "wohnung",
+    "mieter",
+    "vermieters",
+    "verpflichtung"
+  ],
+  "Cluster 125": [
+    "mieter",
+    "vermieter",
+    "miete",
+    "zahlung",
+    "mietminderung",
+    "wegen",
+    "abrechnung"
+  ],
+  "Cluster 109": [
+    "kündigung",
+    "vermieter",
+    "mieter",
+    "mietverhältnisses",
+    "fristlose",
+    "kündigungsausschluss",
+    "mietvertrag"
+  ],
+  "Cluster 166": [
+    "anleger",
+    "risiken",
+    "anlageentscheidung",
+    "aufklärung",
+    "kapitalanlage",
+    "anlegern",
+    "mittelverwendungskontrolle"
+  ],
+  "Cluster 191": [
+    "schuldner",
+    "gläubiger",
+    "schuldners",
+    "verzug",
+    "gläubigers",
+    "darlehensnehmer",
+    "geraten"
+  ],
+  "Cluster 241": [
+    "kaufvertrag",
+    "käufer",
+    "kaufvertrags",
+    "aufgrund",
+    "anfechten",
+    "formmängeln",
+    "rückabwicklung"
+  ],
+  "Cluster 244": [
+    "käufer",
+    "verkäufer",
+    "beratungsvertrag",
+    "zustande",
+    "kommt",
+    "verkäufers",
+    "vertragsverhandlungen"
+  ],
+  "Cluster 2": [
+    "schönheitsreparaturen",
+    "mietvertrag",
+    "mieter",
+    "klausel",
+    "vornahme",
+    "verpflichtung",
+    "durchführung"
+  ],
+  "Cluster 75": [
+    "leasingnehmer",
+    "leasinggeber",
+    "leasingvertrag",
+    "lieferanten",
+    "restwert",
+    "restwertgarantie",
+    "erzielten"
+  ],
+  "Cluster 36": [
+    "hauses",
+    "asbestfassade",
+    "asbestmangel",
+    "verkäufers",
+    "käufer",
+    "schaden",
+    "asbestmangels"
+  ],
+  "Cluster 152": [
+    "verkehrsunfall",
+    "unfall",
+    "haftung",
+    "verkehrsauffassung",
+    "unfalls",
+    "straßenverkehr",
+    "haftungsverteilung"
+  ],
+  "Cluster 159": [
+    "verschulden",
+    "mitverschuldens",
+    "leistungsverweigerungsrechts",
+    "haftung",
+    "schuldners",
+    "schuldner",
+    "mitverschulden"
+  ],
+  "Cluster 172": [
+    "vergütung",
+    "arbeitnehmer",
+    "werkvertrags",
+    "werkvertrag",
+    "rechtsfolgen",
+    "verletzung",
+    "werklohnanspruch"
+  ],
+  "Cluster 37": [
+    "revision",
+    "ablehnung",
+    "erfolgreich",
+    "begründung",
+    "einzulegen",
+    "zulassung",
+    "rechtsvorschriften"
+  ],
+  "Cluster 19": [
+    "billigkeit",
+    "netzbetreiber",
+    "netznutzungsentgelten",
+    "netznutzungsentgelts",
+    "netznutzungsentgelte",
+    "überprüfung",
+    "netznutzungsentgelt"
+  ],
+  "Cluster 98": [
+    "dritten",
+    "zurechnung",
+    "beratungsfehlern",
+    "unternehmen",
+    "haftbar",
+    "beratungsfehler",
+    "netzbetreiber"
+  ],
+  "Cluster 116": [
+    "kündigung",
+    "wegen",
+    "fristlose",
+    "kündigungsrecht",
+    "eigenbedarfs",
+    "grund",
+    "ordentliche"
+  ],
+  "Cluster 184": [
+    "haftung",
+    "geschäftsführers",
+    "geschäftsführer",
+    "gmbh",
+    "unternehmens",
+    "gesellschaft",
+    "aktiengesellschaft"
+  ],
+  "Cluster 269": [
+    "handlung",
+    "unerlaubten",
+    "schadensersatz",
+    "aufgrund",
+    "verjährung",
+    "vertragsverletzungen",
+    "unerlaubte"
+  ],
+  "Cluster 165": [
+    "anleger",
+    "aufgrund",
+    "anlageentscheidung",
+    "gesellschaft",
+    "beweisen",
+    "aufklärung",
+    "mangelnder"
+  ],
+  "Cluster 27": [
+    "tierhalters",
+    "haftung",
+    "tier",
+    "ausgeschlossen",
+    "tiergefahr",
+    "tierhalter",
+    "gefährdungshaftung"
+  ],
+  "Cluster 31": [
+    "tieres",
+    "tier",
+    "tiergefahr",
+    "tierhalter",
+    "tierhalters",
+    "hunden",
+    "haltung"
+  ],
+  "Cluster 30": [
+    "tierarzt",
+    "tierärztlichen",
+    "beweislastumkehr",
+    "behandlung",
+    "tieres",
+    "tierhalter",
+    "tierhalters"
+  ],
+  "Cluster 189": [
+    "familienprivileg",
+    "schadensersatz",
+    "schadensersatzanspruchs",
+    "begrenzen",
+    "nichterfüllung",
+    "fall",
+    "macht"
+  ],
+  "Cluster 142": [
+    "waschstraße",
+    "verkehrssicherungspflicht",
+    "betreiber",
+    "straße",
+    "schadensregulierung",
+    "verkehrsauffassung",
+    "schädigungen"
+  ],
+  "Cluster 188": [
+    "schadensschätzung",
+    "schwacke",
+    "liste",
+    "schadensbemessung",
+    "sachkunde",
+    "risikofaktoren",
+    "rechnungshöhe"
+  ],
+  "Cluster 176": [
+    "darlehensvertrag",
+    "aufgrund",
+    "darlehensvertrages",
+    "haustürwiderrufsgesetzes",
+    "widerruf",
+    "darlehensvertrags",
+    "widerrufen"
+  ],
+  "Cluster 69": [
+    "haustürwiderrufsgesetz",
+    "haustürwg",
+    "widerruf",
+    "widerrufsrecht",
+    "widerrufen",
+    "haustürgeschäfts",
+    "haustürsituation"
+  ],
+  "Cluster 139": [
+    "fonds",
+    "anleger",
+    "gründungsgesellschafter",
+    "schadensersatzansprüche",
+    "fondsbeteiligung",
+    "beigetreten",
+    "darlehensvertrag"
+  ],
+  "Cluster 85": [
+    "mietwagenkosten",
+    "geschädigter",
+    "mietwagen",
+    "geschädigten",
+    "schadensminderungspflicht",
+    "unfallersatztarif",
+    "mietwagens"
+  ],
+  "Cluster 197": [
+    "preisanpassungsklausel",
+    "preisänderungsklausel",
+    "vertragsauslegung",
+    "ergänzende",
+    "sondervertrag",
+    "preisregelung",
+    "lücke"
+  ],
+  "Cluster 89": [
+    "vertragsstrafe",
+    "blindarbeitsentgelten",
+    "herabzusetzen",
+    "berechtigt",
+    "analoger",
+    "gesamtstrafe",
+    "bildung"
+  ],
+  "Cluster 162": [
+    "dezember",
+    "gesetze",
+    "geltenden",
+    "schuldverhältnis",
+    "januar",
+    "seit",
+    "geschlossen"
+  ],
+  "Cluster 279": [
+    "dienstbarkeit",
+    "garantie",
+    "anforderungen",
+    "willenserklärung",
+    "bestellt",
+    "gestellt",
+    "aufrechnung"
+  ],
+  "Cluster 223": [
+    "bieter",
+    "angebot",
+    "auftraggeber",
+    "vergabeverfahren",
+    "bieters",
+    "ausschreibung",
+    "vergabe"
+  ],
+  "Cluster 237": [
+    "unternehmer",
+    "unternehmers",
+    "as",
+    "hauptunternehmer",
+    "nachunternehmer",
+    "handelsvertreter",
+    "besteller"
+  ],
+  "Cluster 183": [
+    "fiktiven",
+    "schadensabrechnung",
+    "umsatzsteuer",
+    "lohnnebenkosten",
+    "sozialabgaben",
+    "erstattung",
+    "verbringungskosten"
+  ],
+  "Cluster 134": [
+    "kündigung",
+    "vob",
+    "wirksamkeit",
+    "vvg",
+    "wirksame",
+    "kündigungsbedingungen",
+    "betreuungsverträgen"
+  ],
+  "Cluster 175": [
+    "verbrkrg",
+    "werkvertrag",
+    "handelsvertreter",
+    "ausgleichsanspruch",
+    "handelsvertreters",
+    "rückforderungsdurchgriff",
+    "vorliegt"
+  ],
+  "Cluster 182": [
+    "darlehensvertrag",
+    "darlehensvertrages",
+    "nichtigen",
+    "darlehensnehmer",
+    "kreditvertrages",
+    "zins",
+    "nichtigkeit"
+  ],
+  "Cluster 208": [
+    "auftragnehmer",
+    "auftraggeber",
+    "auftraggebers",
+    "schlußrechnung",
+    "werkunternehmer",
+    "besteller",
+    "annahmeverzug"
+  ],
+  "Cluster 122": [
+    "vollstreckungsabwehrklage",
+    "geständnis",
+    "sinne",
+    "feststellungsinteresse",
+    "formvorschriften",
+    "ersten",
+    "gerichts"
+  ],
+  "Cluster 55": [
+    "bauvertrag",
+    "sicherheitseinbehalt",
+    "notariell",
+    "bauvertrags",
+    "beurkundet",
+    "vob",
+    "nachforderungen"
+  ],
+  "Cluster 202": [
+    "vob",
+    "ganzes",
+    "einbezogen",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "subunternehmervertrag",
+    "sondereigentum"
+  ],
+  "Cluster 5": [
+    "abtretungsklausel",
+    "schwangerschaftsabbruch",
+    "abtretungsvereinbarung",
+    "abtretung",
+    "wirksamkeit",
+    "geschädigten",
+    "mutter"
+  ],
+  "Cluster 259": [
+    "widerrufsfrist",
+    "beginn",
+    "verjährungsfrist",
+    "lange",
+    "prospekthaftungsansprüche",
+    "belehrung",
+    "deutlich"
+  ],
+  "Cluster 113": [
+    "vertragsstrafe",
+    "bauvertrag",
+    "zahlen",
+    "vob",
+    "vertragsstrafen",
+    "verwirkt",
+    "auftragnehmer"
+  ],
+  "Cluster 65": [
+    "lebensgemeinschaft",
+    "nichtehelichen",
+    "ehepartner",
+    "zuwendung",
+    "ehebezogene",
+    "partner",
+    "ehe"
+  ],
+  "Cluster 177": [
+    "gbr",
+    "gesellschaft",
+    "bürgerlichen",
+    "rechts",
+    "gesellschafter",
+    "haftungsbeschränkung",
+    "vereinbaren"
+  ],
+  "Cluster 90": [
+    "vertragsstrafe",
+    "gem",
+    "tatbestandsmerkmale",
+    "avbgasv",
+    "wirksamkeit",
+    "höherrangiges",
+    "verschuldensunabhängig"
+  ],
+  "Cluster 213": [
+    "begriff",
+    "verstehen",
+    "sinne",
+    "interpretieren",
+    "sache",
+    "sachmängel",
+    "gem"
+  ],
+  "Cluster 264": [
+    "widerrufsbelehrung",
+    "widerruf",
+    "beitrittserklärung",
+    "widerrufsrecht",
+    "widerrufsrechts",
+    "widerrufs",
+    "ausgeübt"
+  ],
+  "Cluster 104": [
+    "bank",
+    "kunden",
+    "aufklärungspflicht",
+    "darlehensnehmer",
+    "auslagen",
+    "vertriebsprovisionen",
+    "kreditnehmer"
+  ],
+  "Cluster 235": [
+    "kosten",
+    "sachverständigenkosten",
+    "schadensersatzanspruchs",
+    "erstattung",
+    "rechtsanwaltskosten",
+    "anwaltskosten",
+    "berechnung"
+  ],
+  "Cluster 141": [
+    "gewerblichen",
+    "kraftfahrzeugmietvertrag",
+    "haftungsfreistellung",
+    "haftungsreduzierung",
+    "kraftfahrzeugmietvertrages",
+    "grober",
+    "haftungsbefreiung"
+  ],
+  "Cluster 148": [
+    "betriebsgefahr",
+    "haftungsverteilung",
+    "fahrzeugs",
+    "autovermieter",
+    "haftung",
+    "schadensfall",
+    "fahrers"
+  ],
+  "Cluster 169": [
+    "dritten",
+    "dritter",
+    "haftung",
+    "überwachungsanlage",
+    "überlassen",
+    "persönlichkeitsrecht",
+    "handelt"
+  ],
+  "Cluster 129": [
+    "gläubiger",
+    "gläubigers",
+    "anspruchsbegründenden",
+    "kenntnis",
+    "mehrere",
+    "gesamtschuldner",
+    "vertraut"
+  ],
+  "Cluster 260": [
+    "fristsetzung",
+    "verjährungsfrist",
+    "fertigstellungsfrist",
+    "gewährleistungsfrist",
+    "nacherfüllung",
+    "beachten",
+    "einzuhalten"
+  ],
+  "Cluster 47": [
+    "fluggast",
+    "reisegepäck",
+    "flugpreises",
+    "fluggesellschaft",
+    "luftfahrtunternehmen",
+    "personenluftbeförderungsvertrag",
+    "luftfahrtunternehmens"
+  ],
+  "Cluster 144": [
+    "haftung",
+    "transportgut",
+    "verlust",
+    "spediteurs",
+    "frachtführers",
+    "spediteur",
+    "versender"
+  ],
+  "Cluster 236": [
+    "frachtführer",
+    "verletzt",
+    "haftung",
+    "nachkommt",
+    "organisationsmängeln",
+    "haftungsbeschränkungen",
+    "treten"
+  ],
+  "Cluster 7": [
+    "deutschland",
+    "deutschen",
+    "gerichte",
+    "zuständigkeit",
+    "internationale",
+    "rechts",
+    "feststellungsklage"
+  ],
+  "Cluster 211": [
+    "nichtig",
+    "schriftform",
+    "erklärt",
+    "rechtsfolgen",
+    "vertragspflichten",
+    "geschäftsfähigkeit",
+    "verletzung"
+  ],
+  "Cluster 22": [
+    "tierarztes",
+    "ankaufsuntersuchung",
+    "verkäufer",
+    "behandlung",
+    "käufer",
+    "haftung",
+    "tierarzt"
+  ],
+  "Cluster 290": [
+    "gericht",
+    "begründung",
+    "konsequenzen",
+    "hinweispflicht",
+    "gerichtliche",
+    "rechtsstreit",
+    "rechtsfolgen"
+  ],
+  "Cluster 38": [
+    "revision",
+    "bundesgerichtshofs",
+    "erfolgreich",
+    "entscheidungen",
+    "ändern",
+    "teilweise",
+    "einzulegen"
+  ],
+  "Cluster 135": [
+    "frachtführer",
+    "frachtführers",
+    "wertdeklaration",
+    "empfängerin",
+    "gutes",
+    "haftung",
+    "ankunft"
+  ],
+  "Cluster 291": [
+    "schadensersatzanspruch",
+    "verjährung",
+    "schaden",
+    "schadensersatzansprüche",
+    "beweisen",
+    "verhältnis",
+    "beurteilen"
+  ],
+  "Cluster 61": [
+    "mängeln",
+    "schadensersatzanspruch",
+    "baukostenzuschuss",
+    "gemacht",
+    "kosten",
+    "bauantrag",
+    "baukostenobergrenze"
+  ],
+  "Cluster 60": [
+    "baugenehmigung",
+    "bauherr",
+    "rechtswidrige",
+    "bautenstandsberichte",
+    "bauaufsichtsbehörde",
+    "bauvorhaben",
+    "erteilung"
+  ],
+  "Cluster 230": [
+    "unternehmenskaufvertrag",
+    "bezeichnung",
+    "inhalts",
+    "vermögensgegenstände",
+    "einzelne",
+    "einbeziehung",
+    "einordnung"
+  ],
+  "Cluster 59": [
+    "filmfonds",
+    "vermittlung",
+    "provisionen",
+    "beteiligungen",
+    "mittelverwendung",
+    "eigenkapital",
+    "anleger"
+  ],
+  "Cluster 106": [
+    "bank",
+    "pflichtenkreis",
+    "beratungsfehlern",
+    "zurechnung",
+    "haftung",
+    "schadensersatz",
+    "wegen"
+  ],
+  "Cluster 131": [
+    "inhaltskontrolle",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "agb",
+    "klausel",
+    "agbg",
+    "durchzuführen"
+  ],
+  "Cluster 49": [
+    "reiseveranstalter",
+    "reisenden",
+    "reise",
+    "reisevertrag",
+    "reiseveranstalters",
+    "reisepreis",
+    "allgemeinen"
+  ],
+  "Cluster 243": [
+    "kunde",
+    "tankstellenbetreiber",
+    "verlangen",
+    "schadensersatz",
+    "bezahlt",
+    "dienstleistung",
+    "kaufpreis"
+  ],
+  "Cluster 151": [
+    "straßenverkehr",
+    "fahrzeugführer",
+    "fahrzeug",
+    "straße",
+    "verkehrsteilnehmer",
+    "fahrers",
+    "fahrzeugführers"
+  ],
+  "Cluster 274": [
+    "geschädigten",
+    "schadensminderungspflicht",
+    "schädiger",
+    "schadensersatzanspruch",
+    "schädigers",
+    "haftung",
+    "geschädigter"
+  ],
+  "Cluster 231": [
+    "geschäftsgrundlage",
+    "vertragsanpassung",
+    "fehlens",
+    "wegfall",
+    "anpassung",
+    "wegfalls",
+    "aufgrund"
+  ],
+  "Cluster 149": [
+    "geschäftsgrundlage",
+    "wegfall",
+    "geschäften",
+    "einwendungsdurchgriff",
+    "verbundenen",
+    "vertragserfüllung",
+    "fehlen"
+  ],
+  "Cluster 83": [
+    "mietwagenkosten",
+    "normaltarif",
+    "erforderlichkeit",
+    "erforderlichen",
+    "ermitteln",
+    "schätzung",
+    "herstellungsaufwand"
+  ],
+  "Cluster 283": [
+    "verjährung",
+    "regelbürgen",
+    "ausfallbürgen",
+    "zuwendung",
+    "aufrechnung",
+    "abrechnung",
+    "fertigstellungstermins"
+  ],
+  "Cluster 6": [
+    "patentanmeldung",
+    "patentnichtigkeitsverfahren",
+    "priorität",
+    "patents",
+    "erschöpfung",
+    "übertragung",
+    "mitberechtigter"
+  ],
+  "Cluster 292": [
+    "gerichts",
+    "zeugen",
+    "beweiswürdigung",
+    "gericht",
+    "beweisanträge",
+    "überzeugung",
+    "anhörung"
+  ],
+  "Cluster 43": [
+    "energielieferungsvertrag",
+    "energieversorger",
+    "preisanpassungsklauseln",
+    "energielieferungsverträgen",
+    "kunde",
+    "preisanpassungsklausel",
+    "energieversorgungsrecht"
+  ],
+  "Cluster 200": [
+    "kunde",
+    "preiserhöhung",
+    "unwirksamkeit",
+    "kunden",
+    "innerhalb",
+    "preisanpassungsklausel",
+    "zeitraums"
+  ],
+  "Cluster 205": [
+    "infov",
+    "schutzwirkung",
+    "widerrufsbelehrung",
+    "anlage",
+    "muster",
+    "af",
+    "formulars"
+  ],
+  "Cluster 229": [
+    "vvg",
+    "vob",
+    "vb",
+    "uklag",
+    "amrabg",
+    "agbg",
+    "einwendungsdurchgriff"
+  ],
+  "Cluster 128": [
+    "handelsvertreter",
+    "handelsvertreters",
+    "ausgleichsanspruch",
+    "treuegeld",
+    "wettbewerbsverbot",
+    "übertragung",
+    "handelsvertreteranspruch"
+  ],
+  "Cluster 84": [
+    "mietwagenkosten",
+    "erstattung",
+    "unfallersatztarif",
+    "haftpflichtversicherung",
+    "geschädigten",
+    "rn",
+    "mieteinnahmen"
+  ],
+  "Cluster 110": [
+    "klauseln",
+    "mietvertrag",
+    "wirksamkeit",
+    "mietverträgen",
+    "berufungsgericht",
+    "mietwagenkosten",
+    "erforderlichkeit"
+  ],
+  "Cluster 107": [
+    "partei",
+    "mietvertrag",
+    "mietvertrages",
+    "vertragsverletzung",
+    "kündigung",
+    "vertretende",
+    "außerordentlichen"
+  ],
+  "Cluster 119": [
+    "vermieter",
+    "mieter",
+    "verletzt",
+    "schlüssels",
+    "verlusts",
+    "schlüssel",
+    "wegen"
+  ],
+  "Cluster 242": [
+    "kaufvertrag",
+    "käufer",
+    "zurücktreten",
+    "rücktritt",
+    "zurücktritt",
+    "käufers",
+    "kaufsache"
+  ],
+  "Cluster 45": [
+    "stromgvv",
+    "stromversorger",
+    "kostenfaktoren",
+    "angegeben",
+    "angebot",
+    "gestellt",
+    "kwk"
+  ],
+  "Cluster 44": [
+    "stromtarifen",
+    "stromgvv",
+    "stromrechnungen",
+    "überhöhten",
+    "genehmigung",
+    "billigkeit",
+    "wirtschaft"
+  ],
+  "Cluster 194": [
+    "telefonkarten",
+    "karten",
+    "nachträglich",
+    "prepaid",
+    "gültigkeit",
+    "befristet",
+    "provision"
+  ],
+  "Cluster 249": [
+    "haftung",
+    "haftungsausschluss",
+    "prospekt",
+    "zivildienstleistende",
+    "haftungsbeschränkungen",
+    "einsetzt",
+    "einrichtung"
+  ],
+  "Cluster 80": [
+    "abbricht",
+    "partei",
+    "grundlage",
+    "rechtsgrund",
+    "schließt",
+    "schliesst",
+    "aufhebt"
+  ],
+  "Cluster 276": [
+    "schaden",
+    "schäden",
+    "unsichtbare",
+    "berechnen",
+    "geschädigte",
+    "schadens",
+    "sache"
+  ],
+  "Cluster 246": [
+    "käufer",
+    "wegen",
+    "schadensersatz",
+    "verlangen",
+    "schadensersatzanspruch",
+    "verkäufer",
+    "bestellers"
+  ],
+  "Cluster 239": [
+    "kaufvertrag",
+    "kaufvertrags",
+    "kaufpreises",
+    "rücktritt",
+    "rückzahlung",
+    "nutzungszinsen",
+    "käufer"
+  ],
+  "Cluster 24": [
+    "hausnotrufvertrags",
+    "notruf",
+    "hilfeleistung",
+    "dienstleisters",
+    "angemessen",
+    "dienstleister",
+    "vorerkrankungen"
+  ],
+  "Cluster 33": [
+    "sozialversicherungsträger",
+    "systemänderung",
+    "übergang",
+    "schadensersatzansprüchen",
+    "leistungen",
+    "übertragung",
+    "zuständigen"
+  ],
+  "Cluster 206": [
+    "rücklastschrift",
+    "kunde",
+    "berechnen",
+    "rückabwicklung",
+    "verbrauchsgüterkaufs",
+    "käufer",
+    "kaufpreises"
+  ],
+  "Cluster 88": [
+    "grundbuch",
+    "rück",
+    "eigentümer",
+    "eingetragener",
+    "auflassung",
+    "verlangen",
+    "möchte"
+  ],
+  "Cluster 233": [
+    "verjährungsfrist",
+    "lange",
+    "dauert",
+    "fristsetzung",
+    "ausschlußfrist",
+    "ausgleichsanspruch",
+    "beginn"
+  ],
+  "Cluster 204": [
+    "tragen",
+    "kosten",
+    "notwendige",
+    "aufklärung",
+    "beseitigung",
+    "mangelbeseitigung",
+    "mängeln"
+  ],
+  "Cluster 247": [
+    "käufer",
+    "beweisen",
+    "nachweisen",
+    "verkäufer",
+    "arglistig",
+    "sachmangel",
+    "hätte"
+  ],
+  "Cluster 50": [
+    "reisenden",
+    "abreise",
+    "reiseveranstalter",
+    "rückkehr",
+    "verjährungsfrist",
+    "späteren",
+    "zeitpunkt"
+  ],
+  "Cluster 145": [
+    "kündigung",
+    "tankstellenvertrages",
+    "fristlose",
+    "versorgungsvereinbarung",
+    "unentgeltlichen",
+    "gekündigt",
+    "formularmietvertrag"
+  ],
+  "Cluster 42": [
+    "pflegedokumentation",
+    "einsichtsrecht",
+    "einsicht",
+    "einsichtnahme",
+    "pflege",
+    "sicherheitsleistung",
+    "pflegenden"
+  ],
+  "Cluster 56": [
+    "lärm",
+    "beurteilung",
+    "mangel",
+    "heimvertrag",
+    "mietminderung",
+    "mietsache",
+    "haustürsituation"
+  ],
+  "Cluster 160": [
+    "treu",
+    "glauben",
+    "auskunftsanspruch",
+    "grundsatz",
+    "grundsätze",
+    "grundlage",
+    "gebot"
+  ],
+  "Cluster 195": [
+    "geschäftsführung",
+    "auftrag",
+    "begriff",
+    "definiert",
+    "gesetzbuch",
+    "bürgerlichen",
+    "schuldrecht"
+  ],
+  "Cluster 117": [
+    "vermieters",
+    "verursacht",
+    "schäden",
+    "haftung",
+    "mieter",
+    "mangelhafte",
+    "schaden"
+  ],
+  "Cluster 174": [
+    "tarifen",
+    "daseinsvorsorge",
+    "billigkeit",
+    "entgeltregelungen",
+    "benutzungsverhältnisses",
+    "unwirksamer",
+    "leistungen"
+  ],
+  "Cluster 257": [
+    "auskunft",
+    "ungewissen",
+    "entschuldbarer",
+    "weise",
+    "erteilen",
+    "schutzbereich",
+    "verjährung"
+  ],
+  "Cluster 26": [
+    "transparenzgebot",
+    "transparenz",
+    "klausel",
+    "allgemeinen",
+    "genügen",
+    "geschäftsbedingungen",
+    "einzuhalten"
+  ],
+  "Cluster 105": [
+    "bank",
+    "dritten",
+    "beratungsfehlern",
+    "haftung",
+    "schadensersatz",
+    "zurechnung",
+    "beratungsfehler"
+  ],
+  "Cluster 17": [
+    "zuteilung",
+    "bonuspunkten",
+    "anwartschaften",
+    "dynamisierung",
+    "versicherter",
+    "versicherten",
+    "bonuspunkte"
+  ],
+  "Cluster 57": [
+    "bonuspunkten",
+    "zuteilung",
+    "bonuspunkte",
+    "vergeben",
+    "entscheidet",
+    "gutschrift",
+    "grundlage"
+  ],
+  "Cluster 156": [
+    "überschussverteilung",
+    "rückstellung",
+    "überschussbeteiligung",
+    "höhe",
+    "verwendung",
+    "bonuspunkten",
+    "bestimmt"
+  ],
+  "Cluster 155": [
+    "verwaltungsrat",
+    "zuteilung",
+    "bonuspunkten",
+    "verwaltungsrats",
+    "paritätische",
+    "besetzung",
+    "rückstellung"
+  ],
+  "Cluster 14": [
+    "invalidität",
+    "ärztliche",
+    "invaliditätsleistung",
+    "frist",
+    "funktionsunfähigkeit",
+    "invaliditätsgrades",
+    "invaliditätsgrad"
+  ],
+  "Cluster 16": [
+    "altersversorgung",
+    "handelsvertreters",
+    "anbieter",
+    "altersvorsorgevertrages",
+    "dienst",
+    "angabe",
+    "ausgleichsanspruchs"
+  ],
+  "Cluster 114": [
+    "tragen",
+    "kosten",
+    "mängelbeseitigung",
+    "beseitigung",
+    "mangel",
+    "mängeln",
+    "feststellbar"
+  ],
+  "Cluster 34": [
+    "heilbehandlungen",
+    "versicherungsvertrag",
+    "stationäre",
+    "gebieten",
+    "selbstbeteiligung",
+    "bestimmten",
+    "vorsieht"
+  ],
+  "Cluster 163": [
+    "zinsen",
+    "verzugszinsen",
+    "erbbauzinses",
+    "zinsanspruch",
+    "anpassung",
+    "hinterlegungszinsen",
+    "entwicklung"
+  ],
+  "Cluster 284": [
+    "rechtskraft",
+    "punkt",
+    "nachweis",
+    "erbringen",
+    "begründung",
+    "kompetenz",
+    "eingelegt"
+  ],
+  "Cluster 226": [
+    "kunde",
+    "versorgungsunternehmen",
+    "unwirksamer",
+    "preisänderungen",
+    "rückzahlung",
+    "kunden",
+    "aufgrund"
+  ],
+  "Cluster 238": [
+    "aktionsbonus",
+    "kunde",
+    "punkten",
+    "verbraucher",
+    "kaufvertrag",
+    "vorkaufsrecht",
+    "ausgeübt"
+  ],
+  "Cluster 28": [
+    "agb",
+    "geschäftsbedingungen",
+    "allgemeinen",
+    "transparenz",
+    "transparenzgebot",
+    "klausel",
+    "klauseln"
+  ],
+  "Cluster 173": [
+    "arbeitgeber",
+    "sanierungsgeld",
+    "zahlen",
+    "sanierung",
+    "sanierungsgeldes",
+    "sanierungsgelder",
+    "beteiligten"
+  ],
+  "Cluster 52": [
+    "schmerzensgeldes",
+    "schmerzensgeld",
+    "bemessung",
+    "vii",
+    "sgb",
+    "schmerzensgeldrente",
+    "abänderung"
+  ],
+  "Cluster 272": [
+    "schadensersatzansprüchen",
+    "verjährung",
+    "schadensersatzanspruch",
+    "geschädigten",
+    "sachverständigen",
+    "vorteilsausgleichung",
+    "kenntnis"
+  ],
+  "Cluster 210": [
+    "klausel",
+    "vertragserfüllungsbürgschaft",
+    "erbbauzinses",
+    "ru",
+    "arb",
+    "vvg",
+    "erhöhung"
+  ],
+  "Cluster 256": [
+    "dritter",
+    "beratungsfehler",
+    "begeht",
+    "liegen",
+    "leisten",
+    "pflichtenkreis",
+    "schadensersatz"
+  ],
+  "Cluster 54": [
+    "gebäude",
+    "bauunternehmer",
+    "schäden",
+    "benachbarten",
+    "bauunternehmens",
+    "errichteten",
+    "schaden"
+  ],
+  "Cluster 70": [
+    "käufer",
+    "aufgrund",
+    "grundstück",
+    "berechnen",
+    "teuer",
+    "grundstücks",
+    "schadensersatz"
+  ],
+  "Cluster 252": [
+    "verkäufer",
+    "käufer",
+    "verkäufers",
+    "käufers",
+    "informationen",
+    "tatsachen",
+    "informieren"
+  ],
+  "Cluster 164": [
+    "insolvenzverfahren",
+    "insolvenz",
+    "insolvenzverwalter",
+    "auftragnehmers",
+    "gewährleistungseinbehalten",
+    "insolvenzrisiko",
+    "insolvenzrecht"
+  ],
+  "Cluster 82": [
+    "transparenzgebot",
+    "mietvertrag",
+    "transparenz",
+    "renovierungsarbeiten",
+    "verstößt",
+    "mieter",
+    "mietnebenkosten"
+  ],
+  "Cluster 266": [
+    "ersetzen",
+    "schaden",
+    "geschädigten",
+    "unerlaubte",
+    "handlung",
+    "schadens",
+    "vorliegt"
+  ],
+  "Cluster 201": [
+    "notwendige",
+    "nachbesserung",
+    "tragen",
+    "kosten",
+    "ursprüngliche",
+    "insolvent",
+    "auftragnehmer"
+  ],
+  "Cluster 281": [
+    "gutachten",
+    "schadensersatzanspruch",
+    "fehler",
+    "verletzung",
+    "aufgrund",
+    "informationspflichten",
+    "gezahlt"
+  ],
+  "Cluster 126": [
+    "mieter",
+    "vermieter",
+    "mietsache",
+    "miete",
+    "zeitpunkt",
+    "wohnung",
+    "mieters"
+  ],
+  "Cluster 95": [
+    "wohnungsrecht",
+    "wohnungseigentümer",
+    "dingliches",
+    "berechtigte",
+    "dinglichen",
+    "wohnungsrechts",
+    "wohnungseigentümergemeinschaft"
+  ],
+  "Cluster 133": [
+    "klausel",
+    "benachteiligt",
+    "geirrt",
+    "unangemessen",
+    "sachwalters",
+    "vertragsschluss",
+    "treuhandkommanditistin"
+  ],
+  "Cluster 282": [
+    "unterlassen",
+    "aktivlegitimiert",
+    "verwendung",
+    "patronatserklärung",
+    "unwirksamer",
+    "verjährung",
+    "klauseln"
+  ],
+  "Cluster 15": [
+    "rentenanpassungsregelungen",
+    "pensionsansprüche",
+    "rente",
+    "pensionszusage",
+    "aufrechnung",
+    "gesamtversorgung",
+    "altersversorgung"
+  ],
+  "Cluster 250": [
+    "haftung",
+    "contrahendo",
+    "culpa",
+    "aufklärungspflichtigen",
+    "prospektfehlers",
+    "strafverfahrenskosten",
+    "offener"
+  ],
+  "Cluster 138": [
+    "fondsmitgliedschaft",
+    "verbrkrg",
+    "kündigung",
+    "einwendungsdurchgriff",
+    "fonds",
+    "mitgliedschaft",
+    "mitglied"
+  ],
+  "Cluster 178": [
+    "gbr",
+    "gesellschafter",
+    "unterlassungserklärung",
+    "treuepflicht",
+    "nachschüssen",
+    "treuepflichtverletzung",
+    "innenausgleich"
+  ],
+  "Cluster 187": [
+    "veräußerung",
+    "schadensersatzanspruch",
+    "grundstücks",
+    "besteller",
+    "grundstück",
+    "sinne",
+    "schadensersatzanspruchs"
+  ],
+  "Cluster 46": [
+    "eeg",
+    "netzbetreiber",
+    "anlagenbetreiber",
+    "netz",
+    "rechtslage",
+    "gesetzesbegründung",
+    "auslegung"
+  ],
+  "Cluster 94": [
+    "gemeinschaftseigentum",
+    "gemeinde",
+    "nachbarn",
+    "wohnungseigentümergemeinschaft",
+    "bäumen",
+    "grundstückseigentümer",
+    "falschauskunft"
+  ],
+  "Cluster 48": [
+    "schulvertrages",
+    "schuldanerkenntnis",
+    "schulträger",
+    "kündigung",
+    "bestätigendes",
+    "träger",
+    "schulvertrag"
+  ],
+  "Cluster 146": [
+    "radfahrers",
+    "radfahrer",
+    "fahrradhelms",
+    "mitverschuldens",
+    "tragens",
+    "beurteilung",
+    "helmpflicht"
+  ],
+  "Cluster 79": [
+    "partei",
+    "zwei",
+    "gesamtschuldverhältnis",
+    "haftung",
+    "dritten",
+    "insolvenz",
+    "rechtsverhältnisses"
+  ],
+  "Cluster 63": [
+    "architekten",
+    "zusätzliche",
+    "honorar",
+    "schriftform",
+    "vergütung",
+    "ingenieure",
+    "honorarordnung"
+  ],
+  "Cluster 137": [
+    "edi",
+    "beförderungssicherheit",
+    "wertpakete",
+    "transportiert",
+    "erhöhter",
+    "versender",
+    "wertdeklaration"
+  ],
+  "Cluster 78": [
+    "einkaufszentrums",
+    "einkaufszentrum",
+    "vermieters",
+    "ladengeschäfts",
+    "geschäfte",
+    "mieters",
+    "öffnungszeiten"
+  ],
+  "Cluster 115": [
+    "kosten",
+    "tragen",
+    "tankstellenverwalter",
+    "tankstelle",
+    "malerbetriebs",
+    "abschlagszahlungen",
+    "abgeltungsquote"
+  ],
+  "Cluster 167": [
+    "finanzierungsberatung",
+    "fehlerhafter",
+    "schadensersatzansprüchen",
+    "schadensersatzanspruch",
+    "wegen",
+    "verjährung",
+    "finanzierungsfehlern"
+  ],
+  "Cluster 161": [
+    "pflichtteilsanspruch",
+    "testamentsvollstrecker",
+    "testament",
+    "gemacht",
+    "verwaltung",
+    "testamentsvollstreckers",
+    "unterliegt"
+  ],
+  "Cluster 102": [
+    "beratungsfehler",
+    "verantwortlich",
+    "bank",
+    "dritten",
+    "beratungsfehlern",
+    "zuständig",
+    "immer"
+  ],
+  "Cluster 278": [
+    "verpflichteten",
+    "absichten",
+    "auskunftsanspruchs",
+    "krisensituation",
+    "offenzulegen",
+    "geheimhaltung",
+    "öffentlichkeit"
+  ],
+  "Cluster 40": [
+    "winterdienstvertrag",
+    "schneelast",
+    "hallen",
+    "winterdienstunternehmens",
+    "vergütung",
+    "auftraggeber",
+    "schlechtleistung"
+  ],
+  "Cluster 157": [
+    "marktnachfrage",
+    "begriff",
+    "allgemeinen",
+    "vertriebsvereinbarung",
+    "kugeln",
+    "gesamtwürdigung",
+    "lieferung"
+  ],
+  "Cluster 186": [
+    "mitverschuldens",
+    "unterlassungsschuldner",
+    "schuldner",
+    "negative",
+    "feststellungsklage",
+    "einbezieht",
+    "erhebt"
+  ],
+  "Cluster 9": [
+    "psychotherapie",
+    "krankenversicherung",
+    "psychotherapeuten",
+    "psychologischen",
+    "private",
+    "kosten",
+    "erstattung"
+  ],
+  "Cluster 77": [
+    "polizei",
+    "mieter",
+    "unfall",
+    "vermieters",
+    "vermieter",
+    "normaltarif",
+    "unfallersatztarifs"
+  ],
+  "Cluster 76": [
+    "campingplatz",
+    "schäden",
+    "mieter",
+    "verursacht",
+    "mieters",
+    "campingplatzbetreiber",
+    "elektrik"
+  ],
+  "Cluster 218": [
+    "subvention",
+    "fondsbeteiligung",
+    "steuervorteilen",
+    "zweckbindung",
+    "rückabwicklung",
+    "vorteilsausgleichung",
+    "subventionsgeldern"
+  ],
+  "Cluster 220": [
+    "kostenerstattungsanspruchs",
+    "sachverständigenkosten",
+    "abmahnkosten",
+    "erstattung",
+    "aufrechnung",
+    "wege",
+    "geführt"
+  ],
+  "Cluster 100": [
+    "neues",
+    "annahmeerklärung",
+    "vergabe",
+    "angebot",
+    "aufträgen",
+    "aufträge",
+    "ausschreibung"
+  ],
+  "Cluster 32": [
+    "änderung",
+    "modernisierungsmaßnahmen",
+    "satzungsänderung",
+    "mietanpassungsklausel",
+    "ankündigung",
+    "auswirkungen",
+    "zustimmung"
+  ],
+  "Cluster 153": [
+    "sanierungsgeldes",
+    "verwaltungsrat",
+    "verwaltungsratsbeschluss",
+    "höhe",
+    "festlegung",
+    "ermessensfehler",
+    "sanierungsgeldern"
+  ],
+  "Cluster 154": [
+    "satzung",
+    "überschussbeteiligung",
+    "geregelt",
+    "höhe",
+    "systematische",
+    "stellung",
+    "regelungen"
+  ],
+  "Cluster 258": [
+    "anstalt",
+    "öffentlichen",
+    "rechts",
+    "rechtsfähige",
+    "staatenimmunität",
+    "bestehenden",
+    "rechtsfähig"
+  ],
+  "Cluster 240": [
+    "mindern",
+    "kaufpreis",
+    "käufer",
+    "nacherfüllung",
+    "frist",
+    "minderung",
+    "käufers"
+  ],
+  "Cluster 217": [
+    "dritter",
+    "leisten",
+    "dritten",
+    "schadensersatz",
+    "schaden",
+    "verursacht",
+    "schutzbedürftig"
+  ],
+  "Cluster 140": [
+    "adsp",
+    "spediteur",
+    "frachtführers",
+    "einzuschätzen",
+    "buchst",
+    "haftung",
+    "straßengüterverkehr"
+  ],
+  "Cluster 168": [
+    "rückzahlungsanspruchs",
+    "darlehensverbindlichkeiten",
+    "gläubiger",
+    "gbr",
+    "persönlich",
+    "gläubigers",
+    "verwirkung"
+  ],
+  "Cluster 21": [
+    "emissionsprospekt",
+    "verjährungsverkürzende",
+    "klausel",
+    "auslegung",
+    "gesellschaftsvertrag",
+    "künftigen",
+    "treuhandkommanditistin"
+  ],
+  "Cluster 11": [
+    "pferd",
+    "pferdes",
+    "käufer",
+    "tierarzt",
+    "gekauften",
+    "mangels",
+    "sachmangel"
+  ],
+  "Cluster 181": [
+    "gmbhg",
+    "mitgesellschafter",
+    "vergütung",
+    "gesellschafter",
+    "gläubiger",
+    "rückerstattungsanspruchs",
+    "rückkaufsverpflichtung"
+  ],
+  "Cluster 193": [
+    "gesellschafter",
+    "datenschutzbestimmungen",
+    "unternehmens",
+    "stummer",
+    "einlagen",
+    "kg",
+    "zurückverlangen"
+  ],
+  "Cluster 68": [
+    "olympischen",
+    "spiele",
+    "athlet",
+    "nominierung",
+    "athleten",
+    "nominierungsrichtlinien",
+    "nominiert"
+  ],
+  "Cluster 209": [
+    "erfindung",
+    "vergütung",
+    "geschäftsführer",
+    "erfinder",
+    "geschäftsführerstellung",
+    "taxe",
+    "bemessen"
+  ],
+  "Cluster 51": [
+    "bahncard",
+    "verlängerung",
+    "kündigungsfrist",
+    "automatische",
+    "verlängerungsklausel",
+    "kunde",
+    "beurteilung"
+  ],
+  "Cluster 72": [
+    "dritter",
+    "schutzbereich",
+    "schutzwirkung",
+    "dritten",
+    "einbeziehung",
+    "zugunsten",
+    "dritte"
+  ],
+  "Cluster 101": [
+    "girovertrags",
+    "kündigung",
+    "bank",
+    "wirkt",
+    "wirksamkeit",
+    "organisationsstruktur",
+    "aussprechen"
+  ],
+  "Cluster 86": [
+    "pächter",
+    "baulichkeiten",
+    "anpflanzungen",
+    "anlagen",
+    "kündigt",
+    "verpächter",
+    "grundstück"
+  ],
+  "Cluster 288": [
+    "verjährung",
+    "kenntnis",
+    "prospekthaftungsansprüchen",
+    "prospekthaftung",
+    "pflichtenkreis",
+    "prospektfehlern",
+    "begriff"
+  ],
+  "Cluster 64": [
+    "studio",
+    "fitness",
+    "vertragsdauer",
+    "vertragslaufzeiten",
+    "unangemessen",
+    "betreiber",
+    "verträgen"
+  ],
+  "Cluster 12": [
+    "zahnarzt",
+    "honorarvereinbarung",
+    "patienten",
+    "zahnärzte",
+    "zahnarztes",
+    "behandlungsvertrags",
+    "patient"
+  ],
+  "Cluster 53": [
+    "flaschen",
+    "unternehmen",
+    "verkehr",
+    "bringt",
+    "eigentum",
+    "gehören",
+    "pfandflaschen"
+  ],
+  "Cluster 66": [
+    "spielbank",
+    "spieler",
+    "spielsperre",
+    "spielsperren",
+    "spielsperrvertrag",
+    "verpflichtungen",
+    "spielverträgen"
+  ],
+  "Cluster 35": [
+    "parkettstäbe",
+    "nacherfüllung",
+    "mangelfreie",
+    "neue",
+    "verlegung",
+    "mangelhafter",
+    "käufer"
+  ],
+  "Cluster 228": [
+    "richtlinie",
+    "zusammenhang",
+    "sachverhalt",
+    "anwendbar",
+    "zukünftige",
+    "einzuhalten",
+    "ausnahmen"
+  ],
+  "Cluster -1": [
+    "begriff",
+    "verstehen",
+    "zusammenhang",
+    "sinne",
+    "beurteilung",
+    "kosten",
+    "leistung"
+  ]
+}

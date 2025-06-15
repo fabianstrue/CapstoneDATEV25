@@ -1,0 +1,821 @@
+{
+  "Cluster 55": [
+    "berichterstattung",
+    "persönlichkeitsrecht",
+    "öffentlichkeit",
+    "allgemeinen",
+    "abwägung",
+    "persönlichkeitsrechts",
+    "interesse"
+  ],
+  "Cluster 20": [
+    "gemacht",
+    "ausgleichsanspruch",
+    "vertragsstrafe",
+    "herausgabeanspruch",
+    "analog",
+    "verstehen",
+    "unterlassungsanspruch"
+  ],
+  "Cluster 5": [
+    "grundstück",
+    "wasserleitungen",
+    "grundstücks",
+    "niederschlagswasser",
+    "wasser",
+    "eigentümer",
+    "wasserstraße"
+  ],
+  "Cluster 75": [
+    "gemeinschaftsverhältnis",
+    "nachbarliche",
+    "nachbarn",
+    "gemeinschaftlichen",
+    "nachbarlichen",
+    "nutzung",
+    "gemeinschaftseigentums"
+  ],
+  "Cluster 89": [
+    "grundstücks",
+    "eigentümer",
+    "nutzung",
+    "grundstückseigentümer",
+    "dienstbarkeit",
+    "grundstück",
+    "jagdlichen"
+  ],
+  "Cluster 14": [
+    "partei",
+    "befreit",
+    "anlage",
+    "treten",
+    "rechtsfolgen",
+    "zurücktreten",
+    "kosten"
+  ],
+  "Cluster 28": [
+    "elektrizitätsleitungen",
+    "leitungen",
+    "verlegung",
+    "grundstück",
+    "duldungspflicht",
+    "stromleitungen",
+    "grundstücken"
+  ],
+  "Cluster 69": [
+    "dienstbarkeit",
+    "erbbauzins",
+    "angepasst",
+    "grunddienstbarkeit",
+    "beurteilung",
+    "inhalt",
+    "berechtigten"
+  ],
+  "Cluster 78": [
+    "grundstückseigentümer",
+    "grundstück",
+    "nachbarn",
+    "grundstücks",
+    "eigentümer",
+    "eigentümers",
+    "nachbargrundstücks"
+  ],
+  "Cluster 8": [
+    "bäumen",
+    "bäume",
+    "baumwurzeln",
+    "eigentümer",
+    "beseitigung",
+    "pflanzen",
+    "grundstück"
+  ],
+  "Cluster 11": [
+    "grenzeinrichtung",
+    "nachbar",
+    "erscheinungsbildes",
+    "einverständnis",
+    "genehmigt",
+    "beweisen",
+    "errichtung"
+  ],
+  "Cluster 10": [
+    "grenzeinrichtung",
+    "sinne",
+    "einrichtung",
+    "wand",
+    "grenze",
+    "zaun",
+    "bestimmungszweck"
+  ],
+  "Cluster 16": [
+    "eigentümer",
+    "besitz",
+    "besitzer",
+    "eigentumsbeeinträchtigung",
+    "sinne",
+    "grundstückseigentümer",
+    "eigentumserwerb"
+  ],
+  "Cluster 72": [
+    "mieter",
+    "vermieter",
+    "mietvertrag",
+    "kündigung",
+    "vermieters",
+    "mieters",
+    "mietvertrags"
+  ],
+  "Cluster 77": [
+    "eigentümer",
+    "besitzer",
+    "eigentümers",
+    "besitz",
+    "eigentum",
+    "dritten",
+    "herausgabe"
+  ],
+  "Cluster 52": [
+    "veröffentlichung",
+    "bildnisses",
+    "einwilligung",
+    "fotos",
+    "veröffentlicht",
+    "bildnis",
+    "zeitgeschichte"
+  ],
+  "Cluster 22": [
+    "schadensersatzanspruch",
+    "verjährung",
+    "schadensersatz",
+    "gemacht",
+    "schadensersatzanspruchs",
+    "schadensersatzpflicht",
+    "schäden"
+  ],
+  "Cluster 39": [
+    "hilfeleistung",
+    "unterlassen",
+    "unterlassener",
+    "schaden",
+    "geschädigter",
+    "entsteht",
+    "wegen"
+  ],
+  "Cluster 30": [
+    "fahrzeug",
+    "fahrzeugs",
+    "abgestellt",
+    "parkgebühr",
+    "halter",
+    "fahrzeugbesitzer",
+    "parkplätzen"
+  ],
+  "Cluster 59": [
+    "fichte",
+    "entfernung",
+    "löschung",
+    "drittwiderspruchsklage",
+    "fall",
+    "eigeninteresse",
+    "prozessführers"
+  ],
+  "Cluster 13": [
+    "grundbuch",
+    "eingetragener",
+    "rück",
+    "auflassung",
+    "verlangen",
+    "eigentümer",
+    "eingetragen"
+  ],
+  "Cluster 40": [
+    "sondernutzungsrecht",
+    "angepasst",
+    "erbbauzins",
+    "überbauung",
+    "rechtsfolgen",
+    "verwendungsbeschränkungen",
+    "baulichen"
+  ],
+  "Cluster 74": [
+    "nachbarrechtlichen",
+    "rechtsfolgen",
+    "werkvertrag",
+    "erklärt",
+    "erteilt",
+    "vormerkungswidrig",
+    "eingetragene"
+  ],
+  "Cluster 85": [
+    "grundstücks",
+    "grundstücken",
+    "grundstück",
+    "unterlassungsanspruchs",
+    "übertragung",
+    "eigentum",
+    "nutzung"
+  ],
+  "Cluster 37": [
+    "wiederkaufsrecht",
+    "verkäufer",
+    "wiederkaufsrechts",
+    "käufer",
+    "vorkaufsrecht",
+    "verkäufers",
+    "kunde"
+  ],
+  "Cluster 88": [
+    "grundstücks",
+    "grundstück",
+    "eigentümer",
+    "grundstückseigentümer",
+    "eigentum",
+    "zwangsverwalter",
+    "dienstbarkeit"
+  ],
+  "Cluster 53": [
+    "versagt",
+    "bauvorbescheid",
+    "rechtswidrig",
+    "entschädigungsanspruch",
+    "entschädigung",
+    "baurecht",
+    "baubeschränkung"
+  ],
+  "Cluster 68": [
+    "beseitigung",
+    "überbaus",
+    "beeinträchtigung",
+    "schenkung",
+    "form",
+    "beseitigungspflicht",
+    "räumungsanspruch"
+  ],
+  "Cluster 36": [
+    "erbbauzinses",
+    "anpassung",
+    "billigkeit",
+    "entwicklung",
+    "erhöhung",
+    "wirtschaftlichen",
+    "verhältnisse"
+  ],
+  "Cluster 12": [
+    "berufungsgericht",
+    "berufungsgerichts",
+    "landgerichts",
+    "französische",
+    "tatsächlichen",
+    "verweisung",
+    "vertraglichen"
+  ],
+  "Cluster 23": [
+    "haftung",
+    "tatbestandsmerkmale",
+    "rechtshängigkeit",
+    "ausgeschlossen",
+    "sorgfaltspflicht",
+    "haftungstatbestand",
+    "unerlaubten"
+  ],
+  "Cluster 41": [
+    "schadensersatz",
+    "verjährungsfrist",
+    "verjährung",
+    "schadensersatzansprüchen",
+    "ausgleichsanspruch",
+    "schaden",
+    "nachbarrechtlichen"
+  ],
+  "Cluster 42": [
+    "schadensersatzanspruch",
+    "schadensersatz",
+    "geschädigten",
+    "wegen",
+    "aufgrund",
+    "fall",
+    "schadensersatzansprüchen"
+  ],
+  "Cluster 31": [
+    "arbeitnehmer",
+    "kündigung",
+    "arbeitgeber",
+    "kündigungsschutzgesetz",
+    "arbeitslosengeld",
+    "verstößt",
+    "eigenbedarfs"
+  ],
+  "Cluster 87": [
+    "grundstück",
+    "grundstücks",
+    "verpflichtung",
+    "eigentumsbeeinträchtigung",
+    "dienstbarkeit",
+    "fläche",
+    "vertiefung"
+  ],
+  "Cluster 57": [
+    "grundstücks",
+    "grundstück",
+    "beseitigung",
+    "tragen",
+    "dulden",
+    "kosten",
+    "durchfahrt"
+  ],
+  "Cluster 86": [
+    "grundstückseigentümer",
+    "überbau",
+    "überbauten",
+    "eigentümer",
+    "grundstücks",
+    "grundstückserwerber",
+    "dulden"
+  ],
+  "Cluster 73": [
+    "juristischen",
+    "ausgehen",
+    "rechts",
+    "zivilrechtlichen",
+    "ehrenschutz",
+    "öffentlichen",
+    "ii"
+  ],
+  "Cluster 47": [
+    "tatsachenbehauptungen",
+    "tatsachenbehauptung",
+    "wahrheit",
+    "äußerung",
+    "äußerungen",
+    "unwahren",
+    "qualifiziert"
+  ],
+  "Cluster 56": [
+    "persönlichkeitsrecht",
+    "verletzt",
+    "sozialsphäre",
+    "klägers",
+    "allgemeines",
+    "rechts",
+    "verletzung"
+  ],
+  "Cluster 50": [
+    "äußerung",
+    "äußerungen",
+    "aussagegehalts",
+    "würdigung",
+    "kontext",
+    "ermitteln",
+    "deutung"
+  ],
+  "Cluster 4": [
+    "öltank",
+    "grundstück",
+    "grundstückseigentümer",
+    "dulden",
+    "eigentum",
+    "grundstückseigentümers",
+    "gasbehälters"
+  ],
+  "Cluster 0": [
+    "beratungsfehler",
+    "bank",
+    "dritten",
+    "haften",
+    "verantwortlich",
+    "haftbar",
+    "zukommen"
+  ],
+  "Cluster 1": [
+    "beratungsfehlern",
+    "bank",
+    "zurechnung",
+    "dritten",
+    "pflichtenkreis",
+    "tätig",
+    "geworden"
+  ],
+  "Cluster 81": [
+    "wohnung",
+    "titel",
+    "unterhaltung",
+    "gerichtlichen",
+    "einrichtungen",
+    "anlagen",
+    "tagespflegestelle"
+  ],
+  "Cluster 48": [
+    "teileigentumseinheiten",
+    "teileigentumseinheit",
+    "nutzung",
+    "aufteilungsplan",
+    "teilungserklärung",
+    "zweckbestimmung",
+    "berechnen"
+  ],
+  "Cluster 66": [
+    "wegerechts",
+    "berechtigte",
+    "berechtigter",
+    "grunddienstbarkeit",
+    "erlöschen",
+    "behindert",
+    "rechten"
+  ],
+  "Cluster 76": [
+    "rück",
+    "eingetragener",
+    "auflassung",
+    "grundbuch",
+    "eigentümer",
+    "verlangen",
+    "fütterungsanlagen"
+  ],
+  "Cluster 63": [
+    "zurechnung",
+    "dritten",
+    "beratungsfehlern",
+    "pflichtenkreis",
+    "vormerkungsberechtigten",
+    "dritterwerbers",
+    "dritter"
+  ],
+  "Cluster 80": [
+    "wohnungseigentümer",
+    "wohnungseigentümergemeinschaft",
+    "gemeinschaftlichen",
+    "bauliche",
+    "zustimmung",
+    "wohnungsrecht",
+    "änderung"
+  ],
+  "Cluster 79": [
+    "wohnungseigentümer",
+    "nutzung",
+    "zweck",
+    "verletzt",
+    "hausmauer",
+    "eigentümer",
+    "wohnung"
+  ],
+  "Cluster 61": [
+    "eintragung",
+    "grundbuch",
+    "treu",
+    "glauben",
+    "grundsatz",
+    "inhaltlich",
+    "unzulässige"
+  ],
+  "Cluster 38": [
+    "kaufvertrag",
+    "anpassung",
+    "vorkaufsrechts",
+    "erbbauzinses",
+    "zurücktreten",
+    "kaufähnlicher",
+    "ausbeuterechts"
+  ],
+  "Cluster 44": [
+    "grundschuld",
+    "zahlung",
+    "gläubiger",
+    "schuldner",
+    "reallast",
+    "erbbauzinsen",
+    "verschulden"
+  ],
+  "Cluster 3": [
+    "lärm",
+    "beurteilung",
+    "lärmbeeinträchtigungen",
+    "lärmimmissionen",
+    "schallschutz",
+    "geräuschimmissionen",
+    "geräuschemissionen"
+  ],
+  "Cluster 45": [
+    "teilungsvereinbarung",
+    "auslegung",
+    "hinterlieger",
+    "eintragung",
+    "teilungserklärung",
+    "formwirksam",
+    "grundbuch"
+  ],
+  "Cluster 15": [
+    "mieter",
+    "mietverhältnis",
+    "vermieter",
+    "kündigung",
+    "kündigen",
+    "mietsache",
+    "vermieterpfandrecht"
+  ],
+  "Cluster 18": [
+    "schriftform",
+    "heimfallanspruch",
+    "wucherähnlich",
+    "erbbauvo",
+    "eingestuft",
+    "beendigung",
+    "wirksame"
+  ],
+  "Cluster 51": [
+    "satirischen",
+    "meinungsäußerung",
+    "verletzt",
+    "kontext",
+    "politikers",
+    "persönlichkeitsrecht",
+    "verbindung"
+  ],
+  "Cluster 67": [
+    "wegerechts",
+    "berechtigte",
+    "grundbuch",
+    "dinglichen",
+    "zuzustimmen",
+    "verlegung",
+    "fall"
+  ],
+  "Cluster 35": [
+    "erbbauzinses",
+    "grundstückswert",
+    "anpassung",
+    "grundstücks",
+    "grundstückswerts",
+    "werterhöhung",
+    "baumaßnahmen"
+  ],
+  "Cluster 82": [
+    "wand",
+    "gemeinsamen",
+    "fassadenverkleidung",
+    "eigentümer",
+    "anbringen",
+    "nachbarn",
+    "ersatzlose"
+  ],
+  "Cluster 83": [
+    "gebäude",
+    "gebäudes",
+    "vorübergehend",
+    "verbunden",
+    "sache",
+    "standfestigkeit",
+    "gesamteindruck"
+  ],
+  "Cluster 84": [
+    "schäden",
+    "benachbarten",
+    "gebäude",
+    "bauunternehmer",
+    "gründung",
+    "haftung",
+    "verursacht"
+  ],
+  "Cluster 34": [
+    "fläche",
+    "verkehrsflächenbereinigungsgesetz",
+    "verkehrsfläche",
+    "verkflberg",
+    "öffentliche",
+    "privatstraße",
+    "öffentlichen"
+  ],
+  "Cluster 71": [
+    "betriebskosten",
+    "kosten",
+    "tragen",
+    "wohnungsberechtigten",
+    "vorschüssen",
+    "verpflichtungen",
+    "bezüglich"
+  ],
+  "Cluster 25": [
+    "tragen",
+    "kosten",
+    "entsorgung",
+    "industrieabfällen",
+    "nachbesserung",
+    "beseitigung",
+    "entstehen"
+  ],
+  "Cluster 27": [
+    "fernwärmeleitungen",
+    "bezüglich",
+    "grundstück",
+    "beseitigung",
+    "fernwärmeversorgungsunternehmen",
+    "grundstückseigentümer",
+    "versorgungsvertrags"
+  ],
+  "Cluster 46": [
+    "vermittlungsvertrag",
+    "klausel",
+    "dritten",
+    "provision",
+    "vertragspartner",
+    "zugunsten",
+    "schutzwirkung"
+  ],
+  "Cluster 26": [
+    "versorgungsleitung",
+    "straßengrundstück",
+    "scheinbestandteil",
+    "sonderrechtsfähig",
+    "verlegte",
+    "bestimmt",
+    "schlepperweg"
+  ],
+  "Cluster 70": [
+    "grunddienstbarkeit",
+    "ausgleichsanspruch",
+    "nachbarrechtlicher",
+    "gemacht",
+    "qualifikation",
+    "erlöschen",
+    "erbbaurechts"
+  ],
+  "Cluster 43": [
+    "erbbauberechtigte",
+    "erbbauzinses",
+    "anpassung",
+    "neufestsetzung",
+    "falle",
+    "insolvenzverfahren",
+    "zahlung"
+  ],
+  "Cluster 29": [
+    "nießbrauchs",
+    "nießbrauchers",
+    "schaden",
+    "nießbraucher",
+    "ersetzen",
+    "tod",
+    "nießbrauch"
+  ],
+  "Cluster 62": [
+    "bürgerlichen",
+    "gesellschaft",
+    "gbr",
+    "rechts",
+    "grundbuchberichtigungsanspruch",
+    "dienstbarkeit",
+    "grundbuch"
+  ],
+  "Cluster 65": [
+    "wiederholungsgefahr",
+    "notwegrecht",
+    "unterlassungserklärung",
+    "auszuräumen",
+    "nachlassabkommens",
+    "schenkung",
+    "strafbewehrte"
+  ],
+  "Cluster 33": [
+    "grünanlage",
+    "parkfläche",
+    "öffentliche",
+    "grünanlagen",
+    "parkflächen",
+    "bebauten",
+    "flächen"
+  ],
+  "Cluster 32": [
+    "mieten",
+    "auszukehren",
+    "gezogenen",
+    "lehrlingswohnheims",
+    "nutzung",
+    "arztpraxis",
+    "verpflichtung"
+  ],
+  "Cluster 58": [
+    "kosten",
+    "gezahlt",
+    "kaufpreis",
+    "trifft",
+    "kostenentscheidung",
+    "gericht",
+    "schadensersatzanspruch"
+  ],
+  "Cluster 49": [
+    "verwertung",
+    "fotografieren",
+    "bildern",
+    "grundstück",
+    "fotos",
+    "eigentümers",
+    "grundstücks"
+  ],
+  "Cluster 24": [
+    "grundrechte",
+    "grundgesetzes",
+    "gebunden",
+    "unmittelbar",
+    "unternehmen",
+    "versammlungen",
+    "betriebsgelände"
+  ],
+  "Cluster 2": [
+    "flughafen",
+    "flughafenbetreibers",
+    "flughafenbetreiber",
+    "fluggast",
+    "genehmigten",
+    "lärmimmissionen",
+    "hausverbot"
+  ],
+  "Cluster 54": [
+    "privatsphäre",
+    "schutz",
+    "respektieren",
+    "einzuschätzen",
+    "öffentlichkeit",
+    "lebens",
+    "bereichs"
+  ],
+  "Cluster 60": [
+    "glauben",
+    "grundbuchs",
+    "erwerbs",
+    "öffentlichen",
+    "gutgläubigen",
+    "treu",
+    "schutz"
+  ],
+  "Cluster 64": [
+    "vermietung",
+    "feriengäste",
+    "kurzfristige",
+    "wohnung",
+    "eigentumswohnung",
+    "kurzfristigen",
+    "wohnungseigentümer"
+  ],
+  "Cluster 7": [
+    "holzbezugsrechts",
+    "holzbezugsrecht",
+    "holzbezugsrechten",
+    "ausübung",
+    "aufhebung",
+    "subjektiv",
+    "handelt"
+  ],
+  "Cluster 6": [
+    "unternehmen",
+    "flaschen",
+    "gen",
+    "milch",
+    "verkehr",
+    "gehören",
+    "bringt"
+  ],
+  "Cluster 21": [
+    "kündigung",
+    "kündigungsrecht",
+    "beachten",
+    "begründet",
+    "unwirksame",
+    "auszusprechen",
+    "arbeitsleistung"
+  ],
+  "Cluster 9": [
+    "aktienurkunden",
+    "squeeze",
+    "out",
+    "verfahrens",
+    "aktg",
+    "hauptaktionär",
+    "aushändigung"
+  ],
+  "Cluster 19": [
+    "kabelnetzbetreiber",
+    "signaldurchleitung",
+    "signale",
+    "netz",
+    "betreibers",
+    "verhindern",
+    "kabelnetzes"
+  ],
+  "Cluster 17": [
+    "tabakrauch",
+    "mieter",
+    "gesundheitsverletzung",
+    "wesentlich",
+    "gefahr",
+    "entscheiden",
+    "beeinträchtigt"
+  ],
+  "Cluster -1": [
+    "persönlichkeitsrecht",
+    "persönlichkeitsrechts",
+    "deutschland",
+    "gbr",
+    "schutz",
+    "berechtigt",
+    "begriff"
+  ]
+}

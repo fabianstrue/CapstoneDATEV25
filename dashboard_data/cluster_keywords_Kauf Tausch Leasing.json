@@ -1,0 +1,758 @@
+{
+  "Cluster 48": [
+    "allgemeinen",
+    "geschäftsbedingungen",
+    "klausel",
+    "montageverpflichtung",
+    "unwirksamkeit",
+    "werkvertragsrecht",
+    "gesamtwandelung"
+  ],
+  "Cluster 81": [
+    "käufer",
+    "verkäufer",
+    "kaufsache",
+    "mangel",
+    "verweigert",
+    "falle",
+    "mangelhaft"
+  ],
+  "Cluster 22": [
+    "cisg",
+    "warenkaufrecht",
+    "internationalen",
+    "un",
+    "kaufrecht",
+    "verkäufers",
+    "käufer"
+  ],
+  "Cluster 29": [
+    "mieter",
+    "mieters",
+    "vermieter",
+    "vorkaufsrecht",
+    "mietwohnung",
+    "vermieters",
+    "wohnung"
+  ],
+  "Cluster 50": [
+    "verbraucher",
+    "widerrufsrecht",
+    "widerrufsfrist",
+    "widerrufsbelehrung",
+    "ausübt",
+    "belehren",
+    "unternehmer"
+  ],
+  "Cluster 6": [
+    "versicherungsnehmer",
+    "widerspruchsrecht",
+    "versicherungsvertrag",
+    "versicherungsschutzes",
+    "versicherung",
+    "versicherungsschutz",
+    "rückabwicklung"
+  ],
+  "Cluster 47": [
+    "nichtig",
+    "vertragsauslegung",
+    "regelungslücke",
+    "wortlaut",
+    "beurteilung",
+    "vertragspartner",
+    "rechtsstreit"
+  ],
+  "Cluster 78": [
+    "kaufvertrag",
+    "kaufvertrags",
+    "wandelung",
+    "klausel",
+    "aufgrund",
+    "provisionsanspruch",
+    "maklerprovision"
+  ],
+  "Cluster 75": [
+    "verkäufer",
+    "verkäufers",
+    "käufer",
+    "informationen",
+    "käufers",
+    "aufklärungspflicht",
+    "mitteilen"
+  ],
+  "Cluster 82": [
+    "käufer",
+    "täuschung",
+    "verkäufers",
+    "verkäufer",
+    "arglistiger",
+    "kenntnis",
+    "tatsachen"
+  ],
+  "Cluster 21": [
+    "garantiebank",
+    "hauptforderung",
+    "verzugszinsen",
+    "gläubiger",
+    "verschulden",
+    "schuldner",
+    "schuldners"
+  ],
+  "Cluster 68": [
+    "berechnen",
+    "kaufpreises",
+    "preisbestimmung",
+    "billigkeit",
+    "nachweisen",
+    "erheblichkeit",
+    "versorgungsunternehmen"
+  ],
+  "Cluster 64": [
+    "nacherfüllung",
+    "frist",
+    "mindern",
+    "käufer",
+    "kaufpreis",
+    "einbauküche",
+    "nachbesserung"
+  ],
+  "Cluster 8": [
+    "fahrzeug",
+    "fahrzeugs",
+    "käufer",
+    "gebrauchtwagens",
+    "gebrauchtwagen",
+    "pkw",
+    "verkäufer"
+  ],
+  "Cluster 41": [
+    "wirksame",
+    "abtretung",
+    "sinne",
+    "wucherähnlichen",
+    "rechtsmangel",
+    "rechtsgeschäfts",
+    "mängelrechten"
+  ],
+  "Cluster 53": [
+    "partei",
+    "kosten",
+    "tragen",
+    "zivilprozess",
+    "vorschusses",
+    "bekommt",
+    "erstattet"
+  ],
+  "Cluster 55": [
+    "schadensersatz",
+    "verjährung",
+    "gemacht",
+    "schadensersatzanspruch",
+    "schadens",
+    "schadensersatzansprüchen",
+    "schadenspauschalierungsklausel"
+  ],
+  "Cluster 7": [
+    "wasserversorgung",
+    "trinkwasserversorgung",
+    "festlegung",
+    "versorgungsunternehmen",
+    "trinkwasser",
+    "verbrauchsunabhängigen",
+    "gekauften"
+  ],
+  "Cluster 40": [
+    "beschaffenheitsvereinbarung",
+    "dinglichen",
+    "auslegung",
+    "neben",
+    "interessenabwägung",
+    "vertragsparteien",
+    "vorkaufsrecht"
+  ],
+  "Cluster 34": [
+    "vorkaufsrecht",
+    "käufer",
+    "vermutung",
+    "sache",
+    "verbrauchsgüterkaufs",
+    "kaufsache",
+    "verkäufer"
+  ],
+  "Cluster 33": [
+    "schadensersatzanspruch",
+    "vertragsstrafe",
+    "gemacht",
+    "verjährungsfrist",
+    "feststellungsklage",
+    "verjährung",
+    "feststellungsinteresse"
+  ],
+  "Cluster 32": [
+    "tatbestandsmerkmale",
+    "haftung",
+    "unerlaubten",
+    "handlung",
+    "sittenwidriger",
+    "schädigung",
+    "vorsätzlicher"
+  ],
+  "Cluster 52": [
+    "partei",
+    "auslegung",
+    "wille",
+    "zurücktritt",
+    "zurücktreten",
+    "rechtsfolgen",
+    "grund"
+  ],
+  "Cluster 59": [
+    "rücktritt",
+    "kaufvertrag",
+    "käufer",
+    "zurücktreten",
+    "nacherfüllung",
+    "erklären",
+    "aufgrund"
+  ],
+  "Cluster 63": [
+    "wiederkaufsrecht",
+    "wiederkaufsrechts",
+    "ausübung",
+    "ausgeübt",
+    "wertsicherungsklausel",
+    "rechtsfolgen",
+    "wiederverkaufsrecht"
+  ],
+  "Cluster 62": [
+    "ausübungsfrist",
+    "verjährungsfrist",
+    "wiederkaufsrechts",
+    "lange",
+    "wiederkaufsrecht",
+    "jahr",
+    "ausübung"
+  ],
+  "Cluster 39": [
+    "grundstücks",
+    "grundstück",
+    "käufer",
+    "immobilie",
+    "verkäufers",
+    "verkäufer",
+    "verkauft"
+  ],
+  "Cluster 56": [
+    "widerrufsbelehrung",
+    "widerruf",
+    "beitrittserklärung",
+    "widerrufsrecht",
+    "widerrufs",
+    "widerrufsrechts",
+    "wirksamkeit"
+  ],
+  "Cluster 1": [
+    "bank",
+    "dritten",
+    "beratungsfehlern",
+    "zurechnung",
+    "tätig",
+    "pflichtenkreis",
+    "geworden"
+  ],
+  "Cluster 77": [
+    "kaufvertrag",
+    "werkvertrag",
+    "einordnung",
+    "werklieferungsvertrag",
+    "vertriebsvereinbarung",
+    "kaufähnlicher",
+    "ausbeuterechts"
+  ],
+  "Cluster 66": [
+    "käufer",
+    "schadensersatzanspruch",
+    "schadensersatz",
+    "wegen",
+    "verlangen",
+    "verkäufer",
+    "käufers"
+  ],
+  "Cluster 42": [
+    "fristsetzung",
+    "ausgeschlossen",
+    "widerrufsbelehrung",
+    "widerrufsrecht",
+    "widerrufsfrist",
+    "verjährung",
+    "af"
+  ],
+  "Cluster 58": [
+    "schadensersatzanspruch",
+    "schadensersatz",
+    "handlung",
+    "aufgrund",
+    "wegen",
+    "pak",
+    "unerlaubten"
+  ],
+  "Cluster 71": [
+    "vorkaufsrecht",
+    "verbrauchsgüterkauf",
+    "vorkaufsrechts",
+    "gewährleistungsausschluss",
+    "käufers",
+    "ausgeübt",
+    "verbraucher"
+  ],
+  "Cluster 30": [
+    "realen",
+    "teilung",
+    "wohnungseigentum",
+    "grundstücks",
+    "rechtsfolgen",
+    "wohnfläche",
+    "wohnhauses"
+  ],
+  "Cluster 4": [
+    "tier",
+    "behandlung",
+    "tieres",
+    "tierkauf",
+    "mangelhaft",
+    "tierärztliche",
+    "nachfristsetzung"
+  ],
+  "Cluster 80": [
+    "käufer",
+    "verkäufer",
+    "mangelbeseitigung",
+    "nacherfüllung",
+    "kaufsache",
+    "sache",
+    "mangel"
+  ],
+  "Cluster 18": [
+    "wurden",
+    "bauwerk",
+    "verwendet",
+    "sachen",
+    "mängeln",
+    "wegen",
+    "schadensersatzansprüchen"
+  ],
+  "Cluster 57": [
+    "gewährleistungsausschluss",
+    "makler",
+    "garantie",
+    "eigenschaftszusicherung",
+    "beschaffenheitsvereinbarung",
+    "garantieanspruch",
+    "aufklärungspflichtig"
+  ],
+  "Cluster 54": [
+    "partei",
+    "interessenlage",
+    "auslegung",
+    "verpflichtungen",
+    "gewährleistungsausschlusses",
+    "erlöschen",
+    "verpflichtung"
+  ],
+  "Cluster 25": [
+    "leasingnehmer",
+    "leasinggeber",
+    "lieferanten",
+    "leasinggebers",
+    "leasingvertrag",
+    "minderwertausgleichsanspruch",
+    "restwert"
+  ],
+  "Cluster 24": [
+    "haustürsituation",
+    "widerruf",
+    "darlehensvertrag",
+    "widerrufsfrist",
+    "darlehensvertrages",
+    "aufgrund",
+    "widerrufsbelehrung"
+  ],
+  "Cluster 36": [
+    "infov",
+    "schutzwirkung",
+    "anlage",
+    "widerrufsbelehrung",
+    "muster",
+    "af",
+    "musterbelehrung"
+  ],
+  "Cluster 35": [
+    "verbraucher",
+    "widerrufsrecht",
+    "ausübt",
+    "ausüben",
+    "nehmen",
+    "berufen",
+    "ff"
+  ],
+  "Cluster 3": [
+    "rück",
+    "eingetragener",
+    "auflassung",
+    "grundbuch",
+    "eigentümer",
+    "verlangen",
+    "eigentumsübertragung"
+  ],
+  "Cluster 0": [
+    "bank",
+    "beratungsfehler",
+    "verantwortlich",
+    "dritten",
+    "pflichtenkreis",
+    "beratungsfehlern",
+    "zurechnung"
+  ],
+  "Cluster 28": [
+    "wohnungseigentümer",
+    "haustürsituation",
+    "kausalität",
+    "fertigstellung",
+    "verjährungsfrist",
+    "zunächst",
+    "wohnanlage"
+  ],
+  "Cluster 51": [
+    "fristsetzung",
+    "beginn",
+    "nacherfüllung",
+    "widerrufsfrist",
+    "sofortiger",
+    "entbehrlich",
+    "belehrung"
+  ],
+  "Cluster 44": [
+    "finanzierungskosten",
+    "arglistigen",
+    "rechnungen",
+    "ersatz",
+    "mangels",
+    "aufgrund",
+    "anzuwenden"
+  ],
+  "Cluster 65": [
+    "haftung",
+    "verkäufers",
+    "verkäufer",
+    "verletzt",
+    "ware",
+    "käufer",
+    "pflichtverletzung"
+  ],
+  "Cluster 70": [
+    "zahlen",
+    "tragen",
+    "kaufpreis",
+    "kosten",
+    "zurückzuzahlen",
+    "zahlung",
+    "käufer"
+  ],
+  "Cluster 67": [
+    "allgemeinen",
+    "geschäftsbedingungen",
+    "preisanpassungsklausel",
+    "preisabrede",
+    "kaufpreis",
+    "preisberechnungsformeln",
+    "erstattung"
+  ],
+  "Cluster 74": [
+    "beweisen",
+    "käufer",
+    "verkäufer",
+    "arglistig",
+    "sachmangel",
+    "verschwiegen",
+    "nachweisen"
+  ],
+  "Cluster 10": [
+    "berufungsgericht",
+    "berufungsverfahren",
+    "berufungsgerichts",
+    "berufungsurteil",
+    "beweiswürdigung",
+    "aufklärung",
+    "tragen"
+  ],
+  "Cluster 60": [
+    "schadensersatzanspruch",
+    "dritter",
+    "begeht",
+    "liegen",
+    "verurteilung",
+    "unzulässig",
+    "beratungsfehler"
+  ],
+  "Cluster 2": [
+    "grundbuch",
+    "eingetragener",
+    "eigentümer",
+    "eigentumsrechte",
+    "durchsetzen",
+    "sondereigentums",
+    "verlangen"
+  ],
+  "Cluster 38": [
+    "grundstücks",
+    "grundstück",
+    "nutzung",
+    "frühere",
+    "beurteilung",
+    "bauerwartungsland",
+    "eingestuft"
+  ],
+  "Cluster 27": [
+    "gemeinschaftseigentum",
+    "wohnungseigentümergemeinschaft",
+    "beseitigung",
+    "abnahme",
+    "gemeinschaftseigentums",
+    "tragen",
+    "kosten"
+  ],
+  "Cluster 43": [
+    "vermutung",
+    "sinne",
+    "mangels",
+    "begriff",
+    "sache",
+    "verstehen",
+    "interpretieren"
+  ],
+  "Cluster 79": [
+    "arglistig",
+    "mangel",
+    "verkäufer",
+    "verschweigt",
+    "verschwiegen",
+    "mängel",
+    "handeln"
+  ],
+  "Cluster 15": [
+    "energieversorger",
+    "energielieferungsvertrag",
+    "strom",
+    "preiserhöhungen",
+    "gerichtliche",
+    "tariferhöhungen",
+    "kunde"
+  ],
+  "Cluster 61": [
+    "rechtsstreit",
+    "löschung",
+    "aufnahme",
+    "prozessgegner",
+    "gutachten",
+    "auflassungsvormerkung",
+    "neupreisklausel"
+  ],
+  "Cluster 17": [
+    "mieter",
+    "vorkaufsrecht",
+    "alt",
+    "vermieter",
+    "mieters",
+    "entsteht",
+    "vorkaufsrechts"
+  ],
+  "Cluster 23": [
+    "architekt",
+    "architekten",
+    "baugenehmigungsplanung",
+    "beauftragt",
+    "koppelungsverbot",
+    "kunden",
+    "grundstückserwerber"
+  ],
+  "Cluster 9": [
+    "revision",
+    "bundesgerichtshofs",
+    "ändern",
+    "erfolgreich",
+    "erfolgreiche",
+    "entscheidungen",
+    "einzulegen"
+  ],
+  "Cluster 76": [
+    "mangel",
+    "mangels",
+    "verschweigen",
+    "verschweigens",
+    "verkäufer",
+    "beweisen",
+    "verkäufers"
+  ],
+  "Cluster 16": [
+    "preisanpassungsklausel",
+    "fernwärmeliefervertrag",
+    "avbfernwärmev",
+    "fernwärme",
+    "wirksamkeit",
+    "preisanpassungsklauseln",
+    "fernwärmelieferverträgen"
+  ],
+  "Cluster 37": [
+    "vvg",
+    "mabv",
+    "halbsatz",
+    "widerspruchsrechts",
+    "pfandfreistellungsverpflichtungserklärung",
+    "widerrufsrecht",
+    "bauträgervertrages"
+  ],
+  "Cluster 26": [
+    "rechnungslegungspflicht",
+    "milchpreises",
+    "lfl",
+    "milchabnehmers",
+    "milchabnehmer",
+    "milchpreisberechnung",
+    "durchschnittliche"
+  ],
+  "Cluster 45": [
+    "verjährungsfrist",
+    "schadensersatzansprüche",
+    "positiver",
+    "vertragsverletzung",
+    "wegen",
+    "schadensersatzanspruch",
+    "nacherfüllung"
+  ],
+  "Cluster 46": [
+    "wucherähnliches",
+    "rechtsgeschäft",
+    "angesehen",
+    "kumulativen",
+    "schriftform",
+    "interpretation",
+    "verträgen"
+  ],
+  "Cluster 31": [
+    "immobilie",
+    "schaden",
+    "grundstück",
+    "käufer",
+    "mangelhaftes",
+    "erwirbt",
+    "minderwert"
+  ],
+  "Cluster 49": [
+    "missverhältnis",
+    "turboladerdefekt",
+    "verjährungsfrist",
+    "abnahme",
+    "leistung",
+    "mangels",
+    "besonders"
+  ],
+  "Cluster 14": [
+    "gasversorger",
+    "gasversorgers",
+    "gasversorgungsvertrag",
+    "preiserhöhung",
+    "wohnungseigentümergemeinschaft",
+    "gas",
+    "kunden"
+  ],
+  "Cluster 69": [
+    "grundversorgung",
+    "kosten",
+    "preiserhöhung",
+    "daseinsvorsorge",
+    "kunde",
+    "betriebskostenabrechnung",
+    "tragen"
+  ],
+  "Cluster 5": [
+    "pferd",
+    "pferdes",
+    "käufer",
+    "röntgenbefund",
+    "sachmangel",
+    "aufgrund",
+    "mangels"
+  ],
+  "Cluster 19": [
+    "versorgungsunternehmen",
+    "grundstücksnutzer",
+    "entsorgungsleistungen",
+    "ver",
+    "leistungen",
+    "gegenüber",
+    "eigentümer"
+  ],
+  "Cluster 72": [
+    "käufer",
+    "kaufpreises",
+    "getäuscht",
+    "verpflichtung",
+    "restkaufpreises",
+    "arglistig",
+    "zurückverlangen"
+  ],
+  "Cluster 73": [
+    "käufer",
+    "kaufvertrag",
+    "rückabwicklung",
+    "kaufvertrags",
+    "verlangen",
+    "verkäufer",
+    "anfechten"
+  ],
+  "Cluster 12": [
+    "netzbetreiber",
+    "netzanschlusskosten",
+    "netzanschlusses",
+    "herstellung",
+    "erstattung",
+    "erstattungsansprüchen",
+    "eeg"
+  ],
+  "Cluster 11": [
+    "hauses",
+    "asbestfassade",
+    "asbestmangel",
+    "verkäufers",
+    "asbestmangels",
+    "fassade",
+    "käufer"
+  ],
+  "Cluster 13": [
+    "parkettstäbe",
+    "nacherfüllung",
+    "mangelfreie",
+    "neue",
+    "verlegung",
+    "mangelhafter",
+    "neuer"
+  ],
+  "Cluster 20": [
+    "richtlinie",
+    "zusammenhang",
+    "einzuhalten",
+    "anwendbar",
+    "sachverhalt",
+    "ausnahmen",
+    "zukünftige"
+  ],
+  "Cluster -1": [
+    "begriff",
+    "berücksichtigen",
+    "gemeinde",
+    "verstehen",
+    "nachweis",
+    "vergütung",
+    "verlegung"
+  ]
+}
