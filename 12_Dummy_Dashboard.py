@@ -1,5 +1,3 @@
-#streamlit run 12_Dummy_Dashboard.py --server.fileWatcherType none
-
 import streamlit as st
 import numpy as np
 import json
@@ -15,7 +13,6 @@ st.set_page_config(
 )
 
 # --- COMPANY INFO PANEL IN SIDEBAR ---
-# Sidebar fixed full height with company info, description, feature list and footer
 st.sidebar.markdown("""
 <div style="
     position: fixed;
@@ -29,14 +26,14 @@ st.sidebar.markdown("""
     box-sizing: border-box;
 ">
   <h3 style="margin: 0; color: #222222;">Your Company Name</h3>
-  <p style="font-size: 0.9rem; color: #444444; margin-top: 0.5rem;">
+  <p style="font-size: 0.9rem; color: #444444; margin-top: 0.5rem; margin-bottom: 1.5rem;">
     We are an advanced research tool for legal professionals, meticulously engineered to streamline case analysis and make every aspect of legal research faster, more precise, and deeply efficient.
   </p>
-  <div style="margin-top: 1rem;">
-    <ul style="list-style-type: none; padding: 0; margin: 0;">
-      <li style="margin-bottom: 0.5rem;"><strong>Trained on 6000+ documents</strong></li>
-      <li style="margin-bottom: 0.5rem;"><strong>AI powered</strong></li>
-      <li style="margin-bottom: 1rem;"><strong>Developed by AI professionals and lawyers</strong></li>
+  <div style="margin-top: 2rem; color: #000000;">
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      <li style="margin-bottom: 0.5rem;">► Trained on 6000+ documents</li>
+      <li style="margin-bottom: 0.5rem;">► AI powered</li>
+      <li style="margin-bottom: 1rem;">► Developed by AI professionals and lawyers</li>
     </ul>
   </div>
   <div style="
@@ -54,30 +51,25 @@ st.sidebar.markdown("""
 # Global CSS for clean, light modern design
 st.markdown("""
 <style>
-  /* App background and container */
   .reportview-container, .stApp {
     background-color: #FFFFFF;
     color: #333333;
     padding: 2rem;
     font-family: 'Helvetica Neue', Arial, sans-serif;
   }
-  /* Remove default top stripe */
   .stApp > header {
     border: none;
     background-color: #FFFFFF;
   }
-  /* Sidebar style override to ensure contrast */
   .stSidebar {
     background-color: #FFFFFF;
     padding: 0;
   }
-  /* Title style */
-  h1, h2 {
+  h1, h2, .stSubheader {
     margin-bottom: 0.5rem;
     color: #222222;
     text-align: left !important;
   }
-  /* Text input: white background, green border */
   .stTextInput>div>div>input {
     background-color: #FFFFFF;
     border: 2px solid #70BA30 !important;
@@ -85,7 +77,6 @@ st.markdown("""
     padding: 0.5rem;
     color: #333333 !important;
   }
-  /* Question buttons: left-aligned, full-width, white background with pink border */
   .stButton>button {
     background-color: #FFFFFF;
     color: #E862A1;
@@ -99,7 +90,6 @@ st.markdown("""
   .stButton>button:hover {
     background-color: #FDE8EE;
   }
-  /* Remove default footer */
   footer { visibility: hidden; }
 </style>
 """, unsafe_allow_html=True)
@@ -129,14 +119,14 @@ with col1:
     st.image("pictures/logoDatev.png", width=80)
 with col2:
     st.image("pictures/logoDatavation.png", width=80)
-_with_, col1, col2 = None, _, _  # keep cols alignment
+
 # Title and input
 st.title("Legal Assistant Dashboard")
 query = st.text_input("Enter your legal question:")
 
 # Function to show ontology graph
 def show_graph(ontology):
-     net = Network(height="500px", width="100%", bgcolor="#000000", font_color="#000000")
+     net = Network(height="500px", width="100%", bgcolor="#FFFFFF", font_color="#000000")
      for node in ontology.get("refined_ontology", {}).get("classes", []):
          net.add_node(node, label=node, color="#E862A1")
      for subj, pred, obj in ontology.get("refined_ontology", {}).get("relationships", []):
@@ -164,7 +154,7 @@ if query:
             else:
                 st.warning("No ontology found for this cluster.")
 
-# Footer note fixed at bottom left (smaller font)
+# Footer note fixed at bottom left
 st.markdown("""
 <div style="
     position: fixed;
