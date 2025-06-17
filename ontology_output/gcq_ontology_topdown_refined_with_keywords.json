@@ -803,7 +803,6 @@
       "classes": [
         "Betreiber",
         "Lärm",
-        "Lärmimmission",
         "Mangel",
         "Maßstab",
         "Mieter",
@@ -814,8 +813,7 @@
         "Schallschutz",
         "Schutzmaßnahme",
         "Störer",
-        "Vermieter",
-        "wesentlicheLärmimmissionen"
+        "Vermieter"
       ],
       "properties": [
         "hatBedeutung",
@@ -850,6 +848,11 @@
           "Maßstab"
         ],
         [
+          "Mieter",
+          "wohntBei",
+          "Vermieter"
+        ],
+        [
           "Schadensersatzanspruch",
           "sindAnzuwenden",
           "Maßstab"
@@ -867,12 +870,12 @@
         [
           "Betreiber",
           "istZurechenbar",
-          "Lärmimmission"
+          "Lärm"
         ],
         [
           "Störer",
           "kannUnterlassen",
-          "wesentlicheLärmimmissionen"
+          "Lärm"
         ],
         [
           "Schallschutz",
