@@ -1,5 +1,5 @@
 {
-  "Cluster 0": {
+  "Cluster 1": {
     "generalized_question": "Unter welchen Voraussetzungen sind Schönheitsreparaturen im Mietrecht durchzuführen und welche rechtlichen Konsequenzen treten ein, wenn diese nicht erfüllt werden?",
     "refined_ontology": {
       "classes": [
@@ -11,7 +11,13 @@
         "Schönheitsreparatur",
         "Mietvertrag",
         "Klausel",
-        "Schadensersatzanspruch"
+        "Schadensersatzanspruch",
+        "Mietentgelt",
+        "Formularklausel",
+        "Eigenarbeit",
+        "Rückforderung",
+        "Zuschlag",
+        "Vermieter"
       ],
       "properties": [
         "setztVoraus",
@@ -22,7 +28,18 @@
         "wirdDurchgeführt",
         "wirdNichterfüllt",
         "betrifft",
-        "regelt"
+        "regelt",
+        "tragen",
+        "istVerpflichtet",
+        "istWirksam",
+        "hatRechtswirkung",
+        "unterbleibt",
+        "berechnen",
+        "vornimmt",
+        "istUnwirksam",
+        "beinhaltet",
+        "erfüllt",
+        "hatRecht"
       ],
       "relationships": [
         [
@@ -79,97 +96,56 @@
           "Verjährung",
           "betrifft",
           "Schönheitsreparatur"
-        ]
-      ]
-    }
-  },
-  "Cluster 1": {
-    "generalized_question": "Unter welchen Voraussetzungen ist ein Mieter zur Vornahme von Schönheitsreparaturen in einer Mietwohnung verpflichtet, und welche Rechtsfolgen hat es, wenn er dieser Verpflichtung nicht nachkommt?",
-    "refined_ontology": {
-      "classes": [
-        "Mieter",
-        "Mietentgelt",
-        "Formularklausel",
-        "Eigenarbeit",
-        "Schönheitsreparaturen",
-        "Fristen",
-        "Rückforderung",
-        "Geschäftsraummietvertrag",
-        "Zuschlag",
-        "Mietvertrag",
-        "Rechtsfolgen",
-        "Anteil",
-        "Vermieter"
-      ],
-      "properties": [
-        "tragen",
-        "istVerpflichtet",
-        "istWirksam",
-        "hatRechtswirkung",
-        "unterbleibt",
-        "berechnen",
-        "vornimmt",
-        "istUnwirksam",
-        "beinhaltet",
-        "betrifft",
-        "erfüllt",
-        "hatRecht"
-      ],
-      "relationships": [
-        [
-          "Mieter",
-          "istVerpflichtet",
-          "Schönheitsreparaturen"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "vornimmt",
           "Mieter"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "unterbleibt",
           "Mieter"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "hatRechtswirkung",
-          "Rechtsfolgen"
+          "Rechtsfolge"
         ],
         [
           "Mietvertrag",
           "beinhaltet",
-          "Schönheitsreparaturen"
+          "Schönheitsreparatur"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "betrifft",
           "Mietentgelt"
         ],
         [
           "Formularklausel",
           "istWirksam",
-          "Schönheitsreparaturen"
+          "Schönheitsreparatur"
         ],
         [
           "Formularklausel",
           "istUnwirksam",
-          "Schönheitsreparaturen"
+          "Schönheitsreparatur"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "tragen",
           "Vermieter"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "tragen",
           "Mieter"
         ],
         [
           "Zuschlag",
           "berechnen",
-          "Schönheitsreparaturen"
+          "Schönheitsreparatur"
         ],
         [
           "Mieter",
@@ -177,17 +153,17 @@
           "Rückforderung"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "betrifft",
-          "Fristen"
+          "Frist"
         ],
         [
-          "Geschäftsraummietvertrag",
+          "Mietvertrag",
           "beinhaltet",
-          "Schönheitsreparaturen"
+          "Schönheitsreparatur"
         ],
         [
-          "Schönheitsreparaturen",
+          "Schönheitsreparatur",
           "tragen",
           "Anteil"
         ],
@@ -197,7 +173,16 @@
           "Eigenarbeit"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "schönheitsreparatur",
+      "schönheitsoperation",
+      "schadensersatzanspruch",
+      "klausel",
+      "durchführung",
+      "mietvertrag",
+      "voraussetzung"
+    ]
   },
   "Cluster 2": {
     "generalized_question": "Unter welchen Voraussetzungen ist ein Tierhalter für Schäden verantwortlich, die durch sein Tier verursacht werden?",
@@ -282,7 +267,16 @@
           "Zebrastreifen"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "tierhalter",
+      "tier",
+      "haftung",
+      "tiergefahr",
+      "tieres",
+      "behandlung",
+      "tierarzt"
+    ]
   },
   "Cluster 3": {
     "generalized_question": "Unter welchen Voraussetzungen kann ein Käufer seine Rechte geltend machen, wenn er ein mangelhaftes Pferd erwirbt?",
@@ -443,7 +437,16 @@
           "Nacherfüllung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "pferd",
+      "käufer",
+      "reitstallbetreiber",
+      "sachmangel",
+      "tierarzt",
+      "röntgenbefund",
+      "pferde"
+    ]
   },
   "Cluster 4": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchen Zusammenhängen kann ein Testament die Rechtsstellung von Beteiligten beeinflussen oder verändern, und welche Rolle spielt es bei der Geltendmachung von Ansprüchen?",
@@ -557,7 +560,16 @@
           "Ehegatten"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "testament",
+      "testamentsvollstrecker",
+      "verfügung",
+      "testamentsvollstreckung",
+      "testaments",
+      "pflichtteilsanspruch",
+      "rolle"
+    ]
   },
   "Cluster 5": {
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Folgen können Zahnärzte von den Gebührenordnungen für Ärzte und Zahnärzte abweichen und welche Rechte haben Patienten und Beihilfestellen in solchen Fällen?",
@@ -664,7 +676,16 @@
           "Dentalschleifwerkzeug"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "zahnarzt",
+      "honorarvereinbarung",
+      "patient",
+      "zahnärzte",
+      "gebührenordnung",
+      "dentalschleifwerkzeugs",
+      "dentalschleifwerkzeug"
+    ]
   },
   "Cluster 6": {
     "generalized_question": "Unter welchen Voraussetzungen ist eine Klausel in Allgemeinen Geschäftsbedingungen (AGB) wirksam, wenn sie dem Transparenzgebot des § 307 Abs. 1 Satz 2 BGB entspricht?",
@@ -764,7 +785,16 @@
           "Transparenzgebot"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "transparenzgebot",
+      "klausel",
+      "transparenz",
+      "geschäftsbedingungen",
+      "satz",
+      "rolle",
+      "geschäftsbedingung"
+    ]
   },
   "Cluster 8": {
     "generalized_question": "Unter welchen Voraussetzungen kann Lärm eine Mietminderung oder einen Schadensersatzanspruch rechtfertigen und welche rechtlichen Maßstäbe sind hierfür anzuwenden?",
@@ -862,7 +892,16 @@
           "Rechtsgrundlage"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "schallschutz",
+      "lärm",
+      "lärmbelästigung",
+      "schallschutzmaßnahme",
+      "beurteilung",
+      "eigentumswohnung",
+      "mietminderung"
+    ]
   },
   "Cluster 9": {
     "generalized_question": "Unter welchen Voraussetzungen kann ein Mieter wegen des Rauchens in seiner Wohnung fristlos gekündigt werden, und welche Rechte haben die betroffenen Parteien im Zusammenhang mit dem Rauchverhalten in Mietwohnungen?",
@@ -995,7 +1034,16 @@
           "Installation von Rauchwarnmeldern"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "rauchwarnmelder",
+      "wohnung",
+      "mieter",
+      "tabakrauch",
+      "tabaksteuer",
+      "geruchsbelästigung",
+      "einbau"
+    ]
   },
   "Cluster 10": {
     "generalized_question": "Unter welchen Voraussetzungen und unter welchen Bedingungen können Fischereirechte auf angrenzende Grundstücke erstreckt werden und wie sind die damit verbundenen Haftungs- und Verpflichtungsverhältnisse zu beurteilen?",
@@ -1105,7 +1153,16 @@
           "spürbare Beeinträchtigung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "fischereirecht",
+      "fischablieferungspflicht",
+      "genossenschaft",
+      "abzweigung",
+      "fischereirechte",
+      "grundstück",
+      "fischereiberechtigten"
+    ]
   },
   "Cluster 11": {
     "generalized_question": "Welche Anforderungen müssen an eine Berufungsbegründung gestellt werden, um den Anforderungen der Zivilprozeßordnung (ZPO) zu genügen?",
@@ -1187,7 +1244,16 @@
           "Rechtsfolge"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "anforderung",
+      "berufungsbegründung",
+      "zpo",
+      "rechtsfolge",
+      "berufungsurteil",
+      "berufung",
+      "satz"
+    ]
   },
   "Cluster 12": {
     "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Miterfinder an einer Erfindung, insbesondere im Hinblick auf die Lizenzierung, Vergütung und Nutzung der Erfindung durch andere Beteiligte?",
@@ -1305,7 +1371,16 @@
           "Urheberschaft"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "erfindung",
+      "miterfinder",
+      "urheberschaft",
+      "anteil",
+      "erfindergemeinschaft",
+      "rolle",
+      "rechte"
+    ]
   },
   "Cluster 14": {
     "generalized_question": "Welche Bedeutung hat das Montrealer Übereinkommen für die Haftung von Luftfahrtunternehmen bei Transportschäden und welche Rolle spielt es bei der Anwendung von Verordnungen und anderen Rechtsvorschriften?",
@@ -1425,7 +1500,16 @@
           "Verjährungsfrist"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "montrealer",
+      "abkommen",
+      "übereinkommen",
+      "anwendung",
+      "rolle",
+      "fassung",
+      "multimodaltransport"
+    ]
   },
   "Cluster 15": {
     "generalized_question": "Unter welchen Voraussetzungen kann ein Kunde einen Anspruch auf Rückzahlung von Zahlungen aufgrund unwirksamer Gaspreiserhöhungen geltend machen?",
@@ -1546,7 +1630,16 @@
           "Gaspreiserhöhung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "gasversorgungsvertrag",
+      "preiserhöhung",
+      "gaslieferungsvertrag",
+      "kunde",
+      "gasversorger",
+      "voraussetzung",
+      "gasversorgungsunternehmen"
+    ]
   },
   "Cluster 16": {
     "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Liquidator im Rahmen seiner Tätigkeit, insbesondere bezüglich der Abrechnung von Spesen und Vergütung, sowie in Bezug auf seine Vertretungsbefugnis?",
@@ -1693,7 +1786,16 @@
           "VertretungsbefugnisLiquidatoren"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "liquidator",
+      "liquidators",
+      "vergütungsansprüche",
+      "tätigkeit",
+      "genehmigung",
+      "vertretungsbefugnis",
+      "aufgabenkreis"
+    ]
   },
   "Cluster 17": {
     "generalized_question": "Welche rechtlichen Auswirkungen hat das Scheitern einer Ehe oder einer nichtehelichen Lebensgemeinschaft auf die Vermögens- und Unterhaltsansprüche der Beteiligten?",
@@ -1800,7 +1902,16 @@
           "nichteheliche Lebensgemeinschaft"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "lebensgemeinschaft",
+      "ehepartner",
+      "partner",
+      "ehevertrag",
+      "unterhalt",
+      "scheidung",
+      "zuwendung"
+    ]
   },
   "Cluster 18": {
     "generalized_question": "Welche Auswirkungen hat die Europarechtswidrigkeit von Bestimmungen im Versicherungsvertrag auf dessen Wirksamkeit und die Rechte der Vertragsparteien?",
@@ -1902,7 +2013,16 @@
           "Risikoausschluss"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "europarechtswidrigkeit",
+      "versicherungsvertrag",
+      "satz",
+      "rechtsfolge",
+      "wohnsitz",
+      "april",
+      "versicherungsnehmer"
+    ]
   },
   "Cluster 19": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang haften Jagdgenossenschaft und Jagdpächter für Wildschäden und welche Entschädigungsansprüche können im Falle von Enteignungen oder Beeinträchtigungen des Jagdausübungsrechts geltend gemacht werden?",
@@ -2039,7 +2159,16 @@
           "Jagdgenossenschaft"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "jagdgenossenschaft",
+      "jagdpächter",
+      "treibjagd",
+      "jagdgesetz",
+      "veranstalter",
+      "jäger",
+      "jagdrecht"
+    ]
   },
   "Cluster 20": {
     "generalized_question": "Unter welchen Bedingungen kann eine Partei im Berufungsverfahren die Berufung als unzulässig verworfen werden?",
@@ -2174,7 +2303,16 @@
           "Bedingungen"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "partei",
+      "berufungsgericht",
+      "berufungsinstanz",
+      "berufungsverfahren",
+      "berufung",
+      "berufungsurteil",
+      "entscheidung"
+    ]
   },
   "Cluster 21": {
     "generalized_question": "Die generierte Frage ist: Wie kann ein Berufungsgericht bei der Entscheidung über die Berufung gegen ein amtsgerichtliches Urteil vorgehen, wenn es die Entscheidung des Landgerichts aufhebt und die Sache an das Berufungsgericht zurückverweist?",
@@ -2299,7 +2437,16 @@
           "Sache"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "berufungsgericht",
+      "berufungsurteil",
+      "berufung",
+      "entscheidung",
+      "sache",
+      "revision",
+      "rechtsfolge"
+    ]
   },
   "Cluster 22": {
     "generalized_question": "Welche Auswirkungen hat die Entscheidung des Bundesverfassungsgerichts vom 22. März 2000 auf die Berechnung von Versorgungsrenten und welche Rolle spielt die Halbanrechnung von Vordienstzeiten dabei?",
@@ -2396,7 +2543,16 @@
           "Wartezeit"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "bundesverfassungsgericht",
+      "halbanrechnung",
+      "entscheidung",
+      "vordienstzeit",
+      "märz",
+      "berechnung",
+      "rolle"
+    ]
   },
   "Cluster 23": {
     "generalized_question": "Unter welchen Voraussetzungen und Pflichten können Netzbetreiber im Zusammenhang mit der Verlegung und Nutzung von Kabelnetzen sowie der Weiterleitung von Signalen handeln, und welche Rechte haben sie und andere Beteiligte in diesem Kontext?",
@@ -2567,7 +2723,16 @@
           "Unerwünschte Signale"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "kabelnetzbetreiber",
+      "netz",
+      "windkabel",
+      "betreiber",
+      "verlegung",
+      "signal",
+      "signaldurchleitung"
+    ]
   },
   "Cluster 24": {
     "generalized_question": "Unter welchen Voraussetzungen muss eine Krankenversicherung die Kosten für eine künstliche Befruchtung als medizinisch notwendige Heilbehandlung erstatten?",
@@ -2659,7 +2824,16 @@
           "Rechtsgrundlage"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "befruchtung",
+      "notwendigkeit",
+      "heilbehandlung",
+      "kosten",
+      "kostenübernahme",
+      "erstattungspflicht",
+      "krankenversicherung"
+    ]
   },
   "Cluster 25": {
     "generalized_question": "Unter welchen Voraussetzungen haften Eltern oder Erzieher für Schäden, die durch Kinder verursacht wurden, und welche Rechte hat der Geschädigte in einem solchen Fall?",
@@ -2769,7 +2943,16 @@
           "Schaden"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "kind",
+      "eltern",
+      "aufsichtspflicht",
+      "elternteil",
+      "jugendamt",
+      "kindertagesstätte",
+      "aufsicht"
+    ]
   },
   "Cluster 26": {
     "generalized_question": "Unter welchen Voraussetzungen ist ein Schüler für einen Schulunfall haftbar zu machen und welche Rolle spielt dabei die Schulbezogenheit der Verletzungshandlung?",
@@ -2888,7 +3071,16 @@
           "Ausbildungsinstitution"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "schulunfall",
+      "schüler",
+      "schulvertrag",
+      "haftung",
+      "schulträger",
+      "kündigung",
+      "verletzungshandlung"
+    ]
   },
   "Cluster 27": {
     "generalized_question": "Unter welchen Voraussetzungen ist eine Abtretung von Ansprüchen wirksam und welche Rechte und Pflichten entstehen für die beteiligten Parteien?",
@@ -2974,7 +3166,16 @@
           "Abtretung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "abtretungsklausel",
+      "abtretung",
+      "schwangerschaftsabbruch",
+      "abtretungsvereinbarung",
+      "abtretungsverbot",
+      "wirksamkeit",
+      "schwangerschaft"
+    ]
   },
   "Cluster 28": {
     "generalized_question": "Unter welchen Voraussetzungen und Pflichten müssen Ärzte und Hebammen bei der Diagnose, Behandlung und Versorgung von Schwangeren und Neugeborenen handeln, um eine rechtliche Haftung zu vermeiden?",
@@ -3126,7 +3327,16 @@
           "Krankenhausträger"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "arzt",
+      "kind",
+      "geburt",
+      "klinik",
+      "geburtssituation",
+      "hebamme",
+      "schwangere"
+    ]
   },
   "Cluster 29": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchen Grenzen kann eine Person oder Einrichtung im Zusammenhang mit sportlichen Aktivitäten haftbar gemacht werden?",
@@ -3264,7 +3474,16 @@
           "Verletzung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "aktivität",
+      "athlet",
+      "risiko",
+      "spielanlage",
+      "stadionverbot",
+      "wettkampf",
+      "nominierung"
+    ]
   },
   "Cluster 30": {
     "generalized_question": "Welche rechtlichen Regelungen und Verpflichtungen schützen Spieler vor den Risiken und Schäden, die aus dem Glücksspiel entstehen können, und wie können diese durchgesetzt werden?",
@@ -3401,7 +3620,16 @@
           "Spielbank"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "spieler",
+      "spielbank",
+      "spielsperre",
+      "spielsperrvertrag",
+      "online",
+      "glücksspiel",
+      "spiel"
+    ]
   },
   "Cluster 31": {
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Auswirkungen ist das Recht eines Staates auf eine Rechtsstreitigkeit anwendbar und welche Rechte und Pflichten ergeben sich daraus für die beteiligten Parteien?",
@@ -3497,7 +3725,16 @@
           "WettbewerbsrechtlicheHandlung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "recht",
+      "zahlungsbefehl",
+      "anwendung",
+      "handlung",
+      "streitfall",
+      "verjährung",
+      "forderung"
+    ]
   },
   "Cluster 32": {
     "generalized_question": "Unter welchen Voraussetzungen ist die internationale Zuständigkeit deutscher Gerichte gegeben, wenn es um unerlaubte Handlungen geht, die in einem anderen Vertragsstaat begangen wurden?",
@@ -3613,7 +3850,16 @@
           "Vertretungsmacht"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "gericht",
+      "zuständigkeit",
+      "recht",
+      "voraussetzung",
+      "rechtsgrundlage",
+      "anwendung",
+      "bedingung"
+    ]
   },
   "Cluster 33": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Eigentümer oder Mieter von Grundstücken verpflichtet, das Verlegen und Betreiben von Elektrizitätsleitungen auf ihrem Grundstück zu dulden, und welche Rechte haben sie dabei?",
@@ -3744,7 +3990,16 @@
           "Voreigentümer"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "elektrizitätsleitunge",
+      "grundstück",
+      "verlegung",
+      "energieversorger",
+      "versorgungsvertrag",
+      "stromleitung",
+      "realofferte"
+    ]
   },
   "Cluster 34": {
     "generalized_question": "Unter welchen Voraussetzungen kann ein Fluggast einen Ausgleichsanspruch wegen einer Flugverspätung oder -annullierung geltend machen?",
@@ -3840,7 +4095,16 @@
           "Ausgleichsanspruch"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "flug",
+      "fluggast",
+      "luftfahrtunternehmen",
+      "fluggastrechteverordnung",
+      "ausgleichszahlung",
+      "verspätung",
+      "annullierung"
+    ]
   },
   "Cluster 35": {
     "generalized_question": "Unter welchen Voraussetzungen und auf welcher Grundlage können Versicherte einen Anspruch auf Bonuspunkte geltend machen und wie ist die Zuteilung von Bonuspunkten rechtlich geregelt?",
@@ -3933,7 +4197,16 @@
           "Bonuspunkte"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "zuteilung",
+      "bonuspunkt",
+      "bonuspunkter",
+      "dynamisierung",
+      "bonuspunken",
+      "versicherter",
+      "anwartschafter"
+    ]
   },
   "Cluster 36": {
     "generalized_question": "Welche Bedeutung hat der Emissionsprospekt für die Informationspflichten und Haftung von Beteiligten in verschiedenen Kontexten, insbesondere im Zusammenhang mit der Rauchgasnachbehandlung und der Anlageberatung?",
@@ -4068,7 +4341,16 @@
           "regelwidrigeAuffälligkeiten"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "emissionsprospekt",
+      "klausel",
+      "rauchgasnachbehandlung",
+      "treuhandkommanditistin",
+      "auffälligkeit",
+      "auslegung",
+      "rolle"
+    ]
   },
   "Cluster 37": {
     "generalized_question": "Unter welchen Voraussetzungen und innerhalb welcher Fristen kann ein Versicherungsnehmer eine Invaliditätsleistung aufgrund eines Unfalls beanspruchen und welche Rolle spielen dabei ärztliche Feststellungen und Gutachten?",
@@ -4186,7 +4468,16 @@
           "Kürzung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "invalidität",
+      "invaliditätsleistung",
+      "invaliditätsgrad",
+      "feststellung",
+      "unfallversicherung",
+      "invaliditätsentschädigung",
+      "frist"
+    ]
   },
   "Cluster 38": {
     "generalized_question": "Unter welchen Voraussetzungen und Verpflichtungen besteht eine Rücknahmepflicht für Pfandflaschen und welche Haftungsfragen stellen sich dabei?",
@@ -4282,7 +4573,16 @@
           "gutgläubigen Erwerb"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "flasche",
+      "unternehmen",
+      "getränk",
+      "verkehr",
+      "flaschenbanderole",
+      "explosion",
+      "pfandbetrag"
+    ]
   },
   "Cluster 40": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang müssen Vordienstzeiten bei der Berechnung von Versorgungsrenten berücksichtigt werden?",
@@ -4405,7 +4705,16 @@
           "Versorgungsrente"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "vordienstzeit",
+      "berechnung",
+      "halbanrechnung",
+      "versorgungsrente",
+      "zeit",
+      "anrechnung",
+      "umfang"
+    ]
   },
   "Cluster 41": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchen Fällen ist ein Netzbetreiber verpflichtet, Netznutzungsentgelte zu zahlen oder zu erstatten, und welche Rechte hat er dabei?",
@@ -4519,7 +4828,16 @@
           "Ersatzleistungsbestimmung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "netzbetreiber",
+      "billigkeit",
+      "netznutzungsentgelt",
+      "netznutzungsentgelte",
+      "internet",
+      "überprüfung",
+      "maklervertrag"
+    ]
   },
   "Cluster 42": {
     "generalized_question": "Unter welchen Voraussetzungen und durch wen kann die Billigkeit von Netznutzungsentgelten überprüft und gegebenenfalls angepasst werden?",
@@ -4592,7 +4910,16 @@
           "Qualitätsvorgabe"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "billigkeit",
+      "netzbetreiber",
+      "netznutzungsentgelte",
+      "netznutzer",
+      "voraussetzung",
+      "netznutzungsvertrag",
+      "netznutzungsentgelt"
+    ]
   },
   "Cluster 43": {
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Auswirkungen sind Übergangsregelungen für rentennahe und rentenferne Versicherte im Rahmen der Rentenberechnung wirksam und rechtmäßig?",
@@ -4669,7 +4996,16 @@
           "Rentenversicherter"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "übergangsregelung",
+      "rentennah",
+      "startgutschrift",
+      "berechnung",
+      "versichern",
+      "rechtsgrundlage",
+      "rentenfern"
+    ]
   },
   "Cluster 44": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Elektrizitätsversorgungsunternehmen verpflichtet, EEG-Strom abzunehmen und zu vergüten, und welche Rechte und Pflichten sind damit verbunden?",
@@ -4782,7 +5118,16 @@
           "EEG"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "eeg",
+      "strom",
+      "elektrizitätsversorgungsunternehmen",
+      "vergütung",
+      "abnahme",
+      "energien",
+      "photovoltaikanlag"
+    ]
   },
   "Cluster 45": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Netzbetreiber verpflichtet, den Anschluss von EEG-Anlagen an ihr Netz zu ermöglichen und welche Kosten hierfür anfallen?",
@@ -4924,7 +5269,16 @@
           "imEEG2009"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "eeg",
+      "satz",
+      "begriff",
+      "anlage",
+      "netzbetreiber",
+      "vergütung",
+      "anlagenbetreiber"
+    ]
   },
   "Cluster 46": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist der Betreiber einer KWK-Anlage anspruchsberechtigt für die Vergütung und den Belastungsausgleich nach dem KWKG?",
@@ -5070,7 +5424,16 @@
           "Belastungsausgleich"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "satz",
+      "kwk",
+      "mindestvergütung",
+      "bonus",
+      "vergütung",
+      "kwkg",
+      "belastungsausgleich"
+    ]
   },
   "Cluster 47": {
     "generalized_question": "Welche rechtlichen Regelungen und Verpflichtungen gelten für die Lenkung und Organisation des Rettungsdienstes in den Bundesländern Baden-Württemberg und Thüringen?",
@@ -5209,7 +5572,16 @@
           "Feuerwehr"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "rettungsdienst",
+      "bürgermeister",
+      "lenkung",
+      "gemeinde",
+      "rettungsleitstelle",
+      "gemeindeordnung",
+      "sozialministerium"
+    ]
   },
   "Cluster 50": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Rentenansprüche von Versicherten oder Rentnern beeinträchtigt oder angepasst, wenn die Satzung einer Versicherung oder eines Versorgungsträgers geändert wird oder wenn es zu einem Systemwechsel kommt?",
@@ -5333,7 +5705,16 @@
           "Pensionslast"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "rente",
+      "berechnung",
+      "rentenversicherung",
+      "satzung",
+      "rentenansprüch",
+      "startgutschrift",
+      "vbls"
+    ]
   },
   "Cluster 51": {
     "generalized_question": "Unter welchen Voraussetzungen muss eine private Krankenversicherung die Kosten für eine Psychotherapie durch einen nicht-ärztlichen Psychotherapeuten erstatten und welche Rolle spielt dabei das PsychThG?",
@@ -5446,7 +5827,16 @@
           "PsychiatrieSachverständiger"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "psychotherapie",
+      "krankenversicherung",
+      "psychotherapeut",
+      "kosten",
+      "erstattung",
+      "behandlung",
+      "krankenhaus"
+    ]
   },
   "Cluster 52": {
     "generalized_question": "Unter welchen Voraussetzungen und wer ist verpflichtet, die Kosten für die Beseitigung von Ölspuren auf Straßen zu tragen, insbesondere wenn die Feuerwehr bereits eingesetzt wurde oder die Ölspur durch den Betrieb eines Kraftfahrzeugs verursacht wurde? Welche Rolle spielt dabei das Eigentum an öffentlichen Versorgungsleitungen und die Nähe zu öffentlichen Straßen und Grundstücksgrenzen? Welche Bedeutung hat das Nassreinigungsverfahren im Vergleich zu anderen Reinigungsmethoden bei der Beseitigung von Ölspuren auf Bundesstraßen? Welche Rechtsgrundlagen und -folgen sind hier relevant und welche Rechte hat die Gemeinde oder das Versorgungsunternehmen in diesem Zusammenhang?",
@@ -5586,7 +5976,16 @@
           "Nachbarschaftsstreitigkeiten"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "versorgungsleitung",
+      "kosten",
+      "straße",
+      "verlegung",
+      "straßengrundstück",
+      "kreuzungspartner",
+      "ölspuren"
+    ]
   },
   "Cluster 53": {
     "generalized_question": "Unter welchen Voraussetzungen und innerhalb welcher Fristen kann ein Reisender Ansprüche wegen eines Reisemangels geltend machen und welche Rechte hat er im Zusammenhang mit der Bestimmung der Abreise- und Rückkehrzeiten?",
@@ -5677,7 +6076,16 @@
           "Reisezeit"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "reiseveranstalter",
+      "651a",
+      "reisemangel",
+      "651f",
+      "sinn",
+      "abreise",
+      "reisende"
+    ]
   },
   "Cluster 55": {
     "generalized_question": "Unter welchen Voraussetzungen und Verantwortlichkeiten ist die Errichtung, Nutzung und Wartung von Photovoltaikanlagen geregelt und welche Rechte und Pflichten bestehen für die Beteiligten?",
@@ -5874,7 +6282,16 @@
           "Photovoltaikanlage"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "photovoltaikanlage",
+      "anlage",
+      "photovoltaikanlag",
+      "solaranlage",
+      "strom",
+      "photovoltaikanlagen",
+      "strahlungsenergie"
+    ]
   },
   "Cluster 56": {
     "generalized_question": "Unter welchen Voraussetzungen und welchen rechtlichen Rahmenbedingungen kann ein Versicherungsvertrag nach dem Policenmodell wirksam geschlossen werden, und welche Rolle spielt dabei das Gemeinschaftsrecht?",
@@ -5954,7 +6371,16 @@
           "Versicherungsvertrag"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "policenmodell",
+      "wirksamkeit",
+      "versicherungsvertrag",
+      "versicherungsverträg",
+      "richtlinie",
+      "lebensversicherung",
+      "rolle"
+    ]
   },
   "Cluster 57": {
     "generalized_question": "Wie kann ein Versender sicherstellen, dass seine wertdeklarierten Pakete im EDI-Verfahren mit erhöhter Beförderungssicherheit transportiert werden und welche Pflichten hat der Frachtführer in diesem Zusammenhang?",
@@ -6039,7 +6465,16 @@
           "Abholfahrer"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "edi",
+      "verfahren",
+      "beförderungssicherheit",
+      "wertdeklaration",
+      "versandliste",
+      "wertpakete",
+      "verfahrens"
+    ]
   },
   "Cluster 58": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist ein Frachtführer für Schäden oder Verluste des transportierten Gutes nach dem CMR-Haftungsregime haftbar?",
@@ -6148,7 +6583,16 @@
           "Schaden"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "art",
+      "frachtführer",
+      "haftung",
+      "cmr",
+      "voraussetzung",
+      "schadensersatzanspruch",
+      "schadensersatzansprüch"
+    ]
   },
   "Cluster 59": {
     "generalized_question": "Unter welchen Voraussetzungen gilt das Übereinkommen über den Beförderungsvertrag im internationalen Straßengüterverkehr (CMR) und welche Haftungsfolgen hat der Frachtführer bei Verlust oder Beschädigung des Transportgutes?",
@@ -6241,7 +6685,16 @@
           "Erstattung"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "cmr",
+      "beförderungsvertrag",
+      "straßengüterverkehr",
+      "voraussetzung",
+      "übereinkommens",
+      "transport",
+      "transportgut"
+    ]
   },
   "Cluster 60": {
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Rechtsfolgen kann eine Klausel in einem Lebensversicherungsvertrag unwirksam sein und wie ist der Rückkaufswert einer Lebensversicherung zu berechnen, wenn die Allgemeinen Versicherungsbedingungen unwirksam sind?",
@@ -6389,7 +6842,16 @@
           "Nettopolice"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "lebensversicherung",
+      "klausel",
+      "rückkaufswert",
+      "lebensversicherungsvertrag",
+      "berechnung",
+      "rolle",
+      "anwendung"
+    ]
   },
   "Cluster 61": {
     "generalized_question": "Die generierte Frage ist: Unter welchen Voraussetzungen kann ein Arzt für eine verzögerte Operation haftbar gemacht werden, wenn er die gebotene Befunderhebung unterlässt und dadurch eine Schädigung des Patienten verursacht?",
@@ -6537,7 +6999,16 @@
           "Amtspflicht"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "patient",
+      "arzt",
+      "behandlungsfehler",
+      "risiko",
+      "behandlung",
+      "krankenhaus",
+      "rolle"
+    ]
   },
   "Cluster 62": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang besteht ein Anspruch auf Einsicht in Pflegedokumentation und welche Rechte und Pflichten sind damit verbunden?",
@@ -6690,7 +7161,16 @@
           "Pflichten"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "pflegedokumentation",
+      "notarztes",
+      "hausnotrufvertrag",
+      "einsichtsrecht",
+      "dienstleister",
+      "einsichtnahme",
+      "rettungsdienst"
+    ]
   },
   "Cluster 63": {
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang kann ein Vermieter die Kosten für die Wärmelieferung auf den Mieter umlegen, insbesondere wenn er die Heizungsanlage auf einen Dritten überträgt oder die Art der Wärmelieferung ändert?",
@@ -6863,7 +7343,16 @@
           "Mieter"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "vermieter",
+      "mieter",
+      "heizungsanlage",
+      "wärmelieferung",
+      "kosten",
+      "hauseigentümer",
+      "wohnung"
+    ]
   },
   "Cluster 65": {
     "generalized_question": "Welche Rolle spielt der Grundsatz von Treu und Glauben (§ 242 BGB) in verschiedenen rechtlichen Kontexten und wie kann er angewendet werden?",
@@ -6990,7 +7479,16 @@
           "TreuUndGlauben"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "grundsatz",
+      "treu",
+      "glaube",
+      "auskunftsanspruch",
+      "rolle",
+      "bedeutung",
+      "glauben"
+    ]
   },
   "Cluster 66": {
     "generalized_question": "Unter welchen Voraussetzungen ist ein Haftpflichtversicherer zur Leistung verpflichtet oder kann sich auf einen Haftungsausschluss oder eine Obliegenheitsverletzung berufen?",
@@ -7102,7 +7600,16 @@
           "Haftungsausschluss"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "haftpflichtversicherung",
+      "haftpflichtversicherer",
+      "schädiger",
+      "rolle",
+      "teilungsabkommen",
+      "voraussetzung",
+      "regulierung"
+    ]
   },
   "Cluster 68": {
     "generalized_question": "Unter welchen Voraussetzungen und Verantwortlichkeiten sind die Beteiligten verpflichtet, den Brandschutz sicherzustellen und welche Rechtsfolgen treten ein, wenn dieser nicht eingehalten wird?",
@@ -7200,7 +7707,16 @@
           "Versicherer"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "feuerwehr",
+      "brandschutzplanung",
+      "leistung",
+      "haftungsprivileg",
+      "feuerversicherung",
+      "vii",
+      "gebäude"
+    ]
   },
   "Cluster 69": {
     "generalized_question": "Unter welchen Voraussetzungen und nach welchen Kriterien sind die Kosten für die Lieferung von Wärme und Warmwasser auf die einzelnen Nutzer zu verteilen?",
@@ -7311,6 +7827,15 @@
           "vergleichbareVersorgungsverhältnisse"
         ]
       ]
-    }
+    },
+    "top_keywords": [
+      "kosten",
+      "wärmelieferung",
+      "heizungsanlage",
+      "wärme",
+      "heizwärmeversorgung",
+      "rolle",
+      "warmwasser"
+    ]
   }
 }
