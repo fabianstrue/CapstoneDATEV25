@@ -3,21 +3,22 @@
     "generalized_question": "Unter welchen Voraussetzungen sind Schönheitsreparaturen im Mietrecht durchzuführen und welche rechtlichen Konsequenzen treten ein, wenn diese nicht erfüllt werden?",
     "refined_ontology": {
       "classes": [
-        "Mieter",
-        "Mahnung",
-        "Frist",
-        "Verjährung",
-        "Rechtsfolge",
-        "Schönheitsreparatur",
-        "Mietvertrag",
-        "Klausel",
-        "Schadensersatzanspruch",
-        "Mietentgelt",
-        "Formularklausel",
+        "Anteil",
         "Eigenarbeit",
+        "Formularklausel",
+        "Frist",
+        "Klausel",
+        "Mahnung",
+        "Mietentgelt",
+        "Mieter",
+        "Mietvertrag",
+        "Rechtsfolge",
         "Rückforderung",
-        "Zuschlag",
-        "Vermieter"
+        "Schadensersatzanspruch",
+        "Schönheitsreparatur",
+        "Verjährung",
+        "Vermieter",
+        "Zuschlag"
       ],
       "properties": [
         "setztVoraus",
@@ -188,14 +189,15 @@
     "generalized_question": "Unter welchen Voraussetzungen ist ein Tierhalter für Schäden verantwortlich, die durch sein Tier verursacht werden?",
     "refined_ontology": {
       "classes": [
-        "Tier",
-        "Geschädigter",
-        "Tierhalter",
-        "Schaden",
-        "Tierarzt",
-        "Käufer",
         "Gemeinde",
-        "Verkäufer"
+        "Geschädigter",
+        "Käufer",
+        "Schaden",
+        "Tier",
+        "Tierarzt",
+        "Tierhalter",
+        "Verkäufer",
+        "Zebrastreifen"
       ],
       "properties": [
         "verursacht",
@@ -282,22 +284,22 @@
     "generalized_question": "Unter welchen Voraussetzungen kann ein Käufer seine Rechte geltend machen, wenn er ein mangelhaftes Pferd erwirbt?",
     "refined_ontology": {
       "classes": [
+        "Befund",
         "Beweis",
+        "Frist",
         "Interesse",
+        "Kosten",
+        "Käufer",
+        "Mangel",
+        "Nacherfüllung",
+        "Pferd",
         "Recht",
         "Risiko",
-        "Frist",
-        "Verwendungen",
         "Schaden",
-        "Vertrag",
         "Tausch",
-        "Kosten",
-        "Mangel",
-        "Käufer",
-        "Nacherfüllung",
         "Verkäufer",
-        "Pferd",
-        "Befund"
+        "Vertrag",
+        "Verwendungen"
       ],
       "properties": [
         "erwirbt",
@@ -452,18 +454,23 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchen Zusammenhängen kann ein Testament die Rechtsstellung von Beteiligten beeinflussen oder verändern, und welche Rolle spielt es bei der Geltendmachung von Ansprüchen?",
     "refined_ontology": {
       "classes": [
-        "Anspruch",
-        "Verwirkungsklausel",
-        "Auflage",
-        "Testament",
-        "Schenkungsangebot",
-        "Rechtsfolge",
-        "Verfügung",
-        "Beteiligter",
-        "Pflichtteilsklausel",
-        "Erbschaftsregelung",
         "Anfechtungsgrund",
-        "Rechtsstellung"
+        "Anspruch",
+        "Auflage",
+        "Beteiligter",
+        "Ehegatten",
+        "Erblasser",
+        "Erbschaftsregelung",
+        "Geltendmachung",
+        "Pflichtteilsklausel",
+        "Rechtsfolge",
+        "Rechtsstellung",
+        "Schenkungsangebot",
+        "Testament",
+        "Verfügung",
+        "Verwirkungsklausel",
+        "Wille",
+        "§2285 BGB"
       ],
       "properties": [
         "verknüpftMit",
@@ -575,18 +582,18 @@
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Folgen können Zahnärzte von den Gebührenordnungen für Ärzte und Zahnärzte abweichen und welche Rechte haben Patienten und Beihilfestellen in solchen Fällen?",
     "refined_ontology": {
       "classes": [
-        "Gebührenordnung",
-        "Beihilfestelle",
-        "Zahnarzt",
-        "Internetplattform",
-        "Gegenangebot",
-        "Prospekt",
         "Abweichung",
-        "Fachmann",
+        "Beihilfestelle",
         "Dentalschleifwerkzeug",
+        "Fachmann",
+        "Gebührenordnung",
+        "Gegenangebot",
         "Honorarvereinbarung",
+        "Internetplattform",
+        "Kostenschätzung",
         "Patient",
-        "Kostenschätzung"
+        "Prospekt",
+        "Zahnarzt"
       ],
       "properties": [
         "machtKostenschätzung",
@@ -691,16 +698,16 @@
     "generalized_question": "Unter welchen Voraussetzungen ist eine Klausel in Allgemeinen Geschäftsbedingungen (AGB) wirksam, wenn sie dem Transparenzgebot des § 307 Abs. 1 Satz 2 BGB entspricht?",
     "refined_ontology": {
       "classes": [
-        "Versicherungsbedingungen",
-        "Entgeltbemessung",
-        "Preisanpassungsklauseln",
-        "Nebenkostenabrechnung",
-        "Vertrag",
-        "Vergaberecht",
-        "Transparenzgebot",
-        "§307Abs1Satz2BGB",
         "AGB",
-        "Klausel"
+        "Entgeltbemessung",
+        "Klausel",
+        "Nebenkostenabrechnung",
+        "Preisanpassungsklauseln",
+        "Transparenzgebot",
+        "Vergaberecht",
+        "Versicherungsbedingungen",
+        "Vertrag",
+        "§307Abs1Satz2BGB"
       ],
       "properties": [
         "hatBedeutung",
@@ -777,12 +784,6 @@
           "Entgeltbemessung",
           "hatBedeutung",
           "Transparenzgebot"
-        ],
-        [
-          "Klausel",
-          "wirdEinstuftAls",
-          "unwirksam",
-          "Transparenzgebot"
         ]
       ]
     },
@@ -801,18 +802,20 @@
     "refined_ontology": {
       "classes": [
         "Betreiber",
-        "Mieter",
-        "Schutzmaßnahme",
-        "Mietminderung",
-        "Schallschutz",
         "Lärm",
-        "Rechtsgrundlage",
+        "Lärmimmission",
         "Mangel",
-        "Störer",
-        "Norm",
         "Maßstab",
+        "Mieter",
+        "Mietminderung",
+        "Norm",
+        "Rechtsgrundlage",
         "Schadensersatzanspruch",
-        "Vermieter"
+        "Schallschutz",
+        "Schutzmaßnahme",
+        "Störer",
+        "Vermieter",
+        "wesentlicheLärmimmissionen"
       ],
       "properties": [
         "hatBedeutung",
@@ -907,19 +910,22 @@
     "generalized_question": "Unter welchen Voraussetzungen kann ein Mieter wegen des Rauchens in seiner Wohnung fristlos gekündigt werden, und welche Rechte haben die betroffenen Parteien im Zusammenhang mit dem Rauchverhalten in Mietwohnungen?",
     "refined_ontology": {
       "classes": [
-        "Wohnung",
-        "Mieter",
-        "Recht",
-        "Einrichtung",
-        "Gebrauchswert",
-        "Gesetz",
-        "Rauchwarnmelder",
-        "Gebäude",
-        "Sicherheit",
-        "Rauchen",
         "Beschlusskompetenz",
+        "Einrichtung",
+        "Feuer",
+        "Gebrauchswert",
+        "Gebäude",
+        "Gesetz",
+        "Installation von Rauchwarnmeldern",
+        "Mieter",
         "Mietvertrag",
-        "Vermieter"
+        "Rauchen",
+        "Rauchwarnmelder",
+        "Rauchwarnmelder werden ordnungsgemäß gewartet",
+        "Recht",
+        "Sicherheit",
+        "Vermieter",
+        "Wohnung"
       ],
       "properties": [
         "hatAnspruchAuf",
@@ -1049,17 +1055,19 @@
     "generalized_question": "Unter welchen Voraussetzungen und unter welchen Bedingungen können Fischereirechte auf angrenzende Grundstücke erstreckt werden und wie sind die damit verbundenen Haftungs- und Verpflichtungsverhältnisse zu beurteilen?",
     "refined_ontology": {
       "classes": [
-        "Interesse",
-        "Grundstück",
-        "Verpflichtung",
-        "Fischereirecht",
-        "Gewässernutzung",
-        "Öffentliches Interesse",
-        "Gewässer",
         "Beeinträchtigung",
-        "Haftung",
+        "Fischereiberechtigter",
+        "Fischereirecht",
         "Genehmigung",
-        "Schadensersatzanspruch"
+        "Gewässer",
+        "Gewässernutzung",
+        "Grundstück",
+        "Haftung",
+        "Interesse",
+        "Schadensersatzanspruch",
+        "Verpflichtung",
+        "spürbare Beeinträchtigung",
+        "Öffentliches Interesse"
       ],
       "properties": [
         "istRechtsgrundlageFür",
@@ -1168,12 +1176,12 @@
     "generalized_question": "Welche Anforderungen müssen an eine Berufungsbegründung gestellt werden, um den Anforderungen der Zivilprozeßordnung (ZPO) zu genügen?",
     "refined_ontology": {
       "classes": [
+        "Anforderung",
+        "Berufungsbegründung",
         "Berufungsgericht",
+        "Partei",
         "Rechtsfolge",
         "Verfahrensfehler",
-        "Partei",
-        "Berufungsbegründung",
-        "Anforderung",
         "Zivilprozeßordnung"
       ],
       "properties": [
@@ -1259,17 +1267,18 @@
     "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Miterfinder an einer Erfindung, insbesondere im Hinblick auf die Lizenzierung, Vergütung und Nutzung der Erfindung durch andere Beteiligte?",
     "refined_ontology": {
       "classes": [
-        "Recht",
+        "Anteil",
+        "Erfinder",
         "Erfindung",
-        "Nutzung",
-        "Immaterialgüterrecht",
-        "Zeuge",
         "Gericht",
         "Gesellschaft",
-        "Vergütung",
-        "Erfinder",
+        "Immaterialgüterrecht",
         "Lizenz",
-        "Urheberschaft"
+        "Nutzung",
+        "Recht",
+        "Urheberschaft",
+        "Vergütung",
+        "Zeuge"
       ],
       "properties": [
         "umfasst",
@@ -1386,21 +1395,23 @@
     "generalized_question": "Welche Bedeutung hat das Montrealer Übereinkommen für die Haftung von Luftfahrtunternehmen bei Transportschäden und welche Rolle spielt es bei der Anwendung von Verordnungen und anderen Rechtsvorschriften?",
     "refined_ontology": {
       "classes": [
-        "Verordnung",
-        "Schadensort",
-        "Luftfahrtunternehmen",
-        "Verjährungsfrist",
-        "WarschauerAbkommen",
-        "Rechtsfolge",
-        "Transportschaden",
         "Flugannullierung",
+        "Flugverspätung",
+        "Haftung",
+        "Luftfahrtunternehmen",
+        "MontrealerÜbereinkommen",
+        "Multimodaltransport",
+        "Rechtsfolge",
+        "Rechtsvorschrift",
         "Reisegepäck",
         "Schadensersatzanspruch",
+        "Schadensort",
+        "Transportschaden",
         "Unfall",
-        "Zinsanspruch",
-        "Flugverspätung",
-        "Multimodaltransport",
-        "Rechtsvorschrift"
+        "Verjährungsfrist",
+        "Verordnung",
+        "WarschauerAbkommen",
+        "Zinsanspruch"
       ],
       "properties": [
         "beginntZuLaufen",
@@ -1515,21 +1526,23 @@
     "generalized_question": "Unter welchen Voraussetzungen kann ein Kunde einen Anspruch auf Rückzahlung von Zahlungen aufgrund unwirksamer Gaspreiserhöhungen geltend machen?",
     "refined_ontology": {
       "classes": [
-        "HEL-Preis",
-        "Verjährung",
-        "Gasversorgung",
+        "Abrechnung",
         "Anspruch",
-        "Zahlung",
-        "Beschaffungsrisiko",
-        "Kunde",
-        "Eigentum",
-        "Gaslieferungsvertrag",
-        "Gasbehälter",
         "Arbeitspreis",
-        "Gaspreiserhöhung",
+        "Beschaffungsrisiko",
         "Brennstoffkosten",
+        "Eigentum",
+        "Gasbehälter",
+        "Gaslieferungsvertrag",
+        "Gaspreiserhöhung",
+        "Gasversorgung",
+        "HEL-Preis",
+        "Kunde",
+        "Preis",
         "Preisänderungsklausel",
-        "Abrechnung"
+        "Verjährung",
+        "Zahlung",
+        "unwirksam"
       ],
       "properties": [
         "beginntAm",
@@ -1645,20 +1658,31 @@
     "generalized_question": "Unter welchen Voraussetzungen und welche Rechte hat ein Liquidator im Rahmen seiner Tätigkeit, insbesondere bezüglich der Abrechnung von Spesen und Vergütung, sowie in Bezug auf seine Vertretungsbefugnis?",
     "refined_ontology": {
       "classes": [
-        "Recht",
-        "GmbHG",
-        "Gesetz",
-        "Tätigkeit",
-        "Vertretungsbefugnis",
-        "Aufrechnung",
-        "Gericht",
-        "Gesellschaftsvertrag",
-        "Gesellschafterversammlung",
+        "Abrechnung",
+        "AbrechnungSpesen",
+        "ArtUmfangTätigkeit",
         "Aufgabenkreis",
-        "Spesen",
-        "Vergütung",
+        "Aufrechnung",
+        "BestellungLiquidator",
+        "BeweisVergütungsansprüche",
+        "EinhaltenVergütungsregeln",
+        "ErweiterungAufgabenkreis",
+        "Gericht",
+        "Gesamtvertretungsbefugnis",
+        "Gesellschaft",
+        "Gesellschafterversammlung",
+        "Gesellschaftsvertrag",
+        "Gesetz",
+        "GmbHG",
         "Liquidator",
-        "Abrechnung"
+        "Recht",
+        "Spesen",
+        "Tätigkeit",
+        "UnzureichendeSubstantiierung",
+        "Vergütung",
+        "Vergütungsanspruch",
+        "Vertretungsbefugnis",
+        "VertretungsbefugnisLiquidatoren"
       ],
       "properties": [
         "umfasst",
@@ -1801,13 +1825,15 @@
     "generalized_question": "Welche rechtlichen Auswirkungen hat das Scheitern einer Ehe oder einer nichtehelichen Lebensgemeinschaft auf die Vermögens- und Unterhaltsansprüche der Beteiligten?",
     "refined_ontology": {
       "classes": [
-        "nichteheliche Lebensgemeinschaft",
-        "Familienangehöriger",
         "Ausgleichsanspruch",
+        "Beteiligter",
+        "Familienangehöriger",
         "Leistung",
-        "Vermögensanspruch",
+        "Scheitern",
         "Unterhaltsanspruch",
-        "Beteiligter"
+        "Vermögensanspruch",
+        "gesellschaftsrechtliche Regelung",
+        "nichteheliche Lebensgemeinschaft"
       ],
       "properties": [
         "istRechtsgrundlageFür",
@@ -1822,30 +1848,6 @@
         "scheitert"
       ],
       "relationships": [
-        [
-          "Ehe",
-          "scheitert",
-          "hatAuswirkungenAuf",
-          "Vermögensanspruch"
-        ],
-        [
-          "Ehe",
-          "scheitert",
-          "hatAuswirkungenAuf",
-          "Unterhaltsanspruch"
-        ],
-        [
-          "nichteheliche Lebensgemeinschaft",
-          "scheitert",
-          "hatAuswirkungenAuf",
-          "Vermögensanspruch"
-        ],
-        [
-          "nichteheliche Lebensgemeinschaft",
-          "scheitert",
-          "hatAuswirkungenAuf",
-          "Unterhaltsanspruch"
-        ],
         [
           "Beteiligter",
           "hatAnspruchAuf",
@@ -1917,20 +1919,20 @@
     "generalized_question": "Welche Auswirkungen hat die Europarechtswidrigkeit von Bestimmungen im Versicherungsvertrag auf dessen Wirksamkeit und die Rechte der Vertragsparteien?",
     "refined_ontology": {
       "classes": [
-        "Wirksamkeit",
-        "Recht",
-        "Verpflichtung",
+        "Bestimmung",
+        "Europarechtswidrigkeit",
         "InternationalZuständigkeit",
-        "Widerspruch",
+        "Recht",
         "Rechtsfolge",
         "Rechtsgrundlage",
+        "Risikoausschluss",
+        "Rückzahlung",
+        "Verpflichtung",
         "Versicherer",
         "Versicherungsnehmer",
-        "Rückzahlung",
-        "Bestimmung",
-        "Risikoausschluss",
-        "Europarechtswidrigkeit",
-        "Versicherungsvertrag"
+        "Versicherungsvertrag",
+        "Widerspruch",
+        "Wirksamkeit"
       ],
       "properties": [
         "greift",
@@ -2028,14 +2030,15 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang haften Jagdgenossenschaft und Jagdpächter für Wildschäden und welche Entschädigungsansprüche können im Falle von Enteignungen oder Beeinträchtigungen des Jagdausübungsrechts geltend gemacht werden?",
     "refined_ontology": {
       "classes": [
-        "Wildschaden",
         "Beeinträchtigung",
-        "Jagdpächter",
+        "Enteignung",
         "Entschädigungsanspruch",
         "Jagdgenossenschaft",
-        "Vermögensschaden",
+        "Jagdpächter",
         "Pflichtverletzung",
-        "Enteignung"
+        "Rechtsfolge",
+        "Vermögensschaden",
+        "Wildschaden"
       ],
       "properties": [
         "verursacht",
@@ -2090,59 +2093,6 @@
           "Vermögensschaden"
         ],
         [
-          "Beeinträchtigung",
-          "führtZu",
-          "Minderung",
-          "Pachtzins"
-        ],
-        [
-          "Jagdausübungsrecht",
-          "spieltRolle",
-          "Größe",
-          "Eigenjagdgebiet"
-        ],
-        [
-          "Wachunternehmen",
-          "istVerpflichtetZum",
-          "Schutz",
-          "Verbringung",
-          "Waffe"
-        ],
-        [
-          "Wildschaden",
-          "giltFür",
-          "Ersatzpflicht",
-          "Kläger"
-        ],
-        [
-          "Jagdgenossenschaft",
-          "haftetFür",
-          "Wildschaden",
-          "unter",
-          "Voraussetzungen"
-        ],
-        [
-          "Haftung",
-          "kannÜbertragenWerdenAuf",
-          "Jagdpächter",
-          "unter",
-          "Bedingungen"
-        ],
-        [
-          "Wildschaden",
-          "istGeregeltIn",
-          "Haftung",
-          "Jagdgenossenschaft",
-          "Jagdpächter"
-        ],
-        [
-          "Jagdpächter",
-          "istVerpflichtetZumErsatz",
-          "Wildschaden",
-          "nach",
-          "Rechtsgrundlage"
-        ],
-        [
           "Pflichtverletzung",
           "trittEin",
           "Rechtsfolge"
@@ -2150,12 +2100,6 @@
         [
           "Enteignung",
           "giltFürEntschädigung",
-          "Jagdgenossenschaft"
-        ],
-        [
-          "Verkleinerung",
-          "Jagdbezirk",
-          "beanspruchtAusgleich",
           "Jagdgenossenschaft"
         ]
       ]
@@ -2193,116 +2137,7 @@
         "widerrufen",
         "kann"
       ],
-      "relationships": [
-        [
-          "Partei",
-          "kann",
-          "Berufung",
-          "als",
-          "unzulässig",
-          "verwerfen",
-          "unter",
-          "Bedingung"
-        ],
-        [
-          "Partei",
-          "kann",
-          "Vortrag",
-          "liefern",
-          "Berufungsgericht",
-          "Nachprüfung",
-          "ermöglichen"
-        ],
-        [
-          "Partei",
-          "kann",
-          "Vortrag",
-          "liefern",
-          "Berufungsgericht",
-          "Vortrag",
-          "nachgehen",
-          "veranlassen"
-        ],
-        [
-          "Partei",
-          "kann",
-          "Schlußrechnung",
-          "sicherstellen",
-          "prüfbar",
-          "gelten"
-        ],
-        [
-          "Partei",
-          "ist",
-          "berechtigt",
-          "Anspruch",
-          "geltend",
-          "machen",
-          "Honoraranspruch",
-          "einigen"
-        ],
-        [
-          "Partei",
-          "kann",
-          "Schlußrechnung",
-          "einführen",
-          "Beklagten",
-          "zustimmen",
-          "ohne"
-        ],
-        [
-          "Berufung",
-          "kann",
-          "aufheben",
-          "Auswirkungen",
-          "Partei"
-        ],
-        [
-          "Partei",
-          "kann",
-          "Identität",
-          "klären",
-          "Berufungsverfahren"
-        ],
-        [
-          "Parteibezeichnung",
-          "kann",
-          "unklare",
-          "Auswirkungen",
-          "Berufungsschrift"
-        ],
-        [
-          "Berufungsgericht",
-          "ist",
-          "verpflichtet",
-          "Gelegenheit",
-          "geben",
-          "Partei",
-          "Vortrag",
-          "ergänzen",
-          "Bedingungen"
-        ],
-        [
-          "Berufungsgericht",
-          "kann",
-          "Entscheidung",
-          "beanstanden",
-          "Erstinstanz",
-          "Überraschungsentscheidung",
-          "Vortrag",
-          "berücksichtigen"
-        ],
-        [
-          "Partei",
-          "kann",
-          "Einverständnis",
-          "widerrufen",
-          "Entscheidung",
-          "Einzelrichter",
-          "Berufungsinstanz",
-          "Bedingungen"
-        ]
-      ]
+      "relationships": []
     },
     "top_keywords": [
       "partei",
@@ -2318,22 +2153,24 @@
     "generalized_question": "Die generierte Frage ist: Wie kann ein Berufungsgericht bei der Entscheidung über die Berufung gegen ein amtsgerichtliches Urteil vorgehen, wenn es die Entscheidung des Landgerichts aufhebt und die Sache an das Berufungsgericht zurückverweist?",
     "refined_ontology": {
       "classes": [
-        "Beschwer",
+        "AmtsgerichtlichesUrteil",
         "Berufung",
-        "Landgericht",
+        "Berufungsbegründung",
         "Berufungsgericht",
+        "Beschluss",
+        "Beschwer",
+        "Feststellung",
+        "Grundurteil",
         "Klagevortrag",
-        "Sache",
+        "Landgericht",
+        "Landgerichturteil",
         "Rechtsfolge",
         "Rechtsgrundlage",
-        "Verfahrensrecht",
-        "Beschluss",
-        "Sachvortrag",
-        "Grundurteil",
         "Rechtsmittel",
-        "Berufungsbegründung",
-        "AmtsgerichtlichesUrteil",
-        "Stellungnahme"
+        "Sache",
+        "Sachvortrag",
+        "Stellungnahme",
+        "Verfahrensrecht"
       ],
       "properties": [
         "hatBedeutung",
@@ -2452,17 +2289,17 @@
     "generalized_question": "Welche Auswirkungen hat die Entscheidung des Bundesverfassungsgerichts vom 22. März 2000 auf die Berechnung von Versorgungsrenten und welche Rolle spielt die Halbanrechnung von Vordienstzeiten dabei?",
     "refined_ontology": {
       "classes": [
-        "Halbanrechnung",
-        "Vordienstzeit",
-        "Satzungsänderung",
         "Betriebsstätte",
-        "Wartezeit",
-        "Bundesverfassungsgericht",
         "Bundesgerichtshof",
+        "Bundesverfassungsgericht",
+        "Entscheidung",
         "Gleichheitsgrundsatz",
-        "Versorgungsträger",
+        "Halbanrechnung",
+        "Satzungsänderung",
         "Versorgungsrente",
-        "Entscheidung"
+        "Versorgungsträger",
+        "Vordienstzeit",
+        "Wartezeit"
       ],
       "properties": [
         "hatRolleBei",
@@ -2558,28 +2395,33 @@
     "generalized_question": "Unter welchen Voraussetzungen und Pflichten können Netzbetreiber im Zusammenhang mit der Verlegung und Nutzung von Kabelnetzen sowie der Weiterleitung von Signalen handeln, und welche Rechte haben sie und andere Beteiligte in diesem Kontext?",
     "refined_ontology": {
       "classes": [
-        "Rechte",
-        "Belastungsausgleich",
-        "Windkabel",
-        "Netzbetreiber",
-        "Transportregelung",
-        "Unerwünschte Signale",
-        "Aufwendungsersatzanspruch",
-        "Abschlagszahlungen",
-        "Signale",
-        "Umlage",
-        "Bandbreite",
-        "Rechtsgrundlage",
-        "Pflichten",
         "Abrechnungsmaßstab",
-        "Telekommunikationsanlagen",
+        "Abschlagszahlungen",
+        "Aufwendungsersatzanspruch",
+        "Bandbreite",
+        "Belastungsausgleich",
         "Beteiligte",
+        "Entschädigung",
         "Kabelnetz",
-        "Netzstabilität",
-        "Rechtsfolge",
-        "Vergütungsbeträge",
+        "Kabelnetzbetreiber",
+        "Kosten",
         "Kostenaufteilung",
-        "Entschädigung"
+        "Netzbetreiber",
+        "Netzstabilität",
+        "Pflichten",
+        "Rechte",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Signaldurchleitung",
+        "Signale",
+        "Telekommunikationsanlagen",
+        "Transportregelung",
+        "Umlage",
+        "Unerwünschte Signale",
+        "Vergütungsbeträge",
+        "Verlegung",
+        "Verteilnetzbetreiber",
+        "Windkabel"
       ],
       "properties": [
         "verhindert",
@@ -2739,14 +2581,14 @@
     "refined_ontology": {
       "classes": [
         "Erfolgsaussicht",
-        "Heilbehandlung",
-        "Versicherungsfall",
-        "Rechtsgrundlage",
         "GesetzgeberischerSchutzzweck",
-        "KünstlicheBefruchtung",
-        "Krankenversicherung",
+        "Heilbehandlung",
+        "Indikation",
         "Kostenerstattungsanspruch",
-        "Indikation"
+        "Krankenversicherung",
+        "KünstlicheBefruchtung",
+        "Rechtsgrundlage",
+        "Versicherungsfall"
       ],
       "properties": [
         "istMedizinischNotwendig",
@@ -2839,17 +2681,21 @@
     "generalized_question": "Unter welchen Voraussetzungen haften Eltern oder Erzieher für Schäden, die durch Kinder verursacht wurden, und welche Rechte hat der Geschädigte in einem solchen Fall?",
     "refined_ontology": {
       "classes": [
-        "Verantwortung",
-        "Geschädigter",
-        "Schaden",
+        "Aufsichtspflicht",
         "Elternteil",
+        "Erzieher",
+        "Geschädigter",
+        "HaftungEltern",
         "Jugendamt",
+        "Kind",
+        "Pflegeeltern",
+        "Pflegevereinbarung",
+        "Pflicht",
         "Rechtsfolge",
         "Rechtsgrundlage",
-        "Pflicht",
-        "Pflegeeltern",
-        "Kind",
-        "Erzieher"
+        "Schaden",
+        "Verantwortung",
+        "VerletzungAufsichtspflicht"
       ],
       "properties": [
         "verursacht",
@@ -2958,21 +2804,22 @@
     "generalized_question": "Unter welchen Voraussetzungen ist ein Schüler für einen Schulunfall haftbar zu machen und welche Rolle spielt dabei die Schulbezogenheit der Verletzungshandlung?",
     "refined_ontology": {
       "classes": [
-        "Verletzungshandlung",
-        "Haftbarkeit",
-        "Rechtsfolge",
-        "Vorsatz",
-        "Irreführung",
-        "Rechtsgrundlage",
-        "Weiterbildungsangebot",
-        "Schuldanerkenntnis",
-        "Schulbezogenheit",
-        "Schadensersatzpflicht",
-        "Lehrlingswohnheim",
-        "Schüler",
         "Ausbildungsinstitution",
+        "Beklagter",
+        "Haftbarkeit",
+        "Irreführung",
+        "Lehrlingswohnheim",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
         "Schadensersatzanspruch",
-        "Schulunfall"
+        "Schadensersatzpflicht",
+        "Schulbezogenheit",
+        "Schuldanerkenntnis",
+        "Schulunfall",
+        "Schüler",
+        "Verletzungshandlung",
+        "Vorsatz",
+        "Weiterbildungsangebot"
       ],
       "properties": [
         "hängt von",
@@ -3086,16 +2933,16 @@
     "generalized_question": "Unter welchen Voraussetzungen ist eine Abtretung von Ansprüchen wirksam und welche Rechte und Pflichten entstehen für die beteiligten Parteien?",
     "refined_ontology": {
       "classes": [
-        "Erstabtretung",
-        "Abtretungsvereinbarung",
+        "Abtretung",
         "Abtretungs Klausel",
         "Abtretungsbefugnis",
-        "Partei",
+        "Abtretungsverbot",
+        "Abtretungsvereinbarung",
         "Anpruch",
-        "Abtretung",
-        "Sicherungsabtretung",
+        "Erstabtretung",
         "Insolvenzrecht",
-        "Abtretungsverbot"
+        "Partei",
+        "Sicherungsabtretung"
       ],
       "properties": [
         "istErfüllungshalber",
@@ -3181,23 +3028,26 @@
     "generalized_question": "Unter welchen Voraussetzungen und Pflichten müssen Ärzte und Hebammen bei der Diagnose, Behandlung und Versorgung von Schwangeren und Neugeborenen handeln, um eine rechtliche Haftung zu vermeiden?",
     "refined_ontology": {
       "classes": [
-        "Schwangere",
-        "RechtlicheHaftung",
-        "Neugeborenes",
-        "Diagnose",
-        "Behandlung",
+        "Arzt",
         "Befunderhebungsfehler",
+        "Behandlung",
+        "Behandlungsvertrag",
+        "Diagnose",
+        "Erbberechtigte",
         "Erbschaft",
-        "Sepsis",
         "Geburtssituation",
-        "Pflicht",
-        "Versorgung",
-        "Sachkunde",
-        "Schulterdystokie",
         "HELLP-Syndrom",
         "Hebamme",
-        "Behandlungsvertrag",
-        "Arzt"
+        "Krankenhausträger",
+        "Neugeborenes",
+        "Pflicht",
+        "RechtlicheHaftung",
+        "Sachkunde",
+        "Schulterdystokie",
+        "Schutzumfang",
+        "Schwangere",
+        "Sepsis",
+        "Versorgung"
       ],
       "properties": [
         "vermeidet",
@@ -3342,18 +3192,23 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchen Grenzen kann eine Person oder Einrichtung im Zusammenhang mit sportlichen Aktivitäten haftbar gemacht werden?",
     "refined_ontology": {
       "classes": [
-        "Einrichtung",
-        "Person",
-        "SportlicheAktivität",
-        "Benutzer",
-        "Verletzung",
-        "Spieler",
-        "Schiedsrichter",
-        "Mitspieler",
-        "Verein",
         "Beklagter",
+        "Benutzer",
+        "Einrichtung",
+        "Entschädigungsanspruch",
         "Haftung",
-        "Regelwerk"
+        "Mitspieler",
+        "Person",
+        "Regelwerk",
+        "Schadensersatzanspruch",
+        "Schiedsrichter",
+        "Sorgfaltspflichtverstoß",
+        "Spieler",
+        "Sport- und Spielanlage",
+        "SportlicheAktivität",
+        "Verein",
+        "Verletzung",
+        "Zwangsabstieg"
       ],
       "properties": [
         "verursacht",
@@ -3489,19 +3344,29 @@
     "generalized_question": "Welche rechtlichen Regelungen und Verpflichtungen schützen Spieler vor den Risiken und Schäden, die aus dem Glücksspiel entstehen können, und wie können diese durchgesetzt werden?",
     "refined_ontology": {
       "classes": [
-        "Pacht",
-        "Spieler",
-        "RechtlicheRegelung",
-        "Suchtprävention",
-        "Spielordnung",
         "Betrieb",
-        "Schaden",
-        "Spielbank",
+        "Eingabefehler",
+        "EinhaltungSorgfaltspflicht",
         "Glücksspiel",
-        "Schutz",
-        "Verpflichtung",
+        "Höhe",
+        "Limit",
+        "LimitSetzen",
+        "OnlineGlücksspiel",
+        "Pacht",
+        "RechtlicheRegelung",
         "Rechtsfolge",
-        "Schenkkreis"
+        "Schaden",
+        "Schenkkreis",
+        "Schutz",
+        "Spiel",
+        "Spielbank",
+        "Spieler",
+        "Spielordnung",
+        "Sucht",
+        "Suchtprävention",
+        "Verpflichtung",
+        "ZugangVerwehrt",
+        "ÜberwachungSpielhalle"
       ],
       "properties": [
         "verursacht",
@@ -3635,16 +3500,16 @@
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Auswirkungen ist das Recht eines Staates auf eine Rechtsstreitigkeit anwendbar und welche Rechte und Pflichten ergeben sich daraus für die beteiligten Parteien?",
     "refined_ontology": {
       "classes": [
-        "Zwangsvollstreckung",
-        "Rechtspflicht",
-        "Verjährung",
-        "Rechtsnorm",
-        "Rechtsordnung",
+        "Partei",
         "Rechtsanspruch",
         "Rechtskraft",
-        "Partei",
+        "Rechtsnorm",
+        "Rechtsordnung",
+        "Rechtspflicht",
         "Rechtsstreitigkeit",
-        "WettbewerbsrechtlicheHandlung"
+        "Verjährung",
+        "WettbewerbsrechtlicheHandlung",
+        "Zwangsvollstreckung"
       ],
       "properties": [
         "istAnwendbarAuf",
@@ -3741,24 +3606,27 @@
     "refined_ontology": {
       "classes": [
         "Aktiengesellschaft",
-        "Gericht",
-        "Zuständigkeit",
-        "Gütertransport",
-        "Kollisionsrecht",
-        "Satzung",
-        "Grundrecht",
-        "Handlung",
-        "Personengesellschaft",
-        "Gewerbetreibender",
-        "Vertragsausfertigung",
-        "Rechtsgrundlage",
-        "Gesellschaft",
-        "Persönlichkeitsrecht",
-        "Verpflichtung",
-        "Vertretungsmacht",
-        "Erfüllungsort",
         "Eigentum",
-        "Vertragsstaat"
+        "Erfüllungsort",
+        "Gericht",
+        "Gesellschaft",
+        "Gewerbetreibender",
+        "Grundrecht",
+        "Gütertransport",
+        "Handlung",
+        "Kollisionsrecht",
+        "Personengesellschaft",
+        "Persönlichkeitsrecht",
+        "Rechtsgrundlage",
+        "Satzung",
+        "Verpflichtung",
+        "Vertragsausfertigung",
+        "Vertragsstaat",
+        "Vertretung",
+        "Vertretungsmacht",
+        "Zuständigkeit",
+        "inDeutschland",
+        "internationaleZuständigkeit"
       ],
       "properties": [
         "istVerantwortlichFür",
@@ -3865,18 +3733,20 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Eigentümer oder Mieter von Grundstücken verpflichtet, das Verlegen und Betreiben von Elektrizitätsleitungen auf ihrem Grundstück zu dulden, und welche Rechte haben sie dabei?",
     "refined_ontology": {
       "classes": [
-        "Elektrizitätsleitung",
-        "Mieter",
-        "Grundstück",
-        "EigentümerVoreigentümer",
-        "Windkraftanlage",
-        "EigentümerVersorger",
         "Eigentümer",
-        "Realofferte",
         "EigentümerNachbareigentümer",
-        "Scheinbestandteil",
+        "EigentümerVersorger",
+        "EigentümerVoreigentümer",
+        "Elektrizitätsleitung",
+        "Grundstück",
+        "Mieter",
         "MieterVersorger",
-        "Störung"
+        "Realofferte",
+        "Scheinbestandteil",
+        "Strom",
+        "Störung",
+        "Voreigentümer",
+        "Windkraftanlage"
       ],
       "properties": [
         "verpflichtetZumDulden",
@@ -4005,13 +3875,14 @@
     "generalized_question": "Unter welchen Voraussetzungen kann ein Fluggast einen Ausgleichsanspruch wegen einer Flugverspätung oder -annullierung geltend machen?",
     "refined_ontology": {
       "classes": [
-        "Verordnung",
-        "Flug",
-        "Ausgleichsanspruch",
         "Agent",
-        "Fluggast",
         "Annullierung",
+        "Ausgleichsanspruch",
+        "Flug",
+        "Fluggast",
         "Fluggesellschaft",
+        "Höhe",
+        "Verordnung",
         "Verspätung"
       ],
       "properties": [
@@ -4111,16 +3982,17 @@
     "refined_ontology": {
       "classes": [
         "Anspruch",
-        "Satzungsbestimmung",
-        "Versicherter",
-        "Versicherungsfall",
-        "Rechtsgrundlage",
-        "VerantwortlicherAktuar",
+        "Anwartschaft",
         "Auskunft",
         "Bonuspunkte",
-        "Anwartschaft",
+        "Rechtsgrundlage",
+        "Satzungsbestimmung",
+        "VerantwortlicherAktuar",
+        "Versicherter",
+        "Versicherungsfall",
         "Versicherungsleistung",
-        "Versicherungsvertrag"
+        "Versicherungsvertrag",
+        "Zuteilung"
       ],
       "properties": [
         "umfasst",
@@ -4212,22 +4084,24 @@
     "generalized_question": "Welche Bedeutung hat der Emissionsprospekt für die Informationspflichten und Haftung von Beteiligten in verschiedenen Kontexten, insbesondere im Zusammenhang mit der Rauchgasnachbehandlung und der Anlageberatung?",
     "refined_ontology": {
       "classes": [
-        "Nassverfahren",
-        "Beteiligter",
         "Anlageberatung",
-        "Verjährung",
-        "Informationspflicht",
-        "Rauchgasnachbehandlung",
-        "Treugeber",
+        "Beteiligter",
         "Emissionsprospekt",
-        "Mittel",
-        "Schadstoffkomponente",
         "Gesellschaftsvertrag",
         "Haftung",
-        "Transparenzgebot",
-        "Klausel",
+        "Informationspflicht",
+        "Inhaltskontrolle",
         "Intervalldauer",
-        "Treuhandkommanditistin"
+        "Klausel",
+        "Mittel",
+        "Nassverfahren",
+        "Rauchgasnachbehandlung",
+        "Schadstoffkomponente",
+        "Transparenzgebot",
+        "Treugeber",
+        "Treuhandkommanditistin",
+        "Verjährung",
+        "regelwidrigeAuffälligkeiten"
       ],
       "properties": [
         "führtZu",
@@ -4356,19 +4230,20 @@
     "generalized_question": "Unter welchen Voraussetzungen und innerhalb welcher Fristen kann ein Versicherungsnehmer eine Invaliditätsleistung aufgrund eines Unfalls beanspruchen und welche Rolle spielen dabei ärztliche Feststellungen und Gutachten?",
     "refined_ontology": {
       "classes": [
-        "Vorinvalidität",
-        "Invaliditätsleistung",
+        "Beweislast",
         "Frist",
+        "Gutachten",
         "Invaliditätsgrad",
+        "Invaliditätsleistung",
+        "Körperteil",
+        "Kürzung",
         "Recht",
-        "Vorerkrankung",
         "Rechtsfolge",
         "Rechtsgrundlage",
-        "Versicherungsnehmer",
         "Unfall",
-        "Körperteil",
-        "Beweislast",
-        "Gutachten",
+        "Versicherungsnehmer",
+        "Vorerkrankung",
+        "Vorinvalidität",
         "ärztliche Feststellung"
       ],
       "properties": [
@@ -4483,16 +4358,27 @@
     "generalized_question": "Unter welchen Voraussetzungen und Verpflichtungen besteht eine Rücknahmepflicht für Pfandflaschen und welche Haftungsfragen stellen sich dabei?",
     "refined_ontology": {
       "classes": [
-        "Rücknahmepflicht",
-        "Herausgabeverlangen",
-        "Verpflichteter",
+        "Angebot",
+        "Anspruch geltend machen",
+        "Anspruchsberechtigter",
+        "Eigentum an Flaschen",
         "Eigentumsübergang",
         "Eigentümer",
+        "Haftungsfragen",
+        "Herausgabeverlangen",
+        "Pfandflasche",
+        "Pfandflaschenbesitzer",
         "Rechtsgrundlage",
-        "Angebot",
-        "Anspruchsberechtigter",
+        "Rolle in Rücknahmeverpflichtung",
+        "Rücknahme und Erstattung",
+        "Rücknahmepflicht",
         "Verpackungsverordnung",
-        "Pfandflasche"
+        "Verpflichteter",
+        "an jedermann",
+        "geltend gemacht werden",
+        "gutgläubigen Erwerb",
+        "individueller Kennzeichnung",
+        "unter bestimmten Voraussetzungen"
       ],
       "properties": [
         "spielt",
@@ -4588,19 +4474,26 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang müssen Vordienstzeiten bei der Berechnung von Versorgungsrenten berücksichtigt werden?",
     "refined_ontology": {
       "classes": [
-        "Vordienstzeit",
-        "Versorgungsunternehmen",
-        "Arbeitsvertrag",
-        "Verfassungsrecht",
-        "Zusatzversorgungssystem",
-        "Satzung",
-        "Rechtsgrundlage",
-        "Versorgungsberechtigter",
-        "Beklagter",
+        "Anrechnung",
         "Arbeitnehmer",
-        "Versorgungsrente",
+        "Arbeitsvertrag",
+        "Beklagter",
+        "Berücksichtigung",
+        "Fälligkeitszeitpunkt",
         "GesamtversorgungsfähigeZeit",
-        "Zinssatz"
+        "Gleichheit",
+        "Halbanrechnung",
+        "Klageforderung",
+        "Leistungsfähigkeit",
+        "Rechtsgrundlage",
+        "Satzung",
+        "Verfassungsrecht",
+        "Versorgungsberechtigter",
+        "Versorgungsrente",
+        "Versorgungsunternehmen",
+        "Vordienstzeit",
+        "Zinssatz",
+        "Zusatzversorgungssystem"
       ],
       "properties": [
         "wirksam",
@@ -4720,19 +4613,19 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchen Fällen ist ein Netzbetreiber verpflichtet, Netznutzungsentgelte zu zahlen oder zu erstatten, und welche Rechte hat er dabei?",
     "refined_ontology": {
       "classes": [
-        "Verpflichtung",
-        "Recht",
-        "Ersatzleistungsbestimmung",
         "Belastungsausgleich",
-        "Netzbetreiber",
         "Billigkeit",
-        "Netznutzungsentgelt",
-        "Kunde",
+        "Darlegungslast",
+        "Ersatzleistungsbestimmung",
         "Gericht",
         "Kalkulation",
+        "Kunde",
+        "Netzbetreiber",
         "Netznutzung",
-        "Darlegungslast",
-        "Offenlegung"
+        "Netznutzungsentgelt",
+        "Offenlegung",
+        "Recht",
+        "Verpflichtung"
       ],
       "properties": [
         "ergibt",
@@ -4843,11 +4736,11 @@
     "generalized_question": "Unter welchen Voraussetzungen und durch wen kann die Billigkeit von Netznutzungsentgelten überprüft und gegebenenfalls angepasst werden?",
     "refined_ontology": {
       "classes": [
-        "Leistungsbestimmung",
         "Billigkeit",
+        "Gericht",
+        "Leistungsbestimmung",
         "Netzbetreiber",
         "Netznutzungsentgelt",
-        "Gericht",
         "Qualitätsvorgabe",
         "Regulierungsbehörde"
       ],
@@ -4889,12 +4782,6 @@
           "Gericht"
         ],
         [
-          "Netznutzer",
-          "kannVerlangen",
-          "Billigkeit",
-          "Netznutzungsentgelt"
-        ],
-        [
           "Netzbetreiber",
           "trifft",
           "Leistungsbestimmung"
@@ -4925,14 +4812,14 @@
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Auswirkungen sind Übergangsregelungen für rentennahe und rentenferne Versicherte im Rahmen der Rentenberechnung wirksam und rechtmäßig?",
     "refined_ontology": {
       "classes": [
-        "Rechtmäßigkeit",
-        "Startgutschrift",
-        "Satzung",
         "Mindestleistung",
-        "Übergangsregelung",
-        "Rentenberechnung",
+        "Rechtmäßigkeit",
         "Rechtswirksamkeit",
-        "Rentenversicherter"
+        "Rentenberechnung",
+        "Rentenversicherter",
+        "Satzung",
+        "Startgutschrift",
+        "Übergangsregelung"
       ],
       "properties": [
         "istRechtmäßig",
@@ -5011,20 +4898,21 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Elektrizitätsversorgungsunternehmen verpflichtet, EEG-Strom abzunehmen und zu vergüten, und welche Rechte und Pflichten sind damit verbunden?",
     "refined_ontology": {
       "classes": [
-        "EEG-Strom",
-        "Stromabsatz",
-        "Gebäudeintegration",
         "AVBEltV",
-        "GesetzgeberAnliegen",
         "Abnahmeverpflichtung",
+        "Befreiung",
         "Biomasse-Strom",
+        "EEG",
+        "EEG-Strom",
+        "EEG-Vergütung",
+        "Elektrizitätsversorgungsunternehmen",
+        "Gebäudeintegration",
+        "GesetzgeberAnliegen",
+        "MarktbeherrschendeStellung",
         "Photovoltaikmodul",
         "Rechtsgrundlage",
-        "Befreiung",
-        "MarktbeherrschendeStellung",
-        "Vergütung",
-        "EEG-Vergütung",
-        "Elektrizitätsversorgungsunternehmen"
+        "Stromabsatz",
+        "Vergütung"
       ],
       "properties": [
         "betrifftAnlage",
@@ -5133,17 +5021,37 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Netzbetreiber verpflichtet, den Anschluss von EEG-Anlagen an ihr Netz zu ermöglichen und welche Kosten hierfür anfallen?",
     "refined_ontology": {
       "classes": [
-        "Anlagenbetreiber",
-        "Belastungsausgleich",
-        "Ausschlussfrist",
-        "Netzbetreiber",
-        "Gebäude",
-        "EEG-Anlage",
-        "Kosten",
         "Abrechnungsfrist",
-        "Kostenverteilung",
+        "Ankündigung",
+        "Anlagenbetreiber",
+        "Anpassung",
+        "Anpassung des EEG-Aufschlags",
+        "Anschluss",
+        "Ausschlussfrist",
+        "Belastungsausgleich",
+        "EEG-Anlage",
         "EEG-Aufschlag",
-        "Anschluss"
+        "Gebäude",
+        "Grundvergütung",
+        "Kosten",
+        "Kostenverteilung",
+        "Netzbetreiber",
+        "Rechtsfolge",
+        "Vereinbarung",
+        "Vergütungsanspruch",
+        "baulicheAnlage",
+        "erhöhteVergütung",
+        "für EEG-Strom",
+        "imEEG2009",
+        "imZusammenhangMit § 11 Abs. 2 EEG 2004",
+        "zwingendeRegelung",
+        "§ 12 Abs. 2 EEG 2004",
+        "§ 13 Abs. 2 Satz 1 EEG",
+        "§ 13 EEG",
+        "§ 54 Abs. 1 Satz 1 EEG 2009",
+        "§ 54 Abs. 1 Satz 1 EEG 2009 aF",
+        "§ 66 Abs. 1 Nr. 3 Satz 3 EEG 2009",
+        "§ 8 EEG 2004"
       ],
       "properties": [
         "zuInterpretieren",
@@ -5284,23 +5192,29 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist der Betreiber einer KWK-Anlage anspruchsberechtigt für die Vergütung und den Belastungsausgleich nach dem KWKG?",
     "refined_ontology": {
       "classes": [
-        "Betreiber",
-        "Mindestvergütung",
-        "Umfang",
-        "Belastungsausgleich",
-        "KWKG",
-        "Jahresverbrauch",
-        "Voraussetzung",
-        "Vergütungsanspruch",
-        "Nicht-KWK-Strom",
         "Abnahmestelle",
-        "Außer Kraftsetzung",
-        "Betreibereigenschaft",
-        "Vergütung",
-        "KWK-Strom",
-        "Zweck",
         "Anwendungsbereich",
-        "KWK-Anlage"
+        "Außer Kraftsetzung",
+        "Belastungsausgleich",
+        "Betreiber",
+        "Betreibereigenschaft",
+        "Jahresverbrauch",
+        "KWK-Anlage",
+        "KWK-Strom",
+        "KWKG",
+        "Mindestvergütung",
+        "Nicht-KWK-Strom",
+        "Umfang",
+        "Vergütung",
+        "Vergütungsanspruch",
+        "Voraussetzung",
+        "Zweck",
+        "§ 2 Abs. 1 Satz 3 Nr. 2 KWKG",
+        "§ 2 KWKG",
+        "§ 3 Abs. 10 KWKG",
+        "§ 4 KWKG",
+        "§ 5 Abs. 1 KWKG",
+        "§ 5 Abs. 1 Satz 2 und 3 KWKG"
       ],
       "properties": [
         "umfasst",
@@ -5400,20 +5314,6 @@
           "Anwendungsbereich"
         ],
         [
-          "§ 3 Abs. 1 Satz 1 Halbs. 2 KWKG",
-          "berechtigt",
-          "Betreiber",
-          "für",
-          "Vergütung"
-        ],
-        [
-          "§ 4 Abs. 1 KWKG",
-          "berechtigt",
-          "Betreiber",
-          "für",
-          "Mindestvergütung"
-        ],
-        [
           "§ 5 Abs. 1 KWKG",
           "ist Rechtsgrundlage für",
           "Belastungsausgleich"
@@ -5439,24 +5339,25 @@
     "generalized_question": "Welche rechtlichen Regelungen und Verpflichtungen gelten für die Lenkung und Organisation des Rettungsdienstes in den Bundesländern Baden-Württemberg und Thüringen?",
     "refined_ontology": {
       "classes": [
-        "Handlungsbefugnis",
-        "Buchung",
-        "Verpflichtung",
-        "Organisation",
-        "Rolle",
-        "HoeheitlicheHandlung",
-        "Rettungsdienst",
         "Aufgabe",
-        "RechtlicheRegelung",
-        "Lenkung",
-        "Rechtsgrundlage",
-        "Ministerium",
-        "Feuerwehr",
-        "Dienstbarkeit",
+        "Buchung",
         "Bundesland",
-        "Streitigkeit",
+        "Dienstbarkeit",
+        "Feuerwehr",
+        "Handlungsbefugnis",
+        "HoeheitlicheHandlung",
+        "Lenkung",
+        "Ministerium",
+        "Organisation",
+        "RechtlicheRegelung",
+        "Rechtsgrundlage",
+        "Rettungsdienst",
+        "Rolle",
         "Schlichtung",
-        "Steuerung"
+        "Steuerung",
+        "Streitigkeit",
+        "Verantwortlicher",
+        "Verpflichtung"
       ],
       "properties": [
         "regeltOrganisation",
@@ -5587,24 +5488,25 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang sind Rentenansprüche von Versicherten oder Rentnern beeinträchtigt oder angepasst, wenn die Satzung einer Versicherung oder eines Versorgungsträgers geändert wird oder wenn es zu einem Systemwechsel kommt?",
     "refined_ontology": {
       "classes": [
+        "Anpassung von Rentenansprüchen",
+        "Gesellschaft",
         "Mehrbedarf",
-        "Versicherung",
+        "Pensionsanspruch",
         "Pensionslast",
+        "Pensionszusage",
+        "Rentenanspruch",
+        "Rentenauskunft",
+        "Rentenbeeinträchtigung",
+        "Rentenberechnung",
+        "Rentenversicherer",
         "Rentenversicherung",
         "Satzung",
-        "Rentenanspruch",
-        "Rentenbeeinträchtigung",
-        "Pensionsanspruch",
-        "Pensionszusage",
-        "Rentenversicherer",
-        "Systemwechsel",
-        "Gesellschaft",
-        "Rentenauskunft",
-        "Versicherungsnehmer",
+        "Schadensersatzanspruch",
         "Steuerklasse",
-        "Versorgungsträger",
-        "Rentenberechnung",
-        "Schadensersatzanspruch"
+        "Systemwechsel",
+        "Versicherung",
+        "Versicherungsnehmer",
+        "Versorgungsträger"
       ],
       "properties": [
         "beträgt",
@@ -5720,12 +5622,13 @@
     "generalized_question": "Unter welchen Voraussetzungen muss eine private Krankenversicherung die Kosten für eine Psychotherapie durch einen nicht-ärztlichen Psychotherapeuten erstatten und welche Rolle spielt dabei das PsychThG?",
     "refined_ontology": {
       "classes": [
-        "Psychotherapie",
-        "Versicherungsnehmer",
-        "PsychThG",
+        "Erkrankung",
         "PrivateKrankenversicherung",
+        "PsychThG",
+        "PsychiatrieSachverständiger",
         "Psychotherapeut",
-        "Erkrankung"
+        "Psychotherapie",
+        "Versicherungsnehmer"
       ],
       "properties": [
         "mussKostenErstatten",
@@ -5842,17 +5745,19 @@
     "generalized_question": "Unter welchen Voraussetzungen und wer ist verpflichtet, die Kosten für die Beseitigung von Ölspuren auf Straßen zu tragen, insbesondere wenn die Feuerwehr bereits eingesetzt wurde oder die Ölspur durch den Betrieb eines Kraftfahrzeugs verursacht wurde? Welche Rolle spielt dabei das Eigentum an öffentlichen Versorgungsleitungen und die Nähe zu öffentlichen Straßen und Grundstücksgrenzen? Welche Bedeutung hat das Nassreinigungsverfahren im Vergleich zu anderen Reinigungsmethoden bei der Beseitigung von Ölspuren auf Bundesstraßen? Welche Rechtsgrundlagen und -folgen sind hier relevant und welche Rechte hat die Gemeinde oder das Versorgungsunternehmen in diesem Zusammenhang?",
     "refined_ontology": {
       "classes": [
-        "Gütestelle",
-        "Traubenkernöl",
-        "Grundstücksgrenze",
-        "Reinigungsverfahren",
         "Feuerwehr",
-        "ÖffentlicheVersorgungsleitung",
-        "Straße",
-        "Verursacher",
+        "Grundstücksgrenze",
+        "Gütestelle",
+        "Kraftfahrzeug",
+        "Nachbarschaftsstreitigkeiten",
+        "Reinigungsverfahren",
         "Schlichtungsgesetz",
-        "Ölspur",
-        "Kraftfahrzeug"
+        "Straße",
+        "Traubenkernöl",
+        "Verursacher",
+        "untersagen",
+        "ÖffentlicheVersorgungsleitung",
+        "Ölspur"
       ],
       "properties": [
         "befindetSichInNähe",
@@ -5898,67 +5803,9 @@
           "Reinigungsverfahren"
         ],
         [
-          "Gemeinde",
-          "hatPflicht",
-          "beseitigen",
-          "Ölspur"
-        ],
-        [
-          "Versorgungsunternehmen",
-          "hatPflicht",
-          "beseitigen",
-          "Ölspur"
-        ],
-        [
-          "Gemeinde",
-          "hatRechtAuf",
-          "Kosten",
-          "beseitigen",
-          "Ölspur"
-        ],
-        [
-          "Versorgungsunternehmen",
-          "hatRechtAuf",
-          "Kosten",
-          "beseitigen",
-          "Ölspur"
-        ],
-        [
-          "Gemeinde",
-          "geltendMachen",
-          "Kosten",
-          "beseitigen",
-          "Ölspur"
-        ],
-        [
-          "Verursacher",
-          "hatPflicht",
-          "tragenKosten",
-          "Ölspur"
-        ],
-        [
-          "Gemeinde",
-          "hatPflicht",
-          "erneuern",
-          "Anschluss"
-        ],
-        [
           "Verursacher",
           "bekannt",
           "Ölspur"
-        ],
-        [
-          "Gemeinde",
-          "hatPflicht",
-          "verlegt",
-          "Kabelverteilerschrank"
-        ],
-        [
-          "Gemeinde",
-          "hatPflicht",
-          "beseitigen",
-          "Ölspur",
-          "Bundesstraße"
         ],
         [
           "Traubenkernöl",
@@ -5991,16 +5838,18 @@
     "generalized_question": "Unter welchen Voraussetzungen und innerhalb welcher Fristen kann ein Reisender Ansprüche wegen eines Reisemangels geltend machen und welche Rechte hat er im Zusammenhang mit der Bestimmung der Abreise- und Rückkehrzeiten?",
     "refined_ontology": {
       "classes": [
-        "Reiseabsicherung",
-        "Reisevertrag",
+        "Entschädigung",
         "Frist",
-        "Reisezeit",
+        "Leistungsbestimmungsrecht",
+        "Nachholung",
+        "Obliegenheit",
+        "Reiseabsicherung",
+        "Reiseleistung",
+        "Reisemangel",
         "Reisender",
         "Reiseveranstalter",
-        "Entschädigung",
-        "Obliegenheit",
-        "Reisemangel",
-        "Reiseleistung"
+        "Reisevertrag",
+        "Reisezeit"
       ],
       "properties": [
         "verletzt",
@@ -6091,28 +5940,31 @@
     "generalized_question": "Unter welchen Voraussetzungen und Verantwortlichkeiten ist die Errichtung, Nutzung und Wartung von Photovoltaikanlagen geregelt und welche Rechte und Pflichten bestehen für die Beteiligten?",
     "refined_ontology": {
       "classes": [
-        "Zwangsvollstreckung",
-        "Recht",
-        "Stromabnahme",
-        "Wartung",
-        "Beteiligter",
-        "Fachmann",
-        "Nutzung",
-        "Mangel",
-        "Photovoltaikanlage",
-        "Verantwortlichkeit",
-        "Montageanleitung",
-        "Gebrauchstauglichkeit",
-        "Drittwiderspruchsklage",
-        "LichtemittierendeVorrichtung",
-        "Unternehmer",
-        "Fläche",
-        "Pflicht",
-        "Beeinträchtigung",
-        "Vergütung",
-        "Errichtung",
         "BaulicheAnlage",
-        "Schadensersatzanspruch"
+        "Beeinträchtigung",
+        "Beteiligter",
+        "Drittwiderspruchsklage",
+        "Energieträger",
+        "Errichtung",
+        "Fachmann",
+        "Fläche",
+        "Gebrauchstauglichkeit",
+        "LichtemittierendeVorrichtung",
+        "Mangel",
+        "Montageanleitung",
+        "Nutzung",
+        "Pflicht",
+        "Photovoltaikanlage",
+        "Recht",
+        "Richtigkeit",
+        "Schadensersatzanspruch",
+        "Stromabnahme",
+        "Unternehmer",
+        "Verantwortlichkeit",
+        "Vergütung",
+        "Wartung",
+        "Zwangsvollstreckung",
+        "patentfähig"
       ],
       "properties": [
         "erachtet",
@@ -6298,13 +6150,13 @@
     "refined_ontology": {
       "classes": [
         "Belehrung",
-        "Vertragsbedingungen",
-        "Policenmodell",
         "Gemeinschaftsrecht",
-        "Versicherungsnehmer",
-        "Versicherungsgesellschaft",
+        "Policenmodell",
         "Rechtsvorschrift",
-        "Versicherungsvertrag"
+        "Versicherungsgesellschaft",
+        "Versicherungsnehmer",
+        "Versicherungsvertrag",
+        "Vertragsbedingungen"
       ],
       "properties": [
         "erbringt",
@@ -6386,16 +6238,19 @@
     "generalized_question": "Wie kann ein Versender sicherstellen, dass seine wertdeklarierten Pakete im EDI-Verfahren mit erhöhter Beförderungssicherheit transportiert werden und welche Pflichten hat der Frachtführer in diesem Zusammenhang?",
     "refined_ontology": {
       "classes": [
-        "Empfangsbestätigung",
-        "EDI-Verfahren",
-        "Verantwortung",
-        "Wertdeklaration",
-        "Rechtsfolge",
-        "Versender",
+        "Abholfahrer",
         "Beförderungssicherheit",
+        "Behandlung",
+        "EDI-Verfahren",
+        "Empfangsbestätigung",
+        "Frachtführer",
         "Haftung",
         "Paket",
-        "Frachtführer"
+        "Rechtsfolge",
+        "Verantwortung",
+        "Versender",
+        "Wertdeklaration",
+        "sorgfältigeBehandlung"
       ],
       "properties": [
         "verletzen",
@@ -6480,18 +6335,23 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang ist ein Frachtführer für Schäden oder Verluste des transportierten Gutes nach dem CMR-Haftungsregime haftbar?",
     "refined_ontology": {
       "classes": [
+        "Ablieferung",
+        "Befreiung",
+        "Bewusstsein",
         "CMR-Haftungsregime",
-        "Verjährung",
-        "Streitverkündung",
+        "Empfänger",
+        "Frachtführer",
         "Gut",
         "Haftungsausschluss",
-        "Schaden",
-        "Rechtsgrundlage",
         "Leichtfertigkeit",
-        "Verlust",
+        "Rechtsgrundlage",
+        "Regressanspruch",
+        "Schaden",
         "Schadensersatzanspruch",
-        "Ablieferung",
-        "Frachtführer"
+        "Schadensersatzhaftung",
+        "Streitverkündung",
+        "Verjährung",
+        "Verlust"
       ],
       "properties": [
         "verursacht",
@@ -6598,18 +6458,18 @@
     "generalized_question": "Unter welchen Voraussetzungen gilt das Übereinkommen über den Beförderungsvertrag im internationalen Straßengüterverkehr (CMR) und welche Haftungsfolgen hat der Frachtführer bei Verlust oder Beschädigung des Transportgutes?",
     "refined_ontology": {
       "classes": [
+        "Beförderungsvertrag",
+        "Beschädigung",
+        "CMR-Übereinkommen",
+        "Erstattung",
+        "Frachtführer",
+        "Haftung",
+        "Internationaler Transport",
+        "Straßengüterverkehr",
         "Transportgut",
         "Vereinbarung",
-        "Straßengüterverkehr",
-        "CMR-Übereinkommen",
-        "Versicherung",
-        "Beförderungsvertrag",
-        "Internationaler Transport",
-        "Haftung",
-        "Erstattung",
         "Verlust",
-        "Beschädigung",
-        "Frachtführer"
+        "Versicherung"
       ],
       "properties": [
         "führtZu",
@@ -6700,26 +6560,30 @@
     "generalized_question": "Unter welchen Voraussetzungen und mit welchen Rechtsfolgen kann eine Klausel in einem Lebensversicherungsvertrag unwirksam sein und wie ist der Rückkaufswert einer Lebensversicherung zu berechnen, wenn die Allgemeinen Versicherungsbedingungen unwirksam sind?",
     "refined_ontology": {
       "classes": [
-        "KapitalbildendeLebensversicherung",
-        "Vermittlung",
-        "RechtsfolgeUnwirksamkeit",
-        "Verfassungswidrigkeit",
-        "Konzeption",
         "AllgemeineVersicherungsbedingungen",
-        "Barunterhaltsschaden",
-        "Nettopolice",
-        "VVG",
-        "Entstehungsgeschichte",
-        "Klausel",
-        "Ersatzvornahme",
-        "Rechtsfolge",
-        "Unwirksamkeit",
-        "Rückkaufswert",
-        "Lebensversicherungsvertrag",
+        "Anwendbarkeit",
         "Anwendungsbereich",
         "AuswirkungUnwirksamkeit",
+        "Barunterhaltsschaden",
+        "Entstehungsgeschichte",
+        "Ersatzvornahme",
         "Geschäftsbesorgungstheorie",
-        "Streitgegenstand"
+        "Gründe",
+        "KapitalbildendeLebensversicherung",
+        "Klausel",
+        "Konzeption",
+        "Lebensversicherungen",
+        "Lebensversicherungsvertrag",
+        "Nettopolice",
+        "Rechtsfolge",
+        "RechtsfolgeUnwirksamkeit",
+        "Rückkaufswert",
+        "Streitgegenstand",
+        "Unwirksamkeit",
+        "VVG",
+        "Verfassungswidrigkeit",
+        "Vermittlung",
+        "Versicherungsnehmer"
       ],
       "properties": [
         "unterschiedetSich",
@@ -6857,23 +6721,28 @@
     "generalized_question": "Die generierte Frage ist: Unter welchen Voraussetzungen kann ein Arzt für eine verzögerte Operation haftbar gemacht werden, wenn er die gebotene Befunderhebung unterlässt und dadurch eine Schädigung des Patienten verursacht?",
     "refined_ontology": {
       "classes": [
-        "Vertragsverhältnis",
-        "Befunderhebung",
-        "Recht",
-        "Schädigung",
-        "Verwaltungsvorschrift",
-        "Gesetz",
+        "Amtspflicht",
+        "Arzt",
         "Beamter",
+        "Bedingung",
+        "Befunderhebung",
         "Chefarzt",
-        "Rechtsfolge",
-        "Rechtsgrundlage",
-        "Pflicht",
+        "Gesetz",
+        "Gewebeprobe",
+        "Haftung",
+        "Kläger",
         "Krankenhaus",
         "Operation",
-        "Haftung",
-        "Amtspflicht",
         "Patient",
-        "Arzt"
+        "Pflicht",
+        "Recht",
+        "Rechtsfolge",
+        "Rechtsgrundlage",
+        "Schädigung",
+        "Ursache",
+        "Verantwortung",
+        "Vertragsverhältnis",
+        "Verwaltungsvorschrift"
       ],
       "properties": [
         "spielt",
@@ -6967,21 +6836,9 @@
           "Amtspflicht"
         ],
         [
-          "Körperschaft",
-          "ist",
-          "inVerbindungmit",
-          "Beamter"
-        ],
-        [
           "Amtspflicht",
           "verweistauf",
           "Rechtsfolge"
-        ],
-        [
-          "Rechtsfolge",
-          "trittein",
-          "bei",
-          "Amtspflichtverletzung"
         ],
         [
           "Rechtsgrundlage",
@@ -7014,27 +6871,32 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang besteht ein Anspruch auf Einsicht in Pflegedokumentation und welche Rechte und Pflichten sind damit verbunden?",
     "refined_ontology": {
       "classes": [
-        "Recht",
-        "Hilfeleistung",
-        "Vorerkrankung",
-        "Rettungsdienst",
-        "Hausnotrufvertrag",
-        "Heimbewohner",
-        "Pflichtverletzung",
         "Anspruch",
-        "Fehler",
-        "Träger",
         "Dienstleister",
-        "Rechtsgrundlage",
-        "Pflicht",
-        "Pflegedokumentation",
-        "Haftung",
-        "Sozialversicherungsträger",
-        "Notruf",
-        "Heimbetreiber",
-        "Notarzt",
+        "Einsichtnahme",
         "Einwilligung",
-        "Schadensersatzanspruch"
+        "Fehler",
+        "Haftung",
+        "Hausnotrufvertrag",
+        "Heimbetreiber",
+        "Heimbewohner",
+        "Hilfeleistung",
+        "Notarzt",
+        "Notruf",
+        "Pflegedokumentation",
+        "Pflicht",
+        "Pflichten",
+        "Pflichtverletzung",
+        "Recht",
+        "Recht auf Einsicht",
+        "Rechtsgrundlage",
+        "Rettungsdienst",
+        "Schadensersatzanspruch",
+        "Sozialversicherungsträger",
+        "Träger",
+        "Vorerkrankung",
+        "annehmen",
+        "herausgeben"
       ],
       "properties": [
         "ist verpflichtet",
@@ -7176,18 +7038,22 @@
     "generalized_question": "Unter welchen Voraussetzungen und in welchem Umfang kann ein Vermieter die Kosten für die Wärmelieferung auf den Mieter umlegen, insbesondere wenn er die Heizungsanlage auf einen Dritten überträgt oder die Art der Wärmelieferung ändert?",
     "refined_ontology": {
       "classes": [
-        "Wohnung",
-        "Mieter",
         "Betriebsstrom",
-        "Kosten-Nutzen-Verhältnis",
         "Dritter",
+        "Heizungsanlage",
         "Kosten",
+        "Kosten-Nutzen-Verhältnis",
+        "Mieter",
         "Pflicht",
+        "Vermieter",
+        "Voraussetzungen",
+        "Wohnung",
         "Wohnungseigentümer",
         "Wärmecontracting",
         "Wärmelieferung",
-        "Heizungsanlage",
-        "Vermieter"
+        "angemessenes",
+        "wärmeversorgung",
+        "überhöhtePreise"
       ],
       "properties": [
         "wärmelieferungskosten",
@@ -7358,24 +7224,25 @@
     "generalized_question": "Welche Rolle spielt der Grundsatz von Treu und Glauben (§ 242 BGB) in verschiedenen rechtlichen Kontexten und wie kann er angewendet werden?",
     "refined_ontology": {
       "classes": [
-        "Vertragsangebot",
-        "RechtlicherKontext",
-        "Vertragsverhältnis",
-        "Auskunftsanspruch",
-        "GerichtlicherVergleich",
-        "HerstellungAnspruch",
+        "Amtsausübung",
+        "Anfechtung",
+        "Anwendung",
+        "Aufmaß",
         "Aufrechnung",
         "AuskunftsVerpflichtung",
-        "Amtsausübung",
-        "Unterlassungserklärung",
-        "Aufmaß",
-        "Anwendung",
-        "Formmangel",
-        "Rücktrittsrecht",
-        "Freistellungsklausel",
+        "Auskunftsanspruch",
         "Bereicherungsanspruch",
+        "Formmangel",
+        "Freistellungsklausel",
+        "GerichtlicherVergleich",
         "Grundsatz",
-        "Anfechtung"
+        "HerstellungAnspruch",
+        "RechtlicherKontext",
+        "Rücktrittsrecht",
+        "TreuUndGlauben",
+        "Unterlassungserklärung",
+        "Vertragsangebot",
+        "Vertragsverhältnis"
       ],
       "properties": [
         "kannGeltendGemachtWerdenOhneVerstoß",
@@ -7494,19 +7361,19 @@
     "generalized_question": "Unter welchen Voraussetzungen ist ein Haftpflichtversicherer zur Leistung verpflichtet oder kann sich auf einen Haftungsausschluss oder eine Obliegenheitsverletzung berufen?",
     "refined_ontology": {
       "classes": [
-        "Versicherungsfall",
         "Geschädigter",
         "Haftpflichtversicherer",
         "Haftungsausschluss",
-        "Leistung",
-        "Regulierungszusage",
-        "Versicherungsnehmer",
-        "Straftat",
-        "Prozessvereinbarung",
         "Kaskoversicherung",
-        "Strafmündigkeit",
-        "Schadensersatzanspruch",
+        "Leistung",
         "Obliegenheitsverletzung",
+        "Prozessvereinbarung",
+        "Regulierungszusage",
+        "Schadensersatzanspruch",
+        "Strafmündigkeit",
+        "Straftat",
+        "Versicherungsfall",
+        "Versicherungsnehmer",
         "Versicherungsvertrag"
       ],
       "properties": [
@@ -7615,14 +7482,16 @@
     "generalized_question": "Unter welchen Voraussetzungen und Verantwortlichkeiten sind die Beteiligten verpflichtet, den Brandschutz sicherzustellen und welche Rechtsfolgen treten ein, wenn dieser nicht eingehalten wird?",
     "refined_ontology": {
       "classes": [
-        "Brandschutzplanung",
-        "Rechtsfolge",
-        "Leistung",
-        "Versicherer",
-        "Brandschutz",
-        "Feuerwehr",
         "Beteiligter",
-        "Haftungsprivileg"
+        "Brandschutz",
+        "Brandschutzplanung",
+        "Feuerwehr",
+        "Haftungsprivileg",
+        "Leistung",
+        "Rechtsfolge",
+        "Schaden",
+        "Schädiger",
+        "Versicherer"
       ],
       "properties": [
         "tretenEin",
@@ -7722,20 +7591,25 @@
     "generalized_question": "Unter welchen Voraussetzungen und nach welchen Kriterien sind die Kosten für die Lieferung von Wärme und Warmwasser auf die einzelnen Nutzer zu verteilen?",
     "refined_ontology": {
       "classes": [
-        "Steigleitung",
-        "Verteilungskriterium",
+        "AVBFernwärmeV",
         "Betriebsstrom",
-        "Vergleichsberechnung",
-        "Gas",
-        "Wärmelieferungsvertrag",
+        "Entzündung",
         "Frischfleisch",
-        "Nutzer",
-        "Wärmecontracting",
-        "Wärmeverlust",
-        "Kältemaschine",
+        "Gas",
         "Heizkostenverordnung",
+        "Heizzentrale",
+        "Kältemaschine",
+        "Nutzer",
+        "Steigleitung",
+        "Temperatur",
+        "Vergleichsberechnung",
+        "Verteilungskriterium",
+        "Wärmecontracting",
+        "Wärmelieferungsvertrag",
+        "Wärmeverlust",
         "Wärmeversorgung",
-        "Heizzentrale"
+        "Wärmeverteilung",
+        "vergleichbareVersorgungsverhältnisse"
       ],
       "properties": [
         "definiert",
