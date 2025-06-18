@@ -154,7 +154,7 @@ if query:
     emb = model.encode(query, convert_to_tensor=True)
     scores = util.pytorch_cos_sim(emb, cq_embeddings)[0]
     top5 = np.argsort(-scores.cpu())[:5]
-    st.subheader("Top-5 most similar questions")
+    st.subheader("Top-5 Most Similar Questions")
     for i in top5:
         text = cq_data[int(i)]['cq']
         if st.button(text, key=f"btn_{i}"):
