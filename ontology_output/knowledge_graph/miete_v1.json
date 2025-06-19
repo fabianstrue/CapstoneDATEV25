@@ -1,0 +1,231 @@
+{
+    "ontology": {
+        "classes": {
+            "Person": {
+                "instances": [
+                    {
+                        "name": "Klägerin",
+                        "properties": {
+                            "role": "Vermieterin"
+                        }
+                    },
+                    {
+                        "name": "Beklagter zu 1",
+                        "properties": {
+                            "role": "Mieter"
+                        }
+                    },
+                    {
+                        "name": "Beklagte zu 2",
+                        "properties": {
+                            "role": "Architektin"
+                        }
+                    }
+                ]
+            },
+            "Document": {
+                "instances": [
+                    {
+                        "schema": "rspvwa",
+                        "document_type": "Urteil",
+                        "document_subtype": "Obere Rechtsprechung",
+                        "document_number": "1535602",
+                        "bibliographic_information": {
+                            "institution": "Bundesgerichtshof",
+                            "case_number": "XII-ZR-269/01",
+                            "date": "2005-03-16",
+                            "lower_court": "KG - 24.9.2001",
+                            "applicable_law": "BGB:539"
+                        },
+                        "text": {
+                            "title": "Wirksamkeit der Aufrechnung mit Forderungen auf Architektenhonorar gegen Mietzinsforderungen",
+                            "orientation_sentence": "Von der Erstellung eines Orientierungssatzes wurde abgesehen."
+                        },
+                        "decision_content": {
+                            "reasons": [
+                                {
+                                    "reason": "Die Revision führt zur Aufhebung des Berufungsurteils, soweit darin zum Nachteil des Beklagten zu 1 erkannt ist, und in diesem Umfang zur Zurückverweisung der Sache an das Kammergericht."
+                                },
+                                {
+                                    "reason": "I. Das Berufungsgericht hat ausgeführt, der Mietzinsanspruch der Klägerin bestehe für die geltend gemachte Zeit von Dezember 1997 bis August 1998 unter Berücksichtigung der zugestandenen Minderung von 10 % der Kaltmiete noch in Höhe von 179.863,38 DM. Darüber hinaus sei der Mietzins nicht gemindert. ..."
+                                },
+                                {
+                                    "reason": "II. Diese Ausführungen halten den Angriffen der Revision nicht in allen Punkten stand. ..."
+                                }
+                            ]
+                        },
+                        "norm_literature_fundstelle": [
+                            "NJW-1999-0713",
+                            "BauR-1994-0791"
+                        ]
+                    }
+                ]
+            },
+            "Mietvertrag": {
+                "instances": [
+                    {
+                        "parties": [
+                            {
+                                "name": "Klägerin",
+                                "role": "Vermieterin"
+                            },
+                            {
+                                "name": "Beklagter zu 1",
+                                "role": "Mieter"
+                            }
+                        ],
+                        "start_date": "1993-02-12",
+                        "end_date": "1998-12-31",
+                        "rent": {
+                            "base_rent": 17000,
+                            "additional_costs": 4350,
+                            "total_rent": 21850
+                        },
+                        "clauses": [
+                            {
+                                "clause_number": 8,
+                                "content": "Der Mieter kann gegen Mietforderungen mit Gegenforderungen nur aufrechnen, wenn er seine Absicht dem Vermieter mindestens einen Monat vor Fälligkeit der Miete schriftlich angezeigt hat."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Mietminderung": {
+                "instances": [
+                    {
+                        "reason": "Lärm durch Baumaßnahmen auf dem Nachbargrundstück",
+                        "percentage": 10,
+                        "start_date": "1995-04-19",
+                        "end_date": "1997-02-23"
+                    },
+                    {
+                        "reason": "Mängel an der Mietsache",
+                        "percentage": 40,
+                        "start_date": "1998-03-30"
+                    }
+                ]
+            },
+            "Kündigung": {
+                "instances": [
+                    {
+                        "sender": "Klägerin",
+                        "recipient": "Beklagter zu 1",
+                        "date": "1998-09-29",
+                        "reason": "Zahlungsverzug"
+                    },
+                    {
+                        "sender": "Beklagter zu 1",
+                        "recipient": "Klägerin",
+                        "date": "1998-10-29",
+                        "reason": "Aufrechnung mit Honorarforderungen"
+                    }
+                ]
+            },
+            "Aufrechnung": {
+                "instances": [
+                    {
+                        "sender": "Beklagter zu 1",
+                        "recipient": "Klägerin",
+                        "date": "1997-11-25",
+                        "reason": "Ankündigung"
+                    },
+                    {
+                        "sender": "Beklagter zu 1",
+                        "recipient": "Klägerin",
+                        "date": "1998-08-26",
+                        "reason": "Erklärung"
+                    },
+                    {
+                        "sender": "Beklagter zu 1",
+                        "recipient": "Klägerin",
+                        "date": "1998-09-30",
+                        "reason": "Wiederholung und Erweiterung"
+                    }
+                ]
+            },
+            "Architektenvertrag": {
+                "instances": [
+                    {
+                        "parties": [
+                            {
+                                "name": "Klägerin",
+                                "role": "Auftraggeberin"
+                            },
+                            {
+                                "name": "Beklagter zu 1",
+                                "role": "Architekt"
+                            }
+                        ],
+                        "start_date": "1994-09",
+                        "end_date": "1998-03"
+                    }
+                ]
+            },
+            "Honorarforderung": {
+                "instances": [
+                    {
+                        "amount": 230983.25,
+                        "date": "1997-11-21"
+                    },
+                    {
+                        "amount": 331640.1,
+                        "date": "1998-03-12"
+                    },
+                    {
+                        "amount": 418965.5,
+                        "date": "1998-10-22"
+                    },
+                    {
+                        "amount": 396167.5,
+                        "date": "2001-03-07"
+                    }
+                ]
+            },
+            "Mietzinsforderung": {
+                "instances": [
+                    {
+                        "amount": 179863.38,
+                        "period": "1997-12 bis 1998-08"
+                    }
+                ]
+            },
+            "Mietminderungsrecht": {
+                "instances": [
+                    {
+                        "reason": "Lärm durch Baumaßnahmen auf dem Nachbargrundstück",
+                        "duration": "6 Jahre",
+                        "loss": "Verlust des Minderungsrechts"
+                    }
+                ]
+            },
+            "Mietverhältnis": {
+                "instances": [
+                    {
+                        "parties": [
+                            {
+                                "name": "Klägerin",
+                                "role": "Vermieterin"
+                            },
+                            {
+                                "name": "Beklagter zu 1",
+                                "role": "Mieter"
+                            }
+                        ],
+                        "start_date": "1993-11",
+                        "end_date": "1999-08-31",
+                        "reason_for_termination": "Kündigung durch die Klägerin"
+                    }
+                ]
+            },
+            "new_class": {
+                "instances": [
+                    {
+                        "name": "Lärm durch Baumaßnahmen auf dem Nachbargrundstück",
+                        "duration": "6 Jahre",
+                        "loss": "Verlust des Minderungsrechts"
+                    }
+                ]
+            }
+        }
+    }
+}

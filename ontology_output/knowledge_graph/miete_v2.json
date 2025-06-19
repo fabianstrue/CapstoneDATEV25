@@ -1,0 +1,165 @@
+{
+    "ontology": {
+        "classes": {
+            "Person": {
+                "instances": [
+                    {
+                        "name": "Klägerin",
+                        "properties": {
+                            "hat_Rolle": "Vermieter"
+                        }
+                    },
+                    {
+                        "name": "Beklagter zu 1",
+                        "properties": {
+                            "hat_Rolle": "Mieter"
+                        }
+                    },
+                    {
+                        "name": "Beklagte zu 2",
+                        "properties": {
+                            "hat_Rolle": "Dritter"
+                        }
+                    }
+                ]
+            },
+            "Dokument": {
+                "instances": [
+                    {
+                        "name": "Urteil",
+                        "properties": {
+                            "hat_Typ": "Obere Rechtsprechung",
+                            "hat_Nummer": "1535602",
+                            "hat_Bibliographische_Angaben": {
+                                "Institution": "Bundesgerichtshof",
+                                "Aktenzeichen": "XII-ZR-269/01",
+                                "Datum": "2005-03-16",
+                                "Vorinstanz": "KG - 24.9.2001",
+                                "Norm_Kürzel": "BGB:539"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Mietvertrag": {
+                "instances": [
+                    {
+                        "hat_Vermieter": "Klägerin",
+                        "hat_Mieter": "Beklagter zu 1",
+                        "hat_Beginn": "1993-02-12",
+                        "hat_Ende": "1998-12-31",
+                        "hat_Mietzins": {
+                            "Nettokaltmiete": "21850 DM",
+                            "Betriebs- und Heizkostenvorschuss": "21850 DM",
+                            "Mehrwertsteuer": "21850 DM"
+                        },
+                        "hat_Minderungsvereinbarung": {
+                            "Beginn": "1995-04-19",
+                            "Dauer": "bis 1997-01",
+                            "Grund": "Bauarbeiten auf Nachbargrundstück"
+                        },
+                        "hat_Indexklausel": true
+                    }
+                ]
+            },
+            "Mietminderung": {
+                "instances": [
+                    {
+                        "hat_Grund": "Lärm durch Bauarbeiten",
+                        "hat_Dauer": "1997-02 bis 1997-11"
+                    }
+                ]
+            },
+            "Kündigung": {
+                "instances": [
+                    {
+                        "hat_Vermieter": "Klägerin",
+                        "hat_Mieter": "Beklagter zu 1",
+                        "hat_Datum": "1998-08-26",
+                        "hat_Grund": "Zahlungsverzug"
+                    },
+                    {
+                        "hat_Vermieter": "Beklagter zu 1",
+                        "hat_Mieter": "Klägerin",
+                        "hat_Datum": "1998-10-29",
+                        "hat_Grund": "Aufrechnung"
+                    }
+                ]
+            },
+            "Aufrechnung": {
+                "instances": [
+                    {
+                        "hat_Gegenpartei": "Klägerin",
+                        "hat_Gegenstand": "Mietzinsforderungen",
+                        "hat_Honorarforderungen": "Architektenhonorar"
+                    }
+                ]
+            },
+            "Architektenvertrag": {
+                "instances": [
+                    {
+                        "hat_Auftraggeber": "Klägerin",
+                        "hat_Auftragnehmer": "Beklagter zu 1",
+                        "hat_Beginn": "1994-09",
+                        "hat_Ende": "1998-03"
+                    }
+                ]
+            },
+            "Honorarrechnung": {
+                "instances": [
+                    {
+                        "hat_Abgeber": "Beklagter zu 1",
+                        "hat_Empfänger": "Klägerin",
+                        "hat_Datum": "1997-11-21",
+                        "hat_Betrag": "230983.25 DM"
+                    },
+                    {
+                        "hat_Abgeber": "Beklagter zu 1",
+                        "hat_Empfänger": "Klägerin",
+                        "hat_Datum": "1998-03-12",
+                        "hat_Betrag": "331640.10 DM"
+                    },
+                    {
+                        "hat_Abgeber": "Beklagter zu 1",
+                        "hat_Empfänger": "Klägerin",
+                        "hat_Datum": "1998-10-22",
+                        "hat_Betrag": "418965.50 DM"
+                    },
+                    {
+                        "hat_Abgeber": "Beklagte zu 2",
+                        "hat_Empfänger": "Klägerin",
+                        "hat_Datum": "1998-11-21",
+                        "hat_Betrag": "60834.29 DM"
+                    },
+                    {
+                        "hat_Abgeber": "Beklagte zu 2",
+                        "hat_Empfänger": "Klägerin",
+                        "hat_Datum": "1998-11-21",
+                        "hat_Betrag": "158982.33 DM"
+                    }
+                ]
+            },
+            "Mietzinsforderung": {
+                "instances": [
+                    {
+                        "hat_Vermieter": "Klägerin",
+                        "hat_Mieter": "Beklagter zu 1",
+                        "hat_Periode": "1997-12 bis 1998-08",
+                        "hat_Betrag": "188999.98 DM"
+                    }
+                ]
+            },
+            "Mietkaution": {
+                "instances": []
+            },
+            "Mietminderung_neue_class": {
+                "instances": [
+                    {
+                        "hat_Grund": "Lärm durch Bauarbeiten",
+                        "hat_Dauer": "1997-02 bis 1997-11"
+                    }
+                ]
+            }
+        }
+    }
+}
