@@ -5,6 +5,8 @@ from sentence_transformers import SentenceTransformer, util
 from pyvis.network import Network
 import streamlit.components.v1 as components
 import tempfile
+#streamlit run "c:/Users/cdoering/OneDrive - IW/Dokumente/Capstone/CapstoneDATEV25-1/12_Dummy_Dashboard.py"
+
 
 # Page configuration
 st.set_page_config(
@@ -101,20 +103,31 @@ st.markdown("""
 with open("ontology_output/gcq_ontology_topdown_refined_with_keywords.json", encoding="utf-8") as f:
     ontology_data = json.load(f)
 
-# Example competency questions
-cq_data = [
-    {"cq": "Unter welchen Voraussetzungen kann Lärm eine Mietminderung rechtfertigen?", "cluster": "8"},
-    {"cq": "Welche Rolle spielt § 536 Abs. 1 BGB bei der Beurteilung von Lärm als Mangel der Mietsache?", "cluster": "8"},
-    {"cq": "Welche Bedeutung hat die Art des Lärms für die Entscheidung, ob eine Gefahrenlage vorliegt, die Schutzmaßnahmen erfordert?", "cluster": "8"},
-    {"cq": "Welche rechtlichen Maßstäbe sind anzuwenden, um zu entscheiden, ob Lärm eine Mietminderung rechtfertigt?", "cluster": "8"},
-    {"cq": "Unter welchen Voraussetzungen muss eine Krankenversicherung die Kosten für eine künstlichen Befruchtung als medizinisch notwendige Heilbehandlung erstatten?", "cluster": "8"},
-    {"cq": "Unter welchen Voraussetzungen und welche Rechte hat ein Miterfinder an einer Erfindung, insbesondere im Hinblick auf die Lizenzierung, Vergütung und Nutzung der Erfindung durch andere Beteiligten?", "cluster": "12"},
-    {"cq": "Unter welchen Voraussetzungen kann ein Kunde einen Anspruch auf Rückzahlung von Zahlungen aufgrund unwirksamer Gaspreiserhöhungen geltend machen?", "cluster": "15"}
-]
+#NEU
+# --- Lade die Datei mit den gruppierten Fragen ---
+with open("clustered_questions_only_new.json", encoding="utf-8") as f:
+    clustered = json.load(f)
 
-# Load model and embeddings
+# --- Liste der erlaubten Cluster ---
+allowed = {
+    "1","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18",
+    "22","23","24","25","26","27","28","29","30","32","33","34","35","36","37",
+    "38","39","40","41","42","43","44","45","46","47","48","49","50","51",
+    "53","54","55","56","57","58","59","60","62","63","64","65"
+}
+
+# --- Baue cq_data nur aus erlaubten Clustern auf ---
+cq_data = []
+for cluster_label, questions in clustered.items():
+    cluster_num = cluster_label.split()[1]  # aus "Cluster 13" wird "13"
+    if cluster_num not in allowed:
+        continue
+    for q in questions:
+        cq_data.append({"cq": q, "cluster": cluster_num})
+
+# --- Lade das SBERT-Modell und erzeuge Embeddings nur für die gefilterten Fragen ---
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-cq_embeddings = model.encode([q['cq'] for q in cq_data], convert_to_tensor=True)
+cq_embeddings = model.encode([item['cq'] for item in cq_data], convert_to_tensor=True)
 
 # TOP RIGHT: Logos + taglines
 col_main, col_logos = st.columns([8, 2], gap="small")
@@ -196,7 +209,7 @@ st.markdown("""
     position: fixed;
     bottom: 10px;
     left: 10px;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     color: #888888;
 ">
   For more information contact: info@datavation.de
