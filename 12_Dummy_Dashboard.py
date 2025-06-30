@@ -77,6 +77,9 @@ st.markdown("""
     padding: 0.5rem;
     color: #333333 !important;
   }
+  .stTextInput>div>div>input::placeholder {
+    color: #888888 !important;
+  }
   .stButton>button {
     background-color: #FFFFFF;
     color: #E862A1;
@@ -113,16 +116,36 @@ cq_data = [
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 cq_embeddings = model.encode([q['cq'] for q in cq_data], convert_to_tensor=True)
 
-# Logos at top right
-_, col1, col2 = st.columns([8,1,1], gap="small")
-with col1:
-    st.image("pictures/logoDatev.png", width=80)
-with col2:
-    st.image("pictures/logoDatavation.png", width=80)
+# TOP RIGHT: Logos + taglines
+col_main, col_logos = st.columns([8, 2], gap="small")
+
+with col_logos:
+    # Logos (shown using st.image for reliability)
+    logo_col1, logo_col2 = st.columns(2)
+    with logo_col1:
+        st.image("pictures/logoDatev.png", width=100)
+    with logo_col2:
+        st.image("pictures/logoDatavation.png", width=100)
+
+    # Taglines directly below logos
+    st.markdown("""
+    <div style="text-align: right; line-height: 1.3; margin-top: 0.1rem;">
+        <div style="color: #70BA30; font-size: 0.9rem; font-weight: 500;">Shaping the future.</div>
+        <div style="color: #E862A1; font-size: 0.9rem; font-weight: 500;">Together.</div>
+    </div>
+    """, unsafe_allow_html=True)
+
 
 # Title and input
 st.title("Legal Research Assistant Dashboard")
-query = st.text_input("Enter your legal question:")
+# Subtitle (short explanation)
+st.markdown("""
+<p style="font-size: 1.1rem; color: #444444; margin-top: -0.5rem; margin-bottom: 1.5rem;">
+Explore and understand complex legal documents in seconds. This dashboard lets you explore legal documents in a visual way, so you can find what matters faster and make sense of complex info more easily.
+</p>
+""", unsafe_allow_html=True)
+# Input field with placeholder text
+query = st.text_input("", placeholder="Enter your legal question or keywords here")
 
 # Function to show ontology graph
 def show_graph(ontology):
