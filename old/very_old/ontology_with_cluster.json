@@ -1,0 +1,1196 @@
+{
+  "1548765.xml": {
+    "ontology": {
+      "classes": [
+        "Urteil",
+        "Anspruch",
+        "Tatbestand",
+        "Betriebskostenabrechnung",
+        "Abrechnungsprinzip"
+      ],
+      "properties": [
+        "beinhaltet",
+        "basiert auf",
+        "betrifft",
+        "erfolgt nach",
+        "ist zulässig"
+      ],
+      "relationships": [
+        [
+          "Urteil",
+          "beinhaltet",
+          "Tatbestand"
+        ],
+        [
+          "Anspruch",
+          "basiert auf",
+          "Tatbestand"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "betrifft",
+          "Abrechnungsprinzip"
+        ],
+        [
+          "Abrechnungsprinzip",
+          "erfolgt nach",
+          "Leistungsprinzip"
+        ],
+        [
+          "Abrechnungsprinzip",
+          "erfolgt nach",
+          "Abflussprinzip"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1549417.xml": {
+    "ontology": {
+      "classes": [
+        "Revision",
+        "Berufungsgericht",
+        "Abrechnungsjahr",
+        "Abrechnung",
+        "Anspruch",
+        "Ausschlussfrist",
+        "Mieter",
+        "Vermieter",
+        "Betriebskostenabrechnung",
+        "Hausverwalter",
+        "Nachzahlungsanspruch",
+        "Frist"
+      ],
+      "properties": [
+        "beinhaltet",
+        "verliert",
+        "ist nicht prüffähig",
+        "ist verfristet",
+        "kann sich auf berufen",
+        "wahrt",
+        "ist ausgeschlossen",
+        "ist unerheblich"
+      ],
+      "relationships": [
+        [
+          "Revision",
+          "beinhaltet",
+          "Berufungsgericht"
+        ],
+        [
+          "Abrechnungsjahr",
+          "beinhaltet",
+          "Abrechnung"
+        ],
+        [
+          "Abrechnung",
+          "verliert",
+          "Anspruch"
+        ],
+        [
+          "Ausschlussfrist",
+          "kann sich auf berufen",
+          "Vermieter"
+        ],
+        [
+          "Mieter",
+          "wahrt",
+          "Frist"
+        ],
+        [
+          "Betriebskostenabrechnung",
+          "ist ausgeschlossen",
+          "Nachzahlungsanspruch"
+        ],
+        [
+          "Erklärung",
+          "ist unerheblich",
+          "Ausschluss"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1567715.xml": {
+    "ontology": {
+      "classes": [
+        "Kläger",
+        "Beklagte",
+        "Mietvertrag",
+        "Mietvertragspartei",
+        "Wohnfläche",
+        "Betriebskostenabrechnung",
+        "Mietminderung"
+      ],
+      "properties": [
+        "hatAnspruchAuf",
+        "istBerechtigtZu",
+        "betrifft",
+        "liegtVor",
+        "istVereinbartIn",
+        "beträgt"
+      ],
+      "relationships": [
+        [
+          "Kläger",
+          "hatAnspruchAuf",
+          "Zahlung der Nettokaltmiete"
+        ],
+        [
+          "Beklagte",
+          "istBerechtigtZu",
+          "Mietminderung"
+        ],
+        [
+          "Mietvertrag",
+          "betrifft",
+          "Wohnfläche"
+        ],
+        [
+          "Wohnfläche",
+          "beträgt",
+          "42,98 m"
+        ],
+        [
+          "Mietvertrag",
+          "istVereinbartIn",
+          "Mietminderung"
+        ],
+        [
+          "Mietminderung",
+          "betrifft",
+          "Wohnfläche"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1569756.xml": {
+    "ontology": {
+      "classes": [
+        "Klägerin",
+        "Beklagte",
+        "Kosten",
+        "Räumungsrechtsstreit",
+        "Kostenerstattung",
+        "Verzug",
+        "Klageerhebung",
+        "Rückgabe",
+        "Urteil",
+        "Kostenfestsetzungsbeschluss",
+        "Prozesskosten",
+        "Rechtsanwaltskosten",
+        "Verzugsschaden",
+        "Kostentragungsregelung",
+        "Prozessuales Unterliegen",
+        "Kostengerichtliche Haftung",
+        "Materiellrechtliche Rechtslage",
+        "Zahlungsaufforderung",
+        "Verzögerungsschaden"
+      ],
+      "properties": [
+        "erstattet",
+        "verursacht",
+        "basiert auf",
+        "führt zu",
+        "betrifft",
+        "folgt aus",
+        "scheitert an",
+        "erfordert",
+        "befindet sich im Verzug mit",
+        "schuldet",
+        "hat Erfolg"
+      ],
+      "relationships": [
+        [
+          "Klägerin",
+          "erstattet",
+          "Kosten"
+        ],
+        [
+          "Kosten",
+          "verursacht durch",
+          "Klägerin"
+        ],
+        [
+          "Kosten",
+          "basieren auf",
+          "Räumungsrechtsstreit"
+        ],
+        [
+          "Klägerin",
+          "erhebt Klage",
+          "Rückgabe"
+        ],
+        [
+          "Rückgabe",
+          "führt zu",
+          "Kosten"
+        ],
+        [
+          "Klägerin",
+          "hat Erfolg mit",
+          "Kostenerstattung"
+        ],
+        [
+          "Verzug",
+          "führt zu",
+          "Kosten"
+        ],
+        [
+          "Klägerin",
+          "erstattet",
+          "Prozesskosten"
+        ],
+        [
+          "Prozesskosten",
+          "basieren auf",
+          "Kostenfestsetzungsbeschluss"
+        ],
+        [
+          "Klägerin",
+          "erstattet",
+          "Rechtsanwaltskosten"
+        ],
+        [
+          "Rechtsanwaltskosten",
+          "basieren auf",
+          "Zahlungsaufforderung"
+        ],
+        [
+          "Verzug",
+          "führt zu",
+          "Verzugsschaden"
+        ],
+        [
+          "Klägerin",
+          "scheitert mit",
+          "Kostenerstattung"
+        ],
+        [
+          "Kostenerstattung",
+          "scheitert an",
+          "Kostentragungsregelung"
+        ],
+        [
+          "Kostentragungsregelung",
+          "führt zu",
+          "Prozessuales Unterliegen"
+        ],
+        [
+          "Prozessuales Unterliegen",
+          "führt zu",
+          "Kostengerichtliche Haftung"
+        ],
+        [
+          "Kostengerichtliche Haftung",
+          "basiert auf",
+          "Materiellrechtliche Rechtslage"
+        ],
+        [
+          "Klägerin",
+          "scheitert mit",
+          "Kostenerstattung"
+        ],
+        [
+          "Kostenerstattung",
+          "scheitert an",
+          "Zahlungsaufforderung"
+        ],
+        [
+          "Zahlungsaufforderung",
+          "führt zu",
+          "Verzögerungsschaden"
+        ],
+        [
+          "Verzögerungsschaden",
+          "erfordert",
+          "Zahlungsaufforderung"
+        ],
+        [
+          "Klägerin",
+          "scheitert mit",
+          "Kostenerstattung"
+        ],
+        [
+          "Kostenerstattung",
+          "scheitert an",
+          "Verzug"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1536966.xml": {
+    "ontology": {
+      "classes": [
+        "Berufungsverfahren",
+        "Berufungsgericht",
+        "Klägerin",
+        "Klagantrag",
+        "Streitgegenstand",
+        "Berufungsbegründung",
+        "Anfechtung",
+        "Entscheidung",
+        "Kosten"
+      ],
+      "properties": [
+        "beinhaltet",
+        "verwirft",
+        "betrifft",
+        "betrifft nicht",
+        "hatUmfang",
+        "wirdGerügt",
+        "wirdAufgehoben"
+      ],
+      "relationships": [
+        [
+          "Berufungsverfahren",
+          "beinhaltet",
+          "Berufungsbegründung"
+        ],
+        [
+          "Berufungsgericht",
+          "verwirft",
+          "Klägerin"
+        ],
+        [
+          "Klägerin",
+          "betrifft",
+          "Klagantrag"
+        ],
+        [
+          "Klagantrag",
+          "betrifft nicht",
+          "Streitgegenstand"
+        ],
+        [
+          "Streitgegenstand",
+          "hatUmfang",
+          "Anfechtung"
+        ],
+        [
+          "Entscheidung",
+          "wirdGerügt",
+          "false"
+        ],
+        [
+          "Entscheidung",
+          "wirdAufgehoben",
+          "true"
+        ],
+        [
+          "Kosten",
+          "betrifft",
+          "Berufungsverfahren"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1525185.xml": {
+    "ontology": {
+      "classes": [
+        "Revision",
+        "Invaliditätsentschädigung",
+        "Funktionsbeeinträchtigung",
+        "Hand",
+        "Handgelenk",
+        "Invaliditätsgrad",
+        "Versicherungsbedingungen",
+        "Versicherungsnehmer",
+        "Gliedertaxe"
+      ],
+      "properties": [
+        "begründet",
+        "steht zu",
+        "betrifft",
+        "betrachtet",
+        "führt zu",
+        "läßt",
+        "geht zu Lasten"
+      ],
+      "relationships": [
+        [
+          "Revision",
+          "begründet",
+          "Invaliditätsentschädigung"
+        ],
+        [
+          "Invaliditätsentschädigung",
+          "steht zu",
+          "Kläger"
+        ],
+        [
+          "Funktionsbeeinträchtigung",
+          "betrifft",
+          "Hand im Handgelenk"
+        ],
+        [
+          "Hand im Handgelenk",
+          "betrachtet",
+          "Invaliditätsgrad"
+        ],
+        [
+          "Versicherungsbedingungen",
+          "betrifft",
+          "Funktionsunfähigkeit einer Hand im Handgelenk"
+        ],
+        [
+          "Funktionsunfähigkeit einer Hand im Handgelenk",
+          "führt zu",
+          "Zweifel"
+        ],
+        [
+          "Zweifel",
+          "gehen zu Lasten",
+          "Verwenders"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "0960919.xml": {
+    "ontology": {
+      "classes": [
+        "Urteil",
+        "Anspruch",
+        "Tatbestand",
+        "Brand",
+        "Mieter",
+        "Vermieter",
+        "Versicherer",
+        "Regressverzicht"
+      ],
+      "properties": [
+        "beinhaltet",
+        "basiert auf",
+        "verursacht",
+        "hindert",
+        "schützt",
+        "verweist auf",
+        "beeinflusst",
+        "beeinträchtigt"
+      ],
+      "relationships": [
+        [
+          "Urteil",
+          "beinhaltet",
+          "Tatbestand"
+        ],
+        [
+          "Mieter",
+          "verursacht",
+          "Brand"
+        ],
+        [
+          "Brand",
+          "basiert auf",
+          "fahrlässiges Verhalten"
+        ],
+        [
+          "Vermieter",
+          "hat Anspruch auf",
+          "Schadensersatz"
+        ],
+        [
+          "Versicherer",
+          "schützt",
+          "Interessen von Vermieter und Mieter"
+        ],
+        [
+          "Regressverzicht",
+          "beeinträchtigt",
+          "Versicherungsschutz"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1541664.xml": {
+    "ontology": {
+      "classes": [
+        "Klage",
+        "Nachforderung",
+        "Fälligkeit",
+        "Kautionsguthaben",
+        "Betriebskostenabrechnung",
+        "Kopie"
+      ],
+      "properties": [
+        "betrifft",
+        "verhindert",
+        "verrechnet",
+        "beansprucht"
+      ],
+      "relationships": [
+        [
+          "Klage",
+          "betrifft",
+          "Nachforderung"
+        ],
+        [
+          "Fälligkeit",
+          "verhindert",
+          "Nachforderung"
+        ],
+        [
+          "Kautionsguthaben",
+          "verrechnet",
+          "Betriebskostenabrechnung"
+        ],
+        [
+          "Kopie",
+          "beansprucht",
+          "Betriebskostenabrechnung"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1570226.xml": {
+    "ontology": {
+      "classes": [
+        "Berufungsgericht",
+        "Klage",
+        "Frist",
+        "Wohnungseigentümergemeinschaft",
+        "Wohnungseigentümer",
+        "Verwalter",
+        "Klagebegründung",
+        "Rechtsstreit"
+      ],
+      "properties": [
+        "meint",
+        "ist unbegründet",
+        "wird gewahrt",
+        "ist erhoben",
+        "richtet sich gegen",
+        "stellt einen Parteiwechsel dar",
+        "ist zurückzuweisen",
+        "ist benannt",
+        "soll die Prüfung ermöglichen",
+        "genügt"
+      ],
+      "relationships": [
+        [
+          "Berufungsgericht",
+          "meint",
+          "Klage ist unbegründet"
+        ],
+        [
+          "Klage",
+          "ist erhoben",
+          "innerhalb der Frist des § 46 Abs. 1 Satz 2 WEG"
+        ],
+        [
+          "Klage",
+          "richtet sich gegen",
+          "Wohnungseigentümergemeinschaft"
+        ],
+        [
+          "Klage",
+          "stellt einen Parteiwechsel dar",
+          "nach Ablauf der Monatsfrist erfolgte Erklärung der Kläger"
+        ],
+        [
+          "Klage",
+          "wird gewahrt",
+          "innerhalb dieser Frist gegen die Wohnungseigentümergemeinschaft erhoben",
+          "sofern die Voraussetzungen des § 44 Abs. 1 Satz 1 WEG erfüllt sind"
+        ],
+        [
+          "Verwalter",
+          "ist benannt",
+          "innerhalb der Klagefrist"
+        ],
+        [
+          "Klagebegründung",
+          "soll die Prüfung ermöglichen",
+          "an wen die Klageschrift zuzustellen ist"
+        ],
+        [
+          "Klagebegründung",
+          "genügt",
+          "diesem Erfordernis"
+        ],
+        [
+          "Rechtsstreit",
+          "ist nicht zur Endentscheidung reif",
+          "es fehlen Feststellungen"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1521301.xml": {
+    "ontology": {
+      "classes": [
+        "Kaufvertrag",
+        "Wohnungseigentum",
+        "Sondereigentum",
+        "Sonnennutzungsfläche",
+        "Anfechtungserklärung",
+        "Schadensersatzanspruch",
+        "Rechtsgeschäft",
+        "Vertrag",
+        "Teilungserklärung",
+        "Grundstück",
+        "Miteigentumsanteil",
+        "Grundschuld",
+        "Partei",
+        "Urkundsnotar",
+        "Beweisnot",
+        "Ermessen",
+        "Anhörung"
+      ],
+      "properties": [
+        "beinhaltet",
+        "basiert auf",
+        "betrifft",
+        "festlegen",
+        "bezeichnen",
+        "ermitteln",
+        "begründen",
+        "erklären",
+        "abgeben",
+        "bestätigen",
+        "unterrichten",
+        "schulden",
+        "verletzen",
+        "behaupten",
+        "beantragen",
+        "erfüllen",
+        "fehlen"
+      ],
+      "relationships": [
+        [
+          "Kaufvertrag",
+          "beinhaltet",
+          "Wohnungseigentum"
+        ],
+        [
+          "Wohnungseigentum",
+          "beinhaltet",
+          "Sondereigentum"
+        ],
+        [
+          "Sondereigentum",
+          "beinhaltet",
+          "Sonnennutzungsfläche"
+        ],
+        [
+          "Anfechtungserklärung",
+          "betrifft",
+          "Kaufvertrag"
+        ],
+        [
+          "Kaufvertrag",
+          "basiert auf",
+          "Rechtsgeschäft"
+        ],
+        [
+          "Teilungserklärung",
+          "festlegen",
+          "Vertrag"
+        ],
+        [
+          "Grundstück",
+          "bezeichnen",
+          "Miteigentumsanteil"
+        ],
+        [
+          "Miteigentumsanteil",
+          "begründen",
+          "Wohnungseigentum"
+        ],
+        [
+          "Grundschuld",
+          "erklären",
+          "Partei"
+        ],
+        [
+          "Partei",
+          "abgeben",
+          "Erklärung"
+        ],
+        [
+          "Urkundsnotar",
+          "bestätigen",
+          "Partei"
+        ],
+        [
+          "Beweisnot",
+          "fehlen",
+          "Partei"
+        ],
+        [
+          "Ermessen",
+          "erfüllen",
+          "Gericht"
+        ],
+        [
+          "Anhörung",
+          "schulden",
+          "Partei"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1596648.xml": {
+    "ontology": {
+      "classes": [
+        "Mietverhältnis",
+        "Mangel",
+        "Mietminderung",
+        "Mietrückstand",
+        "Duldung",
+        "Erhaltungsmaßnahme",
+        "Schadensersatzanspruch",
+        "Kündigung",
+        "Räumungsanspruch"
+      ],
+      "properties": [
+        "beinhaltet",
+        "verhindert",
+        "beruht auf",
+        "führt zu",
+        "kann führen zu",
+        "kann nicht führen zu"
+      ],
+      "relationships": [
+        [
+          "Mietverhältnis",
+          "beinhaltet",
+          "Mangel"
+        ],
+        [
+          "Mangel",
+          "führt zu",
+          "Mietminderung"
+        ],
+        [
+          "Mietminderung",
+          "kann verhindert werden durch",
+          "Duldung"
+        ],
+        [
+          "Duldung",
+          "kann verhindert werden durch",
+          "Erhaltungsmaßnahme"
+        ],
+        [
+          "Erhaltungsmaßnahme",
+          "kann führen zu",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "kann nicht führen zu",
+          "Mietrückstand"
+        ],
+        [
+          "Mietrückstand",
+          "kann führen zu",
+          "Kündigung"
+        ],
+        [
+          "Kündigung",
+          "kann führen zu",
+          "Räumungsanspruch"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1544176.xml": {
+    "ontology": {
+      "classes": [
+        "Einspruch",
+        "Rückzahlung",
+        "Einlageverbindlichkeit",
+        "Schadensersatzanspruch"
+      ],
+      "properties": [
+        "beanstandet",
+        "hatErfüllungswirkung",
+        "stehtZuzu"
+      ],
+      "relationships": [
+        [
+          "Einspruch",
+          "beanstandet",
+          "Rückzahlung"
+        ],
+        [
+          "Rückzahlung",
+          "hatErfüllungswirkung",
+          "Einlageverbindlichkeit"
+        ],
+        [
+          "Einlageverbindlichkeit",
+          "stehtZuzu",
+          "Schadensersatzanspruch"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1590874.xml": {
+    "ontology": {
+      "classes": [
+        "Revision",
+        "Berufungsurteil",
+        "Sicherungsabrede",
+        "Anspruch",
+        "Bürgschaft",
+        "Nachtragsforderung",
+        "Klärung",
+        "Abrechnungsreife",
+        "Herausgabeanspruch",
+        "Darlegungslast",
+        "Beweislast"
+      ],
+      "properties": [
+        "führt zur Aufhebung",
+        "beinhaltet",
+        "steht aus",
+        "verhindert",
+        "beinhaltet",
+        "beinhaltet",
+        "beinhaltet",
+        "trägt",
+        "begründet",
+        "hindernd",
+        "hindernd",
+        "hindernd",
+        "sichert",
+        "beweist",
+        "darlegt"
+      ],
+      "relationships": [
+        [
+          "Revision",
+          "führt zur Aufhebung",
+          "Berufungsurteil"
+        ],
+        [
+          "Sicherungsabrede",
+          "beinhaltet",
+          "Anspruch auf Herausgabe der Bürgschaft"
+        ],
+        [
+          "Anspruch",
+          "steht aus",
+          "Sicherungsabrede"
+        ],
+        [
+          "Bürgschaft",
+          "verhindert",
+          "Behindern der Auftragsausführung"
+        ],
+        [
+          "Sicherungsabrede",
+          "beinhaltet",
+          "Stillhalteabkommen"
+        ],
+        [
+          "Stillhalteabkommen",
+          "beinhaltet",
+          "Nachtragsforderung nicht durchsetzen"
+        ],
+        [
+          "Nachtragsforderung",
+          "beinhaltet",
+          "Klärung in einem nachfolgenden Verfahren"
+        ],
+        [
+          "Abrechnungsreife",
+          "beinhaltet",
+          "Berechtigung der Nachtragsforderungen prüfen"
+        ],
+        [
+          "Herausgabeanspruch",
+          "beinhaltet",
+          "Berechtigung der Forderungen prüfen"
+        ],
+        [
+          "Darlegungslast",
+          "trägt",
+          "Klägerin"
+        ],
+        [
+          "Beweislast",
+          "begründet",
+          "rechtsbegründende Tatsachen"
+        ],
+        [
+          "Beweislast",
+          "hindernd",
+          "rechtshindernde, rechtshemmende und rechtsvernichtende Tatsachen"
+        ],
+        [
+          "Bürgschaft",
+          "sichert",
+          "Honoraranspruch"
+        ],
+        [
+          "Honoraranspruch",
+          "beweist",
+          "Beklagte"
+        ],
+        [
+          "Honoraranspruch",
+          "darlegt",
+          "Beklagte"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1526301.xml": {
+    "ontology": {
+      "classes": [
+        "Klägerin",
+        "Beklagte",
+        "Kabelnetz",
+        "Signale",
+        "Eigentum",
+        "Gewerbebetrieb",
+        "Internetzugang"
+      ],
+      "properties": [
+        "greiftInEin",
+        "beeinträchtigt",
+        "nutztGewerblich",
+        "erbringtDienstleistung",
+        "istVerpflichtetZuDulden"
+      ],
+      "relationships": [
+        [
+          "Beklagte",
+          "greiftInEin",
+          "Eigentum der Klägerin an dem Kabelnetz"
+        ],
+        [
+          "Signale",
+          "beeinträchtigen",
+          "Kabelnetz der Klägerin"
+        ],
+        [
+          "Beklagte",
+          "nutztGewerblich",
+          "Kabelnetz der Klägerin"
+        ],
+        [
+          "Klägerin",
+          "erbringtDienstleistung",
+          "Internetzugang"
+        ],
+        [
+          "Klägerin",
+          "istVerpflichtetZuDulden",
+          "Beeinträchtigung des Eigentums"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1657134.xml": {
+    "ontology": {
+      "classes": [
+        "Schadensersatzanspruch",
+        "Patent",
+        "Erfindung",
+        "Gemeinschaftsverhältnis",
+        "Vermögensnachteil",
+        "Vorteile"
+      ],
+      "properties": [
+        "beinhaltet",
+        "ziehtHer",
+        "erfolgt",
+        "schließtEin",
+        "betrifft",
+        "gestützt",
+        "setztVoraus",
+        "stehtEntgegen"
+      ],
+      "relationships": [
+        [
+          "Schadensersatzanspruch",
+          "beinhaltet",
+          "Vermögensnachteil"
+        ],
+        [
+          "Vermögensnachteil",
+          "ziehtHer",
+          "ungerechtfertigteAlleinAnmeldung"
+        ],
+        [
+          "ungerechtfertigteAlleinAnmeldung",
+          "erfolgt",
+          "formelleAlleinberechtigung"
+        ],
+        [
+          "formelleAlleinberechtigung",
+          "schließtEin",
+          "entgangenenAusgleich"
+        ],
+        [
+          "entgangenenAusgleich",
+          "betrifft",
+          "Vorteile"
+        ],
+        [
+          "Vorteile",
+          "gestützt",
+          "Schadensersatzanspruch"
+        ],
+        [
+          "Schadensersatzanspruch",
+          "setztVoraus",
+          "hinreichendeWahrscheinlichkeit"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1532441.xml": {
+    "ontology": {
+      "classes": [
+        "Revisionsbeklagter",
+        "Berufungsgericht",
+        "Klägerin",
+        "Pachtvertrag",
+        "Kündigung"
+      ],
+      "properties": [
+        "beruht auf",
+        "beendet",
+        "fortbesteht"
+      ],
+      "relationships": [
+        [
+          "Berufungsgericht",
+          "beruht auf",
+          "Kündigung"
+        ],
+        [
+          "Klägerin",
+          "fortbesteht",
+          "Pachtvertrag"
+        ],
+        [
+          "Pachtvertrag",
+          "beendet",
+          "Kündigung"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1568706.xml": {
+    "ontology": {
+      "classes": [
+        "Urteil",
+        "Anspruch",
+        "Freistellungserklärung",
+        "Schaden",
+        "Prozessführung",
+        "Verpflichtung"
+      ],
+      "properties": [
+        "beinhaltet",
+        "basiert auf",
+        "verursacht",
+        "verpflichtet zum"
+      ],
+      "relationships": [
+        [
+          "Urteil",
+          "beinhaltet",
+          "Freistellungserklärung"
+        ],
+        [
+          "Freistellungserklärung",
+          "basiert auf",
+          "Verpflichtung"
+        ],
+        [
+          "Verpflichtung",
+          "verursacht",
+          "Schaden"
+        ],
+        [
+          "Schaden",
+          "verursacht durch",
+          "Prozessführung"
+        ]
+      ]
+    },
+    "competency_question": null
+  },
+  "1535555.xml": {
+    "ontology": {
+      "classes": [
+        "Heimbewohner",
+        "Pflegepersonal",
+        "Pflegeheim",
+        "Sicherungsmaßnahmen",
+        "Sturz",
+        "Verletzung",
+        "Bett",
+        "Hüftschutzhosen"
+      ],
+      "properties": [
+        "hatObhutspflicht",
+        "hatVerkehrssicherungspflicht",
+        "drohtGefahr",
+        "kannVerhindern",
+        "istSchuldhaft",
+        "istHinreichendSubstantiiert",
+        "kannVerhindern"
+      ],
+      "relationships": [
+        [
+          "Pflegepersonal",
+          "hatObhutspflicht",
+          "Heimbewohner"
+        ],
+        [
+          "Pflegeheim",
+          "hatVerkehrssicherungspflicht",
+          "Heimbewohner"
+        ],
+        [
+          "Sturz",
+          "drohtGefahr",
+          "Verletzung"
+        ],
+        [
+          "Sicherungsmaßnahmen",
+          "kannVerhindern",
+          "Sturz"
+        ],
+        [
+          "Pflegepersonal",
+          "istSchuldhaft",
+          "Verletzung"
+        ],
+        [
+          "Hüftschutzhosen",
+          "istHinreichendSubstantiiert",
+          "kannVerhindern"
+        ],
+        [
+          "Pflegeheim",
+          "kannVerhindern",
+          "Verletzung"
+        ]
+      ]
+    },
+    "competency_question": null
+  }
+}

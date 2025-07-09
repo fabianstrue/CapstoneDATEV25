@@ -1,0 +1,2312 @@
+digraph {
+	AGBG
+	Abmahnung
+	Abnahme
+	Abordnung
+	Abrechnung
+	Absicht
+	Abtretungsklausel
+	Aktiengesellschaft
+	"Aktienverkäufer"
+	"AllgemeineGeschäftsbedingungen"
+	Altersversorgung
+	Altleitung
+	Anbieter
+	Anfechtung
+	Anklageschrift
+	Anlage
+	Anleger
+	Anlegervertrag
+	Annullierung
+	Anschlussnehmer
+	Anspruch
+	Anwalt
+	Arbeitnehmer
+	Arbeitsrecht
+	Arbeitsunfall
+	"Arbeitsunfähigkeit"
+	Arbeitsvertrag
+	Arbeitszeit
+	Architekt
+	Arglist
+	"ArglistigeTäuschung"
+	Artikel
+	Arzt
+	Aufgabe
+	Aufhebung
+	"Aufklärung"
+	"Aufklärungspflicht"
+	"Aufklärungsversäumnis"
+	Auflage
+	Aufrechnung
+	Aufsichtsrat
+	Aufstellung
+	Ausgleichsanspruch
+	"Auskunfts- und Aufklärungsobliegenheit"
+	Auskunftserteilung
+	Auskunftspflicht
+	Auslegung
+	BGB
+	Bahnstrecke
+	Bauantrag
+	Bauaufsicht
+	Baugenehmigung
+	Bauherr
+	Baukostenzuschuss
+	Bauleistung
+	Bauvorhaben
+	Bauwerk
+	Bedingung
+	Bedingungen
+	Beeinflussen
+	"Beeinträchtigung"
+	Befugnis
+	Begriff
+	"Begründung"
+	"Beherrschungs- und Gewinnabführungsvertrag"
+	Beklagter
+	Benachteiligung
+	Beratung
+	Berechtigung
+	Berufung
+	Berufungsgericht
+	Berufungsurteil
+	Beschaffenheit
+	Beschluss
+	Beschlussfassung
+	Beschreibung
+	Beschwerde
+	Beseitigung
+	Besteller
+	Beteiligter
+	Betriebskosten
+	Betriebskostenabrechnung
+	Beweis
+	Beweislast
+	Beziehung
+	Bonuspunkte
+	Branchenzuschlag
+	"Bußgeld"
+	"Bürgerliches Gesetzbuch"
+	"BürgerlichesRecht"
+	Culpa
+	Darlehen
+	"Dauerschuldverhältnis"
+	Disziplinarrechtsordnung
+	Disziplinarstrafe
+	"Drittbegünstigter"
+	Drittem
+	Dritter
+	Drittschuldner
+	Drohung
+	Durchsetzbarkeit
+	"Ehrenrührige Äußerung"
+	Eigentumsrecht
+	"Eigentumsverhältnis"
+	"Eigentumsübertragung"
+	"Eigentümer"
+	Einhaltung
+	"Einschränkungsfreiheit"
+	Einstandspflicht
+	Einwendung
+	Einwilligung
+	Eisenbahninfrastrukturunternehmen
+	Eisenbahnverkehrsunternehmen
+	Enteignungsangelegenheiten
+	Entscheidung
+	Entscheidungsgremium
+	"Entschädigung"
+	Erprobung
+	"Erstattungsfähigkeit"
+	Erweiterung
+	"Fahrlässigkeit"
+	Fall
+	Flug
+	Fluggast
+	Fondsbeteiligung
+	Forderung
+	"Formbedürftigkeit"
+	Formmangel
+	Frachtaufgabe
+	"Frachtführerdienstleistung"
+	Freiheitsstrafe
+	Frist
+	Fristen
+	Fristsetzung
+	Garantiebedingung
+	Gebrauch
+	Gebrauchstauglichkeit
+	Gebrechen
+	"Gebühr"
+	Gefahr
+	Geld
+	"Geldbuße"
+	Geldleistung
+	Geldstrafe
+	"Gemeindliche Verordnung"
+	GemeinschaftlichesEigentum
+	Gemeinschaftseigentum
+	Gemeinwohlinteresse
+	Genehmigung
+	Genossenschaft
+	Gericht
+	GerichtlicheGeltendmachung
+	GerichtlichesEntscheidung
+	GerichtlichesVerfahren
+	Gerichtskosten
+	Gerichtsverfahren
+	"Geräuschemission"
+	"Geschädigter"
+	"Geschäft"
+	"Geschäftsbedingungen"
+	"Geschäftsbesorgung"
+	"Geschäftsbesorgungsvertrag"
+	"Geschäftsführer"
+	"Geschäftsführervertrag"
+	"Geschäftsführung"
+	"Geschäftstätigkeit"
+	Gesellschaft
+	"GesellschaftBürgerlichenRechts"
+	Gesellschafter
+	Gesellschafterversammlung
+	Gesellschaftsanteile
+	Gesellschaftsrecht
+	Gesetz
+	"Gesetzliche Vorschrift"
+	GesetzlicheKrankenversicherung
+	"GesetzlicheRepräsentanz"
+	GesetzlicheVerpflichtung
+	Gesetzliche_Vorschriften
+	GesetzlichesVerbot
+	Gestattungsleistung
+	"Gesundheitsbeeinträchtigung"
+	"Gläubiger"
+	GmbH
+	Grenze
+	Grundbuch
+	Grundbuchamt
+	"Grundstück"
+	"Grundstückseigentümer"
+	Gut
+	"Gute Sitten"
+	"Gültigkeit"
+	HOAI
+	Haftpflicht
+	Haftpflichtanspruch
+	Haftung
+	Haftungsausschluss
+	"Haftungsbeschränkung"
+	Haftungsgrund
+	Haftungsvorschrift
+	"Handelsgeschäft"
+	Handlung
+	Heimaufenthalt
+	Heimaufenthaltkosten
+	Hemmnis
+	Hemmung
+	Herausgabe
+	Hersteller
+	Hilfsperson
+	"Hinauskündigungsklausel"
+	Hinterlegung
+	Hinweispflicht
+	Honorar
+	Honoraranspruch
+	Honorarvereinbarung
+	Immissionsschutzrecht
+	InfrageStellen
+	Inhaber
+	"InhaltlicheMängel"
+	Innenausgleich
+	Innengesellschaft
+	Insolvenzverfahren
+	Interessenlage
+	InternationalesPrivatrecht
+	Involvierter
+	"Irreführung"
+	Irrtum
+	Kabelnetzbetreiber
+	Kaufrecht
+	Kaufsache
+	Kaufvertrag
+	"Kausalität"
+	"Kausalitätsbeweis"
+	Kaution
+	Kenntnis
+	Kennzeichnung
+	Klage
+	Klageschrift
+	Klausel
+	"Kläger"
+	Kommanditgesellschaft
+	Kommunikation
+	"Komplementär-GmbH"
+	Kontext
+	Kosten
+	"Kostenabrechnungsgrundsätze"
+	Kostenabrechnungsmethode
+	"Kostenabrechnungsmodalitäten"
+	Kostenabrechnungsperiode
+	Kostenabrechnungsprinzip
+	Kostenabrechnungsrecht
+	Kostenabrechnungszeitraum
+	Kostenangabe
+	Kostenart
+	Kostenerstattung
+	Kostenposition
+	Kostenstaffel
+	Kostenverteilung
+	"Kostenverteilungsschlüssel"
+	Krankenversicherung
+	Krankheit
+	Kunde
+	"Käufer"
+	"Kündigung"
+	"Kündigungsausschluss"
+	"Kündigungsgrund"
+	"Kündigungsrecht"
+	"Kündigungsschutz"
+	"KünstlicheBefruchtung"
+	"LadungsfähigeAnschrift"
+	Lageplan
+	Leistung
+	Leistungsfreiheit
+	Leistungspflicht
+	"Leistungsstörung"
+	LexSpecialis
+	Lieferant
+	Luftfahrtunternehmen
+	Makler
+	Maklervertrag
+	Mandant
+	Mangel
+	MateriellesRecht
+	"Maßnahme"
+	"Maßnahmen"
+	MedizinischNotwendigeHeilbehandlung
+	Mehrfachversicherung
+	Mehrheitsentscheidung
+	Mietdauer
+	Miete
+	Mieter
+	"Mieterhöhung"
+	"Mieterhöhungsverlangen"
+	"Miethöhung"
+	Mietkaution
+	Mietminderung
+	Mietobjekt
+	Mietobjektbesichtigung
+	Mietobjektzustand
+	Mietpreisbremse
+	Mietrechtsreform
+	"Mietrechtsänderung"
+	"Mietrückgabe"
+	"Mietrückstand"
+	Mietsache
+	Mietspiegel
+	"Mietverhältnis"
+	Mietvertrag
+	Mietwagen
+	Mietzahlung
+	Mietzins
+	Mindestangaben
+	Mindestlohn
+	Mitglied
+	Mitverschulden
+	"Modernisierungsmaßnahme"
+	"Mängelbeseitigungskosten"
+	Nachbarrecht
+	NachbarrechtlicherAusgleichsanspruch
+	Nachbesserung
+	Nachbesserungsarbeit
+	Nachtruhe
+	Nachweis
+	Netznutzer
+	Netzsicherheit
+	Neulieferung
+	Neuvermietung
+	"Nichterfüllung"
+	Nichtigkeitsklage
+	Nutzung
+	"Nutzungsentschädigung"
+	Oberlandesgericht
+	Obliegenheit
+	OptionaleVersicherung
+	Ordnungsmittel
+	Pacht
+	"Parität"
+	Partei
+	Parteien
+	Parteienautonomie
+	Parteienwille
+	Partnerschaftsvermittlungsvertrag
+	Passivlegitimationsmangel
+	Patent
+	Patient
+	Pauschale
+	Pauschalpreis
+	Pauschalpreisvertrag
+	Person
+	Personengesellschaft
+	Pflicht
+	Pflichten
+	Pflichtenkreis
+	Pflichtverletzung
+	"Pfändung"
+	Planungsleistung
+	Planunterlage
+	Praxis
+	"Presse- und Medienrecht"
+	Produkt
+	Produkthaftungsrecht
+	Prospekt
+	Prospekterstattung
+	Provisionsanspruch
+	Prozess
+	"Prozessfähigkeit"
+	Prozessparteien
+	Prozessrecht
+	"Prozessunfähigkeit"
+	Prozessunterlassen
+	Prozessvergleich
+	"Prämie"
+	"Prüfung"
+	Publikum
+	Rechnung
+	Recht
+	Rechte
+	Rechtfolge
+	"Rechtliche Folge"
+	RechtlicheBedeutung
+	RechtlicheBeziehung
+	RechtlicheFolgen
+	RechtlicheHandlung
+	RechtlicheKonsequenz
+	"RechtlicheVerhältnisse"
+	Rechtsanwalt
+	Rechtsbegriff
+	Rechtsbehelf
+	Rechtsberatung
+	Rechtsbeziehung
+	Rechtsdurchsetzung
+	Rechtsfehler
+	Rechtsfolge
+	Rechtsform
+	"Rechtsfähigkeit"
+	"Rechtsgeschäft"
+	"Rechtsgeschäftsfähigkeit"
+	Rechtsgrund
+	Rechtsgrundlage
+	Rechtsgrundsatz
+	"Rechtshängigkeit"
+	Rechtskraft
+	Rechtsmittel
+	Rechtsnorm
+	Rechtsordnung
+	Rechtsperson
+	Rechtspflicht
+	Rechtsstreit
+	Rechtsverfolgungskosten
+	"Rechtsverhältnis"
+	Rechtsverletzung
+	Rechtsverteidigungskosten
+	Rechtsvertreter
+	Rechtsvorschrift
+	Rechtsvorschriften
+	Rechtsweg
+	Rechtswidrigkeit
+	Reise
+	Reiseleistung
+	Reisende
+	Reisender
+	Reiseveranstalter
+	Reiseverhinderung
+	Reisevertrag
+	Reisezeitpunkt
+	RelevantePerson
+	Renovierung
+	Rentenversicherung
+	Revision
+	Revisionsgrund
+	Revisionsverfahren
+	Rezipient
+	Richter
+	Richtlinie
+	Risiko
+	Risikobereitschaft
+	"Räumung"
+	"Räumungsverpflichtung"
+	"Rückauflassung"
+	"Rückgabe"
+	"RückgabeVerzögerung"
+	"Rückgabezustand"
+	"Rückstand"
+	"Rückstellung"
+	"Rücktritt"
+	"Rückweisung"
+	"Rückzahlungsanspruch"
+	Sache
+	Sachenscheidung
+	Sachverhalt
+	"Sachverständigengutachten"
+	"Sachverständigenkosten"
+	Satire
+	Satzung
+	Schaden
+	Schadensereignis
+	Schadensersatz
+	Schadensersatzanspruch
+	Schadensersatzart
+	Schadensersatzberechtigter
+	Schadensersatzpflicht
+	Schadensersatzpflichtiger
+	Schadensersatzrecht
+	Schadensersatzregelung
+	Schadensersatzverpflichteter
+	Schadensersatzverpflichtung
+	Schadensfall
+	"Schadenshöhe"
+	Schenkung
+	Schlichtungsabkommen
+	Schlichtungsurteil
+	Schlichtungsvereinbarung
+	Schlichtungsverfahren
+	Schriftform
+	"Schriftstück"
+	Schuld
+	Schuldner
+	Schutz
+	"Schutzbedürfnis"
+	"Schutzbedürftigkeit"
+	Schutzbereich
+	Schutzobjekt
+	Schutzpflicht
+	Schutzpflichtige
+	Schutzpflichtiger
+	Schutzrecht
+	Schutzverletzter
+	Schutzverletzungsfolge
+	Schutzverletzungstatbestand
+	Schutzverletzungstatbestandsverwirklicher
+	Schutzverletzungsursache
+	Schutzverpflichteter
+	"Schädiger"
+	"Schädigung"
+	"Schönheitsreparaturen"
+	Selbstnutzung
+	"SelbständigerBerufstätiger"
+	Sicherungsrecht
+	Signale
+	Sittenwidrigkeit
+	Sondereigentum
+	"Sonderkündigungsrecht"
+	Sozialpartner
+	Sozialversicherung
+	"Sozietätsvertrag"
+	Staat
+	"Stammkapitalerhöhung"
+	"Strafbare Beleidigung"
+	Strafe
+	Strafprozessrecht
+	Strafrecht
+	StrafrechtlicheVerfolgung
+	Streitpartei
+	Streitschlichtung
+	"Subsidiaritätsklausel"
+	Tarifvertrag
+	Tatsachenfeststellung
+	Teilleistung
+	"Teilvergütung"
+	"ThailändischesRecht"
+	Transport
+	Treuepflicht
+	"Täuschung"
+	"Täuschungsabsicht"
+	Umstand
+	UnerlaubteHandlung
+	Unfallereignis
+	"Ungerechtfertigte Injury"
+	UngerechtfertigteBereicherung
+	Ungewissheit
+	"Uniwagnis-Datei"
+	"Unmöglichkeit"
+	"Unseriösität"
+	Unterbeteiligung
+	Unterbrechung
+	Unternehmen
+	Unternehmer
+	Untervermietung
+	Unwirksamkeit
+	Unwissenheit
+	Urkunde
+	Urteilszustellung
+	Verantwortlicher
+	Verantwortlichkeit
+	Verantwortung
+	Verbandsorgan
+	Verbandsorganmitglied
+	Verbandsrechtsordnung
+	Verbandsstrafe
+	Verbindlichkeit
+	Verbraucher
+	Vereinbarung
+	Verfahrensbeteiligte
+	Verfahrensbeteiligter
+	Verfahrensfehler
+	Verfahrenshindernis
+	Verfahrenskosten
+	Verfahrensrecht
+	Vergleichsabschluss
+	"Vergütung"
+	Verhandlung
+	"Verjährung"
+	"Verjährungsbeginn"
+	"Verjährungsfrist"
+	"Verjährungsgrund"
+	"Verjährungshemmung"
+	"Verjährungshemmungsgrund"
+	"Verjährungsunterbrechung"
+	"Verjährungsunterbrechungsgrund"
+	"Verjährungsverlängerung"
+	Verkehrsmittel
+	Verkehrssicherheit
+	"Verkäufer"
+	Verletzung
+	Verletzungspflicht
+	"Verlängerung"
+	Vermessungsaufgabe
+	"Vermessungsbehörde"
+	Vermessungsrecht
+	Vermieter
+	Vermieterin
+	Vermietung
+	"Vermittlungsgeschäft"
+	"Vermögensbetreuungspflicht"
+	Verpflichteter
+	Verpflichtung
+	Versammlungsleiter
+	Verschulden
+	Versicherer
+	Versicherter
+	Versicherung
+	Versicherungsanspruch
+	Versicherungsdeckung
+	Versicherungsfall
+	Versicherungsfallrisiko
+	"Versicherungsfälligkeit"
+	Versicherungsgesellschaft
+	Versicherungsleistung
+	Versicherungsleistungsanspruch
+	Versicherungsleistungspflicht
+	Versicherungsmakler
+	Versicherungsnehmer
+	Versicherungspflicht
+	"Versicherungsprämie"
+	Versicherungsrecht
+	Versicherungsrisiko
+	Versicherungssumme
+	Versicherungsvertrag
+	Versicherungsvertragsbedingungen
+	Versicherungsvertragsbeginn
+	Versicherungsvertragsende
+	Versicherungsvertragsrecht
+	"Verstoß"
+	"Verständnis"
+	Vertrag
+	VertraglicheVereinbarung
+	VertraglicheVerpflichtung
+	Vertragsabschluss
+	Vertragsaufhebung
+	"Vertragsauflösung"
+	Vertragsauslegung
+	Vertragsbedingungen
+	Vertragsbedingungenauslegung
+	Vertragsbedingungeninterpretation
+	"Vertragsbedingungenänderung"
+	Vertragsbeendigung
+	Vertragsbeginn
+	Vertragsbeziehung
+	Vertragsbruch
+	Vertragsdauer
+	Vertragsende
+	"Vertragserfüllung"
+	"Vertragserklärung"
+	Vertragsgegenstand
+	"Vertragshändler"
+	"Vertragshändlervertrag"
+	Vertragsinhalt
+	Vertragsinterpretation
+	Vertragsklausel
+	Vertragsleistung
+	Vertragspartei
+	Vertragspartner
+	Vertragspflicht
+	Vertragsrecht
+	Vertragsstrafe
+	Vertragsstrafenregelung
+	Vertragsstrafpflicht
+	Vertragstext
+	Vertragsverletzung
+	Vertragszweck
+	"Vertragsänderung"
+	"Vertragsübernahme"
+	Vertrauensgrundlage
+	Vertreter
+	Vertretung
+	Verursacher
+	Verursachung
+	Verwalter
+	Verwaltung
+	Verwaltungsrat
+	Verwender
+	Verwendung
+	Verwirkung
+	Verzug
+	Verzugsschaden
+	"Verzögerungsdauer"
+	Voraussetzung
+	Voraussetzungen
+	Vorsatz
+	Vorschrift
+	Vorsichtspflichtverletzung
+	Vorteil
+	Wahlleistung
+	Wahlleistungsvereinbarung
+	Wandlung
+	Wartungspflicht
+	Wasserleitungsnetz
+	Wasserversorgungsunternehmen
+	Werk
+	Werkleistung
+	Werklohnforderung
+	Werkvertrag
+	"Wesentliche Vertragsverletzung"
+	Widerruf
+	Widerrufsbelehrung
+	Widerrufsfrist
+	Widerrufsgrund
+	"Widerrufsgründe"
+	Widerrufsjoker
+	Widerrufsrecht
+	"Widerrufsrechtausübung"
+	Wille
+	Wirksamkeit
+	Wirksamkeitsvoraussetzung
+	Wirkung
+	Wohnungseigentum
+	Wohnungseigentumsrecht
+	"Wohnungseigentümer"
+	"Wohnungseigentümergemeinschaft"
+	"Wohnungseigentümerversammlung"
+	Zahlung
+	Zahlungsklage
+	"Zahlungsmodalität"
+	Zeit
+	ZeitlicherVerlauf
+	Zeitpunkt
+	Zeitraum
+	Zivilprozessrecht
+	Zivilrecht
+	ZivilrechtlicheVerfolgung
+	Zurechnung
+	Zusammenarbeit
+	"Zusammenstoß"
+	Zustand
+	Zustellung
+	Zustimmung
+	"Zuständigkeit"
+	"Zwangsmaßnahme"
+	"§ 2 HPflG"
+	"§ 814 BGB"
+	"§89bHGB"
+	"Änderung"
+	"Äußerung"
+	"ÖffentlichBestellterVermessungsingenieur"
+	"ÖffentlicheFördermittel"
+	"ÖffentlichesVermessungswesen"
+	"Überprüfung"
+	"Überschussbeteiligung"
+	"Überschussverteilung"
+	AbgeordnetRichter -> Recht [label=hatRechtAuf]
+	Abnahme -> Gebrauch [label=istWirksam]
+	Abrechnung -> Leistung [label=beinhaltet]
+	Abrechnung -> Vertrag [label=betrifft]
+	Abrechnung -> Teilleistung [label=entsprichtAnforderungen]
+	Abrechnung -> Rechtfolge [label="führtZu"]
+	Abrechnung -> Rechtsfolge [label=hatRechtswirkung]
+	Abrechnung -> Gesetz [label=istGegenstandVon]
+	Abrechnung -> Recht [label=regelt]
+	Abrechnung -> Rechtsfolge [label=trittEin]
+	Absicht -> Annullierung [label=betrifftAufhebbarkeit]
+	Absicht -> Widerruf [label=betrifftAufhebbarkeit]
+	Abtretungsklausel -> "Gültigkeit" [label="führtZu"]
+	Abtretungsklausel -> keineRechte [label=istUnwirksam]
+	Abtretungsklausel -> Vertrag [label=istWirksam]
+	Aktiengesellschaft -> Risiko [label=hat]
+	Aktiengesellschaft -> "Unseriösität" [label=hat]
+	"Aktienverkäufer" -> Anleger [label=informiert]
+	"Aktienverkäufer" -> Anleger [label=verpflichtet]
+	"Aktienverkäufer" -> "Schädigung" [label=verursacht]
+	"Aktienverkäufer" -> "Täuschung" [label=verursacht]
+	"AllgemeineGeschäftsbedingungen" -> Klausel [label="enthält"]
+	"AllgemeineGeschäftsbedingungen" -> Reisevertrag [label="genügt"]
+	Altersversorgung -> Rechtsfolge [label="führtZu"]
+	Anfechtung -> Mangel [label=basiertAuf]
+	Anfechtung -> "Täuschung" [label=basiertAuf]
+	Anfechtung -> Recht [label="führtZu"]
+	Anfechtung -> Rechtsfolge [label=hatRechtsfolge]
+	Anfechtung -> Vertrag [label=hatRechtsgrund]
+	Anklageschrift -> "Verjährung" [label=betrifft]
+	Anleger -> Risikobereitschaft [label=hat]
+	Anleger -> Recht [label=hatRechte]
+	Anleger -> "Schädigung" [label=vermeidet]
+	Anleger -> "Täuschung" [label=vermeidet]
+	Annulation -> Reiseleistung [label=betrifft]
+	Annulation -> Recht [label="führtZu"]
+	Annullierung -> Flug [label=betrifft]
+	Anspruch -> Vertrag [label=basiertAuf]
+	Anspruch -> Auskunftserteilung [label=betrifft]
+	Anspruch -> "Geschäftsbesorgung" [label=betrifft]
+	Anspruch -> Gesetz [label=betrifft]
+	Anspruch -> "Gläubiger" [label=betrifft]
+	Anspruch -> Kaufrecht [label=betrifft]
+	Anspruch -> "Rechtsgeschäft" [label=betrifft]
+	Anspruch -> Schadensersatz [label=betrifft]
+	Anspruch -> Schuldner [label=betrifft]
+	Anspruch -> "Verjährung" [label=betrifft]
+	Anspruch -> Vertrag [label=betrifft]
+	Anspruch -> Hemmung [label=gehemmt]
+	Anspruch -> Rechtsstreit [label=kannGeltendGemachtSein]
+	Anspruch -> Frist [label="verjährt"]
+	Anspruch -> Verletzung [label=wirdGeltendGemacht]
+	Anspruch -> Berechtigung [label=wirdGeltendGemachtVon]
+	Anwalt -> Widerruf [label="wirdDurchgeführt"]
+	Arbeitnehmer -> Pflichten [label=verletzt]
+	Arbeitsunfall -> "für Arbeitnehmer und Arbeitgeber" [label=hatRechtlicheFolgen]
+	Arbeitsunfall -> "Fahrlässigkeit" [label="istFahrlässig"]
+	Arbeitsunfall -> Unwissenheit [label=istUnwissentlich]
+	Arbeitsunfall -> Vorsatz [label="istVorsätzlich"]
+	Arbeitsunfall -> "Rechtsverhältnis" [label=kannEntstehenIn]
+	Arbeitsunfall -> "unter bestimmten Voraussetzungen" [label=trittEin]
+	"Arbeitsunfähigkeit" -> "SelbständigerBerufstätiger" [label=betrifft]
+	Arbeitsvertrag -> Arbeitszeit [label=istAnwendbar]
+	Arbeitsvertrag -> "Vergütung" [label=regelt]
+	Architekt -> Bauaufsicht [label=beauftragt]
+	Architekt -> Planungsleistung [label=erbringt]
+	Arglist -> Schadensersatzanspruch [label=vorliegt]
+	"ArglistigeTäuschung" -> Vertrauensgrundlage [label=betrifft]
+	"ArglistigeTäuschung" -> "Irreführung" [label="führtZu"]
+	"ArglistigeTäuschung" -> "Täuschungsabsicht" [label=hatAbsicht]
+	"ArglistigeTäuschung" -> Kontext [label=istEntstandenIn]
+	"ArglistigeTäuschung" -> "Verständnis" [label=istEntstandenIn]
+	"ArglistigeTäuschung" -> Beweislast [label=istVerteiltAuf]
+	Artikel -> Voraussetzung [label=beziehtSichAuf]
+	Artikel -> Einhaltung [label=erfordert]
+	Arzt -> Abrechnung [label=hatPflicht]
+	Arzt -> Leistung [label="istZuständigFür"]
+	Aufhebung -> Rechtsgrundlage [label=basiertAuf]
+	Aufhebung -> Verhandlung [label="führtZu"]
+	"Aufklärung" -> Kunde [label=betrifft]
+	Aufrechnung -> Rechtsfolge [label=hatRechtsfolge]
+	Aufrechnung -> Rechtsbeziehung [label=kannWirksamSein]
+	Aufsichtsrat -> "Stammkapitalerhöhung" [label=betrifftIn]
+	Ausgleichsanspruch -> "§89bHGB" [label=basiertAuf]
+	Auskunftserteilung -> Schadensersatz [label="schütztVor"]
+	Auslegung -> Umstand [label="berücksichtigt"]
+	Bahnstrecke -> Verkehrssicherheit [label=betrifft]
+	Bauantrag -> Kostenangabe [label="enthält"]
+	Bauaufsicht -> Bauwerk [label=hatBauaufsicht]
+	Bauaufsicht -> Bauwerk [label=hatVerpflichtung]
+	Bauaufsicht -> Vertrag [label=istVerpflichtet]
+	Bauaufsicht -> Pflicht [label=stehtUnter]
+	Baugenehmigung -> Bauvorhaben [label="istVorgesehenFür"]
+	Baukostenzuschuss -> Anschlussnehmer [label=betrifft]
+	Baukostenzuschuss -> "Eigentumsverhältnis" [label=hatRechtlicheKonsequenzen]
+	Baukostenzuschuss -> "Gemeindliche Verordnung" [label=istGegenstandVon]
+	Baukostenzuschuss -> Wasserleitungsnetz [label=istIntegriertIn]
+	Bauleistung -> Architekt [label=betrifft]
+	Bauleistung -> Bauherr [label=betrifft]
+	Bauwerk -> Bauherr [label=betrifft]
+	Beeinflussen -> Beziehung [label=beinhaltet]
+	"Beeinträchtigung" -> Schadensersatzpflicht [label=istSchadensersatzpflichtig]
+	Befugnis -> "Entschädigung" [label=betrifft]
+	Befugnis -> "Gebühr" [label=betrifft]
+	"Beherrschungs- und Gewinnabführungsvertrag" -> Vertragsinhalt [label=beinhaltet]
+	Beklagter -> Leistung [label=verweigert]
+	Benachteiligung -> Rechtsfolge [label="führtZu"]
+	Beratung -> Kunde [label=betrifft]
+	Berufungsgericht -> Verfahrensrecht [label=betrifftRechtsgebiet]
+	Berufungsgericht -> Berufungsurteil [label=mussVornehmen]
+	Berufungsurteil -> Tatsachenfeststellung [label=betrifft]
+	Berufungsurteil -> "Verjährung" [label=betrifft]
+	Berufungsurteil -> Revision [label="führtZu"]
+	Berufungsurteil -> Aufhebung [label=kannAufgehobenWerden]
+	Beschluss -> Vorteil [label=istAngemessen]
+	Beschluss -> "Wohnungseigentümer" [label="istÜberraschend"]
+	Beschlussfassung -> "Wohnungseigentümer" [label=betrifft]
+	Beschlussfassung -> Versammlungsleiter [label=leitend]
+	Beschreibung -> Zustand [label=bezeichnet]
+	Beseitigung -> Verpflichtung [label=verpflichtet]
+	Besteller -> Schadensersatzanspruch [label="geltend machen"]
+	Besteller -> Nacherfullung [label=hatRechtAuf]
+	Besteller -> Schadensersatz [label=hatRechtAuf]
+	Besteller -> Werk [label=hatRechtAuf]
+	Beteiligter -> Befugnis [label=hat]
+	Beteiligter -> Pflicht [label=hatRechteUndPflichten]
+	Beteiligter -> Recht [label=hatRechteUndPflichten]
+	Betriebskostenabrechnung -> Kostenabrechnungsmethode [label=bestimmt]
+	Betriebskostenabrechnung -> Kostenabrechnungsprinzip [label=bestimmt]
+	Betriebskostenabrechnung -> Gemeinschaftseigentum [label=betrifft]
+	Betriebskostenabrechnung -> Kostenabrechnungsperiode [label=betrifft]
+	Betriebskostenabrechnung -> Kostenabrechnungszeitraum [label=betrifft]
+	Betriebskostenabrechnung -> "Mietverhältnis" [label=betrifft]
+	Betriebskostenabrechnung -> Wohnungseigentum [label=betrifft]
+	Betriebskostenabrechnung -> Kostenangabe [label="enthält"]
+	Betriebskostenabrechnung -> "Kostenabrechnungsgrundsätze" [label=festlegt]
+	Betriebskostenabrechnung -> "Kostenabrechnungsmodalitäten" [label=festlegt]
+	Betriebskostenabrechnung -> Kostenabrechnungsrecht [label="geregelt durch"]
+	Betriebskostenabrechnung -> Kostenabrechnungsrecht [label=unterliegt]
+	Branchenzuschlag -> "Vergütung" [label=betrifft]
+	"Bußgeld" -> "einen bestimmten Betrag" [label="beträgt"]
+	"BürgerlichesRecht" -> Vertrag [label=basiertAuf]
+	Culpa -> Schaden [label="istUrsächlich"]
+	Darlehen -> "Rechtsverhältnis" [label=kannEntstehenIn]
+	"Dauerschuldverhältnis" -> "Rechtsverhältnis" [label=kannEntstehenIn]
+	Disziplinarstrafe -> Gesetz [label=basiertAuf]
+	Disziplinarstrafe -> Vertrag [label=basiertAuf]
+	Disziplinarstrafe -> Mitglied [label="kannVerhängtWerden"]
+	Disziplinarstrafe -> Rechtsfolge [label=regelt]
+	Drittem -> Schadensersatzpflicht [label=kannGeltendMachen]
+	Dritter -> Recht [label="beeinträchtigt"]
+	Dritter -> Mietvertrag [label=betrifft]
+	Dritter -> Nachbarrecht [label=betrifftAlsDritter]
+	Dritter -> Recht [label=verletzt]
+	Drittschuldner -> "Pfändung" [label=bezahlt]
+	Drittschuldner -> "Rückzahlung" [label=verlangen]
+	Eigentumsrecht -> "Grundstück" [label=betrifft]
+	"Eigentumsverhältnis" -> Altleitung [label=betrifft]
+	"Eigentumsübertragung" -> Grundbuch [label=istImGrundbuchEingetragen]
+	"Eigentümer" -> "Grundstück" [label=besitzt]
+	"Eigentümer" -> "Grundstück" [label=besitztRechtAn]
+	"Eigentümer" -> Abnahme [label="erklären"]
+	"Eigentümer" -> GemeinschaftlichesEigentum [label=gestaltet]
+	"Eigentümer" -> "Eigentumsübertragung" [label="istEigentümerVon"]
+	"Eigentümer" -> Schadensersatz [label=istPflichtig]
+	"Eigentümer" -> Schadensersatzpflicht [label=istSchuldnerVon]
+	"Eigentümer" -> Schadensersatzpflicht [label="istVerantwortlichFür"]
+	"Eigentümer" -> Recht [label=kannDurchsetzen]
+	"Eigentümer" -> Sachenscheidung [label=kannGeltendMachen]
+	"Eigentümer" -> Schadensersatz [label=kannGeltendMachen]
+	"Eigentümer" -> Grundbuch [label="korrigiertEigentumsübertragung"]
+	"Eigentümer" -> "Rückauflassung" [label="verlangtRückauflassung"]
+	Einhaltung -> Bedingung [label=wirdEingehalt]
+	Einstandspflicht -> Leistungspflicht [label=beeinflusst]
+	Eisenbahninfrastrukturunternehmen -> Verkehrssicherheit [label="gewährleistet"]
+	Eisenbahninfrastrukturunternehmen -> Verkehrssicherheit [label=verpflichtet]
+	Eisenbahnverkehrsunternehmen -> Schaden [label=verursacht]
+	Enteignungsangelegenheiten -> Versicherungsrecht [label=beziehtSichAuf]
+	Enteignungsangelegenheiten -> Rechtsbegriff [label=hatRechtlicheBedeutung]
+	Entscheidung -> "Maßnahme" [label=beinhaltet]
+	Entscheidung -> Sachverhalt [label=betrifft]
+	Entscheidung -> Anspruch [label="entscheidetÜber"]
+	Entscheidung -> Rechtskraft [label="gewährleistet"]
+	Entscheidungsgremium -> Bonuspunkte [label="entscheidetÜber"]
+	Entscheidungsgremium -> "Rückstellung" [label="entscheidetÜber"]
+	Entscheidungsgremium -> Rechtsfolge [label="führtZu"]
+	"Entschädigung" -> Reise [label="basiert auf"]
+	"Entschädigung" -> Reiseverhinderung [label="basiert auf"]
+	"Entschädigung" -> Reisende [label=betrifft]
+	"Entschädigung" -> Reiseveranstalter [label=betrifft]
+	"Entschädigung" -> "einen bestimmten Betrag" [label="beträgt"]
+	Erprobung -> Zeit [label=dauert]
+	Erprobung -> Abordnung [label=findetStatt]
+	Erweiterung -> "Geschäftstätigkeit" [label=betrifft]
+	"Fahrlässigkeit" -> RechtlicheFolgen [label=betrifft]
+	"Fahrlässigkeit" -> Handlung [label=wirdMit]
+	"FehlendeOderUnvollständigeAngaben" -> Gericht [label=hatRechtlicheKonsequenzen]
+	Flug -> Annullierung [label=kannWirksamVorgenommenWerden]
+	Flug -> Widerruf [label=kannWirksamVorgenommenWerden]
+	Fluggast -> Widerruf [label=kannWirksamVornehmen]
+	Fondsbeteiligung -> Voraussetzung [label=beinhaltet]
+	Forderung -> Rechtsgrundlage [label=basiertAuf]
+	Forderung -> Schadensersatz [label=betrifft]
+	Forderung -> Schaden [label=entspringt]
+	Forderung -> Zahlungsklage [label=feststellen]
+	Forderung -> "Verjährung" [label=hemmt]
+	Forderung -> UnerlaubteHandlung [label=kannGeltendGemachtWerden]
+	Forderung -> Vertrag [label=kannGeltendGemachtWerden]
+	Frachtaufgabe -> Kosten [label=betrifft]
+	"Frachtführerdienstleistung" -> Haftung [label=beinhaltet]
+	Frist -> Rechtsfolge [label=trittEin]
+	Fristen -> "Schönheitsreparaturen" [label=betrifft]
+	Fristen -> Mietvertrag [label=legtFristenFest]
+	Fristsetzung -> Zeitraum [label=beinhaltet]
+	Fristsetzung -> "§ 281 Abs. 1 BGB" [label=istAusreichend]
+	Gebrauch -> GemeinschaftlichesEigentum [label=betrifft]
+	Gebrauch -> Schadensersatz [label=betrifftSchaden]
+	Gebrauch -> Rechtsfolge [label=hatRechtsfolge]
+	Gebrauchstauglichkeit -> Zustand [label=kennzeichnet]
+	Gebrechen -> UngerechtfertigteBereicherung [label="führtZu"]
+	"Gebühr" -> Kostenangabe [label=berechnet]
+	Geld -> Verwender [label="überwachen"]
+	"Gemeindliche Verordnung" -> Baukostenzuschuss [label=regelt]
+	Genehmigung -> Mietobjekt [label=betrifft]
+	Genossenschaft -> Disziplinarrechtsordnung [label=betrifft]
+	Genossenschaft -> Verbandsrechtsordnung [label=betrifft]
+	Gericht -> Recht [label="berücksichtigt"]
+	Gericht -> Prozessrecht [label=betrifft]
+	Gericht -> Anspruch [label=entscheidet]
+	Gericht -> Haftpflichtanspruch [label=entscheidet]
+	Gericht -> Sachverhalt [label=entscheidet]
+	Gericht -> Schadensersatzanspruch [label=entscheidet]
+	Gericht -> Urteilszustellung [label=entscheidet]
+	Gericht -> "Rückauflassung" [label="entscheidetÜber"]
+	Gericht -> "Maßnahme" [label=ergreift]
+	Gericht -> "Prozessfähigkeit" [label="gewährleistet"]
+	Gericht -> Vertretung [label="gewährleistet"]
+	Gericht -> GerichtlichesEntscheidung [label=hatVerantwortung]
+	Gericht -> GerichtlichesEntscheidung [label="hatZuständigkeit"]
+	Gericht -> "Aufklärungspflicht" [label=istPflichtigeStelle]
+	Gericht -> Hinweispflicht [label=istPflichtigeStelle]
+	Gericht -> Rechtskraft [label=istVerpflichtet]
+	Gericht -> Klage [label="istZuständig"]
+	Gericht -> Rechtsmittel [label="istZuständig"]
+	Gericht -> Rechtsstreit [label="istZuständigFür"]
+	Gericht -> Rechtsstreit [label=kannBehandeltWerden]
+	Gericht -> Beweis [label=kannBeweisen]
+	Gericht -> Schadensersatzpflicht [label=kannVerurteilen]
+	Gericht -> Rechtskraft [label=machtRechtskraft]
+	Gericht -> Entscheidung [label=trifftEntscheidung]
+	Gericht -> Parteien [label=trifftEntscheidung]
+	Gericht -> Parteien [label=verpflichtet]
+	Gericht -> Widerruf [label="wirdDurchgeführt"]
+	GerichtlichesEntscheidung -> Schadensersatzpflicht [label=betrifftSchadensersatzpflicht]
+	GerichtlichesEntscheidung -> StrafrechtlicheVerfolgung [label=betrifftStrafrechtlicheVerfolgung]
+	GerichtlichesEntscheidung -> ZivilrechtlicheVerfolgung [label=betrifftZivilrechtlicheVerfolgung]
+	GerichtlichesEntscheidung -> Rechtskraft [label=hatRechtskraft]
+	GerichtlichesEntscheidung -> Rechtswidrigkeit [label=istRechtswidrig]
+	GerichtlichesEntscheidung -> "Verjährung" [label="istVerjährt"]
+	GerichtlichesEntscheidung -> Rechtsmittel [label=kannRechtsmittelEinlegen]
+	GerichtlichesEntscheidung -> Verantwortung [label=wirdEinghalten]
+	GerichtlichesEntscheidung -> Verantwortung [label="wirdNichterfüllt"]
+	GerichtlichesVerfahren -> Verfahrensbeteiligte [label=betrifft]
+	Gerichtsverfahren -> Rechtsgebiet [label=betrifft]
+	Gerichtsverfahren -> Revision [label=hatVoraussetzungen]
+	"Geräuschemission" -> Nachtruhe [label=betrifft]
+	"Geräuschemission" -> unzumutbar [label=giltAls]
+	"Geräuschemission" -> Schutzverletzter [label=istSchutzverletzung]
+	"Geräuschemission" -> Schutzverletzungstatbestand [label=istSchutzverletzungstatbestand]
+	"Geräuschemission" -> Schutzverletzungstatbestandsverwirklicher [label=istSchutzverletzungstatbestandsverwirklichung]
+	"Geräuschemission" -> Schutzverletzungsursache [label=istSchutzverletzungsursache]
+	"Geräuschemission" -> "Bürgerliches Gesetzbuch" [label=istWesentlichFuer]
+	"Geräuschemission" -> Immissionsschutzrecht [label=istWesentlichFuer]
+	"Geräuschemission" -> Gemeinwohlinteresse [label=verletzt]
+	"Geschädigter" -> Schadensersatz [label=hatAnspruchAuf]
+	"Geschädigter" -> Pflichten [label=hatPflichten]
+	"Geschädigter" -> Rechte [label=hatRechte]
+	"Geschädigter" -> Schadensersatzverpflichtung [label=kannBeteiligen]
+	"Geschäftsbedingungen" -> Vertrag [label=kannEntstehenAus]
+	"Geschäftsbesorgung" -> Treuepflicht [label=kannVerletzen]
+	"Geschäftsführer" -> "Hinauskündigungsklausel" [label=betrifft]
+	"Geschäftsführer" -> "Stammkapitalerhöhung" [label=betrifftAls]
+	"Geschäftsführer" -> "Kündigung" [label=hatBefugnis]
+	"Geschäftsführer" -> "Entschädigung" [label="hatEntschädigungspflicht"]
+	"Geschäftsführer" -> Pflicht [label=hatPflicht]
+	"Geschäftsführer" -> Recht [label=hatRechtAuf]
+	"Geschäftsführer" -> Schaden [label=hatVerursacht]
+	"Geschäftsführer" -> Dritter [label=inBeziehungStehtZu]
+	"Geschäftsführer" -> Gesellschafter [label=inBeziehungStehtZu]
+	"Geschäftsführer" -> GmbH [label=inBeziehungStehtZu]
+	"Geschäftsführer" -> Kommanditgesellschaft [label=inBeziehungStehtZu]
+	"Geschäftsführer" -> "Komplementär-GmbH" [label=inBeziehungStehtZu]
+	"Geschäftsführer" -> Schaden [label=istSchadensersatzpflichtig]
+	"Geschäftsführer" -> "Geschäftsführung" [label="istVerantwortlichFür"]
+	"Geschäftsführer" -> HandelnImInteresseDerGesellschaft [label=istVerpflichtetZum]
+	"Geschäftsführer" -> "GesellschaftBürgerlichenRechts" [label=kannEntscheiden]
+	"Geschäftsführer" -> Haftung [label=kannHaften]
+	"Geschäftsführer" -> "Geschäftsbesorgung" [label=kannVerursachen]
+	"Geschäftsführervertrag" -> "Vermögensbetreuungspflicht" [label=beinhaltet]
+	"Geschäftsführervertrag" -> Vertragsbeendigung [label=beinhaltet]
+	"Geschäftsführervertrag" -> Vertragsdauer [label=beinhaltet]
+	"Geschäftsführervertrag" -> Vertragspflicht [label=beinhaltet]
+	"Geschäftsführervertrag" -> Vertragsrecht [label=istGegenstandVon]
+	"Geschäftstätigkeit" -> Pflichtenkreis [label=beinhaltet]
+	Gesellschaft -> Verbindlichkeit [label="kannHaftenFür"]
+	"GesellschaftBürgerlichenRechts" -> Gesellschafter [label=istGesellschafter]
+	"GesellschaftBürgerlichenRechts" -> Vertretung [label="kannRepräsentiertWerden"]
+	Gesellschafter -> "Hinauskündigungsklausel" [label=betrifft]
+	Gesellschafter -> "Gewinnausschüttung" [label=hatRechtAuf]
+	Gesellschafter -> "Geschäftsführer" [label="istGeschäftsführer"]
+	Gesellschafter -> Vertreter [label=istVertreter]
+	Gesellschafterversammlung -> Mehrheitsentscheidung [label=regelt]
+	Gesellschaftsanteile -> Zustimmung [label=erfordert]
+	Gesellschaftsrecht -> Haftung [label=beinhaltet]
+	Gesetz -> Anspruch [label=regelt]
+	Gesetz -> Schenkung [label=regelt]
+	Gesetz -> Verpflichtung [label=regelt]
+	Gesetz -> Vertrag [label=regeltNach]
+	GesetzlicheVerpflichtung -> NachbarrechtlicherAusgleichsanspruch [label=hatBedeutungFuer]
+	Gesetzliche_Vorschriften -> Rechte [label="begründet"]
+	Gesetzliche_Vorschriften -> Mieter [label="schützt"]
+	"Gläubiger" -> Anspruch [label=betrifft]
+	"Gläubiger" -> Schadensersatzverpflichtung [label=kannBeteiligen]
+	GmbH -> "Geschäftsführer" [label="kannKündigen"]
+	GmbH -> "Hinauskündigungsklausel" [label=kannVereinbartWerden]
+	Grundbuchamt -> "Eigentumsübertragung" [label="entscheidetÜber"]
+	"Grundstück" -> Nachbarrecht [label=betrifft]
+	"Grundstückseigentümer" -> "Grundstück" [label=besitzt]
+	"Grundstückseigentümer" -> Nachbarrecht [label="betrifftAlsEigentümer"]
+	"Grundstückseigentümer" -> Altleitung [label="istEigentümerVon"]
+	HOAI -> "Mindestsätze" [label=beinhaltet]
+	HOAI -> Honorarvereinbarung [label=regelt]
+	Haftpflichtanspruch -> Heimaufenthaltkosten [label=beinhaltet]
+	Haftpflichtanspruch -> Rechtsverfolgungskosten [label=beinhaltet]
+	Haftpflichtanspruch -> Rechtsverteidigungskosten [label=beinhaltet]
+	Haftpflichtanspruch -> "Sachverständigenkosten" [label=beinhaltet]
+	Haftung -> Haftungsgrund [label=basiert_auf]
+	Haftung -> Schadensersatzanspruch [label=beinhaltet]
+	Haftung -> "Aufklärungsversäumnis" [label=betrifft]
+	Haftung -> Eisenbahninfrastrukturunternehmen [label=betrifft]
+	Haftung -> Eisenbahnverkehrsunternehmen [label=betrifft]
+	Haftung -> Pflichtverletzung [label=betrifft]
+	Haftung -> Schutzobjekt [label=betrifft]
+	Haftung -> "Verjährung" [label=betrifft]
+	Haftung -> "Änderung" [label=betrifft]
+	Haftung -> Verbindlichkeit [label=beziehtSichAuf]
+	Haftung -> Haftungsausschluss [label=istAusgeschlossen]
+	Haftung -> Vertrag [label=istGegenstandVon]
+	Haftung -> Verpflichteter [label=istVerpflichtet]
+	Haftung -> Verschulden [label=istVerursachtDurch]
+	Haftung -> "Geldbuße" [label="kannVerhängtWerden"]
+	Haftung -> Schadensersatz [label="kannVerhängtWerden"]
+	Haftung -> Vertragsstrafe [label="kannVerhängtWerden"]
+	Haftung -> Schadensersatzpflicht [label="kann_inanspruch genommen_werden"]
+	Haftung -> Pflichtverletzung [label="wirdNichterfüllt"]
+	Haftungsgrund -> Schadensersatzanspruch [label=basiertAuf]
+	Haftungsgrund -> "Haftungsbeschränkung" [label="betrifftHaftungsbeschränkung"]
+	Haftungsgrund -> Rechtsgrundlage [label=hatRechtsgrund]
+	Haftungsgrund -> Schuld [label=umfasst]
+	Haftungsvorschrift -> Schadensersatzanspruch [label=beinhaltet]
+	Haftungsvorschrift -> Schadensersatzpflicht [label=beinhaltet]
+	Haftungsvorschrift -> Schuld [label="setzt voraus"]
+	Haftungsvorschrift -> Verletzungspflicht [label="setzt voraus"]
+	Haftungsvorschrift -> Schadensersatzpflicht [label="verpflichtet zu"]
+	"Handelsgeschäft" -> Inhaber [label="fortgeführt"]
+	Handlung -> "ThailändischesRecht" [label=basiertAuf]
+	Handlung -> Sachverhalt [label=beinhaltet]
+	Handlung -> Recht [label=betrifft]
+	Handlung -> Voraussetzung [label=erfordert]
+	Handlung -> Schaden [label=istVerantwortlichFuer]
+	Handlung -> Schaden [label=verursacht]
+	Heimaufenthaltkosten -> Versicherungsfall [label=betrifft]
+	Heimaufenthaltkosten -> Gericht [label=kannErstattetWerden]
+	Hemmnis -> "Verjährung" [label="führtZu"]
+	Herausgabe -> "§104VglO" [label="istVoraussetzungFür"]
+	Hersteller -> "Vertragshändler" [label="hatRechtGegenüber"]
+	"Hinauskündigungsklausel" -> Arbeitsrecht [label=betrifft]
+	"Hinauskündigungsklausel" -> Gesellschaftsrecht [label=entspricht]
+	"Hinauskündigungsklausel" -> "Gute Sitten" [label=entspricht]
+	"Hinauskündigungsklausel" -> Arbeitsvertrag [label=kannGestaltetWerden]
+	"Hinauskündigungsklausel" -> "Kündigungsschutz" [label=unterliegt]
+	Honorar -> HOAI [label="basiert auf"]
+	Honorar -> Anspruch [label="kann beansprucht werden durch"]
+	Honoraranspruch -> "durch Architekt" [label="kann geltend gemacht werden"]
+	Honoraranspruch -> "durch Bauherr" [label="kann geltend gemacht werden"]
+	Honorarvereinbarung -> Vertrag [label=hatBedeutung]
+	Honorarvereinbarung -> Honoraranspruch [label="kann führen zu"]
+	Immissionsschutzrecht -> Schutzverpflichteter [label=istSchutzpflicht]
+	Immissionsschutzrecht -> Umwelt [label="schützt"]
+	InfrageStellen -> Voraussetzung [label=erfordert]
+	Inhaber -> Verbindlichkeit [label=verpflichtet]
+	Insolvenzverfahren -> Verbindlichkeit [label=hatAuswirkungenAuf]
+	Interessenlage -> Vertrag [label=istRelevantFuer]
+	InternationalesPrivatrecht -> "Zuständigkeit" [label=regelt]
+	Kabelnetzbetreiber -> Netzsicherheit [label=betrifftNetzsicherheit]
+	Kabelnetzbetreiber -> Rechtsvorschriften [label=entsprichtRechtsvorschriften]
+	Kabelnetzbetreiber -> EinhaltungRechtsvorschriften [label=hatPflicht]
+	Kabelnetzbetreiber -> Kontrolle [label=hatRechtAuf]
+	Kabelnetzbetreiber -> "Maßnahmen" [label=kannErgreifen]
+	Kabelnetzbetreiber -> Signale [label=kontrolliert]
+	Kabelnetzbetreiber -> unberechtigteSignale [label=verhindert]
+	Kabelnetzbetreiber -> "unerwünschteSignale" [label=verhindert]
+	Kaufvertrag -> Mangel [label=betrifft]
+	Kaufvertrag -> "Täuschung" [label=betrifft]
+	"Kausalität" -> Mitverschulden [label=betrifft]
+	"Kausalität" -> Involvierter [label="erfüllen"]
+	"Kausalität" -> "Kausalitätsbeweis" [label="erfüllen"]
+	"Kausalität" -> Verantwortlicher [label="erfüllen"]
+	"Kausalität" -> Vorsichtspflichtverletzung [label="erfüllen"]
+	"Kausalität" -> Involvierter [label=hatKonsequenzen]
+	"Kausalität" -> Schaden [label=hatKonsequenzen]
+	"Kausalität" -> Verantwortlicher [label=hatKonsequenzen]
+	"Kausalität" -> "Gesundheitsbeeinträchtigung" [label=herstellen]
+	"Kausalität" -> Unfallereignis [label=herstellen]
+	Kenntnis -> "Zusammenstoß" [label=betrifft]
+	Kenntnis -> "Vergütung" [label=istBekannt]
+	Kennzeichnung -> Vertragsinhalt [label="erfüllt"]
+	Klage -> Verfahrensfehler [label=beinhaltet]
+	Klage -> Schadensersatz [label=betrifft]
+	Klage -> Haftungsausschluss [label=betrifftHaftungsausschluss]
+	Klage -> "Verjährung" [label="betrifftVerjährung"]
+	Klage -> Voraussetzung [label=erfordert]
+	Klage -> Rechtsfolge [label="führtZu"]
+	Klage -> Schadensersatz [label="führtZu"]
+	Klage -> Rechtsfolge [label=istAbgelehnt]
+	Klage -> Rechtsfolge [label="istBegründet"]
+	Klage -> Rechtsfolge [label="istUnbegründet"]
+	Klage -> Rechtsfolge [label="istUnzulässig"]
+	Klage -> Rechtsfolge [label="istZulässig"]
+	Klage -> Verletzung [label="istZulässig"]
+	Klage -> "Begründung" [label="kannUnbegründetSein"]
+	Klage -> Rechtsfolge [label=trittEin]
+	Klageschrift -> Prozess [label=betrifft]
+	Klageschrift -> "LadungsfähigeAnschrift" [label="enthält"]
+	Klageschrift -> RelevantePerson [label="enthält"]
+	Klausel -> Risikobereitschaft [label=beeinflusst]
+	Klausel -> Vertragspartner [label=betrifft]
+	Klausel -> Benachteiligung [label=istBenachteiligend]
+	Klausel -> Unwirksamkeit [label=istUnwirksam]
+	Klausel -> "Überprüfung" [label="kannÜberprüftWerden"]
+	"Kläger" -> Klage [label="kannAlsKlägerAuffreten"]
+	"Kläger" -> "Sonderkündigungsrecht" [label=kannGeltendMachen]
+	Kosten -> Transport [label=entstehtImZusammenhangMit]
+	Kostenangabe -> "Gebühr" [label="basiert auf"]
+	Kostenangabe -> Kostenverteilung [label="basiert auf"]
+	Kostenangabe -> "Kostenverteilungsschlüssel" [label="basiert auf"]
+	Kostenangabe -> Wirksamkeit [label=beeinflusst]
+	Kostenangabe -> Kostenart [label="enthält"]
+	Kostenangabe -> Kostenposition [label="enthält"]
+	Kostenangabe -> Kostenstaffel [label="enthält"]
+	Kostenangabe -> Bauantrag [label="ist relevant für"]
+	Kostenangabe -> Betriebskostenabrechnung [label="ist relevant für"]
+	Kostenangabe -> Kostenabrechnungsrecht [label="ist wirksam aufgrund"]
+	Kostenangabe -> Bauantrag [label="ist wirksam für"]
+	Kostenangabe -> Betriebskostenabrechnung [label="ist wirksam für"]
+	Kostenangabe -> "Kostenabrechnungsmodalitäten" [label="ist wirksam unter der Bedingung"]
+	Krankheit -> UngerechtfertigteBereicherung [label="führtZu"]
+	Kunde -> Schadensersatzanspruch [label=geltendMachen]
+	Kunde -> "Verkäufer" [label="hatRechtGegenüber"]
+	Kunde -> "Vertragshändler" [label="hatRechtGegenüber"]
+	Kunde -> "Kündigung" [label=kannGebrauchMachenVon]
+	Kunde -> Widerruf [label=kannGebrauchMachenVon]
+	"Käufer" -> Schadensersatz [label=beansprucht]
+	"Käufer" -> Mangel [label="betroffen von"]
+	"Käufer" -> Nachbesserung [label=fordert]
+	"Käufer" -> Schadensersatzanspruch [label="geltend machen"]
+	"Käufer" -> Kaufrecht [label=hatRechtAuf]
+	"Käufer" -> "Rücktritt" [label=hatRechtAuf]
+	"Käufer" -> "Rückweisung" [label=kann]
+	"Käufer" -> Sondereigentum [label="kann nicht abnehmen"]
+	"Käufer" -> Kaufvertrag [label=kannAnfechten]
+	"Käufer" -> "Rücktritt" [label=kannGebrauchMachenVon]
+	"Käufer" -> Schadensersatz [label=verlangt]
+	"Kündigung" -> "Kündigungsausschluss" [label=basiertAuf]
+	"Kündigung" -> Gesellschafterstellung [label=beeinflusst]
+	"Kündigung" -> "Geschäftsführer" [label=betrifft]
+	"Kündigung" -> Mieter [label=betrifft]
+	"Kündigung" -> "Mietrückstand" [label=betrifft]
+	"Kündigung" -> Mietvertrag [label=betrifft]
+	"Kündigung" -> Ordnungsmittel [label=betrifft]
+	"Kündigung" -> Reiseleistung [label=betrifft]
+	"Kündigung" -> "Rückstand" [label=betrifft]
+	"Kündigung" -> Sicherungsrecht [label=betrifft]
+	"Kündigung" -> Rechte [label=betrifftRechte]
+	"Kündigung" -> Recht [label="führtZu"]
+	"Kündigung" -> "Räumung" [label=hatRechtsfolge]
+	"Kündigung" -> "§ 627 BGB" [label=imZusammenhangMit]
+	"Kündigung" -> "Mietverhältnis" [label=istWirksam]
+	"Kündigungsausschluss" -> "Mietverhältnis" [label=istVereinbart]
+	"Kündigungsrecht" -> Mieter [label=betrifft]
+	"Kündigungsrecht" -> Vermieter [label=betrifft]
+	"Kündigungsrecht" -> Vertragspartei [label=betrifft]
+	"KünstlicheBefruchtung" -> Arzt [label="geführtDurch"]
+	"KünstlicheBefruchtung" -> MedizinischNotwendigeHeilbehandlung [label=istAnzuerkennenAls]
+	"KünstlicheBefruchtung" -> Verpflichteter [label=istVerpflichtetZuTragenVon]
+	Lageplan -> Grenze [label=bestimmt]
+	Lageplan -> "Grundstück" [label=betrifft]
+	Lageplan -> "ÖffentlichesVermessungswesen" [label="erfülltVoraussetzungen"]
+	Leistung -> Gestattungsleistung [label=beinhaltet]
+	Leistung -> Kostenerstattung [label=beinhaltet]
+	Leistung -> Wahlleistung [label=beinhaltet]
+	Leistung -> "Vergütung" [label=betrifft]
+	Leistung -> Teilleistung [label=istTeil]
+	Leistung -> Rechtsfolge [label=trittEin]
+	Leistungsfreiheit -> Rechtsfolge [label=trittEin]
+	Leistungspflicht -> Innenausgleich [label=beeinflusst]
+	LexSpecialis -> "Verjährung" [label=hatBedeutungFuer]
+	Lieferant -> "Verkäufer" [label="hatRechtGegenüber"]
+	Luftfahrtunternehmen -> Annullierung [label=hatAbsicht]
+	Luftfahrtunternehmen -> Widerruf [label=hatAbsicht]
+	Makler -> Nachweis [label=erbringt]
+	Makler -> Vermieter [label="hatGeschäftsbeziehungMit"]
+	Makler -> Provisionsanspruch [label=kannGeltendMachen]
+	Makler -> Vermieter [label=nenntNamen]
+	Maklervertrag -> Haftung [label=beinhaltet]
+	Maklervertrag -> Vertragsinhalt [label=beinhaltet]
+	Mandant -> Rechtsanwalt [label=hat]
+	Mangel -> Gebrauchstauglichkeit [label="beeinträchtigt"]
+	Mangel -> Vermieter [label=beseitigen]
+	Mangel -> Beseitigung [label=betrifft]
+	Mangel -> Kaufsache [label=betrifft]
+	Mangel -> Sache [label=betrifft]
+	Mangel -> Werk [label=betrifft]
+	Mangel -> Schadensersatz [label=entsprechen]
+	Mangel -> Mietminderung [label="hatBedeutungFür"]
+	Mangel -> Schadensersatzpflicht [label="istGrundFür"]
+	Mangel -> Anlage [label=verursacht]
+	Mangel -> Bauvorhaben [label=verursacht]
+	Mangel -> Schaden [label=verursacht]
+	Mangel -> Schadensersatz [label=verursacht]
+	Mangel -> Umstand [label=verursacht]
+	Mangel -> Mietminderung [label=voraussetzen]
+	MateriellesRecht -> Sachverhalt [label=betrifft]
+	"Maßnahmen" -> Gericht [label=erfordertGerichtlicheAnordnung]
+	MedizinischNotwendigeHeilbehandlung -> Verpflichteter [label=istVerpflichtetZuTragenVon]
+	Mehrfachversicherung -> Einstandspflicht [label=betrifft]
+	Mehrfachversicherung -> Innenausgleich [label=betrifft]
+	Mehrfachversicherung -> Leistungspflicht [label=betrifft]
+	Mehrheitsentscheidung -> Personengesellschaft [label=betrifft]
+	Mehrheitsentscheidung -> Zustimmung [label=hatBedeutung]
+	Miete -> Schadensersatz [label=istSchadensersatzpflichtig]
+	Mieter -> Mietvertrag [label=betrifft]
+	Mieter -> Miete [label=bezahlt]
+	Mieter -> Verletzung [label="ergreiftMaßnahmeGegen"]
+	Mieter -> "Rückgabe von Leasingobjekt" [label=hatPflicht]
+	Mieter -> Untervermietung [label=hatRecht]
+	Mieter -> Kaution [label=hatRechtAuf]
+	Mieter -> Mietvertrag [label=hatRechtAuf]
+	Mieter -> Verzug [label=istIn]
+	Mieter -> Mietvertrag [label=istMieter]
+	Mieter -> "bei Unwirksamkeit von Vertragsklauseln" [label=istSchadensersatzpflichtig]
+	Mieter -> Fristen [label=kannAbweichen]
+	Mieter -> Miete [label="kündigt"]
+	Mieter -> Miete [label=mindert]
+	Mieter -> Heimaufenthalt [label=tragen]
+	Mieter -> Mangelbeseitigung [label=tragen]
+	Mieter -> Miete [label=tragen]
+	Mieter -> Erstattung [label=verlangt]
+	"Mieterhöhungsverlangen" -> Mietvertrag [label=betrifft]
+	"Mieterhöhungsverlangen" -> "Mietrechtsänderung" [label=betrifftDas]
+	"Mieterhöhungsverlangen" -> Wirkung [label=istWirksam]
+	"Mieterhöhungsverlangen" -> "Modernisierungsmaßnahme" [label="stütztSichAuf"]
+	"Miethöhung" -> Mieter [label=betrifft]
+	"Miethöhung" -> Mietvertrag [label=betrifft]
+	Mietkaution -> Schadensersatz [label=sichert]
+	Mietminderung -> "Mietverhältnis" [label=betrifft]
+	Mietminderung -> Schadensersatz [label=hatRechtsfolge]
+	Mietobjekt -> "Mietverhältnis" [label=betrifft]
+	Mietobjekt -> "Nutzungsentschädigung" [label=betrifft]
+	Mietobjekt -> "Rückgabezustand" [label=betrifft]
+	Mietobjektbesichtigung -> Mietobjektzustand [label=weistNach]
+	Mietobjektzustand -> Mietobjekt [label=betrifft]
+	Mietrechtsreform -> Mietpreisbremse [label=betrifftDie]
+	Mietrechtsreform -> Mietspiegel [label=betrifftDie]
+	"Mietrechtsänderung" -> "Mieterhöhungsprozess" [label=betrifftDen]
+	"Mietrückgabe" -> "RückgabeVerzögerung" [label="führtZu"]
+	"Mietrückstand" -> Mieter [label=betrifft]
+	"Mietrückstand" -> "Mietverhältnis" [label=betrifft]
+	"Mietrückstand" -> Schadensersatz [label=entspringt]
+	"Mietrückstand" -> Schadensersatzpflicht [label=verursacht]
+	"Mietverhältnis" -> "Kündigungsausschluss" [label=beinhaltet]
+	"Mietverhältnis" -> Pflicht [label=beinhaltet]
+	"Mietverhältnis" -> Recht [label=beinhaltet]
+	"Mietverhältnis" -> "Rückgabe" [label=endet]
+	Mietvertrag -> Mietkaution [label=beinhaltet]
+	Mietvertrag -> "Mietverhältnis" [label=beinhaltet]
+	Mietvertrag -> Pflicht [label=beinhaltet]
+	Mietvertrag -> Recht [label=beinhaltet]
+	Mietvertrag -> Vertragspartei [label=beinhaltet]
+	Mietvertrag -> "Kündigung" [label=betrifft]
+	Mietvertrag -> Mietminderung [label=betrifft]
+	Mietvertrag -> "Mietrückgabe" [label=betrifft]
+	Mietvertrag -> Untervermietung [label=betrifft]
+	Mietvertrag -> "Rechtsgeschäft" [label="betrifftRechtsgeschäft"]
+	Mietvertrag -> Mietrechtsreform [label=beziehtSichAuf]
+	Mietvertrag -> Vereinbarung [label=bindetRechtlich]
+	Mietvertrag -> Planunterlage [label="enthält"]
+	Mietvertrag -> Schriftform [label=erfordert]
+	Mietvertrag -> Mietzahlung [label=fordert]
+	Mietvertrag -> "Verlängerung" [label=kannFortbestehen]
+	Mietvertrag -> Mietdauer [label=regelt]
+	Mietvertrag -> "Mietverhältnis" [label=regelt]
+	Mietvertrag -> Mietzins [label=regelt]
+	Mietvertrag -> "Schönheitsreparaturen" [label=regelt]
+	Mietvertrag -> "Mietverhältnis" [label="schließtEin"]
+	Mietwagen -> mangelhaft [label=ist]
+	Mindestangaben -> "Nachprüfung" [label="ermöglichen"]
+	Mindestlohn -> "Vergütung" [label="istGültig"]
+	"Mindestsätze" -> Vereinbarung [label=erfordern]
+	Mitverschulden -> Zurechnung [label="führtZu"]
+	"Modernisierungsmaßnahme" -> "ÖffentlicheFördermittel" [label="stütztSichAuf"]
+	"Mängelbeseitigungskosten" -> Schadensersatzanspruch [label=basiertAuf]
+	NachbarrechtlicherAusgleichsanspruch -> BGB [label=basiertAuf]
+	NachbarrechtlicherAusgleichsanspruch -> Handlung [label=kannGeltendGemachtWerden]
+	Nachbesserungsarbeit -> Beseitigung [label=betrifft]
+	Nachweis -> "Vermittlungsgeschäft" [label="istVollständig"]
+	Netznutzer -> Pflichten [label=hatPflichten]
+	Netznutzer -> Rechte [label=hatRechte]
+	Netzsicherheit -> "Maßnahmen" [label=erfordert]
+	Neuvermietung -> "Nutzungsentschädigung" [label=betrifft]
+	"Nichterfüllung" -> Reiseleistung [label=betrifft]
+	"Nichterfüllung" -> Anspruch [label="führtZu"]
+	Nichtigkeitsklage -> Patent [label=beziehtSichAuf]
+	Nutzung -> Nutzung [label="beeinträchtigt"]
+	Nutzung -> Nutzung [label="einschränkt"]
+	Nutzung -> "Beeinträchtigung" [label="istRechtmäßig"]
+	Nutzung -> "Einschränkungsfreiheit" [label="istRechtmäßig"]
+	Obliegenheit -> Einstandspflicht [label=betrifft]
+	Obliegenheit -> Versicherungsvertrag [label=beziehtSichAuf]
+	Pacht -> "Rechtsverhältnis" [label=kannEntstehenIn]
+	"Parität" -> Verwaltungsrat [label="repräsentiert"]
+	Partei -> Aufstellung [label=beinhaltet]
+	Partei -> Verpflichtung [label=beinhaltet]
+	Partei -> Dritter [label=betrifft]
+	Partei -> Haftung [label=betrifft]
+	Partei -> Mangel [label=betrifft]
+	Partei -> Pauschalpreis [label="einhält"]
+	Partei -> Schadensersatz [label="entschädigt"]
+	Partei -> "Prozessfähigkeit" [label="erfüllt"]
+	Partei -> VertraglicheVerpflichtung [label="erfüllt"]
+	Partei -> Vertretung [label="erfüllt"]
+	Partei -> Kosten [label=fordert]
+	Partei -> Schadensersatzanspruch [label=geltendMachen]
+	Partei -> Pflicht [label=hatPflicht]
+	Partei -> Recht [label=hatRechtAuf]
+	Partei -> "Rechtsverhältnis" [label=hatRechte]
+	Partei -> "Rechtsgeschäft" [label=istGegenstand]
+	Partei -> Vertrag [label="istGeschäftsfähig"]
+	Partei -> Vertrag [label="istGeschäftsunfähig"]
+	Partei -> Schadensersatz [label=istSchadensersatzpflichtig]
+	Partei -> Schaden [label=istVerpflichtet]
+	Partei -> Schadensersatzanspruch [label=istVerpflichtet]
+	Partei -> "Entschädigung" [label=istVerpflichtetZu]
+	Partei -> Anfechtung [label=istVerschulden]
+	Partei -> "Rücktritt" [label=istVerschulden]
+	Partei -> Beweis [label=kannBeweisen]
+	Partei -> Verfahrenshindernis [label=kannEntstehen]
+	Partei -> Schaden [label=kannSchadenErleiden]
+	Partei -> Vertrag [label="möchteAnfechten"]
+	Partei -> Schadensersatz [label=pflichtet]
+	Partei -> "Prozessfähigkeit" [label="repräsentiert"]
+	Partei -> "Rechtsfähigkeit" [label="repräsentiert"]
+	Partei -> Rechtsvertreter [label="repräsentiert"]
+	Partei -> Vertrag [label="trittVonRück"]
+	Partei -> Vertrag [label="trittZurück"]
+	Partei -> Gerichtskosten [label="trägt"]
+	Partei -> Anwalt [label=vertritt]
+	Partei -> Urkunde [label="überprüfen"]
+	Parteien -> Gericht [label=verpflichtet]
+	Parteienautonomie -> Vertragsauslegung [label="kannBerücksichtigtWerden"]
+	Partnerschaftsvermittlungsvertrag -> Vertragsinhalt [label=beinhaltet]
+	Patient -> Abrechnung [label=hatRechtAuf]
+	Patient -> GesetzlicheKrankenversicherung [label=istVersichertBei]
+	Pauschale -> "Vergütung" [label=entspricht]
+	Pauschalpreisvertrag -> Teilleistung [label=beinhaltet]
+	Pauschalpreisvertrag -> Vertragsinhalt [label=beinhaltet]
+	Person -> Recht [label=hatRechtAuf]
+	Person -> Anspruch [label=kannGeltendMachen]
+	Person -> Verbindlichkeit [label="kannHaftenFür"]
+	Personengesellschaft -> Gesellschaftsanteile [label="übertragen"]
+	Pflicht -> Mietrechtsregelungen [label=beachten]
+	Pflicht -> "im Zusammenhang mit der Kaution und der Rückgabe von Leasingobjekten" [label=besteht]
+	Pflicht -> "Verkäufer" [label=betrifft]
+	Pflicht -> Werk [label=betrifft]
+	Pflicht -> Versicherungsvertrag [label=beziehtSichAuf]
+	Pflicht -> Schaden [label=ergebenSichAus]
+	Pflicht -> Pflichtverletzung [label=hatFolgen]
+	Pflicht -> Schadensersatzpflicht [label=hatSchadensersatzpflicht]
+	Pflicht -> "inMietverhältnis" [label=kannEntstehen]
+	Pflicht -> Rechtsfolge [label=kannErgeben]
+	Pflicht -> Rechtsfolge [label=verletzt]
+	Pflicht -> Pflichtverletzung [label=wissentlich]
+	Pflichten -> Mieter [label=betrifft]
+	Pflichtenkreis -> Kunde [label=stelltIn]
+	Pflichtverletzung -> Garantiebedingung [label="basiert auf"]
+	Pflichtverletzung -> Leistungspflicht [label="basiert auf"]
+	Pflichtverletzung -> Wartungspflicht [label="basiert auf"]
+	Pflichtverletzung -> Vertrag [label=betrifft]
+	Pflichtverletzung -> Pflicht [label=beziehtSichAuf]
+	Pflichtverletzung -> Rechtsfolge [label=hat]
+	Pflichtverletzung -> Schaden [label=istGrund]
+	Pflichtverletzung -> Schuld [label="istGrundFür"]
+	Pflichtverletzung -> Rechtswidrigkeit [label=istRechtswidrig]
+	Pflichtverletzung -> Schadensersatz [label=kannInAnspruchGestelltWerden]
+	Pflichtverletzung -> Arbeitsunfall [label=verursacht]
+	"Pfändung" -> Drittschuldner [label=betrifft]
+	"Pfändung" -> ist [label=unwirksam]
+	Planungsleistung -> HOAI [label=entspricht]
+	"Presse- und Medienrecht" -> Schutzbereich [label=betrifft]
+	Produkt -> Schaden [label=kannVerursachen]
+	Produkthaftungsrecht -> Haftung [label=beinhaltet]
+	Prospekt -> Klausel [label=beinhaltet]
+	Prozess -> Gerichtskosten [label="beträgt"]
+	Prozess -> ZeitlicherVerlauf [label=dauert]
+	Prozess -> GerichtlichesVerfahren [label="führtZu"]
+	Prozessparteien -> "Widerrufsgründe" [label=hatGrund]
+	Prozessparteien -> Widerruf [label=istBerechtigt]
+	Prozessparteien -> Widerrufsrecht [label=kannRechtlichGeltendMachen]
+	Prozessrecht -> "Aufklärungspflicht" [label=beinhaltet]
+	Prozessrecht -> Hinweispflicht [label=beinhaltet]
+	Prozessrecht -> Pflicht [label=beinhaltet]
+	Prozessrecht -> Streitschlichtung [label=beinhaltet]
+	Prozessrecht -> Verfahrensrecht [label=beinhaltet]
+	Prozessrecht -> "Rechtsverhältnis" [label=betrifft]
+	Prozessunterlassen -> Partei [label=hatKonsequenzen]
+	Prozessunterlassen -> Schadensersatzpflicht [label=kannVerursachen]
+	Prozessvergleich -> Widerruf [label=kannWiderrufen]
+	"Prüfung" -> Hemmnis [label=bewirkt]
+	Publikum -> Risikobereitschaft [label=hat]
+	Rechnung -> Mindestangaben [label="enthält"]
+	Recht -> Gesetz [label=basiertAuf]
+	Recht -> Mietrechtsregelungen [label=beachten]
+	Recht -> RechtlicheBeziehung [label=beinhaltet]
+	Recht -> "im Zusammenhang mit der Kaution und der Rückgabe von Leasingobjekten" [label=besteht]
+	Recht -> Auskunftserteilung [label=betrifft]
+	Recht -> LexSpecialis [label=betrifft]
+	Recht -> Durchsetzbarkeit [label=erfordert]
+	Recht -> "Gültigkeit" [label=erfordert]
+	Recht -> Wirksamkeit [label=erfordert]
+	Recht -> Schaden [label=ergebenSichAus]
+	Recht -> "Rücktritt" [label=hatRechtAuf]
+	Recht -> Schadensersatz [label=hatRechtAuf]
+	Recht -> "inMietverhältnis" [label=kannEntstehen]
+	Recht -> Vertrag [label=kannGeltendGemachtWerden]
+	Recht -> "Frachtführerdienstleistung" [label=regelt]
+	Recht -> Haftung [label=regelt]
+	Recht -> Maklervertrag [label=regelt]
+	Recht -> Pflicht [label=regelt]
+	Recht -> RechtlicheBeziehung [label=regelt]
+	Recht -> "Verjährung" [label=regelt]
+	Recht -> Vertrag [label=regelt]
+	Recht -> Mieter [label=setztDurch]
+	Recht -> Vermieter [label=setztDurch]
+	"Recht bei Arbeitsunfähigkeit" -> "Entschädigung" [label=gibtAnspruchAuf]
+	"Recht bei Arbeitsunfähigkeit" -> "Arbeitsunfähigkeit" [label="schütztVor"]
+	Rechte -> Mieter [label=betrifft]
+	RechtlicheBeziehung -> Recht [label=basiertAuf]
+	RechtlicheBeziehung -> Rechtsperson [label=betrifft]
+	RechtlicheBeziehung -> Recht [label="hatGültigkeitFür"]
+	RechtlicheBeziehung -> Rechtspflicht [label=istVerbundenMit]
+	RechtlicheBeziehung -> "unter bestimmten Voraussetzungen" [label=liegtVor]
+	RechtlicheFolgen -> "Bußgeld" [label=betrifft]
+	RechtlicheFolgen -> "Entschädigung" [label=betrifft]
+	RechtlicheFolgen -> Schadensersatz [label=betrifft]
+	RechtlicheFolgen -> StrafrechtlicheVerfolgung [label=betrifft]
+	RechtlicheHandlung -> "Gültigkeit" [label="erfüllt"]
+	RechtlicheKonsequenz -> Gerichtsverfahren [label=basiertAuf]
+	RechtlicheKonsequenz -> Schadensersatz [label=betrifft]
+	RechtlicheKonsequenz -> Strafe [label=betrifft]
+	RechtlicheKonsequenz -> Strafrecht [label=betrifft]
+	RechtlicheKonsequenz -> Verfahrensrecht [label=betrifft]
+	RechtlicheKonsequenz -> Zivilrecht [label=betrifft]
+	Rechtsanwalt -> Mandant [label=vertritt]
+	Rechtsberatung -> Fondsbeteiligung [label=betrifft]
+	Rechtsberatung -> Schadensersatzanspruch [label=betrifft]
+	Rechtsbeziehung -> "Mängelbeseitigungskosten" [label=betrifft]
+	Rechtsbeziehung -> Werklohnforderung [label=betrifft]
+	Rechtsbeziehung -> "Gesetzliche Vorschrift" [label=betrifftGesetzlicheVorschrift]
+	Rechtsdurchsetzung -> Abmahnung [label=istFormDer]
+	Rechtsdurchsetzung -> GerichtlicheGeltendmachung [label=istFormDer]
+	Rechtsdurchsetzung -> Schadensersatz [label="istGrundFür"]
+	Rechtsfolge -> Voraussetzung [label=basiertAuf]
+	Rechtsfolge -> Haftung [label=beinhaltet]
+	Rechtsfolge -> Schadensersatz [label=beinhaltet]
+	Rechtsfolge -> Einwendung [label=betrifft]
+	Rechtsfolge -> Partei [label=betrifft]
+	Rechtsfolge -> Streitpartei [label=betrifft]
+	Rechtsfolge -> "Verjährung" [label=betrifft]
+	Rechtsfolge -> Voraussetzung [label=erfordert]
+	Rechtsfolge -> Vertrag [label="führtZu"]
+	Rechtsfolge -> Beteiligte [label=istBindend]
+	Rechtsfolge -> Klage [label=istRechtskraft]
+	Rechtsfolge -> "Äußerung" [label=kannSichErgeben]
+	Rechtsfolge -> "wennProzessfähigkeitOderVertretungNichtErfüllt" [label=trittEin]
+	Rechtsform -> "Geschäftsführer" [label=bestimmt]
+	"Rechtsgeschäft" -> Anspruch [label=beinhaltet]
+	"Rechtsgeschäft" -> Vergleichsabschluss [label=beinhaltet]
+	"Rechtsgeschäft" -> Vertrag [label=beinhaltet]
+	"Rechtsgeschäft" -> Rechtsfolge [label=hatRechtsfolge]
+	"Rechtsgeschäft" -> Vertrag [label=istGegenstand]
+	Rechtsgrund -> Annullierung [label=hatRechtsgrund]
+	Rechtsgrund -> Widerruf [label=hatRechtsgrund]
+	Rechtsgrundlage -> Gericht [label="begründet"]
+	Rechtsgrundlage -> Rechtsmittel [label=beziehtSichAuf]
+	Rechtsgrundlage -> Erstattung [label=geregelt]
+	Rechtsgrundlage -> Schadensersatz [label=geregelt]
+	Rechtsgrundlage -> Fall [label=giltIn]
+	Rechtsgrundlage -> Verpflichtung [label=giltIn]
+	Rechtsgrundsatz -> Berufungsurteil [label=beeinflusst]
+	Rechtsgrundsatz -> Sachverhalt [label=betrifft]
+	Rechtsmittel -> Frist [label=betrifftInAnsehungVon]
+	Rechtsmittel -> Rechtsweg [label=betrifftInBezugAufDen]
+	Rechtsmittel -> Gericht [label=betrifftInVerbindungMit]
+	Rechtsmittel -> Rechtsstreit [label=betrifftInVerbindungMitDem]
+	Rechtsmittel -> Prozessrecht [label=betrifftRechtsgebiet]
+	Rechtsmittel -> Strafrecht [label=betrifftRechtsgebiet]
+	Rechtsmittel -> Zivilrecht [label=betrifftRechtsgebiet]
+	Rechtsmittel -> Rechtsfehler [label=beziehtSichAuf]
+	Rechtsmittel -> Sachverhalt [label=beziehtSichAuf]
+	Rechtsmittel -> Rechtsfolge [label="führtZu"]
+	Rechtsmittel -> Klage [label=istUnwirksam]
+	Rechtsnorm -> Rechtsgrundsatz [label=basiertAuf]
+	Rechtsnorm -> Rechtsgrundsatz [label="begründet"]
+	Rechtsnorm -> Berufungsverfahren [label=regelt]
+	Rechtsnorm -> Haftung [label=regelt]
+	Rechtsnorm -> Sachverhalt [label=regelt]
+	Rechtsnorm -> Verpflichtung [label=regelt]
+	Rechtsordnung -> Parteien [label=betrifft]
+	Rechtspflicht -> Rechtsperson [label=hatRechteUndPflichten]
+	Rechtsstreit -> Gericht [label=betrifft]
+	Rechtsstreit -> Partei [label=betrifft]
+	Rechtsstreit -> Sachverhalt [label=betrifft]
+	Rechtsstreit -> Rechtsweg [label=betrifftAls]
+	Rechtsstreit -> "Rechtshängigkeit" [label=betrifftInBezugAuf]
+	Rechtsstreit -> Rechtsmittel [label=betrifftInZusammenhangMit]
+	Rechtsstreit -> Staat [label="hatGültigkeitIn"]
+	Rechtsverfolgungskosten -> Versicherungsfall [label=betrifft]
+	Rechtsverfolgungskosten -> Gericht [label=kannErstattetWerden]
+	"Rechtsverhältnis" -> Anspruch [label=beinhaltet]
+	"Rechtsverhältnis" -> Verschulden [label=kannHaftungVerursachen]
+	Rechtsverteidigungskosten -> Versicherungsfall [label=betrifft]
+	Rechtsverteidigungskosten -> Gericht [label=kannErstattetWerden]
+	Rechtsvertreter -> Partei [label=istVerpflichtet]
+	Rechtsvorschrift -> Erweiterung [label=regelt]
+	Rechtswidrigkeit -> NachbarrechtlicherAusgleichsanspruch [label=hatBedeutungFuer]
+	Rechtswidrigkeit -> Culpa [label=weistCulpaAuf]
+	Reise -> Annulation [label=betrifft]
+	Reise -> "Kündigung" [label=betrifft]
+	Reise -> "Nichterfüllung" [label=betrifft]
+	Reise -> "Rücktritt" [label=betrifft]
+	Reise -> Verpflichtung [label=betrifft]
+	Reiseleistung -> Reisevertrag [label=istGegenstandVon]
+	Reiseleistung -> Reisezeitpunkt [label="istVerknüpftMit"]
+	Reisender -> Reisevertrag [label=abgeschlossen]
+	Reisender -> Reise [label=hatAnspruchAuf]
+	Reisender -> Recht [label=kannGeltendMachen]
+	Reisender -> "AllgemeineGeschäftsbedingungen" [label=kennengelernt]
+	Reiseveranstalter -> Verpflichtung [label=hat]
+	Reiseveranstalter -> Reise [label=hatPflicht]
+	Reiseveranstalter -> Reiseverhinderung [label=kann]
+	Reiseveranstalter -> "Rücktritt" [label=kann]
+	Reiseveranstalter -> "Entschädigung" [label=leistet]
+	Reiseverhinderung -> "Entschädigung" [label=betrifft]
+	Reiseverhinderung -> Reise [label=betrifft]
+	Reisevertrag -> Reise [label=beziehtSichAuf]
+	Reisevertrag -> Reisezeitpunkt [label=beziehtSichAuf]
+	Reisevertrag -> Vertragsinhalt [label="enthält"]
+	Renovierung -> Mietobjekt [label=betrifft]
+	Revision -> Revisionsgrund [label=beinhaltet]
+	Revision -> Berufung [label=betrifft]
+	Revision -> Beschwerde [label=betrifft]
+	Revision -> Rechtsbehelf [label=betrifft]
+	Revision -> Rechtskraft [label=betrifft]
+	Revision -> Rechtswidrigkeit [label=betrifft]
+	Revision -> Verfahrensfehler [label=betrifft]
+	Revision -> Rechtsmittel [label=bezeichnet]
+	Revision -> RechtlicheKonsequenz [label="führtZu"]
+	Revision -> Revisionsverfahren [label="führtZu"]
+	Revision -> Rechtsmittel [label=ist]
+	Rezipient -> Satire [label=erkennt]
+	Rezipient -> "Äußerung" [label=erkennt]
+	Richter -> Erprobung [label=hatRechtAuf]
+	Richter -> Oberlandesgericht [label=kannAbgeordnetWerden]
+	Richter -> Gericht [label="wirdAusgeübt"]
+	Richtlinie -> Artikel [label=legtFest]
+	"Räumungsverpflichtung" -> Mieter [label=betrifft]
+	"Rückgabe" -> Vermietung [label=verhindert]
+	"Rückgabe" -> Mietsache [label="verzögert"]
+	"RückgabeVerzögerung" -> "Verzögerungsdauer" [label=dauert]
+	"RückgabeVerzögerung" -> "Nutzungsentschädigung" [label="istGrundFür"]
+	"Rückgabezustand" -> "Nutzungsentschädigung" [label=betrifft]
+	"Rückstellung" -> "Überschussverteilung" [label=betrifft]
+	"Rückstellung" -> Rechtsnorm [label=hatRechtlicheBedeutung]
+	"Rücktritt" -> Reiseleistung [label=betrifft]
+	"Rücktritt" -> Recht [label="führtZu"]
+	"Rücktritt" -> Rechtsfolge [label=hatRechtsfolge]
+	"Rücktritt" -> Vertrag [label=hatRechtsgrund]
+	"Rücktritt" -> "§§ 323, 437 BGB" [label=imZusammenhangMit]
+	"Rücktritt" -> Schadensersatz [label=kannGeltendMachen]
+	"Rücktritt" -> AGBG [label=wendetAn]
+	"Rückweisung" -> Neulieferung [label=beinhaltet]
+	"Rückweisung" -> Wandlung [label=beinhaltet]
+	"Rückweisung" -> "Rechtliche Folge" [label="führt zu"]
+	"Rückzahlungsanspruch" -> Bedingungen [label="erfüllen"]
+	"Rückzahlungsanspruch" -> "Verjährung" [label=verwirken]
+	Sache -> Schaden [label=verursacht]
+	Sachverhalt -> Parteien [label=betrifft]
+	Sachverhalt -> Beweis [label="enthält"]
+	"Sachverständigengutachten" -> "Mieterhöhungsverlangen" [label="istRelevantFür"]
+	"Sachverständigenkosten" -> Versicherungsfall [label=betrifft]
+	"Sachverständigenkosten" -> Gericht [label=kannErstattetWerden]
+	"Sachverständigenkosten" -> "im Rahmen des Schadensersatzrechts" [label=sindQuotabel]
+	Satire -> Kontext [label=hatKontext]
+	Schaden -> "Schadenshöhe" [label=beinhaltet]
+	Schaden -> Pflichtverletzung [label=betrifft]
+	Schaden -> Schadensersatz [label=betrifft]
+	Schaden -> Verbindlichkeit [label=betrifft]
+	Schaden -> "ArtUndHöhe" [label="beträgt"]
+	Schaden -> Schadensersatz [label="entschädigt"]
+	Schaden -> Haftungsgrund [label=entspringt]
+	Schaden -> Kosten [label=entspringt]
+	Schaden -> Transport [label=entstehtImZusammenhangMit]
+	Schaden -> Versicherung [label=gedeckt]
+	Schaden -> Schadensersatz [label=hatAnspruchAuf]
+	Schaden -> "Entschädigung" [label="istEntschädigungspflichtig"]
+	Schaden -> Schadensersatz [label=istFolge]
+	Schaden -> NachbarrechtlicherAusgleichsanspruch [label=istGegenstandVon]
+	Schaden -> JaNein [label=kannAbstraktBerechnetWerden]
+	Schaden -> Pflichtverletzung [label=resultiertAus]
+	Schaden -> Unfallereignis [label=verursachen]
+	Schaden -> Mangel [label=verursacht]
+	Schaden -> Pflichtverletzung [label=verursacht]
+	Schadensereignis -> "Erstattungsfähigkeit" [label="istFällig"]
+	Schadensereignis -> "Verjährung" [label="istVerjährt"]
+	Schadensersatz -> Verletzung [label=betrifftSchadensersatz]
+	Schadensersatz -> Schadensersatzrecht [label=betrifftSchadensersatzrecht]
+	Schadensersatz -> Anspruch [label="beträgt"]
+	Schadensersatz -> Schadensersatzanspruch [label="beträgt"]
+	Schadensersatz -> "einen bestimmten Betrag" [label="beträgt"]
+	Schadensersatz -> Schadensersatzpflicht [label=entspricht]
+	Schadensersatz -> Anfechtung [label="hatKausalität"]
+	Schadensersatz -> "Rücktritt" [label="hatKausalität"]
+	Schadensersatz -> Schadensersatzpflicht [label="ist Gegenstand von"]
+	Schadensersatz -> Schadensersatzart [label=istArtVon]
+	Schadensersatz -> "Verstoß" [label=istEntstandenDurch]
+	Schadensersatz -> "Verjährung" [label="istFällig"]
+	Schadensersatz -> Schadensersatzpflicht [label=istGegenstandVon]
+	Schadensersatz -> Rechtsperson [label=istGeschuldet]
+	Schadensersatz -> Vertrag [label=istGeschuldet]
+	Schadensersatz -> "bei Unwirksamkeit von Vertragsklauseln" [label=istGeschuldet]
+	Schadensersatz -> Rechte [label=istGrund]
+	Schadensersatz -> Rechtsdurchsetzung [label="istGrundFür"]
+	Schadensersatz -> Vertrag [label=istRechtsfolge]
+	Schadensersatz -> "Verjährung" [label="istVerjährt"]
+	Schadensersatz -> Haftungsausschluss [label="kannUnbegründetSein"]
+	Schadensersatz -> Schadensersatzpflicht [label="kannUnbegründetSein"]
+	Schadensersatz -> "Verjährung" [label="kannUnbegründetSein"]
+	Schadensersatz -> Voraussetzung [label="kannUnbegründetSein"]
+	Schadensersatz -> Verursacher [label=leistet]
+	Schadensersatz -> Haftpflicht [label=regeln]
+	Schadensersatz -> Versicherung [label=regeln]
+	Schadensersatz -> Rechtsfolge [label=trittEin]
+	Schadensersatzanspruch -> "Leistungsstörung" [label="basiert auf"]
+	Schadensersatzanspruch -> Mangel [label="basiert auf"]
+	Schadensersatzanspruch -> "Nichterfüllung" [label="basiert auf"]
+	Schadensersatzanspruch -> BGB [label=basiertAuf]
+	Schadensersatzanspruch -> Haftungsgrund [label=basiertAuf]
+	Schadensersatzanspruch -> Heimaufenthaltkosten [label=beinhaltet]
+	Schadensersatzanspruch -> Rechtsverfolgungskosten [label=beinhaltet]
+	Schadensersatzanspruch -> Rechtsverteidigungskosten [label=beinhaltet]
+	Schadensersatzanspruch -> "Sachverständigenkosten" [label=beinhaltet]
+	Schadensersatzanspruch -> Voraussetzung [label=beinhaltet]
+	Schadensersatzanspruch -> "Geschädigter" [label=betrifft]
+	Schadensersatzanspruch -> Schuldner [label=betrifft]
+	Schadensersatzanspruch -> Verletzung [label=betrifft]
+	Schadensersatzanspruch -> Vertrag [label=betrifft]
+	Schadensersatzanspruch -> "Schadenshöhe" [label="beträgt"]
+	Schadensersatzanspruch -> Schaden [label="bezieht sich auf"]
+	Schadensersatzanspruch -> "Sachverständigenkosten" [label=entspricht]
+	Schadensersatzanspruch -> Schadensersatzpflicht [label=entspricht]
+	Schadensersatzanspruch -> Haftungsvorschrift [label="gründet auf"]
+	Schadensersatzanspruch -> Rechtsfolge [label=hatRechtsfolge]
+	Schadensersatzanspruch -> Schadensersatzberechtigter [label=istBerechtigt]
+	Schadensersatzanspruch -> Vertragspartei [label="istGeschädigter"]
+	Schadensersatzanspruch -> Vertragspartei [label=istSchuldner]
+	Schadensersatzanspruch -> Schadensersatzverpflichteter [label=istVerpflichtet]
+	Schadensersatzanspruch -> Rechtsfolge [label=trittEin]
+	Schadensersatzpflicht -> Verzugsschaden [label=beinhaltet]
+	Schadensersatzpflicht -> Schadensersatz [label=betrifft]
+	Schadensersatzpflicht -> Schadensersatzrecht [label=betrifft]
+	Schadensersatzpflicht -> Bauwerk [label=betrifftBauwerk]
+	Schadensersatzpflicht -> Schadensersatzanspruch [label="führt zu"]
+	Schadensersatzpflicht -> Haftungsvorschrift [label="gründet auf"]
+	Schadensersatzpflicht -> Schadensersatzanspruch [label="ist Folge von"]
+	Schadensersatzpflicht -> Schadensersatz [label="ist verpflichtet zu"]
+	Schadensersatzpflicht -> Gesellschafter [label=istSchadensersatzpflichtig]
+	Schadensersatzpflicht -> "nach § 199 BGB" [label="kann verjährt sein"]
+	Schadensersatzpflicht -> Rechtsfolge [label=trittEin]
+	Schadensersatzpflichtiger -> Schadensersatzanspruch [label="trägtKosten"]
+	Schadensersatzrecht -> "ArglistigeTäuschung" [label="istRelevantFür"]
+	Schadensersatzrecht -> Schadensersatz [label=regelt]
+	Schadensersatzverpflichtung -> "Kausalität" [label=basiertAuf]
+	Schadensfall -> Schadensersatzanspruch [label=betrifft]
+	Schadensfall -> Versicherungsleistung [label=leistet]
+	"Schadenshöhe" -> Geldbetrag [label="beträgt"]
+	Schenkung -> Pflicht [label=erzeugt]
+	Schenkung -> Recht [label=erzeugt]
+	Schenkung -> Unterbeteiligung [label=kannWirksamVollzogenWerden]
+	Schlichtungsverfahren -> Schlichtungsabkommen [label=betrifft]
+	Schlichtungsverfahren -> Schlichtungsvereinbarung [label=betrifft]
+	Schlichtungsverfahren -> Vertragsverletzung [label=betrifftAls]
+	Schlichtungsverfahren -> Schlichtungsurteil [label=bezeichnet]
+	Schlichtungsverfahren -> Rechtsfolge [label="führtZu"]
+	Schriftform -> Parteienwille [label=beeinflusst]
+	Schriftform -> "im Zusammenhang mit § 4 HOAI" [label="hat Bedeutung"]
+	"Schriftstück" -> Rechtsfolge [label=betrifft]
+	Schuld -> "Fahrlässigkeit" [label="kann sein"]
+	Schuld -> Vorsatz [label="kann sein"]
+	Schuldner -> Anspruch [label=betrifft]
+	Schuldner -> Schadensersatzverpflichtung [label=kannSchadensersatzVerpflichten]
+	Schutz -> Satire [label=basiertAuf]
+	Schutz -> "Wohnungseigentümer" [label=bietet]
+	"Schutzbedürfnis" -> Person [label="schützt"]
+	Schutzbereich -> Schutzpflicht [label=beinhaltet]
+	Schutzpflicht -> Schutzobjekt [label=betrifft]
+	Schutzpflicht -> Schutzpflichtige [label=betrifft]
+	Schutzpflicht -> Schutzpflichtiger [label=betrifft]
+	Schutzpflichtige -> Schutz [label=kannGeltendMachen]
+	Schutzpflichtiger -> Schutz [label=kannInAnspruchNehmen]
+	Schutzpflichtiger -> Schutzpflicht [label=kannVerletzen]
+	Schutzrecht -> Schutzpflicht [label=istRechtlichRelevant]
+	Schutzrecht -> Schutz [label="kannFührenZu"]
+	Schutzrecht -> Schutzpflichtiger [label=kannSchutzBerauben]
+	Schutzrecht -> Schutzpflichtiger [label="kannSchutzBeschränken"]
+	Schutzrecht -> Schutzpflichtiger [label=kannSchutzBieten]
+	Schutzrecht -> Schutzpflichtiger [label="kannSchutzGewähren"]
+	Schutzrecht -> Schutzpflichtiger [label=kannSchutzVersagen]
+	Schutzrecht -> Schutzobjekt [label="kannSchützen"]
+	Schutzverletzter -> Schutzverletzungsfolge [label=istSchutzverletzungsfolge]
+	Schutzverletzungstatbestand -> "Geräuschemission" [label=istSchutzverletzungstatbestandsmerkmal]
+	Schutzverletzungstatbestand -> "Geräuschemission" [label=istSchutzverletzungstatbestandsverwirklicher]
+	Schutzverpflichteter -> "Geräuschemission" [label=istSchutzverpflichtungsgrund]
+	"Schädiger" -> "Geschädigter" [label=kannInAnspruchNehmen]
+	"Schönheitsreparaturen" -> Mieter [label=betrifft]
+	Selbstnutzung -> "Nutzungsentschädigung" [label=betrifft]
+	"SelbständigerBerufstätiger" -> Versicherungspflicht [label=bleibtVersicherungspflichtig]
+	"SelbständigerBerufstätiger" -> "Recht bei Arbeitsunfähigkeit" [label=hatRechtAuf]
+	Signale -> Pflichten [label=hatPflichten]
+	Signale -> Rechte [label=hatRechte]
+	"Sonderkündigungsrecht" -> Rechtsfolge [label="führtZu"]
+	"Sonderkündigungsrecht" -> "Kündigungsrecht" [label=istRechtsgrundlage]
+	Sozialpartner -> "Hinauskündigungsklausel" [label=betrifft]
+	Sozialversicherung -> Krankenversicherung [label=istPflichtversichert]
+	Sozialversicherung -> Rentenversicherung [label=istPflichtversichert]
+	"Sozietätsvertrag" -> Rechtsform [label=bestimmt]
+	"Stammkapitalerhöhung" -> Gesellschaft [label=betrifftInBezugAuf]
+	"Stammkapitalerhöhung" -> Gesellschafter [label=betrifftInBezugAuf]
+	"Stammkapitalerhöhung" -> Gesellschaft [label=istImInteresseVon]
+	"Stammkapitalerhöhung" -> Gesellschafter [label=istImInteresseVon]
+	"Stammkapitalerhöhung" -> Fall [label="istRechtmäßigIn"]
+	"Stammkapitalerhöhung" -> Voraussetzung [label="istZulässigUnter"]
+	Strafe -> Freiheitsstrafe [label=beinhaltet]
+	Strafe -> Geldstrafe [label=beinhaltet]
+	Strafrecht -> "Ehrenrührige Äußerung" [label=betrifft]
+	Strafrecht -> "Strafbare Beleidigung" [label=betrifft]
+	Strafrecht -> "Ungerechtfertigte Injury" [label=betrifft]
+	StrafrechtlicheVerfolgung -> "bei bestimmten Delikten" [label=istGeboten]
+	StrafrechtlicheVerfolgung -> "bei bestimmten Delikten" [label="istMöglich"]
+	Streitpartei -> Pflichtverletzung [label=istBetroffen]
+	Streitschlichtung -> Streitpartei [label=betrifft]
+	Streitschlichtung -> Prozessrecht [label=obligatorisch]
+	"Subsidiaritätsklausel" -> Innenausgleich [label=betrifft]
+	Tarifvertrag -> "Vergütung" [label="enthält"]
+	Teilleistung -> "Teilvergütung" [label=entspricht]
+	"Teilvergütung" -> "Vergütung" [label="beträgt"]
+	Transport -> Gut [label=betrifft]
+	Transport -> Verpflichteter [label=istVerpflichtetZumAufkommen]
+	Transport -> Verkehrsmittel [label="wirdDurchgeführtMit"]
+	Treuepflicht -> Schadensersatzpflicht [label=kannEinfordern]
+	"Täuschung" -> Schadensersatzanspruch [label=vorliegt]
+	Umwelt -> Immissionsschutzrecht [label=betrifftSchutzgut]
+	UngerechtfertigteBereicherung -> Rechtswidrigkeit [label=beinhaltet]
+	UngerechtfertigteBereicherung -> Schuld [label=beinhaltet]
+	UngerechtfertigteBereicherung -> "Verjährung" [label=istGegenstandVon]
+	UngerechtfertigteBereicherung -> Verfahrensrecht [label="istGeschütztDurch"]
+	UngerechtfertigteBereicherung -> Herausgabe [label=istRechtlicheBedeutung]
+	UngerechtfertigteBereicherung -> "Entschädigung" [label="kannFührenZu"]
+	UngerechtfertigteBereicherung -> Schadensersatz [label="kannFührenZu"]
+	Ungewissheit -> Schuldner [label=betrifft]
+	"Uniwagnis-Datei" -> Versicherungsnehmer [label="enthältInformationenÜber"]
+	"Uniwagnis-Datei" -> Versicherungsvertrag [label="enthältInformationenÜber"]
+	Unterbrechung -> "Verjährung" [label="führtZu"]
+	Unternehmen -> "Geschäftstätigkeit" [label=erweitern]
+	Unternehmen -> Recht [label=hatRechtAuf]
+	Unternehmen -> Verbindlichkeit [label="kannHaftenFür"]
+	Unternehmer -> Werk [label=erstellt]
+	Unternehmer -> Mangel [label=haftetFuer]
+	Unternehmer -> Pflichtverletzung [label=verletztPflicht]
+	Unwirksamkeit -> Rechtsfolge [label="führtZu"]
+	Unwirksamkeit -> Altersversorgung [label=kannGeltendMachen]
+	Unwissenheit -> RechtlicheFolgen [label=betrifft]
+	Urteilszustellung -> Hemmnis [label=bewirkt]
+	Verantwortlichkeit -> Haftung [label="führtZu"]
+	Verbandsorgan -> Genossenschaft [label=istVerbandsorgan]
+	Verbandsorganmitglied -> Verbandsorgan [label=istVerbandsorganmitglied]
+	Verbandsstrafe -> Gesetz [label=basiertAuf]
+	Verbandsstrafe -> Vertrag [label=basiertAuf]
+	Verbandsstrafe -> Genossenschaft [label="kannVerhängtWerden"]
+	Verbandsstrafe -> Vertragspartner [label="kannVerhängtWerden"]
+	Verbandsstrafe -> Rechtsfolge [label=regelt]
+	Verbindlichkeit -> Haftungsgrund [label=betrifftHaftungsgrund]
+	Verbindlichkeit -> Inhaber [label="haftetFür"]
+	Verbraucher -> Richtlinie [label=betrifft]
+	Verbraucher -> Flug [label=istFluggast]
+	Vereinbarung -> Vertragsinhalt [label=betrifft]
+	Vereinbarung -> Schriftform [label=erfordert]
+	Vereinbarung -> Vertragspartei [label=hatVertragspartei]
+	Vereinbarung -> "Vergütung" [label=istAusreichend]
+	Verfahrensbeteiligte -> "Schriftstück" [label=betrifft]
+	Verfahrensbeteiligter -> Verfahrenskosten [label="trägtKosten"]
+	Verfahrenshindernis -> Passivlegitimationsmangel [label=kannEintritt]
+	Verfahrenshindernis -> "Prozessunfähigkeit" [label=kannEintritt]
+	Verfahrenskosten -> "Sachverständigenkosten" [label=beinhalten]
+	Verfahrensrecht -> Strafprozessrecht [label=beinhaltet]
+	Verfahrensrecht -> Zivilprozessrecht [label=beinhaltet]
+	Verfahrensrecht -> Verfahrensablauf [label=regelt]
+	Vergleichsabschluss -> Hemmnis [label=bewirkt]
+	"Vergütung" -> Vereinbarung [label=bestimmt]
+	"Vergütung" -> Vertrag [label="beträgt"]
+	"Vergütung" -> Leistung [label=istEntgeltlich]
+	"Vergütung" -> Leistung [label="istLeistungsabhängig"]
+	"Vergütung" -> Vertragspartei [label="istSchutzbedürftig"]
+	"Verjährung" -> Pflicht [label=beeinflusst]
+	"Verjährung" -> Recht [label=beeinflusst]
+	"Verjährung" -> "Verjährungsbeginn" [label=beginnt]
+	"Verjährung" -> "Verjährungsfrist" [label=beinhaltet]
+	"Verjährung" -> Anspruch [label=betrifft]
+	"Verjährung" -> "Verjährungsfrist" [label=betrifft]
+	"Verjährung" -> "Verjährungsgrund" [label=betrifft]
+	"Verjährung" -> "Verjährungshemmung" [label=betrifft]
+	"Verjährung" -> "Verjährungsunterbrechung" [label=betrifft]
+	"Verjährung" -> "Verjährungsverlängerung" [label=betrifft]
+	"Verjährung" -> "Verjährungsfrist" [label=endet]
+	"Verjährung" -> Rechtsfolge [label=hatRechtsfolge]
+	"Verjährung" -> Hemmung [label=hemmt]
+	"Verjährung" -> "Verjährungsfrist" [label=istAbgelaufen]
+	"Verjährung" -> "Verjährungsfrist" [label="istFällig"]
+	"Verjährung" -> "Verjährungsfrist" [label=istVergangen]
+	"Verjährung" -> Recht [label="istVerjährt"]
+	"Verjährung" -> "Ansprüche" [label="kannAusschließen"]
+	"Verjährung" -> Hemmnis [label=kannGehemmtSein]
+	"Verjährung" -> Geltendmachung [label=kannHindern]
+	"Verjährung" -> Handlung [label=kannUnterbrochenOderGehemmtSein]
+	"Verjährung" -> Unterbrechung [label=kannUnterbrochenSein]
+	"Verjährung" -> Rechte [label="kannVerjähren"]
+	"Verjährung" -> Unterbrechung [label=unterbricht]
+	"Verjährung" -> "Verjährungsunterbrechung" [label=unterbricht]
+	"Verjährung" -> "Verjährungsverlängerung" [label="verlängert"]
+	"Verjährungsfrist" -> Anspruch [label="giltFür"]
+	"Verjährungsfrist" -> Recht [label="giltFür"]
+	"Verjährungsgrund" -> "Verjährung" [label="begründet"]
+	"Verjährungshemmung" -> "Verjährung" [label="begründet"]
+	"Verjährungshemmung" -> Gericht [label=kannEntstehen]
+	"Verjährungshemmung" -> "Geschäftsbesorgungsvertrag" [label=kannEntstehen]
+	"Verjährungshemmung" -> "Verjährungshemmungsgrund" [label=kannEntstehen]
+	"Verjährungshemmung" -> "Verjährungsunterbrechung" [label=kannEntstehen]
+	"Verjährungshemmung" -> Vertragspartei [label=kannEntstehen]
+	"Verjährungsunterbrechung" -> "Verjährung" [label="begründet"]
+	"Verjährungsunterbrechung" -> Gericht [label=kannEntstehen]
+	"Verjährungsunterbrechung" -> "Geschäftsbesorgungsvertrag" [label=kannEntstehen]
+	"Verjährungsunterbrechung" -> "Verjährungshemmungsgrund" [label=kannEntstehen]
+	"Verjährungsunterbrechung" -> "Verjährungsunterbrechungsgrund" [label=kannEntstehen]
+	"Verjährungsunterbrechung" -> Vertragspartei [label=kannEntstehen]
+	"Verjährungsverlängerung" -> "Verjährung" [label="begründet"]
+	Verkehrssicherheit -> Haftung [label=regelt]
+	"Verkäufer" -> Sache [label=ersetzt]
+	"Verkäufer" -> "gegenüberKunde" [label=hatPflicht]
+	"Verkäufer" -> "gegenüberLieferant" [label=hatPflicht]
+	"Verkäufer" -> imRahmenVonVertrag [label="kannTätigWerden"]
+	"Verkäufer" -> Nachbesserung [label=leistet]
+	"Verkäufer" -> Vertrag [label=unterliegt]
+	"Verkäufer" -> Mangel [label=verursacht]
+	Verletzung -> Schutzobjekt [label=verletzt]
+	Verletzung -> Mieter [label=verletztRecht]
+	Verletzung -> Vermieter [label=verletztRecht]
+	Verletzung -> Schadensersatzanspruch [label=verursacht]
+	"Verlängerung" -> Pflicht [label=hatAuswirkungAuf]
+	"Verlängerung" -> Recht [label=hatAuswirkungAuf]
+	Vermessungsaufgabe -> Kosten [label=betrifft]
+	"Vermessungsbehörde" -> Lageplan [label=festlegt]
+	"Vermessungsbehörde" -> Lageplan [label="verändert"]
+	Vermessungsrecht -> Lageplan [label=regelt]
+	Vermieter -> Betriebskosten [label=abrechnen]
+	Vermieter -> "Mieterhöhung" [label="begründet"]
+	Vermieter -> Mietobjekt [label=betrifft]
+	Vermieter -> Mietvertrag [label=betrifft]
+	Vermieter -> Neuvermietung [label=betrifft]
+	Vermieter -> Selbstnutzung [label=betrifft]
+	Vermieter -> Verletzung [label="ergreiftMaßnahmeGegen"]
+	Vermieter -> "Rückgabe von Leasingobjekt" [label=hatPflicht]
+	Vermieter -> Untervermietung [label=hatRecht]
+	Vermieter -> Kaution [label=hatRechtAuf]
+	Vermieter -> Mietvertrag [label=hatRechtAuf]
+	Vermieter -> "bei Unwirksamkeit von Vertragsklauseln" [label=istSchadensersatzpflichtig]
+	Vermieter -> Mietvertrag [label=istVermieter]
+	Vermieter -> Miete [label="kündigt"]
+	Vermieter -> Schadensersatzpflicht [label=schuldet]
+	Vermieter -> Betriebskosten [label=tragen]
+	Vermieter -> Vermietung [label=will]
+	Vermieterin -> Mietwagen [label=repariert]
+	"Vermittlungsgeschäft" -> Vertragsabschluss [label=endetMit]
+	"Vermögensbetreuungspflicht" -> "Geschäftsführervertrag" [label=betrifft]
+	Verpflichteter -> Pflichtverletzung [label=betrifft]
+	Verpflichteter -> Heimaufenthaltkosten [label=istVerpflichtetZuzahlen]
+	Verpflichteter -> Rechtsverfolgungskosten [label=istVerpflichtetZuzahlen]
+	Verpflichteter -> Rechtsverteidigungskosten [label=istVerpflichtetZuzahlen]
+	Verpflichteter -> "Sachverständigenkosten" [label=istVerpflichtetZuzahlen]
+	Verpflichteter -> "Rechtsgeschäft" [label=regeltIm]
+	Verpflichteter -> Rechtsberatung [label=tragen]
+	Verpflichtung -> Reisevertrag [label="basiert auf"]
+	Verpflichtung -> "Aktienverkäufer" [label=betrifft]
+	Verpflichtung -> Anleger [label=betrifft]
+	Verpflichtung -> Beteiligter [label=betrifft]
+	Verpflichtung -> Kosten [label=betrifft]
+	Verpflichtung -> Mietvertrag [label=betrifft]
+	Verpflichtung -> Vertragspartei [label=betrifft]
+	Verpflichtung -> Person [label=kannInAnspruchgenommenWerden]
+	Verpflichtung -> Kosten [label=tragen]
+	Verpflichtung -> Rechtsfolge [label=trittEin]
+	Verpflichtung -> Sittenwidrigkeit [label=wirdVermeidenGestattet]
+	Verschulden -> Schadensersatzverpflichtung [label=kannSchadensersatzVerpflichten]
+	Verschulden -> "Schädiger" [label=kannVerursachen]
+	Verschulden -> "Fahrlässigkeit" [label=kannVorliegenIn]
+	Verschulden -> Vorsatz [label=kannVorliegenIn]
+	Versicherer -> Leistungsfreiheit [label=kannGebrauchMachenVon]
+	Versicherer -> Pflichten [label=verletzt]
+	Versicherter -> Bonuspunkte [label=hatAnspruchAuf]
+	Versicherter -> "Überschussbeteiligung" [label=hatAnspruchAuf]
+	Versicherung -> Schadensersatzanspruch [label=deckt]
+	Versicherung -> Abrechnung [label=hatRechtAuf]
+	Versicherung -> "Rechtsverhältnis" [label=kannEntstehenIn]
+	Versicherungsdeckung -> Schadensersatzpflicht [label=begrenzt]
+	Versicherungsdeckung -> Versicherungsanspruch [label=begrenzt]
+	Versicherungsdeckung -> Versicherungsleistung [label=begrenzt]
+	Versicherungsdeckung -> Versicherungsrisiko [label=gedeckt]
+	Versicherungsfall -> Versicherungsrecht [label=betrifft]
+	Versicherungsfall -> "im Rahmen" [label=entsteht]
+	Versicherungsfall -> "Schadensersatz oder Leistung" [label="führt zu"]
+	Versicherungsfall -> Schadensersatzpflicht [label="führtZu"]
+	Versicherungsfall -> Versicherungsanspruch [label="führtZu"]
+	Versicherungsfall -> Versicherungsleistung [label="führtZu"]
+	Versicherungsfall -> Schadensersatzpflicht [label=istGegenstandVon]
+	Versicherungsfall -> "Kündigungsgrund" [label=istRechtsgrundlage]
+	Versicherungsfall -> Versicherungsleistung [label=kannGeltendMachen]
+	Versicherungsfall -> Versicherungsrisiko [label=kennzeichnet]
+	"Versicherungsfälligkeit" -> Schadensersatzpflicht [label=betrifft]
+	"Versicherungsfälligkeit" -> Versicherungsanspruch [label=betrifft]
+	"Versicherungsfälligkeit" -> Versicherungsleistung [label=betrifft]
+	"Versicherungsfälligkeit" -> "Versicherungsprämie" [label=betrifft]
+	Versicherungsleistung -> Versicherungsrecht [label=beinhaltet]
+	Versicherungsleistung -> Vertragspartei [label=betrifft]
+	Versicherungsleistung -> "bei Eintritt" [label="fällig"]
+	Versicherungsleistung -> Versicherer [label=leistet]
+	Versicherungsmakler -> Versicherungsvertrag [label=hatPflichtenOderObliegenheiten]
+	Versicherungsnehmer -> Versicherungsfallrisiko [label=betrifft]
+	Versicherungsnehmer -> "Auskunfts- und Aufklärungsobliegenheit" [label="erfüllt"]
+	Versicherungsnehmer -> Versicherungsvertrag [label=hatPflichtenOderObliegenheiten]
+	Versicherungsnehmer -> Recht [label=hatRechte]
+	Versicherungsnehmer -> Leistung [label=verlangen]
+	Versicherungsnehmer -> Schadensersatz [label=verlangen]
+	Versicherungsnehmer -> "Aufklärungspflicht" [label=verletzt]
+	Versicherungsnehmer -> Auskunftspflicht [label=verletzt]
+	Versicherungspflicht -> Sozialversicherung [label=istPflichtversichert]
+	Versicherungspflicht -> OptionaleVersicherung [label=kannOptionalVersichertSein]
+	"Versicherungsprämie" -> Versicherungssumme [label=beeinflusst]
+	Versicherungsrisiko -> Einstandspflicht [label=betrifft]
+	Versicherungsrisiko -> Innenausgleich [label=betrifft]
+	Versicherungsrisiko -> Leistungspflicht [label=betrifft]
+	Versicherungssumme -> Schadensersatzpflicht [label=begrenzt]
+	Versicherungssumme -> Versicherungsanspruch [label=begrenzt]
+	Versicherungssumme -> Versicherungsleistung [label=begrenzt]
+	Versicherungssumme -> Versicherungsrisiko [label=gedeckt]
+	Versicherungsvertrag -> "§ 814 BGB" [label=basiertAuf]
+	Versicherungsvertrag -> Versicherungsvertragsbeginn [label=beginntAm]
+	Versicherungsvertrag -> Mehrfachversicherung [label=beinhaltet]
+	Versicherungsvertrag -> Obliegenheit [label=beinhaltet]
+	Versicherungsvertrag -> "Subsidiaritätsklausel" [label=beinhaltet]
+	Versicherungsvertrag -> Versicherungsleistungsanspruch [label=beinhaltet]
+	Versicherungsvertrag -> Versicherungsleistungspflicht [label=beinhaltet]
+	Versicherungsvertrag -> "Versicherungsprämie" [label=beinhaltet]
+	Versicherungsvertrag -> Versicherungsvertragsbedingungen [label=beinhaltet]
+	Versicherungsvertrag -> Wahlleistungsvereinbarung [label=beinhaltet]
+	Versicherungsvertrag -> Leistungsfreiheit [label=betrifft]
+	Versicherungsvertrag -> Vertragspartei [label=betrifft]
+	Versicherungsvertrag -> "Drittbegünstigter" [label=beziehtSichAuf]
+	Versicherungsvertrag -> "Sonderkündigungsrecht" [label=beziehtSichAuf]
+	Versicherungsvertrag -> Versicherer [label=beziehtSichAuf]
+	Versicherungsvertrag -> Versicherungsnehmer [label=beziehtSichAuf]
+	Versicherungsvertrag -> Versicherungsrecht [label=beziehtSichAuf]
+	Versicherungsvertrag -> Versicherungsvertragsende [label=endetAm]
+	Versicherungsvertrag -> Versicherungsdeckung [label="führtZu"]
+	Versicherungsvertrag -> "Versicherungsfälligkeit" [label="führtZu"]
+	Versicherungsvertrag -> Versicherungsleistung [label="führtZu"]
+	Versicherungsvertrag -> "Versicherungsprämie" [label="führtZu"]
+	Versicherungsvertrag -> Versicherungsrisiko [label="führtZu"]
+	Versicherungsvertrag -> Versicherungssumme [label="führtZu"]
+	Versicherungsvertrag -> "Aufklärungspflicht" [label=istVerpflichtetZu]
+	Versicherungsvertrag -> Auskunftspflicht [label=istVerpflichtetZu]
+	Versicherungsvertrag -> Einstandspflicht [label=regelt]
+	Versicherungsvertrag -> Leistungspflicht [label=regelt]
+	Versicherungsvertrag -> Versicherungsfall [label=regelt]
+	Versicherungsvertrag -> Versicherungsleistung [label=regelt]
+	Versicherungsvertrag -> Versicherungsrecht [label=regelt]
+	Versicherungsvertrag -> Versicherer [label="schließtAb"]
+	Versicherungsvertrag -> Versicherungsnehmer [label="schließtAb"]
+	Versicherungsvertrag -> "Kausalität" [label=wirkt]
+	Versicherungsvertrag -> Schadensersatzpflicht [label=wirkt]
+	Versicherungsvertrag -> Versicherungsanspruch [label=wirkt]
+	Versicherungsvertrag -> Versicherungsleistung [label=wirkt]
+	Versicherungsvertragsrecht -> Versicherungsleistungen [label=regelt]
+	Versicherungsvertragsrecht -> Versicherungsrisiken [label=regelt]
+	Versicherungsvertragsrecht -> "Vertragsverhältnisse" [label=regelt]
+	"Verstoß" -> Prospekt [label=betrifft]
+	"Verstoß" -> Satzung [label=betrifft]
+	"Verstoß" -> Anbieter [label=betrifftAnbieter]
+	"Verstoß" -> Versicherungsgesellschaft [label=betrifftGesellschaft]
+	"Verstoß" -> Anlegervertrag [label=betrifftVertrag]
+	"Verstoß" -> Versicherungsvertrag [label=betrifftVertrag]
+	"Verstoß" -> Geldleistung [label="führtZu"]
+	"Verstoß" -> "Kündigung" [label="führtZu"]
+	"Verstoß" -> Prospekterstattung [label="führtZu"]
+	"Verstoß" -> Recht [label="führtZu"]
+	"Verstoß" -> Schadensersatz [label="führtZu"]
+	"Verstoß" -> Vertragsstrafe [label="führtZu"]
+	Vertrag -> Rechtsgrundlage [label="basiert auf"]
+	Vertrag -> Auflage [label=basiertAuf]
+	Vertrag -> Rechtsgrundlage [label=basiertAuf]
+	Vertrag -> Vertragstext [label=beeinflusst]
+	Vertrag -> Vertragsbeendigung [label=beendet]
+	Vertrag -> Leistung [label=beinhaltet]
+	Vertrag -> Pflichten [label=beinhaltet]
+	Vertrag -> Verpflichtung [label=beinhaltet]
+	Vertrag -> Vertragsbedingungen [label=beinhaltet]
+	Vertrag -> Vertragsgegenstand [label=beinhaltet]
+	Vertrag -> Vertragsinhalt [label=beinhaltet]
+	Vertrag -> Vertragspartei [label=beinhaltet]
+	Vertrag -> Vertragspartner [label=beinhaltet]
+	Vertrag -> Verpflichtung [label=bestimmt]
+	Vertrag -> Kaution [label=betrifft]
+	Vertrag -> "Kündigung" [label=betrifft]
+	Vertrag -> Partei [label=betrifft]
+	Vertrag -> "Rechtsgeschäft" [label=betrifft]
+	Vertrag -> "Rückgabe von Leasingobjekt" [label=betrifft]
+	Vertrag -> "Rücktritt" [label=betrifft]
+	Vertrag -> Schadensersatz [label=betrifft]
+	Vertrag -> Vertragsbeziehungen [label=betrifft]
+	Vertrag -> Vertragsgegenstand [label=betrifft]
+	Vertrag -> Widerruf [label=betrifft]
+	Vertrag -> Gefahr [label=betrifftGefahr]
+	Vertrag -> Mangel [label=betrifftMangel]
+	Vertrag -> Verzug [label=betrifftVerzug]
+	Vertrag -> "Wesentliche Vertragsverletzung" [label=betrifftWesentlicheVertragsverletzung]
+	Vertrag -> Vertragsstrafenregelung [label="enthält"]
+	Vertrag -> "Prämie" [label=entspricht]
+	Vertrag -> Vertragszweck [label=entspricht]
+	Vertrag -> Gesetz [label=erfordert]
+	Vertrag -> Schriftform [label=erfordert]
+	Vertrag -> Verpflichtung [label=erfordert]
+	Vertrag -> Einwilligung [label=erfordertEinwilligung]
+	Vertrag -> Durchsetzbarkeit [label="erfüllt"]
+	Vertrag -> "Gültigkeit" [label="erfüllt"]
+	Vertrag -> Wirksamkeit [label="erfüllt"]
+	Vertrag -> Innengesellschaft [label="gründet"]
+	Vertrag -> Vertragspartei [label=hatAnspruchsberechtigte]
+	Vertrag -> Vertragspartei [label=hatAnspruchsgegner]
+	Vertrag -> Recht [label="hatAnsprüche"]
+	Vertrag -> Verpflichtungen [label=hatAuswirkungAuf]
+	Vertrag -> Vertragsbeziehungen [label=hatAuswirkungAuf]
+	Vertrag -> "Formbedürftigkeit" [label="hatFormbedürftigkeit"]
+	Vertrag -> Pflicht [label=hatPflicht]
+	Vertrag -> Pflicht [label=hatPflichten]
+	Vertrag -> Recht [label=hatRechte]
+	Vertrag -> Schadensersatzpflicht [label=hatSchadensersatzpflicht]
+	Vertrag -> VertraglicheVereinbarung [label=hatVereinbart]
+	Vertrag -> Pflicht [label=hatVerpflichtungen]
+	Vertrag -> Vertragsbedingungen [label=hatVertragsbedingungen]
+	Vertrag -> Vertragsbedingungenauslegung [label=hatVertragsbedingungenauslegung]
+	Vertrag -> Vertragsbedingungeninterpretation [label=hatVertragsbedingungeninterpretation]
+	Vertrag -> "Vertragsbedingungenänderung" [label="hatVertragsbedingungenänderungen"]
+	Vertrag -> Vertragsgegenstand [label=hatVertragsgegenstand]
+	Vertrag -> Vertragsinhalt [label=hatVertragsinhalt]
+	Vertrag -> Vertragsleistung [label=hatVertragsleistung]
+	Vertrag -> Vertragsstrafe [label=hatVertragsstrafe]
+	Vertrag -> Vertragsverletzung [label=hatVertragsverletzung]
+	Vertrag -> BGB [label=istGeregeltIn]
+	Vertrag -> "Rechtsgeschäft" [label="istRechtsgeschäft"]
+	Vertrag -> "Verjährung" [label=kannBeeinflussen]
+	Vertrag -> Widerrufsrecht [label=kannBeeinflussen]
+	Vertrag -> Schadensersatz [label="kannGeltend gemacht werden"]
+	Vertrag -> Arglist [label=kannInFrageStellen]
+	Vertrag -> Drohung [label=kannInFrageStellen]
+	Vertrag -> Formmangel [label=kannInFrageStellen]
+	Vertrag -> GesetzlichesVerbot [label=kannInFrageStellen]
+	Vertrag -> "InhaltlicheMängel" [label=kannInFrageStellen]
+	Vertrag -> Irrtum [label=kannInFrageStellen]
+	Vertrag -> "Täuschung" [label=kannInFrageStellen]
+	Vertrag -> "Unmöglichkeit" [label=kannInFrageStellen]
+	Vertrag -> Wirksamkeit [label=kannInFrageStellen]
+	Vertrag -> Anspruch [label=regelt]
+	Vertrag -> "Geschäftsbedingungen" [label=regelt]
+	Vertrag -> Gut [label=regelt]
+	Vertrag -> Pflicht [label=regelt]
+	Vertrag -> "Rechtsgeschäft" [label=regelt]
+	Vertrag -> Verpflichtungen [label=regelt]
+	Vertrag -> "Vertragsauflösung" [label=regelt]
+	Vertrag -> Vertragsauslegung [label=regelt]
+	Vertrag -> Vertragsbeendigung [label=regelt]
+	Vertrag -> Vertragsbruch [label=regelt]
+	Vertrag -> "Vertragserfüllung" [label=regelt]
+	Vertrag -> Vertragsinterpretation [label=regelt]
+	Vertrag -> Vertragspartei [label=regelt]
+	Vertrag -> Vertragsrecht [label=regelt]
+	Vertrag -> Vertragsstrafe [label=regelt]
+	Vertrag -> Vertragsverletzung [label=regelt]
+	Vertrag -> "Vertragsänderung" [label=regelt]
+	Vertrag -> Versicherung [label="schließt"]
+	Vertrag -> Vertragsstrafe [label="verhängt"]
+	Vertrag -> "Vertragsänderung" [label="ändert"]
+	Vertrag -> Drittem [label="übertragenAn"]
+	VertraglicheVereinbarung -> "RechtlicheVerhältnisse" [label="ändert"]
+	Vertragsaufhebung -> Vertragspartei [label=betrifft]
+	Vertragsbedingungen -> Vertragsbedingungen [label=beinhalten]
+	Vertragsbedingungen -> Vertragsbeginn [label=gilt]
+	Vertragsbedingungen -> Vertragsende [label=gilt]
+	Vertragsbedingungen -> Schadensersatzregelung [label=regeln]
+	Vertragsbedingungen -> Versicherungsleistung [label=regeln]
+	Vertragsbedingungen -> "Versicherungsprämie" [label=regeln]
+	Vertragsbedingungen -> Versicherungsrisiko [label=regeln]
+	Vertragsbedingungen -> Vertrag [label=regeln]
+	Vertragsbedingungen -> Vertragsstrafe [label=regeln]
+	Vertragsbedingungen -> "Vertragsverhältnisse" [label=regeln]
+	Vertragsbedingungen -> Vertragspartei [label=schliesstMitEin]
+	Vertragsbeendigung -> Pauschalpreisvertrag [label=betrifft]
+	Vertragsbeendigung -> Vertragspartei [label=betrifft]
+	Vertragsbeendigung -> Rechtsfolge [label="führtZu"]
+	Vertragsbeendigung -> Schadensersatz [label="führtZu"]
+	Vertragsbeendigung -> "Vergütung" [label="führtZu"]
+	Vertragsbeendigung -> Vertragsstrafe [label="führtZu"]
+	Vertragsbeendigung -> Abrechnung [label=istRechtsgrundlage]
+	Vertragsbeziehung -> Verpflichtung [label=beeinflusst]
+	Vertragsbeziehung -> Pflicht [label=beinhaltet]
+	Vertragsbeziehung -> Recht [label=beinhaltet]
+	Vertragsdauer -> "Geschäftsführervertrag" [label=praktiziert]
+	"Vertragserfüllung" -> Vertragsbeendigung [label="führtZu"]
+	"Vertragserklärung" -> Widerrufsrecht [label=hatBedeutung]
+	"Vertragshändler" -> "gegenüberHersteller" [label=hatPflicht]
+	"Vertragshändler" -> "gegenüberKunde" [label=hatPflicht]
+	"Vertragshändler" -> imRahmenVonVertrag [label="kannTätigWerden"]
+	"Vertragshändler" -> Vertrag [label=unterliegt]
+	"Vertragshändlervertrag" -> Vertragsinhalt [label=beinhaltet]
+	Vertragsinhalt -> Vertragsauslegung [label=kannGegenstandVon]
+	Vertragsinhalt -> Vertragsbedingungen [label=legtFest]
+	Vertragsklausel -> Vertrag [label=entspricht]
+	Vertragsklausel -> Kaution [label=istUnwirksam]
+	Vertragsklausel -> "Rückgabe von Leasingobjekt" [label=istUnwirksam]
+	Vertragspartei -> Person [label=betrifftPerson]
+	Vertragspartei -> Kommunikation [label=bezieht]
+	Vertragspartei -> Praxis [label=bezieht]
+	Vertragspartei -> Zusammenarbeit [label=bezieht]
+	Vertragspartei -> Pflicht [label=hatRechteUndPflichten]
+	Vertragspartei -> Recht [label=hatRechteUndPflichten]
+	Vertragspartei -> Vertrag [label=hatVerpflichtung]
+	Vertragspartei -> Abrechnung [label=istVerpflichtet]
+	Vertragspartei -> Vertragsstrafe [label=istVerpflichtet]
+	Vertragspartei -> Zahlung [label=istVerpflichtet]
+	Vertragspartei -> Ordnungsmittel [label=kannGeltendGemachtWerden]
+	Vertragspartei -> Schadensersatz [label=kannGeltendGemachtWerden]
+	Vertragspartei -> "Kündigung" [label=kannVerlangtWerden]
+	Vertragspartei -> Zahlung [label=leistet]
+	Vertragspartei -> "Zahlungsmodalität" [label=regelt]
+	Vertragspartei -> "Vertragsübernahme" [label="übernimmt"]
+	Vertragspartner -> "Geschäftsführervertrag" [label=betrifft]
+	Vertragspartner -> "Vertragserfüllung" [label="erfüllt"]
+	Vertragspartner -> "Vertragshändler" [label="hatGeschäfteMit"]
+	Vertragspartner -> "GesetzlicheRepräsentanz" [label="hatGesetzlicheRepräsentanz"]
+	Vertragspartner -> Haftung [label=hatHaftung]
+	Vertragspartner -> Ausgleichsanspruch [label=hatRechte]
+	Vertragspartner -> "Rechtsfähigkeit" [label="hatRechtsfähigkeit"]
+	Vertragspartner -> "Rechtsgeschäftsfähigkeit" [label="hatRechtsgeschäftsfähigkeit"]
+	Vertragspartner -> Vertrag [label=hatRechtspflicht]
+	Vertragspartner -> "Schutzbedürftigkeit" [label="istSchutzbedürftig"]
+	Vertragspartner -> Verantwortlichkeit [label=istVerantwortlich]
+	Vertragspartner -> Schadensersatzpflicht [label=istVerpflichtet]
+	Vertragspartner -> Vertrag [label=istVertragspartnerIn]
+	Vertragspartner -> Ausgleichsanspruch [label=kannGeltendMachen]
+	Vertragspflicht -> Beschaffenheit [label=betrifftBeschaffenheit]
+	Vertragspflicht -> Wirksamkeitsvoraussetzung [label="gründetAuf"]
+	Vertragspflicht -> Vertragsstrafe [label=hatVertragsstrafe]
+	Vertragspflicht -> Anfechtung [label=kannAngefochtenWerden]
+	Vertragspflicht -> Aufrechnung [label=kannAufgerechnetWerden]
+	Vertragspflicht -> Rechtsfolge [label="kannFührenZu"]
+	Vertragspflicht -> Hinterlegung [label=kannHinterlegtWerden]
+	Vertragspflicht -> Vorschrift [label=regelt]
+	Vertragsrecht -> "Geschäftsführervertrag" [label=regelt]
+	Vertragsrecht -> Vertrag [label=regelt]
+	Vertragsstrafe -> Vertrag [label="istFällig"]
+	Vertragsstrafe -> Vertragspartei [label="istGeschädigter"]
+	Vertragsstrafe -> Vertragspartei [label=istSchuldner]
+	Vertragsstrafpflicht -> Vertragspartei [label=betrifft]
+	Vertragsstrafpflicht -> Vertragsstrafe [label="beträgt"]
+	Vertragsverletzung -> Rechtsverletzung [label=bezeichnetAls]
+	Vertragsverletzung -> Vertragsstrafe [label=verursacht]
+	"Vertragsänderung" -> Vertragspartei [label=betrifft]
+	Vertreter -> "GesellschaftBürgerlichenRechts" [label=kannEntscheiden]
+	Vertretung -> Rechtsfolge [label=hatRechtsfolge]
+	Vertretung -> "istOrdnungsgemäß" [label="istOrdnungsgemäß"]
+	Verursacher -> Schaden [label=verursacht]
+	Verursachung -> Schaden [label="führtZu"]
+	Verwaltung -> "Wohnungseigentümer" [label=betrifft]
+	Verwaltung -> Verwalter [label="durchzuführen"]
+	Verwaltungsrat -> Entscheidungsgremium [label="istParitärischBesetzt"]
+	Verwender -> "zweckentsprechende Verwendung" [label="überwachen"]
+	Verwendung -> Pflichtverletzung [label=betrifft]
+	Verwendung -> Schadensersatz [label=betrifft]
+	Verwirkung -> UngerechtfertigteBereicherung [label="istGrenzeFür"]
+	Verzug -> "Rückstand" [label=betrifft]
+	Verzug -> Schadensersatz [label="kannFührenZu"]
+	Verzug -> "Kündigung" [label=verhindert]
+	Voraussetzung -> RechtlicheBedeutung [label=beinhaltet]
+	Voraussetzung -> Rechtsberatung [label="erfüllt"]
+	Voraussetzung -> Recht [label=setztVoraus]
+	Voraussetzungen -> "Kündigung" [label=betrifft]
+	Vorsatz -> RechtlicheFolgen [label=betrifft]
+	Vorsatz -> Handlung [label=wirdMit]
+	Vorschrift -> Zeitpunkt [label=bezieht]
+	Vorschrift -> Rechtsfolge [label=hatRechtsfolge]
+	Vorschrift -> Begriff [label=interpretiert]
+	Vorschrift -> Annullierung [label=istAufhebbar]
+	Vorschrift -> Widerruf [label=istAufhebbar]
+	Vorschrift -> Handlung [label=regelt]
+	Vorschrift -> Verpflichteter [label=verpflichtet]
+	Vorschrift -> Gesetz [label=wendetAn]
+	Wahlleistung -> Vertrag [label=istGegenstandDes]
+	Wahlleistungsvereinbarung -> Leistungspflicht [label=wirkt]
+	Wasserversorgungsunternehmen -> Baukostenzuschuss [label=kannVerlangen]
+	Werk -> Mangel [label=hatMangel]
+	Werkleistung -> Mangel [label=hatMangel]
+	Werklohnforderung -> Vertragsbeziehung [label=basiertAuf]
+	Werkvertrag -> Leistung [label=istAnwendbar]
+	Werkvertrag -> "Vergütung" [label=regelt]
+	Widerruf -> Flug [label=betrifft]
+	Widerruf -> "§§ 313, 355 BGB" [label=imZusammenhangMit]
+	Widerrufsbelehrung -> Widerrufsrecht [label=hatBedeutung]
+	Widerrufsfrist -> Widerrufsrecht [label=betrifftInnerhalb]
+	Widerrufsgrund -> Widerrufsrecht [label=betrifftMit]
+	Widerrufsrecht -> Vertrag [label="begründet"]
+	Widerrufsrecht -> Vertragsinhalt [label=beinhaltet]
+	Widerrufsrecht -> Verbraucher [label=betrifft]
+	Widerrufsrecht -> "Geschäft" [label=betrifftAls]
+	Widerrufsrecht -> Rechtsfolge [label="kannAusgeübtWerden"]
+	Widerrufsrecht -> Widerrufsjoker [label="kannFührenZu"]
+	"Widerrufsrechtausübung" -> Widerrufsrecht [label=betrifftAufgrund]
+	Wille -> Vertrag [label=hatBedeutung]
+	Wohnungseigentumsrecht -> "Wohnungseigentümergemeinschaft" [label=regelt]
+	"Wohnungseigentümergemeinschaft" -> "Wohnungseigentümerversammlung" [label=entscheidend]
+	"Wohnungseigentümergemeinschaft" -> Rechtsordnung [label=geregelt]
+	"Wohnungseigentümergemeinschaft" -> Beschlussfassung [label=sicherzustellen]
+	"Wohnungseigentümergemeinschaft" -> Verwaltung [label=sicherzustellen]
+	Zahlungsklage -> Forderung [label=betrifft]
+	Zeitraum -> Sicherheit [label="führtZu"]
+	Zivilrecht -> Schadensersatz [label=betrifft]
+	Zurechnung -> Hilfsperson [label=betrifft]
+	Zustellung -> Hemmnis [label=bewirkt]
+	Zustimmung -> Treuepflicht [label="einhält"]
+	"Zwangsmaßnahme" -> UngerechtfertigteBereicherung [label="führtZu"]
+	"§ 2 HPflG" -> Haftungsvorschrift [label=regelt]
+	"§ 25 Abs. 1 Satz 1 HGB" -> Verbindlichkeit [label=anwendbarAuf]
+	"§104VglO" -> UngerechtfertigteBereicherung [label=regelt]
+	"Äußerung" -> Schutz [label="genießt"]
+	"ÖffentlichBestellterVermessungsingenieur" -> Lageplan [label=erstellt]
+	"ÖffentlichBestellterVermessungsingenieur" -> Aufgabe [label=hatAufgabe]
+	"ÖffentlichBestellterVermessungsingenieur" -> Lageplan [label=verwendet]
+}

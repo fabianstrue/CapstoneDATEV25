@@ -1,0 +1,917 @@
+[
+  {
+    "term_1": "hat_Anspruch_auf",
+    "term_2": "hat_Anpruch_auf",
+    "levenshtein_score": 96.7741935483871
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "hatBedeutung",
+    "levenshtein_score": 96.0
+  },
+  {
+    "term_1": "spieltRolle",
+    "term_2": "spielt Rolle",
+    "levenshtein_score": 95.65217391304348
+  },
+  {
+    "term_1": "hatKenntnis",
+    "term_2": "hat Kenntnis",
+    "levenshtein_score": 95.65217391304348
+  },
+  {
+    "term_1": "ermitteln",
+    "term_2": "vermitteln",
+    "levenshtein_score": 94.73684210526316
+  },
+  {
+    "term_1": "vorliegen",
+    "term_2": "vorlegen",
+    "levenshtein_score": 94.11764705882352
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "erlangt",
+    "levenshtein_score": 93.33333333333333
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "führtzu",
+    "levenshtein_score": 93.33333333333333
+  },
+  {
+    "term_1": "hat Rechtsfolgen",
+    "term_2": "hatRechtsfolge",
+    "levenshtein_score": 93.33333333333333
+  },
+  {
+    "term_1": "spielt_Rolle_in",
+    "term_2": "spielt_rolle_in",
+    "levenshtein_score": 93.33333333333333
+  },
+  {
+    "term_1": "sicherstellen",
+    "term_2": "sicherzustellen",
+    "levenshtein_score": 92.85714285714286
+  },
+  {
+    "term_1": "leiten",
+    "term_2": "leisten",
+    "levenshtein_score": 92.3076923076923
+  },
+  {
+    "term_1": "geltend",
+    "term_2": "gelten",
+    "levenshtein_score": 92.3076923076923
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "unwirksam sein",
+    "levenshtein_score": 92.3076923076923
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "verpflichten",
+    "levenshtein_score": 91.66666666666666
+  },
+  {
+    "term_1": "kann geltend gemacht werden",
+    "term_2": "kann geltend gemacht werden wenn",
+    "levenshtein_score": 91.52542372881356
+  },
+  {
+    "term_1": "entscheiden",
+    "term_2": "entscheidet",
+    "levenshtein_score": 90.9090909090909
+  },
+  {
+    "term_1": "anschließen",
+    "term_2": "abschließen",
+    "levenshtein_score": 90.9090909090909
+  },
+  {
+    "term_1": "abschließen",
+    "term_2": "beschließen",
+    "levenshtein_score": 90.9090909090909
+  },
+  {
+    "term_1": "spielt_Rolle_in",
+    "term_2": "spielt_Rolle_bei",
+    "levenshtein_score": 90.32258064516128
+  },
+  {
+    "term_1": "istVerpflichtet",
+    "term_2": "ist verpflichtet",
+    "levenshtein_score": 90.32258064516128
+  },
+  {
+    "term_1": "verhindern",
+    "term_2": "verhindert",
+    "levenshtein_score": 90.0
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "betrachten",
+    "levenshtein_score": 90.0
+  },
+  {
+    "term_1": "einhalten",
+    "term_2": "einbehalten",
+    "levenshtein_score": 90.0
+  },
+  {
+    "term_1": "hat eine Bedeutung",
+    "term_2": "hat eine Bedeutung für",
+    "levenshtein_score": 90.0
+  },
+  {
+    "term_1": "verweigern",
+    "term_2": "verweigert",
+    "levenshtein_score": 90.0
+  },
+  {
+    "term_1": "beeinträchtigt",
+    "term_2": "beeinträchtigen",
+    "levenshtein_score": 89.65517241379311
+  },
+  {
+    "term_1": "berücksichtigen",
+    "term_2": "berücksichtigt",
+    "levenshtein_score": 89.65517241379311
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spielt eine Rolle bei",
+    "levenshtein_score": 89.47368421052632
+  },
+  {
+    "term_1": "begrenzen",
+    "term_2": "abgrenzen",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "geltend machen",
+    "term_2": "geltendMachen",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "beanspruchen können",
+    "term_2": "beanspruchen kann",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "interpretieren",
+    "term_2": "interpretiert",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "beachten",
+    "term_2": "betrachten",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "begründen",
+    "term_2": "begründet",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "ermitteln",
+    "term_2": "ermittelt",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "eingeräumt",
+    "term_2": "einräumt",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "auszulegen",
+    "term_2": "auslegen",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "beurteilen",
+    "term_2": "erteilen",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "erforderlich für",
+    "term_2": "ist erforderlich für",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "hat Auswirkungen auf",
+    "term_2": "hat Auswirkungen",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "muss erfüllt sein",
+    "term_2": "müssen erfüllt sein",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "istUnzulässig",
+    "term_2": "ist unzulässig",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "verstößtGegen",
+    "term_2": "verstößt gegen",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "behandeln",
+    "term_2": "behandelt",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "ist erforderlich",
+    "term_2": "ist erforderlich für",
+    "levenshtein_score": 88.88888888888889
+  },
+  {
+    "term_1": "kannAußergerichtlichVertretenSein",
+    "term_2": "kannGerichtlichVertretenSein",
+    "levenshtein_score": 88.52459016393442
+  },
+  {
+    "term_1": "rechtfertigt",
+    "term_2": "rechtfertigen",
+    "levenshtein_score": 88.0
+  },
+  {
+    "term_1": "gilt für",
+    "term_2": "gilt_für",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spieltEineRolle",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "wirksam",
+    "term_2": "unwirksam",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "bedeuten",
+    "term_2": "bedeutet",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "berechnen",
+    "term_2": "rechnen",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "mussErfülltSein",
+    "term_2": "müssenErfülltSein",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "verantwortlich für",
+    "term_2": "verantwortlich",
+    "levenshtein_score": 87.5
+  },
+  {
+    "term_1": "hat eine Bedeutung für",
+    "term_2": "hat Bedeutung für",
+    "levenshtein_score": 87.17948717948718
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "anschließen",
+    "levenshtein_score": 86.95652173913044
+  },
+  {
+    "term_1": "ausschließen",
+    "term_2": "abschließen",
+    "levenshtein_score": 86.95652173913044
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "beeinflusst",
+    "levenshtein_score": 86.95652173913044
+  },
+  {
+    "term_1": "herbeiführen",
+    "term_2": "herbeiführt",
+    "levenshtein_score": 86.95652173913044
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "hat Bedeutung für",
+    "levenshtein_score": 86.66666666666667
+  },
+  {
+    "term_1": "ist einzuschätzen",
+    "term_2": "einzuschätzen",
+    "levenshtein_score": 86.66666666666667
+  },
+  {
+    "term_1": "kannErstelltWerden",
+    "term_2": "kannErmitteltWerden",
+    "levenshtein_score": 86.48648648648648
+  },
+  {
+    "term_1": "erheben",
+    "term_2": "beheben",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "ist verpflichtet",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "haben Bedeutung",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "verursacht",
+    "term_2": "verursachen",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "pflichten",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "vereinbart",
+    "term_2": "vereinbaren",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "versteigern",
+    "term_2": "verweigern",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "unterliegt",
+    "term_2": "unterliegen",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "klären",
+    "term_2": "erklären",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "entschädigen",
+    "term_2": "schädigen",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "ist relevant für",
+    "term_2": "ist relevant",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "bewirken",
+    "term_2": "wirken",
+    "levenshtein_score": 85.71428571428572
+  },
+  {
+    "term_1": "hat_auswirkungen_auf",
+    "term_2": "hat Auswirkungen auf",
+    "levenshtein_score": 85.0
+  },
+  {
+    "term_1": "ist_verantwortlich_für",
+    "term_2": "verantwortlich für",
+    "levenshtein_score": 85.0
+  },
+  {
+    "term_1": "ist zu verstehen als",
+    "term_2": "ist zu berechnen als",
+    "levenshtein_score": 85.0
+  },
+  {
+    "term_1": "ist zu berechnen als",
+    "term_2": "ist zu berechnen bei",
+    "levenshtein_score": 85.0
+  },
+  {
+    "term_1": "hat eine Bedeutung",
+    "term_2": "haben Bedeutung",
+    "levenshtein_score": 84.84848484848484
+  },
+  {
+    "term_1": "berechnet werden",
+    "term_2": "betrachtet werden",
+    "levenshtein_score": 84.84848484848484
+  },
+  {
+    "term_1": "verantwortlich sein",
+    "term_2": "verantwortlich",
+    "levenshtein_score": 84.84848484848484
+  },
+  {
+    "term_1": "spielt_Rolle_in",
+    "term_2": "spieltRolle",
+    "levenshtein_score": 84.61538461538461
+  },
+  {
+    "term_1": "spieltRolle",
+    "term_2": "spieltEineRolle",
+    "levenshtein_score": 84.61538461538461
+  },
+  {
+    "term_1": "verlängern",
+    "term_2": "verlangen",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "beinhaltet",
+    "term_2": "einhalten",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "bezeichnen",
+    "term_2": "berechnen",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "festsetzt",
+    "term_2": "festsetzen",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "ermittelt",
+    "term_2": "vermitteln",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "einzuordnen",
+    "term_2": "zuordnen",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "nachweist",
+    "term_2": "nachweisen",
+    "levenshtein_score": 84.21052631578947
+  },
+  {
+    "term_1": "hat Bedeutung",
+    "term_2": "hat eine Bedeutung",
+    "levenshtein_score": 83.87096774193549
+  },
+  {
+    "term_1": "spielt_Rolle_bei",
+    "term_2": "spielt_rolle_in",
+    "levenshtein_score": 83.87096774193549
+  },
+  {
+    "term_1": "regeln",
+    "term_2": "regelt",
+    "levenshtein_score": 83.33333333333334
+  },
+  {
+    "term_1": "duldet",
+    "term_2": "dulden",
+    "levenshtein_score": 83.33333333333334
+  },
+  {
+    "term_1": "entscheiden",
+    "term_2": "unterscheiden",
+    "levenshtein_score": 83.33333333333334
+  },
+  {
+    "term_1": "ist_wirksam",
+    "term_2": "ist unwirksam",
+    "levenshtein_score": 83.33333333333334
+  },
+  {
+    "term_1": "müssen erfüllt sein",
+    "term_2": "müssenErfülltSein",
+    "levenshtein_score": 83.33333333333334
+  },
+  {
+    "term_1": "berechtigt",
+    "term_2": "ist berechtigt",
+    "levenshtein_score": 83.33333333333334
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spielt Rolle",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "beanspruchen kann",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "beanspruchen",
+    "term_2": "kann beanspruchen",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "kann_verpflichten",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "beeinflussen",
+    "term_2": "kann beeinflussen",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "erfüllt sein",
+    "term_2": "muss erfüllt sein",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "hatBedeutung",
+    "term_2": "hat Bedeutung für",
+    "levenshtein_score": 82.75862068965517
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "verletzt",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "verletzen",
+    "term_2": "ersetzen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "vereisen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "tritt ein",
+    "term_2": "trittEin",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "verlangt",
+    "term_2": "verlangen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "führt zu",
+    "term_2": "führen zu",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "gilt_fuer",
+    "term_2": "gilt_für",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "vorhalten",
+    "term_2": "erhalten",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "verstehen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "entstehen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "bestimmen",
+    "term_2": "bestimmt",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "erhalten",
+    "term_2": "einhalten",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "hat_bedeutung_für",
+    "term_2": "hat Bedeutung für",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "verstehen",
+    "term_2": "vorsehen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "kannGeltendGemachtWerden",
+    "term_2": "kann geltend gemacht werden",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "betreffen",
+    "term_2": "betreuen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "vorliegt",
+    "term_2": "vorliegen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "vereisen",
+    "term_2": "vermeiden",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "vorsehen",
+    "term_2": "vornehmen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "vermeiden",
+    "term_2": "erleiden",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "einräumen",
+    "term_2": "einräumt",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "betreiben",
+    "term_2": "betreuen",
+    "levenshtein_score": 82.35294117647058
+  },
+  {
+    "term_1": "spielt eine Rolle",
+    "term_2": "spielen eine Rolle für",
+    "levenshtein_score": 82.05128205128204
+  },
+  {
+    "term_1": "verpflichten",
+    "term_2": "verzichten",
+    "levenshtein_score": 81.81818181818181
+  },
+  {
+    "term_1": "anschließen",
+    "term_2": "beschließen",
+    "levenshtein_score": 81.81818181818181
+  },
+  {
+    "term_1": "ist unwirksam",
+    "term_2": "unwirksam",
+    "levenshtein_score": 81.81818181818181
+  },
+  {
+    "term_1": "unterliegen",
+    "term_2": "hinterlegen",
+    "levenshtein_score": 81.81818181818181
+  },
+  {
+    "term_1": "verweigern",
+    "term_2": "verschweigen",
+    "levenshtein_score": 81.81818181818181
+  },
+  {
+    "term_1": "erschweren",
+    "term_2": "verschweigen",
+    "levenshtein_score": 81.81818181818181
+  },
+  {
+    "term_1": "verpflichtet",
+    "term_2": "istVerpflichtet",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "spielt_Rolle_in",
+    "term_2": "spielt Rolle",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "wirksam sein",
+    "term_2": "wirksam ausüben",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "spielt_Rolle_bei",
+    "term_2": "spieltRolle",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "haben Bedeutung",
+    "term_2": "hatBedeutung",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "kann verhindern",
+    "term_2": "kann mindern",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "spieltEineRolle",
+    "term_2": "spielt Rolle",
+    "levenshtein_score": 81.4814814814815
+  },
+  {
+    "term_1": "muss erfüllt sein",
+    "term_2": "mussErfülltSein",
+    "levenshtein_score": 81.25
+  },
+  {
+    "term_1": "kannBeurteiltWerden",
+    "term_2": "kannErstelltWerden",
+    "levenshtein_score": 81.08108108108108
+  },
+  {
+    "term_1": "verantwortlich sein",
+    "term_2": "verantwortlich für",
+    "levenshtein_score": 81.08108108108108
+  },
+  {
+    "term_1": "erfüllt Verpflichtungen",
+    "term_2": "hat Verpflichtungen",
+    "levenshtein_score": 80.95238095238095
+  },
+  {
+    "term_1": "verhindern",
+    "term_2": "kann verhindern",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "auftreten",
+    "term_2": "treten",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "betrachtet",
+    "term_2": "wird betrachtet",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "verneinen",
+    "term_2": "vereinbaren",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "erfüllt",
+    "term_2": "erfüllen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "gilt für",
+    "term_2": "giltFür",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "verletzt",
+    "term_2": "ersetzt",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "enthält",
+    "term_2": "entfällt",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "schützt",
+    "term_2": "schützen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "erfüllen",
+    "term_2": "erfüllt sein",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "gelten",
+    "term_2": "gestalten",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "erfolgt",
+    "term_2": "erfolgen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "führen zu",
+    "term_2": "führen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "giltAls",
+    "term_2": "gilt als",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "bestehen",
+    "term_2": "begehen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "fortsetzen",
+    "term_2": "festsetzen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "beurteilen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "benachteiligend",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "beteiligen",
+    "term_2": "beseitigen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "tragen",
+    "term_2": "tragenFür",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "versteigern",
+    "term_2": "verstehen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "stützen",
+    "term_2": "schützen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "gilt_für",
+    "term_2": "giltFür",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "ersetzt",
+    "term_2": "ersetzen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "hat eine Bedeutung",
+    "term_2": "hatBedeutung",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "kannGeltendMachen",
+    "term_2": "geltendMachen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "beruhen",
+    "term_2": "betreuen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "gestellt werden",
+    "term_2": "geregelt werden",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "ist zu verstehen als",
+    "term_2": "ist zu gestalten als",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "beginnen",
+    "term_2": "beginnt",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "begehen",
+    "term_2": "belehren",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "einrichten",
+    "term_2": "verzichten",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "istGeregelt",
+    "term_2": "istRegelt",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "entsprechen",
+    "term_2": "entstehen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "beseitigen",
+    "term_2": "bestätigen",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "mitwirken",
+    "term_2": "wirken",
+    "levenshtein_score": 80.0
+  },
+  {
+    "term_1": "eintreten",
+    "term_2": "treten",
+    "levenshtein_score": 80.0
+  }
+]
