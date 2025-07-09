@@ -105,10 +105,10 @@ def load_model():
 
 @st.cache_data(show_spinner=False)
 def load_data():
-    with open("ontology_output/gcq_ontology_topdown_refined_with_keywords.json", encoding="utf-8") as f:
+    with open("ontology_output/gcq_ontology_topdown_refined_source.json", encoding="utf-8") as f:
         ontology_data = json.load(f)
 
-    with open("clustered_questions_only_new.json", encoding="utf-8") as f:
+    with open("clustered_questions/clustered_questions_only_new.json", encoding="utf-8") as f:
         clustered = json.load(f)
 
     allowed = {

@@ -5,7 +5,7 @@ import matplotlib.patches as patches
 import numpy as np
 
 # Load JSON
-with open("ontology_output/gcq_ontology_topdown_refined_with_keywords.json", encoding="utf-8") as f:
+with open("ontology_output/gcq_ontology_topdown_refined.json", encoding="utf-8") as f:
     ontology_data = json.load(f)
 cluster_id = "Cluster 8"
 cluster_ontology = ontology_data.get(cluster_id, {}).get("refined_ontology", {})
