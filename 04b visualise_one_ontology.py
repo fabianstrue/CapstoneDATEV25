@@ -8,7 +8,8 @@ import numpy as np
 with open("ontology_output/gcq_ontology_topdown_refined.json", encoding="utf-8") as f:
     ontology_data = json.load(f)
 cluster_id = "Cluster 8"
-cluster_ontology = ontology_data.get(cluster_id, {}).get("refined_ontology", {})
+cluster_data =ontology_data.get(cluster_id, {})
+cluster_ontology = cluster_data.get("refined_ontology") or cluster_data.get("ontology", {})
 
 
 def draw_arrows_with_node_border(ax, G, pos, node_radius=0.045, edge_color="lightgreen", arrowsize=20):
@@ -55,7 +56,7 @@ for subj, pred, obj in cluster_ontology.get("relationships", []):
     G.add_edge(subj, obj)
     edge_labels[(subj, obj)] = pred
 
-pos = nx.spring_layout(G, seed=42, k=3, iterations=100)
+pos = nx.spring_layout(G, seed=42, k=4, iterations=100)
 
 # Plotting
 plt.figure(figsize=(15, 10))
