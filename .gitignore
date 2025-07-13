@@ -178,7 +178,4 @@ Data/raw/preprocessed_capstone2025.csv
 misc.xml
 .idea/
 filtered_output.json
-#clustered_CQs_with_embeddings_new.json 
-clustered_CQs_with_promoted_and_reviewed_noise_new.json 
-noise_triage_new.json 
 
