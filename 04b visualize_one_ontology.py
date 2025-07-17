@@ -12,7 +12,7 @@ cluster_data =ontology_data.get(cluster_id, {})
 cluster_ontology = cluster_data.get("refined_ontology") or cluster_data.get("ontology", {})
 
 
-def draw_arrows_with_node_border(ax, G, pos, node_radius=0.045, edge_color="lightgreen", arrowsize=20):
+def draw_arrows_with_node_border(ax, G, pos, node_radius=0.045, edge_color="Black", arrowsize=20):
 
     for u, v in G.edges():
         x1, y1 = pos[u]
@@ -56,13 +56,14 @@ for subj, pred, obj in cluster_ontology.get("relationships", []):
     G.add_edge(subj, obj)
     edge_labels[(subj, obj)] = pred
 
-pos = nx.spring_layout(G, seed=42, k=4, iterations=100)
+pos = nx.spring_layout(G, seed=42, k=4, iterations=270)
 
 # Plotting
 plt.figure(figsize=(15, 10))
 ax = plt.gca()
 
-nx.draw_networkx_nodes(G, pos, node_color="#e754b1", node_size=1500, edgecolors='black')
+#nx.draw_networkx_nodes(G, pos, node_color="#e754b1", node_size=1500, edgecolors='black')
+nx.draw_networkx_nodes(G, pos, node_color="#FFFFFFFF", node_size=1500, edgecolors='gray')
 nx.draw_networkx_labels(G, pos, font_size=12, font_color="Black")
 #nx.draw_networkx_edges(G, pos, edge_color="lightgreen", arrows=True, arrowsize=30)
 draw_arrows_with_node_border(ax, G, pos, arrowsize=20)
@@ -72,10 +73,8 @@ x_values, y_values = zip(*pos.values())
 
 # Compute limits with padding
 x_margin = (max(x_values) - min(x_values)) * 0.1  # 10% margin
-y_margin = (max(y_values) - min(y_values)) * 0.1
 
 plt.xlim(min(x_values) - x_margin, max(x_values) + x_margin)
-plt.ylim(min(y_values) - y_margin, max(y_values) + y_margin)
 
 # Remove axis
 plt.axis("off")
